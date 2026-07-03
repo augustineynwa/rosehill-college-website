@@ -1,0 +1,80 @@
+{
+  "layout": "page",
+  "path": "curriculum/education-outside-the-classroom.html",
+  "slug": "education-outside-the-classroom",
+  "title": "Education Outside The Classroom",
+  "metaDescription": "Education Outside the Classroom (EOTC) at Rosehill College — outdoor education at the Waharau Outdoor Education Centre, plus Year 10 Camp dates, forms and payment details.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "EOTC",
+      "heading": "Education outside the classroom",
+      "lede": "New Zealand's stunning landscapes offer endless opportunities for personal growth, connection with others, and self-discovery. At Rosehill College, we embrace the transformative power of nature through our comprehensive Education Outside the Classroom (EOTC) programme.",
+      "image": {
+        "src": "assets/img/Curriculum---EOTC_1.avif",
+        "srcset": "",
+        "alt": "Students and staff gathered together among the trees on an EOTC trip"
+      }
+    },
+    {
+      "type": "prose",
+      "heading": "A proud tradition of outdoor education",
+      "html": "<p>With a proud tradition of outdoor education, we are fortunate to have ongoing access to the Waharau Outdoor Education Centre, nestled in the breathtaking Hunua Ranges. This exceptional facility serves as a base for various outdoor experiences that enrich our students' lives.</p><p>But the adventure does not stop there! We offer a wide range of EOTC experiences tailored to accommodate students of all skill levels and confidence. Whether it is hiking, kayaking, rock climbing, or team-building activities, our programmes are designed to engage, inspire, and empower every student.</p>"
+    },
+    {
+      "type": "media-text",
+      "eyebrow": "Puni tau tekau",
+      "reo": true,
+      "heading": "Year 10 Camp",
+      "portrait": true,
+      "image": {
+        "src": "assets/img/Year-10-Camp_1.avif",
+        "srcset": "",
+        "alt": "Students in helmets watching a rock-climbing ascent on Year 10 Camp"
+      },
+      "html": "<p>Each year, our Year 10 students embark on an unforgettable camp experience, led by our enthusiastic Year 12 leaders. Many students highlight these camps as some of their most cherished memories at Rosehill College, where friendships are forged, challenges are embraced, and lifelong skills are developed.</p>"
+    },
+    {
+      "type": "table",
+      "id": "camp-dates",
+      "heading": "2026 camp dates",
+      "lede": "The Year 10 Camp dates for each House are as follows.",
+      "caption": "Year 10 Camp dates 2026 by House",
+      "columns": ["Houses", "Camp dates"],
+      "rows": [
+        ["Atawhai & Rangatahi", "16 – 18 March"],
+        ["Pounamu & Taikura", "23 – 25 March"],
+        ["Kahurangi & Manutaki", "25 – 27 March"]
+      ]
+    },
+    {
+      "type": "prose",
+      "id": "camp-forms",
+      "heading": "Camp forms",
+      "html": "<p>Below are the Year 10 Camp forms each student will need to have completed:</p><ul><li>(House) Parental Consent</li><li>EOTC Health Profile Form</li></ul><p>For your information there are also the following:</p><ul><li><a href=\"https://drive.google.com/file/d/1ALX7u1qkvB3yLBM-QdATiUOGQQ940ppM/view\" rel=\"external\">Year 10 Camp Letter</a></li><li><a href=\"https://drive.google.com/file/d/1u8LLHG7PWDsX58As0TINGKPD4H35N-Pw/view\" rel=\"external\">Gear List</a></li><li><a href=\"https://drive.google.com/file/d/1VSrRMJRUw66gyDiGWWh3SMNtEzV9yrBd/view\" rel=\"external\">Atawhai Parental Consent</a></li><li><a href=\"https://drive.google.com/file/d/1WojD7zrPqP_DOr-HsUo3iosIZBRqXSLB/view\" rel=\"external\">Kahurangi Parental Consent</a></li><li><a href=\"https://drive.google.com/file/d/1x_TVQaUkRQPps4vj9phymF_QH1lrGZyM/view\" rel=\"external\">Manutaki Parental Consent</a></li><li><a href=\"https://drive.google.com/file/d/1iYNjCvDrY3HqwbVSRhMxNLWjFLbeL_b-/view\" rel=\"external\">Pounamu Parental Consent</a></li><li><a href=\"https://drive.google.com/file/d/1z7KYGmN0sdwSmyfnlEcKlVOyR8RG6zhf/view\" rel=\"external\">Rangatahi Parental Consent</a></li><li><a href=\"https://drive.google.com/file/d/1m9pV0faFgeMqppTM2sqq1ZLB2ZFSt798/view\" rel=\"external\">Taikura Parental Consent</a></li><li><a href=\"https://drive.google.com/file/d/1xm233CfthHYtV_dtMqpso6qlxTQb_DMN/view\" rel=\"external\">EOTC Health Profile</a></li></ul>"
+    },
+    {
+      "type": "list",
+      "id": "camp-payments",
+      "heading": "Camp payments",
+      "lede": "Camp payments can be made via bank transfer using the details below. Please ensure all payment details are entered correctly so that the payment can be allocated to the correct student.",
+      "items": [
+        { "term": "Bank", "text": "ASB Bank" },
+        { "term": "Account name", "text": "Rosehill College Board" },
+        { "term": "Account number", "text": "12-3031-0837472-00" },
+        { "term": "Particulars", "text": "Student ID number" },
+        { "term": "Code", "text": "Student's surname" },
+        { "term": "Reference", "text": "Y10 Camp" }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "Questions about Year 10 Camp?",
+      "text": "Get in touch and we can help with forms, gear lists and payment details.",
+      "actions": [
+        { "href": "/contact-us.html", "label": "Contact us", "primary": true },
+        { "href": "/our-school/life-at-rosehill-college.html", "label": "Life at Rosehill College" }
+      ]
+    }
+  ]
+}

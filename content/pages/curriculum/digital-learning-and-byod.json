@@ -1,0 +1,89 @@
+{
+  "layout": "page",
+  "path": "curriculum/digital-learning-and-byod.html",
+  "slug": "digital-learning-and-byod",
+  "title": "Digital Learning and BYOD",
+  "metaDescription": "Digital learning at Rosehill College — BYOD guidance, recommended Chromebook specifications, our Cybersecurity and BYOD Agreement, and cyber safety resources for whānau.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Digital learning",
+      "heading": "Digital learning and BYOD",
+      "lede": "At Rosehill College, we are committed to leveraging digital technologies to enhance our students' learning experiences. As part of this commitment, all students are recommended to have a personal digital device, which they will use to access educational resources, collaborate with peers, and engage in interactive learning activities.",
+      "image": {
+        "src": "assets/img/Curriculum---Digital-Learning---E-Learning_1.avif",
+        "srcset": "",
+        "alt": "Rosehill College students learning with digital devices"
+      }
+    },
+    {
+      "type": "prose",
+      "heading": "Cybersecurity and BYOD Agreement",
+      "html": "<p>To ensure a safe and effective digital learning environment, we require all parents and caregivers to review and agree to our Cybersecurity and BYOD Agreement before their child is enrolled at Rosehill College. This agreement outlines the responsibilities and expectations for both students and parents regarding the use of digital devices and online behaviour.</p><p>By adhering to these guidelines, we aim to provide a secure and productive digital learning environment that supports our students' educational growth and prepares them for the future. Please take the time to read through the Cybersecurity and BYOD Agreement to understand the policies and procedures in place to protect and enhance your child's digital learning experience at Rosehill College.</p>"
+    },
+    {
+      "type": "docs",
+      "heading": "Rosehill College digital usage guidelines",
+      "docs": [
+        { "href": "https://drive.google.com/file/d/1yenNlrnhQalhgS6fZQYqIqe-GaKAdoz8/view", "label": "Cybersecurity and BYOD Agreement", "meta": "Google Drive" },
+        { "href": "https://web-assets.education.govt.nz/s3fs-public/2024-08/TPA_CellphonePolicy_Whanau_FAQs_FINAL.pdf?VersionId=zErBiZlv82qK7x.mNlqpdKMpVpHuUbiW", "label": "Phones away for the day", "meta": "Ministry of Education PDF" }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "E-learning and choosing a device",
+      "html": "<p>At Rosehill College, all students benefit from the additional learning opportunities that a digital device provides, making it a necessary learning tool. Each student's device will need to connect to the Rosehill College wireless network, and some devices will be better suited to this task than others. Rosehill College recommends a Chromebook as a functional and affordable tool that gives students access to Google applications, which teachers use to manage resources, lessons, and assessments. Other devices, such as laptops and tablets, will also work within our IT infrastructure.</p>"
+    },
+    {
+      "type": "table",
+      "heading": "Recommended Chromebook specifications",
+      "lede": "The following minimum specifications for a Chromebook are recommended.",
+      "caption": "Recommended minimum Chromebook specifications",
+      "columns": ["Specification", "Recommended minimum"],
+      "rows": [
+        ["Memory size", "2GB"],
+        ["Screen size", "11.6 inches"],
+        ["Screen resolution", "1366×768"],
+        ["SSD or HDD capacity", "16GB"],
+        ["Operating system", "Chrome OS"]
+      ]
+    },
+    {
+      "type": "list",
+      "heading": "The Google tools students use",
+      "items": [
+        { "term": "Gmail", "text": "Email service" },
+        { "term": "Classroom", "text": "Software for receiving and submitting classwork" },
+        { "term": "Drive", "text": "Cloud-based office productivity software (documents, spreadsheets, calendar, forms)" },
+        { "term": "Meet", "text": "Online video conferences" },
+        { "term": "Sites", "text": "Website creation software" },
+        { "term": "YouTube", "text": "Video service" }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "eLearning at Rosehill College",
+      "html": "<p>Chromebooks are browser-based devices that provide users with access to the web through the Google Chrome browser, allowing all teachers and students to access the suite of Google tools.</p><p>The New Zealand Curriculum explicitly states that our vision is to foster young people who will be \"confident, connected, actively involved and lifelong learners\" (NZC, 2007). The Technology learning area within the New Zealand Curriculum strengthens the positioning of digital technologies to ensure that all learners have the opportunity to become digitally capable individuals. This provides a greater focus on students building their skills so they can be innovative creators of digital solutions, moving beyond solely being users and consumers of digital technologies.</p>"
+    },
+    {
+      "type": "media-text",
+      "heading": "Cyber security",
+      "flip": true,
+      "image": {
+        "src": "assets/img/Curriculum---Digital-Learning---Cyber-Security.avif",
+        "srcset": "/assets/img/Curriculum---Digital-Learning---Cyber-Security-p-500.avif 500w",
+        "alt": "Rosehill College students working safely online"
+      },
+      "html": "<p>At Rosehill College, we understand the importance of providing a safe and secure digital environment for our students while also harnessing the vast educational resources available online.</p><p>As parents, we encourage you to actively engage in promoting cyber safety awareness. To assist you in this endeavour, we have compiled a comprehensive list of tools and tips to protect your children online. <a href=\"http://backgroundchecks.org/the-concerned-parents-toolbox-120-tools-and-tricks-to-protect-your-kids.html\" rel=\"external\">Here is the link</a>.</p><p>Furthermore, we strongly recommend familiarising yourselves with cyber safety issues through resources such as <a href=\"https://netsafe.org.nz/\" rel=\"external\">Netsafe</a>, a New Zealand organisation dedicated to educating and safeguarding against online threats. Visiting their website is highly recommended.</p><p>Your partnership in promoting cyber safety is invaluable. Together, we can ensure a secure and enriching digital learning environment for all our students.</p>"
+    },
+    {
+      "type": "cta",
+      "heading": "More on devices at school",
+      "text": "Read our mobile phone policy, or find out how to get support with learning at Rosehill College.",
+      "actions": [
+        { "href": "/curriculum/mobile-phone-policy.html", "label": "Mobile phone policy", "primary": true },
+        { "href": "/curriculum/student-support.html", "label": "Student support" }
+      ]
+    }
+  ]
+}

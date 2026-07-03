@@ -1,0 +1,76 @@
+{
+  "layout": "page",
+  "path": "curriculum/mobile-phone-policy.html",
+  "slug": "mobile-phone-policy",
+  "title": "Mobile Phone Policy",
+  "metaDescription": "Rosehill College's mobile phone policy — phones away for the day, guidelines for students, consequences for misuse, and advice for parents and caregivers.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Phones away for the day",
+      "heading": "Mobile phone policy",
+      "lede": "At Rosehill College, we believe mobile phones are not necessary during the school day. However, we understand that some parents and caregivers want their children to have a phone for after-school communication.",
+      "image": {
+        "src": "assets/img/Mobile-Phone-Policy.avif",
+        "srcset": "/assets/img/c98d00b9f557a4580700732d338d1f36_Mobile-Phone-Policy-p-500.avif 500w, /assets/img/c98d00b9f557a4580700732d338d1f36_Mobile-Phone-Policy-p-800.avif 800w",
+        "alt": "A mobile phone put away in a school bag during the Rosehill College school day"
+      }
+    },
+    {
+      "type": "prose",
+      "heading": "Why we have this policy",
+      "html": "<p><strong>Under the New Zealand Legislation of Education (School Boards) Regulation 2020, the Rosehill College Board has the duty to prohibit the use or access of mobile phones at school.</strong></p><p>If a student brings a phone to school, the following guidelines apply. This policy helps keep our school a safe, respectful, and focused learning environment.</p>",
+      "aside": {
+        "image": {
+          "src": "assets/img/class-room.avif",
+          "srcset": "/assets/img/class-room-p-500.avif 500w, /assets/img/class-room-p-800.avif 800w, /assets/img/class-room-p-1080.avif 1080w, /assets/img/class-room-p-1600.avif 1600w",
+          "alt": "Students focused on their learning in a Rosehill College classroom"
+        },
+        "html": "<p><strong>Rosehill College digital usage guidelines</strong></p><ul><li><a href=\"https://drive.google.com/file/d/1yenNlrnhQalhgS6fZQYqIqe-GaKAdoz8/view\" rel=\"external\">Cybersecurity and BYOD Agreement</a></li><li><a href=\"https://web-assets.education.govt.nz/s3fs-public/2024-08/TPA_CellphonePolicy_Whanau_FAQs_FINAL.pdf?VersionId=zErBiZlv82qK7x.mNlqpdKMpVpHuUbiW\" rel=\"external\">Phones away for the day — whānau FAQs (Ministry of Education)</a></li></ul>"
+      }
+    },
+    {
+      "type": "accordion",
+      "heading": "The policy in detail",
+      "items": [
+        {
+          "title": "General guidelines",
+          "open": true,
+          "html": "<ul><li>The school is not responsible for lost, damaged, or stolen phones.</li><li>Phones must be on silent and kept in school bags between 8.45am and 3.10pm.</li><li>Teachers may allow supervised use of phones for learning activities.</li><li>Phones may be brought on EOTC activities, at the discretion of staff and in line with school policies.</li><li>In an emergency, parents should contact the school office, and we will pass the message on to students.</li><li>Parents/caregivers can call or email the Student Office if they need to contact their child during the day.</li></ul>"
+        },
+        {
+          "title": "Consequences for misuse",
+          "html": "<p>If a phone is seen during class or break times, it may be confiscated by a Head of House or any SLT member. It will be kept at the Student Office and collected by a parent, caregiver, or student at the end of the school week (Friday).</p><p>Phones may be confiscated if they disrupt learning or break school guidelines. Collection is available Fridays between 3.15–4.15pm from the Student Office.</p><p>Early collection can only be arranged through the Principal by emailing the Principal's Secretary at <a href=\"mailto:pa@rosehillcollege.school.nz\">pa@rosehillcollege.school.nz</a>. Please arrange this in advance.</p><p>Continued violations may result in a parent/student meeting with a Kaitiaki or Deputy Principal and could be treated as persistent defiance.</p>"
+        },
+        {
+          "title": "Inappropriate use during school hours",
+          "html": "<p>Examples of inappropriate mobile phone use include:</p><ul><li>Bullying or disrespectful messages about staff or students</li><li>Taking photos/videos of others without permission</li><li>Sharing inappropriate content</li><li>Disrupting learning in class or for others</li></ul><p>The school will investigate incidents through our discipline procedure. Parents will be informed, and appropriate consequences will be applied depending on the behaviour.</p>"
+        }
+      ]
+    },
+    {
+      "type": "media-text",
+      "heading": "Guidelines for parents — use outside of school",
+      "image": {
+        "src": "assets/img/Guidelines.avif",
+        "srcset": "/assets/img/Guidelines-p-500.avif 500w, /assets/img/Guidelines-p-800.avif 800w, /assets/img/Guidelines-p-1080.avif 1080w",
+        "alt": "A parent and teenager talking together about phone use at home"
+      },
+      "html": "<p>Parents and caregivers are responsible for their children's phone use outside school hours. We encourage families to:</p><ul><li>Set clear rules about phone use at home</li><li>Encourage children to be the same person online and in person</li><li>Monitor passwords, limit Wi-Fi use overnight, and stay engaged with your child's online activity</li></ul>"
+    },
+    {
+      "type": "prose",
+      "heading": "If online incidents occur",
+      "html": "<p>If online incidents occur involving Rosehill College students:</p><ul><li>Reach out to the other student's parents in a calm way to resolve the matter together</li><li>If behaviour breaches the Harmful Digital Communications Act 2015, please contact Netsafe or the New Zealand Police</li></ul><p>For further support, resources are available from:</p><ul><li>Netsafe — <a href=\"https://www.netsafe.org.nz\" rel=\"external\">www.netsafe.org.nz</a></li><li>The Parenting Place — <a href=\"https://www.parentingplace.nz\" rel=\"external\">www.parentingplace.nz</a></li></ul>"
+    },
+    {
+      "type": "cta",
+      "heading": "Need to reach your child during the day?",
+      "text": "Parents and caregivers can call or email the Student Office, and in an emergency the school office will pass a message on to your child.",
+      "actions": [
+        { "href": "/contact-us.html", "label": "Contact us", "primary": true },
+        { "href": "/curriculum/digital-learning-and-byod.html", "label": "Digital learning and BYOD" }
+      ]
+    }
+  ]
+}

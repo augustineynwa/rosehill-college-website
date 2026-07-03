@@ -1,0 +1,75 @@
+{
+  "layout": "page",
+  "path": "curriculum/junior-diploma.html",
+  "slug": "junior-diploma",
+  "title": "Junior Diploma",
+  "metaDescription": "The Rosehill College Junior Diploma is our in-house qualification for Year 9, 10 and 11 students, recognising participation, effort and achievement across school life.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Years 9–11",
+      "heading": "Junior Diploma",
+      "lede": "At Rosehill College, we are committed to providing a balanced education that fosters both academic excellence and personal growth. As part of this commitment, we have introduced the Rosehill College Junior Diploma for our Year 9, 10, and 11 students.",
+      "image": {
+        "src": "assets/img/Junior-Diploma-3.avif",
+        "srcset": "/assets/img/Junior-Diploma-3-p-500.avif 500w, /assets/img/Junior-Diploma-3-p-800.avif 800w, /assets/img/Junior-Diploma-3-p-1080.avif 1080w, /assets/img/Junior-Diploma-3-p-1600.avif 1600w",
+        "alt": "Rosehill College junior students on campus"
+      }
+    },
+    {
+      "type": "media-text",
+      "heading": "An in-house qualification with clear goals",
+      "image": {
+        "src": "assets/img/Junior-Diploma-1.avif",
+        "srcset": "/assets/img/Junior-Diploma-1-p-500.avif 500w, /assets/img/Junior-Diploma-1-p-800.avif 800w, /assets/img/Junior-Diploma-1-p-1080.avif 1080w",
+        "alt": "Rosehill College junior students at work in class"
+      },
+      "html": "<p>The Junior Diploma serves as an in-house qualification that fills the gap left by the removal of NCEA Level 1, giving students clear goals to strive for in their early high school years. It is designed to encourage students to embrace our school values, build foundational skills in literacy and numeracy, and prepare for the challenges of senior secondary education.</p><p>Through the Junior Diploma, students experience a structured framework that rewards their participation, effort, and achievement across all aspects of school life, laying the groundwork for future success.</p>"
+    },
+    {
+      "type": "prose",
+      "heading": "Structure and criteria",
+      "html": "<p>The Junior Diploma recognises students' achievements across four key areas based on Rosehill College's values:</p><ul><li><strong>Whanaungatanga (Together we are more)</strong> – Encourages school participation through house activities, events, and challenges. Higher engagement leads to higher diploma levels.</li><li><strong>Manaakitanga (We rise by lifting others)</strong> – Promotes respect and cultural involvement. Students participate in haka practice, Manaakitia Mai discussions, and school/community groups.</li><li><strong>Hihiritanga (We are resilient and persevere)</strong> – Focuses on attendance, goal-setting, and academic skills. Students complete our Career Central programme, improve literacy and numeracy, and demonstrate perseverance.</li><li><strong>Rangatiratanga (Excellence in all that we do)</strong> – Recognises academic success. Students accumulate academic points from assessments, with higher diploma levels requiring more points and stronger performance.</li></ul>"
+    },
+    {
+      "type": "list",
+      "heading": "Achievement levels",
+      "items": [
+        { "term": "Achieved", "text": "Meets all base requirements." },
+        { "term": "Merit", "text": "Requires higher participation, attendance, and academic performance." },
+        { "term": "Excellence", "text": "Requires outstanding involvement, leadership, and top academic results." }
+      ]
+    },
+    {
+      "type": "docs",
+      "heading": "Yearly breakdown",
+      "lede": "Each year level has specific expectations within these categories, ensuring students develop skills progressively. The Junior Diploma is a progressive programme across Year 9, Year 10, and Year 11, with each year building on the previous one. While the core values and categories remain consistent, the specific expectations grow as students mature. Below is an overview of what the Junior Diploma entails at each year level.",
+      "docs": [
+        { "href": "assets/docs/Diploma-Year-9-2026.pdf", "label": "Year 9 Junior Diploma", "meta": "PDF" },
+        { "href": "assets/docs/Diploma-Year-10-2026.pdf", "label": "Year 10 Junior Diploma", "meta": "PDF" },
+        { "href": "assets/docs/Diploma-Year-11-2026.pdf", "label": "Year 11 Junior Diploma", "meta": "PDF" }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Future pathways",
+      "html": "<p>The Junior Diploma prepares students for senior NCEA study and career planning, ensuring they develop essential skills for success.</p><ul><li><strong>Strong foundation for NCEA</strong> – Students enter Year 12 with foundational literacy, numeracy, and study habits, making the transition to NCEA Level 2 smoother. The programme includes NCEA Literacy and Numeracy corequisites, reducing future workload.</li><li><strong>Career planning and goal-setting</strong> – Through our Career Central programme, students explore career options, set learning goals, and plan their Year 12 subjects accordingly.</li><li><strong>Leadership and responsibility</strong> – Encourages participation in clubs, sports, and leadership roles, helping students develop teamwork, time management, and initiative — valuable traits for tertiary study and employment.</li><li><strong>Early NCEA credits</strong> – Year 11 students earn Level 2 Unit Standards (11 credits), providing a head start on NCEA Level 2.</li><li><strong>Guidance and support</strong> – Teachers and our career advisor help students refine their study plans, explore scholarships, and prepare for their future education or vocational pathways.</li></ul><p>Ultimately, the Rosehill College Junior Diploma prepares students for life beyond junior high school. It ensures they are academically competent and have the qualifications needed to progress, it instils in them the importance of participation and community, and it sets them on a path of thoughtful career planning.</p><p>By the end of Year 11, our students have not only earned a diploma that recognises their hard work, but they have also developed a sense of direction and self-confidence. They are ready to tackle NCEA Level 2, explore leadership opportunities in the senior school, and work towards their long-term goals. In this way, the Junior Diploma is both a celebration of what our juniors have accomplished and a launchpad for their future successes.</p>",
+      "aside": {
+        "image": {
+          "src": "assets/img/Junior-Diploma-2.avif",
+          "srcset": "/assets/img/Junior-Diploma-2-p-500.avif 500w",
+          "alt": "Rosehill College junior students together at school"
+        }
+      }
+    },
+    {
+      "type": "cta",
+      "heading": "Looking ahead to NCEA",
+      "text": "See how the Junior Diploma leads into senior study — explore our course information or learn about Year 9 SMART assessment.",
+      "actions": [
+        { "href": "/curriculum/course-information.html", "label": "Course information", "primary": true },
+        { "href": "/curriculum/year-9-smart-assessment.html", "label": "Year 9 SMART assessment" }
+      ]
+    }
+  ]
+}

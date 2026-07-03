@@ -1,0 +1,64 @@
+{
+  "layout": "page",
+  "path": "curriculum/course-information.html",
+  "slug": "course-information",
+  "title": "Course Information",
+  "metaDescription": "Explore detailed course information at Rosehill College to find the right path for your educational journey. Learn about our diverse curriculum offerings, subject choices, and course requirements designed to support student interests, strengths, and future goals.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Curriculum",
+      "heading": "Course information",
+      "lede": "At Rosehill College, we believe in providing a balanced education that not only focuses on academic excellence but also fosters personal growth and development. Our courses are structured to challenge students intellectually while supporting their individual learning needs.",
+      "image": {
+        "src": "assets/img/Curriculum---Course-Information.avif",
+        "srcset": "/assets/img/Curriculum---Course-Information-p-500.avif 500w, /assets/img/Curriculum---Course-Information-p-800.avif 800w, /assets/img/Curriculum---Course-Information-p-1080.avif 1080w, /assets/img/Curriculum---Course-Information-p-1600.avif 1600w, /assets/img/Curriculum---Course-Information-p-2000.avif 2000w",
+        "alt": "Rosehill College students at work in class"
+      }
+    },
+    {
+      "type": "prose",
+      "id": "pathways",
+      "heading": "Finding the right pathway",
+      "html": "<p>Here, you will find detailed descriptions of the diverse range of courses we offer, designed to cater to the varied interests and aspirations of our students. Our curriculum is comprehensive and inclusive, ensuring that every student has the opportunity to pursue their passions and achieve their academic goals.</p><ul><li>Do you need assistance in identifying a pathway?</li><li>Are you uncertain about the course requirements for your university or trade?</li><li>Are you feeling overwhelmed by the options available?</li></ul><p>Visit our careers advisor at their office, located in the library. Alternatively, you may email them at <a href=\"mailto:careers@rosehillcollege.school.nz\">careers@rosehillcollege.school.nz</a>.</p>",
+      "aside": {
+        "html": "<p><strong>Careers advisor</strong></p><p>Office in the library<br><a href=\"mailto:careers@rosehillcollege.school.nz\">careers@rosehillcollege.school.nz</a></p>"
+      }
+    },
+    {
+      "type": "prose",
+      "id": "offered-courses",
+      "heading": "Offered courses",
+      "html": "<p>At Rosehill College, we strive to create a dynamic and supportive learning environment where junior students can thrive academically, socially, and personally. We are also committed to providing a rich and diverse educational experience that equips our senior students with the knowledge, skills, and confidence to succeed in their future endeavours. Our experienced and dedicated teachers are committed to guiding students through these formative years, ensuring they are well-prepared for next steps in their academic and professional journeys.</p>"
+    },
+    {
+      "type": "docs",
+      "id": "junior-courses",
+      "heading": "Junior courses (Year 9–11)",
+      "lede": "Our junior curriculum is designed to provide a comprehensive and engaging educational experience for Year 9, Year 10 and Year 11 students. We aim to lay a solid foundation for future academic success and personal growth by offering a wide variety of subjects that cater to diverse interests and abilities.",
+      "docs": [
+        { "href": "assets/docs/Course-Info-Year-9-2026.pdf", "label": "Year 9 courses 2026", "meta": "PDF" },
+        { "href": "assets/docs/Course-Info-Year-10-2026.pdf", "label": "Year 10 courses 2026", "meta": "PDF" },
+        { "href": "assets/docs/Course-Info-Year-11-2026.pdf", "label": "Year 11 courses 2026", "meta": "PDF" }
+      ]
+    },
+    {
+      "type": "docs",
+      "id": "senior-courses",
+      "heading": "Senior courses (Year 12 and 13)",
+      "lede": "Our senior curriculum is designed to provide Year 12 and Year 13 students with specialised and advanced learning opportunities that prepare them for higher education, vocational training, and successful careers. We offer a broad range of subjects, allowing students to tailor their education to their interests and aspirations.",
+      "docs": [
+        { "href": "assets/docs/NCEA-Course-Information-2026.pdf", "label": "Year 12 & 13 NCEA course information 2026", "meta": "PDF" }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "Need help choosing your courses?",
+      "text": "Our careers advisor is based in the library and can help you identify a pathway, check university or trade requirements, and make sense of the options.",
+      "actions": [
+        { "href": "mailto:careers@rosehillcollege.school.nz", "label": "Email the careers advisor", "primary": true },
+        { "href": "/contact-us.html", "label": "Contact the college" }
+      ]
+    }
+  ]
+}

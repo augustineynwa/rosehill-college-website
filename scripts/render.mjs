@@ -30,6 +30,8 @@ Handlebars.registerHelper('raw', (s) => new Handlebars.SafeString(s ?? ''));
 Handlebars.registerHelper('json', (o) => new Handlebars.SafeString(JSON.stringify(o)));
 Handlebars.registerHelper('pad2', (n) => String(n).padStart(2, '0'));
 Handlebars.registerHelper('mod', (a, b) => Number(a) % Number(b));
+// site-relative hrefs get a leading slash; external/mailto/tel pass through
+Handlebars.registerHelper('url', (h) => /^(https?:|mailto:|tel:|\/|#)/.test(h) ? h : '/' + h);
 // section dispatcher: renders partial "section-<type>" with the section as context
 Handlebars.registerHelper('section', function (sec, options) {
   const partial = Handlebars.partials['section-' + sec.type] || Handlebars.partials[sec.type];

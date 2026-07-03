@@ -1,0 +1,82 @@
+{
+  "layout": "page",
+  "path": "curriculum/alternative-education.html",
+  "slug": "alternative-education",
+  "title": "Alternative Education",
+  "metaDescription": "Rosehill College leads the Alternative Education (Alt Ed) Programme for the Papakura area, providing flexible, supportive learning pathways for students in Years 9–11 in partnership with Blue Light Papakura and Te Awatea.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Alt Ed",
+      "heading": "Alternative Education Programme",
+      "lede": "Rosehill College leads the Alternative Education (Alt Ed) Programme for the Papakura area, in partnership with Blue Light Papakura and Te Awatea."
+    },
+    {
+      "type": "prose",
+      "id": "about",
+      "heading": "About the programme",
+      "html": "<p>The programme provides flexible, supportive learning pathways for students in Years 9–11 (under 16 years old) who need a tailored environment to succeed. Its purpose is to provide new learning opportunities for students who have become disengaged from mainstream education.</p><p>This programme is designed for students who have become disengaged from mainstream education and would benefit from a more personalised and supportive learning environment.</p>",
+      "aside": {
+        "html": "<p><strong>Enrolments</strong><br>Email: <a href=\"mailto:alted@rosehillcollege.school.nz\">alted@rosehillcollege.school.nz</a><br>Phone: (09) 295 0661 ext 871</p><p><strong>Lead support</strong><br>Mr J Fraser<br>Email: <a href=\"mailto:j.fraser@rosehillcollege.school.nz\">j.fraser@rosehillcollege.school.nz</a></p>"
+      }
+    },
+    {
+      "type": "list",
+      "id": "enrolment-process",
+      "heading": "Enrolment process",
+      "items": [
+        { "term": "1. Referral or enquiry", "text": "Contact the Alt Ed team or speak with your Kaitiaki." },
+        { "term": "2. Submit enrolment form", "text": "Complete and return the Alternative Education Enrolment Form." },
+        { "term": "3. Initial interview", "text": "Student, whānau, and referring school meet with the Alt Ed team." },
+        { "term": "4. Transition plan", "text": "A personalised learning and attendance plan is developed." }
+      ]
+    },
+    {
+      "type": "media-text",
+      "heading": "Programme focus",
+      "image": {
+        "src": "assets/img/41477_2019_374_Figa_HTML_1.avif",
+        "srcset": "",
+        "alt": "Sunlight streaming through a green forest canopy"
+      },
+      "html": "<ul><li><strong>Core learning:</strong> literacy, numeracy, and NCEA Foundation Level</li><li><strong>Pathways:</strong> transition planning, employment skills, and work readiness</li><li><strong>Life skills:</strong> hauora, resilience, communication, and teamwork</li><li><strong>Service and leadership:</strong> building social responsibility and whanaungatanga</li><li><strong>Support:</strong> small class sizes, mentoring, and wrap-around pastoral care</li></ul>"
+    },
+    {
+      "type": "table",
+      "id": "programme-options",
+      "heading": "Programme options (2026)",
+      "lede": "The offsite programmes offer pick-ups and drop-offs, breakfast and lunch, and access to facilities including a fitness centre, music recording, and outdoor education.",
+      "caption": "Alternative Education programme options for 2026",
+      "columns": ["Provider", "Focus"],
+      "rows": [
+        ["Rosehill College (on site)", "Re-engagement, foundation learning, transition to school"],
+        ["Blue Light Papakura", "Youth development and leadership"],
+        ["Papakura Activity Centre (Te Awatea)", "Holistic, whānau-based learning and wellbeing support"]
+      ]
+    },
+    {
+      "type": "prose",
+      "id": "expected-outcomes",
+      "heading": "Expected outcomes",
+      "html": "<p>The programme aims to support students to:</p><ul><li>Re-engage in education</li><li>Improve attendance and engagement</li><li>Develop literacy, numeracy, and communication skills</li><li>Build confidence, resilience, and self-motivation</li><li>Transition into further education, training, or employment</li></ul>"
+    },
+    {
+      "type": "docs",
+      "id": "downloads",
+      "heading": "Downloads",
+      "lede": "Find out more about the programme in our information guide.",
+      "docs": [
+        { "href": "assets/docs/Alt-Ed-Info-Guide.pdf", "label": "Alternative Education information guide", "meta": "PDF" }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "Apply now",
+      "text": "To apply, please complete the Alternative Education Enrolment Form and return it to the Alt Ed team at alted@rosehillcollege.school.nz.",
+      "actions": [
+        { "href": "mailto:alted@rosehillcollege.school.nz", "label": "Email the Alt Ed team", "primary": true },
+        { "href": "/contact-us.html", "label": "Contact us" }
+      ]
+    }
+  ]
+}

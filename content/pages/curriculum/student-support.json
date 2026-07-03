@@ -1,0 +1,74 @@
+{
+  "layout": "page",
+  "path": "curriculum/student-support.html",
+  "slug": "student-support",
+  "title": "Student Support",
+  "metaDescription": "Student support at Rosehill College — Learner Support, Gifted Education, Careers guidance and the Gateway work experience programme.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Here to help",
+      "heading": "Student support",
+      "lede": "We are dedicated to fostering a nurturing and inclusive environment for all our students. Our comprehensive support system is designed to address the diverse needs of our students, ensuring they have access to the resources and assistance necessary to thrive both academically and personally."
+    },
+    {
+      "type": "prose",
+      "html": "<p>At Rosehill College, we understand that every student is unique, and our dedicated team is here to help. Whether you need academic guidance, mental health support, or assistance with personal challenges, we are committed to providing a safe and supportive space for you to share your concerns.</p>",
+      "aside": {
+        "image": {
+          "src": "assets/img/Kids-link_1.avif",
+          "srcset": "",
+          "alt": "KidsLink logo"
+        },
+        "html": "<p><strong>Rosehill College is a KidsLink school.</strong> <a href=\"http://www.kidslink.co.nz/\" rel=\"external\">Kidslink</a> connects schools and families with professional services for children and teens.</p>"
+      }
+    },
+    {
+      "type": "media-text",
+      "heading": "Learner Support",
+      "image": {
+        "src": "assets/img/Curriculum---Student-Support---Learner-Support---1.avif",
+        "srcset": "",
+        "alt": "A Rosehill College staff member supporting a student with their learning"
+      },
+      "html": "<p>The role of Learner Support is to:</p><ul><li>Assist with transition of students with SEN from year 8 to year 9.</li><li>Provide support for students with identified Special Educational Needs (SEN) in years 9 to 13.</li><li>Carry out evaluations of students with suspected SEN.</li><li>Liaise with parents and caregivers.</li><li>Provide advice and guidance to teachers on SEN matters.</li><li>Liaise with support agencies providing services to students with SEN, their caregivers and their teachers.</li></ul><p>If you have any queries please contact the Head of Learning Support on extension 873.</p>"
+    },
+    {
+      "type": "prose",
+      "heading": "Gifted Education",
+      "html": "<p>Rosehill College recognises that our student population is diverse. An enriched learning environment is the right of all students and is essential for the development of their gifts and talents. We offer a range of approaches, including advanced courses, acceleration of content delivery, involvement in subject competitions (e.g., Mathex, NSW Science, and the Future Problem Solving National competition), and visits from speakers focusing on goal setting, motivation, philosophy, effective learning strategies, and achieving excellence.</p><p>The school's high-ability students at the senior level are encouraged to pursue academic excellence and sit for NZQA Scholarship examinations. Depending on the subject area, enrolment in university papers for extension purposes is also available. The College defines giftedness as encompassing various areas of learning, including intellectual, physical, creative, spiritual, and leadership domains. The identification of our gifted students is inclusive and ongoing, using a multi-method approach. These methods include, but are not limited to, teacher observations using characteristic checklists or observation scales, questionnaires, standardised tests (e.g. asTTle), parent referrals, peer referrals, and self-referrals. The most common identification approach is teacher observation and nomination.</p><p>An elite sports programme is also offered by the College, along with numerous opportunities for involvement in the visual arts, drama, music, and Kapa Haka performances.</p><p><a href=\"https://sites.google.com/rosehillcollege.school.nz/rosehill-college-gifted-site/home?authuser=0\" rel=\"external\">Gifted Education at Rosehill College</a></p>",
+      "aside": {
+        "image": {
+          "src": "assets/img/Curriculum---Student-Support---Gifted-Education.avif",
+          "srcset": "",
+          "alt": "Rosehill College students extending their learning through the Gifted Education programme"
+        }
+      }
+    },
+    {
+      "type": "media-text",
+      "flip": true,
+      "heading": "Careers",
+      "image": {
+        "src": "assets/img/Curriculum---Student-Support---Careers.avif",
+        "srcset": "",
+        "alt": "Students receiving careers advice in the Rosehill College Careers Centre"
+      },
+      "html": "<p>The aim of Careers Education at Rosehill College is to provide appropriate career education, information, and guidance for students. The Careers Centre is available for student use before school, during intervals, at lunchtime, and after school, as well as during study time for Year 13 students. It contains information about a wide range of careers and courses and is staffed by Ms Ferguson, the Careers Adviser, and Ms Mowday, the Careers Assistant. Computers with internet access are also available.</p><p>Students can visit the Careers Room to receive expert advice and assistance to aid in their choices regarding tertiary education and employment opportunities. Assistance is also available for writing CVs, seeking work experience, applying for scholarships or Halls of Residence, and completing applications to tertiary institutions. Additionally, the Careers Department hosts a variety of lunchtime seminars to provide information about tertiary institutions, student loans, Armed Forces, etc. These seminars are advertised in the daily bulletin and on the Careers Bulletin on the school website.</p><p>If you would like to get in touch with Ms Ferguson or Ms Mowday, you can reach them via email at <a href=\"mailto:careers@rosehillcollege.school.nz\">careers@rosehillcollege.school.nz</a>.</p>"
+    },
+    {
+      "type": "prose",
+      "heading": "Gateway",
+      "html": "<p>Gateway is a programme initiated and funded by the Tertiary Education Commission (TEC) that offers students in Year 12 and 13 the opportunity to participate in a school-run work experience programme, typically involving one day a week in an industry work placement for between 10 and 20 days. It provides students with the chance to experience structured workplace learning in an industry of their choice, gaining new skills and knowledge while pursuing individual learning plans to achieve unit standards that contribute to NCEA. These unit standards are completed either in the workplace or during training workshops.</p><p>Gateway offers selected Year 12 and 13 students valuable learning and pathway opportunities. Students are placed in a variety of industries of their choice, providing an exciting opportunity for them to gain insight into an industry and determine if they are interested in pursuing that career in the future. The Gateway office is located in the Careers Centre and is staffed by Ms Mace, the Gateway Coordinator.</p><p>If you would like to get in touch with Ms Mace, her email address is <a href=\"mailto:k.mace@rosehillcollege.school.nz\">k.mace@rosehillcollege.school.nz</a>.</p>"
+    },
+    {
+      "type": "cta",
+      "heading": "We're here to help",
+      "text": "Learn more about how we look after our students, or get in touch — our team is committed to providing a safe and supportive space.",
+      "actions": [
+        { "href": "/our-community/student-welfare.html", "label": "Student welfare", "primary": true },
+        { "href": "/contact-us.html", "label": "Contact us" }
+      ]
+    }
+  ]
+}
