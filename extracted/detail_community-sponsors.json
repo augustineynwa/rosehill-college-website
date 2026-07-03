@@ -1,0 +1,14 @@
+{
+  "source": "detail_community-sponsors.html",
+  "title": "Rosehill College",
+  "metaDescription": "",
+  "blocks": [
+    {
+      "type": "img",
+      "src": "images/Trust-Circle.avif",
+      "srcset": "",
+      "alt": "",
+      "class": "logo-border"
+    }
+  ]
+}

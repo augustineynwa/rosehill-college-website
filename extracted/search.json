@@ -1,0 +1,12 @@
+{
+  "source": "search.html",
+  "title": "Search Results",
+  "metaDescription": "",
+  "blocks": [
+    {
+      "type": "h1",
+      "text": "Search results",
+      "class": ""
+    }
+  ]
+}

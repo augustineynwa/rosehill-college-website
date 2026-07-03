@@ -1,0 +1,22 @@
+{
+  "source": "404.html",
+  "title": "Not Found",
+  "metaDescription": "",
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Page not found",
+      "class": "header-error"
+    },
+    {
+      "type": "div",
+      "text": "The page you are looking for doesn't exist or has been moved.",
+      "class": "_404-details"
+    },
+    {
+      "type": "link",
+      "href": "index.html",
+      "text": "Back to home page"
+    }
+  ]
+}

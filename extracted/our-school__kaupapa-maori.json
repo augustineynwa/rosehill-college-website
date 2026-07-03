@@ -1,0 +1,153 @@
+{
+  "source": "our-school/kaupapa-maori.html",
+  "title": "Kaupapa Māori",
+  "metaDescription": "",
+  "blocks": [
+    {
+      "type": "img",
+      "src": "images/t4-Randoms-1_1.avif",
+      "srcset": "../images/t4-Randoms-1_1t4-Randoms-1.avif 500w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 800w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 1080w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 1600w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 2000w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 2600w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 3200w, ../images/t4-Randoms-1_1.avif 4591w",
+      "alt": "",
+      "class": "hero-image"
+    },
+    {
+      "type": "div",
+      "text": "Kaupapa Māori Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Kapa Haka Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Haka ko te Kāreti o Pukeroihi (Te koha nunui o Papa Kukupa Tirikatene) Kaea: Kia rite, kia rite, Kia mau! Hii! Kaea: I aa haa haa! Ka eke te wiwi Ka eke te wawa Ka eke te paparangi Hui e I ta eke I ta eke Kaea: Ko Pukeroihi e ngunguru nei I au, au aue ha Kaea: Ko Pukeroihi e ngunguru nei I Au, au aue ha Te koraa o te ahu I ahu mai I ngaa pungarehu o ratau kua haere ra Kaea: A haa Ko Pukeroihi e ngunguru nei I Au au aue haa Kaea: A haa Ko Pukeroihi e ngunguru nei I Au au aue ha Kaea: I aa haa haa! Ka tu te ihi Ihi ka tu te wanawana Ki runga I te rangi e tu iho nei, tu iho nei Hii!",
+      "class": "main no-padding"
+    },
+    {
+      "type": "h2",
+      "text": "Kaupapa Māori",
+      "class": "section-heading"
+    },
+    {
+      "type": "p",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "class": ""
+    },
+    {
+      "type": "img",
+      "src": "images/Our-School---Kaupapa-Mauri---Section-1.avif",
+      "srcset": "../images/Our-School---Kaupapa-Mauri---Section-1-p-500.avif 500w, ../images/Our-School---Kaupapa-Mauri---Section-1-p-800.avif 800w, ../images/Our-School---Kaupapa-Mauri---Section-1-p-1080.avif 1080w, ../images/Our-School---Kaupapa-Mauri---Section-1-p-1600.avif 1600w, ../images/Our-School---Kaupapa-Mauri---Section-1-p-2000.avif 2000w, ../images/Our-School---Kaupapa-Mauri---Section-1.avif 3715w",
+      "alt": "",
+      "class": "section-image"
+    },
+    {
+      "type": "img",
+      "src": "images/Our-School---Kaupapa-Mauri---Kapa-Haka_1.avif",
+      "srcset": "../images/Our-School---Kaupapa-Mauri---Kapa-Haka_1Our-School---Kaupapa-Mauri---Kapa-Haka.avif 500w, ../images/Our-School---Kaupapa-Mauri---Kapa-Haka_1Our-School---Kaupapa-Mauri---Kapa-Haka.avif 800w, ../images/Our-School---Kaupapa-Mauri---Kapa-Haka_1Our-School---Kaupapa-Mauri---Kapa-Haka.avif 1080w, ../images/Our-School---Kaupapa-Mauri---Kapa-Haka_1Our-School---Kaupapa-Mauri---Kapa-Haka.avif 1600w, ../images/Our-School---Kaupapa-Mauri---Kapa-Haka_1Our-School---Kaupapa-Mauri---Kapa-Haka.avif 2000w, ../images/Our-School---Kaupapa-Mauri---Kapa-Haka_1Our-School---Kaupapa-Mauri---Kapa-Haka.avif 2600w, ../images/Our-School---Kaupapa-Mauri---Kapa-Haka_1Our-School---Kaupapa-Mauri---Kapa-Haka.avif 3200w, ../images/Our-School---Kaupapa-Mauri---Kapa-Haka_1.avif 6000w",
+      "alt": "",
+      "class": "section-image"
+    },
+    {
+      "type": "h2",
+      "text": "Kapa Haka",
+      "class": "section-heading"
+    },
+    {
+      "type": "h1",
+      "text": "Haka ko te Kāreti o Pukeroihi (Te koha nunui o Papa Kukupa Tirikatene)",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Kaea: Kia rite, kia rite, Kia mau!",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Hii!",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Kaea: I aa haa haa!",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Ka eke te wiwi",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Ka eke te wawa",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Ka eke te paparangi",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Hui e",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "I ta eke I ta eke",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Kaea: Ko Pukeroihi e ngunguru nei",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "I au, au aue ha",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "I Au, au aue ha",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Te koraa o te ahu I ahu mai",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "I ngaa pungarehu o ratau",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "kua haere ra",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Kaea: A haa Ko Pukeroihi e ngunguru nei",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "I Au au aue haa",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "I Au au aue ha",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Ka tu te ihi",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Ihi ka tu te wanawana",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Ki runga I te rangi e tu iho nei, tu iho nei",
+      "class": ""
+    }
+  ]
+}

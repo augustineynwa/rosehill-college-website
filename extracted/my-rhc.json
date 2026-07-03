@@ -1,0 +1,270 @@
+{
+  "source": "my-rhc.html",
+  "title": "My RHC",
+  "metaDescription": "Access your Rosehill College resources, timetables, and learning materials in one place. Your personalized gateway to school information and tools. Log in now.",
+  "blocks": [
+    {
+      "type": "div",
+      "text": "My RHC Please choose an account type Student Parent / Caregiver Staff Portal Login NZQA Login Google Classroom School Map School Buses Student Hub (Login Required) Change Account Type Portal Login SchoolBridge Login Uniform Shop School Map School Buses Start of School Information Download Our School App School Interview Booking Change Account Type Parents can book interview slots online by clicking on the following. It will take you directly to the booking page. Click here to make your booking Classroom Map 🔹 Parents can choose to meet all or selected subject teachers. 🔹 Each meeting lasts 5 minutes—please allow a 5-minute gap between bookings. 🔹 You will need your child’s subjects and teachers' names to complete the booking. ‍ For assistance, contact the school at 📞(09) 295 0661 or ✉️ email us. Back",
+      "class": "main"
+    },
+    {
+      "type": "h1",
+      "text": "My RHC",
+      "class": "section-heading my-rhc"
+    },
+    {
+      "type": "p",
+      "text": "Please choose an account type",
+      "class": "paragraph-2"
+    },
+    {
+      "type": "img",
+      "src": "images/graduation-svgrepo-com.svg",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "Student",
+      "class": "paragraph"
+    },
+    {
+      "type": "img",
+      "src": "images/learning-student-svgrepo-com.svg",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "Parent / Caregiver",
+      "class": "paragraph"
+    },
+    {
+      "type": "img",
+      "src": "images/learning-student-svgrepo-com-1.svg",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "Staff",
+      "class": "paragraph"
+    },
+    {
+      "type": "img",
+      "src": "images/login-svgrepo-com.svg",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "Portal Login",
+      "class": "paragraph"
+    },
+    {
+      "type": "img",
+      "src": "images/NZQA-icon.avif",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "NZQA Login",
+      "class": "paragraph"
+    },
+    {
+      "type": "img",
+      "src": "images/google-classroom.svg",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "Google Classroom",
+      "class": "paragraph"
+    },
+    {
+      "type": "link",
+      "href": "documents/Rosehill-College-Site-Map.pdf",
+      "text": "School Map"
+    },
+    {
+      "type": "img",
+      "src": "images/map-geography-svgrepo-com.svg",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "School Map",
+      "class": "paragraph"
+    },
+    {
+      "type": "img",
+      "src": "images/bus-svgrepo-com.svg",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "School Buses",
+      "class": "paragraph"
+    },
+    {
+      "type": "img",
+      "src": "images/student-hub.svg",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "Student Hub (Login Required)",
+      "class": "paragraph"
+    },
+    {
+      "type": "img",
+      "src": "images/login-svgrepo-com.svg",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "img",
+      "src": "images/logo512.avif",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "SchoolBridge Login",
+      "class": "paragraph"
+    },
+    {
+      "type": "img",
+      "src": "images/uniform-svgrepo-com.svg",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "Uniform Shop",
+      "class": "paragraph"
+    },
+    {
+      "type": "link",
+      "href": "documents/Rosehill-College-Site-Map.pdf",
+      "text": "School Map"
+    },
+    {
+      "type": "img",
+      "src": "images/map-geography-svgrepo-com.svg",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "img",
+      "src": "images/bus-svgrepo-com.svg",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "img",
+      "src": "images/back-to-school.avif",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "Start of School Information",
+      "class": "paragraph"
+    },
+    {
+      "type": "img",
+      "src": "images/badge_download_schoolbridge.avif",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon download"
+    },
+    {
+      "type": "p",
+      "text": "Download Our School App",
+      "class": "paragraph"
+    },
+    {
+      "type": "img",
+      "src": "images/school-interview.avif",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "School Interview Booking",
+      "class": "paragraph"
+    },
+    {
+      "type": "p",
+      "text": "Parents can book interview slots online by clicking on the following. It will take you directly to the booking page.",
+      "class": ""
+    },
+    {
+      "type": "img",
+      "src": "images/school-interview.avif",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "Click here to make your booking",
+      "class": "interview-btn-txt"
+    },
+    {
+      "type": "img",
+      "src": "images/school-interview.avif",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "Classroom Map",
+      "class": "paragraph"
+    },
+    {
+      "type": "p",
+      "text": "🔹 Parents can choose to meet all or selected subject teachers.",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "🔹 Each meeting lasts 5 minutes—please allow a 5-minute gap between bookings.",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "🔹 You will need your child’s subjects and teachers' names to complete the booking.",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "For assistance, contact the school at 📞(09) 295 0661 or ✉️ email us.",
+      "class": ""
+    }
+  ]
+}

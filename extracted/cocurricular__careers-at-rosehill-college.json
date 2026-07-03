@@ -1,0 +1,131 @@
+{
+  "source": "cocurricular/careers-at-rosehill-college.html",
+  "title": "Careers at Rosehill College",
+  "metaDescription": "",
+  "blocks": [
+    {
+      "type": "img",
+      "src": "images/t4-Randoms-1_1.avif",
+      "srcset": "../images/t4-Randoms-1_1t4-Randoms-1.avif 500w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 800w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 1080w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 1600w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 2000w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 2600w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 3200w, ../images/t4-Randoms-1_1.avif 4591w",
+      "alt": "",
+      "class": "hero-image"
+    },
+    {
+      "type": "div",
+      "text": "Careers at Rosehill College At Rosehill College, our Careers Department is dedicated to helping students take confident steps towards their future — whether that path leads to employment, further study, trades, or something uniquely their own. We provide practical advice, personalised guidance, and real-world support to help students explore options and make informed choices. Our Commitment What We Offer Our Careers Team can help you: ✅ Write CVs and cover letters ✅ Prepare for job interviews and job hunting ✅ Understand your driver licence options ‍ Study & Training Pathways Explore opportunities with: 🏛️ Universities and Polytechnics 🛠️ Trades training and apprenticeships 🌍 Student exchange programmes 🎖️ The armed forces ‍ Gateway Programme Get real-world experience through our Gateway work placements, designed to give students a taste of working life in different industries. ‍ Book a Careers Appointment Need help figuring out your next steps? Book a one-on-one session with our Careers Advisor for tailored advice and planning. ‍ Visit the Careers Portal Explore all of the above and more on our Careers Portal: Visit the Rosehill College Careers Portal",
+      "class": "main no-padding"
+    },
+    {
+      "type": "h1",
+      "text": "Careers at Rosehill College",
+      "class": "section-heading"
+    },
+    {
+      "type": "p",
+      "text": "At Rosehill College, our Careers Department is dedicated to helping students take confident steps towards their future — whether that path leads to employment, further study, trades, or something uniquely their own.",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "We provide practical advice, personalised guidance, and real-world support to help students explore options and make informed choices.",
+      "class": ""
+    },
+    {
+      "type": "h2",
+      "text": "Our Commitment",
+      "class": "section-heading"
+    },
+    {
+      "type": "h2",
+      "text": "What We Offer",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Our Careers Team can help you:",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "✅ Write CVs and cover letters",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "✅ Prepare for job interviews and job hunting",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "✅ Understand your driver licence options",
+      "class": ""
+    },
+    {
+      "type": "h2",
+      "text": "Study & Training Pathways",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Explore opportunities with:",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "🏛️ Universities and Polytechnics",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "🛠️ Trades training and apprenticeships",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "🌍 Student exchange programmes",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "🎖️ The armed forces",
+      "class": ""
+    },
+    {
+      "type": "h2",
+      "text": "Gateway Programme",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Get real-world experience through our Gateway work placements, designed to give students a taste of working life in different industries.",
+      "class": ""
+    },
+    {
+      "type": "h2",
+      "text": "Book a Careers Appointment",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Need help figuring out your next steps? Book a one-on-one session with our Careers Advisor for tailored advice and planning.",
+      "class": ""
+    },
+    {
+      "type": "h3",
+      "text": "Visit the Careers Portal",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Explore all of the above and more on our Careers Portal: Visit the Rosehill College Careers Portal",
+      "class": ""
+    },
+    {
+      "type": "img",
+      "src": "images/Careers.avif",
+      "srcset": "",
+      "alt": "",
+      "class": "section-image"
+    }
+  ]
+}

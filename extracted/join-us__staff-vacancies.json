@@ -1,0 +1,74 @@
+{
+  "source": "join-us/staff-vacancies.html",
+  "title": "Staff Vacancies",
+  "metaDescription": "Explore current staff vacancies at Rosehill College and join our dedicated team of educators and support staff. Find out about the roles available, the qualifications required, and how to apply to become part of a school that values excellence, community, and growth.",
+  "blocks": [
+    {
+      "type": "div",
+      "text": "Join Our Team at Rosehill College Explore exciting career opportunities at Rosehill College, where we are committed to fostering a dynamic and supportive environment for both students and staff. Whether you are passionate about teaching, administration, or support roles, we invite you to be a part of our vibrant educational community and contribute to the success and growth of our students. Discover the current vacancies and take the next step in your professional journey with us. The terms and conditions, including base salary, for this position is set by the Secondary Teachers Collective Agreement. The base salary for trained and registered teachers will range from $61,329 to $103,086, (rates effective from 2 December 2024) depending on applicant’s qualifications and experience. Individuals actual base salary will be established by a salary assessment once a role is confirmed. ‍A Rosehill College Application Form must accompany your C.V. and cover letter. Application Form - Teachers Application Form - Relief Teachers Application Form - Support Staff Staff Vacancies List Browse current openings: Posted Date: View Vacancy No vacancy found.",
+      "class": "main"
+    },
+    {
+      "type": "h1",
+      "text": "Join Our Team at Rosehill College",
+      "class": "section-heading"
+    },
+    {
+      "type": "p",
+      "text": "Explore exciting career opportunities at Rosehill College, where we are committed to fostering a dynamic and supportive environment for both students and staff. Whether you are passionate about teaching, administration, or support roles, we invite you to be a part of our vibrant educational community and contribute to the success and growth of our students. Discover the current vacancies and take the next step in your professional journey with us.",
+      "class": "rich-text-margin-30"
+    },
+    {
+      "type": "p",
+      "text": "The terms and conditions, including base salary, for this position is set by the Secondary Teachers Collective Agreement. The base salary for trained and registered teachers will range from $61,329 to $103,086, (rates effective from 2 December 2024) depending on applicant’s qualifications and experience. Individuals actual base salary will be established by a salary assessment once a role is confirmed.",
+      "class": "rich-text-margin-30"
+    },
+    {
+      "type": "p",
+      "text": "‍A Rosehill College Application Form must accompany your C.V. and cover letter.",
+      "class": "rich-text-margin-30"
+    },
+    {
+      "type": "p",
+      "text": "Application Form - Teachers",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Application Form - Relief Teachers",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Application Form - Support Staff",
+      "class": ""
+    },
+    {
+      "type": "img",
+      "src": "images/Staff-Vacancies_1.avif",
+      "srcset": "../images/Staff-Vacancies_1Staff-Vacancies.avif 500w, ../images/Staff-Vacancies_1Staff-Vacancies.avif 800w, ../images/Staff-Vacancies_1.avif 1470w",
+      "alt": "",
+      "class": "section-image"
+    },
+    {
+      "type": "h2",
+      "text": "Staff Vacancies List",
+      "class": "section-heading"
+    },
+    {
+      "type": "p",
+      "text": "Browse current openings:",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Posted Date:",
+      "class": "paragraph-15"
+    },
+    {
+      "type": "link",
+      "href": "#",
+      "text": "View Vacancy"
+    }
+  ]
+}

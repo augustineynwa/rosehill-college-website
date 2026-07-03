@@ -1,0 +1,93 @@
+{
+  "source": "international-students/students-voices.html",
+  "title": "Students Voices",
+  "metaDescription": "Read inspiring stories from our international students at Rosehill College. Hear firsthand accounts of their experiences, challenges, and successes while studying in New Zealand. Discover how our international student community is supported and how they thrive both academically and personally at Rosehill College.",
+  "blocks": [
+    {
+      "type": "img",
+      "src": "images/t4-Randoms-1_1.avif",
+      "srcset": "../images/t4-Randoms-1_1t4-Randoms-1.avif 500w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 800w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 1080w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 1600w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 2000w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 2600w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 3200w, ../images/t4-Randoms-1_1.avif 4591w",
+      "alt": "",
+      "class": "hero-image"
+    },
+    {
+      "type": "div",
+      "text": "Hear from Our Global Community at Rosehill College At Rosehill College, we believe that our strength lies in our diversity. Our international students bring a wealth of cultures, languages, and perspectives that enrich the learning environment and community as a whole. The International Student Voices page is dedicated to celebrating the unique experiences and contributions of our international students. Here, you will find inspiring stories and testimonials from students who have traveled from across the globe to join the Rosehill College family. These voices reflect the courage, challenges, and triumphs of adapting to a new environment while bringing their own traditions and insights to our vibrant campus life. Whether you are an existing student, a prospective student, or simply curious about the global community at Rosehill College, we invite you to explore these stories and discover the diverse experiences that make our college a truly international learning hub. Welcome to our community, where every voice matters and where the world comes together to learn, grow, and thrive. Theana Chen - International Student Leader 2024 China Hi, I’m from China. I’m a Year 12 student and also the international student leader this year. It’s been almost three years since I came to Rosehil College and I want to thank Mrs. Henwood and Ms. Booth for giving me the opportunity to take on this position. Being the international student leader provides me with so much leadership experience and makes me feel more confident in communicating with others. And I really enjoy the process of working with teachers and helping other international students.The most interesting part of my role is getting to know students from diverse cultures and backgrounds, which enables me to make friends with them and get to know each other’s countries. I also want to thank all of my friends who were friendly to me on my first day of school and offered their support and encouragement along the way. Their kindness also inspired me to be more enthusiastic in helping new international students adjust to the school and better complete my leadership work. Taiwan",
+      "class": "main no-padding"
+    },
+    {
+      "type": "h2",
+      "text": "Hear from Our Global Community at Rosehill College",
+      "class": "section-heading"
+    },
+    {
+      "type": "p",
+      "text": "At Rosehill College, we believe that our strength lies in our diversity. Our international students bring a wealth of cultures, languages, and perspectives that enrich the learning environment and community as a whole. The International Student Voices page is dedicated to celebrating the unique experiences and contributions of our international students.",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Here, you will find inspiring stories and testimonials from students who have traveled from across the globe to join the Rosehill College family. These voices reflect the courage, challenges, and triumphs of adapting to a new environment while bringing their own traditions and insights to our vibrant campus life.",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Whether you are an existing student, a prospective student, or simply curious about the global community at Rosehill College, we invite you to explore these stories and discover the diverse experiences that make our college a truly international learning hub.",
+      "class": ""
+    },
+    {
+      "type": "h3",
+      "text": "Welcome to our community, where every voice matters and where the world comes together to learn, grow, and thrive.",
+      "class": "rich-text-center"
+    },
+    {
+      "type": "img",
+      "src": "images/International-Students---Student-Voices---Group-Photos-1_1.avif",
+      "srcset": "../images/International-Students---Student-Voices---Group-Photos-1_1International-Students---Student-Voices---Group-Photos-1.avif 500w, ../images/International-Students---Student-Voices---Group-Photos-1_1International-Students---Student-Voices---Group-Photos-1.avif 800w, ../images/International-Students---Student-Voices---Group-Photos-1_1.avif 1603w",
+      "alt": "",
+      "class": "section-image"
+    },
+    {
+      "type": "h2",
+      "text": "Theana Chen - International Student Leader 2024",
+      "class": ""
+    },
+    {
+      "type": "h4",
+      "text": "China",
+      "class": ""
+    },
+    {
+      "type": "img",
+      "src": "images/International-Students---Student-Voices---Theana_1.avif",
+      "srcset": "",
+      "alt": "",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Hi, I’m from China. I’m a Year 12 student and also the international student leader this year. It’s been almost three years since I came to Rosehil College and I want to thank Mrs. Henwood and Ms. Booth for giving me the opportunity to take on this position.",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Being the international student leader provides me with so much leadership experience and makes me feel more confident in communicating with others. And I really enjoy the process of working with teachers and helping other international students.The most interesting part of my role is getting to know students from diverse cultures and backgrounds, which enables me to make friends with them and get to know each other’s countries.",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "I also want to thank all of my friends who were friendly to me on my first day of school and offered their support and encouragement along the way. Their kindness also inspired me to be more enthusiastic in helping new international students adjust to the school and better complete my leadership work.",
+      "class": ""
+    },
+    {
+      "type": "h2",
+      "text": "Taiwan",
+      "class": ""
+    },
+    {
+      "type": "embed",
+      "src": "https://www.youtube.com/embed/EPNu_wPZshg?rel=0&controls=1&autoplay=0&mute=0&start=0",
+      "title": "Taiwan"
+    }
+  ]
+}

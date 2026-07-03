@@ -1,0 +1,124 @@
+{
+  "source": "curriculum/course-information.html",
+  "title": "Course Information",
+  "metaDescription": "Explore detailed course information at Rosehill College to find the right path for your educational journey. Learn about our diverse curriculum offerings, subject choices, and course requirements designed to support student interests, strengths, and future goals.",
+  "blocks": [
+    {
+      "type": "div",
+      "text": "Course Information At Rosehill College, we believe in providing a balanced education that not only focuses on academic excellence but also fosters personal growth and development. Our courses are structured to challenge students intellectually while supporting their individual learning needs. Here, you will find detailed descriptions of the diverse range of courses we offer, designed to cater to the varied interests and aspirations of our students. Our curriculum is comprehensive and inclusive, ensuring that every student has the opportunity to pursue their passions and achieve their academic goals.  Do you need assistance in identifying a pathway?  Are you uncertain about the course requirements for your university or trade?  Are you feeling overwhelmed by the options available? ‍ Visit our career advisor at their office, located in the library. Alternatively, you may email them at careers@rosehillcollege.school.nz. Offered Courses At Rosehill College, we strive to create a dynamic and supportive learning environment where junior students can thrive academically, socially, and personally. We are also committed to providing a rich and diverse educational experience that equips our senior students with the knowledge, skills, and confidence to succeed in their future endeavours. Our experienced and dedicated teachers are committed to guiding students through these formative years, ensuring they are well-prepared for next steps in their academic and professional journeys. Junior Courses Our junior curriculum is designed to provide a comprehensive and engaging educational experience for Year 9, Year 10 and Year 11 students. We aim to lay a solid foundation for future academic success and personal growth by offering a wide variety of subjects that cater to diverse interests and abilities. Year 9 Courses  Year 10 Courses  Year 11 Courses  Senior Courses Our senior curriculum is designed to provide Year 12 and Year 13 students with specialised and advanced learning opportunities that prepare them for higher education, vocational training, and successful careers. We offer a broad range of subjects, allowing students to tailor their education to their interests and aspirations. Year 12 & 13 Courses ",
+      "class": "main"
+    },
+    {
+      "type": "h1",
+      "text": "Course Information",
+      "class": "section-heading"
+    },
+    {
+      "type": "p",
+      "text": "At Rosehill College, we believe in providing a balanced education that not only focuses on academic excellence but also fosters personal growth and development. Our courses are structured to challenge students intellectually while supporting their individual learning needs.",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Here, you will find detailed descriptions of the diverse range of courses we offer, designed to cater to the varied interests and aspirations of our students. Our curriculum is comprehensive and inclusive, ensuring that every student has the opportunity to pursue their passions and achieve their academic goals.",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": " Do you need assistance in identifying a pathway?",
+      "class": "list-item-5"
+    },
+    {
+      "type": "li",
+      "text": " Are you uncertain about the course requirements for your university or trade?",
+      "class": "list-item-6"
+    },
+    {
+      "type": "li",
+      "text": " Are you feeling overwhelmed by the options available?",
+      "class": "list-item-7"
+    },
+    {
+      "type": "p",
+      "text": "Visit our career advisor at their office, located in the library. Alternatively, you may email them at careers@rosehillcollege.school.nz.",
+      "class": ""
+    },
+    {
+      "type": "h2",
+      "text": "Offered Courses",
+      "class": "section-heading"
+    },
+    {
+      "type": "p",
+      "text": "At Rosehill College, we strive to create a dynamic and supportive learning environment where junior students can thrive academically, socially, and personally. We are also committed to providing a rich and diverse educational experience that equips our senior students with the knowledge, skills, and confidence to succeed in their future endeavours. Our experienced and dedicated teachers are committed to guiding students through these formative years, ensuring they are well-prepared for next steps in their academic and professional journeys.",
+      "class": ""
+    },
+    {
+      "type": "h3",
+      "text": "Junior Courses",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Our junior curriculum is designed to provide a comprehensive and engaging educational experience for Year 9, Year 10 and Year 11 students. We aim to lay a solid foundation for future academic success and personal growth by offering a wide variety of subjects that cater to diverse interests and abilities.",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Year 9 Courses ",
+      "class": ""
+    },
+    {
+      "type": "link",
+      "href": "../documents/Course-Info-Year-9-2026.pdf",
+      "text": "Year 9 Courses "
+    },
+    {
+      "type": "p",
+      "text": "Year 10 Courses ",
+      "class": ""
+    },
+    {
+      "type": "link",
+      "href": "../documents/Course-Info-Year-10-2026.pdf",
+      "text": "Year 10 Courses "
+    },
+    {
+      "type": "p",
+      "text": "Year 11 Courses ",
+      "class": ""
+    },
+    {
+      "type": "link",
+      "href": "../documents/Course-Info-Year-11-2026.pdf",
+      "text": "Year 11 Courses "
+    },
+    {
+      "type": "h3",
+      "text": "Senior Courses",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Our senior curriculum is designed to provide Year 12 and Year 13 students with specialised and advanced learning opportunities that prepare them for higher education, vocational training, and successful careers. We offer a broad range of subjects, allowing students to tailor their education to their interests and aspirations.",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Year 12 & 13 Courses ",
+      "class": ""
+    },
+    {
+      "type": "link",
+      "href": "../documents/NCEA-Course-Information-2026.pdf",
+      "text": "Year 12 & 13 Courses "
+    },
+    {
+      "type": "img",
+      "src": "images/Curriculum---Course-Information.avif",
+      "srcset": "../images/Curriculum---Course-Information-p-500.avif 500w, ../images/Curriculum---Course-Information-p-800.avif 800w, ../images/Curriculum---Course-Information-p-1080.avif 1080w, ../images/Curriculum---Course-Information.avif 2524w",
+      "alt": "",
+      "class": "section-image"
+    }
+  ]
+}

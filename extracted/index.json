@@ -1,0 +1,120 @@
+{
+  "source": "index.html",
+  "title": "Welcome to Rosehill College",
+  "metaDescription": "Empowering Year 9-13 students in Auckland to achieve their best. Experience Rosehill College's commitment to academic excellence and personal growth. Visit us today.",
+  "blocks": [
+    {
+      "type": "video",
+      "src": "videos/Website-sizzle-reel_mp4.mp4,videos/Website-sizzle-reel_webm.webm"
+    },
+    {
+      "type": "video",
+      "src": "videos/Website-sizzle-reel_mp4.mp4"
+    },
+    {
+      "type": "video",
+      "src": "videos/Website-sizzle-reel_webm.webm"
+    },
+    {
+      "type": "img",
+      "src": "images/RHC-Official-white-text.svg",
+      "srcset": "",
+      "alt": "",
+      "class": "image-21"
+    },
+    {
+      "type": "p",
+      "text": "MĀ TĀTAU HANGAHANGA AI TE TAIAO HIRANGA",
+      "class": "motto-sub-header"
+    },
+    {
+      "type": "p",
+      "text": "Through living our value we enable our vision: Together we create an environment for personal excellence.",
+      "class": "motto-s"
+    },
+    {
+      "type": "img",
+      "src": "images/Motto.svg",
+      "srcset": "",
+      "alt": "",
+      "class": "image-19"
+    },
+    {
+      "type": "img",
+      "src": "images/RHC-Official-Crest.svg",
+      "srcset": "",
+      "alt": "",
+      "class": "image-4"
+    },
+    {
+      "type": "h2",
+      "text": "Who We Are",
+      "class": "section-heading"
+    },
+    {
+      "type": "embed",
+      "src": "https://www.youtube.com/embed/PE8BcypLTqU?rel=0&controls=1&autoplay=0&mute=0&start=0",
+      "title": "Rosehill College Drone Tour"
+    },
+    {
+      "type": "embed",
+      "src": "https://www.youtube.com/embed/J8NZj3sv5-o?rel=0&controls=1&autoplay=0&mute=0&start=0",
+      "title": "Rosehill College Term 2 2024 Slideshow"
+    },
+    {
+      "type": "embed",
+      "src": "https://www.youtube.com/embed/qqcnKM0j83Y?rel=0&controls=1&autoplay=0&mute=0&start=0",
+      "title": "Rosehill College Term 3 2024 Slideshow"
+    },
+    {
+      "type": "img",
+      "src": "images/School-App-Flyer.avif",
+      "srcset": "images/6788492c6806e8ef1db10541cd612e96_App-flyer-1-p-500.avif 500w, images/6788492c6806e8ef1db10541cd612e96_App-flyer-1-p-800.avif 800w, images/School-App-Flyer.avif 2479w",
+      "alt": "",
+      "class": "app-banner"
+    },
+    {
+      "type": "h2",
+      "text": "Our Latest News",
+      "class": "section-heading"
+    },
+    {
+      "type": "img",
+      "src": "images/Our-Latest-News---Default_1.avif",
+      "srcset": "images/Our-Latest-News---Default_1Our-Latest-News---Default.avif 500w, images/Our-Latest-News---Default_1Our-Latest-News---Default.avif 800w, images/Our-Latest-News---Default_1Our-Latest-News---Default.avif 1080w, images/Our-Latest-News---Default_1Our-Latest-News---Default.avif 1600w, images/Our-Latest-News---Default_1.avif 2000w",
+      "alt": "",
+      "class": "swiper-image"
+    },
+    {
+      "type": "h2",
+      "text": "Explore Our College",
+      "class": "section-heading"
+    },
+    {
+      "type": "img",
+      "src": "images/Landing-Page---Rosehill-Values_1.avif",
+      "srcset": "images/Landing-Page---Rosehill-Values_1Landing-Page---Rosehill-Values.avif 500w, images/Landing-Page---Rosehill-Values_1Landing-Page---Rosehill-Values.avif 800w, images/Landing-Page---Rosehill-Values_1Landing-Page---Rosehill-Values.avif 1080w, images/Landing-Page---Rosehill-Values_1.avif 2304w",
+      "alt": "",
+      "class": "card__image"
+    },
+    {
+      "type": "img",
+      "src": "images/Landing-Page---Life-at-RHC_1.avif",
+      "srcset": "images/Landing-Page---Life-at-RHC_1Landing-Page---Life-at-RHC.avif 500w, images/Landing-Page---Life-at-RHC_1Landing-Page---Life-at-RHC.avif 800w, images/Landing-Page---Life-at-RHC_1Landing-Page---Life-at-RHC.avif 1080w, images/Landing-Page---Life-at-RHC_1.avif 2237w",
+      "alt": "",
+      "class": "card__image"
+    },
+    {
+      "type": "img",
+      "src": "images/Main-Page---Our-History_1.avif",
+      "srcset": "images/Main-Page---Our-History_1Main-Page---Our-History.avif 500w, images/Main-Page---Our-History_1Main-Page---Our-History.avif 800w, images/Main-Page---Our-History_1Main-Page---Our-History.avif 1080w, images/Main-Page---Our-History_1Main-Page---Our-History.avif 1600w, images/Main-Page---Our-History_1.avif 3436w",
+      "alt": "",
+      "class": "card__image"
+    },
+    {
+      "type": "p",
+      "text": "Start Your Journey With Us",
+      "class": "enrolment-header"
+    }
+  ]
+}

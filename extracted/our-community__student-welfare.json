@@ -1,0 +1,143 @@
+{
+  "source": "our-community/student-welfare.html",
+  "title": "Student Welfare",
+  "metaDescription": "Explore the Student Welfare services at Rosehill College, dedicated to supporting the well-being, safety, and development of our students. Our welfare team offers guidance, resources, and a caring environment to help students thrive academically, socially, and emotionally throughout their school journey.",
+  "blocks": [
+    {
+      "type": "div",
+      "text": "Student Welfare At Rosehill College, the well-being of our students is our top priority. Our Student Welfare page provides essential information and resources to support our students in various aspects of their school life. Our Canteen Our Canteen is currently operated by the school to ensure students continue to have access to fresh and affordable food options throughout the day.Our menu includes a variety of hot meals, sandwiches, snacks, and drinks, with options rotating regularly and seasonally to suit student preferences. We aim to provide nutritious and convenient food choices to support student wellbeing and energy levels during the school day.📋 MenuThe menu and price list can be found here.List of allergens can be found here.If you have any inquiries for the canteen, you can email canteen@rosehillcollege.school.nz. Restorative Practice Restorative Practices are best understood as a ‘community response’ to wrong-doing. This involves bringing together all of the people involved in an incident to understand how people have been affected with a focus on putting it right. Why is Rosehill College using this approach? Educators are recognising that Restorative Practices have many advantages over punishment alone. Restorative practices have a focus on people, not rules. Restorative practices give victims a voice about how they want their case to be handled. Restorative practices make students who offend accountable to the people they have hurt.Restorative practices address the root cause of an issue, not just the symptoms.How do Restorative Practices Fit With Our Values?Perfectly! Rosehill College is a community of students, parents and staff – so having a community or hui response to wrong-doing is ideal. Restorative Practices place a priority on protecting relationships and rebuilding them if they become damaged through a harmful incident. Restorative Practices are built upon core values such as Respect, Responsibility and Caring – which match our own values. Student Support Student Support is the department at Rosehill College dedicated to the welfare of students. It is staffed by three full-time counsellors, two full-time nurses and a Kaimanaaki (Māori support) Our three experienced counsellors (Dr Elahe Khaleghian, Ms Phillipa MacCormick and Miss Paula Alontave) are full members of New Zealand Association of Counsellors, receiving regular supervision of their work. They have contact with a wide range of agencies who can also assist with more complicated issues for students. Our registered nurse, Mrs Serena Li, attend to emergencies, general illness and chronic illnesses. Parents are advised to keep their children at home if they are significantly unwell. Our Kaimanaaki (Whāea Pare Matthews) provides general support to Māori students and their whānau. The role of our Kaimanaaki is to provide support that allows Māori students to succeed to their potential. Making Appointments to See Staff at Student Support Students can ‘drop-in’ during break times and may be able to find the person they are wanting to talk to. It is probably best for students to fill in an appointment slip with their details – the counsellor, Kaimanaaki or nurse will send for him/her using a runner. Programmes and Groups There are always speciality support groups running for students. Students should drop in to Student Support to check or just keep an eye on the Daily Notices. Peer Support Programme Dr Khaleghian runs this programme with the support of teaching staff and 100-200 Student Advisors. Student Advisors are trustworthy and friendly seniors from each House who train for two days during the summer holidays. Once trained, the Student Advisors support Year 9s on their first day at school, for all of Term One and beyond. Here are some resources that may help: For depression: www.thelowdown.co.nz and www.depression.org.nz‍Drinking and drugs out of control? www.cads.org.nz",
+      "class": "main"
+    },
+    {
+      "type": "h1",
+      "text": "Student Welfare",
+      "class": "section-heading"
+    },
+    {
+      "type": "p",
+      "text": "At Rosehill College, the well-being of our students is our top priority. Our Student Welfare page provides essential information and resources to support our students in various aspects of their school life.",
+      "class": ""
+    },
+    {
+      "type": "h2",
+      "text": "Our Canteen",
+      "class": "section-heading"
+    },
+    {
+      "type": "link",
+      "href": "../documents/Canteen-Menu.pdf",
+      "text": "here"
+    },
+    {
+      "type": "link",
+      "href": "../documents/Allergens-List.pdf",
+      "text": "here"
+    },
+    {
+      "type": "img",
+      "src": "images/Our-Community---Student-Welfare---Our-Canteen.avif",
+      "srcset": "../images/Our-Community---Student-Welfare---Our-Canteen-p-500.avif 500w, ../images/Our-Community---Student-Welfare---Our-Canteen-p-800.avif 800w, ../images/Our-Community---Student-Welfare---Our-Canteen-p-1080.avif 1080w, ../images/Our-Community---Student-Welfare---Our-Canteen-p-1600.avif 1600w, ../images/Our-Community---Student-Welfare---Our-Canteen.avif 3210w",
+      "alt": "",
+      "class": "section-image"
+    },
+    {
+      "type": "img",
+      "src": "images/Our-Community---Student-Welfare---Restorative-Practice_1.avif",
+      "srcset": "../images/Our-Community---Student-Welfare---Restorative-Practice_1Our-Community---Student-Welfare---Restorative-Practice.avif 500w, ../images/Our-Community---Student-Welfare---Restorative-Practice_1Our-Community---Student-Welfare---Restorative-Practice.avif 800w, ../images/Our-Community---Student-Welfare---Restorative-Practice_1.avif 1300w",
+      "alt": "",
+      "class": "section-image"
+    },
+    {
+      "type": "h2",
+      "text": "Restorative Practice",
+      "class": "section-heading"
+    },
+    {
+      "type": "div",
+      "text": "Restorative Practices are best understood as a ‘community response’ to wrong-doing. This involves bringing together all of the people involved in an incident to understand how people have been affected with a focus on putting it right.",
+      "class": ""
+    },
+    {
+      "type": "h3",
+      "text": "Why is Rosehill College using this approach?",
+      "class": ""
+    },
+    {
+      "type": "div",
+      "text": "Educators are recognising that Restorative Practices have many advantages over punishment alone. Restorative practices have a focus on people, not rules. Restorative practices give victims a voice about how they want their case to be handled. Restorative practices make students who offend accountable to the people they have hurt.Restorative practices address the root cause of an issue, not just the symptoms.How do Restorative Practices Fit With Our Values?Perfectly! Rosehill College is a community of students, parents and staff – so having a community or hui response to wrong-doing is ideal. Restorative Practices place a priority on protecting relationships and rebuilding them if they become damaged through a harmful incident. Restorative Practices are built upon core values such as Respect, Responsibility and Caring – which match our own values.",
+      "class": ""
+    },
+    {
+      "type": "h2",
+      "text": "Student Support",
+      "class": "section-heading"
+    },
+    {
+      "type": "p",
+      "text": "Student Support is the department at Rosehill College dedicated to the welfare of students. It is staffed by three full-time counsellors, two full-time nurses and a Kaimanaaki (Māori support)",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Our three experienced counsellors (Dr Elahe Khaleghian, Ms Phillipa MacCormick and Miss Paula Alontave) are full members of New Zealand Association of Counsellors, receiving regular supervision of their work. They have contact with a wide range of agencies who can also assist with more complicated issues for students.",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Our registered nurse, Mrs Serena Li, attend to emergencies, general illness and chronic illnesses. Parents are advised to keep their children at home if they are significantly unwell.",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Our Kaimanaaki (Whāea Pare Matthews) provides general support to Māori students and their whānau. The role of our Kaimanaaki is to provide support that allows Māori students to succeed to their potential.",
+      "class": ""
+    },
+    {
+      "type": "h4",
+      "text": "Making Appointments to See Staff at Student Support",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Students can ‘drop-in’ during break times and may be able to find the person they are wanting to talk to. It is probably best for students to fill in an appointment slip with their details – the counsellor, Kaimanaaki or nurse will send for him/her using a runner.",
+      "class": ""
+    },
+    {
+      "type": "h4",
+      "text": "Programmes and Groups",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "There are always speciality support groups running for students. Students should drop in to Student Support to check or just keep an eye on the Daily Notices.",
+      "class": ""
+    },
+    {
+      "type": "h4",
+      "text": "Peer Support Programme",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Dr Khaleghian runs this programme with the support of teaching staff and 100-200 Student Advisors. Student Advisors are trustworthy and friendly seniors from each House who train for two days during the summer holidays. Once trained, the Student Advisors support Year 9s on their first day at school, for all of Term One and beyond.",
+      "class": ""
+    },
+    {
+      "type": "h4",
+      "text": "Here are some resources that may help:",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "For depression: www.thelowdown.co.nz and www.depression.org.nz‍Drinking and drugs out of control? www.cads.org.nz",
+      "class": ""
+    },
+    {
+      "type": "img",
+      "src": "images/Our-Community---Student-Welfare---Student-Support_1.avif",
+      "srcset": "../images/Our-Community---Student-Welfare---Student-Support_1Our-Community---Student-Welfare---Student-Support.avif 500w, ../images/Our-Community---Student-Welfare---Student-Support_1Our-Community---Student-Welfare---Student-Support.avif 800w, ../images/Our-Community---Student-Welfare---Student-Support_1Our-Community---Student-Welfare---Student-Support.avif 1080w, ../images/Our-Community---Student-Welfare---Student-Support_1Our-Community---Student-Welfare---Student-Support.avif 1600w, ../images/Our-Community---Student-Welfare---Student-Support_1Our-Community---Student-Welfare---Student-Support.avif 2000w, ../images/Our-Community---Student-Welfare---Student-Support_1Our-Community---Student-Welfare---Student-Support.avif 2600w, ../images/Our-Community---Student-Welfare---Student-Support_1.avif 4911w",
+      "alt": "",
+      "class": "section-image"
+    }
+  ]
+}

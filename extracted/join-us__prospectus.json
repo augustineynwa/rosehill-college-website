@@ -1,0 +1,27 @@
+{
+  "source": "join-us/prospectus.html",
+  "title": "Prospectus",
+  "metaDescription": "Discover the Rosehill College Prospectus, your comprehensive guide to everything our school has to offer. Explore our academic programs, extracurricular activities, values, and facilities to see how Rosehill College can help shape your child's future. Download the prospectus to learn more about our vibrant school community.",
+  "blocks": [
+    {
+      "type": "div",
+      "text": "Prospectus Our prospectus provides an in-depth look at what makes our school a unique and vibrant learning community. Inside, you will find information about our academic programs, co-curricular activities, school culture, and facilities. Discover how we support our students' growth and prepare them for future success.",
+      "class": "main"
+    },
+    {
+      "type": "h1",
+      "text": "Prospectus",
+      "class": "section-heading"
+    },
+    {
+      "type": "div",
+      "text": "Our prospectus provides an in-depth look at what makes our school a unique and vibrant learning community. Inside, you will find information about our academic programs, co-curricular activities, school culture, and facilities. Discover how we support our students' growth and prepare them for future success.",
+      "class": ""
+    },
+    {
+      "type": "embed",
+      "src": "https://online.fliphtml5.com/snsln/jntx/",
+      "title": ""
+    }
+  ]
+}

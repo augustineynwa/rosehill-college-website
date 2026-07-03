@@ -1,0 +1,80 @@
+/**
+ * render.mjs — static page generator.
+ *
+ * content/pages/**\/*.json  (editable content ≈ ACF fields)
+ *   + templates/layouts/*.hbs  (≈ WP template hierarchy: front-page, page, single, archive)
+ *   + templates/partials/*.hbs (≈ WP template parts / ACF flexible-content blocks)
+ *   → <root>/**\/*.html  (Vite multi-page inputs)
+ *
+ * Each page JSON: { layout, path, title, metaDescription, depth-independent
+ * URLs are written with {{root}} so nested pages resolve assets correctly. }
+ */
+import Handlebars from 'handlebars';
+import { readFileSync, writeFileSync, mkdirSync, readdirSync, statSync, rmSync, existsSync } from 'node:fs';
+import { join, dirname, relative } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const ROOT = join(__dirname, '..');
+const TPL = join(ROOT, 'templates');
+const CONTENT = join(ROOT, 'content');
+
+// ---------- helpers ----------
+Handlebars.registerHelper('eq', (a, b) => a === b);
+Handlebars.registerHelper('ne', (a, b) => a !== b);
+Handlebars.registerHelper('or', (a, b) => a || b);
+Handlebars.registerHelper('and', (a, b) => a && b);
+Handlebars.registerHelper('add', (a, b) => Number(a) + Number(b));
+Handlebars.registerHelper('inc', (a) => Number(a) + 1);
+Handlebars.registerHelper('raw', (s) => new Handlebars.SafeString(s ?? ''));
+Handlebars.registerHelper('json', (o) => new Handlebars.SafeString(JSON.stringify(o)));
+Handlebars.registerHelper('pad2', (n) => String(n).padStart(2, '0'));
+// section dispatcher: renders partial "section-<type>" with the section as context
+Handlebars.registerHelper('section', function (sec, options) {
+  const partial = Handlebars.partials['section-' + sec.type];
+  if (!partial) throw new Error(`Unknown section type: ${sec.type}`);
+  const fn = typeof partial === 'string' ? Handlebars.compile(partial) : partial;
+  return new Handlebars.SafeString(fn({ ...sec, root: options.data.root.root, page: options.data.root }, { data: options.data }));
+});
+
+// ---------- load partials ----------
+function walk(dir, ext) {
+  const out = [];
+  if (!existsSync(dir)) return out;
+  for (const e of readdirSync(dir)) {
+    const full = join(dir, e);
+    if (statSync(full).isDirectory()) out.push(...walk(full, ext));
+    else if (e.endsWith(ext)) out.push(full);
+  }
+  return out;
+}
+
+for (const f of walk(join(TPL, 'partials'), '.hbs')) {
+  const name = relative(join(TPL, 'partials'), f).replaceAll('\\', '/').replace(/\.hbs$/, '');
+  Handlebars.registerPartial(name, readFileSync(f, 'utf8'));
+}
+
+const layouts = {};
+for (const f of walk(join(TPL, 'layouts'), '.hbs')) {
+  const name = relative(join(TPL, 'layouts'), f).replaceAll('\\', '/').replace(/\.hbs$/, '');
+  layouts[name] = Handlebars.compile(readFileSync(f, 'utf8'), { preventIndent: true });
+}
+
+// ---------- global site data ----------
+const site = JSON.parse(readFileSync(join(CONTENT, 'site.json'), 'utf8'));
+
+// ---------- render pages ----------
+let count = 0;
+for (const f of walk(join(CONTENT, 'pages'), '.json')) {
+  const page = JSON.parse(readFileSync(f, 'utf8'));
+  const outPath = join(ROOT, page.path);
+  const depth = page.path.split('/').length - 1;
+  const root = depth === 0 ? './' : '../'.repeat(depth);
+  const layout = layouts[page.layout || 'page'];
+  if (!layout) throw new Error(`Unknown layout "${page.layout}" for ${page.path}`);
+  const html = layout({ ...page, site, root });
+  mkdirSync(dirname(outPath), { recursive: true });
+  writeFileSync(outPath, html, 'utf8');
+  count++;
+}
+console.log(`Rendered ${count} pages.`);

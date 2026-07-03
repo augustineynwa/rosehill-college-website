@@ -1,0 +1,81 @@
+{
+  "source": "our-school/our-latest-news.html",
+  "title": "Our Latest News",
+  "metaDescription": "Stay up-to-date with the latest news from Rosehill College! Find important announcements, upcoming events, and highlights from school activities. Whether it’s academic achievements, sports victories, or community initiatives, this page keeps you informed on all the exciting happenings at our school.",
+  "blocks": [
+    {
+      "type": "div",
+      "text": "Our Latest News This is some text inside of a div block. Featured Read More No items found. Featured Read More No items found. All News Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere. Previous 1 ... Next There are no available post matching the current filters. Filter by make All [0] [0] No items found. Thank you! Your submission has been received! Oops! Something went wrong while submitting the form. Items in view: 2 Showing items 1 to 4 of 6",
+      "class": "main"
+    },
+    {
+      "type": "h1",
+      "text": "Our Latest News",
+      "class": "section-heading"
+    },
+    {
+      "type": "div",
+      "text": "This is some text inside of a div block.",
+      "class": "paragraph-20 pad-bottom-0 author-space"
+    },
+    {
+      "type": "link",
+      "href": "#",
+      "text": "Read More"
+    },
+    {
+      "type": "link",
+      "href": "#",
+      "text": "Read More"
+    },
+    {
+      "type": "h2",
+      "text": "All News",
+      "class": "section-heading"
+    },
+    {
+      "type": "img",
+      "src": "images/image.svg",
+      "srcset": "",
+      "alt": "",
+      "class": "blog-listing_image w-dyn-bind-empty"
+    },
+    {
+      "type": "p",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.",
+      "class": "blog-listing_snippet text-style-3lines hidden"
+    },
+    {
+      "type": "link",
+      "href": "#",
+      "text": "1"
+    },
+    {
+      "type": "img",
+      "src": "images/search-disabled-svgrepo-com.svg",
+      "srcset": "",
+      "alt": "",
+      "class": "icon-filter-empty"
+    },
+    {
+      "type": "div",
+      "text": "Thank you! Your submission has been received!",
+      "class": ""
+    },
+    {
+      "type": "div",
+      "text": "Oops! Something went wrong while submitting the form.",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Items in view: 2",
+      "class": "fs-list_results_text hidden"
+    },
+    {
+      "type": "p",
+      "text": "Showing items 1 to 4 of 6",
+      "class": "fs-list_results_text"
+    }
+  ]
+}

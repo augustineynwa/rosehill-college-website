@@ -1,0 +1,354 @@
+{
+  "source": "our-school/our-history.html",
+  "title": "Our History",
+  "metaDescription": "Learn about the rich history of Rosehill College, where tradition and innovation meet. From our founding to present day, discover how our school has evolved and shaped generations of students. Explore our milestones, values, and commitment to excellence in education.",
+  "blocks": [
+    {
+      "type": "img",
+      "src": "images/t4-Randoms-1_1.avif",
+      "srcset": "../images/t4-Randoms-1_1t4-Randoms-1.avif 500w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 800w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 1080w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 1600w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 2000w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 2600w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 3200w, ../images/t4-Randoms-1_1.avif 4591w",
+      "alt": "",
+      "class": "hero-image"
+    },
+    {
+      "type": "div",
+      "text": "Our History 1970 First Day of attendance, 3rd February First tennis courts 1970 Canteen opened in A Block Walkathon fundraiser 20 miles First Board of Governors elected 1975 First Form 7 Tender for Gymnasium $96,323 Des Hunt first Board Staff representative Girls’ Cricket unbeaten 1984 Eric Jerkovich retired Computer suite opened in B12 Polynesian group formed Senior Water Polo Team won North Island Championship Golf Team Auckland Championship 1996 Kapa Haka Whaea Mereana Herangi Tutor Kapa Haka 1st for best dressed at SS Maori Festival Chris Ormandy 1st in Double Mini Tramp World Age Championship First Cultural Day 2000 New Canteen opened College zone created Richard Beal Dux (Rhodes Scholar 2005) Matua Jim Smith appointed first Kaimanaaki PM Helen Clark opened Drama, Music and Canteen facilities Teacher Tina Bell-Kate, NZ Olympic Hockey team Teacher Neisha Pratt, NZ Women’s Indoor Cricket World Cup team 2008 Gymnasium/Sports Centre completed Kapa Haka won Moteatea-Kia Mohio Kia Rangatiri Trophy at Polyfest Teachers Dave and Lyndon Ormandy left after 22 years Year 9 and 10 teams won Counties Manukau Mathex Competition 2015 Concert band received Silver Award at KBB Music Festival Rugby 1st XV learned new Haka gifted by Ku Tirakatene Tardis built for build-ability challenge Tour Band performed on the Great Wall of China 2019 Governor-General Dame Patsy Reddy opened ‘Rising Foundation’ building Five Showdown nominations for drama teacher Stacey Harrison Alyssa Harrison won NZSS Rider at Eventing Champs Dylan Naera selected NZ U15 Badminton squad PM Jacinda Ardern visited Te Whare Kimiora Student Support Centre",
+      "class": "main no-padding"
+    },
+    {
+      "type": "h1",
+      "text": "Our History",
+      "class": "section-heading our-history"
+    },
+    {
+      "type": "li",
+      "text": "First Day of attendance, 3rd February",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "First tennis courts 1970",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Canteen opened in A Block",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Walkathon fundraiser 20 miles",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "First Board of Governors elected",
+      "class": ""
+    },
+    {
+      "type": "img",
+      "src": "images/Our-School---Our-History---1970_1.avif",
+      "srcset": "",
+      "alt": "",
+      "class": "rounded-corners"
+    },
+    {
+      "type": "li",
+      "text": "First Form 7",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Tender for Gymnasium $96,323",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Des Hunt first Board Staff representative",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Girls’ Cricket unbeaten",
+      "class": ""
+    },
+    {
+      "type": "img",
+      "src": "images/Our-School---Our-History---02_1.avif",
+      "srcset": "../images/Our-School---Our-History---02_1Our-School---Our-History---02.avif 500w, ../images/Our-School---Our-History---02_1Our-School---Our-History---02.avif 800w, ../images/Our-School---Our-History---02_1Our-School---Our-History---02.avif 1080w, ../images/Our-School---Our-History---02_1Our-School---Our-History---02.avif 1600w, ../images/Our-School---Our-History---02_1Our-School---Our-History---02.avif 2000w, ../images/Our-School---Our-History---02_1.avif 3685w",
+      "alt": "",
+      "class": "rounded-corners"
+    },
+    {
+      "type": "li",
+      "text": "Eric Jerkovich retired",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Computer suite opened in B12",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Polynesian group formed",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Senior Water Polo Team won North Island Championship",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Golf Team Auckland Championship",
+      "class": ""
+    },
+    {
+      "type": "img",
+      "src": "images/Our-School---Our-History---1984.avif",
+      "srcset": "../images/Our-School---Our-History---1984-p-500.jpg 500w, ../images/Our-School---Our-History---1984-p-800.jpg 800w, ../images/Our-School---Our-History---1984-p-1080.jpg 1080w, ../images/Our-School---Our-History---1984.avif 1856w",
+      "alt": "",
+      "class": "rounded-corners"
+    },
+    {
+      "type": "li",
+      "text": "Kapa Haka Whaea Mereana Herangi Tutor",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Kapa Haka 1st for best dressed at SS Maori Festival",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Chris Ormandy 1st in Double Mini Tramp World Age Championship",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "First Cultural Day",
+      "class": ""
+    },
+    {
+      "type": "img",
+      "src": "images/Our-School---Our-History---1996_1.avif",
+      "srcset": "../images/Our-School---Our-History---1996_1Our-School---Our-History---1996.avif 500w, ../images/Our-School---Our-History---1996_1.avif 977w",
+      "alt": "",
+      "class": "rounded-corners"
+    },
+    {
+      "type": "li",
+      "text": "New Canteen opened",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "College zone created",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Richard Beal Dux (Rhodes Scholar 2005)",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Matua Jim Smith appointed first Kaimanaaki",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "PM Helen Clark opened Drama, Music and Canteen facilities",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Teacher Tina Bell-Kate, NZ Olympic Hockey team",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Teacher Neisha Pratt, NZ Women’s Indoor Cricket World Cup team",
+      "class": ""
+    },
+    {
+      "type": "img",
+      "src": "images/Our-School---Our-History---2000_1.avif",
+      "srcset": "../images/Our-School---Our-History---2000_1Our-School---Our-History---2000.avif 500w, ../images/Our-School---Our-History---2000_1.avif 1093w",
+      "alt": "",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Gymnasium/Sports Centre completed",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Kapa Haka won Moteatea-Kia Mohio Kia Rangatiri Trophy at Polyfest",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Teachers Dave and Lyndon Ormandy left after 22 years",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Year 9 and 10 teams won Counties Manukau Mathex Competition",
+      "class": ""
+    },
+    {
+      "type": "img",
+      "src": "images/Our-School---Our-History---2008_1.avif",
+      "srcset": "../images/Our-School---Our-History---2008_1Our-School---Our-History---2008.avif 500w, ../images/Our-School---Our-History---2008_1Our-School---Our-History---2008.avif 800w, ../images/Our-School---Our-History---2008_1Our-School---Our-History---2008.avif 1080w, ../images/Our-School---Our-History---2008_1.avif 2382w",
+      "alt": "",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Concert band received Silver Award at KBB Music Festival",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Rugby 1st XV learned new Haka gifted by Ku Tirakatene",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Tardis built for build-ability challenge",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Tour Band performed on the Great Wall of China",
+      "class": ""
+    },
+    {
+      "type": "img",
+      "src": "images/Our-School---Our-History---2015_1.avif",
+      "srcset": "../images/Our-School---Our-History---2015_1Our-School---Our-History---2015.avif 500w, ../images/Our-School---Our-History---2015_1.avif 981w",
+      "alt": "",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Governor-General Dame Patsy Reddy opened ‘Rising Foundation’ building",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Five Showdown nominations for drama teacher Stacey Harrison",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Alyssa Harrison won NZSS Rider at Eventing Champs",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Dylan Naera selected NZ U15 Badminton squad",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "PM Jacinda Ardern visited Te Whare Kimiora Student Support Centre",
+      "class": ""
+    },
+    {
+      "type": "img",
+      "src": "images/Our-School---Our-History---2019---2_1.avif",
+      "srcset": "",
+      "alt": "",
+      "class": ""
+    },
+    {
+      "type": "img",
+      "src": "images/Our-School---Our-History---List---1.avif",
+      "srcset": "../images/Our-School---Our-History---List---1-p-500.avif 500w, ../images/Our-School---Our-History---List---1-p-800.avif 800w, ../images/Our-School---Our-History---List---1-p-1080.avif 1080w, ../images/Our-School---Our-History---List---1-p-1600.avif 1600w, ../images/Our-School---Our-History---List---1-p-2000.avif 2000w, ../images/Our-School---Our-History---List---1-p-2600.avif 2600w, ../images/Our-School---Our-History---List---1-p-3200.avif 3200w, ../images/Our-School---Our-History---List---1.avif 7615w",
+      "alt": "",
+      "class": "card__image"
+    },
+    {
+      "type": "img",
+      "src": "images/Our-School---Our-History---List---2_1.avif",
+      "srcset": "../images/Our-School---Our-History---List---2_1Our-School---Our-History---List---2.avif 500w, ../images/Our-School---Our-History---List---2_1Our-School---Our-History---List---2.avif 800w, ../images/Our-School---Our-History---List---2_1Our-School---Our-History---List---2.avif 1080w, ../images/Our-School---Our-History---List---2_1Our-School---Our-History---List---2.avif 1600w, ../images/Our-School---Our-History---List---2_1Our-School---Our-History---List---2.avif 2000w, ../images/Our-School---Our-History---List---2_1.avif 3726w",
+      "alt": "",
+      "class": "card__image"
+    },
+    {
+      "type": "img",
+      "src": "images/Our-School---Our-History---List---3_1.avif",
+      "srcset": "../images/Our-School---Our-History---List---3_1Our-School---Our-History---List---3.avif 500w, ../images/Our-School---Our-History---List---3_1Our-School---Our-History---List---3.avif 800w, ../images/Our-School---Our-History---List---3_1Our-School---Our-History---List---3.avif 1080w, ../images/Our-School---Our-History---List---3_1.avif 1920w",
+      "alt": "",
+      "class": "card__image"
+    },
+    {
+      "type": "img",
+      "src": "images/Our-School---Our-History---List-4_1.avif",
+      "srcset": "../images/Our-School---Our-History---List-4_1Our-School---Our-History---List-4.avif 500w, ../images/Our-School---Our-History---List-4_1Our-School---Our-History---List-4.avif 800w, ../images/Our-School---Our-History---List-4_1.avif 2042w",
+      "alt": "",
+      "class": "card__image"
+    },
+    {
+      "type": "img",
+      "src": "images/Our-School---Our-History---List-5_1.avif",
+      "srcset": "../images/Our-School---Our-History---List-5_1Our-School---Our-History---List-5.avif 500w, ../images/Our-School---Our-History---List-5_1Our-School---Our-History---List-5.avif 800w, ../images/Our-School---Our-History---List-5_1Our-School---Our-History---List-5.avif 1080w, ../images/Our-School---Our-History---List-5_1.avif 2387w",
+      "alt": "",
+      "class": "card__image"
+    },
+    {
+      "type": "img",
+      "src": "images/Our-School---Our-History---List-6_1.avif",
+      "srcset": "../images/Our-School---Our-History---List-6_1Our-School---Our-History---List-6.avif 500w, ../images/Our-School---Our-History---List-6_1Our-School---Our-History---List-6.avif 800w, ../images/Our-School---Our-History---List-6_1.avif 1796w",
+      "alt": "",
+      "class": "card__image"
+    },
+    {
+      "type": "img",
+      "src": "images/Our-School---Our-History---List-7_1.avif",
+      "srcset": "../images/Our-School---Our-History---List-7_1Our-School---Our-History---List-7.avif 500w, ../images/Our-School---Our-History---List-7_1Our-School---Our-History---List-7.avif 800w, ../images/Our-School---Our-History---List-7_1.avif 1761w",
+      "alt": "",
+      "class": "card__image"
+    },
+    {
+      "type": "img",
+      "src": "images/Our-School---Our-History---List-8_1.avif",
+      "srcset": "../images/Our-School---Our-History---List-8_1Our-School---Our-History---List-8.avif 500w, ../images/Our-School---Our-History---List-8_1Our-School---Our-History---List-8.avif 800w, ../images/Our-School---Our-History---List-8_1Our-School---Our-History---List-8.avif 1080w, ../images/Our-School---Our-History---List-8_1.avif 1980w",
+      "alt": "",
+      "class": "card__image"
+    },
+    {
+      "type": "img",
+      "src": "images/Our-School---Our-History---List-9.avif",
+      "srcset": "../images/Our-School---Our-History---List-9-p-500.avif 500w, ../images/Our-School---Our-History---List-9-p-800.avif 800w, ../images/Our-School---Our-History---List-9-p-1080.avif 1080w, ../images/Our-School---Our-History---List-9-p-1600.avif 1600w, ../images/Our-School---Our-History---List-9-p-2000.avif 2000w, ../images/Our-School---Our-History---List-9.avif 4412w",
+      "alt": "",
+      "class": "card__image"
+    },
+    {
+      "type": "img",
+      "src": "images/Our-School---Our-History---List-10_1.avif",
+      "srcset": "../images/Our-School---Our-History---List-10_1Our-School---Our-History---List-10.avif 500w, ../images/Our-School---Our-History---List-10_1Our-School---Our-History---List-10.avif 800w, ../images/Our-School---Our-History---List-10_1.avif 1753w",
+      "alt": "",
+      "class": "card__image"
+    },
+    {
+      "type": "img",
+      "src": "images/Our-School---Our-History---List-11_1.avif",
+      "srcset": "../images/Our-School---Our-History---List-11_1Our-School---Our-History---List-11.avif 500w, ../images/Our-School---Our-History---List-11_1Our-School---Our-History---List-11.avif 800w, ../images/Our-School---Our-History---List-11_1Our-School---Our-History---List-11.avif 1080w, ../images/Our-School---Our-History---List-11_1.avif 1853w",
+      "alt": "",
+      "class": "card__image"
+    },
+    {
+      "type": "img",
+      "src": "images/Our-School---Our-History---List-12.avif",
+      "srcset": "",
+      "alt": "",
+      "class": "card__image"
+    }
+  ]
+}

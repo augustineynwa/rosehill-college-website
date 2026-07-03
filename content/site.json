@@ -1,0 +1,100 @@
+{
+  "name": "Rosehill College",
+  "motto": "Mā tātau hangahanga ai te taiao hiranga",
+  "vision": "Together we create an environment for personal excellence",
+  "address": {
+    "physical": ["5 Edinburgh Avenue,", "Rosehill,", "Papakura 2113,", "New Zealand"],
+    "postal": ["PO Box 72546,", "Papakura 2244,", "New Zealand"]
+  },
+  "contact": {
+    "phone": "+64 9 295 0661",
+    "phoneHref": "tel:+6492950661",
+    "fax": "+64 9 295 0699",
+    "email": "inquiries@rosehillcollege.school.nz",
+    "attendanceEmail": "attendance@rosehillcollege.school.nz",
+    "attendancePhone": "0800 722 929",
+    "attendancePhoneHref": "tel:0800722929"
+  },
+  "external": {
+    "myRhc": "my-rhc.html",
+    "schoolApp": "https://rosehillcollege.bridge.school.nz/app",
+    "adultEducation": "https://www.rosehilladultlearn.co.nz/",
+    "facebook": "https://www.facebook.com/rosehillcollegeofficial/",
+    "instagram": "https://www.instagram.com/rosehillcollegeofficial/"
+  },
+  "nav": [
+    {
+      "label": "Our School",
+      "children": [
+        { "label": "Principal's Message", "href": "our-school/principals-message.html" },
+        { "label": "About Us", "href": "our-school/about-us.html" },
+        { "label": "Life at Rosehill College", "href": "our-school/life-at-rosehill-college.html" },
+        { "label": "Our History", "href": "our-school/our-history.html" },
+        { "label": "Our Latest News", "href": "our-school/our-latest-news.html" },
+        { "label": "Start of School Information", "href": "our-school/start-of-school-information.html" },
+        { "label": "Term Dates", "href": "our-school/term-dates.html" },
+        { "label": "Yearbook", "href": "our-school/yearbook.html" }
+      ]
+    },
+    {
+      "label": "Our Community",
+      "children": [
+        { "label": "Our Staff", "href": "our-community/our-staff.html" },
+        { "label": "Our Student Leaders", "href": "our-community/our-student-leaders.html" },
+        { "label": "Our Board", "href": "our-community/our-board.html" },
+        { "label": "Student Welfare", "href": "our-community/student-welfare.html" },
+        { "label": "Community Outreach", "href": "our-community/community-outreach.html" },
+        { "label": "Adult & Community Education", "href": "https://www.rosehilladultlearn.co.nz/", "external": true }
+      ]
+    },
+    {
+      "label": "Curriculum",
+      "children": [
+        { "label": "Our Rosehill College Way", "href": "curriculum/our-rosehill-college-way.html" },
+        { "label": "Course Information", "href": "curriculum/course-information.html" },
+        { "label": "Year 9 SMART Assessment", "href": "curriculum/year-9-smart-assessment.html" },
+        { "label": "Junior Diploma", "href": "curriculum/junior-diploma.html" },
+        { "label": "Digital Learning and BYOD", "href": "curriculum/digital-learning-and-byod.html" },
+        { "label": "Mobile Phone Policy", "href": "curriculum/mobile-phone-policy.html" },
+        { "label": "Education Outside the Classroom", "href": "curriculum/education-outside-the-classroom.html" }
+      ]
+    },
+    {
+      "label": "Co-Curricular",
+      "children": [
+        { "label": "Sports", "href": "cocurricular/sports.html" },
+        { "label": "Careers at Rosehill College", "href": "cocurricular/careers-at-rosehill-college.html" }
+      ]
+    },
+    {
+      "label": "Join Us",
+      "children": [
+        { "label": "Enrolment", "href": "join-us/enrolment.html" },
+        { "label": "Uniform & Stationery", "href": "join-us/uniform-and-stationery.html" },
+        { "label": "School Zone & Buses", "href": "join-us/school-zone-and-buses.html" },
+        { "label": "Prospectus", "href": "join-us/prospectus.html" },
+        { "label": "School Policies", "href": "join-us/school-policies.html" },
+        { "label": "Staff Vacancies", "href": "join-us/staff-vacancies.html" }
+      ]
+    },
+    {
+      "label": "International",
+      "children": [
+        { "label": "Why Study at Rosehill?", "href": "international-students/why-study-at-rosehill.html" },
+        { "label": "Applying & NZ Arrival Information", "href": "international-students/applying-nz-arrival-information.html" },
+        { "label": "Fees & Policies", "href": "international-students/fees-policies.html" },
+        { "label": "Living in Aotearoa", "href": "international-students/living-in-aotearoa.html" },
+        { "label": "Curriculum", "href": "international-students/curriculum.html" },
+        { "label": "Students' Voices", "href": "international-students/students-voices.html" }
+      ]
+    },
+    { "label": "Contact Us", "href": "contact-us.html" }
+  ],
+  "footerLinks": [
+    { "label": "Term Dates", "href": "our-school/term-dates.html" },
+    { "label": "School Buses", "href": "join-us/school-zone-and-buses.html" },
+    { "label": "Enrolment", "href": "join-us/enrolment.html" },
+    { "label": "Contact Us", "href": "contact-us.html" }
+  ],
+  "copyright": "© 2026 Rosehill College. Designed in partnership with Astravisual"
+}

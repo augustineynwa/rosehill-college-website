@@ -1,0 +1,358 @@
+{
+  "source": "our-community/our-board.html",
+  "title": "Our Board",
+  "metaDescription": "Learn about the Rosehill College Board of Trustees, a dedicated group of community and school representatives who guide our vision and ensure a high-quality educational experience. Meet the board members who oversee governance, support our goals, and uphold the values that make Rosehill College exceptional.",
+  "blocks": [
+    {
+      "type": "img",
+      "src": "images/t4-Randoms-1_1.avif",
+      "srcset": "../images/t4-Randoms-1_1t4-Randoms-1.avif 500w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 800w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 1080w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 1600w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 2000w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 2600w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 3200w, ../images/t4-Randoms-1_1.avif 4591w",
+      "alt": "",
+      "class": "hero-image"
+    },
+    {
+      "type": "div",
+      "text": "The Rosehill College Board Established under the Education Act 2020, the Board is the controlling authority of the school. The Board has responsibility for: 5 members by parents of the College pupils. 1 member elected by staff. 1 member elected by students. Up to 4 members who may be co-opted onto the Board. The Board elects a Presiding Member and Deputy Presiding Member from amongst its own members. The constitution of the Board provides for: Control and management of the school. Appointment and suspension of teachers and other staff. Maintenance of grounds, buildings services and equipment. Expenditure of the finance allocated to the school by way of bulk funding. Suspension and exclusion of pupils. Any correspondence can be emailed to board@rosehillcollege.school.nz. Rosehill College Annual Statements and Reports  Rosehill College Annual Financial Statement 2024  Redacted Rosehill College Annual Report 2022  ERO Report  Rosehill College Annual Plan 2025  Rosehill College Strategic Plan Meeting Dates 2026 Board Meetings Dates January Wednesday 28 January February Wednesday 25 February March Wednesday 25 March April Wednesday 29 April - Board and HOF Review May Wednesday 27 May June Wednesday 24 June July Wednesday 29 July August Wednesday 26 August September Wednesday 23 September October Wednesday 28 October November Wednesday 25 November December Tuesday 8 December - Board PD (TBC) Board Members  Mrs Davida Suasua - Principal  Mrs Claire Knapp – Presiding Member  Mrs Desna Subritzky – Deputy Presiding Member  Ms Janet Herst – Minute Secretary  Ms Janine Sorensen – Staff Representative  Mr Jarrod Mackenzie  Ms Gabrielle Wichman-Heremain  Miss Catherine Vea – Student Representative  Mr DJ Govender  Mrs Anna Scanlan Board Meeting Minutes The Rosehill College Board is committed to transparency and keeping our school community informed. Minutes from Board meetings are made available for public viewing once they have been confirmed at the subsequent meeting. Please note that any confidential or sensitive matters discussed in public-excluded sessions will not be published. 28 January 2026 25 February 2026 25 March 2026",
+      "class": "main no-padding"
+    },
+    {
+      "type": "h1",
+      "text": "The Rosehill College Board",
+      "class": "section-heading"
+    },
+    {
+      "type": "p",
+      "text": "Established under the Education Act 2020, the Board is the controlling authority of the school. The Board has responsibility for:",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "5 members by parents of the College pupils.",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "1 member elected by staff.",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "1 member elected by students.",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Up to 4 members who may be co-opted onto the Board.",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "The Board elects a Presiding Member and Deputy Presiding Member from amongst its own members.",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "The constitution of the Board provides for:",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Control and management of the school.",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Appointment and suspension of teachers and other staff.",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Maintenance of grounds, buildings services and equipment.",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Expenditure of the finance allocated to the school by way of bulk funding.",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Suspension and exclusion of pupils.",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Any correspondence can be emailed to board@rosehillcollege.school.nz.",
+      "class": ""
+    },
+    {
+      "type": "h3",
+      "text": "Rosehill College Annual Statements and Reports",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": " Rosehill College Annual Financial Statement 2024",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": " Redacted Rosehill College Annual Report 2022",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": " ERO Report",
+      "class": ""
+    },
+    {
+      "type": "link",
+      "href": "../documents/Rosehill-College-Annual-Plan-2025.pdf",
+      "text": " Rosehill College Annual Plan 2025"
+    },
+    {
+      "type": "div",
+      "text": " Rosehill College Annual Plan 2025",
+      "class": ""
+    },
+    {
+      "type": "link",
+      "href": "../documents/Rosehill-College-Strategic-Plan.pdf",
+      "text": " Rosehill College Strategic Plan"
+    },
+    {
+      "type": "div",
+      "text": " Rosehill College Strategic Plan",
+      "class": ""
+    },
+    {
+      "type": "img",
+      "src": "images/Our-Community---Our-Board---Meeting-Dates.avif",
+      "srcset": "../images/Our-Community---Our-Board---Meeting-Dates-p-500.avif 500w, ../images/Our-Community---Our-Board---Meeting-Dates-p-800.avif 800w, ../images/Our-Community---Our-Board---Meeting-Dates-p-1080.avif 1080w, ../images/Our-Community---Our-Board---Meeting-Dates-p-1600.avif 1600w, ../images/Our-Community---Our-Board---Meeting-Dates.avif 3203w",
+      "alt": "Rosehill College",
+      "class": "section-image"
+    },
+    {
+      "type": "h2",
+      "text": "Meeting Dates",
+      "class": "section-heading"
+    },
+    {
+      "type": "p",
+      "text": "2026 Board Meetings Dates",
+      "class": "board-grid-header"
+    },
+    {
+      "type": "p",
+      "text": "January",
+      "class": "board-grid-text"
+    },
+    {
+      "type": "p",
+      "text": "Wednesday 28 January",
+      "class": "board-grid-text"
+    },
+    {
+      "type": "p",
+      "text": "February",
+      "class": "board-grid-text"
+    },
+    {
+      "type": "p",
+      "text": "Wednesday 25 February",
+      "class": "board-grid-text"
+    },
+    {
+      "type": "p",
+      "text": "March",
+      "class": "board-grid-text"
+    },
+    {
+      "type": "p",
+      "text": "Wednesday 25 March",
+      "class": "board-grid-text"
+    },
+    {
+      "type": "p",
+      "text": "April",
+      "class": "board-grid-text"
+    },
+    {
+      "type": "p",
+      "text": "Wednesday 29 April - Board and HOF Review",
+      "class": "board-grid-text"
+    },
+    {
+      "type": "p",
+      "text": "May",
+      "class": "board-grid-text"
+    },
+    {
+      "type": "p",
+      "text": "Wednesday 27 May",
+      "class": "board-grid-text"
+    },
+    {
+      "type": "p",
+      "text": "June",
+      "class": "board-grid-text"
+    },
+    {
+      "type": "p",
+      "text": "Wednesday 24 June",
+      "class": "board-grid-text"
+    },
+    {
+      "type": "p",
+      "text": "July",
+      "class": "board-grid-text"
+    },
+    {
+      "type": "p",
+      "text": "Wednesday 29 July",
+      "class": "board-grid-text"
+    },
+    {
+      "type": "p",
+      "text": "August",
+      "class": "board-grid-text"
+    },
+    {
+      "type": "p",
+      "text": "Wednesday 26 August",
+      "class": "board-grid-text"
+    },
+    {
+      "type": "p",
+      "text": "September",
+      "class": "board-grid-text"
+    },
+    {
+      "type": "p",
+      "text": "Wednesday 23 September",
+      "class": "board-grid-text"
+    },
+    {
+      "type": "p",
+      "text": "October",
+      "class": "board-grid-text"
+    },
+    {
+      "type": "p",
+      "text": "Wednesday 28 October",
+      "class": "board-grid-text"
+    },
+    {
+      "type": "p",
+      "text": "November",
+      "class": "board-grid-text"
+    },
+    {
+      "type": "p",
+      "text": "Wednesday 25 November",
+      "class": "board-grid-text"
+    },
+    {
+      "type": "p",
+      "text": "December",
+      "class": "board-grid-text"
+    },
+    {
+      "type": "p",
+      "text": "Tuesday 8 December - Board PD (TBC)",
+      "class": "board-grid-text"
+    },
+    {
+      "type": "h2",
+      "text": "Board Members",
+      "class": "section-heading"
+    },
+    {
+      "type": "p",
+      "text": " Mrs Davida Suasua - Principal",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": " Mrs Claire Knapp – Presiding Member",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": " Mrs Desna Subritzky – Deputy Presiding Member",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": " Ms Janet Herst – Minute Secretary",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": " Ms Janine Sorensen – Staff Representative",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": " Mr Jarrod Mackenzie",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": " Ms Gabrielle Wichman-Heremain",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": " Miss Catherine Vea – Student Representative",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": " Mr DJ Govender",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": " Mrs Anna Scanlan",
+      "class": ""
+    },
+    {
+      "type": "img",
+      "src": "images/Our-Community---Our-Board---Board-Members_1.avif",
+      "srcset": "../images/Our-Community---Our-Board---Board-Members_1Our-Community---Our-Board---Board-Members.avif 500w, ../images/Our-Community---Our-Board---Board-Members_1Our-Community---Our-Board---Board-Members.avif 800w, ../images/Our-Community---Our-Board---Board-Members_1Our-Community---Our-Board---Board-Members.avif 1080w, ../images/Our-Community---Our-Board---Board-Members_1Our-Community---Our-Board---Board-Members.avif 1600w, ../images/Our-Community---Our-Board---Board-Members_1.avif 4593w",
+      "alt": "Rosehill College",
+      "class": "section-image"
+    },
+    {
+      "type": "h2",
+      "text": "Board Meeting Minutes",
+      "class": "section-heading"
+    },
+    {
+      "type": "p",
+      "text": "The Rosehill College Board is committed to transparency and keeping our school community informed. Minutes from Board meetings are made available for public viewing once they have been confirmed at the subsequent meeting.",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Please note that any confidential or sensitive matters discussed in public-excluded sessions will not be published.",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "28 January 2026",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "25 February 2026",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "25 March 2026",
+      "class": ""
+    }
+  ]
+}

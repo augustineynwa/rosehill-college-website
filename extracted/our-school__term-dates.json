@@ -1,0 +1,162 @@
+{
+  "source": "our-school/term-dates.html",
+  "title": "Term Dates",
+  "metaDescription": "Find the full list of term dates for Rosehill College to help plan your year. Stay informed about the start and end dates for each term, as well as key holidays and breaks. Keep track of important dates and ensure you're prepared for the school year ahead.",
+  "blocks": [
+    {
+      "type": "div",
+      "text": "Term Dates 2026 Stay informed with the scheduled dates for the year 2026. Please note that these dates are subject to change based on school administration planning and any directives issued by the Ministry of Education. We recommend checking back regularly for the most up-to-date information.  Monday 4 May — Patapatai/Parent-Teacher Interviews 1.30pm - 6pm (Early finish - 12.50pm)  Friday 15 May — Pink Shirt Day  Monday 18 May to Friday 29 May — CAA Exams  Saturday 4 July — School Ball Term 1 Monday 2 February – Thursday 2 April  Waitangi Day — Friday 6 February  Good Friday — Friday 3 April Term 2 Monday 20 April – Friday 3 July  Anzac Day — Monday 27 April  King’s Birthday — Monday 1 June  Teacher-only Day — Tuesday 2 June Term 3 Monday 20 July – Friday 25 September  Teacher-only Day — TBC Term 4 Monday 12 October – Wednesday 9 December  Labour Day — Monday 26 October Bell Times Monday, Wednesday, Thursday, and Friday Tuesday First Bell 8:45am First Bell 9:40am Period 1 8:50 – 9:40am No Period 1 Period 2 9:45 – 10:30am Period 2 9:45 – 10:30am Interval 10:30 – 11:10am Interval 10:30 – 11:10am Period 3 11:10 – 12:00pm Period 3 11:10 – 12:00pm Period 4 12:05 – 12:50pm Period 4 12:05 – 12:50pm Lunch 12:50 – 1:30pm Lunch 12:50 – 1:30pm Period 5 1:30 – 2:20pm Period 5 1:30 – 2:20pm Period 6 2:25 – 3:10pm Period 6 2:25 – 3:10pm Monday, Wednesday, Thursday, and Friday First Bell Period 1 Period 2 Interval Period 3 Period 4 Lunch Period 5 Period 6 Tuesday First Bell No Period 1 Period 2 Interval Period 3 Period 4 Lunch Period 5 Period 6 8:45am 8:50 – 9:40am 9:45 – 10:30am 10:30 – 11:10am 11:10 – 12:00pm 12:05 – 12:50pm 12:50 – 1:30pm 1:30 – 2:20pm 2:25 – 3:10pm 9:40am 9:45 – 10:30am 10:30 – 11:10am 11:10 – 12:00pm 12:05 – 12:50pm 12:50 – 1:30pm 1:30 – 2:20pm 2:25 – 3:10pm Rosehill College Calendar Calendar Key Dates",
+      "class": "main"
+    },
+    {
+      "type": "h1",
+      "text": "Term Dates 2026",
+      "class": "section-heading"
+    },
+    {
+      "type": "p",
+      "text": "Stay informed with the scheduled dates for the year 2026. Please note that these dates are subject to change based on school administration planning and any directives issued by the Ministry of Education. We recommend checking back regularly for the most up-to-date information.",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": " Monday 4 May — Patapatai/Parent-Teacher Interviews 1.30pm - 6pm (Early finish - 12.50pm)",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": " Friday 15 May — Pink Shirt Day",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": " Monday 18 May to Friday 29 May — CAA Exams",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": " Saturday 4 July — School Ball",
+      "class": ""
+    },
+    {
+      "type": "h3",
+      "text": "Term 1",
+      "class": "term-card__header"
+    },
+    {
+      "type": "h4",
+      "text": "Monday 2 February – Thursday 2 April",
+      "class": "term-card__sub-header"
+    },
+    {
+      "type": "li",
+      "text": " Waitangi Day — Friday 6 February",
+      "class": ""
+    },
+    {
+      "type": "div",
+      "text": " Waitangi Day — Friday 6 February",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": " Good Friday — Friday 3 April",
+      "class": ""
+    },
+    {
+      "type": "div",
+      "text": " Good Friday — Friday 3 April",
+      "class": ""
+    },
+    {
+      "type": "h3",
+      "text": "Term 2",
+      "class": "term-card__header"
+    },
+    {
+      "type": "h4",
+      "text": "Monday 20 April – Friday 3 July",
+      "class": "term-card__sub-header"
+    },
+    {
+      "type": "li",
+      "text": " Anzac Day — Monday 27 April",
+      "class": ""
+    },
+    {
+      "type": "div",
+      "text": " Anzac Day — Monday 27 April",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": " King’s Birthday — Monday 1 June",
+      "class": ""
+    },
+    {
+      "type": "div",
+      "text": " King’s Birthday — Monday 1 June",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": " Teacher-only Day — Tuesday 2 June",
+      "class": ""
+    },
+    {
+      "type": "div",
+      "text": " Teacher-only Day — Tuesday 2 June",
+      "class": ""
+    },
+    {
+      "type": "h3",
+      "text": "Term 3",
+      "class": "term-card__header"
+    },
+    {
+      "type": "h4",
+      "text": "Monday 20 July – Friday 25 September",
+      "class": "term-card__sub-header"
+    },
+    {
+      "type": "li",
+      "text": " Teacher-only Day — TBC",
+      "class": ""
+    },
+    {
+      "type": "h3",
+      "text": "Term 4",
+      "class": "term-card__header"
+    },
+    {
+      "type": "h4",
+      "text": "Monday 12 October – Wednesday 9 December",
+      "class": "term-card__sub-header"
+    },
+    {
+      "type": "li",
+      "text": " Labour Day — Monday 26 October",
+      "class": ""
+    },
+    {
+      "type": "div",
+      "text": " Labour Day — Monday 26 October",
+      "class": ""
+    },
+    {
+      "type": "h2",
+      "text": "Bell Times",
+      "class": "section-heading"
+    },
+    {
+      "type": "div",
+      "text": "Monday, Wednesday, Thursday, and Friday",
+      "class": "bell-times-text"
+    },
+    {
+      "type": "h2",
+      "text": "Rosehill College Calendar",
+      "class": "section-heading"
+    }
+  ]
+}

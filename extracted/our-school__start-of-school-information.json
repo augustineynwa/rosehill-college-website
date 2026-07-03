@@ -1,0 +1,273 @@
+{
+  "source": "our-school/start-of-school-information.html",
+  "title": "Start of School Information",
+  "metaDescription": "Term Dates, Daily Times, Student Handbook, School Buses, School Map, Year 10 Camp, Rosehill College Way, Start of Year Letter to Parents, Stationery List, Uniform, BYOD",
+  "blocks": [
+    {
+      "type": "div",
+      "text": "Start of School Information Start Dates 2025 Term Dates Rosehill College Way Daily Times Start of Year Letter to Parents 2026 Student Handbook Stationery List 2026 School Buses Uniform School Map BYOD Year 10 Camps You may order your stationery online at Officemax Ordering. Year 9 Year 10 Year 11 Year 12 Year 13 Back",
+      "class": "main"
+    },
+    {
+      "type": "h1",
+      "text": "Start of School Information",
+      "class": "section-heading start-of-school"
+    },
+    {
+      "type": "img",
+      "src": "images/calendar-svgrepo-com.svg",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "Start Dates 2025",
+      "class": "tile-text"
+    },
+    {
+      "type": "img",
+      "src": "images/laptop-mail-svgrepo-com.svg",
+      "srcset": "",
+      "alt": "",
+      "class": ""
+    },
+    {
+      "type": "img",
+      "src": "images/calendar-svgrepo-com.svg",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "Term Dates",
+      "class": "tile-text"
+    },
+    {
+      "type": "img",
+      "src": "images/RHC-Official-Crest.svg",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "Rosehill College Way",
+      "class": "tile-text"
+    },
+    {
+      "type": "img",
+      "src": "images/bell-svgrepo-com.svg",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "Daily Times",
+      "class": "tile-text"
+    },
+    {
+      "type": "link",
+      "href": "../documents/Start-of-Year-Letter-to-Parents-2026.pdf",
+      "text": "Start of Year Letter to Parents 2026"
+    },
+    {
+      "type": "img",
+      "src": "images/teacher-svgrepo-com.svg",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "Start of Year Letter to Parents 2026",
+      "class": "tile-text startofyear_letter"
+    },
+    {
+      "type": "link",
+      "href": "../documents/Student-Handbook.pdf",
+      "text": "Student Handbook"
+    },
+    {
+      "type": "img",
+      "src": "images/book-svgrepo-com.svg",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "Student Handbook",
+      "class": "tile-text studenthandbook"
+    },
+    {
+      "type": "img",
+      "src": "images/stationery-learning-brush-svgrepo-com.svg",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "Stationery List 2026",
+      "class": "tile-text"
+    },
+    {
+      "type": "img",
+      "src": "images/bus-svgrepo-com.svg",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "School Buses",
+      "class": "tile-text"
+    },
+    {
+      "type": "img",
+      "src": "images/uniform-svgrepo-com_1.svg",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "Uniform",
+      "class": "tile-text"
+    },
+    {
+      "type": "link",
+      "href": "../documents/Rosehill-College-Site-Map.pdf",
+      "text": "School Map"
+    },
+    {
+      "type": "img",
+      "src": "images/map-geography-svgrepo-com.svg",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "School Map",
+      "class": "tile-text"
+    },
+    {
+      "type": "img",
+      "src": "images/laptop-mail-svgrepo-com.svg",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "BYOD",
+      "class": "tile-text"
+    },
+    {
+      "type": "img",
+      "src": "images/tent-svgrepo-com.svg",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "Year 10 Camps",
+      "class": "tile-text"
+    },
+    {
+      "type": "p",
+      "text": "You may order your stationery online at Officemax Ordering.",
+      "class": "paragraph-17"
+    },
+    {
+      "type": "link",
+      "href": "../documents/Year-9-Stationery-List.pdf",
+      "text": "Year 9"
+    },
+    {
+      "type": "img",
+      "src": "images/9_1.avif",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "Year 9",
+      "class": "paragraph"
+    },
+    {
+      "type": "link",
+      "href": "../documents/Year-10-Stationery-List.pdf",
+      "text": "Year 10"
+    },
+    {
+      "type": "img",
+      "src": "images/10_1.avif",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "Year 10",
+      "class": "paragraph"
+    },
+    {
+      "type": "link",
+      "href": "../documents/Year-11-Stationery-List.pdf",
+      "text": "Year 11"
+    },
+    {
+      "type": "img",
+      "src": "images/11.avif",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "Year 11",
+      "class": "paragraph"
+    },
+    {
+      "type": "link",
+      "href": "../documents/Year-12-Stationery-List.pdf",
+      "text": "Year 12"
+    },
+    {
+      "type": "img",
+      "src": "images/12.avif",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "Year 12",
+      "class": "paragraph"
+    },
+    {
+      "type": "link",
+      "href": "../documents/Year-13-Stationery-List.pdf",
+      "text": "Year 13"
+    },
+    {
+      "type": "img",
+      "src": "images/13.avif",
+      "srcset": "",
+      "alt": "",
+      "class": "tile-icon"
+    },
+    {
+      "type": "p",
+      "text": "Year 13",
+      "class": "paragraph"
+    }
+  ]
+}

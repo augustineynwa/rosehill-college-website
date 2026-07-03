@@ -1,0 +1,26 @@
+{
+  "name": "rosehill-college-site",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Rosehill College — cinematic scroll website. Static Vite build structured for WordPress port.",
+  "scripts": {
+    "extract": "node scripts/extract.mjs",
+    "render": "node scripts/render.mjs",
+    "crest": "node scripts/build-crest.mjs",
+    "dev": "node scripts/render.mjs && vite",
+    "build": "node scripts/render.mjs && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "lenis": "^1.1.14",
+    "three": "^0.169.0"
+  },
+  "devDependencies": {
+    "@xmldom/xmldom": "^0.9.5",
+    "cheerio": "^1.0.0",
+    "handlebars": "^4.7.8",
+    "vite": "^5.4.8"
+  }
+}

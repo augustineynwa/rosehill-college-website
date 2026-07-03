@@ -1,0 +1,183 @@
+{
+  "source": "our-school/life-at-rosehill-college.html",
+  "title": "Life At Rosehill College",
+  "metaDescription": "Discover what life is like at Rosehill College! From vibrant extracurricular activities to a supportive learning environment, explore how our students thrive academically, socially, and personally. Join a community focused on growth, creativity, and achievement.",
+  "blocks": [
+    {
+      "type": "div",
+      "text": "Life at Rosehill College Rosehill College offers a vibrant and supportive environment, designed to nurture the growth and development of our students. As one of the leading secondary schools in Auckland, we provide diverse opportunities for all students to excel academically, athletically, and culturally, guiding them to achieve their personal best. Houses RHC Community and Culture At Rosehill College, our House system plays a vital role in fostering a sense of community and school spirit. Each House provides students with the opportunity to contribute, grow as leaders, and celebrate their successes within a supportive and collaborative environment. This system not only encourages healthy competition but also strengthens connections among students, creating lifelong bonds. Academic Excellence Rosehill College is renowned for its commitment to academic success. Our dedicated teachers inspire and challenge students to reach their full potential. We offer a comprehensive academic mentoring program, which includes peer support, targeted tutoring, and leadership development, ensuring that every student is equipped to thrive both in and out of the classroom. Arts and Creativity The arts are an integral part of life at Rosehill College, providing students with numerous avenues for self-expression and personal growth. From drama and dance to music and visual arts, our co-curricular programs are designed to foster creativity and celebrate cultural diversity. Students have the chance to participate in various artistic activities, including school productions, concerts, and cultural festivals, all of which contribute to their holistic development. Sports and Recreation Sport plays a significant role in the culture of Rosehill College, promoting physical fitness, teamwork, and school spirit. We offer a wide range of sporting activities for students of all abilities, from competitive sports teams to recreational clubs. Our extensive facilities, including modern gymnasiums and multipurpose courts, provide students with the resources they need to pursue their athletic passions and develop lifelong skills. Wellbeing and Support Student wellbeing is at the heart of everything we do at Rosehill College. We strive to create an inclusive and nurturing environment where all students feel safe, respected, and valued. Our pastoral care system includes dedicated guidance counsellors, peer support programs, and a focus on student mental health, ensuring that every student has access to the support they need to succeed. Community Engagement Rosehill College believes in the importance of giving back and making a positive impact on the community. Our students are encouraged to engage in various service activities, including volunteering, charity events, and environmental initiatives. These opportunities not only help students develop a sense of social responsibility but also allow them to apply their skills in meaningful ways that benefit others. Rosehill College is more than just a place of learning—it’s a community where students are encouraged to grow, explore their interests, and prepare for the future with confidence.",
+      "class": "main"
+    },
+    {
+      "type": "h1",
+      "text": "Life at Rosehill College",
+      "class": "section-heading"
+    },
+    {
+      "type": "div",
+      "text": "Rosehill College offers a vibrant and supportive environment, designed to nurture the growth and development of our students. As one of the leading secondary schools in Auckland, we provide diverse opportunities for all students to excel academically, athletically, and culturally, guiding them to achieve their personal best.",
+      "class": ""
+    },
+    {
+      "type": "img",
+      "src": "images/Our-School---Life-at-RHC---Top_1.avif",
+      "srcset": "../images/Our-School---Life-at-RHC---Top_1Our-School---Life-at-RHC---Top.avif 500w, ../images/Our-School---Life-at-RHC---Top_1Our-School---Life-at-RHC---Top.avif 800w, ../images/Our-School---Life-at-RHC---Top_1Our-School---Life-at-RHC---Top.avif 1080w, ../images/Our-School---Life-at-RHC---Top_1.avif 2541w",
+      "alt": "",
+      "class": "section-image"
+    },
+    {
+      "type": "h2",
+      "text": "Houses",
+      "class": "section-heading"
+    },
+    {
+      "type": "img",
+      "src": "images/Atawhai-website.avif",
+      "srcset": "../images/a10cfcb760ec90ed4831615057e0073b_Atawhai-website-p-500.avif 500w, ../images/a10cfcb760ec90ed4831615057e0073b_Atawhai-website-p-800.avif 800w, ../images/Atawhai-website.avif 2480w",
+      "alt": "",
+      "class": "image-22"
+    },
+    {
+      "type": "img",
+      "src": "images/Kahurangi-website.avif",
+      "srcset": "../images/6af06af9ef35c86c1f7a2250a9f4cc3b_Kahurangi-website-p-500.avif 500w, ../images/6af06af9ef35c86c1f7a2250a9f4cc3b_Kahurangi-website-p-800.avif 800w, ../images/Kahurangi-website.avif 2480w",
+      "alt": "",
+      "class": "image-22"
+    },
+    {
+      "type": "img",
+      "src": "images/Manutaki-website.avif",
+      "srcset": "../images/dda0a3ff15ec109e5f9e0128e1a6ee02_Manutaki-website-p-500.avif 500w, ../images/dda0a3ff15ec109e5f9e0128e1a6ee02_Manutaki-website-p-800.avif 800w, ../images/Manutaki-website.avif 2480w",
+      "alt": "",
+      "class": "image-22"
+    },
+    {
+      "type": "img",
+      "src": "images/Pounamu-website.avif",
+      "srcset": "../images/c2814734d126aeff20369ba1c7bf1e4d_Pounamu-website-p-500.avif 500w, ../images/c2814734d126aeff20369ba1c7bf1e4d_Pounamu-website-p-800.avif 800w, ../images/Pounamu-website.avif 2480w",
+      "alt": "",
+      "class": "image-22"
+    },
+    {
+      "type": "img",
+      "src": "images/Rangatahi-website.avif",
+      "srcset": "../images/8bfdde10f81372c0c5c34966ce94dc89_Rangatahi-website-p-500.avif 500w, ../images/Rangatahi-website.avif 2480w",
+      "alt": "",
+      "class": "image-22"
+    },
+    {
+      "type": "img",
+      "src": "images/Taikura-website.avif",
+      "srcset": "../images/724d7a7de1030429bd448c27146704a1_Taikura-website-p-500.avif 500w, ../images/Taikura-website.avif 2480w",
+      "alt": "",
+      "class": "image-22"
+    },
+    {
+      "type": "img",
+      "src": "images/Our-School---Life-at-RHC---RHC-Community_1.avif",
+      "srcset": "../images/Our-School---Life-at-RHC---RHC-Community_1Our-School---Life-at-RHC---RHC-Community.avif 500w, ../images/Our-School---Life-at-RHC---RHC-Community_1Our-School---Life-at-RHC---RHC-Community.avif 800w, ../images/Our-School---Life-at-RHC---RHC-Community_1Our-School---Life-at-RHC---RHC-Community.avif 1080w, ../images/Our-School---Life-at-RHC---RHC-Community_1.avif 2650w",
+      "alt": "",
+      "class": "section-image"
+    },
+    {
+      "type": "h2",
+      "text": "RHC Community and Culture",
+      "class": "section-heading"
+    },
+    {
+      "type": "p",
+      "text": "At Rosehill College, our House system plays a vital role in fostering a sense of community and school spirit. Each House provides students with the opportunity to contribute, grow as leaders, and celebrate their successes within a supportive and collaborative environment. This system not only encourages healthy competition but also strengthens connections among students, creating lifelong bonds.",
+      "class": ""
+    },
+    {
+      "type": "h2",
+      "text": "Academic Excellence",
+      "class": "section-heading"
+    },
+    {
+      "type": "p",
+      "text": "Rosehill College is renowned for its commitment to academic success. Our dedicated teachers inspire and challenge students to reach their full potential. We offer a comprehensive academic mentoring program, which includes peer support, targeted tutoring, and leadership development, ensuring that every student is equipped to thrive both in and out of the classroom.",
+      "class": ""
+    },
+    {
+      "type": "img",
+      "src": "images/Our-School---Life-at-RHC---Academic-Excellence_1.avif",
+      "srcset": "../images/Our-School---Life-at-RHC---Academic-Excellence_1Our-School---Life-at-RHC---Academic-Excellence.avif 500w, ../images/Our-School---Life-at-RHC---Academic-Excellence_1.avif 1257w",
+      "alt": "",
+      "class": "section-image"
+    },
+    {
+      "type": "img",
+      "src": "images/Our-School---Life-at-RHC---Arts-and-Creativity.avif",
+      "srcset": "../images/Our-School---Life-at-RHC---Arts-and-Creativity-p-500.avif 500w, ../images/Our-School---Life-at-RHC---Arts-and-Creativity-p-800.avif 800w, ../images/Our-School---Life-at-RHC---Arts-and-Creativity.avif 1416w",
+      "alt": "",
+      "class": "section-image"
+    },
+    {
+      "type": "h2",
+      "text": "Arts and Creativity",
+      "class": "section-heading"
+    },
+    {
+      "type": "p",
+      "text": "The arts are an integral part of life at Rosehill College, providing students with numerous avenues for self-expression and personal growth. From drama and dance to music and visual arts, our co-curricular programs are designed to foster creativity and celebrate cultural diversity. Students have the chance to participate in various artistic activities, including school productions, concerts, and cultural festivals, all of which contribute to their holistic development.",
+      "class": ""
+    },
+    {
+      "type": "h2",
+      "text": "Sports and Recreation",
+      "class": "section-heading"
+    },
+    {
+      "type": "p",
+      "text": "Sport plays a significant role in the culture of Rosehill College, promoting physical fitness, teamwork, and school spirit. We offer a wide range of sporting activities for students of all abilities, from competitive sports teams to recreational clubs. Our extensive facilities, including modern gymnasiums and multipurpose courts, provide students with the resources they need to pursue their athletic passions and develop lifelong skills.",
+      "class": ""
+    },
+    {
+      "type": "img",
+      "src": "images/Our-School---Life-at-RHC---Sports-and-Recreation_1.avif",
+      "srcset": "../images/Our-School---Life-at-RHC---Sports-and-Recreation_1Our-School---Life-at-RHC---Sports-and-Recreation.avif 500w, ../images/Our-School---Life-at-RHC---Sports-and-Recreation_1Our-School---Life-at-RHC---Sports-and-Recreation.avif 800w, ../images/Our-School---Life-at-RHC---Sports-and-Recreation_1Our-School---Life-at-RHC---Sports-and-Recreation.avif 1080w, ../images/Our-School---Life-at-RHC---Sports-and-Recreation_1.avif 2260w",
+      "alt": "",
+      "class": "section-image"
+    },
+    {
+      "type": "img",
+      "src": "images/Our-School---Life-at-RHC---Wellbeing-and-Support.avif",
+      "srcset": "../images/Our-School---Life-at-RHC---Wellbeing-and-Support-p-500.avif 500w, ../images/Our-School---Life-at-RHC---Wellbeing-and-Support-p-800.avif 800w, ../images/Our-School---Life-at-RHC---Wellbeing-and-Support-p-1080.avif 1080w, ../images/Our-School---Life-at-RHC---Wellbeing-and-Support.avif 2102w",
+      "alt": "",
+      "class": "section-image"
+    },
+    {
+      "type": "h2",
+      "text": "Wellbeing and Support",
+      "class": "section-heading"
+    },
+    {
+      "type": "p",
+      "text": "Student wellbeing is at the heart of everything we do at Rosehill College. We strive to create an inclusive and nurturing environment where all students feel safe, respected, and valued. Our pastoral care system includes dedicated guidance counsellors, peer support programs, and a focus on student mental health, ensuring that every student has access to the support they need to succeed.",
+      "class": ""
+    },
+    {
+      "type": "h2",
+      "text": "Community Engagement",
+      "class": "section-heading"
+    },
+    {
+      "type": "p",
+      "text": "Rosehill College believes in the importance of giving back and making a positive impact on the community. Our students are encouraged to engage in various service activities, including volunteering, charity events, and environmental initiatives. These opportunities not only help students develop a sense of social responsibility but also allow them to apply their skills in meaningful ways that benefit others.",
+      "class": ""
+    },
+    {
+      "type": "img",
+      "src": "images/Life-at-RHC---Community-Engagement_1.avif",
+      "srcset": "../images/Life-at-RHC---Community-Engagement_1Life-at-RHC---Community-Engagement.avif 500w, ../images/Life-at-RHC---Community-Engagement_1Life-at-RHC---Community-Engagement.avif 800w, ../images/Life-at-RHC---Community-Engagement_1Life-at-RHC---Community-Engagement.avif 1080w, ../images/Life-at-RHC---Community-Engagement_1.avif 2439w",
+      "alt": "",
+      "class": "section-image"
+    },
+    {
+      "type": "p",
+      "text": "Rosehill College is more than just a place of learning—it’s a community where students are encouraged to grow, explore their interests, and prepare for the future with confidence.",
+      "class": "motto-s"
+    }
+  ]
+}

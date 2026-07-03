@@ -1,0 +1,62 @@
+{
+  "source": "our-school/yearbook.html",
+  "title": "Yearbook",
+  "metaDescription": "Discover the Rosehill College Yearbook, where cherished memories and milestones come to life. Featuring student achievements, special events, and unforgettable moments, our yearbook is a celebration of the year's journey. Take a look back at the people, places, and experiences that make Rosehill College so special.",
+  "blocks": [
+    {
+      "type": "div",
+      "text": "Rosehill College Yearbook Celebrating Our Year – Anytime, Anywhere We are excited to offer a fully digital Yearbook experience, allowing you to relive all the memories and highlights of the year online, anytime, and anywhere! In our continued effort to reduce environmental impact and embrace the digital world, the Rosehill College Yearbook is available exclusively online. This ensures easy access to the year’s special moments—whether you are at home, at school, or on the go. Yearbook 2025 The printed version of the Rosehill College Yearbook 2025 is now available for a limited time. To place your order, please complete the online form using the link below. Once your payment has been received, your order will be processed and your printed Yearbook will be ready for collection from the Student Office. Click here to order your copy now Be sure to get your copy before orders close — this is a great way to keep the memories of 2025 at Rosehill College!",
+      "class": "main"
+    },
+    {
+      "type": "h1",
+      "text": "Rosehill College Yearbook",
+      "class": "section-heading"
+    },
+    {
+      "type": "h2",
+      "text": "Celebrating Our Year – Anytime, Anywhere",
+      "class": "heading-7"
+    },
+    {
+      "type": "p",
+      "text": "We are excited to offer a fully digital Yearbook experience, allowing you to relive all the memories and highlights of the year online, anytime, and anywhere!",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "In our continued effort to reduce environmental impact and embrace the digital world, the Rosehill College Yearbook is available exclusively online. This ensures easy access to the year’s special moments—whether you are at home, at school, or on the go.",
+      "class": ""
+    },
+    {
+      "type": "h3",
+      "text": "Yearbook 2025",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "The printed version of the Rosehill College Yearbook 2025 is now available for a limited time.",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "To place your order, please complete the online form using the link below. Once your payment has been received, your order will be processed and your printed Yearbook will be ready for collection from the Student Office.",
+      "class": ""
+    },
+    {
+      "type": "h4",
+      "text": "Click here to order your copy now",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Be sure to get your copy before orders close — this is a great way to keep the memories of 2025 at Rosehill College!",
+      "class": ""
+    },
+    {
+      "type": "embed",
+      "src": "https://fliphtml5.com/bookcase/sexgj/",
+      "title": ""
+    }
+  ]
+}

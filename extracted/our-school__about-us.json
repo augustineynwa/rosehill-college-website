@@ -1,0 +1,93 @@
+{
+  "source": "our-school/about-us.html",
+  "title": "About Us",
+  "metaDescription": "Explore Rosehill College's core values and educational vision",
+  "blocks": [
+    {
+      "type": "img",
+      "src": "images/t4-Randoms-1_1.avif",
+      "srcset": "../images/t4-Randoms-1_1t4-Randoms-1.avif 500w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 800w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 1080w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 1600w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 2000w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 2600w, ../images/t4-Randoms-1_1t4-Randoms-1.avif 3200w, ../images/t4-Randoms-1_1.avif 4591w",
+      "alt": "",
+      "class": "hero-image"
+    },
+    {
+      "type": "div",
+      "text": "Our Vision and Values Rosehill College, officially opened in 1970, has a proud history of outstanding academic achievement and a record of national success in both sports and the performing arts. Our Mission Statement is: \"Together we create an environment for personal excellence.\" Our Vision Statement is: \"Rosehill College will nurture a culture of excellence through Hihiritanga, Rangatiratanga, Whanaungatanga, and Manaakitanga.\" Values: Hihiritanga: Strive - We are resilient and persevere Rangatiratanga: Reflect - Excellence in all that we do Whanaungatanga: Respect - Together we are more ‍Manaakitanga: Connect - We rise by lifting others About Us Rosehill College is a co-educational secondary school with a rich history of providing quality education and fostering a supportive learning environment. The College sits within the Ngāti Tamaoho rohe. This area extends from north of the Tamaki Isthmus to south of the Waikato River, to the Whangamarino wetlands. It extends from the West Coast to the Hauraki Gulf/Firth of Thames. Its interests are concentrated in the Manukau lowlands, Āwhitu Peninsula, Papakura, Hunua Ranges, Mangatangi, and Whangamarino. Ngāti Tamaoho has a rich cultural heritage, including traditions, stories, and practices passed down through generations. They have a significant connection to their land and natural resources, and like other iwi, they play an active role in the social, cultural, and economic life of their communities. Rosehill College serves students from Year 9 to Year 13 (ages 13 to 18). The college offers a wide range of academic, sporting, cultural, and extracurricular activities to cater to the diverse interests and needs of its students. Established in 1970, Rosehill College has a rich history of providing quality education and fostering a supportive learning environment. The school emphasises holistic development, aiming to nurture students not only academically but also socially, emotionally, and physically.",
+      "class": "main no-padding"
+    },
+    {
+      "type": "h1",
+      "text": "Our Vision and Values",
+      "class": "section-heading"
+    },
+    {
+      "type": "p",
+      "text": "Rosehill College, officially opened in 1970, has a proud history of outstanding academic achievement and a record of national success in both sports and the performing arts.",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Our Mission Statement is: \"Together we create an environment for personal excellence.\"",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Our Vision Statement is: \"Rosehill College will nurture a culture of excellence through Hihiritanga, Rangatiratanga, Whanaungatanga, and Manaakitanga.\"",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Values:",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Hihiritanga: Strive - We are resilient and persevere",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Rangatiratanga: Reflect - Excellence in all that we do",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "Whanaungatanga: Respect - Together we are more",
+      "class": ""
+    },
+    {
+      "type": "li",
+      "text": "‍Manaakitanga: Connect - We rise by lifting others",
+      "class": ""
+    },
+    {
+      "type": "img",
+      "src": "images/Our-School---Values_1.avif",
+      "srcset": "../images/Our-School---Values_1Our-School---Values.avif 500w, ../images/Our-School---Values_1Our-School---Values.avif 800w, ../images/Our-School---Values_1.avif 2000w",
+      "alt": "",
+      "class": "section-image about-us"
+    },
+    {
+      "type": "img",
+      "src": "images/Our-School---About-Us.avif",
+      "srcset": "../images/Our-School---About-Us-p-500.avif 500w, ../images/Our-School---About-Us-p-800.avif 800w, ../images/Our-School---About-Us-p-1080.avif 1080w, ../images/Our-School---About-Us-p-1600.avif 1600w, ../images/Our-School---About-Us-p-2000.avif 2000w, ../images/Our-School---About-Us.avif 4028w",
+      "alt": "",
+      "class": "section-image"
+    },
+    {
+      "type": "h2",
+      "text": "About Us",
+      "class": "section-heading"
+    },
+    {
+      "type": "p",
+      "text": "Rosehill College is a co-educational secondary school with a rich history of providing quality education and fostering a supportive learning environment. The College sits within the Ngāti Tamaoho rohe. This area extends from north of the Tamaki Isthmus to south of the Waikato River, to the Whangamarino wetlands. It extends from the West Coast to the Hauraki Gulf/Firth of Thames. Its interests are concentrated in the Manukau lowlands, Āwhitu Peninsula, Papakura, Hunua Ranges, Mangatangi, and Whangamarino. Ngāti Tamaoho has a rich cultural heritage, including traditions, stories, and practices passed down through generations. They have a significant connection to their land and natural resources, and like other iwi, they play an active role in the social, cultural, and economic life of their communities.",
+      "class": ""
+    },
+    {
+      "type": "p",
+      "text": "Rosehill College serves students from Year 9 to Year 13 (ages 13 to 18). The college offers a wide range of academic, sporting, cultural, and extracurricular activities to cater to the diverse interests and needs of its students. Established in 1970, Rosehill College has a rich history of providing quality education and fostering a supportive learning environment. The school emphasises holistic development, aiming to nurture students not only academically but also socially, emotionally, and physically.",
+      "class": ""
+    }
+  ]
+}
