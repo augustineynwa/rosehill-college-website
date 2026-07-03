@@ -1,0 +1,95 @@
+{
+  "layout": "page",
+  "path": "contact-us.html",
+  "slug": "contact-us",
+  "title": "Contact Us",
+  "metaDescription": "Contact Rosehill College for payments, reporting absences, student services, enrolment, international students, adult education, the school nurse, and campus location details.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Whakapā mai",
+      "reo": true,
+      "heading": "Contact us",
+      "lede": "Front office reception is open 8.00am to 4.00pm — phone <a href=\"tel:+6492950661\">09 295 0661</a>. For anything else, the right contact is below.",
+      "actions": [
+        { "href": "tel:0800722929", "label": "Report an absence — 0800 722 929", "primary": true }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "departments",
+      "eyebrow": "Ngā tari",
+      "reo": true,
+      "heading": "Who to contact",
+      "items": [
+        { "term": "Front Office Reception", "text": "Office hours 8.00am – 4.00pm<br>Phone <a href=\"tel:+6492950661\">09 295 0661</a>" },
+        { "term": "Absences", "text": "Free call <a href=\"tel:0800722929\">0800 RCAWAY (0800 722 929)</a><br>Email <a href=\"mailto:attendance@rosehillcollege.school.nz\">attendance@rosehillcollege.school.nz</a><br>Or report via the SchoolBridge app" },
+        { "term": "Accounts Office", "text": "Email <a href=\"mailto:accounts@rosehillcollege.school.nz\">accounts@rosehillcollege.school.nz</a>" },
+        { "term": "Student Office", "text": "Email <a href=\"mailto:studentoffice@rosehillcollege.school.nz\">studentoffice@rosehillcollege.school.nz</a>" },
+        { "term": "School Nurse", "text": "Phone <a href=\"tel:+6492950661\">09 295 0661</a> (ext 913)<br>Email <a href=\"mailto:nurses@rosehillcollege.school.nz\">nurses@rosehillcollege.school.nz</a>" },
+        { "term": "Enrolment Office", "text": "Mr Loong — phone <a href=\"tel:+6492950661\">09 295 0661</a> (ext 871)<br>Email <a href=\"mailto:enrolments@rosehillcollege.school.nz\">enrolments@rosehillcollege.school.nz</a>" },
+        { "term": "International Student Department", "text": "Phone <a href=\"tel:+6492950661\">09 295 0661</a> (ext 824 or 884)<br>Email <a href=\"mailto:internationaldepartment@rosehillcollege.school.nz\">internationaldepartment@rosehillcollege.school.nz</a><br>24-hour emergency line <a href=\"tel:+64274630267\">027 463 0267</a>" },
+        { "term": "Adult & Community Education", "text": "The 2026 programme is now available — Term 1 courses start in early February.<br><a href=\"https://www.rosehilladultlearn.co.nz/\" rel=\"external\">rosehilladultlearn.co.nz</a> · <a href=\"tel:+6496369060\">09 636 9060</a> · <a href=\"mailto:ace@rosehillcollege.school.nz\">ace@rosehillcollege.school.nz</a>" },
+        { "term": "Staff members", "text": "Contact details for teaching staff are on <a href=\"/our-community/our-staff.html\">Our Staff</a>." }
+      ]
+    },
+    {
+      "type": "prose",
+      "id": "payments",
+      "eyebrow": "Ngā utu",
+      "reo": true,
+      "heading": "Payments to Rosehill College",
+      "html": "<p>Payments to Rosehill College can be made by cash, EFTPOS (at the student office), or internet banking.</p><p><strong>Bank account details</strong><br>Account name: Rosehill College Board<br>Account number: 12-3031-0837472-000</p><p>When making an online payment, please include the following details in your reference fields to ensure it is correctly allocated:</p><ul><li>Student name</li><li>Student ID</li><li>Reference — e.g. \"Camp Fees\", \"Trip\", \"Uniform\"</li></ul><p>Email: <a href=\"mailto:accounts@rosehillcollege.school.nz\">accounts@rosehillcollege.school.nz</a></p>"
+    },
+    {
+      "type": "accordion",
+      "id": "absences",
+      "eyebrow": "Ngā ngaronga",
+      "reo": true,
+      "heading": "Absences — procedures for parents",
+      "lede": "Our staff use the Electronic Attendance Register (eAR) for real-time tracking of student attendance. Early Notification sends a text message to parents of students whose non-attendance is unexplained, and attendance is visible 24/7 on the password-protected web portal.",
+      "items": [
+        {
+          "title": "Reporting an absence",
+          "open": true,
+          "html": "<p>If your student is absent from school, please phone the Attendance Officer on <a href=\"tel:+6492950661\">295 0661 ext 869</a> or <a href=\"tel:0800722929\">0800 RCAWAY (0800 722 929)</a> at any time and leave a message. You can also report via the SchoolBridge app, or email <a href=\"mailto:attendance@rosehillcollege.school.nz\">attendance@rosehillcollege.school.nz</a>.</p><p>If you receive a text message notifying of an absence: reply to the text, phone our Attendance Officer, or provide a note explaining the student's absence.</p>"
+        },
+        {
+          "title": "Leaving school during the day",
+          "html": "<ul><li>Please provide a note for your student to take to their Head of House at the start of the day.</li><li>The student will obtain an 'Exit Permit' which they present at the Student Office before they leave the school grounds.</li></ul><p>Year 9–12 students may not leave the school grounds without permission. We need to know where students are at all times.</p>"
+        },
+        {
+          "title": "If a student is unwell at school",
+          "html": "<ul><li>The student should go to the nurse with permission of the teacher.</li><li>Students are not permitted to privately contact their parents and leave the school grounds without clearance from school staff.</li></ul>"
+        },
+        {
+          "title": "Arriving late",
+          "html": "<ul><li>Late to the first period: the student must go straight to their class to sign in late and provide a note to their Manaakitia Mai teacher.</li><li>Late after Period 1: the student must sign in at the Student Office and provide a note from the parent/caregiver advising the reason — or the parent/caregiver should phone the Attendance Officer and leave a message.</li></ul>"
+        },
+        {
+          "title": "Long-term absence (more than four days)",
+          "html": "<p>If the student will be absent during term time for an extended period — please advise date of absence, return date and reason for absence by one of the following methods:</p><ul><li>Phone the Attendance Officer on <a href=\"tel:+6492950661\">295 0661 ext 869</a> or <a href=\"tel:0800722929\">0800 722 929</a>; or</li><li>Send a letter addressed to Principal, Rosehill College, PO Box 72546, Papakura 2244; or</li><li>Email <a href=\"mailto:attendance@rosehillcollege.school.nz\">attendance@rosehillcollege.school.nz</a>.</li></ul>"
+        }
+      ]
+    },
+    {
+      "type": "contact-form",
+      "id": "enquiry",
+      "eyebrow": "He pātai tāu?",
+      "reo": true,
+      "heading": "Send us a message",
+      "lede": "For enrolment, international student or general enquiries.",
+      "aside": "<h3>Prefer email?</h3><p>General enquiries: <a href=\"mailto:inquiries@rosehillcollege.school.nz\">inquiries@rosehillcollege.school.nz</a></p><p>Enrolment: <a href=\"mailto:enrolments@rosehillcollege.school.nz\">enrolments@rosehillcollege.school.nz</a></p><p>International: <a href=\"mailto:internationaldepartment@rosehillcollege.school.nz\">internationaldepartment@rosehillcollege.school.nz</a></p>"
+    },
+    {
+      "type": "embed",
+      "id": "map",
+      "eyebrow": "Kei hea mātau",
+      "reo": true,
+      "heading": "Find us",
+      "lede": "5 Edinburgh Avenue, Rosehill, Papakura 2113, New Zealand.",
+      "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3183.1816471682127!2d174.9343012!3d-37.07698035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d533151c0e7ff%3A0x97cb1b4fafe9ee8d!2sRosehill%20College!5e0!3m2!1sen!2snz!4v1720393886356!5m2!1sen!2snz",
+      "iframeTitle": "Map showing the location of Rosehill College, 5 Edinburgh Avenue, Papakura"
+    }
+  ]
+}

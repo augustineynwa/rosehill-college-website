@@ -1,0 +1,13 @@
+<section class="band {{#if pad}}band--{{pad}}{{/if}}" {{#if id}}id="{{id}}"{{/if}} {{#if theme}}data-theme="{{theme}}"{{/if}}>
+  <div class="container">
+    {{> section-head}}
+    <dl class="def-list {{#if columns}}def-list--columns{{/if}}">
+      {{#each items}}
+      <div class="def-list__row" data-reveal>
+        <dt class="def-list__term">{{term}}</dt>
+        <dd class="def-list__text">{{raw text}}</dd>
+      </div>
+      {{/each}}
+    </dl>
+  </div>
+</section>

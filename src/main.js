@@ -14,6 +14,10 @@ const motionOK = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 initNav();
 
+if (document.querySelector('[data-search-input]')) {
+  import('./js/search.js').then(({ initSearch }) => initSearch());
+}
+
 // smooth momentum scroll + shared entrance/parallax motion — only when allowed
 if (motionOK) {
   Promise.all([

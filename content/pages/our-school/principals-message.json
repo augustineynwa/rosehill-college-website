@@ -1,0 +1,50 @@
+{
+  "layout": "page",
+  "path": "our-school/principals-message.html",
+  "slug": "principals-message",
+  "title": "Principal's Message",
+  "metaDescription": "Read our Principal's vision for Rosehill College. Learn about our school's values, achievements, and vision for excellence in Auckland education.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Te Tumuaki",
+      "reo": true,
+      "heading": "Principal's Message",
+      "lede": "Kia ora, Talofa lava, Fakaalofa lahi atu, Nisa bula vinaka, Kia Orana, Ni Sa, Namaste, Mālō e lelei, Welcome, Herzlich Willkommen, Witamy — greetings and welcome to you all!"
+    },
+    {
+      "type": "media-text",
+      "heading": "Grounded in this whenua",
+      "portrait": true,
+      "image": {
+        "src": "assets/img/6630760d923b9c215a4aa27b_Davida-With-background-Right-2_1.avif",
+        "srcset": "",
+        "pos": "50% 12%",
+        "alt": "Davida Suasua, Principal of Rosehill College"
+      },
+      "html": "<p>Rosehill College is a co-educational secondary school that sits within the Ngāti Tamaoho rohe. This area extends from north of the Tamaki Isthmus to south of the Waikato River, to the Whangamarino wetlands. It extends from the West Coast to the Hauraki Gulf/Firth of Thames.</p><p>Ngāti Tamaoho has a rich cultural heritage, including traditions, stories, and practices passed down through generations. They have a significant connection to their land and natural resources, and like other iwi, they play an active role in the social, cultural, and economic life of their communities.</p>"
+    },
+    {
+      "type": "prose",
+      "heading": "Traditional values, innovative teaching",
+      "html": "<p>Rosehill College is based on traditional values of Respect, Responsibility and Caring with innovative approaches to teaching and learning that is supported by modern information communication technology. It is our intention to produce graduates that are confident, self-reliant, and have self-respect and respect for others.</p><p>We celebrate our coeducational and bi-cultural identity and the opportunities presented to establish healthy friendships with people from a diverse range of backgrounds which is Auckland today.</p><p>For our whānau and parents of Rosehill College I welcome and encourage a strong and active parent network that will support our Values and Vision of the school.</p>"
+    },
+    {
+      "type": "quote",
+      "reo": "Mā tātau hangahanga ai te taiao hiranga",
+      "text": "Together we create an environment for personal excellence.",
+      "attribution": "Davida Suasua — Principal, Rosehill College"
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Tīmata tō haerenga",
+      "reo": true,
+      "heading": "Come and see who we are",
+      "text": "Explore our values, our history and life at Rosehill College — or start your enrolment today.",
+      "actions": [
+        { "href": "/join-us/enrolment.html", "label": "Enrol now", "primary": true },
+        { "href": "/our-school/about-us.html", "label": "About us" }
+      ]
+    }
+  ]
+}

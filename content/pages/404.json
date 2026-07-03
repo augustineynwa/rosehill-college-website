@@ -1,0 +1,24 @@
+{
+  "layout": "page",
+  "path": "404.html",
+  "slug": "not-found",
+  "title": "Page Not Found",
+  "metaDescription": "The page you are looking for doesn't exist or has been moved.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "404",
+      "heading": "Kāore i kitea — page not found",
+      "lede": "The page you are looking for doesn't exist or has been moved. Try one of these instead."
+    },
+    {
+      "type": "cards",
+      "cards": [
+        { "title": "Home", "text": "Back to the start.", "href": "/index.html", "cta": "Go home" },
+        { "title": "Term dates", "text": "Dates, bell times and the calendar.", "href": "/our-school/term-dates.html", "cta": "View" },
+        { "title": "Enrolment", "text": "Start your journey with us.", "href": "/join-us/enrolment.html", "cta": "Enrol" },
+        { "title": "Contact us", "text": "We'll point you the right way.", "href": "/contact-us.html", "cta": "Contact" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "layout": "page",
+  "path": "our-school/our-latest-news.html",
+  "slug": "our-latest-news",
+  "title": "Our Latest News",
+  "metaDescription": "Stay up-to-date with the latest news from Rosehill College! Find important announcements, upcoming events, and highlights from school activities. Whether it's academic achievements, sports victories, or community initiatives, this page keeps you informed on all the exciting happenings at our school.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Ngā karere",
+      "reo": true,
+      "heading": "Our latest news",
+      "lede": "Stay up-to-date with the latest news from Rosehill College — important announcements, upcoming events and highlights from school activities."
+    },
+    {
+      "type": "cards",
+      "heading": "All news",
+      "lede": "The latest announcements and highlights from around the school.",
+      "cards": [
+        {
+          "title": "Introducing our 2026 head students",
+          "text": "Congratulations to our newly announced head students for 2026. Meet the full student leadership team.",
+          "href": "/our-community/our-student-leaders.html",
+          "cta": "Meet our student leaders",
+          "image": {
+            "src": "assets/img/2026-head-students-04.avif",
+            "srcset": "/assets/img/2026-head-students-04-p-500.avif 500w, /assets/img/2026-head-students-04-p-800.avif 800w, /assets/img/2026-head-students-04-p-1080.avif 1080w",
+            "alt": "Rosehill College 2026 head students"
+          }
+        },
+        {
+          "title": "Start of Year Letter to Parents 2026",
+          "text": "Everything whānau need to know about the start of the 2026 school year, from the Principal.",
+          "href": "/assets/docs/Start-of-Year-Letter-to-Parents-2026.pdf",
+          "cta": "Read the letter (PDF)",
+          "image": {
+            "src": "assets/img/back-to-school.avif",
+            "srcset": "",
+            "alt": "Back to school at Rosehill College"
+          }
+        },
+        {
+          "title": "School app upgrade in progress",
+          "text": "Our school app is being upgraded — find out what is changing and what you need to do.",
+          "href": "/school-app-upgrade-in-progress.html",
+          "cta": "Read the update",
+          "image": {
+            "src": "assets/img/School-App-Flyer.avif",
+            "srcset": "/assets/img/6788492c6806e8ef1db10541cd612e96_App-flyer-1-p-500.avif 500w, /assets/img/6788492c6806e8ef1db10541cd612e96_App-flyer-1-p-800.avif 800w",
+            "alt": "Rosehill College school app flyer"
+          }
+        }
+      ]
+    },
+    {
+      "type": "docs",
+      "heading": "Documents for whānau",
+      "lede": "Key school documents you may be looking for.",
+      "docs": [
+        { "href": "assets/docs/Student-Handbook.pdf", "label": "Student Handbook", "meta": "PDF" },
+        { "href": "assets/docs/Rosehill-College-Annual-Plan-2025.pdf", "label": "Rosehill College Annual Plan 2025", "meta": "PDF" },
+        { "href": "assets/docs/Rosehill-College-Strategic-Plan.pdf", "label": "Rosehill College Strategic Plan", "meta": "PDF" }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Ngā rā nunui",
+      "reo": true,
+      "heading": "Looking for dates and events?",
+      "text": "Term dates, bell times and the full school calendar are all in one place.",
+      "actions": [
+        { "href": "/our-school/term-dates.html", "label": "Term dates and calendar", "primary": true },
+        { "href": "/contact-us.html", "label": "Contact us" }
+      ]
+    }
+  ]
+}

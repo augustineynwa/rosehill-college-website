@@ -64,7 +64,21 @@ for (const f of walk(join(TPL, 'layouts'), '.hbs')) {
 // ---------- global site data ----------
 const site = JSON.parse(readFileSync(join(CONTENT, 'site.json'), 'utf8'));
 
-// ---------- render pages ----------
+// ---------- render pages + search index ----------
+const searchIndex = [];
+function sectionText(sec) {
+  const parts = [];
+  const collect = (v) => {
+    if (typeof v === 'string') parts.push(v.replace(/<[^>]+>/g, ' '));
+    else if (Array.isArray(v)) v.forEach(collect);
+    else if (v && typeof v === 'object') Object.entries(v).forEach(([k, x]) => {
+      if (!['src', 'srcset', 'href', 'image', 'pos', 'type', 'id', 'video'].includes(k)) collect(x);
+    });
+  };
+  collect(sec);
+  return parts.join(' ');
+}
+
 let count = 0;
 for (const f of walk(join(CONTENT, 'pages'), '.json')) {
   const page = JSON.parse(readFileSync(f, 'utf8'));
@@ -76,6 +90,16 @@ for (const f of walk(join(CONTENT, 'pages'), '.json')) {
   const html = layout({ ...page, site, root });
   mkdirSync(dirname(outPath), { recursive: true });
   writeFileSync(outPath, html, 'utf8');
+  if (!['404.html', 'search.html', '401.html'].includes(page.path)) {
+    searchIndex.push({
+      title: page.title,
+      href: '/' + page.path,
+      description: page.metaDescription || '',
+      text: (page.sections || []).map(sectionText).join(' ').replace(/\s+/g, ' ').slice(0, 4000),
+    });
+  }
   count++;
 }
-console.log(`Rendered ${count} pages.`);
+mkdirSync(join(ROOT, 'public'), { recursive: true });
+writeFileSync(join(ROOT, 'public', 'search-index.json'), JSON.stringify(searchIndex), 'utf8');
+console.log(`Rendered ${count} pages (+ search index of ${searchIndex.length}).`);

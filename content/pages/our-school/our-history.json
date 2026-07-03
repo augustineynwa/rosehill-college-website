@@ -1,0 +1,154 @@
+{
+  "layout": "page",
+  "path": "our-school/our-history.html",
+  "slug": "our-history",
+  "title": "Our History",
+  "metaDescription": "Learn about the rich history of Rosehill College, where tradition and innovation meet. From our founding to present day, discover how our school has evolved and shaped generations of students. Explore our milestones, values, and commitment to excellence in education.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Since 1970",
+      "heading": "Our history",
+      "lede": "From our first day of attendance on 3 February 1970 to today, Rosehill College has grown alongside its community — more than five decades of milestones, people and achievements.",
+      "image": {
+        "src": "assets/img/Our-School---Our-History---List---1.avif",
+        "srcset": "/assets/img/Our-School---Our-History---List---1-p-500.avif 500w, /assets/img/Our-School---Our-History---List---1-p-800.avif 800w, /assets/img/Our-School---Our-History---List---1-p-1080.avif 1080w, /assets/img/Our-School---Our-History---List---1-p-1600.avif 1600w, /assets/img/Our-School---Our-History---List---1-p-2000.avif 2000w, /assets/img/Our-School---Our-History---List---1-p-2600.avif 2600w, /assets/img/Our-School---Our-History---List---1-p-3200.avif 3200w",
+        "alt": "Archival photograph from the Rosehill College collection"
+      }
+    },
+    {
+      "type": "timeline",
+      "entries": [
+        {
+          "year": "1970",
+          "html": "<ul><li>First day of attendance, 3rd February</li><li>First tennis courts</li><li>Canteen opened in A Block</li><li>Walkathon fundraiser — 20 miles</li><li>First Board of Governors elected</li></ul>",
+          "image": {
+            "src": "assets/img/Our-School---Our-History---1970_1.avif",
+            "srcset": "",
+            "alt": "Rosehill College in its founding year, 1970"
+          }
+        },
+        {
+          "year": "1975",
+          "html": "<ul><li>First Form 7</li><li>Tender for gymnasium — $96,323</li><li>Des Hunt first Board staff representative</li><li>Girls' cricket unbeaten</li></ul>",
+          "image": {
+            "src": "assets/img/Our-School---Our-History---02_1.avif",
+            "srcset": "",
+            "alt": "Photograph from Rosehill College in the mid-1970s"
+          }
+        },
+        {
+          "year": "1984",
+          "html": "<ul><li>Eric Jerkovich retired</li><li>Computer suite opened in B12</li><li>Polynesian group formed</li><li>Senior water polo team won North Island Championship</li><li>Golf team Auckland Championship</li></ul>",
+          "image": {
+            "src": "assets/img/Our-School---Our-History---1984.avif",
+            "srcset": "/assets/img/Our-School---Our-History---1984-p-500.jpg 500w, /assets/img/Our-School---Our-History---1984-p-800.jpg 800w, /assets/img/Our-School---Our-History---1984-p-1080.jpg 1080w, /assets/img/Our-School---Our-History---1984-p-1600.jpg 1600w",
+            "alt": "Front page of the Rosehill College Bulletin, November 1984, announcing Mr Jerkovich's retirement"
+          }
+        },
+        {
+          "year": "1996",
+          "html": "<ul><li>Whaea Mereana Herangi appointed Kapa Haka tutor</li><li>Kapa Haka 1st for best dressed at Secondary Schools Māori Festival</li><li>Chris Ormandy 1st in Double Mini Tramp World Age Championship</li><li>First Cultural Day</li></ul>",
+          "image": {
+            "src": "assets/img/Our-School---Our-History---1996_1.avif",
+            "srcset": "",
+            "alt": "Photograph from Rosehill College in 1996"
+          }
+        },
+        {
+          "year": "2000",
+          "html": "<ul><li>New canteen opened</li><li>College zone created</li><li>Richard Beal Dux (Rhodes Scholar 2005)</li><li>Matua Jim Smith appointed first Kaimanaaki</li><li>PM Helen Clark opened drama, music and canteen facilities</li><li>Teacher Tina Bell-Kate, NZ Olympic hockey team</li><li>Teacher Neisha Pratt, NZ Women's Indoor Cricket World Cup team</li></ul>",
+          "image": {
+            "src": "assets/img/Our-School---Our-History---2000_1.avif",
+            "srcset": "",
+            "alt": "Photograph from Rosehill College in 2000"
+          }
+        },
+        {
+          "year": "2008",
+          "html": "<ul><li>Gymnasium/Sports Centre completed</li><li>Kapa Haka won Mōteatea-Kia Mōhio Kia Rangatiri Trophy at Polyfest</li><li>Teachers Dave and Lyndon Ormandy left after 22 years</li><li>Year 9 and 10 teams won Counties Manukau Mathex competition</li></ul>",
+          "image": {
+            "src": "assets/img/Our-School---Our-History---2008_1.avif",
+            "srcset": "",
+            "alt": "Photograph from Rosehill College in 2008"
+          }
+        },
+        {
+          "year": "2015",
+          "html": "<ul><li>Concert band received Silver Award at KBB Music Festival</li><li>Rugby 1st XV learned new haka gifted by Ku Tirakatene</li><li>Tardis built for build-ability challenge</li><li>Tour band performed on the Great Wall of China</li></ul>",
+          "image": {
+            "src": "assets/img/Our-School---Our-History---2015_1.avif",
+            "srcset": "",
+            "alt": "Photograph from Rosehill College in 2015"
+          }
+        },
+        {
+          "year": "2019",
+          "html": "<ul><li>Governor-General Dame Patsy Reddy opened 'Rising Foundation' building</li><li>Five Showdown nominations for drama teacher Stacey Harrison</li><li>Alyssa Harrison won NZSS Rider at Eventing Champs</li><li>Dylan Naera selected for NZ U15 badminton squad</li><li>PM Jacinda Ardern visited Te Whare Kimiora Student Support Centre</li></ul>",
+          "image": {
+            "src": "assets/img/Our-School---Our-History---2019---2_1.avif",
+            "srcset": "",
+            "alt": "Photograph from Rosehill College in 2019"
+          }
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "heading": "From the archives",
+      "images": [
+        {
+          "src": "assets/img/Our-School---Our-History---List---2_1.avif",
+          "srcset": "",
+          "alt": "Archival photograph from the Rosehill College collection"
+        },
+        {
+          "src": "assets/img/Our-School---Our-History---List---3_1.avif",
+          "srcset": "",
+          "alt": "Archival photograph from the Rosehill College collection"
+        },
+        {
+          "src": "assets/img/Our-School---Our-History---List-4_1.avif",
+          "srcset": "",
+          "alt": "Archival photograph from the Rosehill College collection"
+        },
+        {
+          "src": "assets/img/Our-School---Our-History---List-5_1.avif",
+          "srcset": "",
+          "alt": "Archival photograph from the Rosehill College collection"
+        },
+        {
+          "src": "assets/img/Our-School---Our-History---List-6_1.avif",
+          "srcset": "",
+          "alt": "Archival photograph from the Rosehill College collection"
+        },
+        {
+          "src": "assets/img/Our-School---Our-History---List-7_1.avif",
+          "srcset": "",
+          "alt": "Archival photograph from the Rosehill College collection"
+        },
+        {
+          "src": "assets/img/Our-School---Our-History---List-9.avif",
+          "srcset": "/assets/img/Our-School---Our-History---List-9-p-500.avif 500w, /assets/img/Our-School---Our-History---List-9-p-800.avif 800w, /assets/img/Our-School---Our-History---List-9-p-1080.avif 1080w, /assets/img/Our-School---Our-History---List-9-p-1600.avif 1600w, /assets/img/Our-School---Our-History---List-9-p-2000.avif 2000w, /assets/img/Our-School---Our-History---List-9-p-2600.avif 2600w, /assets/img/Our-School---Our-History---List-9-p-3200.avif 3200w",
+          "alt": "Archival photograph from the Rosehill College collection"
+        },
+        {
+          "src": "assets/img/Our-School---Our-History---List-12.avif",
+          "srcset": "/assets/img/Our-School---Our-History---List-12-p-500.jpg 500w, /assets/img/Our-School---Our-History---List-12-p-800.jpg 800w",
+          "alt": "Two visitors smiling together on the tennis courts at Rosehill College"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Rapua ētahi atu",
+      "reo": true,
+      "heading": "The story continues",
+      "text": "See who we are today — our vision and values, and everyday life at Rosehill College.",
+      "actions": [
+        { "href": "/our-school/about-us.html", "label": "About us", "primary": true },
+        { "href": "/our-school/life-at-rosehill-college.html", "label": "Life at Rosehill College" }
+      ]
+    }
+  ]
+}

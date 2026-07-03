@@ -1,0 +1,82 @@
+{
+  "layout": "page",
+  "path": "our-school/term-dates.html",
+  "slug": "term-dates",
+  "title": "Term Dates",
+  "metaDescription": "Find the full list of term dates for Rosehill College to help plan your year, including bell times, key holidays and the school calendar.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Ngā wā o te tau",
+      "reo": true,
+      "heading": "Term dates 2026",
+      "lede": "Stay informed with the scheduled dates for the year 2026. Please note that these dates are subject to change based on school administration planning and any directives issued by the Ministry of Education. We recommend checking back regularly for the most up-to-date information."
+    },
+    {
+      "type": "table",
+      "id": "terms",
+      "caption": "Rosehill College term dates 2026",
+      "columns": ["Term", "Dates", "Holidays and closures"],
+      "rows": [
+        ["Term 1", "Monday 2 February – Thursday 2 April", "Waitangi Day — Friday 6 February<br>Good Friday — Friday 3 April"],
+        ["Term 2", "Monday 20 April – Friday 3 July", "Anzac Day — Monday 27 April<br>King's Birthday — Monday 1 June<br>Teacher-only Day — Tuesday 2 June"],
+        ["Term 3", "Monday 20 July – Friday 25 September", "Teacher-only Day — TBC"],
+        ["Term 4", "Monday 12 October – Wednesday 9 December", "Labour Day — Monday 26 October"]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "key-dates",
+      "eyebrow": "Ngā rā nunui",
+      "reo": true,
+      "heading": "Key dates this year",
+      "items": [
+        { "term": "Monday 4 May", "text": "Patapatai/Parent-Teacher Interviews, 1.30pm – 6pm (early finish 12.50pm)" },
+        { "term": "Friday 15 May", "text": "Pink Shirt Day" },
+        { "term": "Monday 18 – Friday 29 May", "text": "CAA Exams" },
+        { "term": "Saturday 4 July", "text": "School Ball" }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "bell-times",
+      "eyebrow": "Ngā wā pere",
+      "reo": true,
+      "heading": "Bell times",
+      "lede": "Tuesday starts later so our staff can meet — there is no Period 1 on Tuesdays.",
+      "caption": "Rosehill College bell times",
+      "columns": ["Period", "Mon, Wed, Thu, Fri", "Tuesday"],
+      "rows": [
+        ["First Bell", "8:45am", "9:40am"],
+        ["Period 1", "8:50 – 9:40am", "No Period 1"],
+        ["Period 2", "9:45 – 10:30am", "9:45 – 10:30am"],
+        ["Interval", "10:30 – 11:10am", "10:30 – 11:10am"],
+        ["Period 3", "11:10 – 12:00pm", "11:10 – 12:00pm"],
+        ["Period 4", "12:05 – 12:50pm", "12:05 – 12:50pm"],
+        ["Lunch", "12:50 – 1:30pm", "12:50 – 1:30pm"],
+        ["Period 5", "1:30 – 2:20pm", "1:30 – 2:20pm"],
+        ["Period 6", "2:25 – 3:10pm", "2:25 – 3:10pm"]
+      ]
+    },
+    {
+      "type": "embed",
+      "id": "calendar",
+      "eyebrow": "Te maramataka",
+      "reo": true,
+      "heading": "Rosehill College calendar",
+      "tall": true,
+      "src": "https://calendar.google.com/calendar/embed?src=vsvce98eru5fb6nlq34ij2semni16b68%40import.calendar.google.com&ctz=Pacific%2FAuckland&showTitle=0&showTabs=0&showPrint=0",
+      "iframeTitle": "Rosehill College events calendar",
+      "note": "Prefer a list? <a href=\"https://calendar.google.com/calendar/embed?src=vsvce98eru5fb6nlq34ij2semni16b68%40import.calendar.google.com&ctz=Pacific%2FAuckland&mode=AGENDA&showTitle=0&showTabs=0&showPrint=0\" rel=\"external\">Open the key dates agenda view</a>."
+    },
+    {
+      "type": "cta",
+      "heading": "Planning the year ahead?",
+      "text": "Start-of-school information, stationery lists and the student handbook are all ready for whānau.",
+      "actions": [
+        { "href": "/our-school/start-of-school-information.html", "label": "Start of school information", "primary": true },
+        { "href": "/join-us/school-zone-and-buses.html", "label": "School buses" }
+      ]
+    }
+  ]
+}
