@@ -1,0 +1,20 @@
+<section class="page-hero {{#if image}}page-hero--media{{/if}}" {{#if id}}id="{{id}}"{{/if}}>
+  <div class="container">
+    <div class="page-hero__text stack">
+      {{#if eyebrow}}<p class="eyebrow" {{#if reo}}lang="mi"{{/if}}>{{eyebrow}}</p>{{/if}}
+      <h1 class="page-hero__title" data-reveal>{{heading}}</h1>
+      {{#if lede}}<p class="lede page-hero__lede" data-reveal>{{raw lede}}</p>{{/if}}
+      {{#if actions}}
+      <div class="page-hero__actions" data-reveal>
+        {{#each actions}}<a class="btn {{#if primary}}btn--red{{else}}btn--ghost{{/if}}" href="{{href}}" {{#if external}}rel="external"{{/if}}>{{label}}</a>{{/each}}
+      </div>
+      {{/if}}
+    </div>
+  </div>
+  {{#if image}}
+  <div class="page-hero__media" data-parallax>
+    <img src="/{{image.src}}" {{#if image.srcset}}srcset="{{image.srcset}}" sizes="100vw"{{/if}} alt="{{image.alt}}" fetchpriority="high">
+    <div class="page-hero__scrim" aria-hidden="true"></div>
+  </div>
+  {{/if}}
+</section>

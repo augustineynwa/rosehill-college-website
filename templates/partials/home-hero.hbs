@@ -1,0 +1,24 @@
+<section class="home-hero" id="hero" data-home-hero>
+  <div class="home-hero__ambient" aria-hidden="true">
+    <video class="home-hero__video" data-ambient-video muted loop playsinline preload="none" poster="/assets/video/{{video.poster}}" tabindex="-1" data-webm="/assets/video/{{video.webm}}" data-mp4="/assets/video/{{video.mp4}}"></video>
+    <div class="home-hero__vignette"></div>
+  </div>
+
+  <div class="home-hero__stage">
+    <div class="home-hero__crest" data-crest-stage>
+      <canvas class="home-hero__canvas" data-crest-canvas aria-hidden="true"></canvas>
+      <img class="home-hero__crest-fallback" data-crest-fallback src="/assets/img/RHC-Official-Crest.svg" alt="The Rosehill College crest" width="344" height="476" fetchpriority="high">
+    </div>
+    <div class="home-hero__text container">
+      <h1 class="home-hero__motto">
+        <span class="home-hero__reo display" lang="mi" data-motto-reo>{{motto}}</span>
+        <span class="home-hero__vision lede" data-motto-vision>{{vision}}</span>
+      </h1>
+    </div>
+  </div>
+
+  <div class="home-hero__cue" aria-hidden="true" data-hero-cue>
+    <span class="home-hero__cue-label">Scroll</span>
+    <span class="home-hero__cue-line"></span>
+  </div>
+</section>

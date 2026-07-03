@@ -1,0 +1,19 @@
+<section class="band {{#if pad}}band--{{pad}}{{/if}}" {{#if id}}id="{{id}}"{{/if}} {{#if theme}}data-theme="{{theme}}"{{/if}}>
+  <div class="container">
+    {{> section-head}}
+    {{#if embeds}}
+    <div class="embed-grid">
+      {{#each embeds}}
+      <div class="embed-frame" data-reveal>
+        <iframe src="{{src}}" title="{{iframeTitle}}" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" allow="encrypted-media; picture-in-picture"></iframe>
+      </div>
+      {{/each}}
+    </div>
+    {{else}}
+    <div class="embed-frame {{#if tall}}embed-frame--tall{{/if}}" data-reveal>
+      <iframe src="{{src}}" title="{{iframeTitle}}" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" {{#if allow}}allow="{{allow}}"{{/if}}></iframe>
+    </div>
+    {{/if}}
+    {{#if note}}<p class="caption band__note">{{raw note}}</p>{{/if}}
+  </div>
+</section>

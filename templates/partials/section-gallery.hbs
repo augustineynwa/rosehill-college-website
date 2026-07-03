@@ -1,0 +1,13 @@
+<section class="band {{#if pad}}band--{{pad}}{{/if}}" {{#if id}}id="{{id}}"{{/if}}>
+  <div class="container">
+    {{> section-head}}
+    <div class="gallery {{#if masonry}}gallery--masonry{{/if}}" data-gallery>
+      {{#each images}}
+      <figure class="gallery__item media-frame" data-reveal>
+        <img src="/{{src}}" {{#if srcset}}srcset="{{srcset}}" sizes="(max-width: 48rem) 100vw, 33vw"{{/if}} alt="{{alt}}" loading="lazy">
+        {{#if caption}}<figcaption class="caption">{{caption}}</figcaption>{{/if}}
+      </figure>
+      {{/each}}
+    </div>
+  </div>
+</section>

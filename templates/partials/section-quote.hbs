@@ -1,0 +1,9 @@
+<section class="band band--quote {{#if pad}}band--{{pad}}{{/if}}" {{#if id}}id="{{id}}"{{/if}}>
+  <div class="container">
+    <figure class="pull-quote" data-reveal>
+      {{#if reo}}<blockquote lang="mi" class="pull-quote__reo">{{reo}}</blockquote>{{/if}}
+      <blockquote class="pull-quote__text">{{raw text}}</blockquote>
+      {{#if attribution}}<figcaption class="pull-quote__attribution">{{attribution}}</figcaption>{{/if}}
+    </figure>
+  </div>
+</section>

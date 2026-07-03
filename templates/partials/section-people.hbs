@@ -1,0 +1,24 @@
+<section class="band {{#if pad}}band--{{pad}}{{/if}}" {{#if id}}id="{{id}}"{{/if}} {{#if theme}}data-theme="{{theme}}"{{/if}}>
+  <div class="container">
+    {{> section-head}}
+    {{#each groups}}
+    <div class="people-group">
+      {{#if title}}<h3 class="people-group__title" data-reveal>{{title}}</h3>{{/if}}
+      <ul class="people-grid {{#if ../compact}}people-grid--compact{{/if}}" role="list">
+        {{#each people}}
+        <li class="person {{#if image}}person--photo{{/if}}" data-reveal>
+          {{#if image}}
+          <figure class="person__media media-frame media-frame--portrait">
+            <img src="/{{image.src}}" {{#if image.srcset}}srcset="{{image.srcset}}" sizes="(max-width: 48rem) 50vw, 25vw"{{/if}} alt="{{image.alt}}" loading="lazy">
+          </figure>
+          {{/if}}
+          <p class="person__name">{{name}}</p>
+          {{#if role}}<p class="person__role">{{role}}</p>{{/if}}
+          {{#if email}}<a class="person__email" href="mailto:{{email}}">{{email}}</a>{{/if}}
+        </li>
+        {{/each}}
+      </ul>
+    </div>
+    {{/each}}
+  </div>
+</section>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  {{> head}}
+  <link rel="preload" href="/assets/crest.glb" as="fetch" crossorigin>
+</head>
+<body data-page="home" class="home">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <p class="visually-hidden">Quick links: <a href="/join-us/enrolment.html">Enrolment</a>, <a href="/our-school/term-dates.html">Term dates</a>.</p>
+  {{> header}}
+  <main id="main" class="page-main" tabindex="-1">
+    {{#each sections}}{{section this}}{{/each}}
+  </main>
+  {{> footer}}
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

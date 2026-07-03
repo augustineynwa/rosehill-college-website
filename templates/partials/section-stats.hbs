@@ -1,0 +1,13 @@
+<section class="band band--stats {{#if pad}}band--{{pad}}{{/if}}" {{#if id}}id="{{id}}"{{/if}}>
+  <div class="container">
+    {{> section-head}}
+    <dl class="stat-band">
+      {{#each stats}}
+      <div class="stat" data-reveal>
+        <dd class="stat__value" {{#if count}}data-count="{{count}}"{{/if}}>{{value}}</dd>
+        <dt class="stat__label">{{label}}</dt>
+      </div>
+      {{/each}}
+    </dl>
+  </div>
+</section>

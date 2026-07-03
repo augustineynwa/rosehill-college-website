@@ -1,0 +1,123 @@
+/* ==========================================================================
+   ROSEHILL COLLEGE — DESIGN TOKENS
+   One source of truth. Every page and component inherits from here.
+   Colours are taken from the official crest (RHC-Official-Crest.svg:
+   navy #273370, red #da3029, silver #f3f3f3) and the existing brand
+   stylesheet (accent #293ca2, gold #e0cf90, neutrals).
+   The WordPress port inherits this file unchanged.
+   ========================================================================== */
+
+:root {
+  /* ---------- colour: brand ---------- */
+  --c-navy: #273370;          /* crest field */
+  --c-navy-bright: #3a4bb5;   /* lifted navy for hover / lines on dark */
+  --c-accent: #293ca2;        /* brand accent (existing site) */
+  --c-red: #da3029;           /* crest rose red — CTAs and markers only */
+  --c-red-bright: #ef4640;    /* hover state on dark */
+  --c-gold: #e0cf90;          /* complimentary gold — te reo eyebrows, fine rules */
+  --c-silver: #f3f3f3;        /* crest silver / paper */
+
+  /* ---------- colour: dark base (derived from crest navy) ---------- */
+  --c-ink-950: #070a14;       /* page base */
+  --c-ink-900: #0b1020;       /* deep band */
+  --c-ink-800: #121936;       /* raised surface / card */
+  --c-ink-700: #1b2450;       /* raised hover / borders on dark */
+  --c-line: rgba(243, 243, 243, 0.14);      /* hairlines on dark */
+  --c-line-strong: rgba(243, 243, 243, 0.28);
+
+  /* ---------- colour: text ---------- */
+  --c-text: #f3f3f3;                       /* primary text on dark  (17.9:1 on ink-950) */
+  --c-text-soft: #c9cbd6;                  /* secondary text on dark (12.2:1) */
+  --c-text-faint: #9a9eb0;                 /* captions on dark (6.9:1) */
+  --c-text-ink: #10142a;                   /* text on light panels */
+  --c-text-ink-soft: #3c415c;              /* secondary text on light panels */
+
+  /* ---------- theme slots (dark default; [data-theme="light"] flips) ---------- */
+  --bg: var(--c-ink-950);
+  --bg-raised: var(--c-ink-800);
+  --fg: var(--c-text);
+  --fg-soft: var(--c-text-soft);
+  --fg-faint: var(--c-text-faint);
+  --line: var(--c-line);
+
+  /* ---------- type ---------- */
+  --font-display: "Albertus Nova", "Georgia", serif;
+  --font-body: "Carlito", "Calibri", "Segoe UI", sans-serif;
+
+  /* fixed modular scale — no off-scale sizes anywhere */
+  --step--1: 0.8125rem;                          /* 13 — captions, labels    */
+  --step-0: 1.0625rem;                           /* 17 — body                */
+  --step-1: 1.25rem;                             /* 20 — lede, h5            */
+  --step-2: clamp(1.4375rem, 1.2rem + 1vw, 1.625rem);   /* 23–26   h4        */
+  --step-3: clamp(1.75rem, 1.4rem + 1.5vw, 2.125rem);   /* 28–34   h3        */
+  --step-4: clamp(2.125rem, 1.6rem + 2.4vw, 3rem);      /* 34–48   h2        */
+  --step-5: clamp(2.75rem, 2rem + 3.8vw, 4.375rem);     /* 44–70   h1        */
+  --step-6: clamp(3.25rem, 2.2rem + 5.6vw, 6.5rem);     /* 52–104  display   */
+
+  --leading-tight: 1.05;
+  --leading-snug: 1.2;
+  --leading-body: 1.6;
+  --tracking-wide: 0.18em;   /* eyebrows / small caps */
+
+  /* ---------- spacing: 8px base ---------- */
+  --sp-1: 0.5rem;    /*   8 */
+  --sp-2: 1rem;      /*  16 */
+  --sp-3: 1.5rem;    /*  24 */
+  --sp-4: 2rem;      /*  32 */
+  --sp-6: 3rem;      /*  48 */
+  --sp-8: 4rem;      /*  64 */
+  --sp-12: 6rem;     /*  96 */
+  --sp-16: 8rem;     /* 128 */
+  --sp-24: 12rem;    /* 192 */
+
+  /* section padding: exactly two desktop values, one mobile value */
+  --section-pad: clamp(var(--sp-8), 10vw, var(--sp-16));      /* standard band */
+  --section-pad-lg: clamp(var(--sp-8), 14vw, var(--sp-24));   /* feature band  */
+
+  /* vertical rhythm — identical on every page */
+  --stack-eyebrow: var(--sp-2);   /* eyebrow → heading      */
+  --stack-heading: var(--sp-3);   /* heading → body         */
+  --stack-body: var(--sp-6);      /* heading block → content */
+
+  /* ---------- grid ---------- */
+  --grid-max: 84rem;                            /* 1344px content width */
+  --grid-cols: 12;
+  --gutter: clamp(1rem, 2.5vw, 2rem);
+  --page-margin: clamp(1.25rem, 5vw, 4rem);
+
+  /* ---------- media aspect ratios (fixed per component) ---------- */
+  --ratio-hero: 16 / 9;
+  --ratio-card: 4 / 3;
+  --ratio-portrait: 3 / 4;
+  --ratio-wide: 21 / 9;
+
+  /* ---------- radii, shadow ---------- */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1.25rem;
+  --shadow-lift: 0 24px 64px -24px rgba(0, 0, 0, 0.55);
+
+  /* ---------- motion ---------- */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-inout: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 0.35s;
+  --dur-med: 0.7s;
+  --dur-slow: 1.1s;
+
+  /* ---------- z ---------- */
+  --z-nav: 100;
+  --z-overlay: 200;
+
+  color-scheme: dark;
+}
+
+/* Light panels — dense practical content (tables, documents, forms) */
+[data-theme="light"] {
+  --bg: var(--c-silver);
+  --bg-raised: #ffffff;
+  --fg: var(--c-text-ink);
+  --fg-soft: var(--c-text-ink-soft);
+  --fg-faint: #5b6079;
+  --line: rgba(16, 20, 42, 0.16);
+  color-scheme: light;
+}

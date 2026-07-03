@@ -1,0 +1,21 @@
+<section class="band {{#if pad}}band--{{pad}}{{/if}}" {{#if id}}id="{{id}}"{{/if}} {{#if theme}}data-theme="{{theme}}"{{/if}}>
+  <div class="container">
+    {{> section-head}}
+    <div class="table-scroll" data-reveal {{#if caption}}role="region" aria-label="{{caption}}" tabindex="0"{{/if}}>
+      <table class="data-table">
+        {{#if caption}}<caption class="visually-hidden">{{caption}}</caption>{{/if}}
+        {{#if columns}}
+        <thead>
+          <tr>{{#each columns}}<th scope="col">{{this}}</th>{{/each}}</tr>
+        </thead>
+        {{/if}}
+        <tbody>
+          {{#each rows}}
+          <tr>{{#each this}}{{#if @first}}<th scope="row">{{raw this}}</th>{{else}}<td>{{raw this}}</td>{{/if}}{{/each}}</tr>
+          {{/each}}
+        </tbody>
+      </table>
+    </div>
+    {{#if note}}<p class="caption band__note">{{raw note}}</p>{{/if}}
+  </div>
+</section>

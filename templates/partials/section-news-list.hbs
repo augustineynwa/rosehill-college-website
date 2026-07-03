@@ -1,0 +1,38 @@
+<section class="band {{#if pad}}band--{{pad}}{{/if}}" {{#if id}}id="{{id}}"{{/if}}>
+  <div class="container">
+    {{> section-head}}
+    {{#if feature}}
+    <article class="news-feature" data-reveal>
+      <a href="{{feature.href}}" class="news-feature__link">
+        <figure class="news-feature__media media-frame" data-parallax-img>
+          <img src="/{{feature.image.src}}" {{#if feature.image.srcset}}srcset="{{feature.image.srcset}}" sizes="(max-width: 64rem) 100vw, 60vw"{{/if}} alt="{{feature.image.alt}}" loading="lazy">
+        </figure>
+        <div class="news-feature__body stack">
+          {{#if feature.date}}<p class="caption">{{feature.date}}</p>{{/if}}
+          <h3 class="news-feature__title">{{feature.title}}</h3>
+          {{#if feature.text}}<p>{{feature.text}}</p>{{/if}}
+          <span class="card__cta" aria-hidden="true">Read more →</span>
+        </div>
+      </a>
+    </article>
+    {{/if}}
+    <ul class="news-grid" role="list">
+      {{#each items}}
+      <li class="news-card" data-reveal>
+        <a href="{{href}}" class="news-card__link" {{#if external}}rel="external"{{/if}}>
+          {{#if image}}
+          <figure class="news-card__media media-frame media-frame--card">
+            <img src="/{{image.src}}" {{#if image.srcset}}srcset="{{image.srcset}}" sizes="(max-width: 48rem) 100vw, 33vw"{{/if}} alt="{{image.alt}}" loading="lazy">
+          </figure>
+          {{/if}}
+          <div class="news-card__body stack">
+            {{#if date}}<p class="caption">{{date}}</p>{{/if}}
+            <h3 class="news-card__title">{{title}}</h3>
+            {{#if text}}<p class="card__text">{{text}}</p>{{/if}}
+          </div>
+        </a>
+      </li>
+      {{/each}}
+    </ul>
+  </div>
+</section>

@@ -1,0 +1,16 @@
+<section class="band {{#if pad}}band--{{pad}}{{/if}}" {{#if id}}id="{{id}}"{{/if}} {{#if theme}}data-theme="{{theme}}"{{/if}}>
+  <div class="container">
+    {{> section-head}}
+    <div class="grid band__body">
+      <div class="prose {{#if aside}}col-main{{else}}col-narrow{{/if}}" data-reveal>
+        {{raw html}}
+      </div>
+      {{#if aside}}
+      <aside class="col-aside prose-aside" data-reveal>
+        {{#if aside.image}}<figure class="media-frame media-frame--portrait"><img src="/{{aside.image.src}}" {{#if aside.image.srcset}}srcset="{{aside.image.srcset}}" sizes="(max-width: 64rem) 100vw, 25vw"{{/if}} alt="{{aside.image.alt}}" loading="lazy"></figure>{{/if}}
+        {{#if aside.html}}{{raw aside.html}}{{/if}}
+      </aside>
+      {{/if}}
+    </div>
+  </div>
+</section>

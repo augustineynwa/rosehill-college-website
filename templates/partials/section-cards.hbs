@@ -1,0 +1,24 @@
+<section class="band {{#if pad}}band--{{pad}}{{/if}}" {{#if id}}id="{{id}}"{{/if}} {{#if theme}}data-theme="{{theme}}"{{/if}}>
+  <div class="container">
+    {{> section-head}}
+    <ul class="card-grid {{#if wide}}card-grid--wide{{/if}}" role="list">
+      {{#each cards}}
+      <li class="card" data-reveal>
+        {{#if href}}<a href="{{href}}" class="card__link" {{#if external}}rel="external"{{/if}}>{{/if}}
+          {{#if image}}
+          <figure class="card__media media-frame media-frame--card">
+            <img src="/{{image.src}}" {{#if image.srcset}}srcset="{{image.srcset}}" sizes="(max-width: 48rem) 100vw, 33vw"{{/if}} alt="{{image.alt}}" loading="lazy">
+          </figure>
+          {{/if}}
+          <div class="card__body stack">
+            {{#if eyebrow}}<p class="eyebrow" {{#if reo}}lang="mi"{{/if}}>{{eyebrow}}</p>{{/if}}
+            <h3 class="card__title">{{title}}</h3>
+            {{#if text}}<p class="card__text">{{raw text}}</p>{{/if}}
+            {{#if href}}<span class="card__cta" aria-hidden="true">{{#if cta}}{{cta}}{{else}}Explore{{/if}} →</span>{{/if}}
+          </div>
+        {{#if href}}</a>{{/if}}
+      </li>
+      {{/each}}
+    </ul>
+  </div>
+</section>

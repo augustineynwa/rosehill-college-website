@@ -1,0 +1,35 @@
+<section class="home-journey" id="journey" data-home-journey>
+  <div class="container">
+    {{> section-head}}
+  </div>
+  <div class="home-journey__pin" data-journey-pin>
+    <div class="container">
+      <div class="home-journey__stage grid">
+        <ol class="journey-steps col-main" role="list">
+          {{#each steps}}
+          <li class="journey-step" data-journey-step>
+            <p class="journey-step__year display" aria-hidden="true">{{year}}</p>
+            <div class="journey-step__body stack">
+              <h3 class="journey-step__title"><span class="visually-hidden">{{year}} — </span>{{title}}</h3>
+              <p class="journey-step__text">{{raw text}}</p>
+              {{#if link}}<a class="journey-step__link" href="{{link.href}}">{{link.label}}</a>{{/if}}
+            </div>
+          </li>
+          {{/each}}
+        </ol>
+        <figure class="journey-media col-aside" aria-hidden="true">
+          {{#each steps}}
+          <div class="journey-media__item media-frame media-frame--portrait" data-journey-media>
+            <img src="/{{image.src}}" {{#if image.srcset}}srcset="{{image.srcset}}" sizes="25vw"{{/if}} alt="" loading="lazy">
+          </div>
+          {{/each}}
+        </figure>
+      </div>
+    </div>
+  </div>
+  <div class="journey-marker" data-journey-marker aria-hidden="true">
+    <span class="journey-marker__label">Year</span>
+    <span class="journey-marker__value" data-journey-marker-value>9</span>
+    <span class="journey-marker__bar"><span class="journey-marker__fill" data-journey-marker-fill></span></span>
+  </div>
+</section>

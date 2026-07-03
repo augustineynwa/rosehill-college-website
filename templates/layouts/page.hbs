@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  {{> head}}
+</head>
+<body data-page="{{slug}}" {{#if theme}}data-theme="{{theme}}"{{/if}}>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  {{> header}}
+  <main id="main" class="page-main" tabindex="-1">
+    {{#each sections}}{{section this}}{{/each}}
+  </main>
+  {{> footer}}
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

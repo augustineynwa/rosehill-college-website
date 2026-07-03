@@ -1,0 +1,19 @@
+<section class="band band--cta" {{#if id}}id="{{id}}"{{/if}}>
+  <div class="container">
+    <div class="cta-band" data-reveal>
+      {{#if image}}
+      <div class="cta-band__media" aria-hidden="true" data-parallax-img>
+        <img src="/{{image.src}}" {{#if image.srcset}}srcset="{{image.srcset}}" sizes="100vw"{{/if}} alt="" loading="lazy">
+      </div>
+      {{/if}}
+      <div class="cta-band__body stack">
+        {{#if eyebrow}}<p class="eyebrow" {{#if reo}}lang="mi"{{/if}}>{{eyebrow}}</p>{{/if}}
+        <h2 class="cta-band__heading">{{heading}}</h2>
+        {{#if text}}<p class="lede">{{raw text}}</p>{{/if}}
+        <div class="band__actions">
+          {{#each actions}}<a class="btn btn--lg {{#if primary}}btn--red{{else}}btn--ghost{{/if}}" href="{{href}}" {{#if external}}rel="external"{{/if}}>{{label}}</a>{{/each}}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

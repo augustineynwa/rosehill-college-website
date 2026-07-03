@@ -1,0 +1,15 @@
+<section class="home-life" id="life" data-home-life>
+  <div class="home-life__pin" data-life-pin>
+    <div class="container">
+      {{> section-head}}
+    </div>
+    <div class="home-life__track" data-life-track>
+      {{#each images}}
+      <figure class="home-life__panel media-frame" data-life-panel data-depth="{{depth}}">
+        <img src="/{{src}}" {{#if srcset}}srcset="{{srcset}}" sizes="60vw"{{/if}} alt="{{alt}}" loading="lazy">
+        {{#if caption}}<figcaption class="home-life__caption">{{caption}}</figcaption>{{/if}}
+      </figure>
+      {{/each}}
+    </div>
+  </div>
+</section>

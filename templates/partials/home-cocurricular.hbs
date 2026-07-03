@@ -1,0 +1,22 @@
+<section class="band band--lg home-cocurricular" id="cocurricular" data-home-cocurricular>
+  <div class="container">
+    {{> section-head}}
+  </div>
+  <div class="montage" data-montage>
+    {{#each rows}}
+    <div class="montage__row" data-montage-row data-dir="{{#if (eq (mod @index 2) 0)}}left{{else}}right{{/if}}">
+      {{#each images}}
+      <figure class="montage__item media-frame media-frame--card">
+        <img src="/{{src}}" {{#if srcset}}srcset="{{srcset}}" sizes="(max-width: 48rem) 60vw, 30vw"{{/if}} alt="{{alt}}" loading="lazy">
+        <figcaption class="montage__label">{{label}}</figcaption>
+      </figure>
+      {{/each}}
+    </div>
+    {{/each}}
+  </div>
+  <div class="container">
+    <div class="band__actions band__actions--center" data-reveal>
+      {{#each actions}}<a class="btn {{#if primary}}btn--red{{else}}btn--ghost{{/if}}" href="{{href}}">{{label}}</a>{{/each}}
+    </div>
+  </div>
+</section>

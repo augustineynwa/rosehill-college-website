@@ -1,0 +1,75 @@
+<header class="site-header" data-header>
+  <div class="site-header__inner container">
+    <a href="/index.html" class="site-header__brand" aria-label="Rosehill College — home">
+      <span class="site-header__crest" data-header-crest>
+        <img src="/assets/img/RHC-Official-Crest.svg" alt="" width="34" height="47">
+      </span>
+      <span class="site-header__name">Rosehill<br>College</span>
+    </a>
+
+    <nav class="site-nav" aria-label="Primary" data-nav>
+      <ul class="site-nav__list" role="list">
+        {{#each site.nav}}
+        <li class="site-nav__item {{#if children}}has-children{{/if}}">
+          {{#if children}}
+          <button class="site-nav__link" type="button" aria-expanded="false" data-nav-toggle>
+            {{label}}
+            <svg class="site-nav__chevron" width="10" height="10" viewBox="0 0 512 512" aria-hidden="true"><path fill="currentColor" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
+          </button>
+          <ul class="site-nav__dropdown" role="list">
+            {{#each children}}
+            <li><a href="{{#unless external}}/{{/unless}}{{href}}" class="site-nav__sublink" {{#if external}}rel="external"{{/if}} {{#if (eq href @root.path)}}aria-current="page"{{/if}}>{{label}}</a></li>
+            {{/each}}
+          </ul>
+          {{else}}
+          <a href="/{{href}}" class="site-nav__link" {{#if (eq href @root.path)}}aria-current="page"{{/if}}>{{label}}</a>
+          {{/if}}
+        </li>
+        {{/each}}
+      </ul>
+    </nav>
+
+    <div class="site-header__actions">
+      <a href="/my-rhc.html" class="btn btn--ghost btn--sm site-header__myrhc">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 21C5 17.134 8.13401 14 12 14C15.866 14 19 17.134 19 21M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        My RHC
+      </a>
+      <div class="absence" data-absence>
+        <button class="btn btn--red btn--sm" type="button" aria-expanded="false" aria-controls="absence-menu" data-absence-toggle>Report Absences</button>
+        <div class="absence__menu" id="absence-menu" hidden>
+          <a href="{{site.contact.attendancePhoneHref}}" class="absence__link">Phone <strong>{{site.contact.attendancePhone}}</strong></a>
+          <a href="mailto:{{site.contact.attendanceEmail}}" class="absence__link">Email attendance</a>
+          <a href="{{site.external.schoolApp}}" class="absence__link" rel="external">Report in the school app</a>
+        </div>
+      </div>
+      <button class="site-header__burger" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle>
+        <span class="visually-hidden">Menu</span>
+        <span class="site-header__burger-line" aria-hidden="true"></span>
+        <span class="site-header__burger-line" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="mobile-menu" id="mobile-menu" hidden data-mobile-menu>
+    <nav aria-label="Mobile" class="mobile-menu__inner container">
+      {{#each site.nav}}
+      {{#if children}}
+      <details class="mobile-menu__group">
+        <summary class="mobile-menu__summary">{{label}}</summary>
+        <ul role="list" class="mobile-menu__list">
+          {{#each children}}
+          <li><a href="{{#unless external}}/{{/unless}}{{href}}" class="mobile-menu__link">{{label}}</a></li>
+          {{/each}}
+        </ul>
+      </details>
+      {{else}}
+      <a href="/{{href}}" class="mobile-menu__top-link">{{label}}</a>
+      {{/if}}
+      {{/each}}
+      <div class="mobile-menu__cta">
+        <a href="/my-rhc.html" class="btn btn--ghost">My RHC</a>
+        <a href="/join-us/enrolment.html" class="btn btn--red">Enrol now</a>
+      </div>
+    </nav>
+  </div>
+</header>

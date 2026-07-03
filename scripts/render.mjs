@@ -29,9 +29,10 @@ Handlebars.registerHelper('inc', (a) => Number(a) + 1);
 Handlebars.registerHelper('raw', (s) => new Handlebars.SafeString(s ?? ''));
 Handlebars.registerHelper('json', (o) => new Handlebars.SafeString(JSON.stringify(o)));
 Handlebars.registerHelper('pad2', (n) => String(n).padStart(2, '0'));
+Handlebars.registerHelper('mod', (a, b) => Number(a) % Number(b));
 // section dispatcher: renders partial "section-<type>" with the section as context
 Handlebars.registerHelper('section', function (sec, options) {
-  const partial = Handlebars.partials['section-' + sec.type];
+  const partial = Handlebars.partials['section-' + sec.type] || Handlebars.partials[sec.type];
   if (!partial) throw new Error(`Unknown section type: ${sec.type}`);
   const fn = typeof partial === 'string' ? Handlebars.compile(partial) : partial;
   return new Handlebars.SafeString(fn({ ...sec, root: options.data.root.root, page: options.data.root }, { data: options.data }));

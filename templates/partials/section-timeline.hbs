@@ -1,0 +1,22 @@
+<section class="band {{#if pad}}band--{{pad}}{{/if}}" {{#if id}}id="{{id}}"{{/if}}>
+  <div class="container">
+    {{> section-head}}
+    <ol class="timeline" role="list" data-timeline>
+      {{#each entries}}
+      <li class="timeline__entry {{#if (eq (mod @index 2) 1)}}timeline__entry--flip{{/if}}" data-reveal>
+        <div class="timeline__marker" aria-hidden="true"></div>
+        <div class="timeline__body stack">
+          <p class="timeline__year display">{{year}}</p>
+          {{#if title}}<h3 class="timeline__title">{{title}}</h3>{{/if}}
+          {{#if html}}<div class="prose">{{raw html}}</div>{{/if}}
+        </div>
+        {{#if image}}
+        <figure class="timeline__media media-frame media-frame--card" data-parallax-img>
+          <img src="/{{image.src}}" {{#if image.srcset}}srcset="{{image.srcset}}" sizes="(max-width: 64rem) 100vw, 40vw"{{/if}} alt="{{image.alt}}" loading="lazy">
+        </figure>
+        {{/if}}
+      </li>
+      {{/each}}
+    </ol>
+  </div>
+</section>

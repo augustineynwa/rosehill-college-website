@@ -1,0 +1,7 @@
+{{#if (or heading (or eyebrow lede))}}
+<header class="band__head stack {{#if center}}band__head--center{{/if}}">
+  {{#if eyebrow}}<p class="eyebrow" {{#if reo}}lang="mi"{{/if}}>{{eyebrow}}</p>{{/if}}
+  {{#if heading}}<h2 class="band__heading" data-reveal>{{heading}}</h2>{{/if}}
+  {{#if lede}}<p class="lede" data-reveal>{{raw lede}}</p>{{/if}}
+</header>
+{{/if}}

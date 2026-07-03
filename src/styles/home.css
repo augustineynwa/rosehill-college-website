@@ -1,0 +1,241 @@
+/* ==========================================================================
+   HOMEPAGE — scroll chapters. Motion is applied by JS (GSAP); everything
+   here must read correctly as a calm static page when motion is off.
+   ========================================================================== */
+
+/* ---------------------------------------------------------------- hero */
+.home-hero {
+  position: relative;
+  min-height: 100svh;
+  display: grid;
+  overflow: clip;
+}
+.home-hero__ambient { position: absolute; inset: 0; }
+.home-hero__video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.16;
+  filter: saturate(0.6);
+}
+.home-hero__vignette {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(90% 70% at 50% 45%, transparent 0%, var(--c-ink-950) 92%),
+    linear-gradient(180deg, rgba(7, 10, 20, 0.5), transparent 30%, transparent 70%, var(--c-ink-950) 100%);
+}
+.home-hero__stage {
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  place-items: center;
+  padding-block: 6.5rem 5.5rem;
+}
+.home-hero__crest {
+  position: relative;
+  width: min(46vh, 62vw, 26rem);
+  aspect-ratio: 688 / 953;
+  display: grid;
+  place-items: center;
+}
+.home-hero__canvas {
+  position: absolute;
+  inset: -30%;
+  width: 160% !important;
+  height: 160% !important;
+}
+.home-hero__crest-fallback { width: 72%; filter: drop-shadow(0 30px 60px rgba(0, 0, 0, 0.6)); }
+html.js.motion-ok .home-hero__crest-fallback.is-replaced { display: none; }
+
+.home-hero__text { text-align: center; padding-block-start: var(--sp-6); }
+.home-hero__motto { display: grid; gap: var(--sp-3); justify-items: center; }
+.home-hero__reo {
+  color: var(--c-silver);
+  max-width: min(11em, 100%);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+@media (max-width: 40rem) {
+  .home-hero__reo { font-size: var(--step-4); }
+}
+.home-hero__reo .word { display: inline-block; }
+.home-hero__vision { color: var(--fg-soft); }
+
+.home-hero__cue {
+  position: absolute;
+  inset-inline: 0;
+  bottom: var(--sp-3);
+  display: grid;
+  justify-items: center;
+  gap: var(--sp-1);
+  color: var(--fg-faint);
+  font-size: var(--step--1);
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+}
+.home-hero__cue-line {
+  width: 1px;
+  height: var(--sp-6);
+  background: linear-gradient(var(--c-gold), transparent);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .home-hero__cue-line { animation: cue-drop 2.2s var(--ease-inout) infinite; transform-origin: top; }
+  @keyframes cue-drop {
+    0% { transform: scaleY(0); }
+    45% { transform: scaleY(1); }
+    100% { transform: scaleY(1); opacity: 0; }
+  }
+}
+
+/* ---------------------------------------------------------------- values (pou) */
+.home-values .band__head { max-width: 40em; }
+.pou-list { display: flex; flex-direction: column; gap: var(--sp-12); counter-reset: pou; }
+.pou {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: var(--gutter);
+  row-gap: var(--sp-3);
+  align-items: center;
+  position: relative;
+}
+.pou__index {
+  grid-column: 1 / span 1;
+  font-family: var(--font-display);
+  font-size: var(--step-4);
+  color: var(--c-line-strong);
+}
+.pou__text { grid-column: 2 / span 5; }
+.pou__media { grid-column: 8 / span 5; }
+.pou:nth-child(even) .pou__index { grid-column: 12 / span 1; grid-row: 1; justify-self: end; }
+.pou:nth-child(even) .pou__text { grid-column: 7 / span 5; grid-row: 1; }
+.pou:nth-child(even) .pou__media { grid-column: 1 / span 5; grid-row: 1; }
+.pou__reo { font-size: var(--step-4); color: var(--c-gold); }
+.pou__english {
+  font-size: var(--step-2);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--c-silver);
+}
+.pou__meaning { color: var(--fg-soft); max-width: 30em; }
+@media (max-width: 64rem) {
+  .pou__index, .pou__text, .pou__media,
+  .pou:nth-child(even) .pou__index, .pou:nth-child(even) .pou__text, .pou:nth-child(even) .pou__media {
+    grid-column: 1 / -1;
+    grid-row: auto;
+    justify-self: start;
+  }
+}
+
+/* ---------------------------------------------------------------- life gallery (pinned) */
+.home-life { position: relative; }
+.home-life__pin {
+  padding-block: var(--section-pad);
+  overflow: clip;
+}
+.home-life__track {
+  display: flex;
+  gap: var(--gutter);
+  padding-inline: var(--page-margin);
+  margin-block-start: var(--sp-6);
+  will-change: transform;
+}
+.home-life__panel {
+  flex: 0 0 auto;
+  width: min(46rem, 78vw);
+  aspect-ratio: var(--ratio-hero);
+  position: relative;
+}
+.home-life__panel:nth-child(even) { width: min(30rem, 62vw); align-self: flex-end; aspect-ratio: var(--ratio-card); }
+.home-life__caption {
+  position: absolute;
+  inset-inline: 0;
+  bottom: 0;
+  padding: var(--sp-4) var(--sp-3) var(--sp-2);
+  background: linear-gradient(transparent, rgba(7, 10, 20, 0.85));
+  color: var(--c-silver);
+  font-size: var(--step--1);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+/* static fallback: horizontal scroll snap when motion is off */
+html:not(.motion-ok) .home-life__track { overflow-x: auto; scroll-snap-type: x mandatory; padding-block-end: var(--sp-2); }
+html:not(.motion-ok) .home-life__panel { scroll-snap-align: center; }
+
+/* ---------------------------------------------------------------- journey */
+.home-journey { position: relative; padding-block-start: var(--section-pad-lg); }
+.home-journey__pin { position: relative; }
+.journey-steps { display: flex; flex-direction: column; gap: var(--sp-16); padding-block: var(--sp-8); }
+.journey-step {
+  display: grid;
+  grid-template-columns: minmax(6rem, auto) 1fr;
+  gap: var(--sp-4);
+  align-items: start;
+}
+.journey-step__year {
+  font-size: var(--step-6);
+  line-height: 0.9;
+  color: var(--c-line-strong);
+  transition: color var(--dur-med) var(--ease-out);
+}
+.journey-step.is-active .journey-step__year { color: var(--c-gold); }
+.journey-step__title { font-size: var(--step-3); }
+.journey-step__text { color: var(--fg-soft); max-width: 34em; }
+.journey-step__link { font-weight: 700; color: var(--c-gold); text-decoration: none; }
+.journey-step__link:hover { text-decoration: underline; }
+.journey-media { position: sticky; top: 14vh; height: min(60vh, 34rem); display: grid; }
+.journey-media__item { grid-area: 1 / 1; height: 100%; opacity: 0.001; }
+.journey-media__item:first-child { opacity: 1; }
+html:not(.motion-ok) .journey-media { display: none; }
+@media (max-width: 64rem) { .journey-media { display: none; } }
+
+/* corner progress marker */
+.journey-marker {
+  position: fixed;
+  right: var(--sp-3);
+  bottom: var(--sp-3);
+  z-index: var(--z-nav);
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  column-gap: var(--sp-1);
+  align-items: baseline;
+  padding: var(--sp-2);
+  background: color-mix(in srgb, var(--c-ink-900) 85%, transparent);
+  border: 1px solid var(--c-line);
+  border-radius: var(--radius-md);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity var(--dur-fast) var(--ease-out), visibility 0s linear var(--dur-fast);
+}
+.journey-marker.is-visible { opacity: 1; visibility: visible; transition-delay: 0s; }
+.journey-marker__label { font-size: var(--step--1); letter-spacing: 0.1em; text-transform: uppercase; color: var(--fg-faint); }
+.journey-marker__value { font-family: var(--font-display); font-size: var(--step-3); color: var(--c-gold); line-height: 1; min-width: 1.4ch; }
+.journey-marker__bar { grid-column: 1 / -1; height: 2px; background: var(--c-line); border-radius: 1px; margin-block-start: var(--sp-1); overflow: hidden; display: block; }
+.journey-marker__fill { display: block; height: 100%; width: 0%; background: var(--c-red); }
+
+/* ---------------------------------------------------------------- co-curricular montage */
+.home-cocurricular { overflow: clip; }
+.montage { display: grid; gap: var(--gutter); }
+.montage__row { display: flex; gap: var(--gutter); width: max-content; will-change: transform; }
+.montage__item { position: relative; width: min(24rem, 66vw); flex: 0 0 auto; }
+.montage__label {
+  position: absolute;
+  left: var(--sp-2);
+  bottom: var(--sp-2);
+  padding: 0.35em 0.9em;
+  background: rgba(7, 10, 20, 0.72);
+  border-radius: var(--radius-sm);
+  color: var(--c-silver);
+  font-size: var(--step--1);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+html:not(.motion-ok) .montage__row { overflow-x: auto; width: auto; padding-inline: var(--page-margin); }
+
+/* ---------------------------------------------------------------- news on home */
+.home .news-grid { align-items: stretch; }

@@ -1,0 +1,36 @@
+<section class="band {{#if pad}}band--{{pad}}{{/if}}" {{#if id}}id="{{id}}"{{/if}}>
+  <div class="container">
+    {{> section-head}}
+    <div class="grid band__body">
+      <form class="contact-form col-main stack" method="post" action="{{#if action}}{{action}}{{else}}#{{/if}}" data-reveal>
+        <div class="field-row">
+          <div class="field">
+            <label for="cf-name">Name <span aria-hidden="true">*</span></label>
+            <input id="cf-name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="cf-email">Email <span aria-hidden="true">*</span></label>
+            <input id="cf-email" name="email" type="email" autocomplete="email" required>
+          </div>
+        </div>
+        <div class="field">
+          <label for="cf-phone">Phone</label>
+          <input id="cf-phone" name="phone" type="tel" autocomplete="tel">
+        </div>
+        <div class="field">
+          <label for="cf-subject">Subject <span aria-hidden="true">*</span></label>
+          <input id="cf-subject" name="subject" type="text" required>
+        </div>
+        <div class="field">
+          <label for="cf-message">Message <span aria-hidden="true">*</span></label>
+          <textarea id="cf-message" name="message" rows="6" required></textarea>
+        </div>
+        <button class="btn btn--red btn--lg" type="submit">Send message</button>
+        <p class="caption">Fields marked * are required.</p>
+      </form>
+      <aside class="col-aside prose-aside stack" data-reveal>
+        {{#if aside}}{{raw aside}}{{/if}}
+      </aside>
+    </div>
+  </div>
+</section>
