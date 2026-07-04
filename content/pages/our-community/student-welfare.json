@@ -27,8 +27,16 @@
       "heading": "Menu and allergen information",
       "lede": "The current canteen menu and price list, along with the list of allergens, can be downloaded below.",
       "docs": [
-        { "href": "assets/docs/Canteen-Menu.pdf", "label": "Canteen menu and price list", "meta": "PDF" },
-        { "href": "assets/docs/Allergens-List.pdf", "label": "Allergens list", "meta": "PDF" }
+        {
+          "href": "assets/docs/Canteen-Menu.pdf",
+          "label": "Canteen menu and price list",
+          "meta": "PDF"
+        },
+        {
+          "href": "assets/docs/Allergens-List.pdf",
+          "label": "Allergens list",
+          "meta": "PDF"
+        }
       ]
     },
     {
@@ -54,7 +62,7 @@
       "aside": {
         "image": {
           "src": "assets/img/Our-Community---Student-Welfare---Student-Support_1.avif",
-          "srcset": "",
+          "srcset": "/assets/img/Our-Community---Student-Welfare---Student-Support_1-rp-500.avif 500w, /assets/img/Our-Community---Student-Welfare---Student-Support_1-rp-800.avif 800w, /assets/img/Our-Community---Student-Welfare---Student-Support_1-rp-1080.avif 1080w, /assets/img/Our-Community---Student-Welfare---Student-Support_1-rp-1600.avif 1600w, /assets/img/Our-Community---Student-Welfare---Student-Support_1.avif 4911w",
           "alt": "Rosehill College students supporting each other on campus"
         }
       }
@@ -87,8 +95,15 @@
       "heading": "Need a hand, or have a question?",
       "text": "Drop in to Student Support during break times, or get in touch with the school — we are here to help.",
       "actions": [
-        { "href": "/contact-us.html", "label": "Contact us", "primary": true },
-        { "href": "/curriculum/student-support.html", "label": "Learning support" }
+        {
+          "href": "/contact-us.html",
+          "label": "Contact us",
+          "primary": true
+        },
+        {
+          "href": "/curriculum/student-support.html",
+          "label": "Learning support"
+        }
       ]
     }
   ]

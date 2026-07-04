@@ -91,7 +91,7 @@
       "aside": {
         "image": {
           "src": "assets/img/Curriculum---Subjects---Instrumental_1.avif",
-          "srcset": "",
+          "srcset": "/assets/img/Curriculum---Subjects---Instrumental_1-rp-500.avif 500w, /assets/img/Curriculum---Subjects---Instrumental_1-rp-800.avif 800w, /assets/img/Curriculum---Subjects---Instrumental_1-rp-1080.avif 1080w, /assets/img/Curriculum---Subjects---Instrumental_1.avif 1280w",
           "alt": "Rosehill College student learning an instrument"
         }
       }
@@ -117,8 +117,15 @@
       "heading": "Experience the arts at Rosehill",
       "text": "From the stage to the studio, there is a place for every student in our arts and culture community.",
       "actions": [
-        { "href": "/cocurricular/sports.html", "label": "Explore sports", "primary": true },
-        { "href": "/our-school/life-at-rosehill-college.html", "label": "Life at Rosehill College" }
+        {
+          "href": "/cocurricular/sports.html",
+          "label": "Explore sports",
+          "primary": true
+        },
+        {
+          "href": "/our-school/life-at-rosehill-college.html",
+          "label": "Life at Rosehill College"
+        }
       ]
     }
   ]

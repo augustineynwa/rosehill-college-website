@@ -65,6 +65,8 @@
       "reo": true,
       "heading": "Rosehill College calendar",
       "tall": true,
+      "facade": true,
+      "facadeLabel": "Load the Rosehill College calendar",
       "src": "https://calendar.google.com/calendar/embed?src=vsvce98eru5fb6nlq34ij2semni16b68%40import.calendar.google.com&ctz=Pacific%2FAuckland&showTitle=0&showTabs=0&showPrint=0",
       "iframeTitle": "Rosehill College events calendar",
       "note": "Prefer a list? <a href=\"https://calendar.google.com/calendar/embed?src=vsvce98eru5fb6nlq34ij2semni16b68%40import.calendar.google.com&ctz=Pacific%2FAuckland&mode=AGENDA&showTitle=0&showTabs=0&showPrint=0\" rel=\"external\">Open the key dates agenda view</a>."

@@ -12,7 +12,7 @@
       "lede": "Explore exciting career opportunities at Rosehill College, where we are committed to fostering a dynamic and supportive environment for both students and staff. Whether you are passionate about teaching, administration, or support roles, we invite you to be a part of our vibrant educational community and contribute to the success and growth of our students.",
       "image": {
         "src": "assets/img/Staff-Vacancies_1.avif",
-        "srcset": "",
+        "srcset": "/assets/img/Staff-Vacancies_1-rp-500.avif 500w, /assets/img/Staff-Vacancies_1-rp-800.avif 800w, /assets/img/Staff-Vacancies_1-rp-1080.avif 1080w, /assets/img/Staff-Vacancies_1.avif 1470w",
         "alt": "Rosehill College staff"
       }
     },
@@ -31,8 +31,15 @@
       "heading": "Take the next step in your professional journey",
       "text": "Discover the current vacancies and take the next step in your professional journey with us. Questions about a role or an application? We would love to hear from you.",
       "actions": [
-        { "href": "/contact-us.html", "label": "Contact us", "primary": true },
-        { "href": "mailto:inquiries@rosehillcollege.school.nz", "label": "Email inquiries@rosehillcollege.school.nz" }
+        {
+          "href": "/contact-us.html",
+          "label": "Contact us",
+          "primary": true
+        },
+        {
+          "href": "mailto:inquiries@rosehillcollege.school.nz",
+          "label": "Email inquiries@rosehillcollege.school.nz"
+        }
       ]
     }
   ]

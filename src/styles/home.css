@@ -103,7 +103,7 @@ html.js.motion-ok .home-hero__crest-fallback.is-replaced { display: none; }
   grid-column: 1 / span 1;
   font-family: var(--font-display);
   font-size: var(--step-4);
-  color: var(--c-line-strong);
+  color: #6b6f7e;
 }
 .pou__text { grid-column: 2 / span 5; }
 .pou__media { grid-column: 8 / span 5; }
@@ -176,7 +176,8 @@ html:not(.motion-ok) .home-life__panel { scroll-snap-align: center; }
 .journey-step__year {
   font-size: var(--step-6);
   line-height: 0.9;
-  color: var(--c-line-strong);
+  /* subtle but ≥3:1 for large text on the dark base (WCAG AA) */
+  color: #6b6f7e;
   transition: color var(--dur-med) var(--ease-out);
 }
 .journey-step.is-active .journey-step__year { color: var(--c-gold); }

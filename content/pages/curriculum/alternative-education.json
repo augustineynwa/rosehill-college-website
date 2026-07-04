@@ -25,10 +25,22 @@
       "id": "enrolment-process",
       "heading": "Enrolment process",
       "items": [
-        { "term": "1. Referral or enquiry", "text": "Contact the Alt Ed team or speak with your Kaitiaki." },
-        { "term": "2. Submit enrolment form", "text": "Complete and return the Alternative Education Enrolment Form." },
-        { "term": "3. Initial interview", "text": "Student, whānau, and referring school meet with the Alt Ed team." },
-        { "term": "4. Transition plan", "text": "A personalised learning and attendance plan is developed." }
+        {
+          "term": "1. Referral or enquiry",
+          "text": "Contact the Alt Ed team or speak with your Kaitiaki."
+        },
+        {
+          "term": "2. Submit enrolment form",
+          "text": "Complete and return the Alternative Education Enrolment Form."
+        },
+        {
+          "term": "3. Initial interview",
+          "text": "Student, whānau, and referring school meet with the Alt Ed team."
+        },
+        {
+          "term": "4. Transition plan",
+          "text": "A personalised learning and attendance plan is developed."
+        }
       ]
     },
     {
@@ -36,7 +48,7 @@
       "heading": "Programme focus",
       "image": {
         "src": "assets/img/41477_2019_374_Figa_HTML_1.avif",
-        "srcset": "",
+        "srcset": "/assets/img/41477_2019_374_Figa_HTML_1-rp-500.avif 500w, /assets/img/41477_2019_374_Figa_HTML_1-rp-800.avif 800w, /assets/img/41477_2019_374_Figa_HTML_1-rp-1080.avif 1080w, /assets/img/41477_2019_374_Figa_HTML_1.avif 1435w",
         "alt": "Sunlight streaming through a green forest canopy"
       },
       "html": "<ul><li><strong>Core learning:</strong> literacy, numeracy, and NCEA Foundation Level</li><li><strong>Pathways:</strong> transition planning, employment skills, and work readiness</li><li><strong>Life skills:</strong> hauora, resilience, communication, and teamwork</li><li><strong>Service and leadership:</strong> building social responsibility and whanaungatanga</li><li><strong>Support:</strong> small class sizes, mentoring, and wrap-around pastoral care</li></ul>"
@@ -47,11 +59,23 @@
       "heading": "Programme options (2026)",
       "lede": "The offsite programmes offer pick-ups and drop-offs, breakfast and lunch, and access to facilities including a fitness centre, music recording, and outdoor education.",
       "caption": "Alternative Education programme options for 2026",
-      "columns": ["Provider", "Focus"],
+      "columns": [
+        "Provider",
+        "Focus"
+      ],
       "rows": [
-        ["Rosehill College (on site)", "Re-engagement, foundation learning, transition to school"],
-        ["Blue Light Papakura", "Youth development and leadership"],
-        ["Papakura Activity Centre (Te Awatea)", "Holistic, whānau-based learning and wellbeing support"]
+        [
+          "Rosehill College (on site)",
+          "Re-engagement, foundation learning, transition to school"
+        ],
+        [
+          "Blue Light Papakura",
+          "Youth development and leadership"
+        ],
+        [
+          "Papakura Activity Centre (Te Awatea)",
+          "Holistic, whānau-based learning and wellbeing support"
+        ]
       ]
     },
     {
@@ -66,7 +90,11 @@
       "heading": "Downloads",
       "lede": "Find out more about the programme in our information guide.",
       "docs": [
-        { "href": "assets/docs/Alt-Ed-Info-Guide.pdf", "label": "Alternative Education information guide", "meta": "PDF" }
+        {
+          "href": "assets/docs/Alt-Ed-Info-Guide.pdf",
+          "label": "Alternative Education information guide",
+          "meta": "PDF"
+        }
       ]
     },
     {
@@ -74,8 +102,15 @@
       "heading": "Apply now",
       "text": "To apply, please complete the Alternative Education Enrolment Form and return it to the Alt Ed team at alted@rosehillcollege.school.nz.",
       "actions": [
-        { "href": "mailto:alted@rosehillcollege.school.nz", "label": "Email the Alt Ed team", "primary": true },
-        { "href": "/contact-us.html", "label": "Contact us" }
+        {
+          "href": "mailto:alted@rosehillcollege.school.nz",
+          "label": "Email the Alt Ed team",
+          "primary": true
+        },
+        {
+          "href": "/contact-us.html",
+          "label": "Contact us"
+        }
       ]
     }
   ]

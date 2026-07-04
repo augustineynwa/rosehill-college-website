@@ -11,8 +11,15 @@
       "heading": "Rosehill College enrolment",
       "lede": "We are excited to help you join our thriving learning community. In-zone students apply online; out-of-zone applicants collect an enrolment pack from reception and enter the annual ballot. Enrolments for the following school year typically open at the start of Term 3 each year. For all enrolment enquiries, please email enrolments@rosehillcollege.school.nz.",
       "actions": [
-        { "href": "https://rosehillcollege.school.kiwi/enrolment", "label": "Start new enrolment application", "primary": true },
-        { "href": "mailto:enrolments@rosehillcollege.school.nz", "label": "Email the enrolment team" }
+        {
+          "href": "https://rosehillcollege.school.kiwi/enrolment",
+          "label": "Start new enrolment application",
+          "primary": true
+        },
+        {
+          "href": "mailto:enrolments@rosehillcollege.school.nz",
+          "label": "Email the enrolment team"
+        }
       ]
     },
     {
@@ -23,12 +30,16 @@
       "portrait": true,
       "image": {
         "src": "assets/img/In-Zone_1.avif",
-        "srcset": "",
+        "srcset": "/assets/img/In-Zone_1-rp-500.avif 500w, /assets/img/In-Zone_1-rp-800.avif 800w, /assets/img/In-Zone_1-rp-1080.avif 1080w, /assets/img/In-Zone_1-rp-1600.avif 1600w, /assets/img/In-Zone_1.avif 2480w",
         "alt": "Rosehill College in-zone enrolment flyer"
       },
       "html": "<p>All students who live within the Rosehill College zone are entitled to enrol at the College. Complete your application online for a fast and straightforward process — you can <a href=\"https://www.educationcounts.govt.nz/find-school\" rel=\"external\">check if you are in zone for Rosehill College</a> by entering your address.</p><p>If you do not have access to an electronic device, computers are available at our front office for you to complete your online enrolment. Our front office staff are also available to assist you with the process.</p>",
       "actions": [
-        { "href": "https://rosehillcollege.school.kiwi/enrolment", "label": "Start new enrolment application", "primary": true }
+        {
+          "href": "https://rosehillcollege.school.kiwi/enrolment",
+          "label": "Start new enrolment application",
+          "primary": true
+        }
       ]
     },
     {
@@ -67,7 +78,7 @@
       "portrait": true,
       "image": {
         "src": "assets/img/Out-of-Zone_1.avif",
-        "srcset": "",
+        "srcset": "/assets/img/Out-of-Zone_1-rp-500.avif 500w, /assets/img/Out-of-Zone_1-rp-800.avif 800w, /assets/img/Out-of-Zone_1-rp-1080.avif 1080w, /assets/img/Out-of-Zone_1-rp-1600.avif 1600w, /assets/img/Out-of-Zone_1.avif 2480w",
         "alt": "Rosehill College out-of-zone enrolment flyer"
       },
       "html": "<p>All out-of-zone enrolment applicants must collect an Out-of-Zone Enrolment Pack from the school reception. <strong>Online applications for out-of-zone enrolments are not accepted and will not be processed.</strong></p><p>A non-refundable administration fee of $50 is payable when the completed out-of-zone application is submitted. This fee applies to all out-of-zone applications and is not refundable, regardless of the outcome of the ballot process.</p>"
@@ -82,27 +93,69 @@
       "heading": "Out-of-zone placements for 2027",
       "lede": "The Rosehill College Board has carefully looked at the number of places we can offer for the upcoming school year. How many spaces are available depends on the number of in-zone enrolments we receive.",
       "caption": "Out-of-zone placements available for 2027",
-      "columns": ["Year level", "Placements available"],
+      "columns": [
+        "Year level",
+        "Placements available"
+      ],
       "rows": [
-        ["Year 9", "20 placements"],
-        ["Year 10", "10 placements"],
-        ["Year 11", "10 placements"],
-        ["Year 12", "10 placements"],
-        ["Year 13", "10 placements"]
+        [
+          "Year 9",
+          "20 placements"
+        ],
+        [
+          "Year 10",
+          "10 placements"
+        ],
+        [
+          "Year 11",
+          "10 placements"
+        ],
+        [
+          "Year 12",
+          "10 placements"
+        ],
+        [
+          "Year 13",
+          "10 placements"
+        ]
       ]
     },
     {
       "type": "list",
       "heading": "Application fee payment",
       "items": [
-        { "term": "Administration fee", "text": "A non-refundable administration fee of $50.00 is payable upon submission of all out-of-zone enrolment applications, regardless of the ballot outcome." },
-        { "term": "Payment methods", "text": "EFTPOS (at the school office) or bank transfer." },
-        { "term": "Account name", "text": "Rosehill College Board" },
-        { "term": "Account number", "text": "12-3031-0837472-00" },
-        { "term": "Particular", "text": "OOZ2027" },
-        { "term": "Code", "text": "{Last Name}" },
-        { "term": "Reference", "text": "{First Name}" },
-        { "term": "Please note", "text": "Ensure the payment references are entered exactly as shown to assist with the identification and processing of your application." }
+        {
+          "term": "Administration fee",
+          "text": "A non-refundable administration fee of $50.00 is payable upon submission of all out-of-zone enrolment applications, regardless of the ballot outcome."
+        },
+        {
+          "term": "Payment methods",
+          "text": "EFTPOS (at the school office) or bank transfer."
+        },
+        {
+          "term": "Account name",
+          "text": "Rosehill College Board"
+        },
+        {
+          "term": "Account number",
+          "text": "12-3031-0837472-00"
+        },
+        {
+          "term": "Particular",
+          "text": "OOZ2027"
+        },
+        {
+          "term": "Code",
+          "text": "{Last Name}"
+        },
+        {
+          "term": "Reference",
+          "text": "{First Name}"
+        },
+        {
+          "term": "Please note",
+          "text": "Ensure the payment references are entered exactly as shown to assist with the identification and processing of your application."
+        }
       ]
     },
     {
@@ -116,13 +169,31 @@
       "heading": "Enrolment key dates for 2027",
       "lede": "Please note that the timeline for enrolment 2027 is provisional and subject to change. The dates outlined reflect our current planning and may be adjusted in accordance with Ministry of Education guidelines and internal scheduling updates. We encourage you to check our website regularly for the most up-to-date enrolment information.",
       "caption": "Enrolment year 2027 key dates",
-      "columns": ["Dates", "Details"],
+      "columns": [
+        "Dates",
+        "Details"
+      ],
       "rows": [
-        ["Monday 20 July 2026", "Start of Enrolment Year 2027"],
-        ["Saturday 8 August 2026", "Rosehill College Open Day"],
-        ["Wednesday 2 September 2026", "Out-of-zone application closing date"],
-        ["Wednesday 9 September 2026", "Ballot for out-of-zone placement — parents will be advised of the ballot outcome within 14 days"],
-        ["Wednesday 10 December 2026", "Year 8 students transition days"]
+        [
+          "Monday 20 July 2026",
+          "Start of Enrolment Year 2027"
+        ],
+        [
+          "Saturday 8 August 2026",
+          "Rosehill College Open Day"
+        ],
+        [
+          "Wednesday 2 September 2026",
+          "Out-of-zone application closing date"
+        ],
+        [
+          "Wednesday 9 September 2026",
+          "Ballot for out-of-zone placement — parents will be advised of the ballot outcome within 14 days"
+        ],
+        [
+          "Wednesday 10 December 2026",
+          "Year 8 students transition days"
+        ]
       ]
     },
     {
@@ -138,9 +209,21 @@
       "heading": "Enrolment downloads",
       "lede": "Download and complete these documents, then save them ready to upload to the 'Attachments' section of your online application.",
       "docs": [
-        { "href": "https://drive.google.com/uc?export=download&id=1clZMxjsxWuqnoZCVj1O4ctJ55R2ghSWk", "label": "Enrolment checklist", "meta": "Download" },
-        { "href": "https://drive.google.com/uc?export=download&id=1e3XxDJT6D_tnmL6uhIkgyYX3c8NUVFXY", "label": "Enrolment forms", "meta": "Student Health Record, In-zone Enrolment Questionnaire, EOTC Consent Form" },
-        { "href": "https://drive.google.com/uc?export=download&id=1jUJVHkgUi4y1lj5eBPdxdCRtLIxoNauZ", "label": "Statutory Declaration form", "meta": "If you are unable to provide the required proof of address" }
+        {
+          "href": "https://drive.google.com/uc?export=download&id=1clZMxjsxWuqnoZCVj1O4ctJ55R2ghSWk",
+          "label": "Enrolment checklist",
+          "meta": "Download"
+        },
+        {
+          "href": "https://drive.google.com/uc?export=download&id=1e3XxDJT6D_tnmL6uhIkgyYX3c8NUVFXY",
+          "label": "Enrolment forms",
+          "meta": "Student Health Record, In-zone Enrolment Questionnaire, EOTC Consent Form"
+        },
+        {
+          "href": "https://drive.google.com/uc?export=download&id=1jUJVHkgUi4y1lj5eBPdxdCRtLIxoNauZ",
+          "label": "Statutory Declaration form",
+          "meta": "If you are unable to provide the required proof of address"
+        }
       ]
     },
     {
@@ -150,9 +233,19 @@
       "heading": "Start your journey with us",
       "text": "Become part of the Rosehill College whānau — explore detailed course descriptions and uniform requirements as you prepare to enrol.",
       "actions": [
-        { "href": "https://rosehillcollege.school.kiwi/enrolment", "label": "Start new enrolment application", "primary": true },
-        { "href": "/curriculum/course-information.html", "label": "Course information" },
-        { "href": "/join-us/uniform-and-stationery.html", "label": "Uniform and stationery" }
+        {
+          "href": "https://rosehillcollege.school.kiwi/enrolment",
+          "label": "Start new enrolment application",
+          "primary": true
+        },
+        {
+          "href": "/curriculum/course-information.html",
+          "label": "Course information"
+        },
+        {
+          "href": "/join-us/uniform-and-stationery.html",
+          "label": "Uniform and stationery"
+        }
       ]
     }
   ]

@@ -12,11 +12,16 @@
       "lede": "Check if you're in the Rosehill College zone and find bus routes — urban routes with Auckland Transport, rural routes with Brougham Buses.",
       "image": {
         "src": "assets/img/Join-Us---School-Buses_1.avif",
-        "srcset": "",
+        "srcset": "/assets/img/Join-Us---School-Buses_1-rp-500.avif 500w, /assets/img/Join-Us---School-Buses_1-rp-800.avif 800w, /assets/img/Join-Us---School-Buses_1-rp-1080.avif 1080w, /assets/img/Join-Us---School-Buses_1-rp-1600.avif 1600w, /assets/img/Join-Us---School-Buses_1.avif 4595w",
         "alt": "School buses at Rosehill College"
       },
       "actions": [
-        { "href": "https://www.educationcounts.govt.nz/find-school", "label": "Check your school zone", "primary": true, "external": true }
+        {
+          "href": "https://www.educationcounts.govt.nz/find-school",
+          "label": "Check your school zone",
+          "primary": true,
+          "external": true
+        }
       ]
     },
     {
@@ -36,12 +41,32 @@
     {
       "type": "table",
       "caption": "AT urban school bus routes to and from Rosehill College",
-      "columns": ["Route", "Morning (to school)", "Afternoon (from school)"],
+      "columns": [
+        "Route",
+        "Morning (to school)",
+        "Afternoon (from school)"
+      ],
       "rows": [
-        ["454", "Conifer Grove to Rosehill Schools", "Rosehill College to Conifer Grove"],
-        ["456", "Wattle Downs to Rosehill Schools", "Rosehill College to Manurewa via Wattle Downs"],
-        ["457", "—", "Rosehill College to Waiata Shores"],
-        ["458", "Manurewa Station to Rosehill Schools", "Rosehill College to Manurewa"]
+        [
+          "454",
+          "Conifer Grove to Rosehill Schools",
+          "Rosehill College to Conifer Grove"
+        ],
+        [
+          "456",
+          "Wattle Downs to Rosehill Schools",
+          "Rosehill College to Manurewa via Wattle Downs"
+        ],
+        [
+          "457",
+          "—",
+          "Rosehill College to Waiata Shores"
+        ],
+        [
+          "458",
+          "Manurewa Station to Rosehill Schools",
+          "Rosehill College to Manurewa"
+        ]
       ]
     },
     {
@@ -49,12 +74,27 @@
       "heading": "AT bus route number changes — Term 2 2026",
       "lede": "From the beginning of Term 2, the Auckland Transport (AT) urban school bus routes servicing Rosehill College will have updated bus numbers. Please note the following changes:",
       "caption": "AT bus route number changes from Term 2 2026",
-      "columns": ["Previous bus number", "New bus number"],
+      "columns": [
+        "Previous bus number",
+        "New bus number"
+      ],
       "rows": [
-        ["055", "454"],
-        ["056", "456"],
-        ["057", "457"],
-        ["058", "458"]
+        [
+          "055",
+          "454"
+        ],
+        [
+          "056",
+          "456"
+        ],
+        [
+          "057",
+          "457"
+        ],
+        [
+          "058",
+          "458"
+        ]
       ],
       "note": "Students who use these services should ensure they are familiar with the new bus numbers when travelling to and from school. Bus routes and timetables remain unchanged — for further information, please visit the <a href=\"https://at.govt.nz/bus-train-ferry/timetables/school-bus-timetables?school=rosehill-college\" rel=\"external\">Auckland Transport website</a> or check the AT Mobile App."
     },
@@ -75,14 +115,35 @@
     {
       "type": "table",
       "caption": "Brougham Buses rural school bus routes",
-      "columns": ["Route", "Areas served"],
+      "columns": [
+        "Route",
+        "Areas served"
+      ],
       "rows": [
-        ["RH2 — Waiau Pa, Kingseat and Te Hihi", "Waiau Pa township, Waiau Pa Road, Kingseat Road, Kingseat, Linwood Road, Hingaia Road, Karaka Lakes"],
-        ["RH3 — Clarks Beach", "Clarks Beach, along with Clarks Beach Road, McKenzie Road, Seagrove Road and Wright Road"],
-        ["RH4 — Karaka", "Irwin Road, Batty Road, Charles Road, Lewis Road, Karaka Road, Jesmond Road, Bremner Road"],
-        ["RH6 — Ararimu and Runciman", "Ararimu Road, Ramarama, Great South Road, Runciman Road, Burtt Road"],
-        ["RH7 — Drury (not available in the afternoon)", "Fitzgerald Road, Drury Hills Road, Appleby Road, Waihoehoe Road"],
-        ["RH8 — Opaheke", "Ponga Road, Opaheke Road"]
+        [
+          "RH2 — Waiau Pa, Kingseat and Te Hihi",
+          "Waiau Pa township, Waiau Pa Road, Kingseat Road, Kingseat, Linwood Road, Hingaia Road, Karaka Lakes"
+        ],
+        [
+          "RH3 — Clarks Beach",
+          "Clarks Beach, along with Clarks Beach Road, McKenzie Road, Seagrove Road and Wright Road"
+        ],
+        [
+          "RH4 — Karaka",
+          "Irwin Road, Batty Road, Charles Road, Lewis Road, Karaka Road, Jesmond Road, Bremner Road"
+        ],
+        [
+          "RH6 — Ararimu and Runciman",
+          "Ararimu Road, Ramarama, Great South Road, Runciman Road, Burtt Road"
+        ],
+        [
+          "RH7 — Drury (not available in the afternoon)",
+          "Fitzgerald Road, Drury Hills Road, Appleby Road, Waihoehoe Road"
+        ],
+        [
+          "RH8 — Opaheke",
+          "Ponga Road, Opaheke Road"
+        ]
       ]
     },
     {
@@ -118,8 +179,15 @@
       "heading": "Unsure if you're in zone?",
       "text": "If you are unsure if your property falls within the Rosehill College zone, please contact our Enrolment Officer at enrolments@rosehillcollege.school.nz or by phone 09 295 0661 ext 871.",
       "actions": [
-        { "href": "mailto:enrolments@rosehillcollege.school.nz", "label": "Email the Enrolment Officer", "primary": true },
-        { "href": "/join-us/enrolment.html", "label": "Enrolment information" }
+        {
+          "href": "mailto:enrolments@rosehillcollege.school.nz",
+          "label": "Email the Enrolment Officer",
+          "primary": true
+        },
+        {
+          "href": "/join-us/enrolment.html",
+          "label": "Enrolment information"
+        }
       ]
     }
   ]

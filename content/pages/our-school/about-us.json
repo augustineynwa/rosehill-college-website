@@ -13,7 +13,7 @@
       "lede": "Rosehill College, officially opened in 1970, has a proud history of outstanding academic achievement and a record of national success in both sports and the performing arts.",
       "image": {
         "src": "assets/img/t4-Randoms-1_1.avif",
-        "srcset": "",
+        "srcset": "/assets/img/t4-Randoms-1_1-rp-500.avif 500w, /assets/img/t4-Randoms-1_1-rp-800.avif 800w, /assets/img/t4-Randoms-1_1-rp-1080.avif 1080w, /assets/img/t4-Randoms-1_1-rp-1600.avif 1600w, /assets/img/t4-Randoms-1_1.avif 4591w",
         "alt": "Rosehill College students together on campus"
       }
     },
@@ -32,10 +32,22 @@
     {
       "type": "stats",
       "stats": [
-        { "value": "1970", "label": "Officially opened" },
-        { "value": "Year 9–13", "label": "Co-educational college" },
-        { "value": "13–18", "label": "Ages we serve" },
-        { "value": "Papakura", "label": "Ngāti Tamaoho rohe" }
+        {
+          "value": "1970",
+          "label": "Officially opened"
+        },
+        {
+          "value": "Year 9–13",
+          "label": "Co-educational college"
+        },
+        {
+          "value": "13–18",
+          "label": "Ages we serve"
+        },
+        {
+          "value": "Papakura",
+          "label": "Ngāti Tamaoho rohe"
+        }
       ]
     },
     {
@@ -65,19 +77,31 @@
           "title": "Our Rosehill College Way",
           "text": "How our four values shape every day at school.",
           "href": "/curriculum/our-rosehill-college-way.html",
-          "image": { "src": "assets/img/Curriculum---Our-RHC-Way-Banner_1.avif", "srcset": "", "alt": "Rosehill College students living the RHC Way" }
+          "image": {
+            "src": "assets/img/Curriculum---Our-RHC-Way-Banner_1.avif",
+            "srcset": "/assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-500.avif 500w, /assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-800.avif 800w, /assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-1080.avif 1080w, /assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-1600.avif 1600w, /assets/img/Curriculum---Our-RHC-Way-Banner_1.avif 2245w",
+            "alt": "Rosehill College students living the RHC Way"
+          }
         },
         {
           "title": "Our history",
           "text": "More than five decades of Rosehill College, from 1970 to today.",
           "href": "/our-school/our-history.html",
-          "image": { "src": "assets/img/Main-Page---Our-History_1.avif", "srcset": "", "alt": "Historic photograph of Rosehill College" }
+          "image": {
+            "src": "assets/img/Main-Page---Our-History_1.avif",
+            "srcset": "/assets/img/Main-Page---Our-History_1-rp-500.avif 500w, /assets/img/Main-Page---Our-History_1-rp-800.avif 800w, /assets/img/Main-Page---Our-History_1-rp-1080.avif 1080w, /assets/img/Main-Page---Our-History_1-rp-1600.avif 1600w, /assets/img/Main-Page---Our-History_1.avif 3436w",
+            "alt": "Historic photograph of Rosehill College"
+          }
         },
         {
           "title": "Life at Rosehill College",
           "text": "Academic excellence, arts, sport, wellbeing and community.",
           "href": "/our-school/life-at-rosehill-college.html",
-          "image": { "src": "assets/img/Landing-Page---Life-at-RHC_1.avif", "srcset": "", "alt": "Students enjoying life at Rosehill College" }
+          "image": {
+            "src": "assets/img/Landing-Page---Life-at-RHC_1.avif",
+            "srcset": "",
+            "alt": "Students enjoying life at Rosehill College"
+          }
         }
       ]
     }

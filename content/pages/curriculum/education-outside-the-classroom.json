@@ -12,7 +12,7 @@
       "lede": "New Zealand's stunning landscapes offer endless opportunities for personal growth, connection with others, and self-discovery. At Rosehill College, we embrace the transformative power of nature through our comprehensive Education Outside the Classroom (EOTC) programme.",
       "image": {
         "src": "assets/img/Curriculum---EOTC_1.avif",
-        "srcset": "",
+        "srcset": "/assets/img/Curriculum---EOTC_1-rp-500.avif 500w, /assets/img/Curriculum---EOTC_1-rp-800.avif 800w, /assets/img/Curriculum---EOTC_1-rp-1080.avif 1080w, /assets/img/Curriculum---EOTC_1.avif 1210w",
         "alt": "Students and staff gathered together among the trees on an EOTC trip"
       }
     },
@@ -40,11 +40,23 @@
       "heading": "2026 camp dates",
       "lede": "The Year 10 Camp dates for each House are as follows.",
       "caption": "Year 10 Camp dates 2026 by House",
-      "columns": ["Houses", "Camp dates"],
+      "columns": [
+        "Houses",
+        "Camp dates"
+      ],
       "rows": [
-        ["Atawhai & Rangatahi", "16 – 18 March"],
-        ["Pounamu & Taikura", "23 – 25 March"],
-        ["Kahurangi & Manutaki", "25 – 27 March"]
+        [
+          "Atawhai & Rangatahi",
+          "16 – 18 March"
+        ],
+        [
+          "Pounamu & Taikura",
+          "23 – 25 March"
+        ],
+        [
+          "Kahurangi & Manutaki",
+          "25 – 27 March"
+        ]
       ]
     },
     {
@@ -59,12 +71,30 @@
       "heading": "Camp payments",
       "lede": "Camp payments can be made via bank transfer using the details below. Please ensure all payment details are entered correctly so that the payment can be allocated to the correct student.",
       "items": [
-        { "term": "Bank", "text": "ASB Bank" },
-        { "term": "Account name", "text": "Rosehill College Board" },
-        { "term": "Account number", "text": "12-3031-0837472-00" },
-        { "term": "Particulars", "text": "Student ID number" },
-        { "term": "Code", "text": "Student's surname" },
-        { "term": "Reference", "text": "Y10 Camp" }
+        {
+          "term": "Bank",
+          "text": "ASB Bank"
+        },
+        {
+          "term": "Account name",
+          "text": "Rosehill College Board"
+        },
+        {
+          "term": "Account number",
+          "text": "12-3031-0837472-00"
+        },
+        {
+          "term": "Particulars",
+          "text": "Student ID number"
+        },
+        {
+          "term": "Code",
+          "text": "Student's surname"
+        },
+        {
+          "term": "Reference",
+          "text": "Y10 Camp"
+        }
       ]
     },
     {
@@ -72,8 +102,15 @@
       "heading": "Questions about Year 10 Camp?",
       "text": "Get in touch and we can help with forms, gear lists and payment details.",
       "actions": [
-        { "href": "/contact-us.html", "label": "Contact us", "primary": true },
-        { "href": "/our-school/life-at-rosehill-college.html", "label": "Life at Rosehill College" }
+        {
+          "href": "/contact-us.html",
+          "label": "Contact us",
+          "primary": true
+        },
+        {
+          "href": "/our-school/life-at-rosehill-college.html",
+          "label": "Life at Rosehill College"
+        }
       ]
     }
   ]

@@ -47,7 +47,7 @@
       "heading": "Safe and secure environment",
       "image": {
         "src": "assets/img/International---Why-Study-at-Rosehill---Safe_1.avif",
-        "srcset": "",
+        "srcset": "/assets/img/International---Why-Study-at-Rosehill---Safe_1-rp-500.avif 500w, /assets/img/International---Why-Study-at-Rosehill---Safe_1-rp-800.avif 800w, /assets/img/International---Why-Study-at-Rosehill---Safe_1-rp-1080.avif 1080w, /assets/img/International---Why-Study-at-Rosehill---Safe_1-rp-1600.avif 1600w, /assets/img/International---Why-Study-at-Rosehill---Safe_1.avif 1901w",
         "alt": "Rosehill College students in the safe school environment"
       },
       "html": "<p>Rosehill College's location in a safe neighbourhood provides peace of mind to international students and their families, ensuring a secure setting for focused learning with excellent homestay families.</p><p>We carefully select host families who are known for their warmth and hospitality, ensuring a nurturing environment for our international students.</p>"
@@ -68,8 +68,15 @@
       "heading": "Ready to begin your journey?",
       "text": "Find out how to apply, what to expect when you arrive in New Zealand, and everything you need to know about living and studying here.",
       "actions": [
-        { "href": "/international-students/applying-nz-arrival-information.html", "label": "Applying and arrival information", "primary": true },
-        { "href": "/international-students/fees-policies.html", "label": "Fees and policies" }
+        {
+          "href": "/international-students/applying-nz-arrival-information.html",
+          "label": "Applying and arrival information",
+          "primary": true
+        },
+        {
+          "href": "/international-students/fees-policies.html",
+          "label": "Fees and policies"
+        }
       ]
     }
   ]

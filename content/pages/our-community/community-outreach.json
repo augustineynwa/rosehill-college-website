@@ -13,7 +13,7 @@
       "lede": "We get involved to make a difference! At Rosehill College, we are committed to making a positive difference in our community. Through partnerships, service projects, and outreach programmes, our students develop leadership skills, empathy, and a strong sense of responsibility while creating lasting connections with the wider community.",
       "image": {
         "src": "assets/img/Community-Outreach-1_1.avif",
-        "srcset": "",
+        "srcset": "/assets/img/Community-Outreach-1_1-rp-500.avif 500w, /assets/img/Community-Outreach-1_1-rp-800.avif 800w, /assets/img/Community-Outreach-1_1-rp-1080.avif 1080w, /assets/img/Community-Outreach-1_1-rp-1600.avif 1600w, /assets/img/Community-Outreach-1_1.avif 2154w",
         "alt": "Rosehill College students taking part in a community outreach event"
       }
     },
@@ -48,7 +48,7 @@
       "heading": "Student Council",
       "image": {
         "src": "assets/img/Community-Outreach-4_1.avif",
-        "srcset": "",
+        "srcset": "/assets/img/Community-Outreach-4_1-rp-500.avif 500w, /assets/img/Community-Outreach-4_1-rp-800.avif 800w, /assets/img/Community-Outreach-4_1-rp-1080.avif 1080w, /assets/img/Community-Outreach-4_1-rp-1600.avif 1600w, /assets/img/Community-Outreach-4_1.avif 2195w",
         "alt": "Rosehill College Student Council members at a school community event"
       },
       "html": "<p>The Student Council is a mixed year level group that plays an important role in bringing the Rosehill College community together. In 2024, they hosted the first-ever Rosehill College Community Gala, a successful event that united students, families, and the Papakura community. From organising events to representing your voice in school decisions, the Student Council has a major role in shaping school culture and organising key events within our school.</p><p>If you are passionate about leadership and making your school experience unforgettable, consider joining the Student Council. Support the community, get involved, and help make Rosehill College an even better place — please contact Mrs Powell at <a href=\"mailto:m.powell@rosehillcollege.school.nz\">m.powell@rosehillcollege.school.nz</a> to learn more.</p>"
@@ -73,10 +73,22 @@
       "type": "list",
       "heading": "Donate via internet banking",
       "items": [
-        { "term": "Name", "text": "Rosehill College Board" },
-        { "term": "Account", "text": "12-3031-0837472-00" },
-        { "term": "Reference", "text": "Your name" },
-        { "term": "Code", "text": "Christmas" }
+        {
+          "term": "Name",
+          "text": "Rosehill College Board"
+        },
+        {
+          "term": "Account",
+          "text": "12-3031-0837472-00"
+        },
+        {
+          "term": "Reference",
+          "text": "Your name"
+        },
+        {
+          "term": "Code",
+          "text": "Christmas"
+        }
       ]
     },
     {
@@ -84,8 +96,15 @@
       "heading": "Get involved",
       "text": "Join, support, and find out more about how you can be part of positive change in our community.",
       "actions": [
-        { "href": "mailto:m.powell@rosehillcollege.school.nz", "label": "Email Mrs Powell", "primary": true },
-        { "href": "/contact-us.html", "label": "Contact us" }
+        {
+          "href": "mailto:m.powell@rosehillcollege.school.nz",
+          "label": "Email Mrs Powell",
+          "primary": true
+        },
+        {
+          "href": "/contact-us.html",
+          "label": "Contact us"
+        }
       ]
     }
   ]

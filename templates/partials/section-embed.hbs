@@ -9,6 +9,16 @@
       </div>
       {{/each}}
     </div>
+    {{else if facade}}
+    <div class="embed-frame {{#if tall}}embed-frame--tall{{/if}} embed-facade" data-reveal data-embed-facade data-src="{{src}}" data-title="{{iframeTitle}}">
+      <button type="button" class="embed-facade__button">
+        <span class="embed-facade__icon" aria-hidden="true">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+        </span>
+        <span class="embed-facade__label">{{#if facadeLabel}}{{facadeLabel}}{{else}}Load {{iframeTitle}}{{/if}}</span>
+        <span class="embed-facade__note caption">Loads content from an external service</span>
+      </button>
+    </div>
     {{else}}
     <div class="embed-frame {{#if tall}}embed-frame--tall{{/if}}" data-reveal>
       <iframe src="{{src}}" title="{{iframeTitle}}" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" {{#if allow}}allow="{{allow}}"{{/if}}></iframe>

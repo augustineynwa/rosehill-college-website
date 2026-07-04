@@ -25,7 +25,7 @@
       "aside": {
         "image": {
           "src": "assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1.avif",
-          "srcset": "",
+          "srcset": "/assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-500.avif 500w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-800.avif 800w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-1080.avif 1080w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-1600.avif 1600w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1.avif 6000w",
           "alt": "Rosehill College kapa haka rōpū"
         }
       }
@@ -37,8 +37,15 @@
       "heading": "Keep exploring te ao Māori at Rosehill",
       "text": "Our values — Hihiritanga, Rangatiratanga, Whanaungatanga and Manaakitanga — shape every day at Rosehill College, from the classroom to the stage.",
       "actions": [
-        { "href": "/cocurricular/arts-and-culture.html", "label": "Arts and culture", "primary": true },
-        { "href": "/our-school/about-us.html", "label": "Our vision and values" }
+        {
+          "href": "/cocurricular/arts-and-culture.html",
+          "label": "Arts and culture",
+          "primary": true
+        },
+        {
+          "href": "/our-school/about-us.html",
+          "label": "Our vision and values"
+        }
       ]
     }
   ]

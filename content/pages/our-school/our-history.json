@@ -33,7 +33,7 @@
           "html": "<ul><li>First Form 7</li><li>Tender for gymnasium — $96,323</li><li>Des Hunt first Board staff representative</li><li>Girls' cricket unbeaten</li></ul>",
           "image": {
             "src": "assets/img/Our-School---Our-History---02_1.avif",
-            "srcset": "",
+            "srcset": "/assets/img/Our-School---Our-History---02_1-rp-500.avif 500w, /assets/img/Our-School---Our-History---02_1-rp-800.avif 800w, /assets/img/Our-School---Our-History---02_1-rp-1080.avif 1080w, /assets/img/Our-School---Our-History---02_1-rp-1600.avif 1600w, /assets/img/Our-School---Our-History---02_1.avif 3685w",
             "alt": "Photograph from Rosehill College in the mid-1970s"
           }
         },
@@ -69,7 +69,7 @@
           "html": "<ul><li>Gymnasium/Sports Centre completed</li><li>Kapa Haka won Mōteatea-Kia Mōhio Kia Rangatiri Trophy at Polyfest</li><li>Teachers Dave and Lyndon Ormandy left after 22 years</li><li>Year 9 and 10 teams won Counties Manukau Mathex competition</li></ul>",
           "image": {
             "src": "assets/img/Our-School---Our-History---2008_1.avif",
-            "srcset": "",
+            "srcset": "/assets/img/Our-School---Our-History---2008_1-rp-500.avif 500w, /assets/img/Our-School---Our-History---2008_1-rp-800.avif 800w, /assets/img/Our-School---Our-History---2008_1-rp-1080.avif 1080w, /assets/img/Our-School---Our-History---2008_1-rp-1600.avif 1600w, /assets/img/Our-School---Our-History---2008_1.avif 2382w",
             "alt": "Photograph from Rosehill College in 2008"
           }
         },
@@ -99,12 +99,12 @@
       "images": [
         {
           "src": "assets/img/Our-School---Our-History---List---2_1.avif",
-          "srcset": "",
+          "srcset": "/assets/img/Our-School---Our-History---List---2_1-rp-500.avif 500w, /assets/img/Our-School---Our-History---List---2_1-rp-800.avif 800w, /assets/img/Our-School---Our-History---List---2_1-rp-1080.avif 1080w, /assets/img/Our-School---Our-History---List---2_1-rp-1600.avif 1600w, /assets/img/Our-School---Our-History---List---2_1.avif 3726w",
           "alt": "Archival photograph from the Rosehill College collection"
         },
         {
           "src": "assets/img/Our-School---Our-History---List---3_1.avif",
-          "srcset": "",
+          "srcset": "/assets/img/Our-School---Our-History---List---3_1-rp-500.avif 500w, /assets/img/Our-School---Our-History---List---3_1-rp-800.avif 800w, /assets/img/Our-School---Our-History---List---3_1-rp-1080.avif 1080w, /assets/img/Our-School---Our-History---List---3_1-rp-1600.avif 1600w, /assets/img/Our-School---Our-History---List---3_1.avif 1920w",
           "alt": "Archival photograph from the Rosehill College collection"
         },
         {
@@ -146,8 +146,15 @@
       "heading": "The story continues",
       "text": "See who we are today — our vision and values, and everyday life at Rosehill College.",
       "actions": [
-        { "href": "/our-school/about-us.html", "label": "About us", "primary": true },
-        { "href": "/our-school/life-at-rosehill-college.html", "label": "Life at Rosehill College" }
+        {
+          "href": "/our-school/about-us.html",
+          "label": "About us",
+          "primary": true
+        },
+        {
+          "href": "/our-school/life-at-rosehill-college.html",
+          "label": "Life at Rosehill College"
+        }
       ]
     }
   ]

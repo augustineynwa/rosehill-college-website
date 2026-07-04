@@ -46,13 +46,41 @@
       "heading": "For homestay families",
       "lede": "If you and your family are considering becoming a host family, please read the documents and fill out the below forms, or contact our International Co-ordinator for more details.",
       "docs": [
-        { "href": "assets/docs/Rosehill-College_Homestay-Welcome-Letter_2026.pdf", "label": "Homestay welcome letter", "meta": "PDF" },
-        { "href": "assets/docs/RH_Homestay-Information-for-Caregivers_2026.pdf", "label": "Homestay information for caregivers of international students", "meta": "PDF" },
-        { "href": "assets/docs/RH_Student-Handbook-Homestay_2026.pdf", "label": "Homestay information for international students", "meta": "PDF" },
-        { "href": "assets/docs/RH_Application-to-be-a-Homestay-forms__2026.pdf", "label": "Rosehill College homestay application form", "meta": "PDF" },
-        { "href": "assets/docs/RH_Guidelines-for-hosting-an-international-student-homestays_2026.pdf", "label": "Homestay hosting guidelines", "meta": "PDF" },
-        { "href": "assets/docs/RH_homestay-Carer-Agreement-2026.pdf", "label": "Rosehill College homestay carer agreement", "meta": "PDF" },
-        { "href": "assets/docs/nz-police-vet-request-consent-form-2026_RosehillCollege.pdf", "label": "Police vetting form", "meta": "PDF" }
+        {
+          "href": "assets/docs/Rosehill-College_Homestay-Welcome-Letter_2026.pdf",
+          "label": "Homestay welcome letter",
+          "meta": "PDF"
+        },
+        {
+          "href": "assets/docs/RH_Homestay-Information-for-Caregivers_2026.pdf",
+          "label": "Homestay information for caregivers of international students",
+          "meta": "PDF"
+        },
+        {
+          "href": "assets/docs/RH_Student-Handbook-Homestay_2026.pdf",
+          "label": "Homestay information for international students",
+          "meta": "PDF"
+        },
+        {
+          "href": "assets/docs/RH_Application-to-be-a-Homestay-forms__2026.pdf",
+          "label": "Rosehill College homestay application form",
+          "meta": "PDF"
+        },
+        {
+          "href": "assets/docs/RH_Guidelines-for-hosting-an-international-student-homestays_2026.pdf",
+          "label": "Homestay hosting guidelines",
+          "meta": "PDF"
+        },
+        {
+          "href": "assets/docs/RH_homestay-Carer-Agreement-2026.pdf",
+          "label": "Rosehill College homestay carer agreement",
+          "meta": "PDF"
+        },
+        {
+          "href": "assets/docs/nz-police-vet-request-consent-form-2026_RosehillCollege.pdf",
+          "label": "Police vetting form",
+          "meta": "PDF"
+        }
       ]
     },
     {
@@ -61,7 +89,7 @@
       "heading": "Transportation to Rosehill College",
       "image": {
         "src": "assets/img/International---Living-in-NZ---Transport_1.avif",
-        "srcset": "",
+        "srcset": "/assets/img/International---Living-in-NZ---Transport_1-rp-500.avif 500w, /assets/img/International---Living-in-NZ---Transport_1-rp-800.avif 800w, /assets/img/International---Living-in-NZ---Transport_1-rp-1080.avif 1080w, /assets/img/International---Living-in-NZ---Transport_1.avif 1328w",
         "alt": "Students travelling to Rosehill College"
       },
       "html": "<p>Rosehill College offers a variety of transportation options for our international students, ensuring that everyone can travel to and from school safely and conveniently. Whether you prefer to take the school bus, walk, cycle, or are dropped off by a private vehicle, we have outlined the key details to help you navigate your daily commute.</p>"
@@ -101,8 +129,15 @@
       "heading": "24-hour emergency line",
       "text": "Your safety and well-being are our top priorities. In case of an emergency outside of school hours, and you need immediate assistance from Rosehill College, please contact our emergency line for support — we are here to help whenever you need us.",
       "actions": [
-        { "href": "tel:+64274630267", "label": "Call +64 27 463 0267", "primary": true },
-        { "href": "/international-students/applying-nz-arrival-information.html", "label": "Arrival information" }
+        {
+          "href": "tel:+64274630267",
+          "label": "Call +64 27 463 0267",
+          "primary": true
+        },
+        {
+          "href": "/international-students/applying-nz-arrival-information.html",
+          "label": "Arrival information"
+        }
       ]
     }
   ]

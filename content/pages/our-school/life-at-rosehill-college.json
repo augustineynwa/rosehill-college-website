@@ -126,7 +126,7 @@
       "heading": "Community engagement",
       "image": {
         "src": "assets/img/Life-at-RHC---Community-Engagement_1.avif",
-        "srcset": "",
+        "srcset": "/assets/img/Life-at-RHC---Community-Engagement_1-rp-500.avif 500w, /assets/img/Life-at-RHC---Community-Engagement_1-rp-800.avif 800w, /assets/img/Life-at-RHC---Community-Engagement_1-rp-1080.avif 1080w, /assets/img/Life-at-RHC---Community-Engagement_1-rp-1600.avif 1600w, /assets/img/Life-at-RHC---Community-Engagement_1.avif 2439w",
         "alt": "Rosehill College students taking part in community service activities"
       },
       "html": "<p>Rosehill College believes in the importance of giving back and making a positive impact on the community. Our students are encouraged to engage in various service activities, including volunteering, charity events, and environmental initiatives. These opportunities not only help students develop a sense of social responsibility but also allow them to apply their skills in meaningful ways that benefit others.</p>"
@@ -142,8 +142,15 @@
       "heading": "Come and be part of it",
       "text": "Explore our vision and values, or start your enrolment at Rosehill College today.",
       "actions": [
-        { "href": "/join-us/enrolment.html", "label": "Enrol now", "primary": true },
-        { "href": "/our-school/about-us.html", "label": "About us" }
+        {
+          "href": "/join-us/enrolment.html",
+          "label": "Enrol now",
+          "primary": true
+        },
+        {
+          "href": "/our-school/about-us.html",
+          "label": "About us"
+        }
       ]
     }
   ]

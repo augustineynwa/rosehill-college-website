@@ -47,7 +47,7 @@
       "heading": "Instrumental and vocal groups",
       "image": {
         "src": "assets/img/Curriculum---Subjects---Instrumental_1.avif",
-        "srcset": "",
+        "srcset": "/assets/img/Curriculum---Subjects---Instrumental_1-rp-500.avif 500w, /assets/img/Curriculum---Subjects---Instrumental_1-rp-800.avif 800w, /assets/img/Curriculum---Subjects---Instrumental_1-rp-1080.avif 1080w, /assets/img/Curriculum---Subjects---Instrumental_1.avif 1280w",
         "alt": "The Rosehill College Concert Band performing at the Botanic Gardens in Manurewa"
       },
       "html": "<p>Come up to the Music Department to see how you can join any of these extra-curricular Music groups:</p><ul><li>Concert Band</li><li>Stage Band</li><li>Music Tour</li><li>School Musical</li><li>Vocal groups</li><li>Jazz Ensemble</li><li>Tangata Beats groups</li><li>Smokefree RockQuest groups</li><li>Junior Prize Giving Band</li></ul>"
@@ -102,8 +102,15 @@
       "heading": "Choosing your subjects?",
       "text": "Find course information for every year level, or start your enrolment at Rosehill College.",
       "actions": [
-        { "href": "/curriculum/course-information.html", "label": "Course information", "primary": true },
-        { "href": "/join-us/enrolment.html", "label": "Enrol now" }
+        {
+          "href": "/curriculum/course-information.html",
+          "label": "Course information",
+          "primary": true
+        },
+        {
+          "href": "/join-us/enrolment.html",
+          "label": "Enrol now"
+        }
       ]
     }
   ]

@@ -29,9 +29,18 @@
       "type": "list",
       "heading": "Sports contacts",
       "items": [
-        { "term": "Sports Director", "text": "Saua Leaupepetele — <a href=\"mailto:s.leaupepetele@rosehillcollege.school.nz\">s.leaupepetele@rosehillcollege.school.nz</a>" },
-        { "term": "Sports Coordinator", "text": "<a href=\"mailto:sports@rosehillcollege.school.nz\">sports@rosehillcollege.school.nz</a>" },
-        { "term": "Sports Office", "text": "Phone 09 295 0661 ext 935" }
+        {
+          "term": "Sports Director",
+          "text": "Saua Leaupepetele — <a href=\"mailto:s.leaupepetele@rosehillcollege.school.nz\">s.leaupepetele@rosehillcollege.school.nz</a>"
+        },
+        {
+          "term": "Sports Coordinator",
+          "text": "<a href=\"mailto:sports@rosehillcollege.school.nz\">sports@rosehillcollege.school.nz</a>"
+        },
+        {
+          "term": "Sports Office",
+          "text": "Phone 09 295 0661 ext 935"
+        }
       ]
     },
     {
@@ -73,13 +82,13 @@
       "images": [
         {
           "src": "assets/img/Sports---Co-curricular---Basketball_1.avif",
-          "srcset": "",
+          "srcset": "/assets/img/Sports---Co-curricular---Basketball_1-rp-500.avif 500w, /assets/img/Sports---Co-curricular---Basketball_1-rp-800.avif 800w, /assets/img/Sports---Co-curricular---Basketball_1-rp-1080.avif 1080w, /assets/img/Sports---Co-curricular---Basketball_1-rp-1600.avif 1600w, /assets/img/Sports---Co-curricular---Basketball_1.avif 4100w",
           "alt": "Rosehill College students playing basketball",
           "caption": "Basketball"
         },
         {
           "src": "assets/img/Co-curricular---Sports---Football_1.avif",
-          "srcset": "",
+          "srcset": "/assets/img/Co-curricular---Sports---Football_1-rp-500.avif 500w, /assets/img/Co-curricular---Sports---Football_1-rp-800.avif 800w, /assets/img/Co-curricular---Sports---Football_1-rp-1080.avif 1080w, /assets/img/Co-curricular---Sports---Football_1-rp-1600.avif 1600w, /assets/img/Co-curricular---Sports---Football_1.avif 1943w",
           "alt": "Rosehill College students playing football",
           "caption": "Football"
         },
@@ -160,8 +169,15 @@
       "heading": "Get involved in sport at Rosehill",
       "text": "Talk to the sports office about registering for a code, or visit our external sports page for fixtures, results and training schedules.",
       "actions": [
-        { "href": "mailto:sports@rosehillcollege.school.nz", "label": "Email the sports office", "primary": true },
-        { "href": "https://www.sporty.co.nz/rosehillcol/home-1", "label": "Rosehill College Sports Page" }
+        {
+          "href": "mailto:sports@rosehillcollege.school.nz",
+          "label": "Email the sports office",
+          "primary": true
+        },
+        {
+          "href": "https://www.sporty.co.nz/rosehillcol/home-1",
+          "label": "Rosehill College Sports Page"
+        }
       ]
     }
   ]

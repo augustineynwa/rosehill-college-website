@@ -18,6 +18,22 @@ if (document.querySelector('[data-search-input]')) {
   import('./js/search.js').then(({ initSearch }) => initSearch());
 }
 
+// click-to-load facade for heavy third-party embeds (e.g. Google Calendar)
+document.querySelectorAll('[data-embed-facade]').forEach((facade) => {
+  const btn = facade.querySelector('.embed-facade__button');
+  btn?.addEventListener('click', () => {
+    const iframe = document.createElement('iframe');
+    iframe.src = facade.dataset.src;
+    iframe.title = facade.dataset.title || 'Embedded content';
+    iframe.loading = 'lazy';
+    iframe.allowFullscreen = true;
+    iframe.referrerPolicy = 'no-referrer-when-downgrade';
+    facade.replaceChildren(iframe);
+    facade.classList.remove('embed-facade');
+    iframe.focus();
+  });
+});
+
 // smooth momentum scroll + shared entrance/parallax motion — only when allowed
 if (motionOK) {
   Promise.all([

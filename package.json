@@ -9,7 +9,7 @@
     "render": "node scripts/render.mjs",
     "crest": "node scripts/build-crest.mjs",
     "dev": "node scripts/render.mjs && vite",
-    "build": "node scripts/render.mjs && vite build",
+    "build": "node scripts/render.mjs && vite build && node scripts/inline-css.mjs",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -21,6 +21,7 @@
     "@xmldom/xmldom": "^0.9.5",
     "cheerio": "^1.0.0",
     "handlebars": "^4.7.8",
+    "sharp": "^0.35.3",
     "vite": "^5.4.8"
   }
 }

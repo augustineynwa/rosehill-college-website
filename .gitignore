@@ -14,3 +14,6 @@ public/assets/video/
 public/assets/docs/
 carlito.css
 lh-*.json
+
+# generated responsive image variants (rebuild with scripts/gen-image-variants.mjs)
+public/assets/img/*-rp-*.avif
