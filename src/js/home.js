@@ -4,7 +4,9 @@
  * Year 9–13 journey with corner marker → co-curricular montage.
  * Only loaded when motion is allowed; the CSS static version stands alone.
  */
-export async function initHome(gsap, ScrollTrigger) {
+export async function initHome(gsap, ScrollTrigger, lenis) {
+  // dev-only hook for scroll verification (stripped from production builds)
+  if (import.meta.env?.DEV) window.__rhc = { gsap, ScrollTrigger, lenis };
   // ------------------------------------------------ hero: crest + motto
   const heroSection = document.querySelector('[data-home-hero]');
   const canvas = document.querySelector('[data-crest-canvas]');
