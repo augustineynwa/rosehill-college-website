@@ -15,52 +15,72 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.16;
-  filter: saturate(0.6);
+  opacity: 0.12;
+  filter: saturate(0.55) contrast(1.05);
 }
+/* deep vignette so the crest reads cleanly over the ambient drone footage */
 .home-hero__vignette {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(90% 70% at 50% 45%, transparent 0%, var(--c-ink-950) 92%),
-    linear-gradient(180deg, rgba(7, 10, 20, 0.5), transparent 30%, transparent 70%, var(--c-ink-950) 100%);
+    radial-gradient(75% 62% at 50% 42%, rgba(7, 10, 20, 0.2) 0%, var(--c-ink-950) 80%),
+    linear-gradient(180deg, var(--c-ink-950) 0%, rgba(7, 10, 20, 0.35) 22%, rgba(7, 10, 20, 0.35) 62%, var(--c-ink-950) 100%);
 }
+/* single centred column that always fits the viewport, clearing the fixed
+   header at the top and the scroll cue at the bottom */
 .home-hero__stage {
   position: relative;
-  display: grid;
-  grid-template-rows: 1fr auto;
-  place-items: center;
-  padding-block: 6.5rem 5.5rem;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(1.25rem, 3.5vh, 2.75rem);
+  padding-block: clamp(6rem, 12vh, 8rem) clamp(4.5rem, 9vh, 6rem);
+  text-align: center;
 }
+/* crest sized by HEIGHT — vertical space is the constraint. aspect ratio
+   matches the official crest viewBox (688 x 953). */
 .home-hero__crest {
   position: relative;
-  width: min(46vh, 62vw, 26rem);
+  flex: none;
+  height: min(42vh, 24rem);
   aspect-ratio: 688 / 953;
   display: grid;
   place-items: center;
 }
+/* modest overscan: room for pointer tilt + the settle, without bleeding
+   into the motto below */
 .home-hero__canvas {
   position: absolute;
-  inset: -30%;
-  width: 160% !important;
-  height: 160% !important;
+  inset: -8%;
+  width: 116% !important;
+  height: 116% !important;
 }
-.home-hero__crest-fallback { width: 72%; filter: drop-shadow(0 30px 60px rgba(0, 0, 0, 0.6)); }
+.home-hero__crest-fallback { width: 100%; filter: drop-shadow(0 24px 50px rgba(0, 0, 0, 0.55)); }
 html.js.motion-ok .home-hero__crest-fallback.is-replaced { display: none; }
 
-.home-hero__text { text-align: center; padding-block-start: var(--sp-6); }
-.home-hero__motto { display: grid; gap: var(--sp-3); justify-items: center; }
+.home-hero__text { max-width: 100%; }
+.home-hero__motto { display: grid; gap: clamp(1rem, 2.2vh, 1.75rem); justify-items: center; }
 .home-hero__reo {
+  font-size: clamp(1.9rem, 1rem + 3vw, 3.5rem);
+  line-height: 1.04;
   color: var(--c-silver);
-  max-width: min(11em, 100%);
+  max-width: 20ch;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
-}
-@media (max-width: 40rem) {
-  .home-hero__reo { font-size: var(--step-4); }
+  letter-spacing: 0.03em;
+  text-shadow: 0 2px 30px rgba(7, 10, 20, 0.6);
 }
 .home-hero__reo .word { display: inline-block; }
-.home-hero__vision { color: var(--fg-soft); }
+.home-hero__vision {
+  max-width: 42ch;
+  margin-inline: auto;
+  color: var(--fg-soft);
+  text-shadow: 0 1px 20px rgba(7, 10, 20, 0.7);
+}
+@media (max-width: 40rem) {
+  .home-hero__crest { height: min(34vh, 15rem); }
+}
 
 .home-hero__cue {
   position: absolute;
