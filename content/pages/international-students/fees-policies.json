@@ -1,0 +1,156 @@
+{
+  "layout": "page",
+  "path": "international-students/fees-policies.html",
+  "slug": "fees-policies",
+  "title": "Fees & Policies",
+  "metaDescription": "Find detailed information about international student fees and policies at Rosehill College. Learn about tuition fees, additional costs, and payment options. Our policies ensure a smooth and supportive experience for international students, covering everything from enrolment to ongoing student services and expectations.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "International students",
+      "heading": "International student fees and policies",
+      "lede": "At Rosehill College, we are committed to providing a transparent and comprehensive overview of the fees and policies that apply to our international students. This page is designed to help you understand the costs associated with your education and the policies that govern your experience as a member of our college community."
+    },
+    {
+      "type": "prose",
+      "heading": "Planning your budget",
+      "html": "<p>Here, you will find detailed information about tuition fees, accommodation costs, and other related expenses, along with essential policies regarding payment schedules, refunds, and academic requirements. Our goal is to ensure that you are fully informed and prepared to make the most of your educational journey at Rosehill College.</p><p>Whether you are planning your budget, reviewing payment options, or seeking clarity on specific policies, this page will guide you through the financial and procedural aspects of studying with us.</p>"
+    },
+    {
+      "type": "table",
+      "id": "standard-fees",
+      "heading": "Standard fees 2026 — full year",
+      "lede": "The tuition fee includes GST, textbooks on loan, ESOL tuition if required, airport meet and greet on first arrival, consumables for Technology and Art subjects, and participation in school sports teams.",
+      "caption": "Rosehill College international student standard fees 2026 (NZ$)",
+      "columns": ["Fee", "Amount (NZ$)"],
+      "rows": [
+        ["Tuition fee (one full year)", "$16,800"],
+        ["Administration fee", "$950"],
+        ["Medical and travel insurance (cover for one year)", "$700"],
+        ["Weekly homestay fee (inclusive)", "$380"],
+        ["Caregiver support fee", "$500"],
+        ["Airport pick up/drop off (each way)", "$90"],
+        ["Holiday luggage storage (flat fee)", "$200"]
+      ]
+    },
+    {
+      "type": "table",
+      "id": "one-term-fees",
+      "heading": "One-term fees 2026",
+      "lede": "For students joining us for a single term. Shorter stays are charged at a weekly tuition rate with a four-week minimum.",
+      "caption": "Rosehill College international student one-term fees 2026 (NZ$)",
+      "columns": ["Fee", "Amount (NZ$)"],
+      "rows": [
+        ["Tuition fee (one term)", "$4,500"],
+        ["Weekly tuition fee (4 weeks minimum × $450 per week)", "$1,800"],
+        ["Administration fee", "$300"],
+        ["Medical and travel insurance (cover for one term)", "$250"],
+        ["Weekly homestay fee (inclusive)", "$380"],
+        ["Caregiver support fee", "$125"],
+        ["Airport pick up/drop off (each way)", "$90"]
+      ]
+    },
+    {
+      "type": "table",
+      "id": "additional-fees",
+      "heading": "Additional fees",
+      "lede": "Rosehill College is a digital school and students will require either a Chromebook, laptop, or tablet for all subjects. Mathematics students are required to use a scientific calculator.",
+      "caption": "Additional fees for international students 2026",
+      "columns": ["Item", "Details"],
+      "rows": [
+        ["Subject fees", "Some practical subjects have a charge for materials or workbooks used. Outdoor Education fees: approx. $450 – $1,000 per year."],
+        ["Exam fees", "$383.30 entry fees for NCEA Levels 1 to 3 (Years 11–13) must be paid annually in June."],
+        ["School trips", "Day field trips to art galleries, historic sites etc. — some costs may apply."],
+        ["Stationery", "Approximately $100 per year (dependent on chosen subjects)."],
+        ["Uniform", "For Years 9–13 students. Approximately $350 to $500 (second-hand uniforms are also available at a lower cost)."],
+        ["School camps", "Some subjects have extended camps as part of their fieldwork. Costs will vary."],
+        ["Textbooks", "Supplied on loan free of charge (but there will be a charge if books are lost or damaged)."],
+        ["Workbooks", "These are dependent on the subjects chosen and are approximately $28 each."]
+      ]
+    },
+    {
+      "type": "docs",
+      "heading": "Download the 2026 fee schedules",
+      "docs": [
+        { "href": "assets/docs/Standard---International-Student-Fees-2026.pdf", "label": "Standard fees 2026", "meta": "Full year — PDF" },
+        { "href": "assets/docs/One-Term---International-Student-Fees-2026.pdf", "label": "One-term fees 2026", "meta": "One term only — PDF" }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Fees protection",
+      "html": "<p>Rosehill College has a Fee Protection policy to safeguard the fees paid by international students, in the unlikely event that the school may not be able to commence or continue to deliver tuition to the international student. The School's Board of Trustees guarantees to hold in reserve sufficient funds to meet the requirements of any refund in these circumstances.</p><p>Please note:</p><ol><li>The administration fee and caregiver support fee is payable on enrolment/re-enrolment. It is non-refundable.</li><li>Homestay fees must be paid in advance to Rosehill College.</li><li>Medical and travel insurance is compulsory for the duration of the student's course. It can be arranged through the school with <a href=\"https://www.insurancesafenz.com/studentsafe/student-safe-inbound-young-learners\" rel=\"external\">Studentsafe Insurance</a>.</li><li>All prices have been quoted in New Zealand dollars.</li></ol>"
+    },
+    {
+      "type": "list",
+      "id": "international-payments",
+      "heading": "International payments",
+      "items": [
+        { "term": "Bank", "text": "ASB Bank Limited" },
+        { "term": "Account name", "text": "Rosehill College Board" },
+        { "term": "Account number", "text": "12-3031-0837472-00" },
+        { "term": "SWIFT/BIC code", "text": "ASBBNZ2A" },
+        { "term": "Bank address", "text": "166 Great South Road, Papakura 2110, New Zealand" },
+        { "term": "Payment reference", "text": "Please ensure the student's full name and student ID are included as the payment reference so we can correctly allocate the payment." }
+      ]
+    },
+    {
+      "type": "media-text",
+      "heading": "Orientation and full integration",
+      "image": {
+        "src": "assets/img/International---Fees--Policies---Orientation_1.avif",
+        "srcset": "",
+        "alt": "International students during their orientation at Rosehill College"
+      },
+      "html": "<p>Under the guidance of our Director of International Students, new students take part in a comprehensive orientation programme. This programme introduces them to Rosehill College and helps them to understand school expectations.</p><p>Students are integrated into regular classes from Years 9 to 13. From Year 11 onwards, students can study the National Certificate of Educational Achievement (NCEA), which is New Zealand's main secondary school qualification under the National Qualifications Framework (NQF).</p>"
+    },
+    {
+      "type": "prose",
+      "heading": "Pastoral care and support",
+      "html": "<p>Rosehill College has had many years of experience hosting international students from all over the world. The College takes the welfare and education of their students very seriously and is a signatory to the Education (Pastoral Care of Tertiary and International Learners) Code of Practice 2021. We have agreed to observe and be bound by the Code of Practice for the Pastoral Care of International Students, as published by the Ministry of Education.</p><p>Copies of the code are available on request from the College or from the New Zealand Ministry of Education website.</p>"
+    },
+    {
+      "type": "prose",
+      "heading": "Your rights and how to raise concerns",
+      "html": "<p>At Rosehill College, we are dedicated to ensuring that all international students have a positive and supportive educational experience. If you ever feel that your rights have been violated or that you have been treated unfairly, we encourage you to speak up. We take all complaints seriously and have established clear procedures to address your concerns.</p>",
+      "aside": {
+        "image": {
+          "src": "assets/img/International---Fees--Policies---Your-Rights_1.avif",
+          "srcset": "",
+          "alt": "Rosehill College international students supported on campus"
+        }
+      }
+    },
+    {
+      "type": "accordion",
+      "items": [
+        {
+          "title": "1. Initial steps",
+          "open": true,
+          "html": "<ul><li><strong>Talk to us:</strong> If you have a complaint, we recommend that you first try to resolve the issue directly by discussing it with the person or department involved. Often, concerns can be addressed quickly and effectively through open communication.</li><li><strong>Contact the International Student Office:</strong> If your issue is not resolved, or if you feel uncomfortable addressing it directly, please contact our International Student Office. Our staff is here to listen to your concerns and help guide you through the next steps.</li></ul>"
+        },
+        {
+          "title": "2. Formal complaint process",
+          "html": "<p>If your complaint cannot be resolved informally, you have the right to file a formal complaint. Rosehill College follows a structured process to ensure that all complaints are handled fairly and efficiently.</p><ul><li><strong>Submit a written complaint:</strong> You can submit your complaint in writing to the International Student Office. Please provide as much detail as possible, including the nature of the complaint, any relevant dates, and the steps you have already taken to resolve the issue.</li><li><strong>Review and response:</strong> Your complaint will be reviewed by the appropriate college authorities. We will investigate the matter and provide you with a response within a specified timeframe.</li></ul>"
+        },
+        {
+          "title": "3. Escalating your complaint",
+          "html": "<p>If you are not satisfied with the outcome of your formal complaint at Rosehill College, or if you believe that the issue involves a breach of the Education (Pastoral Care of Tertiary and International Learners) Code of Practice, you can escalate your complaint to external authorities.</p><ul><li><strong>New Zealand Qualifications Authority (NZQA):</strong> The NZQA handles complaints about breaches of the Code of Practice. You can submit your complaint online through their complaint website or refer to their <a href=\"https://www.nzqa.govt.nz/assets/About-us/How-to-make-a-complaint.pdf\" rel=\"external\">guide on how to make a complaint</a>.</li><li><strong>Ministry of Education:</strong> For further information on the regulations and your rights as an international student, please visit the Ministry of Education's website.</li></ul>"
+        },
+        {
+          "title": "4. Support and advice",
+          "html": "<p>If you need help understanding the process or require assistance at any stage, please don't hesitate to contact our International Student Office. We are here to support you and ensure that your concerns are heard and addressed appropriately.</p>"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "Ready to take the next step?",
+      "text": "Find out how to apply, what to expect when you arrive, and why students from around the world choose Rosehill College.",
+      "actions": [
+        { "href": "/international-students/applying-nz-arrival-information.html", "label": "Applying and arrival information", "primary": true },
+        { "href": "/international-students/why-study-at-rosehill.html", "label": "Why study at Rosehill" }
+      ]
+    }
+  ]
+}

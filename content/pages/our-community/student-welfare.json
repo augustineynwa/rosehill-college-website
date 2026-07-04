@@ -1,0 +1,95 @@
+{
+  "layout": "page",
+  "path": "our-community/student-welfare.html",
+  "slug": "student-welfare",
+  "title": "Student Welfare",
+  "metaDescription": "Explore the Student Welfare services at Rosehill College, dedicated to supporting the well-being, safety, and development of our students. Our welfare team offers guidance, resources, and a caring environment to help students thrive academically, socially, and emotionally throughout their school journey.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Hauora",
+      "reo": true,
+      "heading": "Student welfare",
+      "lede": "At Rosehill College, the well-being of our students is our top priority. This page provides essential information and resources to support our students in various aspects of their school life."
+    },
+    {
+      "type": "media-text",
+      "heading": "Our canteen",
+      "image": {
+        "src": "assets/img/Our-Community---Student-Welfare---Our-Canteen.avif",
+        "srcset": "/assets/img/Our-Community---Student-Welfare---Our-Canteen-p-500.avif 500w, /assets/img/Our-Community---Student-Welfare---Our-Canteen-p-800.avif 800w, /assets/img/Our-Community---Student-Welfare---Our-Canteen-p-1080.avif 1080w, /assets/img/Our-Community---Student-Welfare---Our-Canteen-p-1600.avif 1600w, /assets/img/Our-Community---Student-Welfare---Our-Canteen-p-2000.avif 2000w, /assets/img/Our-Community---Student-Welfare---Our-Canteen-p-2600.avif 2600w",
+        "alt": "Food on offer at the Rosehill College canteen"
+      },
+      "html": "<p>Our canteen is currently operated by the school to ensure students continue to have access to fresh and affordable food options throughout the day.</p><p>Our menu includes a variety of hot meals, sandwiches, snacks, and drinks, with options rotating regularly and seasonally to suit student preferences. We aim to provide nutritious and convenient food choices to support student wellbeing and energy levels during the school day.</p><p>If you have any inquiries for the canteen, you can email <a href=\"mailto:canteen@rosehillcollege.school.nz\">canteen@rosehillcollege.school.nz</a>.</p>"
+    },
+    {
+      "type": "docs",
+      "heading": "Menu and allergen information",
+      "lede": "The current canteen menu and price list, along with the list of allergens, can be downloaded below.",
+      "docs": [
+        { "href": "assets/docs/Canteen-Menu.pdf", "label": "Canteen menu and price list", "meta": "PDF" },
+        { "href": "assets/docs/Allergens-List.pdf", "label": "Allergens list", "meta": "PDF" }
+      ]
+    },
+    {
+      "type": "media-text",
+      "flip": true,
+      "heading": "Restorative practice",
+      "image": {
+        "src": "assets/img/Our-Community---Student-Welfare---Restorative-Practice_1.avif",
+        "srcset": "",
+        "alt": "Rosehill College students and staff talking together"
+      },
+      "html": "<p>Restorative practices are best understood as a 'community response' to wrong-doing. This involves bringing together all of the people involved in an incident to understand how people have been affected, with a focus on putting it right.</p>"
+    },
+    {
+      "type": "prose",
+      "heading": "Why is Rosehill College using this approach?",
+      "html": "<p>Educators are recognising that restorative practices have many advantages over punishment alone:</p><ul><li>Restorative practices have a focus on people, not rules.</li><li>Restorative practices give victims a voice about how they want their case to be handled.</li><li>Restorative practices make students who offend accountable to the people they have hurt.</li><li>Restorative practices address the root cause of an issue, not just the symptoms.</li></ul><p><strong>How do restorative practices fit with our values?</strong> Perfectly! Rosehill College is a community of students, parents and staff — so having a community or hui response to wrong-doing is ideal. Restorative practices place a priority on protecting relationships and rebuilding them if they become damaged through a harmful incident. Restorative practices are built upon core values such as Respect, Responsibility and Caring — which match our own values.</p>"
+    },
+    {
+      "type": "prose",
+      "heading": "Student Support",
+      "html": "<p>Student Support is the department at Rosehill College dedicated to the welfare of students. It is staffed by three full-time counsellors, two full-time nurses and a Kaimanaaki (Māori support).</p><p>Our three experienced counsellors (Dr Elahe Khaleghian, Ms Phillipa MacCormick and Miss Paula Alontave) are full members of the New Zealand Association of Counsellors, receiving regular supervision of their work. They have contact with a wide range of agencies who can also assist with more complicated issues for students.</p><p>Our registered nurse, Mrs Serena Li, attends to emergencies, general illness and chronic illnesses. Parents are advised to keep their children at home if they are significantly unwell.</p><p>Our Kaimanaaki (Whāea Pare Matthews) provides general support to Māori students and their whānau. The role of our Kaimanaaki is to provide support that allows Māori students to succeed to their potential.</p>",
+      "aside": {
+        "image": {
+          "src": "assets/img/Our-Community---Student-Welfare---Student-Support_1.avif",
+          "srcset": "",
+          "alt": "Rosehill College students supporting each other on campus"
+        }
+      }
+    },
+    {
+      "type": "list",
+      "heading": "Visiting Student Support",
+      "items": [
+        {
+          "term": "Making appointments",
+          "text": "Students can 'drop in' during break times and may be able to find the person they are wanting to talk to. It is probably best for students to fill in an appointment slip with their details — the counsellor, Kaimanaaki or nurse will send for them using a runner."
+        },
+        {
+          "term": "Programmes and groups",
+          "text": "There are always speciality support groups running for students. Students should drop in to Student Support to check, or just keep an eye on the Daily Notices."
+        },
+        {
+          "term": "Peer Support Programme",
+          "text": "Dr Khaleghian runs this programme with the support of teaching staff and 100–200 Student Advisors. Student Advisors are trustworthy and friendly seniors from each House who train for two days during the summer holidays. Once trained, the Student Advisors support Year 9s on their first day at school, for all of Term One and beyond."
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Resources that may help",
+      "html": "<ul><li>For depression: <a href=\"https://www.thelowdown.co.nz\" rel=\"external\">www.thelowdown.co.nz</a> and <a href=\"https://www.depression.org.nz\" rel=\"external\">www.depression.org.nz</a></li><li>Drinking and drugs out of control? <a href=\"https://www.cads.org.nz\" rel=\"external\">www.cads.org.nz</a></li></ul>"
+    },
+    {
+      "type": "cta",
+      "heading": "Need a hand, or have a question?",
+      "text": "Drop in to Student Support during break times, or get in touch with the school — we are here to help.",
+      "actions": [
+        { "href": "/contact-us.html", "label": "Contact us", "primary": true },
+        { "href": "/curriculum/student-support.html", "label": "Learning support" }
+      ]
+    }
+  ]
+}

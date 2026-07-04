@@ -1,0 +1,159 @@
+{
+  "layout": "page",
+  "path": "join-us/enrolment.html",
+  "slug": "enrolment",
+  "title": "Enrolment",
+  "metaDescription": "Learn about enrolling at Rosehill College. Find all the information you need on application requirements, key dates, and the step-by-step process to join our vibrant school community. Start your journey with us today and become part of the Rosehill College family.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Join us",
+      "heading": "Rosehill College enrolment",
+      "lede": "We are excited to help you join our thriving learning community. In-zone students apply online; out-of-zone applicants collect an enrolment pack from reception and enter the annual ballot. Enrolments for the following school year typically open at the start of Term 3 each year. For all enrolment enquiries, please email enrolments@rosehillcollege.school.nz.",
+      "actions": [
+        { "href": "https://rosehillcollege.school.kiwi/enrolment", "label": "Start new enrolment application", "primary": true },
+        { "href": "mailto:enrolments@rosehillcollege.school.nz", "label": "Email the enrolment team" }
+      ]
+    },
+    {
+      "type": "media-text",
+      "id": "in-zone",
+      "eyebrow": "In-zone enrolment",
+      "heading": "In-zone enrolment",
+      "portrait": true,
+      "image": {
+        "src": "assets/img/In-Zone_1.avif",
+        "srcset": "",
+        "alt": "Rosehill College in-zone enrolment flyer"
+      },
+      "html": "<p>All students who live within the Rosehill College zone are entitled to enrol at the College. Complete your application online for a fast and straightforward process — you can <a href=\"https://www.educationcounts.govt.nz/find-school\" rel=\"external\">check if you are in zone for Rosehill College</a> by entering your address.</p><p>If you do not have access to an electronic device, computers are available at our front office for you to complete your online enrolment. Our front office staff are also available to assist you with the process.</p>",
+      "actions": [
+        { "href": "https://rosehillcollege.school.kiwi/enrolment", "label": "Start new enrolment application", "primary": true }
+      ]
+    },
+    {
+      "type": "accordion",
+      "heading": "In-zone enrolment, step by step",
+      "items": [
+        {
+          "title": "Before you start",
+          "open": true,
+          "html": "<p>We strongly encourage you to complete the enrolment application online, ideally on a desktop computer or laptop for the best experience.</p><p>Please note: submitting your application online does <strong>not</strong> guarantee automatic acceptance. All submissions will be reviewed, and you will receive confirmation via email once the process is complete.</p><p>To get started, download the required forms (which can be filled out electronically using a Microsoft Edge browser or Adobe Acrobat for Drive). Be sure to save the completed forms, as they will be uploaded to the 'Attachments' section later in this application.</p><p><strong>If you are unable to upload and submit the required forms and supporting documents online, you can complete the application with just the information and details.</strong> You may then bring the documents to the school office or email them separately to <a href=\"mailto:enrolments@rosehillcollege.school.nz\">enrolments@rosehillcollege.school.nz</a>. Our front office staff are available to assist with scanning and entering your documents into our system.</p><p>If you prefer to complete the enrolment process using paper forms, you can collect an enrolment pack from our front office. The office is open from <strong>8am to 4pm, Monday to Friday</strong>.</p>"
+        },
+        {
+          "title": "Check your school zone",
+          "html": "<p>All students who live within the Rosehill College zone are entitled to enrol at the College. You can check if you are in zone for Rosehill College by entering your address at the following link:</p><p><a href=\"https://www.educationcounts.govt.nz/find-school\" rel=\"external\"><strong>Check for your school zone</strong></a></p>"
+        },
+        {
+          "title": "Enrolment forms",
+          "html": "<p>The following forms are <strong>compulsory</strong> and must be submitted. Please download and fill out each form, ensuring they are completed in full.</p><p><strong>Note:</strong> All forms require a parent or guardian's signature. It is essential that all required signatures are included — any <strong>unsigned</strong> forms will not be processed.</p><p>The compulsory forms are as follows:</p><ol><li>Student Health Record</li><li>In-zone Enrolment Questionnaire</li><li>Education Outside the Classroom (EOTC) Consent Form</li></ol><p><a href=\"https://drive.google.com/uc?export=download&amp;id=1clZMxjsxWuqnoZCVj1O4ctJ55R2ghSWk\" rel=\"external\">Download the checklist</a></p><p><a href=\"https://drive.google.com/uc?export=download&amp;id=1e3XxDJT6D_tnmL6uhIkgyYX3c8NUVFXY\" rel=\"external\">Download the forms</a></p><p>Please ensure all forms are signed and submitted to avoid any delays in the enrolment process.</p><p>We also ask that you take a moment to read through <a href=\"/curriculum/our-rosehill-college-way.html\">Our Rosehill College Way</a>, which outlines our school-wide rules and expectations. It is important that both you and your child/children familiarise yourselves with these guidelines before completing the enrolment. This helps ensure a smooth transition and supports a positive, respectful learning environment for all.</p>"
+        },
+        {
+          "title": "Supporting documents",
+          "html": "<p>To facilitate the processing of enrolment applications, we kindly request <strong>digital copies</strong> of the following documents, preferably in PDF format.</p><p><strong>Compulsory documents:</strong></p><ul><li><strong>Birth Certificate</strong> or <strong>Passport</strong></li><li><strong>Student's Visa:</strong> for students who are not New Zealand/Australian citizens.</li><li><strong>Legal or Guardianship documents:</strong> any legal documents (e.g. Guardianship, Parenting Order, Custody Order, Protection Order), if applicable.</li><li><strong>Proof of Address:</strong> TWO different documents, each with the caregiver's name, supply address or rating unit where the student lives, and with the most recent date.<ul><li><strong>Tenancy Agreement</strong> or <strong>Council Rates bill</strong></li><li><strong>Electricity bill</strong> or <strong>Water bill</strong></li></ul></li></ul><p>If you are unable to provide the required proof of address, you must complete a <strong>statutory declaration</strong> confirming your current residential address. This must be signed and witnessed by an authorised person (such as a Justice of the Peace). The declaration must include your full residential address and any other details required in the form. Failure to provide acceptable proof of address or a completed statutory declaration may result in a delay or refusal of enrolment. For further information or assistance, please contact the enrolment office.</p><p><a href=\"https://drive.google.com/uc?export=download&amp;id=1jUJVHkgUi4y1lj5eBPdxdCRtLIxoNauZ\" rel=\"external\">Download the Statutory Declaration form</a></p><p><strong>Additional supporting documents:</strong></p><ul><li><strong>Latest school report:</strong> from the student's previous school.</li></ul><p><strong>File naming and format:</strong> all uploaded documents should be in <strong>.pdf</strong>, <strong>.png</strong> or <strong>.jpg</strong> format and clearly named. Please use the <strong>student's last name</strong>, followed by <strong>first name</strong>, and then the document type. For example: Smith, John Enrolment Forms.pdf</p>"
+        },
+        {
+          "title": "Confirmation of enrolment",
+          "html": "<p>If you are enrolling from within our designated zone, your child's admission will be confirmed promptly upon the completion and verification of the required documents. Please be aware that this process may take some time, depending on the volume of applications. Once enrolment is confirmed, you will receive a confirmation email or letter.</p><p><strong>It is essential to ensure that we have been provided with your correct email address and phone number to avoid delays in communication.</strong></p><p>We remind all families that, under government legislation, schools are permitted to ask a student to leave immediately if it is found that they did not reside permanently within the Rosehill College zone at the time of enrolment.</p>"
+        }
+      ]
+    },
+    {
+      "type": "media-text",
+      "id": "out-of-zone",
+      "flip": true,
+      "eyebrow": "Out-of-zone enrolment",
+      "heading": "Out-of-zone enrolment",
+      "portrait": true,
+      "image": {
+        "src": "assets/img/Out-of-Zone_1.avif",
+        "srcset": "",
+        "alt": "Rosehill College out-of-zone enrolment flyer"
+      },
+      "html": "<p>All out-of-zone enrolment applicants must collect an Out-of-Zone Enrolment Pack from the school reception. <strong>Online applications for out-of-zone enrolments are not accepted and will not be processed.</strong></p><p>A non-refundable administration fee of $50 is payable when the completed out-of-zone application is submitted. This fee applies to all out-of-zone applications and is not refundable, regardless of the outcome of the ballot process.</p>"
+    },
+    {
+      "type": "prose",
+      "heading": "How out-of-zone places are allocated",
+      "html": "<p>Each year, the Rosehill College Board will determine the number of places likely to be available in the following year for the enrolment of students who live outside the home zone. The Board will publish this information on our school website. The notice will indicate how applications are to be made and will specify a date by which all applications must be received.</p><p><strong>Applications for enrolment will be processed in the following order of priority:</strong></p><ol><li><strong>First priority:</strong> this priority is not applicable at this school because the school does not run a special programme approved by the Secretary for Education.</li><li><strong>Second priority:</strong> will be given to applicants who are siblings of current students.</li><li><strong>Third priority:</strong> will be given to applicants who are siblings of former students.</li><li><strong>Fourth priority:</strong> will be given to any applicant who is a child of a former student of the school.</li><li><strong>Fifth priority:</strong> will be given to any applicant who is either a child of an employee of the board of the school or a child of a member of the board of the school.</li><li><strong>Sixth priority:</strong> will be given to all other applicants.</li></ol><p>If there are more applicants in the second, third, fourth, or fifth priority groups than there are available places, selection within the priority group will be determined by ballot, conducted in accordance with the instructions of the Secretary under Section 11G(1) of the Education Act 1989. Parents will be informed of the ballot date by notice in a daily or community newspaper circulating in the area served by the school.</p><p><strong>Applicants seeking second or third priority status may be required to give proof of a sibling relationship.</strong></p>"
+    },
+    {
+      "type": "table",
+      "heading": "Out-of-zone placements for 2027",
+      "lede": "The Rosehill College Board has carefully looked at the number of places we can offer for the upcoming school year. How many spaces are available depends on the number of in-zone enrolments we receive.",
+      "caption": "Out-of-zone placements available for 2027",
+      "columns": ["Year level", "Placements available"],
+      "rows": [
+        ["Year 9", "20 placements"],
+        ["Year 10", "10 placements"],
+        ["Year 11", "10 placements"],
+        ["Year 12", "10 placements"],
+        ["Year 13", "10 placements"]
+      ]
+    },
+    {
+      "type": "list",
+      "heading": "Application fee payment",
+      "items": [
+        { "term": "Administration fee", "text": "A non-refundable administration fee of $50.00 is payable upon submission of all out-of-zone enrolment applications, regardless of the ballot outcome." },
+        { "term": "Payment methods", "text": "EFTPOS (at the school office) or bank transfer." },
+        { "term": "Account name", "text": "Rosehill College Board" },
+        { "term": "Account number", "text": "12-3031-0837472-00" },
+        { "term": "Particular", "text": "OOZ2027" },
+        { "term": "Code", "text": "{Last Name}" },
+        { "term": "Reference", "text": "{First Name}" },
+        { "term": "Please note", "text": "Ensure the payment references are entered exactly as shown to assist with the identification and processing of your application." }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Ballot results",
+      "html": "<p>The out-of-zone ballot is scheduled to take place on <strong>Wednesday 2 September 2026</strong>. Parents and caregivers will be notified of the outcome via email shortly after the ballot has been conducted.</p><p>If your child is offered a place, please confirm your acceptance within <strong>14 days</strong>. Any unaccepted placements will be offered to students on the waiting list in the order their names were drawn.</p><p>If you have not received your ballot result after the draw, please contact us for assistance.</p><p>Please note: additional ballots may only occur if the Board determines that further places become available during the school year.</p>"
+    },
+    {
+      "type": "table",
+      "id": "key-dates",
+      "heading": "Enrolment key dates for 2027",
+      "lede": "Please note that the timeline for enrolment 2027 is provisional and subject to change. The dates outlined reflect our current planning and may be adjusted in accordance with Ministry of Education guidelines and internal scheduling updates. We encourage you to check our website regularly for the most up-to-date enrolment information.",
+      "caption": "Enrolment year 2027 key dates",
+      "columns": ["Dates", "Details"],
+      "rows": [
+        ["Monday 20 July 2026", "Start of Enrolment Year 2027"],
+        ["Saturday 8 August 2026", "Rosehill College Open Day"],
+        ["Wednesday 2 September 2026", "Out-of-zone application closing date"],
+        ["Wednesday 9 September 2026", "Ballot for out-of-zone placement — parents will be advised of the ballot outcome within 14 days"],
+        ["Wednesday 10 December 2026", "Year 8 students transition days"]
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Re-enrolment",
+      "html": "<p>If your child has previously attended Rosehill College and you wish to re-enrol them, please contact us directly by emailing <a href=\"mailto:enrolments@rosehillcollege.school.nz\">enrolments@rosehillcollege.school.nz</a>.</p><p>We are here to assist you with a smooth and efficient re-enrolment process.</p>",
+      "aside": {
+        "html": "<p><strong>Privacy commitment</strong></p><p>We are committed to safeguarding your personal information throughout the enrolment process. For more details, please review our <a href=\"/join-us/school-policies.html\">Privacy Policy</a>.</p>"
+      }
+    },
+    {
+      "type": "docs",
+      "heading": "Enrolment downloads",
+      "lede": "Download and complete these documents, then save them ready to upload to the 'Attachments' section of your online application.",
+      "docs": [
+        { "href": "https://drive.google.com/uc?export=download&id=1clZMxjsxWuqnoZCVj1O4ctJ55R2ghSWk", "label": "Enrolment checklist", "meta": "Download" },
+        { "href": "https://drive.google.com/uc?export=download&id=1e3XxDJT6D_tnmL6uhIkgyYX3c8NUVFXY", "label": "Enrolment forms", "meta": "Student Health Record, In-zone Enrolment Questionnaire, EOTC Consent Form" },
+        { "href": "https://drive.google.com/uc?export=download&id=1jUJVHkgUi4y1lj5eBPdxdCRtLIxoNauZ", "label": "Statutory Declaration form", "meta": "If you are unable to provide the required proof of address" }
+      ]
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Tīmata tō haerenga",
+      "reo": true,
+      "heading": "Start your journey with us",
+      "text": "Become part of the Rosehill College whānau — explore detailed course descriptions and uniform requirements as you prepare to enrol.",
+      "actions": [
+        { "href": "https://rosehillcollege.school.kiwi/enrolment", "label": "Start new enrolment application", "primary": true },
+        { "href": "/curriculum/course-information.html", "label": "Course information" },
+        { "href": "/join-us/uniform-and-stationery.html", "label": "Uniform and stationery" }
+      ]
+    }
+  ]
+}

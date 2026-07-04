@@ -12,7 +12,11 @@ export async function initHome(gsap, ScrollTrigger) {
   const headerCrest = document.querySelector('[data-header-crest]');
   let crestApi = null;
 
-  if (canvas && window.WebGLRenderingContext) {
+  // 3D crest is a desktop experience — phones keep the official SVG crest,
+  // saving the three.js download and main-thread cost on mobile networks.
+  const wantsCrest3D = window.matchMedia('(min-width: 48rem)').matches
+    && !navigator.connection?.saveData;
+  if (canvas && wantsCrest3D && window.WebGLRenderingContext) {
     try {
       const { createCrest } = await import('./crest.js');
       crestApi = await createCrest(canvas);
@@ -43,7 +47,9 @@ export async function initHome(gsap, ScrollTrigger) {
   // motto reveal — te reo first, then the English vision beneath
   const reo = document.querySelector('[data-motto-reo]');
   const vision = document.querySelector('[data-motto-vision]');
-  if (reo) {
+  // word-by-word motto reveal is desktop-only; on mobile the motto is the
+  // LCP element and must paint immediately
+  if (reo && wantsCrest3D) {
     const words = reo.textContent.trim().split(/\s+/);
     reo.innerHTML = words
       .map((w) => `<span class="word" aria-hidden="true">${w}</span>`)
@@ -51,12 +57,12 @@ export async function initHome(gsap, ScrollTrigger) {
     reo.setAttribute('aria-label', words.join(' '));
     gsap.fromTo(reo.querySelectorAll('.word'),
       { opacity: 0, y: 26 },
-      { opacity: 1, y: 0, duration: 1.0, stagger: 0.09, ease: 'power3.out', delay: 1.4 });
+      { opacity: 1, y: 0, duration: 1.0, stagger: 0.08, ease: 'power3.out', delay: 0.6 });
+    if (vision) {
+      gsap.fromTo(vision, { opacity: 0 }, { opacity: 1, duration: 1.2, ease: 'power2.out', delay: 1.6 });
+    }
   }
-  if (vision) {
-    gsap.fromTo(vision, { opacity: 0 }, { opacity: 1, duration: 1.4, ease: 'power2.out', delay: 2.6 });
-  }
-  gsap.fromTo('[data-hero-cue]', { opacity: 0 }, { opacity: 1, duration: 1, delay: 3.2 });
+  gsap.fromTo('[data-hero-cue]', { opacity: 0 }, { opacity: 1, duration: 1, delay: 2.2 });
 
   // scrolling out of the hero: crest drifts up + de-assembles slightly,
   // header crest mark settles in as the big one leaves
@@ -176,6 +182,7 @@ export async function initHome(gsap, ScrollTrigger) {
   // never download it — the poster carries the atmosphere on mobile
   const video = document.querySelector('[data-ambient-video]');
   if (video && window.matchMedia('(min-width: 64rem)').matches) {
+    video.poster = video.dataset.poster;
     const webm = document.createElement('source');
     webm.src = video.dataset.webm;
     webm.type = 'video/webm';

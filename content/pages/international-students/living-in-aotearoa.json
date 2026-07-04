@@ -1,0 +1,109 @@
+{
+  "layout": "page",
+  "path": "international-students/living-in-aotearoa.html",
+  "slug": "living-in-aotearoa",
+  "title": "Living in Aotearoa",
+  "metaDescription": "Discover what it's like to live in New Zealand as an international student. From the vibrant culture and stunning landscapes to practical information on accommodation, transport, and daily life, this page offers everything you need to know to make the most of your time in New Zealand while studying at Rosehill College.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "International students",
+      "heading": "Living in Aotearoa",
+      "lede": "Welcome to New Zealand, a country renowned for its stunning landscapes, vibrant cities, and welcoming communities. As an international student at Rosehill College, you will have the opportunity to experience all that this beautiful country has to offer, both inside and outside the classroom."
+    },
+    {
+      "type": "embed",
+      "heading": "Real students, real stories",
+      "src": "https://www.youtube-nocookie.com/embed/LMitVi_rUuM?rel=0",
+      "iframeTitle": "Life as an international student at Rosehill College",
+      "note": "Experience what life is really like at Rosehill College and in Auckland — real students, real stories, and the adventures that make studying in New Zealand unforgettable."
+    },
+    {
+      "type": "media-text",
+      "heading": "Accommodation",
+      "image": {
+        "src": "assets/img/International---Living-in-NZ---Accomodation_1.avif",
+        "srcset": "",
+        "alt": "An international student settling into homestay life in New Zealand"
+      },
+      "html": "<p>If you are staying with a homestay family, they will collect you from the airport when you arrive, show you around your new home, and help you settle in. You should arrive a couple of days before your course starts so you can acclimatise. For more information visit our page on <a href=\"/international-students/applying-nz-arrival-information.html\">arrival information</a>.</p><p>Most of our international students live with a local host family while they are in New Zealand. Our homestay provides warm and caring host families who offer safe, comfortable and well-maintained homes, providing students with a secure and supportive living environment. The families are carefully selected by our dedicated and experienced staff. Homestay accommodation gives our international students the opportunity to fully participate in New Zealand life and make the most of their Rosehill College experience.</p>"
+    },
+    {
+      "type": "prose",
+      "heading": "Rosehill College homestays",
+      "html": "<p>All international students not living with their parents must live in a school-approved homestay. Students are not permitted to live in flats/apartments. Regardless of age, they must live with a family where approved adults care for them.</p><p>Some parents may elect to place their child with relatives or close family friends. Such homes (designated caregivers) are subject to the usual checks carried out for approved homestays.</p><p>All accommodation will be regularly visited by Rosehill College homestay staff. All Rosehill College homestay carers and designated caregivers and their live-in family members over the age of 18 have been vetted by the New Zealand Police.</p><p>Fees are paid to the school for the same period as the tuition fees. The school pays the homestay families on a two-weekly basis. The homestay weekly rate includes an amount that is used by the College to monitor the homestay. Students may not change their accommodation without the Director's permission, and this permission must be sought in writing and well in advance.</p>"
+    },
+    {
+      "type": "prose",
+      "heading": "Your homestay family",
+      "html": "<ul><li>Your family has been specially chosen for you. They will act in place of your parents while you are in NZ. Make sure you have completed our questionnaire so that we understand your needs.</li><li>All families have different habits and customs. It is important to find out what your new family expects of you. You will be given a booklet called Homestay Information and Guidance for International Students. You should read and discuss this booklet with your family. It includes a list of useful questions you might ask, such as what to call them, when to have a shower and what happens with your washing.</li><li>You will have your own room.</li><li>You should ask them about use of the computer/internet.</li><li>You will need to get a NZ SIM card for your phone and will need to open a NZ bank account. Your homestay family or our International Co-ordinator will help you with these.</li><li>Your family will show you how to get to school. NB: You are not allowed to own nor drive a car while you are an international student at Rosehill College.</li><li>Most parents work (mother and father).</li></ul>",
+      "aside": {
+        "html": "<p><strong>Students choosing not to stay in Rosehill College homestays</strong></p><p>These students must live with either their parents or a close family relative or friend. These students' parents must sign the 'Statement of Designated Caregivers Arrangements' form, available from the school or agents, stating that they agree to take responsibility for placing their son/daughter with their relative.</p><p>Students living with their parents do not have to complete the Designated Caregivers document.</p>"
+      }
+    },
+    {
+      "type": "docs",
+      "heading": "For homestay families",
+      "lede": "If you and your family are considering becoming a host family, please read the documents and fill out the below forms, or contact our International Co-ordinator for more details.",
+      "docs": [
+        { "href": "assets/docs/Rosehill-College_Homestay-Welcome-Letter_2026.pdf", "label": "Homestay welcome letter", "meta": "PDF" },
+        { "href": "assets/docs/RH_Homestay-Information-for-Caregivers_2026.pdf", "label": "Homestay information for caregivers of international students", "meta": "PDF" },
+        { "href": "assets/docs/RH_Student-Handbook-Homestay_2026.pdf", "label": "Homestay information for international students", "meta": "PDF" },
+        { "href": "assets/docs/RH_Application-to-be-a-Homestay-forms__2026.pdf", "label": "Rosehill College homestay application form", "meta": "PDF" },
+        { "href": "assets/docs/RH_Guidelines-for-hosting-an-international-student-homestays_2026.pdf", "label": "Homestay hosting guidelines", "meta": "PDF" },
+        { "href": "assets/docs/RH_homestay-Carer-Agreement-2026.pdf", "label": "Rosehill College homestay carer agreement", "meta": "PDF" },
+        { "href": "assets/docs/nz-police-vet-request-consent-form-2026_RosehillCollege.pdf", "label": "Police vetting form", "meta": "PDF" }
+      ]
+    },
+    {
+      "type": "media-text",
+      "flip": true,
+      "heading": "Transportation to Rosehill College",
+      "image": {
+        "src": "assets/img/International---Living-in-NZ---Transport_1.avif",
+        "srcset": "",
+        "alt": "Students travelling to Rosehill College"
+      },
+      "html": "<p>Rosehill College offers a variety of transportation options for our international students, ensuring that everyone can travel to and from school safely and conveniently. Whether you prefer to take the school bus, walk, cycle, or are dropped off by a private vehicle, we have outlined the key details to help you navigate your daily commute.</p>"
+    },
+    {
+      "type": "accordion",
+      "heading": "Getting to school safely and efficiently",
+      "items": [
+        {
+          "title": "School bus services",
+          "open": true,
+          "html": "<ul><li><strong>Public bus information:</strong> Many of our students use the school bus services. The school bus is a convenient and safe option for students who live further away from the school. For those using public transportation, please refer to our <a href=\"/join-us/school-zone-and-buses.html\">school bus information page</a> for detailed routes and schedules. Some students may need to pay for their bus fare depending on the route.</li><li><strong>Homestay proximity:</strong> Most homestays are located within a 10 to 45-minute bus ride from Rosehill College, making the bus a practical choice for daily commuting.</li></ul>"
+        },
+        {
+          "title": "Walking and cycling",
+          "html": "<ul><li><strong>Walking:</strong> Students who live closer to the school often choose to walk. Walking is a healthy and environmentally friendly way to start the day, and Rosehill College encourages students to walk when possible.</li><li><strong>Cycling:</strong> Cycling is another popular option among students. Rosehill College provides secure bike racks at school for those who choose to cycle. Remember to always wear a helmet and follow local road safety rules while cycling.</li></ul>"
+        },
+        {
+          "title": "Private vehicle drop-off",
+          "html": "<ul><li><strong>Drop-off and pick-up:</strong> Some students are dropped off and picked up by a private vehicle. We have designated drop-off and pick-up zones to ensure the process is smooth and safe for everyone.</li><li><strong>No student driving:</strong> Please note that international students at Rosehill College are not permitted to own or drive a private vehicle during their time at the school. This policy is in place to ensure the safety and well-being of all our students.</li></ul>"
+        },
+        {
+          "title": "Important reminders",
+          "html": "<ul><li><strong>Plan ahead:</strong> Whether you're taking the bus, walking, or cycling, it's important to plan your journey to ensure you arrive at school on time.</li><li><strong>Safety first:</strong> Always prioritise your safety by following traffic rules, using crosswalks, wearing helmets when cycling, and being aware of your surroundings.</li></ul>"
+        }
+      ]
+    },
+    {
+      "type": "embed",
+      "heading": "Explore New Zealand with us",
+      "src": "https://www.youtube-nocookie.com/embed/i2BtoIPIaS0?rel=0",
+      "iframeTitle": "Explore New Zealand with Rosehill College",
+      "note": "During the school holidays, our international students often have the opportunity to travel and experience more of Aotearoa. Some of our student leaders journey to Rotorua — one of New Zealand's most iconic destinations — where they explore natural wonders, take part in thrilling adventure activities, and visit sites rich in culture and heritage."
+    },
+    {
+      "type": "cta",
+      "heading": "24-hour emergency line",
+      "text": "Your safety and well-being are our top priorities. In case of an emergency outside of school hours, and you need immediate assistance from Rosehill College, please contact our emergency line for support — we are here to help whenever you need us.",
+      "actions": [
+        { "href": "tel:+64274630267", "label": "Call +64 27 463 0267", "primary": true },
+        { "href": "/international-students/applying-nz-arrival-information.html", "label": "Arrival information" }
+      ]
+    }
+  ]
+}

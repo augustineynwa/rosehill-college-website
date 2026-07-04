@@ -1,0 +1,52 @@
+{
+  "layout": "page",
+  "path": "cocurricular/careers-at-rosehill-college.html",
+  "slug": "careers-at-rosehill-college",
+  "title": "Careers at Rosehill College",
+  "metaDescription": "Rosehill College's Careers Department helps students take confident steps towards their future — with CV and interview help, study and training pathways, the Gateway programme and one-on-one careers appointments.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Careers guidance",
+      "heading": "Careers at Rosehill College",
+      "lede": "At Rosehill College, our Careers Department is dedicated to helping students take confident steps towards their future — whether that path leads to employment, further study, trades, or something uniquely their own.",
+      "image": {
+        "src": "assets/img/Curriculum---Student-Support---Careers.avif",
+        "srcset": "",
+        "alt": "Careers guidance at Rosehill College"
+      }
+    },
+    {
+      "type": "prose",
+      "heading": "What we offer",
+      "html": "<p>We provide practical advice, personalised guidance, and real-world support to help students explore options and make informed choices.</p><p>Our Careers Team can help you:</p><ul><li>Write CVs and cover letters</li><li>Prepare for job interviews and job hunting</li><li>Understand your driver licence options</li></ul>"
+    },
+    {
+      "type": "media-text",
+      "heading": "Study and training pathways",
+      "image": {
+        "src": "assets/img/Careers.avif",
+        "srcset": "",
+        "alt": "Students exploring career and study pathways at Rosehill College"
+      },
+      "html": "<p>Explore opportunities with:</p><ul><li>Universities and polytechnics</li><li>Trades training and apprenticeships</li><li>Student exchange programmes</li><li>The armed forces</li></ul>"
+    },
+    {
+      "type": "prose",
+      "heading": "Gateway programme",
+      "html": "<p>Get real-world experience through our Gateway work placements, designed to give students a taste of working life in different industries.</p>",
+      "aside": {
+        "html": "<p><strong>Book a careers appointment</strong></p><p>Need help figuring out your next steps? Book a one-on-one session with our Careers Advisor for tailored advice and planning.</p><p>Email the Careers team at <a href=\"mailto:careers@rosehillcollege.school.nz\">careers@rosehillcollege.school.nz</a>.</p>"
+      }
+    },
+    {
+      "type": "cta",
+      "heading": "Visit the Careers Portal",
+      "text": "Explore all of the above and more on our Careers Portal.",
+      "actions": [
+        { "href": "https://rosehillcollege.careerwise.school/", "label": "Visit the Rosehill College Careers Portal", "primary": true },
+        { "href": "/curriculum/student-support.html", "label": "Student support" }
+      ]
+    }
+  ]
+}

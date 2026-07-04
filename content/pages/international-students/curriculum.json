@@ -1,0 +1,57 @@
+{
+  "layout": "page",
+  "path": "international-students/curriculum.html",
+  "slug": "international-curriculum",
+  "title": "Curriculum for International Students",
+  "metaDescription": "Explore the curriculum offerings for international students at Rosehill College — over 40 subjects, NCEA Levels 2 and 3, ESOL support and Chinese interpreters.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Te marautanga",
+      "reo": true,
+      "heading": "Curriculum for international students",
+      "lede": "The school curriculum is core to student life in New Zealand at Rosehill College. International students are integrated into regular classes with local students and can choose from over 40 subject options in Year 12 and 13, including our ever-popular Outdoor Education course."
+    },
+    {
+      "type": "media-text",
+      "heading": "A pathway to tertiary study",
+      "image": {
+        "src": "assets/img/International-Students---Curriculum---Education-Journey-Infographic_1.avif",
+        "srcset": "",
+        "alt": "Infographic showing the New Zealand secondary education journey at Rosehill College, from Year 11 foundation study through NCEA Levels 2 and 3 in Years 12 and 13 towards University Entrance and tertiary study"
+      },
+      "html": "<p>ESOL support is provided where needed and we have Chinese interpreters available.</p><p>Our Year 12 and 13 courses give students the opportunity to gain New Zealand's NCEA qualification at Levels 2 and 3, providing a pathway to tertiary study. NCEA is an internationally recognised qualification accepted by universities worldwide.</p><p>Year 11 students study a curriculum tailored to provide a strong foundation for the rigours of NCEA in Year 12. All subjects at this level offer NCEA-style evaluations, to ensure students are ready for external assessments in Year 12.</p>",
+      "actions": [
+        { "href": "/curriculum/course-information.html", "label": "View course information" }
+      ]
+    },
+    {
+      "type": "stats",
+      "eyebrow": "Ō mātau hua",
+      "reo": true,
+      "heading": "Our results",
+      "lede": "The success of our international students is very important to us. Our International and Careers Departments work closely with students to ensure they are enrolled in appropriate courses, taking the correct number of credits, and are on track to achieve.",
+      "stats": [
+        { "value": "93%", "label": "of international students who sat NCEA Levels 2 and 3 gained their qualification (2023)" },
+        { "value": "100%", "label": "of students who sat University Entrance obtained it (2023)" },
+        { "value": "40+", "label": "subject options in Year 12 and 13" }
+      ]
+    },
+    {
+      "type": "prose",
+      "eyebrow": "Ngā panonitanga",
+      "reo": true,
+      "heading": "What happened to NCEA Level 1?",
+      "html": "<p>Starting in 2024, significant changes are being implemented in the NCEA (National Certificate of Educational Achievement) system in New Zealand, particularly for NCEA Level 1. These changes are part of a broader initiative to improve the quality, fairness, and clarity of the qualification system.</p><p><strong>Key changes to NCEA Level 1:</strong></p><ul><li><strong>Credit requirements:</strong> NCEA Level 1 shifts from requiring 80 credits to 60 credits. This change is designed to reduce the assessment load on students and emphasise deeper learning.</li><li><strong>Literacy and numeracy co-requisite:</strong> A new 20-credit literacy and numeracy co-requisite has been introduced. In addition to the 60 credits required for Level 1, students must also achieve 20 credits specifically in literacy and numeracy. These credits are separate from the main 60-credit requirement and must be completed for students to be awarded their NCEA qualification.</li><li><strong>Phasing out old standards:</strong> The current Level 1 achievement standards expired at the end of 2023, with the new standards fully implemented in 2024.</li><li><strong>No credit carry-over:</strong> The ability to carry over 20 credits from one level to the next has been removed. Each NCEA level now requires students to achieve the full 60 credits independently.</li></ul><p>These changes are part of the ongoing effort by the New Zealand Ministry of Education to enhance the quality of education and ensure that students are better prepared for further education, training, or entering the workforce.</p><p>At Rosehill College, our <a href=\"/curriculum/junior-diploma.html\">Junior Diploma</a> gives Year 9, 10 and 11 students clear goals to strive for as they build towards NCEA.</p>"
+    },
+    {
+      "type": "cta",
+      "heading": "Ready to study with us?",
+      "text": "Discover why international students choose Rosehill College, and how to apply.",
+      "actions": [
+        { "href": "/international-students/why-study-at-rosehill.html", "label": "Why study at Rosehill?", "primary": true },
+        { "href": "/international-students/applying-nz-arrival-information.html", "label": "Applying & arrival" }
+      ]
+    }
+  ]
+}

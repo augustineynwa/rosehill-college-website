@@ -1,0 +1,55 @@
+{
+  "layout": "page",
+  "path": "international-students/students-voices.html",
+  "slug": "students-voices",
+  "title": "Students' Voices",
+  "metaDescription": "Read inspiring stories from our international students at Rosehill College — first-hand accounts of their experiences studying in New Zealand.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Ngā reo o ngā ākonga",
+      "reo": true,
+      "heading": "Hear from our global community",
+      "lede": "At Rosehill College, we believe that our strength lies in our diversity. Our international students bring a wealth of cultures, languages, and perspectives that enrich the learning environment and community as a whole."
+    },
+    {
+      "type": "media-text",
+      "heading": "Every voice matters",
+      "image": {
+        "src": "assets/img/International-Students---Student-Voices---Group-Photos-1_1.avif",
+        "srcset": "",
+        "alt": "A group of Rosehill College international students together on campus"
+      },
+      "html": "<p>The International Student Voices page is dedicated to celebrating the unique experiences and contributions of our international students. Here, you will find inspiring stories and testimonials from students who have travelled from across the globe to join the Rosehill College family.</p><p>These voices reflect the courage, challenges, and triumphs of adapting to a new environment while bringing their own traditions and insights to our vibrant campus life. Whether you are an existing student, a prospective student, or simply curious about our global community, we invite you to explore these stories — welcome to our community, where the world comes together to learn, grow, and thrive.</p>"
+    },
+    {
+      "type": "media-text",
+      "flip": true,
+      "eyebrow": "Theana Chen — International Student Leader 2024 · China",
+      "heading": "\"Being the international student leader makes me feel more confident\"",
+      "portrait": true,
+      "image": {
+        "src": "assets/img/International-Students---Student-Voices---Theana_1.avif",
+        "srcset": "",
+        "alt": "Theana Chen, Rosehill College International Student Leader 2024"
+      },
+      "html": "<p>\"Hi, I'm from China. I'm a Year 12 student and also the international student leader this year. It's been almost three years since I came to Rosehill College and I want to thank Mrs Henwood and Ms Booth for giving me the opportunity to take on this position.</p><p>Being the international student leader provides me with so much leadership experience and makes me feel more confident in communicating with others. And I really enjoy the process of working with teachers and helping other international students. The most interesting part of my role is getting to know students from diverse cultures and backgrounds, which enables me to make friends with them and get to know each other's countries.</p><p>I also want to thank all of my friends who were friendly to me on my first day of school and offered their support and encouragement along the way. Their kindness inspired me to be more enthusiastic in helping new international students adjust to the school.\"</p>"
+    },
+    {
+      "type": "embed",
+      "eyebrow": "Taiwan",
+      "heading": "A student's story",
+      "src": "https://www.youtube-nocookie.com/embed/EPNu_wPZshg?rel=0",
+      "iframeTitle": "Rosehill College international student from Taiwan shares their story"
+    },
+    {
+      "type": "cta",
+      "heading": "Add your voice to our community",
+      "text": "Discover why international students choose Rosehill College, and how to join us.",
+      "actions": [
+        { "href": "/international-students/why-study-at-rosehill.html", "label": "Why study at Rosehill?", "primary": true },
+        { "href": "/international-students/applying-nz-arrival-information.html", "label": "Applying & arrival" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "layout": "page",
+  "path": "cocurricular/arts-and-culture.html",
+  "slug": "arts-and-culture",
+  "title": "Arts and Culture",
+  "metaDescription": "Explore Rosehill College's vibrant Arts and Culture programme — visual arts, music, dance, drama, kapa haka and Pasifika groups, with opportunities to perform locally and internationally.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Ngā toi",
+      "reo": true,
+      "heading": "Arts and culture",
+      "lede": "Rosehill College offers a vibrant and diverse Arts and Culture programme, providing students with numerous opportunities to excel in various disciplines, from visual arts and music to drama and kapa haka. With a history of national achievements and strong community involvement, students are encouraged to showcase their talents both locally and internationally.",
+      "image": {
+        "src": "assets/img/Co-curricular---Arts-and-Culture---Dance_1.avif",
+        "srcset": "",
+        "alt": "Rosehill College dancers performing"
+      }
+    },
+    {
+      "type": "media-text",
+      "eyebrow": "Performing arts",
+      "heading": "Dance at Rosehill",
+      "image": {
+        "src": "assets/img/Curriculum---Subjects---Dance_1.avif",
+        "srcset": "",
+        "alt": "Rosehill College dance students in performance"
+      },
+      "html": "<p>Dance is offered as an NCEA subject at all levels, featuring opportunities for students to participate in dance shows, school productions, competitions, and cheerleading.</p><p>Dance at Rosehill College stimulates creativity and fosters self-expression, all while building confidence. In addition to our rich and dynamic curriculum, we offer a range of extra-curricular dance activities, including:</p><ul><li><strong>NZ Street Dance Megaschool Competition:</strong> students compete against other Auckland schools in this prestigious Hip Hop competition held in central Auckland.</li><li><strong>'Ascension' Contemporary Dance Group:</strong> students develop a repertoire of contemporary dances showcased at the Auckland Cheerleading Competitions.</li></ul><p>All senior dance classes, performances, and practices take place in our Performing Arts Centre, which features a purpose-built sprung dance floor.</p>"
+    },
+    {
+      "type": "prose",
+      "heading": "Drama at Rosehill",
+      "html": "<p>Rosehill College's Drama programme boasts a history of academic success and numerous awards. Our highly regarded and inspirational teachers lead annual productions, participate in festivals, theatresports, drama school, and oversee the technical aspects of performances.</p><p>Drama at Rosehill College fosters critical literacy, enabling students to shape, communicate, and interpret meaning while gaining a deeper understanding of themselves and others. Our diverse extra-curricular activities include:</p><ul><li><strong>Annual school production/musical:</strong> renowned for high-quality plays and musicals, Rosehill College offers students the chance to perform on stage and receive training as backstage crew, lighting and sound teams, props and set makers, and show band members. Held at the Hawkins Theatre in Papakura, these productions provide a semi-professional theatre experience. Our productions have won awards in the Auckland Showdown competition, including Best Props Design (Lion, Witch and the Wardrobe 2011, Fiddler on the Roof 2012) and Best Set Design (The Witches 2013).</li><li><strong>Theatresports:</strong> students master the art of improvisation and compete in the Auckland Theatresports Festival. Rosehill College won the Auckland Shield in 2012 and continues to produce strong teams annually.</li><li><strong>Sheilah Winn Shakespeare Festival:</strong> both student and teacher-directed pieces are entered into this national competition, where students perform scenes before a judging panel. Winners advance to the finals in Wellington and may be selected to visit The Globe Theatre in London.</li><li><strong>Talent Quest:</strong> organised by Rosehill College's Arts Committee, this event showcases the diverse talents of our students at the Hawkins Theatre. Performances include Hip Hop and Contemporary dancers, bands, singers, and stand-up comedians.</li></ul>"
+    },
+    {
+      "type": "media-text",
+      "flip": true,
+      "eyebrow": "Performing arts",
+      "heading": "Music at Rosehill",
+      "image": {
+        "src": "assets/img/Co-curricular---Arts-and-Culture---Music.avif",
+        "srcset": "/assets/img/Co-curricular---Arts-and-Culture---Music-p-500.avif 500w, /assets/img/Co-curricular---Arts-and-Culture---Music-p-800.avif 800w",
+        "alt": "Rosehill College music students performing"
+      },
+      "html": "<p>At Rosehill College, students can study vocals and band as subjects, and take weekly instrument lessons. Our bands, ensembles, and choirs rehearse regularly to enhance their skills, preparing for competitions and tours both in New Zealand and internationally, with past destinations including Sydney, Argentina, Singapore, and China. Our bands have advanced in Rockquest, performed at Eden Park, and our composers have had their works performed by orchestras.</p><p>We offer courses at all levels for vocalists and instrumentalists, accommodating both students who can read music and those who cannot. Students enrolled in Music courses can receive free weekly vocal or instrumental lessons from expert itinerant music teachers (subject to availability).</p><p>All students are encouraged to join co-curricular music groups once they reach the necessary level.</p>"
+    },
+    {
+      "type": "accordion",
+      "heading": "Co-curricular music groups",
+      "items": [
+        {
+          "title": "Concert Band",
+          "open": true,
+          "html": "<p>Includes flutes, oboes, clarinets, saxophones, trumpets, horns, trombones, bass guitar, drumkit, auxiliary percussion, mallet percussion, and timpani. They perform festival pieces, film and TV music, show music, and jazz, with rehearsals every Wednesday after school. Performances include the KBB Music Festival, Music Department concerts, and Prize Giving ceremonies.</p>"
+        },
+        {
+          "title": "Stage Band",
+          "html": "<p>Includes clarinets, saxophones, trumpets, trombones, piano, guitar, bass guitar, drumkit, and auxiliary percussion. They play jazz, rock, funk, and Latin, rehearsing on Mondays after school. Performances include the KBB Music Festival, Music Department concerts, assemblies, and the Arts and Cultural Awards evening.</p>"
+        },
+        {
+          "title": "Smoke-free Tangata Beats and Rockquest bands",
+          "html": "<p>Open to musicians and singers interested in participating in these competitions.</p>"
+        },
+        {
+          "title": "Choir",
+          "html": "<p>Rehearsals are held during lunchtime and all singers are welcome.</p>"
+        },
+        {
+          "title": "Show Band",
+          "html": "<p>Includes flutes, oboes, clarinets, saxophones, trumpets, horns, trombones, piano, guitar, bass guitar, drumkit, auxiliary percussion, mallet percussion, and timpani. Rehearsals occur primarily in term two, with performances at the Hawkins Theatre in term three. The band accompanies the school musical, with past shows including Jesus Christ Superstar, Westside Story, Man of La Mancha, Little Shop of Horrors, Big Al, Grease, Fiddler on the Roof, Wizard of Oz, Annie, and Addams Family.</p>"
+        },
+        {
+          "title": "Tour Band and Singers",
+          "html": "<p>Includes flutes, oboes, clarinets, saxophones, trumpets, horns, trombones, piano, guitar, bass guitar, drumkit, auxiliary percussion, mallet percussion, timpani, and singers. They rehearse on Tuesdays (and some Thursdays), performing at Music Department concerts and various venues. Past tours include performances within New Zealand (Cambridge, Tauranga, Rotorua, Wellington, and the South Island) and overseas (Sydney, Argentina, Malaysia, Singapore, and China).</p>"
+        },
+        {
+          "title": "Junior Prize Giving Band",
+          "html": "<p>Includes flutes, oboes, clarinets, saxophones, trumpets, horns, trombones, bass guitar, drumkit, auxiliary percussion, mallet percussion, and timpani. They rehearse during the school day after junior exams, with performances at the Junior Prize Giving ceremonies.</p>"
+        },
+        {
+          "title": "Various ensembles",
+          "html": "<p>Include rock groups, drum line, flute group, clarinet ensemble, saxophone quartet, and chamber groups, depending on student availability.</p>"
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Itinerant music lessons",
+      "html": "<p>We offer lessons in flute, oboe, clarinet, saxophone, trumpet, horn, trombone, piano, guitar, bass guitar, drumkit, and vocals for students enrolled in a full-year Music course. While we strive to accommodate all students, availability may be limited and some students may be placed on a waiting list.</p><p>For more information, please visit the <a href=\"https://sites.google.com/rosehillcollege.school.nz/artsfaculty/bands-and-groups\" rel=\"external\">Arts Faculty bands and groups page</a>.</p>",
+      "aside": {
+        "image": {
+          "src": "assets/img/Curriculum---Subjects---Instrumental_1.avif",
+          "srcset": "",
+          "alt": "Rosehill College student learning an instrument"
+        }
+      }
+    },
+    {
+      "type": "prose",
+      "heading": "Creative arts",
+      "html": "<p>A large number of students at Rosehill College engage in painting, printmaking, designing, and photography, participating in art exhibitions, auctions, and competitions, with several achieving national recognition.</p><p>The Art Department at Rosehill College boasts a long tradition of academic excellence. Housed in a modern, centrally-designed building, it features four purpose-built art rooms, two computer suites, a printing bay, and a photographic studio, providing excellent facilities for students.</p><p>Our department is both large and vibrant, benefiting from the expertise of specialist staff and the diversity of courses offered. Junior programmes lay a solid foundation in both creative and technical skills, while senior students can choose from five visual art disciplines: painting, photography, design, printmaking, and sculpture. Additionally, art history is available at Levels 1, 2, and 3.</p><p>Each year, many students from the department pursue tertiary qualifications or careers in the creative arts. The work of our students is celebrated through four annual exhibitions showcasing both junior and senior achievements within the school calendar.</p>"
+    },
+    {
+      "type": "media-text",
+      "eyebrow": "Culture and voice",
+      "heading": "Kapa haka, Pasifika and student voice",
+      "image": {
+        "src": "assets/img/Curriculum---Subjects---Languages_1.avif",
+        "srcset": "",
+        "alt": "Rosehill College students in class"
+      },
+      "html": "<p><strong>Kapa haka:</strong> our Māori Arts co-ordinator and tutors nurture unique talents, enabling students to perform at festivals and participate in overseas tours.</p><p><strong>Pasifika:</strong> students and families dedicate their efforts to different Pacific Island cultural groups, ensuring vibrant performances at festivals.</p><p><strong>Debating and public speaking:</strong> our teams compete in inter-secondary school debating competitions and participate in speech contests in both English and Māori.</p><p><strong>Arts Council:</strong> the Arts Council, one of Rosehill College's four main student councils, is led by a head student. The Council organises house competitions, including wearable arts, pavement art, talent quests, and 'dancing with the staff', and actively supports all performing arts activities within the College.</p>"
+    },
+    {
+      "type": "cta",
+      "heading": "Experience the arts at Rosehill",
+      "text": "From the stage to the studio, there is a place for every student in our arts and culture community.",
+      "actions": [
+        { "href": "/cocurricular/sports.html", "label": "Explore sports", "primary": true },
+        { "href": "/our-school/life-at-rosehill-college.html", "label": "Life at Rosehill College" }
+      ]
+    }
+  ]
+}

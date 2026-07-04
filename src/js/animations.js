@@ -2,8 +2,16 @@
  *  Slow reveals, parallax depth, mask wipes. No bounce.
  *  Only ever called when prefers-reduced-motion allows it. */
 export function initAnimations(gsap, ScrollTrigger) {
-  // entrances — one language everywhere
+  // entrances — one language everywhere. Elements already inside the first
+  // viewport are never opacity-hidden (they may be the LCP element); they
+  // get a subtle settle instead.
+  const fold = window.innerHeight * 0.85;
   document.querySelectorAll('[data-reveal]').forEach((el) => {
+    const rect = el.getBoundingClientRect();
+    if (rect.top < fold) {
+      gsap.from(el, { y: 18, duration: 0.9, ease: 'power3.out', clearProps: 'transform' });
+      return;
+    }
     gsap.fromTo(el,
       { opacity: 0, y: 36 },
       {

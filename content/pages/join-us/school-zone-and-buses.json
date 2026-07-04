@@ -1,0 +1,126 @@
+{
+  "layout": "page",
+  "path": "join-us/school-zone-and-buses.html",
+  "slug": "school-zone-and-buses",
+  "title": "School Zone & Buses",
+  "metaDescription": "Check if you're in the Rosehill College zone and find bus routes. Urban routes via Ritchies Murphy, rural routes via Brougham Buses.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Getting to school",
+      "heading": "School zone and buses",
+      "lede": "Check if you're in the Rosehill College zone and find bus routes — urban routes with Auckland Transport, rural routes with Brougham Buses.",
+      "image": {
+        "src": "assets/img/Join-Us---School-Buses_1.avif",
+        "srcset": "",
+        "alt": "School buses at Rosehill College"
+      },
+      "actions": [
+        { "href": "https://www.educationcounts.govt.nz/find-school", "label": "Check your school zone", "primary": true, "external": true }
+      ]
+    },
+    {
+      "type": "prose",
+      "id": "urban-routes",
+      "heading": "Urban routes",
+      "html": "<p>AT buses go to:</p><ul><li>Conifer Grove</li><li>Wattle Downs</li><li>Manurewa</li></ul><p><a href=\"https://at.govt.nz/bus-train-ferry/timetables/school-bus-timetables?school=rosehill-college\" rel=\"external\"><strong>View more details of the urban routes</strong></a> on the Auckland Transport website.</p>",
+      "aside": {
+        "image": {
+          "src": "assets/img/AT_Logo_Shore_RGB.avif",
+          "srcset": "/assets/img/AT_Logo_Shore_RGB-p-500.png 500w, /assets/img/AT_Logo_Shore_RGB-p-800.png 800w, /assets/img/AT_Logo_Shore_RGB-p-1080.png 1080w",
+          "alt": "Auckland Transport logo"
+        },
+        "html": "<p>If you have any inquiries, please contact <a href=\"tel:+6492686620\">09 268 6620</a> or email <a href=\"mailto:takanini@ritchies.co.nz\">takanini@ritchies.co.nz</a>.</p>"
+      }
+    },
+    {
+      "type": "table",
+      "caption": "AT urban school bus routes to and from Rosehill College",
+      "columns": ["Route", "Morning (to school)", "Afternoon (from school)"],
+      "rows": [
+        ["454", "Conifer Grove to Rosehill Schools", "Rosehill College to Conifer Grove"],
+        ["456", "Wattle Downs to Rosehill Schools", "Rosehill College to Manurewa via Wattle Downs"],
+        ["457", "—", "Rosehill College to Waiata Shores"],
+        ["458", "Manurewa Station to Rosehill Schools", "Rosehill College to Manurewa"]
+      ]
+    },
+    {
+      "type": "table",
+      "heading": "AT bus route number changes — Term 2 2026",
+      "lede": "From the beginning of Term 2, the Auckland Transport (AT) urban school bus routes servicing Rosehill College will have updated bus numbers. Please note the following changes:",
+      "caption": "AT bus route number changes from Term 2 2026",
+      "columns": ["Previous bus number", "New bus number"],
+      "rows": [
+        ["055", "454"],
+        ["056", "456"],
+        ["057", "457"],
+        ["058", "458"]
+      ],
+      "note": "Students who use these services should ensure they are familiar with the new bus numbers when travelling to and from school. Bus routes and timetables remain unchanged — for further information, please visit the <a href=\"https://at.govt.nz/bus-train-ferry/timetables/school-bus-timetables?school=rosehill-college\" rel=\"external\">Auckland Transport website</a> or check the AT Mobile App."
+    },
+    {
+      "type": "prose",
+      "id": "rural-routes",
+      "heading": "Rural routes",
+      "html": "<p>Brougham Buses go to the rural areas listed below.</p><p><a href=\"https://rosehill.easybus.nz/schools/rosehill-college\" rel=\"external\"><strong>View more details of the rural routes</strong></a> on the Brougham Buses website.</p>",
+      "aside": {
+        "image": {
+          "src": "assets/img/Brogham-Buses-Logo.avif",
+          "srcset": "",
+          "alt": "Brougham Buses logo"
+        },
+        "html": "<p>For any inquiries, please contact <a href=\"tel:0800228737\">0800 228 737</a> (0800 BBuses) or email <a href=\"mailto:info@broughambuses.co.nz\">info@broughambuses.co.nz</a>.</p>"
+      }
+    },
+    {
+      "type": "table",
+      "caption": "Brougham Buses rural school bus routes",
+      "columns": ["Route", "Areas served"],
+      "rows": [
+        ["RH2 — Waiau Pa, Kingseat and Te Hihi", "Waiau Pa township, Waiau Pa Road, Kingseat Road, Kingseat, Linwood Road, Hingaia Road, Karaka Lakes"],
+        ["RH3 — Clarks Beach", "Clarks Beach, along with Clarks Beach Road, McKenzie Road, Seagrove Road and Wright Road"],
+        ["RH4 — Karaka", "Irwin Road, Batty Road, Charles Road, Lewis Road, Karaka Road, Jesmond Road, Bremner Road"],
+        ["RH6 — Ararimu and Runciman", "Ararimu Road, Ramarama, Great South Road, Runciman Road, Burtt Road"],
+        ["RH7 — Drury (not available in the afternoon)", "Fitzgerald Road, Drury Hills Road, Appleby Road, Waihoehoe Road"],
+        ["RH8 — Opaheke", "Ponga Road, Opaheke Road"]
+      ]
+    },
+    {
+      "type": "media-text",
+      "id": "school-zone",
+      "heading": "School zone",
+      "image": {
+        "src": "assets/img/Join-Us---School-Zone-and-Buses---School-Zone.avif",
+        "srcset": "/assets/img/Join-Us---School-Zone-and-Buses---School-Zone-p-500.avif 500w, /assets/img/Join-Us---School-Zone-and-Buses---School-Zone-p-800.avif 800w",
+        "alt": "Map showing the Rosehill College home zone boundary"
+      },
+      "html": "<p>All students who live within the Rosehill College zone are entitled to enrol at the College. You can check if you are in zone for Rosehill College by entering your address at the following link:</p><p><a href=\"https://www.educationcounts.govt.nz/find-school\" rel=\"external\"><strong>Check for your school zone</strong></a></p><p>Proof of residence within the home zone will be required.</p>"
+    },
+    {
+      "type": "embed",
+      "heading": "Rosehill College zone map",
+      "src": "https://www.google.com/maps/d/u/0/embed?mid=1h3ZIk4JKD294Y9Erb-6R2-zVCEdTSbY&ehbc=2E312F&noprof=1",
+      "iframeTitle": "Interactive map of the Rosehill College home zone",
+      "tall": true
+    },
+    {
+      "type": "accordion",
+      "heading": "The home zone in detail",
+      "items": [
+        {
+          "title": "Full description of the home zone",
+          "html": "<p>All students who live within the home zone described below shall be entitled to enrol at the school.</p><p>Starting at the Takanini Motorway Interchange on State Highway 1 (Spartan Road addresses 1-17 only included, Manuroa Road addresses 15 and below only included, Taka Street addresses 16 and below only included, Walters Road addresses 20 and below only included, Onslow Road addresses 11 and below only included, Settlement Road odd addresses 31 and below and even addresses 22 and below only included, Boundary Road addresses 60 and below only included), travel south east along the railway line to the level crossing at Opaheke Road.</p><p>From the level crossing, travel east along Opaheke Road (Walker Road included) to Ponga Road (addresses 2011 and below included, Coal Mine Road, Kauri View Road, Judge Richardson Drive and McEntee Road included).</p><p>From 2011 Ponga Road, the zone travels south, across country, to the intersection of Ararimu Road (addresses 825 and below included, Turner Road, Fausett Road, Maxted Road and Matthew Whitford Drive included, Dunn Road excluded) and Steel Road (included).</p><p>Follow Ararimu Road west towards State Highway One (Dale Road, Hillview Road addresses 151 and below included and Maher Road included). Continue west along Ararimu Road to Great South Road.</p><p>The zone travels south down Great South Road (addresses 1746 and below included, Flay Road, Ambush Road, Helland Drive and Ingram Road included) to Kern Road. Travel south west along Kern Road to Runciman Road (Old Coach Way, Patrick Lane and Coulston Road included).</p><p>Travel north along Runciman Road (addresses 377 and above included and Norfolk King Drive excluded) to Tuhimata Road (address 479 included only). Travel across country to the intersection of Needham Road (included) and Burtt Road (addresses 155 and above included, Solitaire Lane, Cheriton Lane and McPherson Road included).</p><p>Travel north east along Burtt Road, and continue east along Pitt Road to Great South Road, then travel north west to Great South Road and then continue north west along Great South Road to State Highway 22 (SH22).</p><p>Follow SH22 (addresses 741 Karaka Road (SH22) and below included, off roads included) west to Glenbrook Road (Gellert Road included). Continue west along Glenbrook Road (addresses 891 and below included, Kingseat Road even addresses 342 and above only and odd addresses 339 and above only included, Pearson Road, Cuff Road and Ostrich Road excluded) to Blomfield Lane (included).</p><p>From Blomfield Lane, travel west to the Taihiki River, then follow the coastline north and west, including all of Waiau Pa and Clarks Beach, then continue following the coastline east towards the Manukau Harbour.</p><p>From the Manukau Harbour, follow the Papakura Stream inland across Great South Road to include the former Manukau Golf Course (Waiata Shores included) and continue inland to the railway line, and back to the starting point.</p><p>All residential addresses on included sides of boundary roads and all no exit roads off included sides of boundary roads are included in the zone unless otherwise stated.</p>"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "Unsure if you're in zone?",
+      "text": "If you are unsure if your property falls within the Rosehill College zone, please contact our Enrolment Officer at enrolments@rosehillcollege.school.nz or by phone 09 295 0661 ext 871.",
+      "actions": [
+        { "href": "mailto:enrolments@rosehillcollege.school.nz", "label": "Email the Enrolment Officer", "primary": true },
+        { "href": "/join-us/enrolment.html", "label": "Enrolment information" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "layout": "page",
+  "path": "join-us/uniform-and-stationery.html",
+  "slug": "uniform-and-stationery",
+  "title": "Uniform & Stationery",
+  "metaDescription": "Find Rosehill College uniform and stationery information for Years 9 to 13. Stationery can be purchased online, and uniforms are available at The Uniform Shoppe Papakura.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Getting ready for school",
+      "heading": "Uniform and stationery",
+      "lede": "Uniform and stationery information for Years 9 to 13. Stationery can be purchased online, and uniform is available from The Uniform Shoppe in Papakura.",
+      "actions": [
+        { "href": "https://theuniformshoppe.co.nz/location/papakura/rosehill-college/", "label": "Order uniform online", "primary": true, "external": true },
+        { "href": "#stationery", "label": "Stationery lists" }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "uniform",
+      "heading": "Rosehill College uniform",
+      "lede": "Students are not able to wear their sports hoodies or sports uniform to school — these can only be worn when participating in their codes and practices.",
+      "caption": "Rosehill College uniform requirements",
+      "columns": ["Item", "Requirement"],
+      "rows": [
+        ["Bottoms — all students", "Unisex navy long pants and/or shorts, or a navy skirt (short and long are available).<br>No tartan skirts. Please note: no black pants or shorts to be worn."],
+        ["Shirts — Years 9 to 11", "Blue shirts with embroidered sleeves and school crest. Available in a men's and a women's cut."],
+        ["Shirts — Years 12 and 13", "White shirts with embroidered sleeves and school crest. Available in a men's and a women's cut.<br>Blazer and school tie are optional, except for student leaders."],
+        ["House shirts — compulsory", "Worn for all House activities, fun days and sports events within school, and as the Physical Education uniform for practical classes."],
+        ["Shoes", "All-black lace-up shoes, black Roman sandals or black Burgan stocks."]
+      ],
+      "note": "All new students to Rosehill College will purchase the new uniform."
+    },
+    {
+      "type": "gallery",
+      "images": [
+        {
+          "src": "assets/img/Join-Us---Uniform---Juniors-Uniforms_1.avif",
+          "srcset": "",
+          "alt": "The Rosehill College junior uniform",
+          "caption": "Years 9 to 11 — blue shirts with embroidered sleeves and school crest"
+        },
+        {
+          "src": "assets/img/Join-Us---Uniform---Seniors-Uniforms.avif",
+          "srcset": "/assets/img/Join-Us---Uniform---Seniors-Uniforms-p-500.avif 500w, /assets/img/Join-Us---Uniform---Seniors-Uniforms-p-800.avif 800w, /assets/img/Join-Us---Uniform---Seniors-Uniforms-p-1080.avif 1080w, /assets/img/Join-Us---Uniform---Seniors-Uniforms-p-1600.avif 1600w",
+          "alt": "The Rosehill College senior uniform",
+          "caption": "Years 12 and 13 — white shirts, with optional blazer and tie"
+        },
+        {
+          "src": "assets/img/Join-Us---Uniform---P.E.-Uniforms_1.avif",
+          "srcset": "",
+          "alt": "Rosehill College House shirts worn for Physical Education",
+          "caption": "House shirts — compulsory, worn for House activities and Physical Education"
+        }
+      ]
+    },
+    {
+      "type": "media-text",
+      "id": "uniform-shop",
+      "heading": "Uniform shop",
+      "image": {
+        "src": "assets/img/Join-Us---Uniform---SAS.avif",
+        "srcset": "/assets/img/Join-Us---Uniform---SAS-p-500.avif 500w, /assets/img/Join-Us---Uniform---SAS-p-800.avif 800w, /assets/img/Join-Us---Uniform---SAS-p-1080.avif 1080w",
+        "alt": "The uniform shop in Papakura that stocks the Rosehill College uniform"
+      },
+      "html": "<p>Rosehill College uniform can be purchased from SAS, or ordered online from <a href=\"https://theuniformshoppe.co.nz/location/papakura/rosehill-college/\" rel=\"external\">The Uniform Shoppe</a>.</p><p><a href=\"https://maps.app.goo.gl/9oB7thXnLPLVFUk8A\" rel=\"external\">28a Wood Street, Papakura</a><br>Phone <a href=\"tel:+6492966063\">09 296 6063</a></p><p><strong>Shop hours</strong><br>Monday – Thursday: 8.30am – 5.00pm<br>Saturday: 9.00am – 1.00pm<br>Friday &amp; Sunday: closed</p>"
+    },
+    {
+      "type": "docs",
+      "id": "stationery",
+      "heading": "Stationery lists 2026",
+      "lede": "Stationery is not sold by the school. You are welcome to purchase stationery from <a href=\"https://www.myschool.co.nz/rosehillcollege\" rel=\"external\">OfficeMax</a> or any outside supplier such as Warehouse Stationery or a local high street chain.",
+      "columns": true,
+      "docs": [
+        { "href": "assets/docs/Year-9-Stationery-List.pdf", "label": "Year 9 stationery list", "meta": "PDF" },
+        { "href": "assets/docs/Year-10-Stationery-List.pdf", "label": "Year 10 stationery list", "meta": "PDF" },
+        { "href": "assets/docs/Year-11-Stationery-List.pdf", "label": "Year 11 stationery list", "meta": "PDF" },
+        { "href": "assets/docs/Year-12-Stationery-List.pdf", "label": "Year 12 stationery list", "meta": "PDF" },
+        { "href": "assets/docs/Year-13-Stationery-List.pdf", "label": "Year 13 stationery list", "meta": "PDF" }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "Ready for the first day?",
+      "text": "Start-of-school information, term dates and the student handbook are all ready for whānau.",
+      "actions": [
+        { "href": "/our-school/start-of-school-information.html", "label": "Start of school information", "primary": true },
+        { "href": "/join-us/enrolment.html", "label": "Enrolment" }
+      ]
+    }
+  ]
+}

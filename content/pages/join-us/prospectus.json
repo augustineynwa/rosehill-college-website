@@ -1,0 +1,32 @@
+{
+  "layout": "page",
+  "path": "join-us/prospectus.html",
+  "slug": "prospectus",
+  "title": "Prospectus",
+  "metaDescription": "Discover the Rosehill College Prospectus, your comprehensive guide to everything our school has to offer. Explore our academic programs, extracurricular activities, values, and facilities to see how Rosehill College can help shape your child's future.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Join us",
+      "heading": "Prospectus",
+      "lede": "Our prospectus provides an in-depth look at what makes our school a unique and vibrant learning community. Inside, you will find information about our academic programmes, co-curricular activities, school culture, and facilities. Discover how we support our students' growth and prepare them for future success."
+    },
+    {
+      "type": "embed",
+      "heading": "Read the prospectus",
+      "tall": true,
+      "src": "https://online.fliphtml5.com/snsln/jntx/",
+      "iframeTitle": "Rosehill College prospectus",
+      "note": "Trouble viewing? <a href=\"https://online.fliphtml5.com/snsln/jntx/\" rel=\"external\">Open the prospectus in a new tab</a>."
+    },
+    {
+      "type": "cta",
+      "heading": "Like what you see?",
+      "text": "Start your enrolment at Rosehill College today, or get in touch if you have any questions.",
+      "actions": [
+        { "href": "/join-us/enrolment.html", "label": "Enrol now", "primary": true },
+        { "href": "/contact-us.html", "label": "Contact us" }
+      ]
+    }
+  ]
+}

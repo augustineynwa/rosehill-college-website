@@ -1,0 +1,37 @@
+{
+  "layout": "page",
+  "path": "join-us/school-policies.html",
+  "slug": "school-policies",
+  "title": "School Policies",
+  "metaDescription": "Access Rosehill College's school policies, outlining the guidelines and expectations that ensure a safe, respectful, and supportive learning environment. Learn about our academic, behaviour, safety, and wellbeing policies that help foster a positive school culture for all students.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Ngā kaupapa here",
+      "reo": true,
+      "heading": "School policies",
+      "lede": "At Rosehill College, our school policies are designed to ensure a safe, respectful, and productive learning environment for all students. These policies provide clear guidelines on student behaviour, attendance, dress code, and academic expectations, reflecting our commitment to fostering an inclusive and supportive community."
+    },
+    {
+      "type": "prose",
+      "heading": "Access our policies",
+      "html": "<p>We believe that adherence to these policies helps create a positive atmosphere where every student can thrive academically, socially, and personally. Parents and students are encouraged to familiarise themselves with these policies to understand the standards and practices that guide our school operations.</p><p>Our school policies are hosted on LIGHTN, providing an up-to-date and comprehensive collection of guidelines that support the smooth operation of Rosehill College. Each term, the whole school community is invited to review and comment on specific policies and procedures. This feedback is captured using the review button on topics that are under review. The review topics for each term are listed under the Current Review tab.</p><p><a href=\"https://rosehillcollege.schooldocs.co.nz/\" rel=\"external\"><strong>SchoolDocs – Rosehill College</strong></a></p><p>Login details:</p><ul><li>Username: rosehillcollege</li><li>Password: rosehill#1</li></ul>",
+      "aside": {
+        "html": "<p><strong>Copyright:</strong> Except where stated, the content on this site is the copyright of LIGHTN Ltd. It may not be reproduced without written permission from LIGHTN Ltd.</p>"
+      }
+    },
+    {
+      "type": "docs",
+      "heading": "Privacy statements",
+      "docs": [
+        { "href": "https://docs.google.com/document/d/1y_ANMVdFTWgIxOrQBPkAHPxDZlHUOc--uPJAPVTDJK8/edit?usp=sharing", "label": "Privacy statement", "meta": "Google Doc" },
+        { "href": "assets/docs/Privacy-Statement-Regarding-Student-Vaccinations.pdf", "label": "Privacy statement regarding student vaccinations", "meta": "PDF" }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Rosehill College complaints procedure",
+      "html": "<p>If you wish to make a complaint about an individual teacher please contact the school office and ask for the Head of Department of the teacher.</p><p>If you have a complaint regarding a Head of Department or a Head of House, please contact the school office and ask to speak to the Senior Leader responsible for the House or Department.</p><p>A complaint regarding any of the Senior Leaders should be directed to the Principal's Assistant/Board Secretary.</p><p>If you wish to put your complaint in writing please send it to Ms Herst, Principal's Assistant, PO Box 72 546 Papakura 2244 or email <a href=\"mailto:inquiries@rosehillcollege.school.nz\">inquiries@rosehillcollege.school.nz</a> and it will be passed on to the appropriate person.</p>"
+    }
+  ]
+}

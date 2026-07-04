@@ -1,0 +1,76 @@
+{
+  "layout": "page",
+  "path": "international-students/why-study-at-rosehill.html",
+  "slug": "why-study-at-rosehill",
+  "title": "Why Study at Rosehill?",
+  "metaDescription": "Discover why studying at Rosehill College is a great choice for international students. Our welcoming environment, diverse curriculum, and strong support services make it the ideal place to grow academically, socially, and personally.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "International students",
+      "heading": "Why study at Rosehill?",
+      "lede": "Rosehill College, Auckland, New Zealand has shaped and influenced the lives of young men and women since 1970 — a proud co-educational college committed to providing a high-quality educational environment that will ensure every student is successful and strives to gain academic excellence.",
+      "image": {
+        "src": "assets/img/International---Why-Study-at-Rosehill---Header_1.avif",
+        "srcset": "",
+        "alt": "International students at Rosehill College"
+      }
+    },
+    {
+      "type": "prose",
+      "heading": "The Rosehill experience",
+      "html": "<p>Rosehill College is based on traditional values of Respect, Responsibility and Caring with innovative approaches to teaching and learning, supported by modern information communication technology. It is our intention to produce graduates that are confident, self-reliant, and have self-respect and respect for others.</p><p>International students come from all over the world and diversity is a strong focus at Rosehill College. Both domestic and international students enjoy learning about different cultures and believe that this multicultural focus prepares them well for life in the global community. We celebrate our coeducational and bicultural identity and the opportunities presented to establish healthy friendships with people from a diverse range of backgrounds which is Auckland today.</p>"
+    },
+    {
+      "type": "media-text",
+      "heading": "Warm and welcoming atmosphere",
+      "image": {
+        "src": "assets/img/International---Why-Study-at-Rosehill---Warm.avif",
+        "srcset": "/assets/img/International---Why-Study-at-Rosehill---Warm-p-500.avif 500w, /assets/img/International---Why-Study-at-Rosehill---Warm-p-800.avif 800w, /assets/img/International---Why-Study-at-Rosehill---Warm-p-1080.avif 1080w, /assets/img/International---Why-Study-at-Rosehill---Warm-p-1600.avif 1600w",
+        "alt": "Students enjoying the friendly community at Rosehill College"
+      },
+      "html": "<p>Known for its friendly community, Rosehill College provides a welcoming environment that eases the transition for international students, helping them feel at home away from home.</p><p>Our reputable education system aligns with international standards, ensuring a seamless transition for international students and preparing them for global academic success.</p>"
+    },
+    {
+      "type": "media-text",
+      "flip": true,
+      "heading": "Cultural familiarity",
+      "image": {
+        "src": "assets/img/International---Why-Study-at-Rosehill---Cultural.avif",
+        "srcset": "/assets/img/International---Why-Study-at-Rosehill---Cultural-p-500.avif 500w, /assets/img/International---Why-Study-at-Rosehill---Cultural-p-800.avif 800w, /assets/img/International---Why-Study-at-Rosehill---Cultural-p-1080.avif 1080w, /assets/img/International---Why-Study-at-Rosehill---Cultural-p-1600.avif 1600w, /assets/img/International---Why-Study-at-Rosehill---Cultural-p-2000.avif 2000w",
+        "alt": "Rosehill College students celebrating cultural events together"
+      },
+      "html": "<p>With a growing local international student community, Rosehill College offers a sense of cultural familiarity through events, celebrations, and activities that allow international students to stay connected to their roots.</p><p>Tailored English language support programmes assist international students in improving their language skills, boosting their confidence in communication and academic performance.</p>"
+    },
+    {
+      "type": "media-text",
+      "heading": "Safe and secure environment",
+      "image": {
+        "src": "assets/img/International---Why-Study-at-Rosehill---Safe_1.avif",
+        "srcset": "",
+        "alt": "Rosehill College students in the safe school environment"
+      },
+      "html": "<p>Rosehill College's location in a safe neighbourhood provides peace of mind to international students and their families, ensuring a secure setting for focused learning with excellent homestay families.</p><p>We carefully select host families who are known for their warmth and hospitality, ensuring a nurturing environment for our international students.</p>"
+    },
+    {
+      "type": "media-text",
+      "flip": true,
+      "heading": "Counselling and guidance",
+      "image": {
+        "src": "assets/img/International---Why-Study-at-Rosehill---Counselling.avif",
+        "srcset": "/assets/img/International---Why-Study-at-Rosehill---Counselling-p-500.avif 500w, /assets/img/International---Why-Study-at-Rosehill---Counselling-p-800.avif 800w, /assets/img/International---Why-Study-at-Rosehill---Counselling-p-1080.avif 1080w, /assets/img/International---Why-Study-at-Rosehill---Counselling-p-1600.avif 1600w",
+        "alt": "A Rosehill College student receiving guidance and support"
+      },
+      "html": "<p>Dedicated counselling services offer guidance on academic, personal, and cultural matters, ensuring international students receive the support they need to excel and thrive.</p><p>Rosehill College's strong connections with the New Zealand universities and local international communities provide networking opportunities for current students, facilitating valuable connections for future career prospects.</p>"
+    },
+    {
+      "type": "cta",
+      "heading": "Ready to begin your journey?",
+      "text": "Find out how to apply, what to expect when you arrive in New Zealand, and everything you need to know about living and studying here.",
+      "actions": [
+        { "href": "/international-students/applying-nz-arrival-information.html", "label": "Applying and arrival information", "primary": true },
+        { "href": "/international-students/fees-policies.html", "label": "Fees and policies" }
+      ]
+    }
+  ]
+}

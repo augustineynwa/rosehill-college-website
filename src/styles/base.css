@@ -161,5 +161,5 @@ hr { border: 0; border-top: 1px solid var(--line); margin-block: var(--sp-6); }
   }
 }
 
-/* JS reveal hooks: start hidden ONLY when motion is allowed and JS present */
-html.js.motion-ok [data-reveal] { opacity: 0; }
+/* JS reveal hooks are hidden by GSAP itself at init — never in CSS, so
+   content paints immediately even on slow connections (protects LCP). */

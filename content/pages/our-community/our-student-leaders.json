@@ -1,0 +1,103 @@
+{
+  "layout": "page",
+  "path": "our-community/our-student-leaders.html",
+  "slug": "our-student-leaders",
+  "title": "Our Student Leaders",
+  "metaDescription": "Discover the inspiring student leaders at Rosehill College. Our student leaders play a vital role in shaping a positive school culture, encouraging school spirit, and representing the student body. Meet the dedicated young leaders who are committed to making a difference in our school community.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Ngā kaiārahi ākonga",
+      "reo": true,
+      "heading": "Our student leaders 2026",
+      "lede": "At Rosehill College, our student leaders embody the values and spirit of our school community. Committed to excellence, integrity, and service, these exceptional students take on leadership roles to inspire and guide their peers. Each leader brings unique strengths and perspectives, contributing to the vibrant and inclusive atmosphere of our school.",
+      "image": {
+        "src": "assets/img/Our-Community---Our-Student-Leaders---Btm-Banner.avif",
+        "srcset": "/assets/img/Our-Community---Our-Student-Leaders---Btm-Banner-p-500.avif 500w, /assets/img/Our-Community---Our-Student-Leaders---Btm-Banner-p-800.avif 800w, /assets/img/Our-Community---Our-Student-Leaders---Btm-Banner-p-1080.avif 1080w, /assets/img/Our-Community---Our-Student-Leaders---Btm-Banner-p-1600.avif 1600w, /assets/img/Our-Community---Our-Student-Leaders---Btm-Banner-p-2000.avif 2000w, /assets/img/Our-Community---Our-Student-Leaders---Btm-Banner-p-2600.avif 2600w, /assets/img/Our-Community---Our-Student-Leaders---Btm-Banner-p-3200.avif 3200w",
+        "alt": "Rosehill College students"
+      }
+    },
+    {
+      "type": "prose",
+      "html": "<p>On this page, you can learn more about our student leaders, their responsibilities, and their personal quotes that reflect their individual philosophies and aspirations. These quotes serve as a source of inspiration and motivation for all members of our school community.</p><p>Discover the voices of our student leaders and see how they are making a positive impact at Rosehill College.</p>",
+      "aside": {
+        "image": {
+          "src": "assets/img/2026-head-students-11.avif",
+          "srcset": "/assets/img/2026-head-students-11-p-500.avif 500w, /assets/img/2026-head-students-11-p-800.avif 800w, /assets/img/2026-head-students-11-p-1080.avif 1080w, /assets/img/2026-head-students-11-p-1600.avif 1600w, /assets/img/2026-head-students-11-p-2000.avif 2000w",
+          "alt": "The 2026 student leaders of Rosehill College together"
+        }
+      }
+    },
+    {
+      "type": "media-text",
+      "eyebrow": "Head Student",
+      "heading": "Arnav Chandra",
+      "portrait": true,
+      "image": {
+        "src": "assets/img/2026-head-students-02.avif",
+        "srcset": "/assets/img/2026-head-students-02-p-500.avif 500w, /assets/img/2026-head-students-02-p-800.avif 800w, /assets/img/2026-head-students-02-p-1080.avif 1080w",
+        "alt": "Arnav Chandra, 2026 Head Student"
+      },
+      "html": "<p>Rosehill College is more than just a place of learning. It is a kura where potential is recognised, character is shaped, and every student is encouraged to become the best version of themselves.</p><p>Here, we are given opportunities not only to succeed academically, but to grow as people. We are challenged to step forward, take responsibility, and lead with integrity. At Rosehill, leadership is not about titles. It is about action, respect, and the choices we make every day.</p><p>As Head Student, I see a school filled with talent, resilience, and ambition. Our strength lies in our diversity, our willingness to support one another, and our courage to aim high even when the path is challenging. With the guidance of our teachers and the support of our peers, we are never alone in our journey. A quote that inspires me is this:</p><p><strong>“Do not wait for opportunity. Create it.”</strong></p><p>Together, let us create a culture of excellence, kindness, and courage. If we believe in ourselves and each other, there is nothing we cannot achieve.</p>"
+    },
+    {
+      "type": "media-text",
+      "flip": true,
+      "eyebrow": "Head Student",
+      "heading": "Addison Hall",
+      "portrait": true,
+      "image": {
+        "src": "assets/img/2026-head-students-06.avif",
+        "srcset": "/assets/img/2026-head-students-06-p-500.avif 500w, /assets/img/2026-head-students-06-p-800.avif 800w, /assets/img/2026-head-students-06-p-1080.avif 1080w",
+        "alt": "Addison Hall, 2026 Head Student"
+      },
+      "html": "<p>Rosehill College has taught me that growth doesn’t just happen by accident, it happens when you choose to step forward. Our kura has taught me far more than how to achieve; it’s taught me how to keep going. I’ve learned that progress matters more than perfection, because no one begins perfect. Leadership to me, begins with putting in that effort, slowly making that progress, to inspire others to take their first step.</p><p>In particular, our school value of Hihiritanga has stuck with me throughout my time here. The core belief that putting in the effort even when it’s hard to, maintaining that resilience to achieve our goals is something I hold with me going into 2026. Through the vast opportunities, challenges and people around me, I have grown not only as a student and a leader, but as a person. As Head Student, I want to give back to the school that has shaped who I am. I believe leadership is about building momentum, inspiring others to step up, take chances and work towards the goals that matter to them.</p><p>Rosehill College doesn’t just prepare us for the future, it shapes who we become along the way.</p><p><strong>“Ko te pae tawhiti whāia kia tata, ko te pae tata whakamaua kia tīna.”</strong></p>"
+    },
+    {
+      "type": "media-text",
+      "eyebrow": "Head Student",
+      "heading": "Arpit Behal",
+      "portrait": true,
+      "image": {
+        "src": "assets/img/2026-head-students-04.avif",
+        "srcset": "/assets/img/2026-head-students-04-p-500.avif 500w, /assets/img/2026-head-students-04-p-800.avif 800w, /assets/img/2026-head-students-04-p-1080.avif 1080w",
+        "alt": "Arpit Behal, 2026 Head Student"
+      },
+      "html": "<p>Here, at Rosehill College, we prioritise culture and our ‘way’ of doing things; framed by the four core values that consist of Manaakitanga, Hihiritanga, Rangatiratanga and Whanaungatanga.</p><p>Alongside this rich culture, at our kura, ākonga are exposed to a diverse range of subjects, clubs and experiences. Within these experiences, students are given encouragement to tackle each and every hurdle with Hihiritanga. It is instilled in them to always strive for excellence (Rangatiratanga) and to treat every individual with respect; constantly exemplifying Whanaungatanga. All, while demonstrating Manaakitanga through the connections they make.</p><p>Stepping into my fifth year of high school, I realise the growth that I've had as an individual. The experiences I've had here, the people I have met and the opportunities I have taken, have shaped my values, beliefs and my work ethic. It is this growth that makes me proud to represent Rosehill College as a Kaiārahitanga Ākonga.</p><p>I take on the role of Head Student with humility, knowing that I will be leading through my service. Service to the school, service to the community – and most importantly, service to my peers and that is because: Leadership doesn’t mean to stand out above and over people, but it means to lift them higher than you; because if no one is benefiting from your leadership, then it isn’t leadership – it is simply being “in-charge”.</p><p><strong>“He aha te mea nui o te ao? He tangata! He tangata! He tangata!”</strong></p>"
+    },
+    {
+      "type": "media-text",
+      "flip": true,
+      "eyebrow": "Head Student",
+      "heading": "Hollie Ireland",
+      "portrait": true,
+      "image": {
+        "src": "assets/img/2026-head-students-08.avif",
+        "srcset": "/assets/img/2026-head-students-08-p-500.avif 500w, /assets/img/2026-head-students-08-p-800.avif 800w, /assets/img/2026-head-students-08-p-1080.avif 1080w",
+        "alt": "Hollie Ireland, 2026 Head Student"
+      },
+      "html": "<p>Being Head Student at Rosehill College is both an honour and something I am deeply grateful for. Having grown through the opportunities and experiences this school has provided, it is incredibly special and important to now give back and represent a community that has shaped who I am today.</p><p>At Rosehill College, our values are not just words, they guide the way we learn, lead us to success, and support one another. We are encouraged to strive for excellence in all that we do, to show respect in our actions and relationships, and to demonstrate integrity even when no one is watching. These values create an environment where every student feels supported to step outside their comfort zone and unlock their full potential.</p><p>Being a Head Student isn’t just about a badge and a blazer, it’s about showing up for you, supporting each other, and helping make Rosehill a place where everyone feels they belong.</p><p><strong>“Ehara taku toa i te toa takitahi, engari he toa takitini.”</strong></p>"
+    },
+    {
+      "type": "media-text",
+      "eyebrow": "Student Representative on the Board",
+      "heading": "Catherine Vea",
+      "portrait": true,
+      "image": {
+        "src": "assets/img/2026-head-students-10.avif",
+        "srcset": "/assets/img/2026-head-students-10-p-500.avif 500w, /assets/img/2026-head-students-10-p-800.avif 800w, /assets/img/2026-head-students-10-p-1080.avif 1080w",
+        "alt": "Catherine Vea, 2026 Student Representative on the Board"
+      },
+      "html": "<p>Rosehill College is more than just a school. It is our kura, a place shaped by the voices, ideas, and aspirations of its ākonga. Every day we walk through these gates carrying different goals and challenges, yet we are united by the same sense of whanaungatanga and belonging.</p><p>As Student Representative, my role is not to stand above others, but to stand alongside them. To me, representation means listening with intention, speaking with honesty, and ensuring that student voice is heard in the spaces where decisions are made. Every ākonga deserves to feel valued, respected, and empowered within our kura.</p><p>At Rosehill, we are encouraged to show hihiritanga by striving for excellence, and manaakitanga by uplifting those around us. Our strength lies not only in achievement, but in connection, diversity, and the courage to share our whakaaro.</p><p>I step into this role with gratitude and a strong sense of responsibility. I am committed to advocating for our students, strengthening communication, and helping build a culture where every voice matters. Together, we can continue shaping a kura that truly reflects us all.</p>"
+    },
+    {
+      "type": "cta",
+      "heading": "Student voice at the board table",
+      "text": "Our Student Representative sits on the Rosehill College Board, making sure ākonga are heard where decisions are made.",
+      "actions": [
+        { "href": "/our-community/our-board.html", "label": "Our board", "primary": true },
+        { "href": "/our-school/life-at-rosehill-college.html", "label": "Life at Rosehill College" }
+      ]
+    }
+  ]
+}

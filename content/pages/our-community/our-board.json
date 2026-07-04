@@ -1,0 +1,99 @@
+{
+  "layout": "page",
+  "path": "our-community/our-board.html",
+  "slug": "our-board",
+  "title": "Our Board",
+  "metaDescription": "Learn about the Rosehill College Board of Trustees, a dedicated group of community and school representatives who guide our vision and ensure a high-quality educational experience. Meet the board members who oversee governance, support our goals, and uphold the values that make Rosehill College exceptional.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Te poari",
+      "reo": true,
+      "heading": "The Rosehill College Board",
+      "lede": "Established under the Education Act 2020, the Board is the controlling authority of the school.",
+      "image": {
+        "src": "assets/img/Our-Community---Our-Board---Meeting-Dates.avif",
+        "srcset": "/assets/img/Our-Community---Our-Board---Meeting-Dates-p-500.avif 500w, /assets/img/Our-Community---Our-Board---Meeting-Dates-p-800.avif 800w, /assets/img/Our-Community---Our-Board---Meeting-Dates-p-1080.avif 1080w, /assets/img/Our-Community---Our-Board---Meeting-Dates-p-1600.avif 1600w, /assets/img/Our-Community---Our-Board---Meeting-Dates-p-2000.avif 2000w, /assets/img/Our-Community---Our-Board---Meeting-Dates-p-2600.avif 2600w, /assets/img/Our-Community---Our-Board---Meeting-Dates-p-3200.avif 3200w",
+        "alt": "Rosehill College"
+      }
+    },
+    {
+      "type": "prose",
+      "heading": "How the Board is made up",
+      "html": "<p>The Board has:</p><ul><li>5 members elected by parents of the College pupils.</li><li>1 member elected by staff.</li><li>1 member elected by students.</li><li>Up to 4 members who may be co-opted onto the Board.</li><li>The Board elects a Presiding Member and Deputy Presiding Member from amongst its own members.</li></ul><p>The constitution of the Board provides for:</p><ul><li>Control and management of the school.</li><li>Appointment and suspension of teachers and other staff.</li><li>Maintenance of grounds, buildings, services and equipment.</li><li>Expenditure of the finance allocated to the school by way of bulk funding.</li><li>Suspension and exclusion of pupils.</li></ul><p>Any correspondence can be emailed to <a href=\"mailto:board@rosehillcollege.school.nz\">board@rosehillcollege.school.nz</a>.</p>"
+    },
+    {
+      "type": "docs",
+      "heading": "Annual statements and reports",
+      "docs": [
+        { "href": "assets/docs/Rosehill-College-Annual-Plan-2025.pdf", "label": "Rosehill College Annual Plan 2025", "meta": "PDF" },
+        { "href": "assets/docs/Rosehill-College-Strategic-Plan.pdf", "label": "Rosehill College Strategic Plan", "meta": "PDF" },
+        { "href": "https://drive.google.com/file/d/1WhCrY-HHtP9Obw7iAx3ULpQD9620HaQz/view", "label": "Rosehill College Annual Financial Statement 2024", "meta": "Google Drive" },
+        { "href": "https://drive.google.com/file/d/1MozTLziklEljPbAClTJNuqcDRgDIhVsq/view?usp=sharing", "label": "Redacted Rosehill College Annual Report 2022", "meta": "Google Drive" },
+        { "href": "https://ero.govt.nz/institution/102/rosehill-college", "label": "ERO Report", "meta": "ero.govt.nz" }
+      ]
+    },
+    {
+      "type": "table",
+      "heading": "Meeting dates",
+      "caption": "2026 Board meeting dates",
+      "columns": ["Month", "Date"],
+      "rows": [
+        ["January", "Wednesday 28 January"],
+        ["February", "Wednesday 25 February"],
+        ["March", "Wednesday 25 March"],
+        ["April", "Wednesday 29 April — Board and HOF Review"],
+        ["May", "Wednesday 27 May"],
+        ["June", "Wednesday 24 June"],
+        ["July", "Wednesday 29 July"],
+        ["August", "Wednesday 26 August"],
+        ["September", "Wednesday 23 September"],
+        ["October", "Wednesday 28 October"],
+        ["November", "Wednesday 25 November"],
+        ["December", "Tuesday 8 December — Board PD (TBC)"]
+      ]
+    },
+    {
+      "type": "people",
+      "compact": true,
+      "groups": [
+        {
+          "title": "Board members",
+          "people": [
+            { "name": "Mrs Davida Suasua", "role": "Principal" },
+            { "name": "Mrs Claire Knapp", "role": "Presiding Member" },
+            { "name": "Mrs Desna Subritzky", "role": "Deputy Presiding Member" },
+            { "name": "Ms Janet Herst", "role": "Minute Secretary" },
+            { "name": "Ms Janine Sorensen", "role": "Staff Representative" },
+            { "name": "Mr Jarrod Mackenzie" },
+            { "name": "Ms Gabrielle Wichman-Heremain" },
+            { "name": "Miss Catherine Vea", "role": "Student Representative" },
+            { "name": "Mr DJ Govender" },
+            { "name": "Mrs Anna Scanlan" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Board meeting minutes",
+      "html": "<p>The Rosehill College Board is committed to transparency and keeping our school community informed. Minutes from Board meetings are made available for public viewing once they have been confirmed at the subsequent meeting.</p><p>Please note that any confidential or sensitive matters discussed in <strong>public-excluded sessions</strong> will not be published.</p><ul><li><a href=\"https://drive.google.com/file/d/1aZgOdDcrHP0QDJ1MNN5fLZNnVc2PDMac/view?usp=drive_link\" rel=\"external\">28 January 2026</a></li><li><a href=\"https://drive.google.com/file/d/164SkEwxh004ierNjI3mx7u9a_APvEH_6/view?usp=sharing\" rel=\"external\">25 February 2026</a></li><li><a href=\"https://drive.google.com/file/d/14D3xYHkn22w3I9sMp0I5cEiVLby_jiZN/view?usp=sharing\" rel=\"external\">25 March 2026</a></li></ul>",
+      "aside": {
+        "image": {
+          "src": "assets/img/Our-Community---Our-Board---Board-Members_1.avif",
+          "srcset": "",
+          "alt": "Rosehill College"
+        }
+      }
+    },
+    {
+      "type": "cta",
+      "heading": "Contact the Board",
+      "text": "Any correspondence can be emailed to the Board at board@rosehillcollege.school.nz.",
+      "actions": [
+        { "href": "mailto:board@rosehillcollege.school.nz", "label": "Email the Board", "primary": true },
+        { "href": "/our-community/our-student-leaders.html", "label": "Our student leaders" }
+      ]
+    }
+  ]
+}

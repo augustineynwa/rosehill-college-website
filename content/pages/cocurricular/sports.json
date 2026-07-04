@@ -1,0 +1,168 @@
+{
+  "layout": "page",
+  "path": "cocurricular/sports.html",
+  "slug": "sports",
+  "title": "Sports",
+  "metaDescription": "Discover sports at Rosehill College. Our sports programme encourages teamwork, resilience and school spirit through a wide range of athletic opportunities — find out about our sport codes and how to get involved.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Ngā hākinakina",
+      "reo": true,
+      "heading": "Sports",
+      "lede": "Our college is committed to fostering a culture of sportsmanship and integrity, encouraging active participation in a diverse range of sports. We believe in the importance of hard work and honesty, both on and off the field.",
+      "image": {
+        "src": "assets/img/Co-curricular---Sports.avif",
+        "srcset": "/assets/img/Co-curricular---Sports-p-500.avif 500w, /assets/img/Co-curricular---Sports-p-800.avif 800w, /assets/img/Co-curricular---Sports-p-1080.avif 1080w, /assets/img/Co-curricular---Sports-p-1600.avif 1600w",
+        "alt": "Rosehill College students competing in sport"
+      }
+    },
+    {
+      "type": "prose",
+      "heading": "Sport at Rosehill College",
+      "html": "<p>Our dedicated staff members are passionate about nurturing the holistic development of our students, recognising that sports play a crucial role in creating enriching experiences. Here, hard work and honesty are not just values we uphold — they are achievements we celebrate.</p><p>Our sport codes include badminton, basketball, football, hockey, netball, rugby, softball, volleyball, touch, tag, athletics and weightlifting.</p><p>For more information regarding Rosehill College sports, please visit our external <a href=\"https://www.sporty.co.nz/rosehillcol/home-1\" rel=\"external\">Rosehill College Sports Page</a>. Here you will find details on fixtures, results, team rosters, training schedules, and other relevant sports-related matters.</p>",
+      "aside": {
+        "html": "<p><strong>Follow Rosehill College Sport</strong></p><p><a href=\"https://www.facebook.com/RosehillCollegeSport\" rel=\"external\">Facebook — Rosehill College Sport</a><br><a href=\"https://www.instagram.com/rosehillcollegesport/\" rel=\"external\">Instagram — @rosehillcollegesport</a></p>"
+      }
+    },
+    {
+      "type": "list",
+      "heading": "Sports contacts",
+      "items": [
+        { "term": "Sports Director", "text": "Saua Leaupepetele — <a href=\"mailto:s.leaupepetele@rosehillcollege.school.nz\">s.leaupepetele@rosehillcollege.school.nz</a>" },
+        { "term": "Sports Coordinator", "text": "<a href=\"mailto:sports@rosehillcollege.school.nz\">sports@rosehillcollege.school.nz</a>" },
+        { "term": "Sports Office", "text": "Phone 09 295 0661 ext 935" }
+      ]
+    },
+    {
+      "type": "cards",
+      "heading": "Draws and results",
+      "lede": "Follow fixtures and results for our teams throughout the season.",
+      "cards": [
+        {
+          "title": "College Sport draws and results",
+          "text": "Draws and results for College Sport competitions.",
+          "href": "https://www.collegesport.co.nz/draws-results",
+          "external": true,
+          "cta": "Visit site"
+        },
+        {
+          "title": "Rugby fixtures and results",
+          "text": "School rugby fixtures and results from Auckland Rugby.",
+          "href": "https://www.aucklandrugby.co.nz/fixtures-and-results/school-fixtures-results",
+          "external": true,
+          "cta": "Visit site"
+        },
+        {
+          "title": "Rosehill College Sports Page",
+          "text": "Fixtures, results, team rosters, training schedules and more on Sporty.",
+          "href": "https://www.sporty.co.nz/rosehillcol/home-1",
+          "external": true,
+          "cta": "Visit site"
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Fees and registration",
+      "html": "<p>A fee is charged for all codes, covering essentials such as registration/entry and affiliation fees. There may be some additional costs throughout the year. We kindly ask that these fees are paid, or an automatic payment is arranged, before the first game to ensure everything runs smoothly.</p><p><strong>Payment options</strong></p><ol><li>Internet banking: ASB 12-3031-0837472-00 — Reference: student name; Particulars: ID number.</li><li>Pay by cash, eftpos, or cheque (payable to Rosehill College) at the Cashier Office. Their hours are 8am – 3pm each day.</li></ol>"
+    },
+    {
+      "type": "gallery",
+      "heading": "Sport codes",
+      "images": [
+        {
+          "src": "assets/img/Sports---Co-curricular---Basketball_1.avif",
+          "srcset": "",
+          "alt": "Rosehill College students playing basketball",
+          "caption": "Basketball"
+        },
+        {
+          "src": "assets/img/Co-curricular---Sports---Football_1.avif",
+          "srcset": "",
+          "alt": "Rosehill College students playing football",
+          "caption": "Football"
+        },
+        {
+          "src": "assets/img/Co-curricular---Sports---Netball_1.avif",
+          "srcset": "",
+          "alt": "Rosehill College students playing netball",
+          "caption": "Netball"
+        },
+        {
+          "src": "assets/img/Co-curricular---Sports---Rugby_1.avif",
+          "srcset": "",
+          "alt": "Rosehill College students playing rugby",
+          "caption": "Rugby"
+        },
+        {
+          "src": "assets/img/Co-curricular---Sports---Softball.avif",
+          "srcset": "/assets/img/Co-curricular---Sports---Softball-p-500.avif 500w, /assets/img/Co-curricular---Sports---Softball-p-800.avif 800w, /assets/img/Co-curricular---Sports---Softball-p-1080.avif 1080w",
+          "alt": "Rosehill College students playing softball",
+          "caption": "Softball"
+        },
+        {
+          "src": "assets/img/Co-curricular---Sports---Volleyball.avif",
+          "srcset": "/assets/img/Co-curricular---Sports---Volleyball-p-500.avif 500w, /assets/img/Co-curricular---Sports---Volleyball-p-800.avif 800w, /assets/img/Co-curricular---Sports---Volleyball-p-1080.avif 1080w, /assets/img/Co-curricular---Sports---Volleyball-p-1600.avif 1600w",
+          "alt": "Rosehill College students playing volleyball",
+          "caption": "Volleyball"
+        },
+        {
+          "src": "assets/img/Co-curricular---Sports---Touch.avif",
+          "srcset": "/assets/img/Co-curricular---Sports---Touch-p-500.avif 500w, /assets/img/Co-curricular---Sports---Touch-p-800.avif 800w, /assets/img/Co-curricular---Sports---Touch-p-1080.avif 1080w",
+          "alt": "Rosehill College students playing touch",
+          "caption": "Touch"
+        },
+        {
+          "src": "assets/img/Co-curricular---Sports---Athletics_1.avif",
+          "srcset": "",
+          "alt": "Rosehill College students competing in athletics",
+          "caption": "Athletics"
+        }
+      ]
+    },
+    {
+      "type": "media-text",
+      "eyebrow": "Attendance and attitude",
+      "heading": "Student Athlete Policy",
+      "image": {
+        "src": "assets/img/Co-curricular---Sports---Student-Athlete-Policy--1_1.avif",
+        "srcset": "",
+        "alt": "Rosehill College student athletes"
+      },
+      "html": "<p>A condition for participating in co-curricular activities for the college is that the student will have the correct attitude towards their schooling and at the same time will have acceptable attendance. If either of these is not the case, students will be withdrawn from their activity as set out below.</p>"
+    },
+    {
+      "type": "accordion",
+      "heading": "Expectations of our athletes",
+      "items": [
+        {
+          "title": "Code of conduct",
+          "open": true,
+          "html": "<p>All students participating in Sport Department activities must:</p><ul><li>Be reliable by attending all meetings, practices and games.</li><li>Wear the correct uniform. Where the uniform is borrowed from the sports office it is to be maintained in a neat and tidy condition and returned at the end of the playing season.</li><li>Abide by the Student Athlete Policy of Rosehill College — includes attendance, class performance and behaviour.</li></ul>"
+        },
+        {
+          "title": "Fair play rules",
+          "html": "<ul><li>Treat opponents with respect.</li><li>Play hard but within the rules.</li><li>Exercise self control at all times (towards opponents, officials and spectators).</li><li>Respect and accept the decisions of officials without gesture or argument.</li><li>Always do your best but accept victory or defeat with dignity.</li><li>Show that it is a privilege to represent your school.</li><li>Recognise and applaud honestly the efforts of team mates or opponents regardless of gender, ethnic origin or special needs.</li><li>Always thank your opponents and officials after the game or fixture.</li></ul>"
+        },
+        {
+          "title": "Attendance",
+          "html": "<p>If there is a serious concern about a student's attendance they will be withdrawn from the activity. This would happen after there have been discussions with parents by the HOH about attendance concerns and the poor attendance continues. This includes period-by-period absences or non-attendance at school.</p><ul><li>Step 1: withdrawn from the activity for 1 week.</li><li>Step 2: after further interventions, if the attendance continues to be an issue, the student is withdrawn from the activity for 2 weeks.</li><li>Step 3: after further interventions, if the attendance continues to be an issue, the student is withdrawn from the activity for the rest of the season.</li></ul>"
+        },
+        {
+          "title": "Discipline issues and poor attitudes",
+          "html": "<p>Students who have been stood down:</p><ul><li>1st stand down — the student is withdrawn from the activity while on stand down.</li><li>2nd or 3rd stand down — the student will be withdrawn from the activity while on stand-down and while she/he is on red report.</li><li>If the student is referred to SMT by HOH for behavioural issues, the student will be withdrawn from the activity while she/he is on red report.</li></ul><p><strong>Suspension:</strong> if a student returns to school, the BOT imposes conditions on the student. Individual circumstances may be taken into consideration.</p>"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "Get involved in sport at Rosehill",
+      "text": "Talk to the sports office about registering for a code, or visit our external sports page for fixtures, results and training schedules.",
+      "actions": [
+        { "href": "mailto:sports@rosehillcollege.school.nz", "label": "Email the sports office", "primary": true },
+        { "href": "https://www.sporty.co.nz/rosehillcol/home-1", "label": "Rosehill College Sports Page" }
+      ]
+    }
+  ]
+}
