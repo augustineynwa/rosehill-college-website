@@ -7,51 +7,35 @@
 export async function initHome(gsap, ScrollTrigger, lenis) {
   // dev-only hook for scroll verification (stripped from production builds)
   if (import.meta.env?.DEV) window.__rhc = { gsap, ScrollTrigger, lenis };
-  // ------------------------------------------------ hero: crest + motto
+  // ------------------------------------------------ hero: crest (official SVG) + motto
   const heroSection = document.querySelector('[data-home-hero]');
-  const canvas = document.querySelector('[data-crest-canvas]');
-  const fallbackImg = document.querySelector('[data-crest-fallback]');
+  const crestEl = document.querySelector('[data-crest-fallback]');
   const headerCrest = document.querySelector('[data-header-crest]');
-  let crestApi = null;
+  const isDesktop = window.matchMedia('(min-width: 48rem)').matches;
 
-  // 3D crest is a desktop experience — phones keep the official SVG crest,
-  // saving the three.js download and main-thread cost on mobile networks.
-  const wantsCrest3D = window.matchMedia('(min-width: 48rem)').matches
-    && !navigator.connection?.saveData;
-  if (canvas && wantsCrest3D && window.WebGLRenderingContext) {
-    try {
-      const { createCrest } = await import('./crest.js');
-      crestApi = await createCrest(canvas);
-      fallbackImg?.classList.add('is-replaced');
-      // pause rendering when the hero leaves the viewport
-      new IntersectionObserver(
-        ([entry]) => crestApi.setRunning(entry.isIntersecting),
-        { rootMargin: '80px' },
-      ).observe(heroSection);
-    } catch (e) {
-      console.warn('Crest 3D unavailable, static crest shown.', e);
+  // crest: soft entrance, then a subtle pointer-driven tilt on desktop.
+  // The flat crest sits on a perspective plane (set in CSS) so the tilt
+  // reads as a gentle 3D lean without the weight of a WebGL model.
+  if (crestEl) {
+    gsap.fromTo(crestEl,
+      { opacity: 0, scale: 0.9, y: 22 },
+      { opacity: 1, scale: 1, y: 0, duration: 1.4, ease: 'power3.out', delay: 0.1 });
+    if (isDesktop) {
+      const rotY = gsap.quickTo(crestEl, 'rotationY', { duration: 0.7, ease: 'power2.out' });
+      const rotX = gsap.quickTo(crestEl, 'rotationX', { duration: 0.7, ease: 'power2.out' });
+      window.addEventListener('pointermove', (e) => {
+        rotY((e.clientX / window.innerWidth - 0.5) * 12);
+        rotX((e.clientY / window.innerHeight - 0.5) * -8);
+      }, { passive: true });
     }
-  }
-
-  // intro: assemble on load, then hand control to scroll
-  if (crestApi) {
-    const intro = { p: 0 };
-    crestApi.setProgress(0);
-    gsap.to(intro, {
-      p: 1,
-      duration: 2.6,
-      ease: 'power2.inOut',
-      delay: 0.15,
-      onUpdate: () => crestApi.setProgress(intro.p),
-    });
   }
 
   // motto reveal — te reo first, then the English vision beneath
   const reo = document.querySelector('[data-motto-reo]');
   const vision = document.querySelector('[data-motto-vision]');
-  // word-by-word motto reveal is desktop-only; on mobile the motto is the
+  // word-by-word reveal is a desktop flourish; on mobile the motto is the
   // LCP element and must paint immediately
-  if (reo && wantsCrest3D) {
+  if (reo && isDesktop) {
     const words = reo.textContent.trim().split(/\s+/);
     reo.innerHTML = words
       .map((w) => `<span class="word" aria-hidden="true">${w}</span>`)
@@ -59,12 +43,12 @@ export async function initHome(gsap, ScrollTrigger, lenis) {
     reo.setAttribute('aria-label', words.join(' '));
     gsap.fromTo(reo.querySelectorAll('.word'),
       { opacity: 0, y: 26 },
-      { opacity: 1, y: 0, duration: 1.0, stagger: 0.08, ease: 'power3.out', delay: 0.6 });
+      { opacity: 1, y: 0, duration: 1.0, stagger: 0.08, ease: 'power3.out', delay: 0.5 });
     if (vision) {
-      gsap.fromTo(vision, { opacity: 0 }, { opacity: 1, duration: 1.2, ease: 'power2.out', delay: 1.6 });
+      gsap.fromTo(vision, { opacity: 0 }, { opacity: 1, duration: 1.2, ease: 'power2.out', delay: 1.4 });
     }
   }
-  gsap.fromTo('[data-hero-cue]', { opacity: 0 }, { opacity: 1, duration: 1, delay: 2.2 });
+  gsap.fromTo('[data-hero-cue]', { opacity: 0 }, { opacity: 1, duration: 1, delay: 1.8 });
 
   // scrolling out of the hero: crest drifts up + de-assembles slightly,
   // header crest mark settles in as the big one leaves

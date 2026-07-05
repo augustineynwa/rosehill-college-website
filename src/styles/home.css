@@ -48,17 +48,16 @@
   aspect-ratio: 688 / 953;
   display: grid;
   place-items: center;
+  perspective: 1100px;   /* gives the pointer tilt a gentle 3D lean */
 }
-/* modest overscan: room for pointer tilt + the settle, without bleeding
-   into the motto below */
-.home-hero__canvas {
-  position: absolute;
-  inset: -8%;
-  width: 116% !important;
-  height: 116% !important;
+.home-hero__crest-fallback {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 24px 50px rgba(0, 0, 0, 0.55));
+  transform-style: preserve-3d;
+  will-change: transform;
 }
-.home-hero__crest-fallback { width: 100%; filter: drop-shadow(0 24px 50px rgba(0, 0, 0, 0.55)); }
-html.js.motion-ok .home-hero__crest-fallback.is-replaced { display: none; }
 
 .home-hero__text { max-width: 100%; }
 .home-hero__motto { display: grid; gap: clamp(1rem, 2.2vh, 1.75rem); justify-items: center; }
