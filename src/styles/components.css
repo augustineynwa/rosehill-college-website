@@ -44,9 +44,9 @@
 }
 .site-header.is-solid,
 .site-header.is-open {
-  background: color-mix(in srgb, var(--c-ink-950) 88%, transparent);
-  -webkit-backdrop-filter: blur(14px);
-  backdrop-filter: blur(14px);
+  /* solid (near-opaque) rather than a blur: a full-width backdrop-filter
+     repaints on every scroll frame and is a common cause of scroll jank */
+  background: color-mix(in srgb, var(--c-ink-950) 97%, transparent);
   border-bottom-color: var(--c-line);
 }
 .site-header__inner {

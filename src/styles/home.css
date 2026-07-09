@@ -222,11 +222,10 @@ html:not(.motion-ok) .journey-media { display: none; }
   column-gap: var(--sp-1);
   align-items: baseline;
   padding: var(--sp-2);
-  background: color-mix(in srgb, var(--c-ink-900) 85%, transparent);
+  background: var(--c-ink-800);
   border: 1px solid var(--c-line);
   border-radius: var(--radius-md);
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
+  box-shadow: var(--shadow-lift);
   opacity: 0;
   visibility: hidden;
   transition: opacity var(--dur-fast) var(--ease-out), visibility 0s linear var(--dur-fast);

@@ -165,18 +165,32 @@ export async function initHome(gsap, ScrollTrigger, lenis) {
   });
 
   // ambient hero video: desktop only, sources attached lazily so phones
-  // never download it — the poster carries the atmosphere on mobile
+  // never download it. It only plays while the hero is on screen and pauses
+  // the moment you scroll past — otherwise a 7MB clip decodes behind the whole
+  // page for no visible benefit (it sits at 0.12 opacity behind the vignette).
   const video = document.querySelector('[data-ambient-video]');
   if (video && window.matchMedia('(min-width: 64rem)').matches) {
-    video.poster = video.dataset.poster;
-    const webm = document.createElement('source');
-    webm.src = video.dataset.webm;
-    webm.type = 'video/webm';
-    const mp4 = document.createElement('source');
-    mp4.src = video.dataset.mp4;
-    mp4.type = 'video/mp4';
-    video.append(webm, mp4);
-    video.load();
-    video.play?.().catch(() => {});
+    let loaded = false;
+    const ensureLoaded = () => {
+      if (loaded) return;
+      loaded = true;
+      video.poster = video.dataset.poster;
+      const webm = document.createElement('source');
+      webm.src = video.dataset.webm;
+      webm.type = 'video/webm';
+      const mp4 = document.createElement('source');
+      mp4.src = video.dataset.mp4;
+      mp4.type = 'video/mp4';
+      video.append(webm, mp4);
+      video.load();
+    };
+    new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        ensureLoaded();
+        video.play?.().catch(() => {});
+      } else {
+        video.pause?.();
+      }
+    }, { threshold: 0.08 }).observe(heroSection);
   }
 }

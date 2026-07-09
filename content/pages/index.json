@@ -152,8 +152,8 @@
             "label": "Junior Diploma"
           },
           "image": {
-            "src": "assets/img/Junior-Diploma-1.avif",
-            "srcset": "/assets/img/Junior-Diploma-1-p-500.avif 500w, /assets/img/Junior-Diploma-1-p-800.avif 800w, /assets/img/Junior-Diploma-1-p-1080.avif 1080w",
+            "src": "assets/img/Year-10-Camp_1.avif",
+            "srcset": "",
             "alt": ""
           }
         },
@@ -166,8 +166,8 @@
             "label": "Course information"
           },
           "image": {
-            "src": "assets/img/Curriculum---Digital-Learning---Cyber-Security.avif",
-            "srcset": "/assets/img/Curriculum---Digital-Learning---Cyber-Security-p-500.avif 500w",
+            "src": "assets/img/Junior-Diploma-1.avif",
+            "srcset": "/assets/img/Junior-Diploma-1-p-500.avif 500w, /assets/img/Junior-Diploma-1-p-800.avif 800w, /assets/img/Junior-Diploma-1-p-1080.avif 1080w",
             "alt": ""
           }
         },
@@ -180,8 +180,8 @@
             "label": "Senior courses"
           },
           "image": {
-            "src": "assets/img/Our-Community---Our-Student-Leaders---Btm-Banner.avif",
-            "srcset": "/assets/img/Our-Community---Our-Student-Leaders---Btm-Banner-p-500.avif 500w, /assets/img/Our-Community---Our-Student-Leaders---Btm-Banner-p-1080.avif 1080w",
+            "src": "assets/img/2026-head-students-06.avif",
+            "srcset": "/assets/img/2026-head-students-06-p-500.avif 500w, /assets/img/2026-head-students-06-p-800.avif 800w, /assets/img/2026-head-students-06-p-1080.avif 1080w",
             "alt": ""
           }
         },
