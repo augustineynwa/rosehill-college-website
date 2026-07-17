@@ -36,7 +36,7 @@ const image = (name = 'image', label = 'Image') => ({
   fields: [
     { label: 'Photo', name: 'src', widget: 'image', required: false, hint: 'Choose an existing photo or upload a new one' },
     str('alt', 'Alt text — describe what is in the photo', { hint: 'Read aloud to people using a screen reader. Leave blank only if purely decorative.' }),
-    hidden('srcset'), hidden('pos'),
+    hidden('srcset'), hidden('pos'), hidden('fit'),
   ],
 });
 

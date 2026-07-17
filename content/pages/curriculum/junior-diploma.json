@@ -35,9 +35,18 @@
       "type": "list",
       "heading": "Achievement levels",
       "items": [
-        { "term": "Achieved", "text": "Meets all base requirements." },
-        { "term": "Merit", "text": "Requires higher participation, attendance, and academic performance." },
-        { "term": "Excellence", "text": "Requires outstanding involvement, leadership, and top academic results." }
+        {
+          "term": "Achieved",
+          "text": "Meets all base requirements."
+        },
+        {
+          "term": "Merit",
+          "text": "Requires higher participation, attendance, and academic performance."
+        },
+        {
+          "term": "Excellence",
+          "text": "Requires outstanding involvement, leadership, and top academic results."
+        }
       ]
     },
     {
@@ -45,9 +54,21 @@
       "heading": "Yearly breakdown",
       "lede": "Each year level has specific expectations within these categories, ensuring students develop skills progressively. The Junior Diploma is a progressive programme across Year 9, Year 10, and Year 11, with each year building on the previous one. While the core values and categories remain consistent, the specific expectations grow as students mature. Below is an overview of what the Junior Diploma entails at each year level.",
       "docs": [
-        { "href": "assets/docs/Diploma-Year-9-2026.pdf", "label": "Year 9 Junior Diploma", "meta": "PDF" },
-        { "href": "assets/docs/Diploma-Year-10-2026.pdf", "label": "Year 10 Junior Diploma", "meta": "PDF" },
-        { "href": "assets/docs/Diploma-Year-11-2026.pdf", "label": "Year 11 Junior Diploma", "meta": "PDF" }
+        {
+          "href": "assets/docs/Diploma-Year-9-2026.pdf",
+          "label": "Year 9 Junior Diploma",
+          "meta": "PDF"
+        },
+        {
+          "href": "assets/docs/Diploma-Year-10-2026.pdf",
+          "label": "Year 10 Junior Diploma",
+          "meta": "PDF"
+        },
+        {
+          "href": "assets/docs/Diploma-Year-11-2026.pdf",
+          "label": "Year 11 Junior Diploma",
+          "meta": "PDF"
+        }
       ]
     },
     {
@@ -67,8 +88,15 @@
       "heading": "Looking ahead to NCEA",
       "text": "See how the Junior Diploma leads into senior study — explore our course information or learn about Year 9 SMART assessment.",
       "actions": [
-        { "href": "/curriculum/course-information.html", "label": "Course information", "primary": true },
-        { "href": "/curriculum/year-9-smart-assessment.html", "label": "Year 9 SMART assessment" }
+        {
+          "href": "/curriculum/course-information.html",
+          "label": "Course information",
+          "primary": true
+        },
+        {
+          "href": "/curriculum/year-9-smart-assessment.html",
+          "label": "Year 9 SMART assessment"
+        }
       ]
     }
   ]

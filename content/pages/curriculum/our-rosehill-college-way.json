@@ -65,18 +65,21 @@
           "src": "assets/img/Attendance---Chart--1_1.avif",
           "srcset": "",
           "alt": "Chart showing how missing one or two days a week adds up over a school year",
-          "caption": "1 or 2 days a week does not seem that much but..."
+          "caption": "1 or 2 days a week does not seem that much but...",
+          "fit": "contain"
         },
         {
           "src": "assets/img/Attendance---Chart_1.avif",
           "srcset": "",
-          "alt": "Chart showing the impact of missed school days on learning"
+          "alt": "Chart showing the impact of missed school days on learning",
+          "fit": "contain"
         },
         {
           "src": "assets/img/Attendance---Chart---3_1.avif",
           "srcset": "",
           "alt": "Chart showing the impact of arriving late to school and class",
-          "caption": "Late for school, late to class? Children learn best at the start of the day."
+          "caption": "Late for school, late to class? Children learn best at the start of the day.",
+          "fit": "contain"
         }
       ]
     },

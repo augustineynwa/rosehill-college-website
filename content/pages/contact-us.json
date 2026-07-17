@@ -12,7 +12,11 @@
       "heading": "Contact us",
       "lede": "Front office reception is open 8.00am to 4.00pm — phone <a href=\"tel:+6492950661\">09 295 0661</a>. For anything else, the right contact is below.",
       "actions": [
-        { "href": "tel:0800722929", "label": "Report an absence — 0800 722 929", "primary": true }
+        {
+          "href": "tel:0800722929",
+          "label": "Report an absence — 0800 722 929",
+          "primary": true
+        }
       ]
     },
     {
@@ -22,15 +26,42 @@
       "reo": true,
       "heading": "Who to contact",
       "items": [
-        { "term": "Front Office Reception", "text": "Office hours 8.00am – 4.00pm<br>Phone <a href=\"tel:+6492950661\">09 295 0661</a>" },
-        { "term": "Absences", "text": "Free call <a href=\"tel:0800722929\">0800 RCAWAY (0800 722 929)</a><br>Email <a href=\"mailto:attendance@rosehillcollege.school.nz\">attendance@rosehillcollege.school.nz</a><br>Or report via the SchoolBridge app" },
-        { "term": "Accounts Office", "text": "Email <a href=\"mailto:accounts@rosehillcollege.school.nz\">accounts@rosehillcollege.school.nz</a>" },
-        { "term": "Student Office", "text": "Email <a href=\"mailto:studentoffice@rosehillcollege.school.nz\">studentoffice@rosehillcollege.school.nz</a>" },
-        { "term": "School Nurse", "text": "Phone <a href=\"tel:+6492950661\">09 295 0661</a> (ext 913)<br>Email <a href=\"mailto:nurses@rosehillcollege.school.nz\">nurses@rosehillcollege.school.nz</a>" },
-        { "term": "Enrolment Office", "text": "Mr Loong — phone <a href=\"tel:+6492950661\">09 295 0661</a> (ext 871)<br>Email <a href=\"mailto:enrolments@rosehillcollege.school.nz\">enrolments@rosehillcollege.school.nz</a>" },
-        { "term": "International Student Department", "text": "Phone <a href=\"tel:+6492950661\">09 295 0661</a> (ext 824 or 884)<br>Email <a href=\"mailto:internationaldepartment@rosehillcollege.school.nz\">internationaldepartment@rosehillcollege.school.nz</a><br>24-hour emergency line <a href=\"tel:+64274630267\">027 463 0267</a>" },
-        { "term": "Adult & Community Education", "text": "The 2026 programme is now available — Term 1 courses start in early February.<br><a href=\"https://www.rosehilladultlearn.co.nz/\" rel=\"external\">rosehilladultlearn.co.nz</a> · <a href=\"tel:+6496369060\">09 636 9060</a> · <a href=\"mailto:ace@rosehillcollege.school.nz\">ace@rosehillcollege.school.nz</a>" },
-        { "term": "Staff members", "text": "Contact details for teaching staff are on <a href=\"/our-community/our-staff.html\">Our Staff</a>." }
+        {
+          "term": "Front Office Reception",
+          "text": "Office hours 8.00am – 4.00pm<br>Phone <a href=\"tel:+6492950661\">09 295 0661</a>"
+        },
+        {
+          "term": "Absences",
+          "text": "Free call <a href=\"tel:0800722929\">0800 RCAWAY (0800 722 929)</a><br>Email <a href=\"mailto:attendance@rosehillcollege.school.nz\">attendance@rosehillcollege.school.nz</a><br>Or report via the SchoolBridge app"
+        },
+        {
+          "term": "Accounts Office",
+          "text": "Email <a href=\"mailto:accounts@rosehillcollege.school.nz\">accounts@rosehillcollege.school.nz</a>"
+        },
+        {
+          "term": "Student Office",
+          "text": "Email <a href=\"mailto:studentoffice@rosehillcollege.school.nz\">studentoffice@rosehillcollege.school.nz</a>"
+        },
+        {
+          "term": "School Nurse",
+          "text": "Phone <a href=\"tel:+6492950661\">09 295 0661</a> (ext 913)<br>Email <a href=\"mailto:nurses@rosehillcollege.school.nz\">nurses@rosehillcollege.school.nz</a>"
+        },
+        {
+          "term": "Enrolment Office",
+          "text": "Mr Loong — phone <a href=\"tel:+6492950661\">09 295 0661</a> (ext 871)<br>Email <a href=\"mailto:enrolments@rosehillcollege.school.nz\">enrolments@rosehillcollege.school.nz</a>"
+        },
+        {
+          "term": "International Student Department",
+          "text": "Phone <a href=\"tel:+6492950661\">09 295 0661</a> (ext 824 or 884)<br>Email <a href=\"mailto:internationaldepartment@rosehillcollege.school.nz\">internationaldepartment@rosehillcollege.school.nz</a><br>24-hour emergency line <a href=\"tel:+64274630267\">027 463 0267</a>"
+        },
+        {
+          "term": "Adult & Community Education",
+          "text": "The 2026 programme is now available — Term 1 courses start in early February.<br><a href=\"https://www.rosehilladultlearn.co.nz/\" rel=\"external\">rosehilladultlearn.co.nz</a> · <a href=\"tel:+6496369060\">09 636 9060</a> · <a href=\"mailto:ace@rosehillcollege.school.nz\">ace@rosehillcollege.school.nz</a>"
+        },
+        {
+          "term": "Staff members",
+          "text": "Contact details for teaching staff are on <a href=\"/our-community/our-staff.html\">Our Staff</a>."
+        }
       ]
     },
     {

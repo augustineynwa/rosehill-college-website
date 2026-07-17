@@ -26,31 +26,90 @@
       "type": "docs",
       "heading": "Annual statements and reports",
       "docs": [
-        { "href": "assets/docs/Rosehill-College-Annual-Plan-2025.pdf", "label": "Rosehill College Annual Plan 2025", "meta": "PDF" },
-        { "href": "assets/docs/Rosehill-College-Strategic-Plan.pdf", "label": "Rosehill College Strategic Plan", "meta": "PDF" },
-        { "href": "https://drive.google.com/file/d/1WhCrY-HHtP9Obw7iAx3ULpQD9620HaQz/view", "label": "Rosehill College Annual Financial Statement 2024", "meta": "Google Drive" },
-        { "href": "https://drive.google.com/file/d/1MozTLziklEljPbAClTJNuqcDRgDIhVsq/view?usp=sharing", "label": "Redacted Rosehill College Annual Report 2022", "meta": "Google Drive" },
-        { "href": "https://ero.govt.nz/institution/102/rosehill-college", "label": "ERO Report", "meta": "ero.govt.nz" }
+        {
+          "href": "assets/docs/Rosehill-College-Annual-Plan-2025.pdf",
+          "label": "Rosehill College Annual Plan 2025",
+          "meta": "PDF"
+        },
+        {
+          "href": "assets/docs/Rosehill-College-Strategic-Plan.pdf",
+          "label": "Rosehill College Strategic Plan",
+          "meta": "PDF"
+        },
+        {
+          "href": "https://drive.google.com/file/d/1WhCrY-HHtP9Obw7iAx3ULpQD9620HaQz/view",
+          "label": "Rosehill College Annual Financial Statement 2024",
+          "meta": "Google Drive"
+        },
+        {
+          "href": "https://drive.google.com/file/d/1MozTLziklEljPbAClTJNuqcDRgDIhVsq/view?usp=sharing",
+          "label": "Redacted Rosehill College Annual Report 2022",
+          "meta": "Google Drive"
+        },
+        {
+          "href": "https://ero.govt.nz/institution/102/rosehill-college",
+          "label": "ERO Report",
+          "meta": "ero.govt.nz"
+        }
       ]
     },
     {
       "type": "table",
       "heading": "Meeting dates",
       "caption": "2026 Board meeting dates",
-      "columns": ["Month", "Date"],
+      "columns": [
+        "Month",
+        "Date"
+      ],
       "rows": [
-        ["January", "Wednesday 28 January"],
-        ["February", "Wednesday 25 February"],
-        ["March", "Wednesday 25 March"],
-        ["April", "Wednesday 29 April — Board and HOF Review"],
-        ["May", "Wednesday 27 May"],
-        ["June", "Wednesday 24 June"],
-        ["July", "Wednesday 29 July"],
-        ["August", "Wednesday 26 August"],
-        ["September", "Wednesday 23 September"],
-        ["October", "Wednesday 28 October"],
-        ["November", "Wednesday 25 November"],
-        ["December", "Tuesday 8 December — Board PD (TBC)"]
+        [
+          "January",
+          "Wednesday 28 January"
+        ],
+        [
+          "February",
+          "Wednesday 25 February"
+        ],
+        [
+          "March",
+          "Wednesday 25 March"
+        ],
+        [
+          "April",
+          "Wednesday 29 April — Board and HOF Review"
+        ],
+        [
+          "May",
+          "Wednesday 27 May"
+        ],
+        [
+          "June",
+          "Wednesday 24 June"
+        ],
+        [
+          "July",
+          "Wednesday 29 July"
+        ],
+        [
+          "August",
+          "Wednesday 26 August"
+        ],
+        [
+          "September",
+          "Wednesday 23 September"
+        ],
+        [
+          "October",
+          "Wednesday 28 October"
+        ],
+        [
+          "November",
+          "Wednesday 25 November"
+        ],
+        [
+          "December",
+          "Tuesday 8 December — Board PD (TBC)"
+        ]
       ]
     },
     {
@@ -60,16 +119,42 @@
         {
           "title": "Board members",
           "people": [
-            { "name": "Mrs Davida Suasua", "role": "Principal" },
-            { "name": "Mrs Claire Knapp", "role": "Presiding Member" },
-            { "name": "Mrs Desna Subritzky", "role": "Deputy Presiding Member" },
-            { "name": "Ms Janet Herst", "role": "Minute Secretary" },
-            { "name": "Ms Janine Sorensen", "role": "Staff Representative" },
-            { "name": "Mr Jarrod Mackenzie" },
-            { "name": "Ms Gabrielle Wichman-Heremain" },
-            { "name": "Miss Catherine Vea", "role": "Student Representative" },
-            { "name": "Mr DJ Govender" },
-            { "name": "Mrs Anna Scanlan" }
+            {
+              "name": "Mrs Davida Suasua",
+              "role": "Principal"
+            },
+            {
+              "name": "Mrs Claire Knapp",
+              "role": "Presiding Member"
+            },
+            {
+              "name": "Mrs Desna Subritzky",
+              "role": "Deputy Presiding Member"
+            },
+            {
+              "name": "Ms Janet Herst",
+              "role": "Minute Secretary"
+            },
+            {
+              "name": "Ms Janine Sorensen",
+              "role": "Staff Representative"
+            },
+            {
+              "name": "Mr Jarrod Mackenzie"
+            },
+            {
+              "name": "Ms Gabrielle Wichman-Heremain"
+            },
+            {
+              "name": "Miss Catherine Vea",
+              "role": "Student Representative"
+            },
+            {
+              "name": "Mr DJ Govender"
+            },
+            {
+              "name": "Mrs Anna Scanlan"
+            }
           ]
         }
       ]
@@ -91,8 +176,15 @@
       "heading": "Contact the Board",
       "text": "Any correspondence can be emailed to the Board at board@rosehillcollege.school.nz.",
       "actions": [
-        { "href": "mailto:board@rosehillcollege.school.nz", "label": "Email the Board", "primary": true },
-        { "href": "/our-community/our-student-leaders.html", "label": "Our student leaders" }
+        {
+          "href": "mailto:board@rosehillcollege.school.nz",
+          "label": "Email the Board",
+          "primary": true
+        },
+        {
+          "href": "/our-community/our-student-leaders.html",
+          "label": "Our student leaders"
+        }
       ]
     }
   ]

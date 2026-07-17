@@ -18,7 +18,8 @@
         "image": {
           "src": "assets/img/Kids-link_1.avif",
           "srcset": "",
-          "alt": "KidsLink logo"
+          "alt": "KidsLink logo",
+          "fit": "contain"
         },
         "html": "<p><strong>Rosehill College is a KidsLink school.</strong> <a href=\"http://www.kidslink.co.nz/\" rel=\"external\">Kidslink</a> connects schools and families with professional services for children and teens.</p>"
       }
@@ -66,8 +67,15 @@
       "heading": "We're here to help",
       "text": "Learn more about how we look after our students, or get in touch — our team is committed to providing a safe and supportive space.",
       "actions": [
-        { "href": "/our-community/student-welfare.html", "label": "Student welfare", "primary": true },
-        { "href": "/contact-us.html", "label": "Contact us" }
+        {
+          "href": "/our-community/student-welfare.html",
+          "label": "Student welfare",
+          "primary": true
+        },
+        {
+          "href": "/contact-us.html",
+          "label": "Contact us"
+        }
       ]
     }
   ]

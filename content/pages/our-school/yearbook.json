@@ -28,7 +28,11 @@
       "heading": "Yearbook 2025",
       "text": "The printed version of the Rosehill College Yearbook 2025 is now available for a limited time. To place your order, please complete the online form using the link below. Once your payment has been received, your order will be processed and your printed Yearbook will be ready for collection from the Student Office. Be sure to get your copy before orders close — this is a great way to keep the memories of 2025 at Rosehill College!",
       "actions": [
-        { "href": "https://forms.gle/PqqpGRGVYHtszzRY7", "label": "Order your copy now", "primary": true }
+        {
+          "href": "https://forms.gle/PqqpGRGVYHtszzRY7",
+          "label": "Order your copy now",
+          "primary": true
+        }
       ]
     }
   ]

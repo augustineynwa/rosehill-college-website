@@ -95,8 +95,15 @@
       "heading": "Student voice at the board table",
       "text": "Our Student Representative sits on the Rosehill College Board, making sure ākonga are heard where decisions are made.",
       "actions": [
-        { "href": "/our-community/our-board.html", "label": "Our board", "primary": true },
-        { "href": "/our-school/life-at-rosehill-college.html", "label": "Life at Rosehill College" }
+        {
+          "href": "/our-community/our-board.html",
+          "label": "Our board",
+          "primary": true
+        },
+        {
+          "href": "/our-school/life-at-rosehill-college.html",
+          "label": "Life at Rosehill College"
+        }
       ]
     }
   ]

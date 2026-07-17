@@ -21,7 +21,7 @@
       <li class="news-card" data-reveal>
         <a href="{{href}}" class="news-card__link" {{#if external}}rel="external"{{/if}}>
           {{#if image}}
-          <figure class="news-card__media media-frame media-frame--card">
+          <figure class="news-card__media media-frame media-frame--card{{#if image.fit}} media-frame--{{image.fit}}{{/if}}"{{#if image.pos}} style="--pos: {{image.pos}}"{{/if}}>
             <img src="/{{image.src}}" {{#if image.srcset}}srcset="{{image.srcset}}" sizes="(max-width: 48rem) 100vw, 33vw"{{/if}} alt="{{image.alt}}" loading="lazy">
           </figure>
           {{/if}}

@@ -44,8 +44,15 @@
       "heading": "Visit the Careers Portal",
       "text": "Explore all of the above and more on our Careers Portal.",
       "actions": [
-        { "href": "https://rosehillcollege.careerwise.school/", "label": "Visit the Rosehill College Careers Portal", "primary": true },
-        { "href": "/curriculum/student-support.html", "label": "Student support" }
+        {
+          "href": "https://rosehillcollege.careerwise.school/",
+          "label": "Visit the Rosehill College Careers Portal",
+          "primary": true
+        },
+        {
+          "href": "/curriculum/student-support.html",
+          "label": "Student support"
+        }
       ]
     }
   ]

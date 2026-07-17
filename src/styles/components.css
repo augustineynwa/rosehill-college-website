@@ -290,6 +290,20 @@
 .media-frame--card { aspect-ratio: var(--ratio-card); }
 .media-frame--portrait { aspect-ratio: var(--ratio-portrait); }
 .media-frame--wide { aspect-ratio: var(--ratio-wide); }
+
+/* Logos, charts, flyers and diagrams must never be cropped — object-fit:cover
+   slices the meaning out of them (a logo becomes letter soup, a chart loses
+   its headings). These sit whole on a light panel instead. */
+.media-frame--contain {
+  background: var(--c-silver);
+  padding: var(--sp-3);
+}
+.media-frame--contain img {
+  object-fit: contain;
+  object-position: center;
+}
+/* never zoom/pan a contained image */
+.media-frame--contain[data-parallax-img] img { transform: none !important; }
 figure.media-frame figcaption { padding: var(--sp-1) var(--sp-2); }
 
 /* ---------------------------------------------------------------- prose */

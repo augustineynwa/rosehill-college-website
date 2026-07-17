@@ -18,14 +18,46 @@
       "groups": [
         {
           "people": [
-            { "name": "Mrs D Suasua", "role": "Principal", "email": "principal@rosehillcollege.school.nz" },
-            { "name": "Mr M Rangi", "role": "Deputy Principal · ext 830", "email": "m.rangi@rosehillcollege.school.nz" },
-            { "name": "Miss K Lyon", "role": "Deputy Principal · ext 829", "email": "k.lyon@rosehillcollege.school.nz" },
-            { "name": "Mrs L Lamb", "role": "Deputy Principal · ext 934", "email": "l.lamb@rosehillcollege.school.nz" },
-            { "name": "Mr J Fraser", "role": "Deputy Principal · ext 825", "email": "j.fraser@rosehillcollege.school.nz" },
-            { "name": "Mrs M Powell", "role": "Deputy Principal · ext 874", "email": "m.powell@rosehillcollege.school.nz" },
-            { "name": "Ms T Carolissen", "role": "Business Manager", "email": "t.carolissen@rosehillcollege.school.nz" },
-            { "name": "Ms J Herst", "role": "Principal's P.A. · ext 863", "email": "j.herst@rosehillcollege.school.nz" }
+            {
+              "name": "Mrs D Suasua",
+              "role": "Principal",
+              "email": "principal@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Mr M Rangi",
+              "role": "Deputy Principal · ext 830",
+              "email": "m.rangi@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Miss K Lyon",
+              "role": "Deputy Principal · ext 829",
+              "email": "k.lyon@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Mrs L Lamb",
+              "role": "Deputy Principal · ext 934",
+              "email": "l.lamb@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Mr J Fraser",
+              "role": "Deputy Principal · ext 825",
+              "email": "j.fraser@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Mrs M Powell",
+              "role": "Deputy Principal · ext 874",
+              "email": "m.powell@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Ms T Carolissen",
+              "role": "Business Manager",
+              "email": "t.carolissen@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Ms J Herst",
+              "role": "Principal's P.A. · ext 863",
+              "email": "j.herst@rosehillcollege.school.nz"
+            }
           ]
         }
       ]
@@ -39,56 +71,176 @@
         {
           "title": "Head of house",
           "people": [
-            { "name": "Mrs J Thackham and Mrs R Lee-Mataia", "role": "Atawhai · ext 808", "email": "atawhai@rosehillcollege.school.nz" },
-            { "name": "Mr J Good", "role": "Kahurangi · ext 807", "email": "kahurangi@rosehillcollege.school.nz" },
-            { "name": "Mrs K Kokohu", "role": "Manutaki · ext 835", "email": "manutaki@rosehillcollege.school.nz" },
-            { "name": "Mr K Pema", "role": "Pounamu · ext 834", "email": "pounamu@rosehillcollege.school.nz" },
-            { "name": "Ms J Sorensen", "role": "Rangatahi · ext 833", "email": "rangatahi@rosehillcollege.school.nz" },
-            { "name": "Mr M Flynn", "role": "Taikura · ext 806", "email": "taikura@rosehillcollege.school.nz" }
+            {
+              "name": "Mrs J Thackham and Mrs R Lee-Mataia",
+              "role": "Atawhai · ext 808",
+              "email": "atawhai@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Mr J Good",
+              "role": "Kahurangi · ext 807",
+              "email": "kahurangi@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Mrs K Kokohu",
+              "role": "Manutaki · ext 835",
+              "email": "manutaki@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Mr K Pema",
+              "role": "Pounamu · ext 834",
+              "email": "pounamu@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Ms J Sorensen",
+              "role": "Rangatahi · ext 833",
+              "email": "rangatahi@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Mr M Flynn",
+              "role": "Taikura · ext 806",
+              "email": "taikura@rosehillcollege.school.nz"
+            }
           ]
         },
         {
           "title": "Lead curriculum team",
           "people": [
-            { "name": "Ms L Sexton", "role": "Art · ext 842", "email": "l.sexton@rosehillcollege.school.nz" },
-            { "name": "Mr J Gillon", "role": "Computer Science · ext 814", "email": "j.gillon@rosehillcollege.school.nz" },
-            { "name": "Mr H Aitchison", "role": "Drama/Dance · ext 103", "email": "h.aitchison@rosehillcollege.school.nz" },
-            { "name": "Mrs S Walton", "role": "English · ext 842", "email": "s.walton@rosehillcollege.school.nz" },
-            { "name": "Miss K Aw", "role": "ESOL · ext 887", "email": "k.aw@rosehillcollege.school.nz" },
-            { "name": "Miss J Peneamena", "role": "Humanities · ext 315", "email": "j.peneamena@rosehillcollege.school.nz" },
-            { "name": "Ms W Chen", "role": "Languages · ext 878", "email": "w.chen@rosehillcollege.school.nz" },
-            { "name": "Ms S Newman", "role": "Learner Support / SENCO · ext 859", "email": "s.newman@rosehillcollege.school.nz" },
-            { "name": "Mrs A Tafau", "role": "Mathematics · ext 875", "email": "a.tafau@rosehillcollege.school.nz" },
-            { "name": "Mr E Edmonds", "role": "Music · ext 802", "email": "e.edmonds@rosehillcollege.school.nz" },
-            { "name": "Mr M Rennell", "role": "Physical Education · ext 858", "email": "m.rennell@rosehillcollege.school.nz" },
-            { "name": "Mrs A Duckett", "role": "Science · ext 839", "email": "a.duckett@rosehillcollege.school.nz" },
-            { "name": "Ms M Turketo", "role": "Technology", "email": "m.turketo@rosehillcollege.school.nz" }
+            {
+              "name": "Ms L Sexton",
+              "role": "Art · ext 842",
+              "email": "l.sexton@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Mr J Gillon",
+              "role": "Computer Science · ext 814",
+              "email": "j.gillon@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Mr H Aitchison",
+              "role": "Drama/Dance · ext 103",
+              "email": "h.aitchison@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Mrs S Walton",
+              "role": "English · ext 842",
+              "email": "s.walton@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Miss K Aw",
+              "role": "ESOL · ext 887",
+              "email": "k.aw@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Miss J Peneamena",
+              "role": "Humanities · ext 315",
+              "email": "j.peneamena@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Ms W Chen",
+              "role": "Languages · ext 878",
+              "email": "w.chen@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Ms S Newman",
+              "role": "Learner Support / SENCO · ext 859",
+              "email": "s.newman@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Mrs A Tafau",
+              "role": "Mathematics · ext 875",
+              "email": "a.tafau@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Mr E Edmonds",
+              "role": "Music · ext 802",
+              "email": "e.edmonds@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Mr M Rennell",
+              "role": "Physical Education · ext 858",
+              "email": "m.rennell@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Mrs A Duckett",
+              "role": "Science · ext 839",
+              "email": "a.duckett@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Ms M Turketo",
+              "role": "Technology",
+              "email": "m.turketo@rosehillcollege.school.nz"
+            }
           ]
         },
         {
           "title": "Careers",
           "people": [
-            { "name": "Ms J Ferguson", "role": "Head of Department · ext 848", "email": "j.ferguson@rosehillcollege.school.nz" },
-            { "name": "Mrs R Tawhi", "role": "Workplace Coordinator · ext 847", "email": "r.tawhi@rosehillcollege.school.nz" },
-            { "name": "Mrs T Leaupepetele", "role": "Careers Assistant · ext 810", "email": "t.leaupepetele@rosehillcollege.school.nz" }
+            {
+              "name": "Ms J Ferguson",
+              "role": "Head of Department · ext 848",
+              "email": "j.ferguson@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Mrs R Tawhi",
+              "role": "Workplace Coordinator · ext 847",
+              "email": "r.tawhi@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Mrs T Leaupepetele",
+              "role": "Careers Assistant · ext 810",
+              "email": "t.leaupepetele@rosehillcollege.school.nz"
+            }
           ]
         },
         {
           "title": "Te Whare Kimiora (student support)",
           "people": [
-            { "name": "Dr E Khaleghian", "role": "Head of Department · ext 852", "email": "e.khaleghian@rosehillcollege.school.nz" },
-            { "name": "Ms P MacCormick", "role": "Student Support · ext 816", "email": "p.maccormick@rosehillcollege.school.nz" },
-            { "name": "Miss P Alontave", "role": "Student Support · ext 890", "email": "p.alontave@rosehillcollege.school.nz" },
-            { "name": "Whaea Pare", "role": "Kaimanaaki · ext 892", "email": "p.matthews@rosehillcollege.school.nz" }
+            {
+              "name": "Dr E Khaleghian",
+              "role": "Head of Department · ext 852",
+              "email": "e.khaleghian@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Ms P MacCormick",
+              "role": "Student Support · ext 816",
+              "email": "p.maccormick@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Miss P Alontave",
+              "role": "Student Support · ext 890",
+              "email": "p.alontave@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Whaea Pare",
+              "role": "Kaimanaaki · ext 892",
+              "email": "p.matthews@rosehillcollege.school.nz"
+            }
           ]
         },
         {
           "title": "Other responsibilities",
           "people": [
-            { "name": "Mrs A Henwood", "role": "Director of International Students · ext 824", "email": "a.henwood@rosehillcollege.school.nz" },
-            { "name": "Ms C Booth", "role": "International Students Coordinator · ext 884", "email": "c.booth@rosehillcollege.school.nz" },
-            { "name": "Mr S Leaupepetele", "role": "Director of Sports · ext 936", "email": "s.leaupepetele@rosehillcollege.school.nz" },
-            { "name": "Mr J Mataira", "role": "Property Manager · ext 920", "email": "j.mataira@rosehillcollege.school.nz" }
+            {
+              "name": "Mrs A Henwood",
+              "role": "Director of International Students · ext 824",
+              "email": "a.henwood@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Ms C Booth",
+              "role": "International Students Coordinator · ext 884",
+              "email": "c.booth@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Mr S Leaupepetele",
+              "role": "Director of Sports · ext 936",
+              "email": "s.leaupepetele@rosehillcollege.school.nz"
+            },
+            {
+              "name": "Mr J Mataira",
+              "role": "Property Manager · ext 920",
+              "email": "j.mataira@rosehillcollege.school.nz"
+            }
           ]
         }
       ]
@@ -100,8 +252,15 @@
       "heading": "Not sure who to contact?",
       "text": "Get in touch with the school office and we will connect you with the right person.",
       "actions": [
-        { "href": "/contact-us.html", "label": "Contact us", "primary": true },
-        { "href": "/our-community/our-board.html", "label": "Meet our board" }
+        {
+          "href": "/contact-us.html",
+          "label": "Contact us",
+          "primary": true
+        },
+        {
+          "href": "/our-community/our-board.html",
+          "label": "Meet our board"
+        }
       ]
     }
   ]

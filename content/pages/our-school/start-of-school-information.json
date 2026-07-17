@@ -18,15 +18,47 @@
       "heading": "Start dates 2026",
       "lede": "All Year 9 students and those new to Rosehill College will start on Monday 2 February. All other students will begin on Tuesday 3 February. Each group of students is expected to attend school for the whole time on their allocated day.",
       "caption": "Start of year dates and times 2026",
-      "columns": ["Who", "Date", "Times"],
+      "columns": [
+        "Who",
+        "Date",
+        "Times"
+      ],
       "rows": [
-        ["Year 13 re-enrolment", "Tuesday 27 January", "9:00am – 1:00pm"],
-        ["New International Students' Orientation", "Tuesday 27 – Thursday 29 January", "9:00am – 2:00pm each day"],
-        ["Student Leaders' Camp (at Waharau)", "Wednesday 28 – Friday 30 January", "Departs 8:15am Wednesday, returns 5:00pm Friday"],
-        ["Year 12 re-enrolment", "Thursday 29 January", "9:00am – 1:00pm"],
-        ["Peer Support Leaders", "Monday 2 February", "8:00am – 3:10pm"],
-        ["Year 9 and new students only", "Monday 2 February", "8:30am – 3:10pm<br>Buses will be operating. New students who are not Year 9s may leave at 12:50pm."],
-        ["All students on-site together", "Tuesday 3 February", "9:45am – 3:10pm"]
+        [
+          "Year 13 re-enrolment",
+          "Tuesday 27 January",
+          "9:00am – 1:00pm"
+        ],
+        [
+          "New International Students' Orientation",
+          "Tuesday 27 – Thursday 29 January",
+          "9:00am – 2:00pm each day"
+        ],
+        [
+          "Student Leaders' Camp (at Waharau)",
+          "Wednesday 28 – Friday 30 January",
+          "Departs 8:15am Wednesday, returns 5:00pm Friday"
+        ],
+        [
+          "Year 12 re-enrolment",
+          "Thursday 29 January",
+          "9:00am – 1:00pm"
+        ],
+        [
+          "Peer Support Leaders",
+          "Monday 2 February",
+          "8:00am – 3:10pm"
+        ],
+        [
+          "Year 9 and new students only",
+          "Monday 2 February",
+          "8:30am – 3:10pm<br>Buses will be operating. New students who are not Year 9s may leave at 12:50pm."
+        ],
+        [
+          "All students on-site together",
+          "Tuesday 3 February",
+          "9:45am – 3:10pm"
+        ]
       ]
     },
     {
@@ -34,10 +66,22 @@
       "id": "first-day",
       "heading": "Getting ready for day one",
       "items": [
-        { "term": "Daily times", "text": "Classes begin at 8:50am, so please ensure your child arrives with time to be in their classroom by the beginning of the school day. Tuesday starts later, with no Period 1." },
-        { "term": "School buses", "text": "Buses commence their normal runs from the morning of Monday 2 February and pick students up from college at 3:20pm." },
-        { "term": "Manaakitia Mai group", "text": "Your student's 2026 Manaakitia Mai group is on the emailed version of the start-of-year letter — students need to know this for their first day at school." },
-        { "term": "Picking up students", "text": "Please arrange to meet your child off site after school. Buses and hundreds of students on foot use the front entrance, so cars cannot come in at pick-up time." }
+        {
+          "term": "Daily times",
+          "text": "Classes begin at 8:50am, so please ensure your child arrives with time to be in their classroom by the beginning of the school day. Tuesday starts later, with no Period 1."
+        },
+        {
+          "term": "School buses",
+          "text": "Buses commence their normal runs from the morning of Monday 2 February and pick students up from college at 3:20pm."
+        },
+        {
+          "term": "Manaakitia Mai group",
+          "text": "Your student's 2026 Manaakitia Mai group is on the emailed version of the start-of-year letter — students need to know this for their first day at school."
+        },
+        {
+          "term": "Picking up students",
+          "text": "Please arrange to meet your child off site after school. Buses and hundreds of students on foot use the front entrance, so cars cannot come in at pick-up time."
+        }
       ]
     },
     {
@@ -45,9 +89,21 @@
       "id": "downloads",
       "heading": "Start of year downloads",
       "docs": [
-        { "href": "assets/docs/Start-of-Year-Letter-to-Parents-2026.pdf", "label": "Start of Year Letter to Parents 2026", "meta": "PDF" },
-        { "href": "assets/docs/Student-Handbook.pdf", "label": "Student Handbook", "meta": "PDF" },
-        { "href": "assets/docs/Rosehill-College-Site-Map.pdf", "label": "School map", "meta": "PDF" }
+        {
+          "href": "assets/docs/Start-of-Year-Letter-to-Parents-2026.pdf",
+          "label": "Start of Year Letter to Parents 2026",
+          "meta": "PDF"
+        },
+        {
+          "href": "assets/docs/Student-Handbook.pdf",
+          "label": "Student Handbook",
+          "meta": "PDF"
+        },
+        {
+          "href": "assets/docs/Rosehill-College-Site-Map.pdf",
+          "label": "School map",
+          "meta": "PDF"
+        }
       ]
     },
     {
@@ -57,11 +113,31 @@
       "lede": "You may order your stationery online at <a href=\"https://www.myschool.co.nz/rosehillcollege\" rel=\"external\">Officemax Ordering</a>.",
       "columns": true,
       "docs": [
-        { "href": "assets/docs/Year-9-Stationery-List.pdf", "label": "Year 9 stationery list", "meta": "PDF" },
-        { "href": "assets/docs/Year-10-Stationery-List.pdf", "label": "Year 10 stationery list", "meta": "PDF" },
-        { "href": "assets/docs/Year-11-Stationery-List.pdf", "label": "Year 11 stationery list", "meta": "PDF" },
-        { "href": "assets/docs/Year-12-Stationery-List.pdf", "label": "Year 12 stationery list", "meta": "PDF" },
-        { "href": "assets/docs/Year-13-Stationery-List.pdf", "label": "Year 13 stationery list", "meta": "PDF" }
+        {
+          "href": "assets/docs/Year-9-Stationery-List.pdf",
+          "label": "Year 9 stationery list",
+          "meta": "PDF"
+        },
+        {
+          "href": "assets/docs/Year-10-Stationery-List.pdf",
+          "label": "Year 10 stationery list",
+          "meta": "PDF"
+        },
+        {
+          "href": "assets/docs/Year-11-Stationery-List.pdf",
+          "label": "Year 11 stationery list",
+          "meta": "PDF"
+        },
+        {
+          "href": "assets/docs/Year-12-Stationery-List.pdf",
+          "label": "Year 12 stationery list",
+          "meta": "PDF"
+        },
+        {
+          "href": "assets/docs/Year-13-Stationery-List.pdf",
+          "label": "Year 13 stationery list",
+          "meta": "PDF"
+        }
       ]
     },
     {
@@ -70,12 +146,36 @@
       "heading": "Everything for the start of the year",
       "lede": "The essentials for settling into 2026, all in one place.",
       "cards": [
-        { "title": "Term dates", "text": "The full 2026 calendar of terms, holidays and closures.", "href": "/our-school/term-dates.html" },
-        { "title": "Daily times", "text": "Bell times for each day of the week, including Tuesday's later start.", "href": "/our-school/term-dates.html#bell-times" },
-        { "title": "Rosehill College Way", "text": "How our four values shape every day at school.", "href": "/curriculum/our-rosehill-college-way.html" },
-        { "title": "School buses", "text": "Bus routes, timetables and departure times.", "href": "/join-us/school-zone-and-buses.html" },
-        { "title": "Uniform", "text": "Uniform requirements for juniors and seniors, and where to buy.", "href": "/join-us/uniform-and-stationery.html" },
-        { "title": "BYOD", "text": "Digital learning and which device to bring to school.", "href": "/curriculum/digital-learning-and-byod.html" }
+        {
+          "title": "Term dates",
+          "text": "The full 2026 calendar of terms, holidays and closures.",
+          "href": "/our-school/term-dates.html"
+        },
+        {
+          "title": "Daily times",
+          "text": "Bell times for each day of the week, including Tuesday's later start.",
+          "href": "/our-school/term-dates.html#bell-times"
+        },
+        {
+          "title": "Rosehill College Way",
+          "text": "How our four values shape every day at school.",
+          "href": "/curriculum/our-rosehill-college-way.html"
+        },
+        {
+          "title": "School buses",
+          "text": "Bus routes, timetables and departure times.",
+          "href": "/join-us/school-zone-and-buses.html"
+        },
+        {
+          "title": "Uniform",
+          "text": "Uniform requirements for juniors and seniors, and where to buy.",
+          "href": "/join-us/uniform-and-stationery.html"
+        },
+        {
+          "title": "BYOD",
+          "text": "Digital learning and which device to bring to school.",
+          "href": "/curriculum/digital-learning-and-byod.html"
+        }
       ]
     },
     {
@@ -83,8 +183,15 @@
       "heading": "Keep us up to date",
       "text": "If any of your details have changed — email address, phone numbers, home address or caregiver and emergency information — please email studentadmin@rosehillcollege.school.nz.",
       "actions": [
-        { "href": "mailto:studentadmin@rosehillcollege.school.nz", "label": "Update your details", "primary": true },
-        { "href": "/contact-us.html", "label": "Contact us" }
+        {
+          "href": "mailto:studentadmin@rosehillcollege.school.nz",
+          "label": "Update your details",
+          "primary": true
+        },
+        {
+          "href": "/contact-us.html",
+          "label": "Contact us"
+        }
       ]
     }
   ]

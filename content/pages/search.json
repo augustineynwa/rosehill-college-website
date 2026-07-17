@@ -11,6 +11,8 @@
       "reo": true,
       "heading": "Search"
     },
-    { "type": "search" }
+    {
+      "type": "search"
+    }
   ]
 }

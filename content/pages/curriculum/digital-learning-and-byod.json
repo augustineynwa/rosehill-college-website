@@ -25,8 +25,16 @@
       "type": "docs",
       "heading": "Rosehill College digital usage guidelines",
       "docs": [
-        { "href": "https://drive.google.com/file/d/1yenNlrnhQalhgS6fZQYqIqe-GaKAdoz8/view", "label": "Cybersecurity and BYOD Agreement", "meta": "Google Drive" },
-        { "href": "https://web-assets.education.govt.nz/s3fs-public/2024-08/TPA_CellphonePolicy_Whanau_FAQs_FINAL.pdf?VersionId=zErBiZlv82qK7x.mNlqpdKMpVpHuUbiW", "label": "Phones away for the day", "meta": "Ministry of Education PDF" }
+        {
+          "href": "https://drive.google.com/file/d/1yenNlrnhQalhgS6fZQYqIqe-GaKAdoz8/view",
+          "label": "Cybersecurity and BYOD Agreement",
+          "meta": "Google Drive"
+        },
+        {
+          "href": "https://web-assets.education.govt.nz/s3fs-public/2024-08/TPA_CellphonePolicy_Whanau_FAQs_FINAL.pdf?VersionId=zErBiZlv82qK7x.mNlqpdKMpVpHuUbiW",
+          "label": "Phones away for the day",
+          "meta": "Ministry of Education PDF"
+        }
       ]
     },
     {
@@ -39,25 +47,61 @@
       "heading": "Recommended Chromebook specifications",
       "lede": "The following minimum specifications for a Chromebook are recommended.",
       "caption": "Recommended minimum Chromebook specifications",
-      "columns": ["Specification", "Recommended minimum"],
+      "columns": [
+        "Specification",
+        "Recommended minimum"
+      ],
       "rows": [
-        ["Memory size", "2GB"],
-        ["Screen size", "11.6 inches"],
-        ["Screen resolution", "1366×768"],
-        ["SSD or HDD capacity", "16GB"],
-        ["Operating system", "Chrome OS"]
+        [
+          "Memory size",
+          "2GB"
+        ],
+        [
+          "Screen size",
+          "11.6 inches"
+        ],
+        [
+          "Screen resolution",
+          "1366×768"
+        ],
+        [
+          "SSD or HDD capacity",
+          "16GB"
+        ],
+        [
+          "Operating system",
+          "Chrome OS"
+        ]
       ]
     },
     {
       "type": "list",
       "heading": "The Google tools students use",
       "items": [
-        { "term": "Gmail", "text": "Email service" },
-        { "term": "Classroom", "text": "Software for receiving and submitting classwork" },
-        { "term": "Drive", "text": "Cloud-based office productivity software (documents, spreadsheets, calendar, forms)" },
-        { "term": "Meet", "text": "Online video conferences" },
-        { "term": "Sites", "text": "Website creation software" },
-        { "term": "YouTube", "text": "Video service" }
+        {
+          "term": "Gmail",
+          "text": "Email service"
+        },
+        {
+          "term": "Classroom",
+          "text": "Software for receiving and submitting classwork"
+        },
+        {
+          "term": "Drive",
+          "text": "Cloud-based office productivity software (documents, spreadsheets, calendar, forms)"
+        },
+        {
+          "term": "Meet",
+          "text": "Online video conferences"
+        },
+        {
+          "term": "Sites",
+          "text": "Website creation software"
+        },
+        {
+          "term": "YouTube",
+          "text": "Video service"
+        }
       ]
     },
     {
@@ -81,8 +125,15 @@
       "heading": "More on devices at school",
       "text": "Read our mobile phone policy, or find out how to get support with learning at Rosehill College.",
       "actions": [
-        { "href": "/curriculum/mobile-phone-policy.html", "label": "Mobile phone policy", "primary": true },
-        { "href": "/curriculum/student-support.html", "label": "Student support" }
+        {
+          "href": "/curriculum/mobile-phone-policy.html",
+          "label": "Mobile phone policy",
+          "primary": true
+        },
+        {
+          "href": "/curriculum/student-support.html",
+          "label": "Student support"
+        }
       ]
     }
   ]

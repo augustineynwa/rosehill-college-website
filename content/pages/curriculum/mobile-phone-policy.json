@@ -68,8 +68,15 @@
       "heading": "Need to reach your child during the day?",
       "text": "Parents and caregivers can call or email the Student Office, and in an emergency the school office will pass a message on to your child.",
       "actions": [
-        { "href": "/contact-us.html", "label": "Contact us", "primary": true },
-        { "href": "/curriculum/digital-learning-and-byod.html", "label": "Digital learning and BYOD" }
+        {
+          "href": "/contact-us.html",
+          "label": "Contact us",
+          "primary": true
+        },
+        {
+          "href": "/curriculum/digital-learning-and-byod.html",
+          "label": "Digital learning and BYOD"
+        }
       ]
     }
   ]

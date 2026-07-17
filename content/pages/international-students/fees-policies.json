@@ -22,15 +22,39 @@
       "heading": "Standard fees 2026 — full year",
       "lede": "The tuition fee includes GST, textbooks on loan, ESOL tuition if required, airport meet and greet on first arrival, consumables for Technology and Art subjects, and participation in school sports teams.",
       "caption": "Rosehill College international student standard fees 2026 (NZ$)",
-      "columns": ["Fee", "Amount (NZ$)"],
+      "columns": [
+        "Fee",
+        "Amount (NZ$)"
+      ],
       "rows": [
-        ["Tuition fee (one full year)", "$16,800"],
-        ["Administration fee", "$950"],
-        ["Medical and travel insurance (cover for one year)", "$700"],
-        ["Weekly homestay fee (inclusive)", "$380"],
-        ["Caregiver support fee", "$500"],
-        ["Airport pick up/drop off (each way)", "$90"],
-        ["Holiday luggage storage (flat fee)", "$200"]
+        [
+          "Tuition fee (one full year)",
+          "$16,800"
+        ],
+        [
+          "Administration fee",
+          "$950"
+        ],
+        [
+          "Medical and travel insurance (cover for one year)",
+          "$700"
+        ],
+        [
+          "Weekly homestay fee (inclusive)",
+          "$380"
+        ],
+        [
+          "Caregiver support fee",
+          "$500"
+        ],
+        [
+          "Airport pick up/drop off (each way)",
+          "$90"
+        ],
+        [
+          "Holiday luggage storage (flat fee)",
+          "$200"
+        ]
       ]
     },
     {
@@ -39,15 +63,39 @@
       "heading": "One-term fees 2026",
       "lede": "For students joining us for a single term. Shorter stays are charged at a weekly tuition rate with a four-week minimum.",
       "caption": "Rosehill College international student one-term fees 2026 (NZ$)",
-      "columns": ["Fee", "Amount (NZ$)"],
+      "columns": [
+        "Fee",
+        "Amount (NZ$)"
+      ],
       "rows": [
-        ["Tuition fee (one term)", "$4,500"],
-        ["Weekly tuition fee (4 weeks minimum × $450 per week)", "$1,800"],
-        ["Administration fee", "$300"],
-        ["Medical and travel insurance (cover for one term)", "$250"],
-        ["Weekly homestay fee (inclusive)", "$380"],
-        ["Caregiver support fee", "$125"],
-        ["Airport pick up/drop off (each way)", "$90"]
+        [
+          "Tuition fee (one term)",
+          "$4,500"
+        ],
+        [
+          "Weekly tuition fee (4 weeks minimum × $450 per week)",
+          "$1,800"
+        ],
+        [
+          "Administration fee",
+          "$300"
+        ],
+        [
+          "Medical and travel insurance (cover for one term)",
+          "$250"
+        ],
+        [
+          "Weekly homestay fee (inclusive)",
+          "$380"
+        ],
+        [
+          "Caregiver support fee",
+          "$125"
+        ],
+        [
+          "Airport pick up/drop off (each way)",
+          "$90"
+        ]
       ]
     },
     {
@@ -56,24 +104,59 @@
       "heading": "Additional fees",
       "lede": "Rosehill College is a digital school and students will require either a Chromebook, laptop, or tablet for all subjects. Mathematics students are required to use a scientific calculator.",
       "caption": "Additional fees for international students 2026",
-      "columns": ["Item", "Details"],
+      "columns": [
+        "Item",
+        "Details"
+      ],
       "rows": [
-        ["Subject fees", "Some practical subjects have a charge for materials or workbooks used. Outdoor Education fees: approx. $450 – $1,000 per year."],
-        ["Exam fees", "$383.30 entry fees for NCEA Levels 1 to 3 (Years 11–13) must be paid annually in June."],
-        ["School trips", "Day field trips to art galleries, historic sites etc. — some costs may apply."],
-        ["Stationery", "Approximately $100 per year (dependent on chosen subjects)."],
-        ["Uniform", "For Years 9–13 students. Approximately $350 to $500 (second-hand uniforms are also available at a lower cost)."],
-        ["School camps", "Some subjects have extended camps as part of their fieldwork. Costs will vary."],
-        ["Textbooks", "Supplied on loan free of charge (but there will be a charge if books are lost or damaged)."],
-        ["Workbooks", "These are dependent on the subjects chosen and are approximately $28 each."]
+        [
+          "Subject fees",
+          "Some practical subjects have a charge for materials or workbooks used. Outdoor Education fees: approx. $450 – $1,000 per year."
+        ],
+        [
+          "Exam fees",
+          "$383.30 entry fees for NCEA Levels 1 to 3 (Years 11–13) must be paid annually in June."
+        ],
+        [
+          "School trips",
+          "Day field trips to art galleries, historic sites etc. — some costs may apply."
+        ],
+        [
+          "Stationery",
+          "Approximately $100 per year (dependent on chosen subjects)."
+        ],
+        [
+          "Uniform",
+          "For Years 9–13 students. Approximately $350 to $500 (second-hand uniforms are also available at a lower cost)."
+        ],
+        [
+          "School camps",
+          "Some subjects have extended camps as part of their fieldwork. Costs will vary."
+        ],
+        [
+          "Textbooks",
+          "Supplied on loan free of charge (but there will be a charge if books are lost or damaged)."
+        ],
+        [
+          "Workbooks",
+          "These are dependent on the subjects chosen and are approximately $28 each."
+        ]
       ]
     },
     {
       "type": "docs",
       "heading": "Download the 2026 fee schedules",
       "docs": [
-        { "href": "assets/docs/Standard---International-Student-Fees-2026.pdf", "label": "Standard fees 2026", "meta": "Full year — PDF" },
-        { "href": "assets/docs/One-Term---International-Student-Fees-2026.pdf", "label": "One-term fees 2026", "meta": "One term only — PDF" }
+        {
+          "href": "assets/docs/Standard---International-Student-Fees-2026.pdf",
+          "label": "Standard fees 2026",
+          "meta": "Full year — PDF"
+        },
+        {
+          "href": "assets/docs/One-Term---International-Student-Fees-2026.pdf",
+          "label": "One-term fees 2026",
+          "meta": "One term only — PDF"
+        }
       ]
     },
     {
@@ -86,12 +169,30 @@
       "id": "international-payments",
       "heading": "International payments",
       "items": [
-        { "term": "Bank", "text": "ASB Bank Limited" },
-        { "term": "Account name", "text": "Rosehill College Board" },
-        { "term": "Account number", "text": "12-3031-0837472-00" },
-        { "term": "SWIFT/BIC code", "text": "ASBBNZ2A" },
-        { "term": "Bank address", "text": "166 Great South Road, Papakura 2110, New Zealand" },
-        { "term": "Payment reference", "text": "Please ensure the student's full name and student ID are included as the payment reference so we can correctly allocate the payment." }
+        {
+          "term": "Bank",
+          "text": "ASB Bank Limited"
+        },
+        {
+          "term": "Account name",
+          "text": "Rosehill College Board"
+        },
+        {
+          "term": "Account number",
+          "text": "12-3031-0837472-00"
+        },
+        {
+          "term": "SWIFT/BIC code",
+          "text": "ASBBNZ2A"
+        },
+        {
+          "term": "Bank address",
+          "text": "166 Great South Road, Papakura 2110, New Zealand"
+        },
+        {
+          "term": "Payment reference",
+          "text": "Please ensure the student's full name and student ID are included as the payment reference so we can correctly allocate the payment."
+        }
       ]
     },
     {
@@ -148,8 +249,15 @@
       "heading": "Ready to take the next step?",
       "text": "Find out how to apply, what to expect when you arrive, and why students from around the world choose Rosehill College.",
       "actions": [
-        { "href": "/international-students/applying-nz-arrival-information.html", "label": "Applying and arrival information", "primary": true },
-        { "href": "/international-students/why-study-at-rosehill.html", "label": "Why study at Rosehill" }
+        {
+          "href": "/international-students/applying-nz-arrival-information.html",
+          "label": "Applying and arrival information",
+          "primary": true
+        },
+        {
+          "href": "/international-students/why-study-at-rosehill.html",
+          "label": "Why study at Rosehill"
+        }
       ]
     }
   ]

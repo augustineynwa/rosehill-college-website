@@ -24,8 +24,15 @@
       "heading": "Like what you see?",
       "text": "Start your enrolment at Rosehill College today, or get in touch if you have any questions.",
       "actions": [
-        { "href": "/join-us/enrolment.html", "label": "Enrol now", "primary": true },
-        { "href": "/contact-us.html", "label": "Contact us" }
+        {
+          "href": "/join-us/enrolment.html",
+          "label": "Enrol now",
+          "primary": true
+        },
+        {
+          "href": "/contact-us.html",
+          "label": "Contact us"
+        }
       ]
     }
   ]

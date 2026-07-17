@@ -11,8 +11,16 @@
       "heading": "Uniform and stationery",
       "lede": "Uniform and stationery information for Years 9 to 13. Stationery can be purchased online, and uniform is available from The Uniform Shoppe in Papakura.",
       "actions": [
-        { "href": "https://theuniformshoppe.co.nz/location/papakura/rosehill-college/", "label": "Order uniform online", "primary": true, "external": true },
-        { "href": "#stationery", "label": "Stationery lists" }
+        {
+          "href": "https://theuniformshoppe.co.nz/location/papakura/rosehill-college/",
+          "label": "Order uniform online",
+          "primary": true,
+          "external": true
+        },
+        {
+          "href": "#stationery",
+          "label": "Stationery lists"
+        }
       ]
     },
     {
@@ -21,13 +29,31 @@
       "heading": "Rosehill College uniform",
       "lede": "Students are not able to wear their sports hoodies or sports uniform to school — these can only be worn when participating in their codes and practices.",
       "caption": "Rosehill College uniform requirements",
-      "columns": ["Item", "Requirement"],
+      "columns": [
+        "Item",
+        "Requirement"
+      ],
       "rows": [
-        ["Bottoms — all students", "Unisex navy long pants and/or shorts, or a navy skirt (short and long are available).<br>No tartan skirts. Please note: no black pants or shorts to be worn."],
-        ["Shirts — Years 9 to 11", "Blue shirts with embroidered sleeves and school crest. Available in a men's and a women's cut."],
-        ["Shirts — Years 12 and 13", "White shirts with embroidered sleeves and school crest. Available in a men's and a women's cut.<br>Blazer and school tie are optional, except for student leaders."],
-        ["House shirts — compulsory", "Worn for all House activities, fun days and sports events within school, and as the Physical Education uniform for practical classes."],
-        ["Shoes", "All-black lace-up shoes, black Roman sandals or black Burgan stocks."]
+        [
+          "Bottoms — all students",
+          "Unisex navy long pants and/or shorts, or a navy skirt (short and long are available).<br>No tartan skirts. Please note: no black pants or shorts to be worn."
+        ],
+        [
+          "Shirts — Years 9 to 11",
+          "Blue shirts with embroidered sleeves and school crest. Available in a men's and a women's cut."
+        ],
+        [
+          "Shirts — Years 12 and 13",
+          "White shirts with embroidered sleeves and school crest. Available in a men's and a women's cut.<br>Blazer and school tie are optional, except for student leaders."
+        ],
+        [
+          "House shirts — compulsory",
+          "Worn for all House activities, fun days and sports events within school, and as the Physical Education uniform for practical classes."
+        ],
+        [
+          "Shoes",
+          "All-black lace-up shoes, black Roman sandals or black Burgan stocks."
+        ]
       ],
       "note": "All new students to Rosehill College will purchase the new uniform."
     },
@@ -72,11 +98,31 @@
       "lede": "Stationery is not sold by the school. You are welcome to purchase stationery from <a href=\"https://www.myschool.co.nz/rosehillcollege\" rel=\"external\">OfficeMax</a> or any outside supplier such as Warehouse Stationery or a local high street chain.",
       "columns": true,
       "docs": [
-        { "href": "assets/docs/Year-9-Stationery-List.pdf", "label": "Year 9 stationery list", "meta": "PDF" },
-        { "href": "assets/docs/Year-10-Stationery-List.pdf", "label": "Year 10 stationery list", "meta": "PDF" },
-        { "href": "assets/docs/Year-11-Stationery-List.pdf", "label": "Year 11 stationery list", "meta": "PDF" },
-        { "href": "assets/docs/Year-12-Stationery-List.pdf", "label": "Year 12 stationery list", "meta": "PDF" },
-        { "href": "assets/docs/Year-13-Stationery-List.pdf", "label": "Year 13 stationery list", "meta": "PDF" }
+        {
+          "href": "assets/docs/Year-9-Stationery-List.pdf",
+          "label": "Year 9 stationery list",
+          "meta": "PDF"
+        },
+        {
+          "href": "assets/docs/Year-10-Stationery-List.pdf",
+          "label": "Year 10 stationery list",
+          "meta": "PDF"
+        },
+        {
+          "href": "assets/docs/Year-11-Stationery-List.pdf",
+          "label": "Year 11 stationery list",
+          "meta": "PDF"
+        },
+        {
+          "href": "assets/docs/Year-12-Stationery-List.pdf",
+          "label": "Year 12 stationery list",
+          "meta": "PDF"
+        },
+        {
+          "href": "assets/docs/Year-13-Stationery-List.pdf",
+          "label": "Year 13 stationery list",
+          "meta": "PDF"
+        }
       ]
     },
     {
@@ -84,8 +130,15 @@
       "heading": "Ready for the first day?",
       "text": "Start-of-school information, term dates and the student handbook are all ready for whānau.",
       "actions": [
-        { "href": "/our-school/start-of-school-information.html", "label": "Start of school information", "primary": true },
-        { "href": "/join-us/enrolment.html", "label": "Enrolment" }
+        {
+          "href": "/our-school/start-of-school-information.html",
+          "label": "Start of school information",
+          "primary": true
+        },
+        {
+          "href": "/join-us/enrolment.html",
+          "label": "Enrolment"
+        }
       ]
     }
   ]

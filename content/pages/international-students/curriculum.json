@@ -18,11 +18,15 @@
       "image": {
         "src": "assets/img/International-Students---Curriculum---Education-Journey-Infographic_1.avif",
         "srcset": "",
-        "alt": "Infographic showing the New Zealand secondary education journey at Rosehill College, from Year 11 foundation study through NCEA Levels 2 and 3 in Years 12 and 13 towards University Entrance and tertiary study"
+        "alt": "Infographic showing the New Zealand secondary education journey at Rosehill College, from Year 11 foundation study through NCEA Levels 2 and 3 in Years 12 and 13 towards University Entrance and tertiary study",
+        "fit": "contain"
       },
       "html": "<p>ESOL support is provided where needed and we have Chinese interpreters available.</p><p>Our Year 12 and 13 courses give students the opportunity to gain New Zealand's NCEA qualification at Levels 2 and 3, providing a pathway to tertiary study. NCEA is an internationally recognised qualification accepted by universities worldwide.</p><p>Year 11 students study a curriculum tailored to provide a strong foundation for the rigours of NCEA in Year 12. All subjects at this level offer NCEA-style evaluations, to ensure students are ready for external assessments in Year 12.</p>",
       "actions": [
-        { "href": "/curriculum/course-information.html", "label": "View course information" }
+        {
+          "href": "/curriculum/course-information.html",
+          "label": "View course information"
+        }
       ]
     },
     {
@@ -32,9 +36,18 @@
       "heading": "Our results",
       "lede": "The success of our international students is very important to us. Our International and Careers Departments work closely with students to ensure they are enrolled in appropriate courses, taking the correct number of credits, and are on track to achieve.",
       "stats": [
-        { "value": "93%", "label": "of international students who sat NCEA Levels 2 and 3 gained their qualification (2023)" },
-        { "value": "100%", "label": "of students who sat University Entrance obtained it (2023)" },
-        { "value": "40+", "label": "subject options in Year 12 and 13" }
+        {
+          "value": "93%",
+          "label": "of international students who sat NCEA Levels 2 and 3 gained their qualification (2023)"
+        },
+        {
+          "value": "100%",
+          "label": "of students who sat University Entrance obtained it (2023)"
+        },
+        {
+          "value": "40+",
+          "label": "subject options in Year 12 and 13"
+        }
       ]
     },
     {
@@ -49,8 +62,15 @@
       "heading": "Ready to study with us?",
       "text": "Discover why international students choose Rosehill College, and how to apply.",
       "actions": [
-        { "href": "/international-students/why-study-at-rosehill.html", "label": "Why study at Rosehill?", "primary": true },
-        { "href": "/international-students/applying-nz-arrival-information.html", "label": "Applying & arrival" }
+        {
+          "href": "/international-students/why-study-at-rosehill.html",
+          "label": "Why study at Rosehill?",
+          "primary": true
+        },
+        {
+          "href": "/international-students/applying-nz-arrival-information.html",
+          "label": "Applying & arrival"
+        }
       ]
     }
   ]

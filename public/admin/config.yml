@@ -237,6 +237,10 @@ collections:
                         name: pos
                         widget: hidden
                         required: false
+                      - label: fit
+                        name: fit
+                        widget: hidden
+                        required: false
                   - label: Buttons
                     name: actions
                     widget: list
@@ -319,6 +323,10 @@ collections:
                             name: pos
                             widget: hidden
                             required: false
+                          - label: fit
+                            name: fit
+                            widget: hidden
+                            required: false
                       - label: Side panel content
                         name: html
                         widget: markdown
@@ -367,6 +375,10 @@ collections:
                         required: false
                       - label: pos
                         name: pos
+                        widget: hidden
+                        required: false
+                      - label: fit
+                        name: fit
                         widget: hidden
                         required: false
                   - label: Content
@@ -520,6 +532,10 @@ collections:
                             required: false
                           - label: pos
                             name: pos
+                            widget: hidden
+                            required: false
+                          - label: fit
+                            name: fit
                             widget: hidden
                             required: false
               - label: Table
@@ -724,6 +740,10 @@ collections:
                         name: pos
                         widget: hidden
                         required: false
+                      - label: fit
+                        name: fit
+                        widget: hidden
+                        required: false
                   - label: Buttons
                     name: actions
                     widget: list
@@ -859,6 +879,10 @@ collections:
                             required: false
                           - label: pos
                             name: pos
+                            widget: hidden
+                            required: false
+                          - label: fit
+                            name: fit
                             widget: hidden
                             required: false
               - label: People / staff list
@@ -1120,6 +1144,10 @@ collections:
                             name: pos
                             widget: hidden
                             required: false
+                          - label: fit
+                            name: fit
+                            widget: hidden
+                            required: false
                   - label: Stories
                     name: items
                     widget: list
@@ -1161,6 +1189,10 @@ collections:
                             required: false
                           - label: pos
                             name: pos
+                            widget: hidden
+                            required: false
+                          - label: fit
+                            name: fit
                             widget: hidden
                             required: false
             summary: '{{fields.heading}}'
@@ -1721,6 +1753,10 @@ collections:
                             name: pos
                             widget: hidden
                             required: false
+                          - label: fit
+                            name: fit
+                            widget: hidden
+                            required: false
               - label: Homepage — life gallery (pinned)
                 name: home-life
                 widget: object
@@ -1845,6 +1881,10 @@ collections:
                             required: false
                           - label: pos
                             name: pos
+                            widget: hidden
+                            required: false
+                          - label: fit
+                            name: fit
                             widget: hidden
                             required: false
               - label: Homepage — co-curricular montage

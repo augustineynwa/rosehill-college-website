@@ -37,9 +37,21 @@
       "heading": "Junior courses (Year 9–11)",
       "lede": "Our junior curriculum is designed to provide a comprehensive and engaging educational experience for Year 9, Year 10 and Year 11 students. We aim to lay a solid foundation for future academic success and personal growth by offering a wide variety of subjects that cater to diverse interests and abilities.",
       "docs": [
-        { "href": "assets/docs/Course-Info-Year-9-2026.pdf", "label": "Year 9 courses 2026", "meta": "PDF" },
-        { "href": "assets/docs/Course-Info-Year-10-2026.pdf", "label": "Year 10 courses 2026", "meta": "PDF" },
-        { "href": "assets/docs/Course-Info-Year-11-2026.pdf", "label": "Year 11 courses 2026", "meta": "PDF" }
+        {
+          "href": "assets/docs/Course-Info-Year-9-2026.pdf",
+          "label": "Year 9 courses 2026",
+          "meta": "PDF"
+        },
+        {
+          "href": "assets/docs/Course-Info-Year-10-2026.pdf",
+          "label": "Year 10 courses 2026",
+          "meta": "PDF"
+        },
+        {
+          "href": "assets/docs/Course-Info-Year-11-2026.pdf",
+          "label": "Year 11 courses 2026",
+          "meta": "PDF"
+        }
       ]
     },
     {
@@ -48,7 +60,11 @@
       "heading": "Senior courses (Year 12 and 13)",
       "lede": "Our senior curriculum is designed to provide Year 12 and Year 13 students with specialised and advanced learning opportunities that prepare them for higher education, vocational training, and successful careers. We offer a broad range of subjects, allowing students to tailor their education to their interests and aspirations.",
       "docs": [
-        { "href": "assets/docs/NCEA-Course-Information-2026.pdf", "label": "Year 12 & 13 NCEA course information 2026", "meta": "PDF" }
+        {
+          "href": "assets/docs/NCEA-Course-Information-2026.pdf",
+          "label": "Year 12 & 13 NCEA course information 2026",
+          "meta": "PDF"
+        }
       ]
     },
     {
@@ -56,8 +72,15 @@
       "heading": "Need help choosing your courses?",
       "text": "Our careers advisor is based in the library and can help you identify a pathway, check university or trade requirements, and make sense of the options.",
       "actions": [
-        { "href": "mailto:careers@rosehillcollege.school.nz", "label": "Email the careers advisor", "primary": true },
-        { "href": "/contact-us.html", "label": "Contact the college" }
+        {
+          "href": "mailto:careers@rosehillcollege.school.nz",
+          "label": "Email the careers advisor",
+          "primary": true
+        },
+        {
+          "href": "/contact-us.html",
+          "label": "Contact the college"
+        }
       ]
     }
   ]

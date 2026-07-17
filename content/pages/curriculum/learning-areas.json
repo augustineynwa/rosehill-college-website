@@ -93,7 +93,8 @@
         "image": {
           "src": "assets/img/Curriculum---Subjects---Languages_1.avif",
           "srcset": "",
-          "alt": "Rosehill College students learning together in class"
+          "alt": "Rosehill College students learning together in class",
+          "fit": "contain"
         }
       }
     },

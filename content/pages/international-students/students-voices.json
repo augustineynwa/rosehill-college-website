@@ -47,8 +47,15 @@
       "heading": "Add your voice to our community",
       "text": "Discover why international students choose Rosehill College, and how to join us.",
       "actions": [
-        { "href": "/international-students/why-study-at-rosehill.html", "label": "Why study at Rosehill?", "primary": true },
-        { "href": "/international-students/applying-nz-arrival-information.html", "label": "Applying & arrival" }
+        {
+          "href": "/international-students/why-study-at-rosehill.html",
+          "label": "Why study at Rosehill?",
+          "primary": true
+        },
+        {
+          "href": "/international-students/applying-nz-arrival-information.html",
+          "label": "Applying & arrival"
+        }
       ]
     }
   ]

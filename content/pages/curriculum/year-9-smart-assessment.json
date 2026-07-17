@@ -16,10 +16,22 @@
       "id": "key-details",
       "heading": "Key details at a glance",
       "items": [
-        { "term": "Dates", "text": "Monday 4 – Friday 15 May" },
-        { "term": "Where", "text": "Students complete the assessment in the Hall" },
-        { "term": "Duration", "text": "Each assessment typically takes 30–45 minutes" },
-        { "term": "Devices", "text": "Assessments are completed online — students should bring their own device. Parents can let Kaitiaki/Head of House know if a device needs to be booked. Please do so by 4th May." }
+        {
+          "term": "Dates",
+          "text": "Monday 4 – Friday 15 May"
+        },
+        {
+          "term": "Where",
+          "text": "Students complete the assessment in the Hall"
+        },
+        {
+          "term": "Duration",
+          "text": "Each assessment typically takes 30–45 minutes"
+        },
+        {
+          "term": "Devices",
+          "text": "Assessments are completed online — students should bring their own device. Parents can let Kaitiaki/Head of House know if a device needs to be booked. Please do so by 4th May."
+        }
       ]
     },
     {
@@ -51,8 +63,15 @@
       "heading": "Further information",
       "text": "For more information about SMART, please refer to the official guidance from the Ministry of Education. If you have any questions, please contact the college.",
       "actions": [
-        { "href": "https://familiarisation.smart.education.govt.nz/pages/fam-nzc", "label": "SMART familiarisation site", "primary": true },
-        { "href": "/contact-us.html", "label": "Contact the college" }
+        {
+          "href": "https://familiarisation.smart.education.govt.nz/pages/fam-nzc",
+          "label": "SMART familiarisation site",
+          "primary": true
+        },
+        {
+          "href": "/contact-us.html",
+          "label": "Contact the college"
+        }
       ]
     }
   ]

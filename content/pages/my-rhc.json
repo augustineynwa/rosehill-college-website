@@ -17,12 +17,46 @@
       "id": "students",
       "heading": "Students",
       "cards": [
-        { "title": "Portal Login", "text": "Timetables, attendance and notices.", "href": "https://rosehillcollege.school.kiwi/", "external": true, "cta": "Sign in" },
-        { "title": "NZQA Login", "text": "Check your NCEA results and entries.", "href": "https://taku.nzqa.govt.nz/auth/studentlogin", "external": true, "cta": "Sign in" },
-        { "title": "Google Classroom", "text": "Your classes, assignments and resources.", "href": "https://classroom.google.com/", "external": true, "cta": "Open" },
-        { "title": "Student Hub", "text": "Login required with your school account.", "href": "https://sites.google.com/rosehillcollege.school.nz/studenthub/studenthub", "external": true, "cta": "Open" },
-        { "title": "School Map", "text": "Find your way around the campus (PDF).", "href": "/assets/docs/Rosehill-College-Site-Map.pdf", "cta": "Download" },
-        { "title": "School Buses", "text": "Routes, timetables and zone information.", "href": "/join-us/school-zone-and-buses.html", "cta": "View" }
+        {
+          "title": "Portal Login",
+          "text": "Timetables, attendance and notices.",
+          "href": "https://rosehillcollege.school.kiwi/",
+          "external": true,
+          "cta": "Sign in"
+        },
+        {
+          "title": "NZQA Login",
+          "text": "Check your NCEA results and entries.",
+          "href": "https://taku.nzqa.govt.nz/auth/studentlogin",
+          "external": true,
+          "cta": "Sign in"
+        },
+        {
+          "title": "Google Classroom",
+          "text": "Your classes, assignments and resources.",
+          "href": "https://classroom.google.com/",
+          "external": true,
+          "cta": "Open"
+        },
+        {
+          "title": "Student Hub",
+          "text": "Login required with your school account.",
+          "href": "https://sites.google.com/rosehillcollege.school.nz/studenthub/studenthub",
+          "external": true,
+          "cta": "Open"
+        },
+        {
+          "title": "School Map",
+          "text": "Find your way around the campus (PDF).",
+          "href": "/assets/docs/Rosehill-College-Site-Map.pdf",
+          "cta": "Download"
+        },
+        {
+          "title": "School Buses",
+          "text": "Routes, timetables and zone information.",
+          "href": "/join-us/school-zone-and-buses.html",
+          "cta": "View"
+        }
       ]
     },
     {
@@ -30,12 +64,46 @@
       "id": "parents",
       "heading": "Parents and caregivers",
       "cards": [
-        { "title": "Portal Login", "text": "Attendance, reports and school notices.", "href": "https://rosehillcollege.school.kiwi/", "external": true, "cta": "Sign in" },
-        { "title": "SchoolBridge Login", "text": "The school's communication hub.", "href": "https://rosehillcollege.bridge.school.nz/", "external": true, "cta": "Sign in" },
-        { "title": "Download our school app", "text": "SchoolBridge on your phone — notices, absences and more.", "href": "https://rosehillcollege.bridge.school.nz/app", "external": true, "cta": "Get the app" },
-        { "title": "Uniform Shop", "text": "The Uniform Shoppe, Papakura.", "href": "https://theuniformshoppe.co.nz/location/papakura/rosehill-college/", "external": true, "cta": "Visit" },
-        { "title": "Start of School Information", "text": "Everything you need for the new school year.", "href": "/our-school/start-of-school-information.html", "cta": "View" },
-        { "title": "School Buses", "text": "Routes, timetables and zone information.", "href": "/join-us/school-zone-and-buses.html", "cta": "View" }
+        {
+          "title": "Portal Login",
+          "text": "Attendance, reports and school notices.",
+          "href": "https://rosehillcollege.school.kiwi/",
+          "external": true,
+          "cta": "Sign in"
+        },
+        {
+          "title": "SchoolBridge Login",
+          "text": "The school's communication hub.",
+          "href": "https://rosehillcollege.bridge.school.nz/",
+          "external": true,
+          "cta": "Sign in"
+        },
+        {
+          "title": "Download our school app",
+          "text": "SchoolBridge on your phone — notices, absences and more.",
+          "href": "https://rosehillcollege.bridge.school.nz/app",
+          "external": true,
+          "cta": "Get the app"
+        },
+        {
+          "title": "Uniform Shop",
+          "text": "The Uniform Shoppe, Papakura.",
+          "href": "https://theuniformshoppe.co.nz/location/papakura/rosehill-college/",
+          "external": true,
+          "cta": "Visit"
+        },
+        {
+          "title": "Start of School Information",
+          "text": "Everything you need for the new school year.",
+          "href": "/our-school/start-of-school-information.html",
+          "cta": "View"
+        },
+        {
+          "title": "School Buses",
+          "text": "Routes, timetables and zone information.",
+          "href": "/join-us/school-zone-and-buses.html",
+          "cta": "View"
+        }
       ]
     },
     {
@@ -54,9 +122,26 @@
       "id": "staff",
       "heading": "Staff",
       "cards": [
-        { "title": "Portal Login", "text": "Staff sign-in to the school portal.", "href": "https://rosehillcollege.school.kiwi/", "external": true, "cta": "Sign in" },
-        { "title": "Google Classroom", "text": "Manage your classes and resources.", "href": "https://classroom.google.com/", "external": true, "cta": "Open" },
-        { "title": "School Map", "text": "Campus site map (PDF).", "href": "/assets/docs/Rosehill-College-Site-Map.pdf", "cta": "Download" }
+        {
+          "title": "Portal Login",
+          "text": "Staff sign-in to the school portal.",
+          "href": "https://rosehillcollege.school.kiwi/",
+          "external": true,
+          "cta": "Sign in"
+        },
+        {
+          "title": "Google Classroom",
+          "text": "Manage your classes and resources.",
+          "href": "https://classroom.google.com/",
+          "external": true,
+          "cta": "Open"
+        },
+        {
+          "title": "School Map",
+          "text": "Campus site map (PDF).",
+          "href": "/assets/docs/Rosehill-College-Site-Map.pdf",
+          "cta": "Download"
+        }
       ]
     }
   ]

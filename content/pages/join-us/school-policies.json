@@ -24,8 +24,16 @@
       "type": "docs",
       "heading": "Privacy statements",
       "docs": [
-        { "href": "https://docs.google.com/document/d/1y_ANMVdFTWgIxOrQBPkAHPxDZlHUOc--uPJAPVTDJK8/edit?usp=sharing", "label": "Privacy statement", "meta": "Google Doc" },
-        { "href": "assets/docs/Privacy-Statement-Regarding-Student-Vaccinations.pdf", "label": "Privacy statement regarding student vaccinations", "meta": "PDF" }
+        {
+          "href": "https://docs.google.com/document/d/1y_ANMVdFTWgIxOrQBPkAHPxDZlHUOc--uPJAPVTDJK8/edit?usp=sharing",
+          "label": "Privacy statement",
+          "meta": "Google Doc"
+        },
+        {
+          "href": "assets/docs/Privacy-Statement-Regarding-Student-Vaccinations.pdf",
+          "label": "Privacy statement regarding student vaccinations",
+          "meta": "PDF"
+        }
       ]
     },
     {

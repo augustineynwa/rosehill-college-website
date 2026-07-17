@@ -18,11 +18,17 @@
       "image": {
         "src": "assets/img/School-App-Flyer.avif",
         "srcset": "/assets/img/6788492c6806e8ef1db10541cd612e96_App-flyer-1-p-500.avif 500w, /assets/img/6788492c6806e8ef1db10541cd612e96_App-flyer-1-p-800.avif 800w, /assets/img/6788492c6806e8ef1db10541cd612e96_App-flyer-1-p-1080.avif 1080w",
-        "alt": "Rosehill College school app flyer"
+        "alt": "Rosehill College school app flyer",
+        "fit": "contain"
       },
       "html": "<ul><li>The current school app will be replaced with an improved version.</li><li>More features and easier access.</li><li>Instructions will be shared as soon as the new app is ready.</li></ul>",
       "actions": [
-        { "href": "https://rosehillcollege.bridge.school.nz/app", "label": "Get the SchoolBridge app", "primary": true, "external": true }
+        {
+          "href": "https://rosehillcollege.bridge.school.nz/app",
+          "label": "Get the SchoolBridge app",
+          "primary": true,
+          "external": true
+        }
       ]
     },
     {
@@ -30,7 +36,11 @@
       "heading": "Need to reach us in the meantime?",
       "text": "Report absences on 0800 722 929, or contact the front office for anything else.",
       "actions": [
-        { "href": "/contact-us.html", "label": "Contact us", "primary": true }
+        {
+          "href": "/contact-us.html",
+          "label": "Contact us",
+          "primary": true
+        }
       ]
     }
   ]
