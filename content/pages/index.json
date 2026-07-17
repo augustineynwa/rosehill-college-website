@@ -180,8 +180,8 @@
             "label": "Senior courses"
           },
           "image": {
-            "src": "assets/img/2026-head-students-06.avif",
-            "srcset": "/assets/img/2026-head-students-06-p-500.avif 500w, /assets/img/2026-head-students-06-p-800.avif 800w, /assets/img/2026-head-students-06-p-1080.avif 1080w",
+            "src": "assets/img/Curriculum---Digital-Learning---Cyber-Security.avif",
+            "srcset": "/assets/img/Curriculum---Digital-Learning---Cyber-Security-p-500.avif 500w",
             "alt": ""
           }
         },
