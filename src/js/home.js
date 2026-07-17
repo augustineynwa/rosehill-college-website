@@ -175,13 +175,15 @@ export async function initHome(gsap, ScrollTrigger, lenis) {
       if (loaded) return;
       loaded = true;
       video.poster = video.dataset.poster;
-      const webm = document.createElement('source');
-      webm.src = video.dataset.webm;
-      webm.type = 'video/webm';
+      // H.264 first: it has hardware decode on virtually every machine, while
+      // VP9/webm often falls back to software decode (costly at full-screen).
       const mp4 = document.createElement('source');
       mp4.src = video.dataset.mp4;
       mp4.type = 'video/mp4';
-      video.append(webm, mp4);
+      const webm = document.createElement('source');
+      webm.src = video.dataset.webm;
+      webm.type = 'video/webm';
+      video.append(mp4, webm);
       video.load();
     };
     new IntersectionObserver(([entry]) => {

@@ -16,7 +16,10 @@
   height: 100%;
   object-fit: cover;
   opacity: 0.12;
-  filter: saturate(0.55) contrast(1.05);
+  /* NO css filter here. A filter on a <video> forces the compositor to drop
+     the hardware overlay and run a shader pass over the full-viewport surface
+     every frame — the single biggest cause of hero jank. The muted look is
+     carried by the low opacity + the vignette above it instead. */
 }
 /* deep vignette so the crest reads cleanly over the ambient drone footage */
 .home-hero__vignette {
