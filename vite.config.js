@@ -37,6 +37,13 @@ function renderPlugin() {
           }
         }
       };
+      // /admin → /admin/index.html (production hosts do this directory-index
+      // resolution themselves; Vite's public dir does not)
+      server.middlewares.use((req, _res, next) => {
+        if (req.url === '/admin' || req.url === '/admin/') req.url = '/admin/index.html';
+        next();
+      });
+
       server.watcher.add([resolve(__dirname, 'templates'), resolve(__dirname, 'content')]);
       server.watcher.on('change', rerender);
       server.watcher.on('add', rerender);

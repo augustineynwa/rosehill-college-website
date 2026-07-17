@@ -17,3 +17,6 @@ lh-*.json
 
 # generated responsive image variants (rebuild with scripts/gen-image-variants.mjs)
 public/assets/img/*-rp-*.avif
+
+# CMS: generated schema (rebuild with npm run cms:config)
+public/admin/config.yml

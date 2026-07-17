@@ -9,18 +9,23 @@
     "render": "node scripts/render.mjs",
     "crest": "node scripts/build-crest.mjs",
     "dev": "node scripts/render.mjs && vite",
+    "cms:config": "node scripts/gen-cms-config.mjs",
+    "cms": "decap-server",
     "build": "node scripts/render.mjs && vite build && node scripts/inline-css.mjs",
     "preview": "vite preview"
   },
   "dependencies": {
     "gsap": "^3.12.5",
     "lenis": "^1.1.14",
+    "marked": "^18.0.6",
     "three": "^0.169.0"
   },
   "devDependencies": {
     "@xmldom/xmldom": "^0.9.5",
     "cheerio": "^1.0.0",
+    "decap-server": "^3.9.1",
     "handlebars": "^4.7.8",
+    "js-yaml": "^5.2.1",
     "sharp": "^0.35.3",
     "vite": "^5.4.8"
   }

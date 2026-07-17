@@ -10,6 +10,7 @@
  * URLs are written with {{root}} so nested pages resolve assets correctly. }
  */
 import Handlebars from 'handlebars';
+import { marked } from 'marked';
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, statSync, rmSync, existsSync } from 'node:fs';
 import { join, dirname, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -66,6 +67,26 @@ for (const f of walk(join(TPL, 'layouts'), '.hbs')) {
 // ---------- global site data ----------
 const site = JSON.parse(readFileSync(join(CONTENT, 'site.json'), 'utf8'));
 
+/**
+ * Rich-text fields may be authored either as raw HTML (how the pages were
+ * originally built) or as markdown (what the CMS rich-text editor writes).
+ * marked passes block-level HTML through byte-identically, so running every
+ * rich-text field through it makes both authoring styles render correctly.
+ */
+marked.setOptions({ mangle: false, headerIds: false });
+function renderRichText(node) {
+  if (Array.isArray(node)) { node.forEach(renderRichText); return; }
+  if (!node || typeof node !== 'object') return;
+  for (const [key, value] of Object.entries(node)) {
+    // `aside` is a string on contact-form but an object elsewhere — only the string form is rich text
+    if ((key === 'html' || key === 'aside') && typeof value === 'string') {
+      node[key] = marked.parse(value).trim();
+    } else {
+      renderRichText(value);
+    }
+  }
+}
+
 // ---------- render pages + search index ----------
 const searchIndex = [];
 function sectionText(sec) {
@@ -84,6 +105,7 @@ function sectionText(sec) {
 let count = 0;
 for (const f of walk(join(CONTENT, 'pages'), '.json')) {
   const page = JSON.parse(readFileSync(f, 'utf8'));
+  renderRichText(page.sections);
   const outPath = join(ROOT, page.path);
   const depth = page.path.split('/').length - 1;
   const root = depth === 0 ? './' : '../'.repeat(depth);
