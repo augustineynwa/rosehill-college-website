@@ -63,27 +63,26 @@ Run after adding pages or section types:
 npm run cms:config   # rewrites public/admin/config.yml
 ```
 
-## Going live (what's still to do)
+## Status of the three gaps
 
-The trial uses `local_backend: true`, which is local-only. For real staff use:
+| Gap | Status |
+| --- | --- |
+| **1. Auth / staff login** | **Deferred by choice.** `/admin` is stripped from the public build (`strip-admin.mjs`), so the CMS is local-only. See DEPLOY.md for how to enable it. |
+| **2. Uploads skipped the image pipeline** | **Closed.** `gen-image-variants.mjs` now handles jpg/png/webp/avif and runs as the first step of `npm run build`. Verified: a 619KB / 3000px upload produced 500/800/1080/1600 variants + srcset automatically. Variants are written in the *same format* as the source — emitting avif next to a jpg `src` would break browsers without avif support, since srcset does no format negotiation. |
+| **3. Media was gitignored** | **Closed.** `public/assets/**` is now tracked (~100MB / ~690 files, well inside Cloudflare Pages' 20,000-file / 25MiB-per-file limits). 30MB of unreferenced video from the Webflow export was pruned. |
 
-1. **Host the site** — Cloudflare Pages / Netlify (static; free tier is ample).
-2. **Pick an auth backend** — swap `backend:` in the generated config:
-   - GitHub/GitLab backend + OAuth (staff need an account on that provider), or
-   - Netlify Identity / a small OAuth proxy (staff log in with email — friendlier).
-3. **Remove `local_backend: true`.**
-4. **Un-ignore uploaded media.** `public/assets/img/` is currently gitignored
-   (the bulk export was kept out of the repo). For CMS uploads to commit and
-   deploy, that needs revisiting — either track the folder or point
-   `media_folder` at a tracked directory / external media store.
-5. Optional: **editorial workflow** (`publish_mode: editorial_workflow`) adds a
-   draft → review → publish flow via pull requests.
+## Enabling staff login later
 
-## Known gaps to weigh before committing
+1. Pick an auth backend and set `backend:` + `local_backend: false` in
+   `scripts/gen-cms-config.mjs`:
+   - GitHub/GitLab OAuth (staff need an account on that provider), or
+   - an identity service for plain email logins (friendlier for non-technical staff).
+2. Remove `strip-admin.mjs` from the `build:deploy` script.
+3. Connect continuous deploys so a published edit rebuilds the site.
+4. Optional: `publish_mode: editorial_workflow` adds draft → review → publish.
 
-- **Uploaded photos skip the responsive pipeline.** `gen-image-variants.mjs`
-  generates the resized AVIFs; a CMS upload won't have them (it'll just use the
-  original). Fix: run the script in the build, or accept larger images.
+## Remaining rough edges
+
 - **Table rows** are edited as a list of cells — workable, but the least
   elegant part of the UI.
 - **No visual preview** of the styled page inside the CMS (the preview pane is

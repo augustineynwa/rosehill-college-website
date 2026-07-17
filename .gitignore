@@ -1,6 +1,7 @@
 node_modules/
 dist/
-# generated pages (rendered from content/ + templates/ — run `npm run render`)
+
+# Generated pages — rendered from content/ + templates/ by `npm run render`
 /*.html
 /our-school/
 /our-community/
@@ -8,15 +9,11 @@ dist/
 /cocurricular/
 /join-us/
 /international-students/
-# large binary assets copied from the Webflow export (see scripts/copy notes in README)
-public/assets/img/
-public/assets/video/
-public/assets/docs/
+
+# Build/scratch artefacts
 carlito.css
 lh-*.json
 
-# generated responsive image variants (rebuild with scripts/gen-image-variants.mjs)
-public/assets/img/*-rp-*.avif
-
-# CMS: generated schema (rebuild with npm run cms:config)
-public/admin/config.yml
+# Media IS tracked (public/assets/**) so that CMS uploads and the existing
+# photography deploy with the site. ~100MB across ~690 files — well inside
+# Cloudflare Pages / Netlify limits.

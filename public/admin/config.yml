@@ -1,0 +1,2829 @@
+backend:
+  name: git-gateway
+  branch: master
+local_backend: true
+media_folder: public/assets/img
+public_folder: assets/img
+publish_mode: simple
+site_url: /
+logo_url: /assets/img/RHC-Official-Crest.svg
+collections:
+  - name: settings
+    label: Site settings
+    files:
+      - name: site
+        label: Contact details, nav & footer
+        file: content/site.json
+        format: json
+        fields:
+          - label: School name
+            name: name
+            widget: string
+            required: false
+          - label: Motto (te reo Māori)
+            name: motto
+            widget: string
+            required: false
+          - label: Vision (English)
+            name: vision
+            widget: text
+            required: false
+          - label: Addresses
+            name: address
+            widget: object
+            collapsed: true
+            fields:
+              - label: Physical address (one line per row)
+                name: physical
+                widget: list
+                field:
+                  label: Line
+                  name: line
+                  widget: string
+                  required: false
+              - label: Postal address
+                name: postal
+                widget: list
+                field:
+                  label: Line
+                  name: line
+                  widget: string
+                  required: false
+          - label: Contact
+            name: contact
+            widget: object
+            collapsed: true
+            fields:
+              - label: Phone
+                name: phone
+                widget: string
+                required: false
+              - label: Phone link (tel:)
+                name: phoneHref
+                widget: string
+                required: false
+              - label: Fax
+                name: fax
+                widget: string
+                required: false
+              - label: Email
+                name: email
+                widget: string
+                required: false
+              - label: Attendance email
+                name: attendanceEmail
+                widget: string
+                required: false
+              - label: Attendance phone
+                name: attendancePhone
+                widget: string
+                required: false
+              - label: Attendance phone link (tel:)
+                name: attendancePhoneHref
+                widget: string
+                required: false
+          - label: External links
+            name: external
+            widget: object
+            collapsed: true
+            fields:
+              - label: My RHC
+                name: myRhc
+                widget: string
+                required: false
+              - label: School app
+                name: schoolApp
+                widget: string
+                required: false
+              - label: Adult education
+                name: adultEducation
+                widget: string
+                required: false
+              - label: Facebook
+                name: facebook
+                widget: string
+                required: false
+              - label: Instagram
+                name: instagram
+                widget: string
+                required: false
+          - label: Main navigation
+            name: nav
+            widget: list
+            collapsed: true
+            label_singular: Menu item
+            summary: '{{fields.label}}'
+            fields:
+              - label: Label
+                name: label
+                widget: string
+                required: false
+              - label: Link (leave blank if it has a dropdown)
+                name: href
+                widget: string
+                required: false
+              - label: Dropdown items
+                name: children
+                widget: list
+                required: false
+                collapsed: true
+                summary: '{{fields.label}}'
+                fields:
+                  - label: Label
+                    name: label
+                    widget: string
+                    required: false
+                  - label: Link
+                    name: href
+                    widget: string
+                    required: false
+                  - label: Links to another website
+                    name: external
+                    widget: boolean
+                    required: false
+                    default: false
+          - label: Footer quick links
+            name: footerLinks
+            widget: list
+            collapsed: true
+            summary: '{{fields.label}}'
+            fields:
+              - label: Label
+                name: label
+                widget: string
+                required: false
+              - label: Link
+                name: href
+                widget: string
+                required: false
+          - label: Copyright line
+            name: copyright
+            widget: string
+            required: false
+  - name: pages
+    label: Pages
+    files:
+      - name: '404'
+        label: '404'
+        file: content/pages/404.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: 404.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: not-found
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: &ref_0
+              - label: Hero (page top)
+                name: hero
+                widget: object
+                fields:
+                  - label: Eyebrow (small label above the heading)
+                    name: eyebrow
+                    widget: string
+                    required: false
+                  - label: Eyebrow is te reo Māori
+                    name: reo
+                    widget: boolean
+                    required: false
+                    default: false
+                  - label: Heading
+                    name: heading
+                    widget: string
+                    required: false
+                  - label: Intro paragraph
+                    name: lede
+                    widget: text
+                    required: false
+                  - label: Image
+                    name: image
+                    widget: object
+                    required: false
+                    collapsed: true
+                    fields:
+                      - label: Photo
+                        name: src
+                        widget: image
+                        required: false
+                        hint: Choose an existing photo or upload a new one
+                      - label: Alt text — describe what is in the photo
+                        name: alt
+                        widget: string
+                        required: false
+                        hint: Read aloud to people using a screen reader. Leave blank only if purely decorative.
+                      - label: srcset
+                        name: srcset
+                        widget: hidden
+                        required: false
+                      - label: pos
+                        name: pos
+                        widget: hidden
+                        required: false
+                  - label: Buttons
+                    name: actions
+                    widget: list
+                    required: false
+                    collapsed: true
+                    label_singular: Button
+                    summary: '{{fields.label}}  →  {{fields.href}}'
+                    fields:
+                      - label: Button text
+                        name: label
+                        widget: string
+                        required: false
+                      - label: Link
+                        name: href
+                        widget: string
+                        required: false
+                      - label: Primary (red) button
+                        name: primary
+                        widget: boolean
+                        required: false
+                        default: false
+                      - label: Links to another website
+                        name: external
+                        widget: boolean
+                        required: false
+                        default: false
+              - label: Text block
+                name: prose
+                widget: object
+                fields:
+                  - label: id
+                    name: id
+                    widget: hidden
+                    required: false
+                  - label: Eyebrow (small label above the heading)
+                    name: eyebrow
+                    widget: string
+                    required: false
+                  - label: Eyebrow is te reo Māori
+                    name: reo
+                    widget: boolean
+                    required: false
+                    default: false
+                  - label: Heading
+                    name: heading
+                    widget: string
+                    required: false
+                  - label: Content
+                    name: html
+                    widget: markdown
+                    required: false
+                    hint: Formatted text. Existing content is HTML and is preserved as-is.
+                  - label: Side panel
+                    name: aside
+                    widget: object
+                    required: false
+                    collapsed: true
+                    fields:
+                      - label: Image
+                        name: image
+                        widget: object
+                        required: false
+                        collapsed: true
+                        fields:
+                          - label: Photo
+                            name: src
+                            widget: image
+                            required: false
+                            hint: Choose an existing photo or upload a new one
+                          - label: Alt text — describe what is in the photo
+                            name: alt
+                            widget: string
+                            required: false
+                            hint: Read aloud to people using a screen reader. Leave blank only if purely decorative.
+                          - label: srcset
+                            name: srcset
+                            widget: hidden
+                            required: false
+                          - label: pos
+                            name: pos
+                            widget: hidden
+                            required: false
+                      - label: Side panel content
+                        name: html
+                        widget: markdown
+                        required: false
+                        hint: Formatted text. Existing content is HTML and is preserved as-is.
+              - label: Photo + text
+                name: media-text
+                widget: object
+                fields:
+                  - label: id
+                    name: id
+                    widget: hidden
+                    required: false
+                  - label: Eyebrow (small label above the heading)
+                    name: eyebrow
+                    widget: string
+                    required: false
+                  - label: Eyebrow is te reo Māori
+                    name: reo
+                    widget: boolean
+                    required: false
+                    default: false
+                  - label: Heading
+                    name: heading
+                    widget: string
+                    required: false
+                  - label: Image
+                    name: image
+                    widget: object
+                    required: false
+                    collapsed: true
+                    fields:
+                      - label: Photo
+                        name: src
+                        widget: image
+                        required: false
+                        hint: Choose an existing photo or upload a new one
+                      - label: Alt text — describe what is in the photo
+                        name: alt
+                        widget: string
+                        required: false
+                        hint: Read aloud to people using a screen reader. Leave blank only if purely decorative.
+                      - label: srcset
+                        name: srcset
+                        widget: hidden
+                        required: false
+                      - label: pos
+                        name: pos
+                        widget: hidden
+                        required: false
+                  - label: Content
+                    name: html
+                    widget: markdown
+                    required: false
+                    hint: Formatted text. Existing content is HTML and is preserved as-is.
+                  - label: Put the photo on the right
+                    name: flip
+                    widget: boolean
+                    required: false
+                    default: false
+                  - label: Tall (portrait) photo
+                    name: portrait
+                    widget: boolean
+                    required: false
+                    default: false
+                  - label: Buttons
+                    name: actions
+                    widget: list
+                    required: false
+                    collapsed: true
+                    label_singular: Button
+                    summary: '{{fields.label}}  →  {{fields.href}}'
+                    fields:
+                      - label: Button text
+                        name: label
+                        widget: string
+                        required: false
+                      - label: Link
+                        name: href
+                        widget: string
+                        required: false
+                      - label: Primary (red) button
+                        name: primary
+                        widget: boolean
+                        required: false
+                        default: false
+                      - label: Links to another website
+                        name: external
+                        widget: boolean
+                        required: false
+                        default: false
+              - label: Photo gallery
+                name: gallery
+                widget: object
+                fields:
+                  - label: Heading
+                    name: heading
+                    widget: string
+                    required: false
+                  - label: Intro paragraph
+                    name: lede
+                    widget: text
+                    required: false
+                  - label: Photos
+                    name: images
+                    widget: list
+                    label_singular: Photo
+                    collapsed: true
+                    summary: '{{fields.caption}} {{fields.alt}}'
+                    fields:
+                      - label: Photo
+                        name: src
+                        widget: image
+                        required: false
+                      - label: Alt text
+                        name: alt
+                        widget: string
+                        required: false
+                      - label: Caption
+                        name: caption
+                        widget: string
+                        required: false
+                      - label: srcset
+                        name: srcset
+                        widget: hidden
+                        required: false
+              - label: Link cards
+                name: cards
+                widget: object
+                fields:
+                  - label: id
+                    name: id
+                    widget: hidden
+                    required: false
+                  - label: Eyebrow (small label above the heading)
+                    name: eyebrow
+                    widget: string
+                    required: false
+                  - label: Eyebrow is te reo Māori
+                    name: reo
+                    widget: boolean
+                    required: false
+                    default: false
+                  - label: Heading
+                    name: heading
+                    widget: string
+                    required: false
+                  - label: Intro paragraph
+                    name: lede
+                    widget: text
+                    required: false
+                  - label: Cards
+                    name: cards
+                    widget: list
+                    label_singular: Card
+                    collapsed: true
+                    summary: '{{fields.title}}'
+                    fields:
+                      - label: Title
+                        name: title
+                        widget: string
+                        required: false
+                      - label: Description
+                        name: text
+                        widget: text
+                        required: false
+                      - label: Link
+                        name: href
+                        widget: string
+                        required: false
+                      - label: Link text (e.g. View)
+                        name: cta
+                        widget: string
+                        required: false
+                      - label: Links to another website
+                        name: external
+                        widget: boolean
+                        required: false
+                        default: false
+                      - label: Image
+                        name: image
+                        widget: object
+                        required: false
+                        collapsed: true
+                        fields:
+                          - label: Photo
+                            name: src
+                            widget: image
+                            required: false
+                            hint: Choose an existing photo or upload a new one
+                          - label: Alt text — describe what is in the photo
+                            name: alt
+                            widget: string
+                            required: false
+                            hint: Read aloud to people using a screen reader. Leave blank only if purely decorative.
+                          - label: srcset
+                            name: srcset
+                            widget: hidden
+                            required: false
+                          - label: pos
+                            name: pos
+                            widget: hidden
+                            required: false
+              - label: Table
+                name: table
+                widget: object
+                fields:
+                  - label: id
+                    name: id
+                    widget: hidden
+                    required: false
+                  - label: Eyebrow (small label above the heading)
+                    name: eyebrow
+                    widget: string
+                    required: false
+                  - label: Eyebrow is te reo Māori
+                    name: reo
+                    widget: boolean
+                    required: false
+                    default: false
+                  - label: Heading
+                    name: heading
+                    widget: string
+                    required: false
+                  - label: Intro paragraph
+                    name: lede
+                    widget: text
+                    required: false
+                  - label: Table caption (for screen readers)
+                    name: caption
+                    widget: string
+                    required: false
+                  - label: Column headings
+                    name: columns
+                    widget: list
+                    required: false
+                    collapsed: false
+                    field:
+                      label: Heading
+                      name: col
+                      widget: string
+                      required: false
+                  - label: Rows
+                    name: rows
+                    widget: list
+                    required: false
+                    label_singular: Row
+                    collapsed: false
+                    hint: Each row is a list of cells, left to right. The first cell is the row heading.
+                    field:
+                      label: Cells
+                      name: cells
+                      widget: list
+                      collapsed: false
+                      field:
+                        label: Cell
+                        name: cell
+                        widget: string
+                        required: false
+                  - label: Note under the table
+                    name: note
+                    widget: text
+                    required: false
+              - label: Definition list (term + description)
+                name: list
+                widget: object
+                fields:
+                  - label: id
+                    name: id
+                    widget: hidden
+                    required: false
+                  - label: Eyebrow (small label above the heading)
+                    name: eyebrow
+                    widget: string
+                    required: false
+                  - label: Eyebrow is te reo Māori
+                    name: reo
+                    widget: boolean
+                    required: false
+                    default: false
+                  - label: Heading
+                    name: heading
+                    widget: string
+                    required: false
+                  - label: Intro paragraph
+                    name: lede
+                    widget: text
+                    required: false
+                  - label: Items
+                    name: items
+                    widget: list
+                    label_singular: Item
+                    collapsed: true
+                    summary: '{{fields.term}}'
+                    fields:
+                      - label: Term (e.g. a date or department)
+                        name: term
+                        widget: string
+                        required: false
+                      - label: Description
+                        name: text
+                        widget: text
+                        required: false
+              - label: Pull quote
+                name: quote
+                widget: object
+                fields:
+                  - label: Te reo Māori quote (optional, shown above)
+                    name: reo
+                    widget: string
+                    required: false
+                  - label: Quote
+                    name: text
+                    widget: text
+                    required: false
+                  - label: Who said it
+                    name: attribution
+                    widget: string
+                    required: false
+              - label: Statistics band
+                name: stats
+                widget: object
+                fields:
+                  - label: Eyebrow (small label above the heading)
+                    name: eyebrow
+                    widget: string
+                    required: false
+                  - label: Eyebrow is te reo Māori
+                    name: reo
+                    widget: boolean
+                    required: false
+                    default: false
+                  - label: Heading
+                    name: heading
+                    widget: string
+                    required: false
+                  - label: Intro paragraph
+                    name: lede
+                    widget: text
+                    required: false
+                  - label: Stats
+                    name: stats
+                    widget: list
+                    label_singular: Stat
+                    collapsed: true
+                    summary: '{{fields.value}} — {{fields.label}}'
+                    fields:
+                      - label: Value (e.g. 1970)
+                        name: value
+                        widget: string
+                        required: false
+                      - label: Label
+                        name: label
+                        widget: string
+                        required: false
+              - &ref_3
+                label: Call to action band
+                name: cta
+                widget: object
+                fields:
+                  - label: id
+                    name: id
+                    widget: hidden
+                    required: false
+                  - label: Eyebrow
+                    name: eyebrow
+                    widget: string
+                    required: false
+                  - label: Eyebrow is te reo Māori
+                    name: reo
+                    widget: boolean
+                    required: false
+                    default: false
+                  - label: Heading
+                    name: heading
+                    widget: string
+                    required: false
+                  - label: Text
+                    name: text
+                    widget: text
+                    required: false
+                  - label: Image
+                    name: image
+                    widget: object
+                    required: false
+                    collapsed: true
+                    fields:
+                      - label: Photo
+                        name: src
+                        widget: image
+                        required: false
+                        hint: Choose an existing photo or upload a new one
+                      - label: Alt text — describe what is in the photo
+                        name: alt
+                        widget: string
+                        required: false
+                        hint: Read aloud to people using a screen reader. Leave blank only if purely decorative.
+                      - label: srcset
+                        name: srcset
+                        widget: hidden
+                        required: false
+                      - label: pos
+                        name: pos
+                        widget: hidden
+                        required: false
+                  - label: Buttons
+                    name: actions
+                    widget: list
+                    required: false
+                    collapsed: true
+                    label_singular: Button
+                    summary: '{{fields.label}}  →  {{fields.href}}'
+                    fields:
+                      - label: Button text
+                        name: label
+                        widget: string
+                        required: false
+                      - label: Link
+                        name: href
+                        widget: string
+                        required: false
+                      - label: Primary (red) button
+                        name: primary
+                        widget: boolean
+                        required: false
+                        default: false
+                      - label: Links to another website
+                        name: external
+                        widget: boolean
+                        required: false
+                        default: false
+              - label: Accordion (expandable sections)
+                name: accordion
+                widget: object
+                fields:
+                  - label: id
+                    name: id
+                    widget: hidden
+                    required: false
+                  - label: Eyebrow (small label above the heading)
+                    name: eyebrow
+                    widget: string
+                    required: false
+                  - label: Eyebrow is te reo Māori
+                    name: reo
+                    widget: boolean
+                    required: false
+                    default: false
+                  - label: Heading
+                    name: heading
+                    widget: string
+                    required: false
+                  - label: Intro paragraph
+                    name: lede
+                    widget: text
+                    required: false
+                  - label: Items
+                    name: items
+                    widget: list
+                    label_singular: Item
+                    collapsed: true
+                    summary: '{{fields.title}}'
+                    fields:
+                      - label: Title
+                        name: title
+                        widget: string
+                        required: false
+                      - label: Content
+                        name: html
+                        widget: markdown
+                        required: false
+                        hint: Formatted text. Existing content is HTML and is preserved as-is.
+                      - label: Open by default
+                        name: open
+                        widget: boolean
+                        required: false
+                        default: false
+              - label: Timeline
+                name: timeline
+                widget: object
+                fields:
+                  - label: Eyebrow (small label above the heading)
+                    name: eyebrow
+                    widget: string
+                    required: false
+                  - label: Eyebrow is te reo Māori
+                    name: reo
+                    widget: boolean
+                    required: false
+                    default: false
+                  - label: Heading
+                    name: heading
+                    widget: string
+                    required: false
+                  - label: Intro paragraph
+                    name: lede
+                    widget: text
+                    required: false
+                  - label: Entries
+                    name: entries
+                    widget: list
+                    label_singular: Entry
+                    collapsed: true
+                    summary: '{{fields.year}} {{fields.title}}'
+                    fields:
+                      - label: Year
+                        name: year
+                        widget: string
+                        required: false
+                      - label: Title
+                        name: title
+                        widget: string
+                        required: false
+                      - label: Content
+                        name: html
+                        widget: markdown
+                        required: false
+                        hint: Formatted text. Existing content is HTML and is preserved as-is.
+                      - label: Image
+                        name: image
+                        widget: object
+                        required: false
+                        collapsed: true
+                        fields:
+                          - label: Photo
+                            name: src
+                            widget: image
+                            required: false
+                            hint: Choose an existing photo or upload a new one
+                          - label: Alt text — describe what is in the photo
+                            name: alt
+                            widget: string
+                            required: false
+                            hint: Read aloud to people using a screen reader. Leave blank only if purely decorative.
+                          - label: srcset
+                            name: srcset
+                            widget: hidden
+                            required: false
+                          - label: pos
+                            name: pos
+                            widget: hidden
+                            required: false
+              - label: People / staff list
+                name: people
+                widget: object
+                fields:
+                  - label: Heading
+                    name: heading
+                    widget: string
+                    required: false
+                  - label: Intro paragraph
+                    name: lede
+                    widget: text
+                    required: false
+                  - label: Compact layout
+                    name: compact
+                    widget: boolean
+                    required: false
+                    default: false
+                  - label: Groups
+                    name: groups
+                    widget: list
+                    label_singular: Group
+                    collapsed: true
+                    summary: '{{fields.title}}'
+                    fields:
+                      - label: Group title
+                        name: title
+                        widget: string
+                        required: false
+                      - label: People
+                        name: people
+                        widget: list
+                        label_singular: Person
+                        collapsed: true
+                        summary: '{{fields.name}} — {{fields.role}}'
+                        fields:
+                          - label: Name
+                            name: name
+                            widget: string
+                            required: false
+                          - label: Role
+                            name: role
+                            widget: string
+                            required: false
+                          - label: Email
+                            name: email
+                            widget: string
+                            required: false
+              - label: Document downloads
+                name: docs
+                widget: object
+                fields:
+                  - label: id
+                    name: id
+                    widget: hidden
+                    required: false
+                  - label: Heading
+                    name: heading
+                    widget: string
+                    required: false
+                  - label: Intro paragraph
+                    name: lede
+                    widget: text
+                    required: false
+                  - label: Show in two columns
+                    name: columns
+                    widget: boolean
+                    required: false
+                    default: false
+                  - label: Documents
+                    name: docs
+                    widget: list
+                    label_singular: Document
+                    collapsed: true
+                    summary: '{{fields.label}}'
+                    fields:
+                      - label: Title
+                        name: label
+                        widget: string
+                        required: false
+                      - label: File link (e.g. /assets/docs/name.pdf)
+                        name: href
+                        widget: string
+                        required: false
+                      - label: Meta (e.g. PDF)
+                        name: meta
+                        widget: string
+                        required: false
+              - &ref_1
+                label: Embed (video / map / calendar)
+                name: embed
+                widget: object
+                fields:
+                  - label: id
+                    name: id
+                    widget: hidden
+                    required: false
+                  - label: Eyebrow (small label above the heading)
+                    name: eyebrow
+                    widget: string
+                    required: false
+                  - label: Eyebrow is te reo Māori
+                    name: reo
+                    widget: boolean
+                    required: false
+                    default: false
+                  - label: Heading
+                    name: heading
+                    widget: string
+                    required: false
+                  - label: Intro paragraph
+                    name: lede
+                    widget: text
+                    required: false
+                  - label: Embed URL
+                    name: src
+                    widget: string
+                    required: false
+                  - label: Accessible title for the embed
+                    name: iframeTitle
+                    widget: string
+                    required: false
+                  - label: Taller frame
+                    name: tall
+                    widget: boolean
+                    required: false
+                    default: false
+                  - label: Click-to-load (use for heavy embeds)
+                    name: facade
+                    widget: boolean
+                    required: false
+                    default: false
+                  - label: Click-to-load button text
+                    name: facadeLabel
+                    widget: string
+                    required: false
+                  - label: Note under the embed
+                    name: note
+                    widget: text
+                    required: false
+                  - label: Multiple embeds (optional grid)
+                    name: embeds
+                    widget: list
+                    required: false
+                    collapsed: true
+                    fields:
+                      - label: Embed URL
+                        name: src
+                        widget: string
+                        required: false
+                      - label: Accessible title
+                        name: iframeTitle
+                        widget: string
+                        required: false
+              - label: Contact form
+                name: contact-form
+                widget: object
+                fields:
+                  - label: id
+                    name: id
+                    widget: hidden
+                    required: false
+                  - label: Eyebrow (small label above the heading)
+                    name: eyebrow
+                    widget: string
+                    required: false
+                  - label: Eyebrow is te reo Māori
+                    name: reo
+                    widget: boolean
+                    required: false
+                    default: false
+                  - label: Heading
+                    name: heading
+                    widget: string
+                    required: false
+                  - label: Intro paragraph
+                    name: lede
+                    widget: text
+                    required: false
+                  - label: Side panel content
+                    name: aside
+                    widget: markdown
+                    required: false
+                    hint: Formatted text. Existing content is HTML and is preserved as-is.
+              - label: Search box
+                name: search
+                widget: object
+                fields:
+                  - label: id
+                    name: id
+                    widget: hidden
+                    required: false
+              - &ref_2
+                label: News list
+                name: news-list
+                widget: object
+                fields:
+                  - label: id
+                    name: id
+                    widget: hidden
+                    required: false
+                  - label: Eyebrow (small label above the heading)
+                    name: eyebrow
+                    widget: string
+                    required: false
+                  - label: Eyebrow is te reo Māori
+                    name: reo
+                    widget: boolean
+                    required: false
+                    default: false
+                  - label: Heading
+                    name: heading
+                    widget: string
+                    required: false
+                  - label: Intro paragraph
+                    name: lede
+                    widget: text
+                    required: false
+                  - label: Featured story
+                    name: feature
+                    widget: object
+                    required: false
+                    collapsed: true
+                    fields:
+                      - label: Title
+                        name: title
+                        widget: string
+                        required: false
+                      - label: Summary
+                        name: text
+                        widget: text
+                        required: false
+                      - label: Link
+                        name: href
+                        widget: string
+                        required: false
+                      - label: Image
+                        name: image
+                        widget: object
+                        required: false
+                        collapsed: true
+                        fields:
+                          - label: Photo
+                            name: src
+                            widget: image
+                            required: false
+                            hint: Choose an existing photo or upload a new one
+                          - label: Alt text — describe what is in the photo
+                            name: alt
+                            widget: string
+                            required: false
+                            hint: Read aloud to people using a screen reader. Leave blank only if purely decorative.
+                          - label: srcset
+                            name: srcset
+                            widget: hidden
+                            required: false
+                          - label: pos
+                            name: pos
+                            widget: hidden
+                            required: false
+                  - label: Stories
+                    name: items
+                    widget: list
+                    label_singular: Story
+                    collapsed: true
+                    summary: '{{fields.title}}'
+                    fields:
+                      - label: Title
+                        name: title
+                        widget: string
+                        required: false
+                      - label: Summary
+                        name: text
+                        widget: text
+                        required: false
+                      - label: Link
+                        name: href
+                        widget: string
+                        required: false
+                      - label: Image
+                        name: image
+                        widget: object
+                        required: false
+                        collapsed: true
+                        fields:
+                          - label: Photo
+                            name: src
+                            widget: image
+                            required: false
+                            hint: Choose an existing photo or upload a new one
+                          - label: Alt text — describe what is in the photo
+                            name: alt
+                            widget: string
+                            required: false
+                            hint: Read aloud to people using a screen reader. Leave blank only if purely decorative.
+                          - label: srcset
+                            name: srcset
+                            widget: hidden
+                            required: false
+                          - label: pos
+                            name: pos
+                            widget: hidden
+                            required: false
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: cocurricular-arts-and-culture
+        label: Arts And Culture — cocurricular
+        file: content/pages/cocurricular/arts-and-culture.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: cocurricular/arts-and-culture.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: arts-and-culture
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: cocurricular-careers-at-rosehill-college
+        label: Careers At Rosehill College — cocurricular
+        file: content/pages/cocurricular/careers-at-rosehill-college.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: cocurricular/careers-at-rosehill-college.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: careers-at-rosehill-college
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: cocurricular-sports
+        label: Sports — cocurricular
+        file: content/pages/cocurricular/sports.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: cocurricular/sports.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: sports
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: contact-us
+        label: Contact Us
+        file: content/pages/contact-us.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: contact-us.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: contact-us
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: curriculum-alternative-education
+        label: Alternative Education — curriculum
+        file: content/pages/curriculum/alternative-education.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: curriculum/alternative-education.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: alternative-education
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: curriculum-course-information
+        label: Course Information — curriculum
+        file: content/pages/curriculum/course-information.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: curriculum/course-information.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: course-information
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: curriculum-digital-learning-and-byod
+        label: Digital Learning And Byod — curriculum
+        file: content/pages/curriculum/digital-learning-and-byod.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: curriculum/digital-learning-and-byod.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: digital-learning-and-byod
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: curriculum-education-outside-the-classroom
+        label: Education Outside The Classroom — curriculum
+        file: content/pages/curriculum/education-outside-the-classroom.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: curriculum/education-outside-the-classroom.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: education-outside-the-classroom
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: curriculum-junior-diploma
+        label: Junior Diploma — curriculum
+        file: content/pages/curriculum/junior-diploma.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: curriculum/junior-diploma.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: junior-diploma
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: curriculum-learning-areas
+        label: Learning Areas — curriculum
+        file: content/pages/curriculum/learning-areas.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: curriculum/learning-areas.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: learning-areas
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: curriculum-mobile-phone-policy
+        label: Mobile Phone Policy — curriculum
+        file: content/pages/curriculum/mobile-phone-policy.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: curriculum/mobile-phone-policy.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: mobile-phone-policy
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: curriculum-our-rosehill-college-way
+        label: Our Rosehill College Way — curriculum
+        file: content/pages/curriculum/our-rosehill-college-way.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: curriculum/our-rosehill-college-way.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: our-rosehill-college-way
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: curriculum-student-support
+        label: Student Support — curriculum
+        file: content/pages/curriculum/student-support.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: curriculum/student-support.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: student-support
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: curriculum-year-9-smart-assessment
+        label: Year 9 Smart Assessment — curriculum
+        file: content/pages/curriculum/year-9-smart-assessment.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: curriculum/year-9-smart-assessment.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: year-9-smart-assessment
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: index
+        label: Homepage
+        file: content/pages/index.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: front-page
+          - label: path
+            name: path
+            widget: hidden
+            default: index.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: home
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types:
+              - label: Homepage hero (crest + motto)
+                name: home-hero
+                widget: object
+                fields:
+                  - label: Motto (te reo Māori)
+                    name: motto
+                    widget: string
+                    required: false
+                  - label: Vision (English)
+                    name: vision
+                    widget: text
+                    required: false
+                  - label: Background video
+                    name: video
+                    widget: object
+                    collapsed: true
+                    fields:
+                      - label: poster
+                        name: poster
+                        widget: hidden
+                        required: false
+                      - label: mp4
+                        name: mp4
+                        widget: hidden
+                        required: false
+                      - label: webm
+                        name: webm
+                        widget: hidden
+                        required: false
+              - label: Homepage — vision & values
+                name: home-values
+                widget: object
+                fields:
+                  - label: Eyebrow (small label above the heading)
+                    name: eyebrow
+                    widget: string
+                    required: false
+                  - label: Eyebrow is te reo Māori
+                    name: reo
+                    widget: boolean
+                    required: false
+                    default: false
+                  - label: Heading
+                    name: heading
+                    widget: string
+                    required: false
+                  - label: Intro paragraph
+                    name: lede
+                    widget: text
+                    required: false
+                  - label: Values (ngā pou)
+                    name: values
+                    widget: list
+                    label_singular: Value
+                    collapsed: true
+                    summary: '{{fields.reo}} — {{fields.english}}'
+                    fields:
+                      - label: Te reo name (e.g. Manaakitanga)
+                        name: reo
+                        widget: string
+                        required: false
+                      - label: English name (e.g. Connect)
+                        name: english
+                        widget: string
+                        required: false
+                      - label: Meaning
+                        name: meaning
+                        widget: text
+                        required: false
+                      - label: Image
+                        name: image
+                        widget: object
+                        required: false
+                        collapsed: true
+                        fields:
+                          - label: Photo
+                            name: src
+                            widget: image
+                            required: false
+                            hint: Choose an existing photo or upload a new one
+                          - label: Alt text — describe what is in the photo
+                            name: alt
+                            widget: string
+                            required: false
+                            hint: Read aloud to people using a screen reader. Leave blank only if purely decorative.
+                          - label: srcset
+                            name: srcset
+                            widget: hidden
+                            required: false
+                          - label: pos
+                            name: pos
+                            widget: hidden
+                            required: false
+              - label: Homepage — life gallery (pinned)
+                name: home-life
+                widget: object
+                fields:
+                  - label: Eyebrow (small label above the heading)
+                    name: eyebrow
+                    widget: string
+                    required: false
+                  - label: Eyebrow is te reo Māori
+                    name: reo
+                    widget: boolean
+                    required: false
+                    default: false
+                  - label: Heading
+                    name: heading
+                    widget: string
+                    required: false
+                  - label: Intro paragraph
+                    name: lede
+                    widget: text
+                    required: false
+                  - label: Photos
+                    name: images
+                    widget: list
+                    label_singular: Photo
+                    collapsed: true
+                    summary: '{{fields.caption}}'
+                    fields:
+                      - label: Photo
+                        name: src
+                        widget: image
+                        required: false
+                      - label: Alt text
+                        name: alt
+                        widget: string
+                        required: false
+                      - label: Caption
+                        name: caption
+                        widget: string
+                        required: false
+                      - label: srcset
+                        name: srcset
+                        widget: hidden
+                        required: false
+                      - label: depth
+                        name: depth
+                        widget: hidden
+                        required: false
+              - label: Homepage — Year 9 to 13 journey
+                name: home-journey
+                widget: object
+                fields:
+                  - label: Eyebrow (small label above the heading)
+                    name: eyebrow
+                    widget: string
+                    required: false
+                  - label: Eyebrow is te reo Māori
+                    name: reo
+                    widget: boolean
+                    required: false
+                    default: false
+                  - label: Heading
+                    name: heading
+                    widget: string
+                    required: false
+                  - label: Intro paragraph
+                    name: lede
+                    widget: text
+                    required: false
+                  - label: Steps
+                    name: steps
+                    widget: list
+                    label_singular: Step
+                    collapsed: true
+                    summary: Year {{fields.year}} — {{fields.title}}
+                    fields:
+                      - label: Year (9–13)
+                        name: year
+                        widget: string
+                        required: false
+                      - label: Title
+                        name: title
+                        widget: string
+                        required: false
+                      - label: Text
+                        name: text
+                        widget: text
+                        required: false
+                      - label: Link
+                        name: link
+                        widget: object
+                        required: false
+                        collapsed: true
+                        fields:
+                          - label: Link text
+                            name: label
+                            widget: string
+                            required: false
+                          - label: Link
+                            name: href
+                            widget: string
+                            required: false
+                      - label: Image
+                        name: image
+                        widget: object
+                        required: false
+                        collapsed: true
+                        fields:
+                          - label: Photo
+                            name: src
+                            widget: image
+                            required: false
+                            hint: Choose an existing photo or upload a new one
+                          - label: Alt text — describe what is in the photo
+                            name: alt
+                            widget: string
+                            required: false
+                            hint: Read aloud to people using a screen reader. Leave blank only if purely decorative.
+                          - label: srcset
+                            name: srcset
+                            widget: hidden
+                            required: false
+                          - label: pos
+                            name: pos
+                            widget: hidden
+                            required: false
+              - label: Homepage — co-curricular montage
+                name: home-cocurricular
+                widget: object
+                fields:
+                  - label: Eyebrow (small label above the heading)
+                    name: eyebrow
+                    widget: string
+                    required: false
+                  - label: Eyebrow is te reo Māori
+                    name: reo
+                    widget: boolean
+                    required: false
+                    default: false
+                  - label: Heading
+                    name: heading
+                    widget: string
+                    required: false
+                  - label: Intro paragraph
+                    name: lede
+                    widget: text
+                    required: false
+                  - label: Rows
+                    name: rows
+                    widget: list
+                    label_singular: Row
+                    collapsed: true
+                    fields:
+                      - label: Photos
+                        name: images
+                        widget: list
+                        label_singular: Photo
+                        collapsed: true
+                        summary: '{{fields.label}}'
+                        fields:
+                          - label: Photo
+                            name: src
+                            widget: image
+                            required: false
+                          - label: Alt text
+                            name: alt
+                            widget: string
+                            required: false
+                          - label: Caption label (e.g. Netball)
+                            name: label
+                            widget: string
+                            required: false
+                          - label: srcset
+                            name: srcset
+                            widget: hidden
+                            required: false
+                  - label: Buttons
+                    name: actions
+                    widget: list
+                    required: false
+                    collapsed: true
+                    label_singular: Button
+                    summary: '{{fields.label}}  →  {{fields.href}}'
+                    fields:
+                      - label: Button text
+                        name: label
+                        widget: string
+                        required: false
+                      - label: Link
+                        name: href
+                        widget: string
+                        required: false
+                      - label: Primary (red) button
+                        name: primary
+                        widget: boolean
+                        required: false
+                        default: false
+                      - label: Links to another website
+                        name: external
+                        widget: boolean
+                        required: false
+                        default: false
+              - *ref_1
+              - *ref_2
+              - *ref_3
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: international-students-applying-nz-arrival-information
+        label: Applying Nz Arrival Information — international students
+        file: content/pages/international-students/applying-nz-arrival-information.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: international-students/applying-nz-arrival-information.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: applying-nz-arrival-information
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: international-students-curriculum
+        label: Curriculum — international students
+        file: content/pages/international-students/curriculum.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: international-students/curriculum.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: international-curriculum
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: international-students-fees-policies
+        label: Fees Policies — international students
+        file: content/pages/international-students/fees-policies.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: international-students/fees-policies.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: fees-policies
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: international-students-living-in-aotearoa
+        label: Living In Aotearoa — international students
+        file: content/pages/international-students/living-in-aotearoa.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: international-students/living-in-aotearoa.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: living-in-aotearoa
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: international-students-students-voices
+        label: Students Voices — international students
+        file: content/pages/international-students/students-voices.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: international-students/students-voices.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: students-voices
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: international-students-why-study-at-rosehill
+        label: Why Study At Rosehill — international students
+        file: content/pages/international-students/why-study-at-rosehill.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: international-students/why-study-at-rosehill.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: why-study-at-rosehill
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: join-us-enrolment
+        label: Enrolment — join us
+        file: content/pages/join-us/enrolment.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: join-us/enrolment.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: enrolment
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: join-us-prospectus
+        label: Prospectus — join us
+        file: content/pages/join-us/prospectus.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: join-us/prospectus.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: prospectus
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: join-us-school-policies
+        label: School Policies — join us
+        file: content/pages/join-us/school-policies.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: join-us/school-policies.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: school-policies
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: join-us-school-zone-and-buses
+        label: School Zone And Buses — join us
+        file: content/pages/join-us/school-zone-and-buses.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: join-us/school-zone-and-buses.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: school-zone-and-buses
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: join-us-staff-vacancies
+        label: Staff Vacancies — join us
+        file: content/pages/join-us/staff-vacancies.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: join-us/staff-vacancies.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: staff-vacancies
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: join-us-uniform-and-stationery
+        label: Uniform And Stationery — join us
+        file: content/pages/join-us/uniform-and-stationery.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: join-us/uniform-and-stationery.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: uniform-and-stationery
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: my-rhc
+        label: My Rhc
+        file: content/pages/my-rhc.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: my-rhc.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: my-rhc
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: our-community-community-outreach
+        label: Community Outreach — our community
+        file: content/pages/our-community/community-outreach.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: our-community/community-outreach.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: community-outreach
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: our-community-our-board
+        label: Our Board — our community
+        file: content/pages/our-community/our-board.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: our-community/our-board.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: our-board
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: our-community-our-staff
+        label: Our Staff — our community
+        file: content/pages/our-community/our-staff.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: our-community/our-staff.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: our-staff
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: our-community-our-student-leaders
+        label: Our Student Leaders — our community
+        file: content/pages/our-community/our-student-leaders.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: our-community/our-student-leaders.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: our-student-leaders
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: our-community-student-welfare
+        label: Student Welfare — our community
+        file: content/pages/our-community/student-welfare.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: our-community/student-welfare.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: student-welfare
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: our-school-about-us
+        label: About Us — our school
+        file: content/pages/our-school/about-us.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: our-school/about-us.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: about-us
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: our-school-kaupapa-maori
+        label: Kaupapa Maori — our school
+        file: content/pages/our-school/kaupapa-maori.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: our-school/kaupapa-maori.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: kaupapa-maori
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: our-school-life-at-rosehill-college
+        label: Life At Rosehill College — our school
+        file: content/pages/our-school/life-at-rosehill-college.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: our-school/life-at-rosehill-college.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: life-at-rosehill-college
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: our-school-our-history
+        label: Our History — our school
+        file: content/pages/our-school/our-history.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: our-school/our-history.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: our-history
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: our-school-our-latest-news
+        label: Our Latest News — our school
+        file: content/pages/our-school/our-latest-news.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: our-school/our-latest-news.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: our-latest-news
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: our-school-principals-message
+        label: Principals Message — our school
+        file: content/pages/our-school/principals-message.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: our-school/principals-message.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: principals-message
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: our-school-start-of-school-information
+        label: Start Of School Information — our school
+        file: content/pages/our-school/start-of-school-information.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: our-school/start-of-school-information.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: start-of-school-information
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: our-school-term-dates
+        label: Term Dates — our school
+        file: content/pages/our-school/term-dates.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: our-school/term-dates.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: term-dates
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: our-school-yearbook
+        label: Yearbook — our school
+        file: content/pages/our-school/yearbook.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: our-school/yearbook.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: yearbook
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: school-app-upgrade-in-progress
+        label: School App Upgrade In Progress
+        file: content/pages/school-app-upgrade-in-progress.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: school-app-upgrade-in-progress.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: school-app-upgrade
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: search
+        label: Search
+        file: content/pages/search.json
+        format: json
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: search.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: search
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.

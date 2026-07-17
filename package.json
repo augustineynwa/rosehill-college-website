@@ -11,8 +11,10 @@
     "dev": "node scripts/render.mjs && vite",
     "cms:config": "node scripts/gen-cms-config.mjs",
     "cms": "decap-server",
-    "build": "node scripts/render.mjs && vite build && node scripts/inline-css.mjs",
-    "preview": "vite preview"
+    "build": "node scripts/gen-image-variants.mjs && node scripts/gen-cms-config.mjs && node scripts/render.mjs && vite build && node scripts/inline-css.mjs",
+    "preview": "vite preview",
+    "build:deploy": "npm run build && node scripts/strip-admin.mjs",
+    "deploy": "npm run build:deploy && wrangler pages deploy dist --project-name rosehill-college"
   },
   "dependencies": {
     "gsap": "^3.12.5",

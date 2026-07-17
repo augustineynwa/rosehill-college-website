@@ -19,6 +19,16 @@ const IMG_DIR = join(ROOT, 'public', 'assets', 'img');
 
 const THRESHOLD = 120 * 1024;         // only touch images bigger than this
 const WIDTHS = [500, 800, 1080, 1600];
+// Variants are written in the SAME format as the source. CMS uploads arrive as
+// jpg/png/webp; emitting avif candidates alongside a jpg `src` would break any
+// browser without avif support, since srcset does no format negotiation.
+const FORMATS = {
+  '.avif': (p) => p.avif({ quality: 55, effort: 4 }),
+  '.jpg': (p) => p.jpeg({ quality: 78, mozjpeg: true }),
+  '.jpeg': (p) => p.jpeg({ quality: 78, mozjpeg: true }),
+  '.png': (p) => p.png({ compressionLevel: 9 }),
+  '.webp': (p) => p.webp({ quality: 78 }),
+};
 
 function walkFiles(dir, ext) {
   const out = [];
@@ -34,25 +44,25 @@ const generated = new Map(); // src → srcset string (cache across pages)
 
 async function ensureVariants(src) {
   if (generated.has(src)) return generated.get(src);
-  // src like "assets/img/Foo.avif"
+  // src like "assets/img/Foo.avif" (leading slash tolerated — CMS may add one)
   const rel = src.replace(/^\/?assets\/img\//, '');
   const abs = join(IMG_DIR, rel);
-  if (!existsSync(abs)) return '';
+  if (!existsSync(abs)) { generated.set(src, ''); return ''; }
   if (statSync(abs).size < THRESHOLD) { generated.set(src, ''); return ''; }
-  if (extname(abs).toLowerCase() !== '.avif') { generated.set(src, ''); return ''; }
+
+  const ext = extname(abs).toLowerCase();
+  const encode = FORMATS[ext];
+  if (!encode) { generated.set(src, ''); return ''; }   // svg, gif etc. — leave alone
 
   const meta = await sharp(abs, { limitInputPixels: false }).metadata();
-  const baseName = basename(rel, '.avif');
+  const baseName = basename(rel, extname(rel));
   const parts = [];
   for (const w of WIDTHS) {
     if (meta.width && w >= meta.width) continue;
-    const outRel = `${baseName}-rp-${w}.avif`;
+    const outRel = `${baseName}-rp-${w}${ext}`;
     const outAbs = join(IMG_DIR, outRel);
     if (!existsSync(outAbs)) {
-      await sharp(abs, { limitInputPixels: false })
-        .resize({ width: w })
-        .avif({ quality: 55, effort: 4 })
-        .toFile(outAbs);
+      await encode(sharp(abs, { limitInputPixels: false }).resize({ width: w })).toFile(outAbs);
     }
     parts.push(`/assets/img/${outRel} ${w}w`);
   }

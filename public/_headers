@@ -1,0 +1,28 @@
+# Cloudflare Pages headers
+
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+
+# Preview build: keep it out of search results until it goes live.
+# Remove this block when deploying to the real domain.
+/*
+  X-Robots-Tag: noindex
+
+# Fingerprinted build output — safe to cache forever
+/assets/*.js
+  Cache-Control: public, max-age=31536000, immutable
+/assets/*.css
+  Cache-Control: public, max-age=31536000, immutable
+
+# Media and fonts change rarely
+/assets/img/*
+  Cache-Control: public, max-age=604800
+/assets/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+/assets/video/*
+  Cache-Control: public, max-age=604800
+/assets/docs/*
+  Cache-Control: public, max-age=3600
