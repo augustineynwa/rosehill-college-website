@@ -1,6 +1,6 @@
 # Deploying — Cloudflare Pages
 
-**Live preview:** https://rosehill-college.pages.dev
+**Live preview:** https://rosehill-college-website.pages.dev (auto-deploys from `main`)
 
 Target for now: **a preview URL only** (`*.pages.dev`). Nothing points at the
 live `rosehillcollege.school.nz`, and the preview is `noindex` so it can't turn
