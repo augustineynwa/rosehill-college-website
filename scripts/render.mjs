@@ -87,6 +87,24 @@ function renderRichText(node) {
   }
 }
 
+/**
+ * Cloudflare Pages (and most static hosts) serve `foo.html` at `/foo` and
+ * 301-redirect the `.html` form. Emitting `.html` links therefore costs a
+ * redirect hop on every internal navigation. Content and templates keep the
+ * honest `.html` target (it's the real file, and the WordPress port maps from
+ * it); we strip the extension here, on the way out.
+ *
+ * Only touches root-relative hrefs, so external links are never rewritten.
+ */
+function cleanUrls(html) {
+  return html.replace(/href="(\/[^"?#]*?)\.html([^"]*)"/g, (_m, path, rest) =>
+    `href="${path === '/index' ? '/' : path}${rest}"`);
+}
+const cleanHref = (p) => {
+  const u = '/' + p.replace(/\.html$/, '');
+  return u === '/index' ? '/' : u;
+};
+
 // ---------- render pages + search index ----------
 const searchIndex = [];
 function sectionText(sec) {
@@ -111,13 +129,13 @@ for (const f of walk(join(CONTENT, 'pages'), '.json')) {
   const root = depth === 0 ? './' : '../'.repeat(depth);
   const layout = layouts[page.layout || 'page'];
   if (!layout) throw new Error(`Unknown layout "${page.layout}" for ${page.path}`);
-  const html = layout({ ...page, site, root });
+  const html = cleanUrls(layout({ ...page, site, root }));
   mkdirSync(dirname(outPath), { recursive: true });
   writeFileSync(outPath, html, 'utf8');
   if (!['404.html', 'search.html', '401.html'].includes(page.path)) {
     searchIndex.push({
       title: page.title,
-      href: '/' + page.path,
+      href: cleanHref(page.path),
       description: page.metaDescription || '',
       text: (page.sections || []).map(sectionText).join(' ').replace(/\s+/g, ' ').slice(0, 4000),
     });

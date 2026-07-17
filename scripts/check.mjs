@@ -59,10 +59,14 @@ for (const page of pages) {
     if (!clean) continue;
     if (clean.startsWith('/assets/')) {
       if (!existsSync(join(PUBLIC, clean))) problems.push(`${rel}: broken asset link ${href}`);
-    } else if (clean.endsWith('.html')) {
-      if (!pagePaths.has(clean)) problems.push(`${rel}: broken page link ${href}`);
-    } else if (clean !== '/') {
-      problems.push(`${rel}: suspicious internal link ${href}`);
+    } else if (clean === '/') {
+      // homepage — served from index.html
+      if (!pagePaths.has('/index.html')) problems.push(`${rel}: no index.html for /`);
+    } else {
+      // links are emitted extensionless (see cleanUrls in render.mjs); the
+      // host serves them from the matching .html file
+      const target = clean.endsWith('.html') ? clean : clean + '.html';
+      if (!pagePaths.has(target)) problems.push(`${rel}: broken page link ${href} (expects ${target})`);
     }
   }
 }
