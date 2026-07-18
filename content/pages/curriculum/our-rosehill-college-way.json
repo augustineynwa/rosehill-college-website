@@ -24,7 +24,9 @@
         "image": {
           "src": "assets/img/Curriculum---Our-RHC-Way---Expect.avif",
           "srcset": "/assets/img/Curriculum---Our-RHC-Way---Expect-rp-500.avif 500w, /assets/img/Curriculum---Our-RHC-Way---Expect-rp-800.avif 800w, /assets/img/Curriculum---Our-RHC-Way---Expect-rp-1080.avif 1080w, /assets/img/Curriculum---Our-RHC-Way---Expect-rp-1600.avif 1600w, /assets/img/Curriculum---Our-RHC-Way---Expect-rp-2200.avif 2200w, /assets/img/Curriculum---Our-RHC-Way---Expect-rp-3000.avif 3000w",
-          "alt": "Rosehill College students in uniform at school"
+          "alt": "Rosehill College students in uniform at school",
+          "fit": "natural",
+          "ar": "5009 / 2818"
         }
       }
     },

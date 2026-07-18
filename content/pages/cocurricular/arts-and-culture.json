@@ -92,7 +92,9 @@
         "image": {
           "src": "assets/img/Curriculum---Subjects---Instrumental_1.avif",
           "srcset": "/assets/img/Curriculum---Subjects---Instrumental_1-rp-500.avif 500w, /assets/img/Curriculum---Subjects---Instrumental_1-rp-800.avif 800w, /assets/img/Curriculum---Subjects---Instrumental_1-rp-1080.avif 1080w, /assets/img/Curriculum---Subjects---Instrumental_1.avif 1280w",
-          "alt": "Rosehill College student learning an instrument"
+          "alt": "Rosehill College student learning an instrument",
+          "fit": "natural",
+          "ar": "1280 / 498"
         }
       }
     },

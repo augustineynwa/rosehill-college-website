@@ -388,12 +388,19 @@ body { padding-top: var(--notice-h, 0px); }
 /* never zoom/pan a contained image */
 .media-frame--contain[data-parallax-img] img { transform: none !important; }
 
-/* Some graphics arrive already framed — the values diagram carries its own
-   navy panel and rounded corners. Wrapping those in a second frame is both
-   redundant and, because the frame forces an aspect ratio, destructive: a
-   square source in a 3:4 frame loses its left and right edges, which on a
-   diagram is where the labels live. These sit at their true proportions with
-   no chrome at all. */
+/* Shows an image whole, at its own proportions, instead of cropping it to the
+   frame. Two cases need this:
+
+   - Graphics that arrive already framed (the values diagram carries its own
+     navy panel), where a second frame is redundant and the forced 3:4 ratio
+     cuts the labels off a square source.
+   - Group photos too wide for a 3:4 crop. A 1.78 photo shows only 42% of its
+     width in a portrait frame, which is how the orchestra lost most of its
+     players and the kapa haka roopu lost half its performers. Small and whole
+     beats large and missing people.
+
+   Keeps the frame's radius (the site's photo styling) but drops its background,
+   which would otherwise show as a box behind images with transparent margins. */
 .media-frame--natural {
   /* --ar is the image's true ratio, filled in at build time by
      gen-image-variants. The 1/1 fallback is deliberate: `auto` would let the
@@ -401,9 +408,7 @@ body { padding-top: var(--notice-h, 0px); }
      never intersects the viewport, so a lazy-loaded image inside it would
      never load at all. */
   aspect-ratio: var(--ar, 1 / 1);
-  overflow: visible;
   background: none;
-  border-radius: 0;
 }
 /* fills the box rather than sizing to `auto`: an auto-height img is zero-height
    until it loads, and a zero-height img is never intersected by the lazy-load

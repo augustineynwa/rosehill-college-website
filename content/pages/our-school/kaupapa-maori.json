@@ -26,7 +26,9 @@
         "image": {
           "src": "assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1.avif",
           "srcset": "/assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-500.avif 500w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-800.avif 800w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-1080.avif 1080w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-1600.avif 1600w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-2200.avif 2200w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-3000.avif 3000w",
-          "alt": "Rosehill College kapa haka rōpū"
+          "alt": "Rosehill College kapa haka rōpū",
+          "fit": "natural",
+          "ar": "6000 / 3376"
         }
       }
     },

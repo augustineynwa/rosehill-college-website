@@ -24,7 +24,9 @@
         "image": {
           "src": "assets/img/class-room.avif",
           "srcset": "/assets/img/class-room-rp-500.avif 500w, /assets/img/class-room-rp-800.avif 800w, /assets/img/class-room-rp-1080.avif 1080w, /assets/img/class-room-rp-1600.avif 1600w, /assets/img/class-room.avif 1666w",
-          "alt": "Students focused on their learning in a Rosehill College classroom"
+          "alt": "Students focused on their learning in a Rosehill College classroom",
+          "fit": "natural",
+          "ar": "1666 / 937"
         },
         "html": "<p><strong>Rosehill College digital usage guidelines</strong></p><ul><li><a href=\"https://drive.google.com/file/d/1yenNlrnhQalhgS6fZQYqIqe-GaKAdoz8/view\" rel=\"external\">Cybersecurity and BYOD Agreement</a></li><li><a href=\"https://web-assets.education.govt.nz/s3fs-public/2024-08/TPA_CellphonePolicy_Whanau_FAQs_FINAL.pdf?VersionId=zErBiZlv82qK7x.mNlqpdKMpVpHuUbiW\" rel=\"external\">Phones away for the day — <span lang=\"mi\">whānau</span> FAQs (Ministry of Education)</a></li></ul>"
       }
