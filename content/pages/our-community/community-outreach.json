@@ -13,7 +13,7 @@
       "lede": "We get involved to make a difference! At Rosehill College, we are committed to making a positive difference in our community. Through partnerships, service projects, and outreach programmes, our students develop leadership skills, empathy, and a strong sense of responsibility while creating lasting connections with the wider community.",
       "image": {
         "src": "assets/img/Community-Outreach-1_1.avif",
-        "srcset": "/assets/img/Community-Outreach-1_1-rp-500.avif 500w, /assets/img/Community-Outreach-1_1-rp-800.avif 800w, /assets/img/Community-Outreach-1_1-rp-1080.avif 1080w, /assets/img/Community-Outreach-1_1-rp-1600.avif 1600w, /assets/img/Community-Outreach-1_1.avif 2154w",
+        "srcset": "/assets/img/Community-Outreach-1_1-rp-500.avif 500w, /assets/img/Community-Outreach-1_1-rp-800.avif 800w, /assets/img/Community-Outreach-1_1-rp-1080.avif 1080w, /assets/img/Community-Outreach-1_1-rp-1600.avif 1600w",
         "alt": "Rosehill College students taking part in a community outreach event"
       }
     },
@@ -27,7 +27,7 @@
       "heading": "The Senior Student Community Committee",
       "image": {
         "src": "assets/img/Community-Outreach-2.avif",
-        "srcset": "/assets/img/Community-Outreach-2-p-500.avif 500w, /assets/img/Community-Outreach-2-p-800.avif 800w, /assets/img/Community-Outreach-2-p-1080.avif 1080w, /assets/img/Community-Outreach-2-p-1600.avif 1600w",
+        "srcset": "/assets/img/Community-Outreach-2-rp-500.avif 500w, /assets/img/Community-Outreach-2-rp-800.avif 800w, /assets/img/Community-Outreach-2-rp-1080.avif 1080w, /assets/img/Community-Outreach-2-rp-1600.avif 1600w, /assets/img/Community-Outreach-2.avif 1992w",
         "alt": "Rosehill College senior students at a community fundraising event"
       },
       "html": "<p>The Senior Community Committee at Rosehill College is dedicated to driving positive change by supporting both local and global causes. Through initiatives like Pink Shirt Day, the CanTeen Colour Run, and the World Vision 40-Hour Challenge, this group works tirelessly to make a meaningful impact.</p><p>Our senior students are committed to fighting bullying, raising funds for cancer research, and supporting efforts to address climate change. By joining this group, you can be part of something that truly makes a difference.</p>"
@@ -38,7 +38,7 @@
       "heading": "Interact Club",
       "image": {
         "src": "assets/img/Community-Outreach-3_1.avif",
-        "srcset": "",
+        "srcset": "/assets/img/Community-Outreach-3_1-rp-500.avif 500w, /assets/img/Community-Outreach-3_1-rp-800.avif 800w, /assets/img/Community-Outreach-3_1-rp-1080.avif 1080w, /assets/img/Community-Outreach-3_1-rp-1600.avif 1600w, /assets/img/Community-Outreach-3_1.avif 1688w",
         "alt": "Rosehill College Interact Club students at a fundraising stall"
       },
       "html": "<p>The Interact Club is a mixed year level group for all students to join. They are dedicated to fundraising for charities and supporting global and local causes. Throughout the year, they organise exciting events like Valentine's Day fundraisers, Easter chocolate sales, and the Mother's Day bake sale, raising money for important causes such as Women's Refuge, Foster Hope, and Breast Cancer Research.</p><p>The club strengthens community connections by engaging with the Rotary Club. If you enjoy fundraising, teamwork, and giving back to the community, the Interact Club is the perfect place for you!</p><p>Join up by sending a DM to the group's Instagram page, Rosehill College Interact Club, to support impactful charities and make a difference together!</p>"
@@ -48,7 +48,7 @@
       "heading": "Student Council",
       "image": {
         "src": "assets/img/Community-Outreach-4_1.avif",
-        "srcset": "/assets/img/Community-Outreach-4_1-rp-500.avif 500w, /assets/img/Community-Outreach-4_1-rp-800.avif 800w, /assets/img/Community-Outreach-4_1-rp-1080.avif 1080w, /assets/img/Community-Outreach-4_1-rp-1600.avif 1600w, /assets/img/Community-Outreach-4_1.avif 2195w",
+        "srcset": "/assets/img/Community-Outreach-4_1-rp-500.avif 500w, /assets/img/Community-Outreach-4_1-rp-800.avif 800w, /assets/img/Community-Outreach-4_1-rp-1080.avif 1080w, /assets/img/Community-Outreach-4_1-rp-1600.avif 1600w",
         "alt": "Rosehill College Student Council members at a school community event"
       },
       "html": "<p>The Student Council is a mixed year level group that plays an important role in bringing the Rosehill College community together. In 2024, they hosted the first-ever Rosehill College Community Gala, a successful event that united students, families, and the Papakura community. From organising events to representing your voice in school decisions, the Student Council has a major role in shaping school culture and organising key events within our school.</p><p>If you are passionate about leadership and making your school experience unforgettable, consider joining the Student Council. Support the community, get involved, and help make Rosehill College an even better place — please contact Mrs Powell at <a href=\"mailto:m.powell@rosehillcollege.school.nz\">m.powell@rosehillcollege.school.nz</a> to learn more.</p>"
@@ -60,11 +60,11 @@
     {
       "type": "prose",
       "heading": "Rosehill College yearly Christmas Hamper Project",
-      "html": "<p>Since 2024, the Community Committee has made an incredible impact through the Christmas Hamper Project, expanding its efforts to support not only Rosehill College families but also those from neighbouring schools. Following the heartwarming success of the initiative, the team, led by Business Manager Ms Carolissen, has worked tirelessly to broaden its reach.</p><p>Thanks to the generous sponsorship of Life Church and the kindness of our staff, students, and families, we have already raised a significant amount of funding. This has enabled us to provide hampers for families facing hardship during the Christmas period. We are truly overwhelmed by the community's outpouring of support. It is both inspiring and deeply appreciated, and we are grateful for every donation that makes this project possible.</p><p>If you would like to be part of this wonderful effort and help brighten a family's Christmas, please consider making a donation through the year. Every contribution helps to bring joy to those in need. Thank you for your generosity and for helping us spread some Christmas cheer in our community!</p>",
+      "html": "<p>Since 2024, the Community Committee has made an incredible impact through the Christmas Hamper Project, expanding its efforts to support not only Rosehill College families but also those from neighbouring schools. Following the heartwarming success of the initiative, the team, led by Business Manager Ms Carolissen, has worked tirelessly to broaden its reach.</p><p>Thanks to the generous sponsorship of Life Church and the kindness of our staff, students, and families, we have already raised a significant amount of funding. This has enabled us to provide hampers for families facing hardship during the Christmas period. We are truly overwhelmed by the community's outpouring of support. It is both inspiring and deeply appreciated, and we are grateful for every donation that makes this project possible.</p><p>If you would like to be part of this wonderful effort and help brighten a family's Christmas, please consider making a donation throughout the year. Every contribution helps to bring joy to those in need. Thank you for your generosity and for helping us spread some Christmas cheer in our community!</p>",
       "aside": {
         "image": {
           "src": "assets/img/Sponsors-Logo.avif",
-          "srcset": "/assets/img/48c64f9e6e543af11fe153f4eeea7efb_Sponsors-Logo-p-500.avif 500w, /assets/img/48c64f9e6e543af11fe153f4eeea7efb_Sponsors-Logo-p-800.avif 800w, /assets/img/48c64f9e6e543af11fe153f4eeea7efb_Sponsors-Logo-p-1080.avif 1080w",
+          "srcset": "/assets/img/Sponsors-Logo-rp-500.avif 500w, /assets/img/Sponsors-Logo-rp-800.avif 800w, /assets/img/Sponsors-Logo-rp-1080.avif 1080w",
           "alt": "Logos of the community sponsors supporting the Christmas Hamper Project",
           "fit": "contain"
         }

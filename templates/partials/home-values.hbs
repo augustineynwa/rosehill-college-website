@@ -11,7 +11,7 @@
           <p class="pou__meaning">{{meaning}}</p>
         </div>
         <figure class="pou__media media-frame media-frame--card" data-parallax-img>
-          <img src="/{{image.src}}" {{#if image.srcset}}srcset="{{image.srcset}}" sizes="(max-width: 64rem) 100vw, 45vw"{{/if}} alt="{{image.alt}}" loading="lazy">
+          <img src="/{{image.src}}" {{#if image.srcset}}srcset="{{image.srcset}}" sizes="(max-width: 64rem) 100vw, 45vw"{{/if}} alt="{{image.alt}}" loading="lazy" decoding="async">
         </figure>
       </li>
       {{/each}}

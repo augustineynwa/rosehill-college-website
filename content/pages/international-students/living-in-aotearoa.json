@@ -3,7 +3,7 @@
   "path": "international-students/living-in-aotearoa.html",
   "slug": "living-in-aotearoa",
   "title": "Living in Aotearoa",
-  "metaDescription": "Discover what it's like to live in New Zealand as an international student. From the vibrant culture and stunning landscapes to practical information on accommodation, transport, and daily life, this page offers everything you need to know to make the most of your time in New Zealand while studying at Rosehill College.",
+  "metaDescription": "Living in New Zealand as a Rosehill College international student — homestay accommodation, transport, daily life and settling into Papakura.",
   "sections": [
     {
       "type": "hero",
@@ -24,7 +24,7 @@
       "heading": "Accommodation",
       "image": {
         "src": "assets/img/International---Living-in-NZ---Accomodation_1.avif",
-        "srcset": "",
+        "srcset": "/assets/img/International---Living-in-NZ---Accomodation_1-rp-500.avif 500w, /assets/img/International---Living-in-NZ---Accomodation_1-rp-800.avif 800w, /assets/img/International---Living-in-NZ---Accomodation_1-rp-1080.avif 1080w, /assets/img/International---Living-in-NZ---Accomodation_1-rp-1600.avif 1600w",
         "alt": "An international student settling into homestay life in New Zealand"
       },
       "html": "<p>If you are staying with a homestay family, they will collect you from the airport when you arrive, show you around your new home, and help you settle in. You should arrive a couple of days before your course starts so you can acclimatise. For more information visit our page on <a href=\"/international-students/applying-nz-arrival-information.html\">arrival information</a>.</p><p>Most of our international students live with a local host family while they are in New Zealand. Our homestay provides warm and caring host families who offer safe, comfortable and well-maintained homes, providing students with a secure and supportive living environment. The families are carefully selected by our dedicated and experienced staff. Homestay accommodation gives our international students the opportunity to fully participate in New Zealand life and make the most of their Rosehill College experience.</p>"
@@ -37,7 +37,7 @@
     {
       "type": "prose",
       "heading": "Your homestay family",
-      "html": "<ul><li>Your family has been specially chosen for you. They will act in place of your parents while you are in NZ. Make sure you have completed our questionnaire so that we understand your needs.</li><li>All families have different habits and customs. It is important to find out what your new family expects of you. You will be given a booklet called Homestay Information and Guidance for International Students. You should read and discuss this booklet with your family. It includes a list of useful questions you might ask, such as what to call them, when to have a shower and what happens with your washing.</li><li>You will have your own room.</li><li>You should ask them about use of the computer/internet.</li><li>You will need to get a NZ SIM card for your phone and will need to open a NZ bank account. Your homestay family or our International Co-ordinator will help you with these.</li><li>Your family will show you how to get to school. NB: You are not allowed to own nor drive a car while you are an international student at Rosehill College.</li><li>Most parents work (mother and father).</li></ul>",
+      "html": "<ul><li>Your family has been specially chosen for you. They will act in place of your parents while you are in NZ. Make sure you have completed our questionnaire so that we understand your needs.</li><li>All families have different habits and customs. It is important to find out what your new family expects of you. You will be given a booklet called Homestay Information and Guidance for International Students. You should read and discuss this booklet with your family. It includes a list of useful questions you might ask, such as what to call them, when to have a shower and what happens with your washing.</li><li>You will have your own room.</li><li>You should ask them about use of the computer/internet.</li><li>You will need to get a NZ SIM card for your phone and will need to open a NZ bank account. Your homestay family or our International Co-ordinator will help you with these.</li><li>Your family will show you how to get to school. NB: You are not allowed to own or drive a car while you are an international student at Rosehill College.</li><li>Most parents work (mother and father).</li></ul>",
       "aside": {
         "html": "<p><strong>Students choosing not to stay in Rosehill College homestays</strong></p><p>These students must live with either their parents or a close family relative or friend. These students' parents must sign the 'Statement of Designated Caregivers Arrangements' form, available from the school or agents, stating that they agree to take responsibility for placing their son/daughter with their relative.</p><p>Students living with their parents do not have to complete the Designated Caregivers document.</p>"
       }
@@ -87,13 +87,13 @@
     {
       "type": "media-text",
       "flip": true,
-      "heading": "Transportation to Rosehill College",
+      "heading": "Transport to Rosehill College",
       "image": {
         "src": "assets/img/International---Living-in-NZ---Transport_1.avif",
         "srcset": "/assets/img/International---Living-in-NZ---Transport_1-rp-500.avif 500w, /assets/img/International---Living-in-NZ---Transport_1-rp-800.avif 800w, /assets/img/International---Living-in-NZ---Transport_1-rp-1080.avif 1080w, /assets/img/International---Living-in-NZ---Transport_1.avif 1328w",
         "alt": "Students travelling to Rosehill College"
       },
-      "html": "<p>Rosehill College offers a variety of transportation options for our international students, ensuring that everyone can travel to and from school safely and conveniently. Whether you prefer to take the school bus, walk, cycle, or are dropped off by a private vehicle, we have outlined the key details to help you navigate your daily commute.</p>"
+      "html": "<p>Rosehill College offers a variety of transport options for our international students, ensuring that everyone can travel to and from school safely and conveniently. Whether you prefer to take the school bus, walk, cycle, or are dropped off by a private vehicle, we have outlined the key details to help you navigate your daily commute.</p>"
     },
     {
       "type": "accordion",
@@ -102,7 +102,7 @@
         {
           "title": "School bus services",
           "open": true,
-          "html": "<ul><li><strong>Public bus information:</strong> Many of our students use the school bus services. The school bus is a convenient and safe option for students who live further away from the school. For those using public transportation, please refer to our <a href=\"/join-us/school-zone-and-buses.html\">school bus information page</a> for detailed routes and schedules. Some students may need to pay for their bus fare depending on the route.</li><li><strong>Homestay proximity:</strong> Most homestays are located within a 10 to 45-minute bus ride from Rosehill College, making the bus a practical choice for daily commuting.</li></ul>"
+          "html": "<ul><li><strong>Public bus information:</strong> Many of our students use the school bus services. The school bus is a convenient and safe option for students who live further away from the school. For those using public transport, please refer to our <a href=\"/join-us/school-zone-and-buses.html\">school bus information page</a> for detailed routes and schedules. Some students may need to pay for their bus fare depending on the route.</li><li><strong>Homestay proximity:</strong> Most homestays are located within a 10 to 45-minute bus ride from Rosehill College, making the bus a practical choice for daily commuting.</li></ul>"
         },
         {
           "title": "Walking and cycling",
@@ -114,7 +114,7 @@
         },
         {
           "title": "Important reminders",
-          "html": "<ul><li><strong>Plan ahead:</strong> Whether you're taking the bus, walking, or cycling, it's important to plan your journey to ensure you arrive at school on time.</li><li><strong>Safety first:</strong> Always prioritise your safety by following traffic rules, using crosswalks, wearing helmets when cycling, and being aware of your surroundings.</li></ul>"
+          "html": "<ul><li><strong>Plan ahead:</strong> Whether you're taking the bus, walking, or cycling, it's important to plan your journey to ensure you arrive at school on time.</li><li><strong>Safety first:</strong> Always prioritise your safety by following traffic rules, using pedestrian crossings, wearing helmets when cycling, and being aware of your surroundings.</li></ul>"
         }
       ]
     },

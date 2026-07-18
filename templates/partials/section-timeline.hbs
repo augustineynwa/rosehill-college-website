@@ -12,7 +12,7 @@
         </div>
         {{#if image}}
         <figure class="timeline__media media-frame media-frame--card{{#if image.fit}} media-frame--{{image.fit}}{{/if}}"{{#if image.pos}} style="--pos: {{image.pos}}"{{/if}} data-parallax-img>
-          <img src="/{{image.src}}" {{#if image.srcset}}srcset="{{image.srcset}}" sizes="(max-width: 64rem) 100vw, 40vw"{{/if}} alt="{{image.alt}}" loading="lazy">
+          <img src="/{{image.src}}" {{#if image.srcset}}srcset="{{image.srcset}}" sizes="(max-width: 64rem) 100vw, 40vw"{{/if}} alt="{{image.alt}}" loading="lazy" decoding="async">
         </figure>
         {{/if}}
       </li>

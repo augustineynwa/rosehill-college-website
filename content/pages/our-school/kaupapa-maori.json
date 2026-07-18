@@ -3,7 +3,7 @@
   "path": "our-school/kaupapa-maori.html",
   "slug": "kaupapa-maori",
   "title": "Kaupapa Māori",
-  "metaDescription": "Kaupapa Māori at Rosehill College — te ao Māori, kapa haka and our school haka, Haka ko te Kāreti o Pukeroihi.",
+  "metaDescription": "Kaupapa Māori at Rosehill College — te ao Māori woven through our curriculum, kapa haka, and the school haka gifted to us.",
   "sections": [
     {
       "type": "hero",
@@ -12,7 +12,7 @@
       "heading": "Kaupapa Māori",
       "image": {
         "src": "assets/img/Our-School---Kaupapa-Mauri---Section-1.avif",
-        "srcset": "/assets/img/Our-School---Kaupapa-Mauri---Section-1-p-500.avif 500w, /assets/img/Our-School---Kaupapa-Mauri---Section-1-p-800.avif 800w, /assets/img/Our-School---Kaupapa-Mauri---Section-1-p-1080.avif 1080w, /assets/img/Our-School---Kaupapa-Mauri---Section-1-p-1600.avif 1600w, /assets/img/Our-School---Kaupapa-Mauri---Section-1-p-2000.avif 2000w",
+        "srcset": "/assets/img/Our-School---Kaupapa-Mauri---Section-1-rp-500.avif 500w, /assets/img/Our-School---Kaupapa-Mauri---Section-1-rp-800.avif 800w, /assets/img/Our-School---Kaupapa-Mauri---Section-1-rp-1080.avif 1080w, /assets/img/Our-School---Kaupapa-Mauri---Section-1-rp-1600.avif 1600w, /assets/img/Our-School---Kaupapa-Mauri---Section-1-rp-2200.avif 2200w, /assets/img/Our-School---Kaupapa-Mauri---Section-1-rp-3000.avif 3000w, /assets/img/Our-School---Kaupapa-Mauri---Section-1.avif 3715w",
         "alt": "Kaupapa Māori at Rosehill College"
       }
     },
@@ -25,7 +25,7 @@
       "aside": {
         "image": {
           "src": "assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1.avif",
-          "srcset": "/assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-500.avif 500w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-800.avif 800w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-1080.avif 1080w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-1600.avif 1600w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1.avif 6000w",
+          "srcset": "/assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-500.avif 500w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-800.avif 800w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-1080.avif 1080w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-1600.avif 1600w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-2200.avif 2200w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-3000.avif 3000w",
           "alt": "Rosehill College kapa haka rōpū"
         }
       }

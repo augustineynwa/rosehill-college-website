@@ -3,7 +3,7 @@
   "path": "curriculum/year-9-smart-assessment.html",
   "slug": "year-9-smart-assessment",
   "title": "Year 9 SMART Assessment",
-  "metaDescription": "Information for Year 9 whānau about the SMART assessment at Rosehill College — what it is, why it matters, and how students can prepare, including the assessment dates of 4–15 May.",
+  "metaDescription": "Year 9 SMART assessment at Rosehill College — what the assessment involves, why it matters for your child, and how students can prepare for it.",
   "sections": [
     {
       "type": "hero",
@@ -56,7 +56,7 @@
       "type": "prose",
       "id": "how-it-runs",
       "heading": "How the assessment runs",
-      "html": "<p>Assessments are completed online, students should bring their own device. Each assessment typically takes 30–45 minutes.</p><p>Questions may include:</p><ul><li>Multiple choice</li><li>Short written responses</li><li>Interactive tasks (for example, drag-and-drop tools)</li></ul><p>Students complete the assessment in the Hall.</p><p>Parents can let Kaitiaki/Head of House know if a device needs to be booked. Please do so by 4th May.</p>"
+      "html": "<p>Assessments are completed online — students should bring their own device. Each assessment typically takes 30–45 minutes.</p><p>Questions may include:</p><ul><li>Multiple choice</li><li>Short written responses</li><li>Interactive tasks (for example, drag-and-drop tools)</li></ul><p>Students complete the assessment in the Hall.</p><p>Parents can let Kaitiaki/Head of House know if a device needs to be booked. Please do so by 4th May.</p>"
     },
     {
       "type": "cta",

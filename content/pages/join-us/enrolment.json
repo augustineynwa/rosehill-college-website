@@ -3,7 +3,7 @@
   "path": "join-us/enrolment.html",
   "slug": "enrolment",
   "title": "Enrolment",
-  "metaDescription": "Learn about enrolling at Rosehill College. Find all the information you need on application requirements, key dates, and the step-by-step process to join our vibrant school community. Start your journey with us today and become part of the Rosehill College family.",
+  "metaDescription": "Enrol at Rosehill College, Papakura. In-zone and out-of-zone applications, key dates, required documents and step-by-step enrolment guidance.",
   "sections": [
     {
       "type": "hero",
@@ -30,7 +30,7 @@
       "portrait": true,
       "image": {
         "src": "assets/img/In-Zone_1.avif",
-        "srcset": "/assets/img/In-Zone_1-rp-500.avif 500w, /assets/img/In-Zone_1-rp-800.avif 800w, /assets/img/In-Zone_1-rp-1080.avif 1080w, /assets/img/In-Zone_1-rp-1600.avif 1600w, /assets/img/In-Zone_1.avif 2480w",
+        "srcset": "/assets/img/In-Zone_1-rp-500.avif 500w, /assets/img/In-Zone_1-rp-800.avif 800w, /assets/img/In-Zone_1-rp-1080.avif 1080w, /assets/img/In-Zone_1-rp-1600.avif 1600w, /assets/img/In-Zone_1-rp-2200.avif 2200w, /assets/img/In-Zone_1.avif 2480w",
         "alt": "Rosehill College in-zone enrolment flyer"
       },
       "html": "<p>All students who live within the Rosehill College zone are entitled to enrol at the College. Complete your application online for a fast and straightforward process — you can <a href=\"https://www.educationcounts.govt.nz/find-school\" rel=\"external\">check if you are in zone for Rosehill College</a> by entering your address.</p><p>If you do not have access to an electronic device, computers are available at our front office for you to complete your online enrolment. Our front office staff are also available to assist you with the process.</p>",
@@ -78,7 +78,7 @@
       "portrait": true,
       "image": {
         "src": "assets/img/Out-of-Zone_1.avif",
-        "srcset": "/assets/img/Out-of-Zone_1-rp-500.avif 500w, /assets/img/Out-of-Zone_1-rp-800.avif 800w, /assets/img/Out-of-Zone_1-rp-1080.avif 1080w, /assets/img/Out-of-Zone_1-rp-1600.avif 1600w, /assets/img/Out-of-Zone_1.avif 2480w",
+        "srcset": "/assets/img/Out-of-Zone_1-rp-500.avif 500w, /assets/img/Out-of-Zone_1-rp-800.avif 800w, /assets/img/Out-of-Zone_1-rp-1080.avif 1080w, /assets/img/Out-of-Zone_1-rp-1600.avif 1600w, /assets/img/Out-of-Zone_1-rp-2200.avif 2200w, /assets/img/Out-of-Zone_1.avif 2480w",
         "alt": "Rosehill College out-of-zone enrolment flyer"
       },
       "html": "<p>All out-of-zone enrolment applicants must collect an Out-of-Zone Enrolment Pack from the school reception. <strong>Online applications for out-of-zone enrolments are not accepted and will not be processed.</strong></p><p>A non-refundable administration fee of $50 is payable when the completed out-of-zone application is submitted. This fee applies to all out-of-zone applications and is not refundable, regardless of the outcome of the ballot process.</p>"

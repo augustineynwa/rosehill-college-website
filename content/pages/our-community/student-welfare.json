@@ -3,7 +3,7 @@
   "path": "our-community/student-welfare.html",
   "slug": "student-welfare",
   "title": "Student Welfare",
-  "metaDescription": "Explore the Student Welfare services at Rosehill College, dedicated to supporting the well-being, safety, and development of our students. Our welfare team offers guidance, resources, and a caring environment to help students thrive academically, socially, and emotionally throughout their school journey.",
+  "metaDescription": "Student welfare at Rosehill College — deans, counsellors, the school nurse and pastoral care supporting student wellbeing and safety.",
   "sections": [
     {
       "type": "hero",
@@ -17,7 +17,7 @@
       "heading": "Our canteen",
       "image": {
         "src": "assets/img/Our-Community---Student-Welfare---Our-Canteen.avif",
-        "srcset": "/assets/img/Our-Community---Student-Welfare---Our-Canteen-p-500.avif 500w, /assets/img/Our-Community---Student-Welfare---Our-Canteen-p-800.avif 800w, /assets/img/Our-Community---Student-Welfare---Our-Canteen-p-1080.avif 1080w, /assets/img/Our-Community---Student-Welfare---Our-Canteen-p-1600.avif 1600w, /assets/img/Our-Community---Student-Welfare---Our-Canteen-p-2000.avif 2000w, /assets/img/Our-Community---Student-Welfare---Our-Canteen-p-2600.avif 2600w",
+        "srcset": "/assets/img/Our-Community---Student-Welfare---Our-Canteen-rp-500.avif 500w, /assets/img/Our-Community---Student-Welfare---Our-Canteen-rp-800.avif 800w, /assets/img/Our-Community---Student-Welfare---Our-Canteen-rp-1080.avif 1080w, /assets/img/Our-Community---Student-Welfare---Our-Canteen-rp-1600.avif 1600w, /assets/img/Our-Community---Student-Welfare---Our-Canteen-rp-2200.avif 2200w, /assets/img/Our-Community---Student-Welfare---Our-Canteen-rp-3000.avif 3000w, /assets/img/Our-Community---Student-Welfare---Our-Canteen.avif 3210w",
         "alt": "Food on offer at the Rosehill College canteen"
       },
       "html": "<p>Our canteen is currently operated by the school to ensure students continue to have access to fresh and affordable food options throughout the day.</p><p>Our menu includes a variety of hot meals, sandwiches, snacks, and drinks, with options rotating regularly and seasonally to suit student preferences. We aim to provide nutritious and convenient food choices to support student wellbeing and energy levels during the school day.</p><p>If you have any inquiries for the canteen, you can email <a href=\"mailto:canteen@rosehillcollege.school.nz\">canteen@rosehillcollege.school.nz</a>.</p>"
@@ -45,7 +45,7 @@
       "heading": "Restorative practice",
       "image": {
         "src": "assets/img/Our-Community---Student-Welfare---Restorative-Practice_1.avif",
-        "srcset": "",
+        "srcset": "/assets/img/Our-Community---Student-Welfare---Restorative-Practice_1-rp-500.avif 500w, /assets/img/Our-Community---Student-Welfare---Restorative-Practice_1-rp-800.avif 800w, /assets/img/Our-Community---Student-Welfare---Restorative-Practice_1-rp-1080.avif 1080w, /assets/img/Our-Community---Student-Welfare---Restorative-Practice_1.avif 1300w",
         "alt": "Rosehill College students and staff talking together"
       },
       "html": "<p>Restorative practices are best understood as a 'community response' to wrong-doing. This involves bringing together all of the people involved in an incident to understand how people have been affected, with a focus on putting it right.</p>"
@@ -58,11 +58,11 @@
     {
       "type": "prose",
       "heading": "Student Support",
-      "html": "<p>Student Support is the department at Rosehill College dedicated to the welfare of students. It is staffed by three full-time counsellors, two full-time nurses and a Kaimanaaki (Māori support).</p><p>Our three experienced counsellors (Dr Elahe Khaleghian, Ms Phillipa MacCormick and Miss Paula Alontave) are full members of the New Zealand Association of Counsellors, receiving regular supervision of their work. They have contact with a wide range of agencies who can also assist with more complicated issues for students.</p><p>Our registered nurse, Mrs Serena Li, attends to emergencies, general illness and chronic illnesses. Parents are advised to keep their children at home if they are significantly unwell.</p><p>Our Kaimanaaki (Whāea Pare Matthews) provides general support to Māori students and their whānau. The role of our Kaimanaaki is to provide support that allows Māori students to succeed to their potential.</p>",
+      "html": "<p>Student Support is the department at Rosehill College dedicated to the welfare of students. It is staffed by three full-time counsellors, two full-time nurses and a Kaimanaaki (Māori support).</p><p>Our three experienced counsellors (Dr Elahe Khaleghian, Ms Phillipa MacCormick and Miss Paula Alontave) are full members of the New Zealand Association of Counsellors, receiving regular supervision of their work. They have contact with a wide range of agencies who can also assist with more complicated issues for students.</p><p>Our registered nurse, Mrs Serena Li, attends to emergencies, general illness and chronic illnesses. Parents are advised to keep their children at home if they are significantly unwell.</p><p>Our Kaimanaaki (Whaea Pare Matthews) provides general support to Māori students and their whānau. The role of our Kaimanaaki is to provide support that allows Māori students to succeed to their potential.</p>",
       "aside": {
         "image": {
           "src": "assets/img/Our-Community---Student-Welfare---Student-Support_1.avif",
-          "srcset": "/assets/img/Our-Community---Student-Welfare---Student-Support_1-rp-500.avif 500w, /assets/img/Our-Community---Student-Welfare---Student-Support_1-rp-800.avif 800w, /assets/img/Our-Community---Student-Welfare---Student-Support_1-rp-1080.avif 1080w, /assets/img/Our-Community---Student-Welfare---Student-Support_1-rp-1600.avif 1600w, /assets/img/Our-Community---Student-Welfare---Student-Support_1.avif 4911w",
+          "srcset": "/assets/img/Our-Community---Student-Welfare---Student-Support_1-rp-500.avif 500w, /assets/img/Our-Community---Student-Welfare---Student-Support_1-rp-800.avif 800w, /assets/img/Our-Community---Student-Welfare---Student-Support_1-rp-1080.avif 1080w, /assets/img/Our-Community---Student-Welfare---Student-Support_1-rp-1600.avif 1600w, /assets/img/Our-Community---Student-Welfare---Student-Support_1-rp-2200.avif 2200w, /assets/img/Our-Community---Student-Welfare---Student-Support_1-rp-3000.avif 3000w",
           "alt": "Rosehill College students supporting each other on campus"
         }
       }

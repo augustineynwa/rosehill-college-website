@@ -3,7 +3,7 @@
   "path": "curriculum/our-rosehill-college-way.html",
   "slug": "our-rosehill-college-way",
   "title": "Our Rosehill College Way",
-  "metaDescription": "Discover the Rosehill College Way, including our values of Manaakitanga, Rangatiratanga, Whanaungatanga, and Hihiritanga. Learn about our expectations for uniform and attendance, including our attendance management plan, and how we foster a positive, inclusive environment that supports student success and personal growth.",
+  "metaDescription": "Our Rosehill College Way — the values of Manaakitanga, Rangatiratanga, Whanaungatanga and Hihiritanga, plus uniform and attendance expectations.",
   "sections": [
     {
       "type": "hero",
@@ -12,7 +12,7 @@
       "lede": "Manaakitanga, Rangatiratanga, Whanaungatanga and Hihiritanga — four values that shape how we connect, reflect, respect and strive every day, alongside clear expectations for attendance and uniform.",
       "image": {
         "src": "assets/img/Curriculum---Our-RHC-Way-Banner_1.avif",
-        "srcset": "/assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-500.avif 500w, /assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-800.avif 800w, /assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-1080.avif 1080w, /assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-1600.avif 1600w, /assets/img/Curriculum---Our-RHC-Way-Banner_1.avif 2245w",
+        "srcset": "/assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-500.avif 500w, /assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-800.avif 800w, /assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-1080.avif 1080w, /assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-1600.avif 1600w, /assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-2200.avif 2200w, /assets/img/Curriculum---Our-RHC-Way-Banner_1.avif 2245w",
         "alt": "Rosehill College students living the RHC Way"
       }
     },
@@ -23,7 +23,7 @@
       "aside": {
         "image": {
           "src": "assets/img/Curriculum---Our-RHC-Way---Expect.avif",
-          "srcset": "/assets/img/Curriculum---Our-RHC-Way---Expect-p-500.avif 500w, /assets/img/Curriculum---Our-RHC-Way---Expect-p-800.avif 800w, /assets/img/Curriculum---Our-RHC-Way---Expect-p-1080.avif 1080w, /assets/img/Curriculum---Our-RHC-Way---Expect-p-1600.avif 1600w, /assets/img/Curriculum---Our-RHC-Way---Expect-p-2000.avif 2000w, /assets/img/Curriculum---Our-RHC-Way---Expect-p-2600.avif 2600w",
+          "srcset": "/assets/img/Curriculum---Our-RHC-Way---Expect-rp-500.avif 500w, /assets/img/Curriculum---Our-RHC-Way---Expect-rp-800.avif 800w, /assets/img/Curriculum---Our-RHC-Way---Expect-rp-1080.avif 1080w, /assets/img/Curriculum---Our-RHC-Way---Expect-rp-1600.avif 1600w, /assets/img/Curriculum---Our-RHC-Way---Expect-rp-2200.avif 2200w, /assets/img/Curriculum---Our-RHC-Way---Expect-rp-3000.avif 3000w",
           "alt": "Rosehill College students in uniform at school"
         }
       }
@@ -34,7 +34,7 @@
       "heading": "Seniors uniform",
       "image": {
         "src": "assets/img/Join-Us---Uniform---Seniors-Uniforms.avif",
-        "srcset": "/assets/img/Join-Us---Uniform---Seniors-Uniforms-p-500.avif 500w, /assets/img/Join-Us---Uniform---Seniors-Uniforms-p-800.avif 800w, /assets/img/Join-Us---Uniform---Seniors-Uniforms-p-1080.avif 1080w, /assets/img/Join-Us---Uniform---Seniors-Uniforms-p-1600.avif 1600w, /assets/img/Join-Us---Uniform---Seniors-Uniforms-p-2000.avif 2000w",
+        "srcset": "/assets/img/Join-Us---Uniform---Seniors-Uniforms-rp-500.avif 500w, /assets/img/Join-Us---Uniform---Seniors-Uniforms-rp-800.avif 800w, /assets/img/Join-Us---Uniform---Seniors-Uniforms-rp-1080.avif 1080w, /assets/img/Join-Us---Uniform---Seniors-Uniforms-rp-1600.avif 1600w",
         "alt": "The Rosehill College seniors uniform"
       },
       "html": "<p>The expectation for students to wear their uniforms at Rosehill College is grounded in the belief that it promotes unity and school spirit. Uniforms eliminate socio-economic disparities, allowing students to focus on their education rather than fashion.</p>"
@@ -45,7 +45,7 @@
       "heading": "Juniors uniform",
       "image": {
         "src": "assets/img/Join-Us---Uniform---Juniors-Uniforms_1.avif",
-        "srcset": "",
+        "srcset": "/assets/img/Join-Us---Uniform---Juniors-Uniforms_1-rp-500.avif 500w, /assets/img/Join-Us---Uniform---Juniors-Uniforms_1-rp-800.avif 800w, /assets/img/Join-Us---Uniform---Juniors-Uniforms_1-rp-1080.avif 1080w, /assets/img/Join-Us---Uniform---Juniors-Uniforms_1-rp-1600.avif 1600w",
         "alt": "The Rosehill College juniors uniform"
       },
       "html": "<p>Wearing our uniform supports a disciplined atmosphere and enhances the school's identity, making students easily recognisable as members of our institution. It also encourages students to take pride in their appearance and fosters a professional mindset that benefits them in future academic and career endeavours.</p>",
@@ -63,20 +63,20 @@
       "images": [
         {
           "src": "assets/img/Attendance---Chart--1_1.avif",
-          "srcset": "",
+          "srcset": "/assets/img/Attendance---Chart--1_1-rp-500.avif 500w, /assets/img/Attendance---Chart--1_1-rp-800.avif 800w, /assets/img/Attendance---Chart--1_1-rp-1080.avif 1080w, /assets/img/Attendance---Chart--1_1-rp-1600.avif 1600w, /assets/img/Attendance---Chart--1_1.avif 1801w",
           "alt": "Chart showing how missing one or two days a week adds up over a school year",
           "caption": "1 or 2 days a week does not seem that much but...",
           "fit": "contain"
         },
         {
           "src": "assets/img/Attendance---Chart_1.avif",
-          "srcset": "",
+          "srcset": "/assets/img/Attendance---Chart_1-rp-500.avif 500w, /assets/img/Attendance---Chart_1-rp-800.avif 800w, /assets/img/Attendance---Chart_1-rp-1080.avif 1080w, /assets/img/Attendance---Chart_1-rp-1600.avif 1600w, /assets/img/Attendance---Chart_1.avif 1838w",
           "alt": "Chart showing the impact of missed school days on learning",
           "fit": "contain"
         },
         {
           "src": "assets/img/Attendance---Chart---3_1.avif",
-          "srcset": "",
+          "srcset": "/assets/img/Attendance---Chart---3_1-rp-500.avif 500w, /assets/img/Attendance---Chart---3_1-rp-800.avif 800w, /assets/img/Attendance---Chart---3_1-rp-1080.avif 1080w, /assets/img/Attendance---Chart---3_1-rp-1600.avif 1600w, /assets/img/Attendance---Chart---3_1.avif 1801w",
           "alt": "Chart showing the impact of arriving late to school and class",
           "caption": "Late for school, late to class? Children learn best at the start of the day.",
           "fit": "contain"
@@ -102,7 +102,7 @@
       "heading": "Connect",
       "image": {
         "src": "assets/img/Curriculum---Our-RHC-Way---Connect.avif",
-        "srcset": "/assets/img/Curriculum---Our-RHC-Way---Connect-p-500.avif 500w, /assets/img/Curriculum---Our-RHC-Way---Connect-p-800.avif 800w, /assets/img/Curriculum---Our-RHC-Way---Connect-p-1080.avif 1080w, /assets/img/Curriculum---Our-RHC-Way---Connect-p-1600.avif 1600w, /assets/img/Curriculum---Our-RHC-Way---Connect-p-2000.avif 2000w, /assets/img/Curriculum---Our-RHC-Way---Connect-p-2600.avif 2600w",
+        "srcset": "/assets/img/Curriculum---Our-RHC-Way---Connect-rp-500.avif 500w, /assets/img/Curriculum---Our-RHC-Way---Connect-rp-800.avif 800w, /assets/img/Curriculum---Our-RHC-Way---Connect-rp-1080.avif 1080w, /assets/img/Curriculum---Our-RHC-Way---Connect-rp-1600.avif 1600w, /assets/img/Curriculum---Our-RHC-Way---Connect-rp-2200.avif 2200w, /assets/img/Curriculum---Our-RHC-Way---Connect-rp-3000.avif 3000w",
         "alt": "Rosehill College students connecting with each other — Manaakitanga"
       },
       "html": "<p><strong>\"We rise by lifting others\"</strong></p><ul><li>We use mana enhancing, respectful, inclusive words and actions</li><li>We look after our learning environment</li><li>We are organised and prepared to learn</li><li>We bring the equipment we need, including charged laptops/Chromebooks</li></ul><p><strong>Because:</strong></p><ul><li>Connecting and learning collectively helps everyone</li><li>Being prepared for our learning keeps us focused on achieving</li><li>Everyone has the right to a safe and enjoyable learning environment</li></ul>"
@@ -115,7 +115,7 @@
       "heading": "Reflect",
       "image": {
         "src": "assets/img/Junior-Diploma-3.avif",
-        "srcset": "/assets/img/Junior-Diploma-3-p-500.avif 500w, /assets/img/Junior-Diploma-3-p-800.avif 800w, /assets/img/Junior-Diploma-3-p-1080.avif 1080w, /assets/img/Junior-Diploma-3-p-1600.avif 1600w",
+        "srcset": "/assets/img/Junior-Diploma-3-rp-500.avif 500w, /assets/img/Junior-Diploma-3-rp-800.avif 800w, /assets/img/Junior-Diploma-3-rp-1080.avif 1080w, /assets/img/Junior-Diploma-3-rp-1600.avif 1600w, /assets/img/Junior-Diploma-3.avif 1817w",
         "alt": "Rosehill College students celebrating success together — Rangatiratanga"
       },
       "html": "<p><strong>\"Excellence in all that we do\"</strong></p><ul><li>We celebrate success together</li><li>Knowing what you need to learn to achieve excellence</li><li>Reflect on my learning and my actions every day to strive to be better</li></ul><p><strong>Because:</strong></p><ul><li>We care about learning together</li><li>My learning is my responsibility and I want to be better</li><li>We care about self leadership</li><li>Achieving excellence is everyone's right</li></ul>"
@@ -127,7 +127,7 @@
       "heading": "Respect",
       "image": {
         "src": "assets/img/Curriculum---Our-RHC-Way---Respect_1.avif",
-        "srcset": "/assets/img/Curriculum---Our-RHC-Way---Respect_1-rp-500.avif 500w, /assets/img/Curriculum---Our-RHC-Way---Respect_1-rp-800.avif 800w, /assets/img/Curriculum---Our-RHC-Way---Respect_1-rp-1080.avif 1080w, /assets/img/Curriculum---Our-RHC-Way---Respect_1-rp-1600.avif 1600w, /assets/img/Curriculum---Our-RHC-Way---Respect_1.avif 3733w",
+        "srcset": "/assets/img/Curriculum---Our-RHC-Way---Respect_1-rp-500.avif 500w, /assets/img/Curriculum---Our-RHC-Way---Respect_1-rp-800.avif 800w, /assets/img/Curriculum---Our-RHC-Way---Respect_1-rp-1080.avif 1080w, /assets/img/Curriculum---Our-RHC-Way---Respect_1-rp-1600.avif 1600w, /assets/img/Curriculum---Our-RHC-Way---Respect_1-rp-2200.avif 2200w, /assets/img/Curriculum---Our-RHC-Way---Respect_1-rp-3000.avif 3000w, /assets/img/Curriculum---Our-RHC-Way---Respect_1.avif 3733w",
         "alt": "Rosehill College students showing respect for each other — Whanaungatanga"
       },
       "html": "<p><strong>\"Together we are more\"</strong></p><ul><li>We arrive on time</li><li>We wear our uniform correctly</li><li>We arrive with headphones/phones away</li><li>We respect others' ideas and contributions — everyone is unique</li></ul><p><strong>Because:</strong></p><ul><li>We care about our school community whānau</li><li>We are ready to greet each other</li><li>We know phones are not learning devices</li><li>We care about learning together</li><li>Our uniform represents commitment to our school community and our readiness to learn</li></ul>"
@@ -140,10 +140,10 @@
       "heading": "Strive",
       "image": {
         "src": "assets/img/Curriculum---Our-RHC-Way---Strive_1.avif",
-        "srcset": "/assets/img/Curriculum---Our-RHC-Way---Strive_1-rp-500.avif 500w, /assets/img/Curriculum---Our-RHC-Way---Strive_1-rp-800.avif 800w, /assets/img/Curriculum---Our-RHC-Way---Strive_1-rp-1080.avif 1080w, /assets/img/Curriculum---Our-RHC-Way---Strive_1-rp-1600.avif 1600w, /assets/img/Curriculum---Our-RHC-Way---Strive_1.avif 2458w",
+        "srcset": "/assets/img/Curriculum---Our-RHC-Way---Strive_1-rp-500.avif 500w, /assets/img/Curriculum---Our-RHC-Way---Strive_1-rp-800.avif 800w, /assets/img/Curriculum---Our-RHC-Way---Strive_1-rp-1080.avif 1080w, /assets/img/Curriculum---Our-RHC-Way---Strive_1-rp-1600.avif 1600w, /assets/img/Curriculum---Our-RHC-Way---Strive_1-rp-2200.avif 2200w, /assets/img/Curriculum---Our-RHC-Way---Strive_1.avif 2458w",
         "alt": "Rosehill College students striving for excellence — Hihiritanga"
       },
-      "html": "<p><strong>\"We are resilient and persevere\"</strong></p><ul><li>We support each other through challenges</li><li>We follow the 'RHC Way' and encourage others to do the same</li><li>We know making mistakes are moments of learning</li><li>We are determined to achieve excellence</li></ul><p><strong>Because:</strong></p><ul><li>We encourage personal and collective excellence</li><li>We care about serving others</li><li>We are active listeners and contributors</li></ul>"
+      "html": "<p><strong>\"We are resilient and persevere\"</strong></p><ul><li>We support each other through challenges</li><li>We follow the 'RHC Way' and encourage others to do the same</li><li>We know mistakes are moments of learning</li><li>We are determined to achieve excellence</li></ul><p><strong>Because:</strong></p><ul><li>We encourage personal and collective excellence</li><li>We care about serving others</li><li>We are active listeners and contributors</li></ul>"
     },
     {
       "type": "cta",

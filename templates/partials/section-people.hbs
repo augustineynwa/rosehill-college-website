@@ -9,7 +9,7 @@
         <li class="person {{#if image}}person--photo{{/if}}" data-reveal>
           {{#if image}}
           <figure class="person__media media-frame media-frame--portrait">
-            <img src="/{{image.src}}" {{#if image.srcset}}srcset="{{image.srcset}}" sizes="(max-width: 48rem) 50vw, 25vw"{{/if}} alt="{{image.alt}}" loading="lazy">
+            <img src="/{{image.src}}" {{#if image.srcset}}srcset="{{image.srcset}}" sizes="(max-width: 48rem) 50vw, 25vw"{{/if}} alt="{{image.alt}}" loading="lazy" decoding="async">
           </figure>
           {{/if}}
           <p class="person__name">{{name}}</p>

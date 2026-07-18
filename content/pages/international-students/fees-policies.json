@@ -3,7 +3,7 @@
   "path": "international-students/fees-policies.html",
   "slug": "fees-policies",
   "title": "Fees & Policies",
-  "metaDescription": "Find detailed information about international student fees and policies at Rosehill College. Learn about tuition fees, additional costs, and payment options. Our policies ensure a smooth and supportive experience for international students, covering everything from enrolment to ongoing student services and expectations.",
+  "metaDescription": "International student fees at Rosehill College — tuition, homestay and additional costs, payment options, refunds and our complaints process.",
   "sections": [
     {
       "type": "hero",
@@ -162,7 +162,7 @@
     {
       "type": "prose",
       "heading": "Fees protection",
-      "html": "<p>Rosehill College has a Fee Protection policy to safeguard the fees paid by international students, in the unlikely event that the school may not be able to commence or continue to deliver tuition to the international student. The School's Board of Trustees guarantees to hold in reserve sufficient funds to meet the requirements of any refund in these circumstances.</p><p>Please note:</p><ol><li>The administration fee and caregiver support fee is payable on enrolment/re-enrolment. It is non-refundable.</li><li>Homestay fees must be paid in advance to Rosehill College.</li><li>Medical and travel insurance is compulsory for the duration of the student's course. It can be arranged through the school with <a href=\"https://www.insurancesafenz.com/studentsafe/student-safe-inbound-young-learners\" rel=\"external\">Studentsafe Insurance</a>.</li><li>All prices have been quoted in New Zealand dollars.</li></ol>"
+      "html": "<p>Rosehill College has a Fee Protection policy to safeguard the fees paid by international students, in the unlikely event that the school may not be able to commence or continue to deliver tuition to the international student. The School's Board of Trustees guarantees to hold in reserve sufficient funds to meet the requirements of any refund in these circumstances.</p><p>Please note:</p><ol><li>The administration fee and caregiver support fee are payable on enrolment/re-enrolment. It is non-refundable.</li><li>Homestay fees must be paid in advance to Rosehill College.</li><li>Medical and travel insurance is compulsory for the duration of the student's course. It can be arranged through the school with <a href=\"https://www.insurancesafenz.com/studentsafe/student-safe-inbound-young-learners\" rel=\"external\">Studentsafe Insurance</a>.</li><li>All prices have been quoted in New Zealand dollars.</li></ol>"
     },
     {
       "type": "list",
@@ -200,15 +200,15 @@
       "heading": "Orientation and full integration",
       "image": {
         "src": "assets/img/International---Fees--Policies---Orientation_1.avif",
-        "srcset": "",
+        "srcset": "/assets/img/International---Fees--Policies---Orientation_1-rp-500.avif 500w, /assets/img/International---Fees--Policies---Orientation_1-rp-800.avif 800w, /assets/img/International---Fees--Policies---Orientation_1-rp-1080.avif 1080w, /assets/img/International---Fees--Policies---Orientation_1-rp-1600.avif 1600w, /assets/img/International---Fees--Policies---Orientation_1.avif 1888w",
         "alt": "International students during their orientation at Rosehill College"
       },
-      "html": "<p>Under the guidance of our Director of International Students, new students take part in a comprehensive orientation programme. This programme introduces them to Rosehill College and helps them to understand school expectations.</p><p>Students are integrated into regular classes from Years 9 to 13. From Year 11 onwards, students can study the National Certificate of Educational Achievement (NCEA), which is New Zealand's main secondary school qualification under the National Qualifications Framework (NQF).</p>"
+      "html": "<p>Under the guidance of our Director of International Students, new students take part in a comprehensive orientation programme. This programme introduces them to Rosehill College and helps them to understand school expectations.</p><p>Students are integrated into regular classes from Years 9 to 13. From Year 11 onwards, students can study the National Certificate of Educational Achievement (NCEA), which is New Zealand's main secondary school qualification under the New Zealand Qualifications Framework (NZQF).</p>"
     },
     {
       "type": "prose",
       "heading": "Pastoral care and support",
-      "html": "<p>Rosehill College has had many years of experience hosting international students from all over the world. The College takes the welfare and education of their students very seriously and is a signatory to the Education (Pastoral Care of Tertiary and International Learners) Code of Practice 2021. We have agreed to observe and be bound by the Code of Practice for the Pastoral Care of International Students, as published by the Ministry of Education.</p><p>Copies of the code are available on request from the College or from the New Zealand Ministry of Education website.</p>"
+      "html": "<p>Rosehill College has had many years of experience hosting international students from all over the world. The College takes the welfare and education of its students very seriously and is a signatory to the Education (Pastoral Care of Tertiary and International Learners) Code of Practice 2021. We have agreed to observe and be bound by the Code of Practice for the Pastoral Care of International Students, as published by the Ministry of Education.</p><p>Copies of the code are available on request from the College or from the New Zealand Ministry of Education website.</p>"
     },
     {
       "type": "prose",

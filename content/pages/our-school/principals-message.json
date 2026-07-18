@@ -18,7 +18,7 @@
       "portrait": true,
       "image": {
         "src": "assets/img/6630760d923b9c215a4aa27b_Davida-With-background-Right-2_1.avif",
-        "srcset": "",
+        "srcset": "/assets/img/6630760d923b9c215a4aa27b_Davida-With-background-Right-2_1-rp-500.avif 500w, /assets/img/6630760d923b9c215a4aa27b_Davida-With-background-Right-2_1-rp-800.avif 800w, /assets/img/6630760d923b9c215a4aa27b_Davida-With-background-Right-2_1-rp-1080.avif 1080w, /assets/img/6630760d923b9c215a4aa27b_Davida-With-background-Right-2_1-rp-1600.avif 1600w, /assets/img/6630760d923b9c215a4aa27b_Davida-With-background-Right-2_1.avif 1920w",
         "pos": "85% 25%",
         "alt": "Davida Suasua, Principal of Rosehill College"
       },
@@ -27,7 +27,7 @@
     {
       "type": "prose",
       "heading": "Traditional values, innovative teaching",
-      "html": "<p>Rosehill College is based on traditional values of Respect, Responsibility and Caring with innovative approaches to teaching and learning that is supported by modern information communication technology. It is our intention to produce graduates that are confident, self-reliant, and have self-respect and respect for others.</p><p>We celebrate our coeducational and bi-cultural identity and the opportunities presented to establish healthy friendships with people from a diverse range of backgrounds which is Auckland today.</p><p>For our whānau and parents of Rosehill College I welcome and encourage a strong and active parent network that will support our Values and Vision of the school.</p>"
+      "html": "<p>Rosehill College is based on traditional values of Respect, Responsibility and Caring with innovative approaches to teaching and learning that are supported by modern information communication technology. It is our intention to produce graduates who are confident, self-reliant, and have self-respect and respect for others.</p><p>We celebrate our coeducational and bi-cultural identity and the opportunities presented to establish healthy friendships with people from a diverse range of backgrounds which is Auckland today.</p><p>For our whānau and parents of Rosehill College I welcome and encourage a strong and active parent network that will support our Values and Vision of the school.</p>"
     },
     {
       "type": "quote",

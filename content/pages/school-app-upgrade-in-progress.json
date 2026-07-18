@@ -17,7 +17,7 @@
       "heading": "What's happening",
       "image": {
         "src": "assets/img/School-App-Flyer.avif",
-        "srcset": "/assets/img/6788492c6806e8ef1db10541cd612e96_App-flyer-1-p-500.avif 500w, /assets/img/6788492c6806e8ef1db10541cd612e96_App-flyer-1-p-800.avif 800w, /assets/img/6788492c6806e8ef1db10541cd612e96_App-flyer-1-p-1080.avif 1080w",
+        "srcset": "/assets/img/School-App-Flyer-rp-500.avif 500w, /assets/img/School-App-Flyer-rp-800.avif 800w, /assets/img/School-App-Flyer-rp-1080.avif 1080w, /assets/img/School-App-Flyer-rp-1600.avif 1600w, /assets/img/School-App-Flyer-rp-2200.avif 2200w, /assets/img/School-App-Flyer.avif 2479w",
         "alt": "Rosehill College school app flyer",
         "fit": "contain"
       },

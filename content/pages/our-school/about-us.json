@@ -3,7 +3,7 @@
   "path": "our-school/about-us.html",
   "slug": "about-us",
   "title": "About Us",
-  "metaDescription": "Explore Rosehill College's core values and educational vision.",
+  "metaDescription": "About Rosehill College — our vision, values and what makes our Papakura secondary school a place where every student can achieve personal excellence.",
   "sections": [
     {
       "type": "hero",
@@ -13,7 +13,7 @@
       "lede": "Rosehill College, officially opened in 1970, has a proud history of outstanding academic achievement and a record of national success in both sports and the performing arts.",
       "image": {
         "src": "assets/img/t4-Randoms-1_1.avif",
-        "srcset": "/assets/img/t4-Randoms-1_1-rp-500.avif 500w, /assets/img/t4-Randoms-1_1-rp-800.avif 800w, /assets/img/t4-Randoms-1_1-rp-1080.avif 1080w, /assets/img/t4-Randoms-1_1-rp-1600.avif 1600w, /assets/img/t4-Randoms-1_1.avif 4591w",
+        "srcset": "/assets/img/t4-Randoms-1_1-rp-500.avif 500w, /assets/img/t4-Randoms-1_1-rp-800.avif 800w, /assets/img/t4-Randoms-1_1-rp-1080.avif 1080w, /assets/img/t4-Randoms-1_1-rp-1600.avif 1600w, /assets/img/t4-Randoms-1_1-rp-2200.avif 2200w, /assets/img/t4-Randoms-1_1-rp-3000.avif 3000w",
         "alt": "Rosehill College students together on campus"
       }
     },
@@ -24,7 +24,7 @@
       "aside": {
         "image": {
           "src": "assets/img/Our-School---Values_1.avif",
-          "srcset": "",
+          "srcset": "/assets/img/Our-School---Values_1-rp-500.avif 500w, /assets/img/Our-School---Values_1-rp-800.avif 800w, /assets/img/Our-School---Values_1-rp-1080.avif 1080w, /assets/img/Our-School---Values_1-rp-1600.avif 1600w, /assets/img/Our-School---Values_1.avif 2000w",
           "alt": "Rosehill College students living the school values"
         }
       }
@@ -58,14 +58,14 @@
       "heading": "About us",
       "image": {
         "src": "assets/img/Our-School---About-Us.avif",
-        "srcset": "/assets/img/Our-School---About-Us-p-500.avif 500w, /assets/img/Our-School---About-Us-p-800.avif 800w, /assets/img/Our-School---About-Us-p-1080.avif 1080w, /assets/img/Our-School---About-Us-p-1600.avif 1600w",
+        "srcset": "/assets/img/Our-School---About-Us-rp-500.avif 500w, /assets/img/Our-School---About-Us-rp-800.avif 800w, /assets/img/Our-School---About-Us-rp-1080.avif 1080w, /assets/img/Our-School---About-Us-rp-1600.avif 1600w, /assets/img/Our-School---About-Us-rp-2200.avif 2200w, /assets/img/Our-School---About-Us-rp-3000.avif 3000w",
         "alt": "Rosehill College campus and students"
       },
       "html": "<p>Rosehill College is a co-educational secondary school with a rich history of providing quality education and fostering a supportive learning environment. The College sits within the Ngāti Tamaoho rohe. This area extends from north of the Tamaki Isthmus to south of the Waikato River, to the Whangamarino wetlands. It extends from the West Coast to the Hauraki Gulf/Firth of Thames. Its interests are concentrated in the Manukau lowlands, Āwhitu Peninsula, Papakura, Hunua Ranges, Mangatangi, and Whangamarino.</p><p>Ngāti Tamaoho has a rich cultural heritage, including traditions, stories, and practices passed down through generations. They have a significant connection to their land and natural resources, and like other iwi, they play an active role in the social, cultural, and economic life of their communities.</p>"
     },
     {
       "type": "prose",
-      "html": "<p>Rosehill College serves students from Year 9 to Year 13 (ages 13 to 18). The college offers a wide range of academic, sporting, cultural, and extracurricular activities to cater to the diverse interests and needs of its students. Established in 1970, Rosehill College has a rich history of providing quality education and fostering a supportive learning environment. The school emphasises holistic development, aiming to nurture students not only academically but also socially, emotionally, and physically.</p>"
+      "html": "<p>Rosehill College serves students from Year 9 to Year 13 (ages 13 to 18). The college offers a wide range of academic, sporting, cultural, and co-curricular activities to cater to the diverse interests and needs of its students. Established in 1970, Rosehill College has a rich history of providing quality education and fostering a supportive learning environment. The school emphasises holistic development, aiming to nurture students not only academically but also socially, emotionally, and physically.</p>"
     },
     {
       "type": "cards",
@@ -79,7 +79,7 @@
           "href": "/curriculum/our-rosehill-college-way.html",
           "image": {
             "src": "assets/img/Curriculum---Our-RHC-Way-Banner_1.avif",
-            "srcset": "/assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-500.avif 500w, /assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-800.avif 800w, /assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-1080.avif 1080w, /assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-1600.avif 1600w, /assets/img/Curriculum---Our-RHC-Way-Banner_1.avif 2245w",
+            "srcset": "/assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-500.avif 500w, /assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-800.avif 800w, /assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-1080.avif 1080w, /assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-1600.avif 1600w, /assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-2200.avif 2200w, /assets/img/Curriculum---Our-RHC-Way-Banner_1.avif 2245w",
             "alt": "Rosehill College students living the RHC Way"
           }
         },
@@ -89,7 +89,7 @@
           "href": "/our-school/our-history.html",
           "image": {
             "src": "assets/img/Main-Page---Our-History_1.avif",
-            "srcset": "/assets/img/Main-Page---Our-History_1-rp-500.avif 500w, /assets/img/Main-Page---Our-History_1-rp-800.avif 800w, /assets/img/Main-Page---Our-History_1-rp-1080.avif 1080w, /assets/img/Main-Page---Our-History_1-rp-1600.avif 1600w, /assets/img/Main-Page---Our-History_1.avif 3436w",
+            "srcset": "/assets/img/Main-Page---Our-History_1-rp-500.avif 500w, /assets/img/Main-Page---Our-History_1-rp-800.avif 800w, /assets/img/Main-Page---Our-History_1-rp-1080.avif 1080w, /assets/img/Main-Page---Our-History_1-rp-1600.avif 1600w, /assets/img/Main-Page---Our-History_1-rp-2200.avif 2200w, /assets/img/Main-Page---Our-History_1-rp-3000.avif 3000w, /assets/img/Main-Page---Our-History_1.avif 3436w",
             "alt": "Historic photograph of Rosehill College"
           }
         },
@@ -99,7 +99,7 @@
           "href": "/our-school/life-at-rosehill-college.html",
           "image": {
             "src": "assets/img/Landing-Page---Life-at-RHC_1.avif",
-            "srcset": "",
+            "srcset": "/assets/img/Landing-Page---Life-at-RHC_1-rp-500.avif 500w, /assets/img/Landing-Page---Life-at-RHC_1-rp-800.avif 800w, /assets/img/Landing-Page---Life-at-RHC_1-rp-1080.avif 1080w, /assets/img/Landing-Page---Life-at-RHC_1-rp-1600.avif 1600w, /assets/img/Landing-Page---Life-at-RHC_1-rp-2200.avif 2200w, /assets/img/Landing-Page---Life-at-RHC_1.avif 2237w",
             "alt": "Students enjoying life at Rosehill College"
           }
         }

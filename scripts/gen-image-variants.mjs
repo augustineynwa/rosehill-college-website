@@ -2,10 +2,14 @@
  * gen-image-variants.mjs — responsive images for performance.
  *
  * Walks every content/pages JSON, finds image objects ({src, srcset, alt}),
- * and for any source file larger than THRESHOLD that lacks a responsive
- * srcset, generates resized AVIF variants and writes a real srcset back into
- * the content. Idempotent: variants already present are reused, and images
- * that already carry a srcset are left untouched.
+ * and for any source WIDER than MIN_WIDTH that lacks a responsive srcset,
+ * generates resized variants and writes a real srcset back into the content.
+ * Idempotent: variants already present are reused, and images that already
+ * carry a srcset are left untouched.
+ *
+ * Gating is on PIXEL WIDTH, not file size. A well-compressed 2650px AVIF can be
+ * under 100KB yet still costs a multi-megabyte decode and a large memory buffer
+ * on a budget phone — decode, not transfer, is the binding constraint there.
  */
 import sharp from 'sharp';
 import { readFileSync, writeFileSync, existsSync, statSync, readdirSync } from 'node:fs';
@@ -17,8 +21,14 @@ const ROOT = join(__dirname, '..');
 const PAGES = join(ROOT, 'content', 'pages');
 const IMG_DIR = join(ROOT, 'public', 'assets', 'img');
 
-const THRESHOLD = 120 * 1024;         // only touch images bigger than this
-const WIDTHS = [500, 800, 1080, 1600];
+const MIN_WIDTH = 1200;   // narrower than this already fits any layout slot
+// tops out at 3000 so a 1500px CSS box on a 2x display still has an exact-ish
+// candidate; without the upper rungs the browser falls back to the original,
+// which for some sources is 6000px / 1.2MB to fill a 460px box
+const WIDTHS = [500, 800, 1080, 1600, 2200, 3000];
+// don't offer the untouched original as a candidate once it's far larger than
+// our biggest variant — that's the fall-through that caused the 6000px picks
+const ORIGINAL_MAX_RATIO = 1.3;
 // Variants are written in the SAME format as the source. CMS uploads arrive as
 // jpg/png/webp; emitting avif candidates alongside a jpg `src` would break any
 // browser without avif support, since srcset does no format negotiation.
@@ -48,25 +58,31 @@ async function ensureVariants(src) {
   const rel = src.replace(/^\/?assets\/img\//, '');
   const abs = join(IMG_DIR, rel);
   if (!existsSync(abs)) { generated.set(src, ''); return ''; }
-  if (statSync(abs).size < THRESHOLD) { generated.set(src, ''); return ''; }
 
   const ext = extname(abs).toLowerCase();
   const encode = FORMATS[ext];
   if (!encode) { generated.set(src, ''); return ''; }   // svg, gif etc. — leave alone
 
   const meta = await sharp(abs, { limitInputPixels: false }).metadata();
+  if (!meta.width || meta.width <= MIN_WIDTH) { generated.set(src, ''); return ''; }
+
   const baseName = basename(rel, extname(rel));
   const parts = [];
+  let largest = 0;
   for (const w of WIDTHS) {
-    if (meta.width && w >= meta.width) continue;
+    if (w >= meta.width) continue;
     const outRel = `${baseName}-rp-${w}${ext}`;
     const outAbs = join(IMG_DIR, outRel);
     if (!existsSync(outAbs)) {
       await encode(sharp(abs, { limitInputPixels: false }).resize({ width: w })).toFile(outAbs);
     }
     parts.push(`/assets/img/${outRel} ${w}w`);
+    largest = w;
   }
-  if (meta.width) parts.push(`/assets/img/${rel} ${meta.width}w`);
+  // keep the original only when it's a sensible top rung, not a 4x outlier
+  if (largest === 0 || meta.width <= largest * ORIGINAL_MAX_RATIO) {
+    parts.push(`/assets/img/${rel} ${meta.width}w`);
+  }
   const srcset = parts.join(', ');
   generated.set(src, srcset);
   return srcset;

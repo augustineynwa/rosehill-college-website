@@ -3,7 +3,7 @@
   "path": "international-students/why-study-at-rosehill.html",
   "slug": "why-study-at-rosehill",
   "title": "Why Study at Rosehill?",
-  "metaDescription": "Discover why studying at Rosehill College is a great choice for international students. Our welcoming environment, diverse curriculum, and strong support services make it the ideal place to grow academically, socially, and personally.",
+  "metaDescription": "Why international students choose Rosehill College — a welcoming Auckland school with a broad subject range, ESOL support and strong NCEA results.",
   "sections": [
     {
       "type": "hero",
@@ -12,21 +12,21 @@
       "lede": "Rosehill College, Auckland, New Zealand has shaped and influenced the lives of young men and women since 1970 — a proud co-educational college committed to providing a high-quality educational environment that will ensure every student is successful and strives to gain academic excellence.",
       "image": {
         "src": "assets/img/International---Why-Study-at-Rosehill---Header_1.avif",
-        "srcset": "",
+        "srcset": "/assets/img/International---Why-Study-at-Rosehill---Header_1-rp-500.avif 500w, /assets/img/International---Why-Study-at-Rosehill---Header_1-rp-800.avif 800w, /assets/img/International---Why-Study-at-Rosehill---Header_1-rp-1080.avif 1080w, /assets/img/International---Why-Study-at-Rosehill---Header_1-rp-1600.avif 1600w, /assets/img/International---Why-Study-at-Rosehill---Header_1.avif 1602w",
         "alt": "International students at Rosehill College"
       }
     },
     {
       "type": "prose",
       "heading": "The Rosehill experience",
-      "html": "<p>Rosehill College is based on traditional values of Respect, Responsibility and Caring with innovative approaches to teaching and learning, supported by modern information communication technology. It is our intention to produce graduates that are confident, self-reliant, and have self-respect and respect for others.</p><p>International students come from all over the world and diversity is a strong focus at Rosehill College. Both domestic and international students enjoy learning about different cultures and believe that this multicultural focus prepares them well for life in the global community. We celebrate our coeducational and bicultural identity and the opportunities presented to establish healthy friendships with people from a diverse range of backgrounds which is Auckland today.</p>"
+      "html": "<p>Rosehill College is based on traditional values of Respect, Responsibility and Caring with innovative approaches to teaching and learning, supported by modern information communication technology. It is our intention to produce graduates who are confident, self-reliant, and have self-respect and respect for others.</p><p>International students come from all over the world and diversity is a strong focus at Rosehill College. Both domestic and international students enjoy learning about different cultures and believe that this multicultural focus prepares them well for life in the global community. We celebrate our coeducational and bicultural identity and the opportunities presented to establish healthy friendships with people from a diverse range of backgrounds which is Auckland today.</p>"
     },
     {
       "type": "media-text",
       "heading": "Warm and welcoming atmosphere",
       "image": {
         "src": "assets/img/International---Why-Study-at-Rosehill---Warm.avif",
-        "srcset": "/assets/img/International---Why-Study-at-Rosehill---Warm-p-500.avif 500w, /assets/img/International---Why-Study-at-Rosehill---Warm-p-800.avif 800w, /assets/img/International---Why-Study-at-Rosehill---Warm-p-1080.avif 1080w, /assets/img/International---Why-Study-at-Rosehill---Warm-p-1600.avif 1600w",
+        "srcset": "/assets/img/International---Why-Study-at-Rosehill---Warm-rp-500.avif 500w, /assets/img/International---Why-Study-at-Rosehill---Warm-rp-800.avif 800w, /assets/img/International---Why-Study-at-Rosehill---Warm-rp-1080.avif 1080w, /assets/img/International---Why-Study-at-Rosehill---Warm-rp-1600.avif 1600w, /assets/img/International---Why-Study-at-Rosehill---Warm.avif 1616w",
         "alt": "Students enjoying the friendly community at Rosehill College"
       },
       "html": "<p>Known for its friendly community, Rosehill College provides a welcoming environment that eases the transition for international students, helping them feel at home away from home.</p><p>Our reputable education system aligns with international standards, ensuring a seamless transition for international students and preparing them for global academic success.</p>"
@@ -37,7 +37,7 @@
       "heading": "Cultural familiarity",
       "image": {
         "src": "assets/img/International---Why-Study-at-Rosehill---Cultural.avif",
-        "srcset": "/assets/img/International---Why-Study-at-Rosehill---Cultural-p-500.avif 500w, /assets/img/International---Why-Study-at-Rosehill---Cultural-p-800.avif 800w, /assets/img/International---Why-Study-at-Rosehill---Cultural-p-1080.avif 1080w, /assets/img/International---Why-Study-at-Rosehill---Cultural-p-1600.avif 1600w, /assets/img/International---Why-Study-at-Rosehill---Cultural-p-2000.avif 2000w",
+        "srcset": "/assets/img/International---Why-Study-at-Rosehill---Cultural-rp-500.avif 500w, /assets/img/International---Why-Study-at-Rosehill---Cultural-rp-800.avif 800w, /assets/img/International---Why-Study-at-Rosehill---Cultural-rp-1080.avif 1080w, /assets/img/International---Why-Study-at-Rosehill---Cultural-rp-1600.avif 1600w, /assets/img/International---Why-Study-at-Rosehill---Cultural-rp-2200.avif 2200w, /assets/img/International---Why-Study-at-Rosehill---Cultural.avif 2355w",
         "alt": "Rosehill College students celebrating cultural events together"
       },
       "html": "<p>With a growing local international student community, Rosehill College offers a sense of cultural familiarity through events, celebrations, and activities that allow international students to stay connected to their roots.</p><p>Tailored English language support programmes assist international students in improving their language skills, boosting their confidence in communication and academic performance.</p>"
@@ -58,7 +58,7 @@
       "heading": "Counselling and guidance",
       "image": {
         "src": "assets/img/International---Why-Study-at-Rosehill---Counselling.avif",
-        "srcset": "/assets/img/International---Why-Study-at-Rosehill---Counselling-p-500.avif 500w, /assets/img/International---Why-Study-at-Rosehill---Counselling-p-800.avif 800w, /assets/img/International---Why-Study-at-Rosehill---Counselling-p-1080.avif 1080w, /assets/img/International---Why-Study-at-Rosehill---Counselling-p-1600.avif 1600w",
+        "srcset": "/assets/img/International---Why-Study-at-Rosehill---Counselling-rp-500.avif 500w, /assets/img/International---Why-Study-at-Rosehill---Counselling-rp-800.avif 800w, /assets/img/International---Why-Study-at-Rosehill---Counselling-rp-1080.avif 1080w, /assets/img/International---Why-Study-at-Rosehill---Counselling-rp-1600.avif 1600w, /assets/img/International---Why-Study-at-Rosehill---Counselling.avif 1800w",
         "alt": "A Rosehill College student receiving guidance and support"
       },
       "html": "<p>Dedicated counselling services offer guidance on academic, personal, and cultural matters, ensuring international students receive the support they need to excel and thrive.</p><p>Rosehill College's strong connections with the New Zealand universities and local international communities provide networking opportunities for current students, facilitating valuable connections for future career prospects.</p>"

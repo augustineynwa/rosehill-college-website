@@ -3,7 +3,7 @@
   "path": "curriculum/student-support.html",
   "slug": "student-support",
   "title": "Student Support",
-  "metaDescription": "Student support at Rosehill College — Learner Support, Gifted Education, Careers guidance and the Gateway work experience programme.",
+  "metaDescription": "Student support at Rosehill College — learner support, gifted education, careers guidance and the Gateway work experience programme.",
   "sections": [
     {
       "type": "hero",
@@ -60,7 +60,7 @@
     {
       "type": "prose",
       "heading": "Gateway",
-      "html": "<p>Gateway is a programme initiated and funded by the Tertiary Education Commission (TEC) that offers students in Year 12 and 13 the opportunity to participate in a school-run work experience programme, typically involving one day a week in an industry work placement for between 10 and 20 days. It provides students with the chance to experience structured workplace learning in an industry of their choice, gaining new skills and knowledge while pursuing individual learning plans to achieve unit standards that contribute to NCEA. These unit standards are completed either in the workplace or during training workshops.</p><p>Gateway offers selected Year 12 and 13 students valuable learning and pathway opportunities. Students are placed in a variety of industries of their choice, providing an exciting opportunity for them to gain insight into an industry and determine if they are interested in pursuing that career in the future. The Gateway office is located in the Careers Centre and is staffed by Ms Mace, the Gateway Coordinator.</p><p>If you would like to get in touch with Ms Mace, her email address is <a href=\"mailto:k.mace@rosehillcollege.school.nz\">k.mace@rosehillcollege.school.nz</a>.</p>"
+      "html": "<p>Gateway is a programme initiated and funded by the Tertiary Education Commission (TEC) that offers students in Years 12 and 13 the opportunity to participate in a school-run work experience programme, typically involving one day a week in an industry work placement for between 10 and 20 days. It provides students with the chance to experience structured workplace learning in an industry of their choice, gaining new skills and knowledge while pursuing individual learning plans to achieve unit standards that contribute to NCEA. These unit standards are completed either in the workplace or during training workshops.</p><p>Gateway offers selected Year 12 and 13 students valuable learning and pathway opportunities. Students are placed in a variety of industries of their choice, providing an exciting opportunity for them to gain insight into an industry and determine if they are interested in pursuing that career in the future. The Gateway office is located in the Careers Centre and is staffed by Ms Mace, the Gateway Coordinator.</p><p>If you would like to get in touch with Ms Mace, her email address is <a href=\"mailto:k.mace@rosehillcollege.school.nz\">k.mace@rosehillcollege.school.nz</a>.</p>"
     },
     {
       "type": "cta",

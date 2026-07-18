@@ -3,7 +3,7 @@
   "path": "curriculum/learning-areas.html",
   "slug": "learning-areas",
   "title": "Learning Areas and Subjects",
-  "metaDescription": "Explore the learning areas and subjects at Rosehill College, from English, the Arts and Humanities to Languages, Mathematics, Science, Te Reo Māori, Physical Education and Health, and Technology.",
+  "metaDescription": "Learning areas at Rosehill College — English, Arts, Humanities, Languages, Maths, Science, Te Reo Māori, PE and Health, and Technology.",
   "sections": [
     {
       "type": "hero",
@@ -16,7 +16,7 @@
       "type": "prose",
       "eyebrow": "The Arts",
       "heading": "Visual arts",
-      "html": "<p><strong>Year 9:</strong> In both the Year 9 courses — Art and Design, students will have the opportunity to explore some art-making conventions, learn about and apply knowledge of elements of art and develop competence within the essential skills through the use of materials and processes. Drawing is the primary means for students to develop and create art works, developing and revisiting their ideas using various approaches in response to a variety of motivations, observations, and imagination, supported by the study of artists' work. In Art there is an emphasis on working within the fields of painting and printmaking, and in Design an emphasis on the fields of sculpture and design, although students will explore aspects of all four fields in both courses.</p><p><strong>Year 10:</strong> In Art and Design, students continue to develop and extend their visual, literate and technical skills within a variety of themes. Drawing is used to underpin the exploration of a variety of two and three dimensional media, encouraging students to pursue and challenge their own creative processes through learning about art, communicating visual ideas and making original work. The courses provide a solid foundation of skill-building in preparation for entry into Level 1 Art History, Visual Art and Photography and Design the following year.</p><p><strong>Year 11:</strong> Year 11 students can study either Visual Arts or Art Design. These courses build on and extend the skills taught in Year 10 Art and Year 10 Art Design.</p><p><strong>Year 12:</strong> Year 12 courses are offered in Art Design, Painting, Printmaking and Drawing, and Photography. These courses build on the skills taught in Year 11 Photography and Design and Visual Arts. Students may take up to two of these practical courses on successful completion of either Year 11 Art course.</p>"
+      "html": "<p><strong>Year 9:</strong> In both the Year 9 courses — Art and Design, students will have the opportunity to explore some art-making conventions, learn about and apply knowledge of elements of art and develop competence within the essential skills through the use of materials and processes. Drawing is the primary means for students to develop and create art works, developing and revisiting their ideas using various approaches in response to a variety of motivations, observations, and imagination, supported by the study of artists' work. In Art there is an emphasis on working within the fields of painting and printmaking, and in Design an emphasis on the fields of sculpture and design, although students will explore aspects of all four fields in both courses.</p><p><strong>Year 10:</strong> In Art and Design, students continue to develop and extend their visual, literate and technical skills within a variety of themes. Drawing is used to underpin the exploration of a variety of two- and three-dimensional media, encouraging students to pursue and challenge their own creative processes through learning about art, communicating visual ideas and making original work. The courses provide a solid foundation of skill-building in preparation for entry into Level 1 Art History, Visual Art and Photography and Design the following year.</p><p><strong>Year 11:</strong> Year 11 students can study either Visual Arts or Art Design. These courses build on and extend the skills taught in Year 10 Art and Year 10 Art Design.</p><p><strong>Year 12:</strong> Year 12 courses are offered in Art Design, Painting, Printmaking and Drawing, and Photography. These courses build on the skills taught in Year 11 Photography and Design and Visual Arts. Students may take up to two of these practical courses on successful completion of either Year 11 Art course.</p>"
     },
     {
       "type": "media-text",
@@ -24,7 +24,7 @@
       "heading": "Dance",
       "image": {
         "src": "assets/img/Curriculum---Subjects---Dance_1.avif",
-        "srcset": "",
+        "srcset": "/assets/img/Curriculum---Subjects---Dance_1-rp-500.avif 500w, /assets/img/Curriculum---Subjects---Dance_1-rp-800.avif 800w, /assets/img/Curriculum---Subjects---Dance_1-rp-1080.avif 1080w, /assets/img/Curriculum---Subjects---Dance_1.avif 1280w",
         "alt": "Rosehill College dance students performing"
       },
       "html": "<p>Dance students integrate thinking, moving and feeling. They explore and use dance elements, vocabularies, processes and technologies to express personal, group and cultural identities. Students develop literacy in Dance as they learn about and develop skills in performing, choreographing and responding to a variety of genres from a range of historical and contemporary contexts.</p>"
@@ -36,7 +36,7 @@
       "heading": "Music",
       "image": {
         "src": "assets/img/Curriculum---Subjects---Instrumental---2.avif",
-        "srcset": "/assets/img/Curriculum---Subjects---Instrumental---2-p-500.avif 500w, /assets/img/Curriculum---Subjects---Instrumental---2-p-800.avif 800w",
+        "srcset": "",
         "alt": "The Rosehill College Argentina Music Tour singers and musicians"
       },
       "html": "<p>At Rosehill College we offer Music courses to cater for all! Free weekly lessons are available for Music students, but there may be a waiting list.</p><p>Check out the instruments that you can learn here at Rosehill College: flute, oboe, clarinet, bass clarinet, saxophone, cornet, trumpet, horn, trombone, tuba, piano, vocals, guitar, bass guitar, and drumkit.</p><p>Enjoy your musical adventure!</p>"
@@ -55,7 +55,7 @@
     {
       "type": "quote",
       "text": "\"Ah, music,\" he said, wiping his eyes. \"A magic beyond all we do here!\"",
-      "attribution": "J.K. Rowling, Harry Potter and the Sorcerer's Stone"
+      "attribution": "J.K. Rowling, Harry Potter and the Philosopher's Stone"
     },
     {
       "type": "embed",

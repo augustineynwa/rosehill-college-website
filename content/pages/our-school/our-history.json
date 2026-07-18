@@ -3,7 +3,7 @@
   "path": "our-school/our-history.html",
   "slug": "our-history",
   "title": "Our History",
-  "metaDescription": "Learn about the rich history of Rosehill College, where tradition and innovation meet. From our founding to present day, discover how our school has evolved and shaped generations of students. Explore our milestones, values, and commitment to excellence in education.",
+  "metaDescription": "The history of Rosehill College, Papakura — from our founding in 1970 to today, and the milestones that shaped our school community.",
   "sections": [
     {
       "type": "hero",
@@ -12,7 +12,7 @@
       "lede": "From our first day of attendance on 3 February 1970 to today, Rosehill College has grown alongside its community — more than five decades of milestones, people and achievements.",
       "image": {
         "src": "assets/img/Our-School---Our-History---List---1.avif",
-        "srcset": "/assets/img/Our-School---Our-History---List---1-p-500.avif 500w, /assets/img/Our-School---Our-History---List---1-p-800.avif 800w, /assets/img/Our-School---Our-History---List---1-p-1080.avif 1080w, /assets/img/Our-School---Our-History---List---1-p-1600.avif 1600w, /assets/img/Our-School---Our-History---List---1-p-2000.avif 2000w, /assets/img/Our-School---Our-History---List---1-p-2600.avif 2600w, /assets/img/Our-School---Our-History---List---1-p-3200.avif 3200w",
+        "srcset": "/assets/img/Our-School---Our-History---List---1-rp-500.avif 500w, /assets/img/Our-School---Our-History---List---1-rp-800.avif 800w, /assets/img/Our-School---Our-History---List---1-rp-1080.avif 1080w, /assets/img/Our-School---Our-History---List---1-rp-1600.avif 1600w, /assets/img/Our-School---Our-History---List---1-rp-2200.avif 2200w, /assets/img/Our-School---Our-History---List---1-rp-3000.avif 3000w",
         "alt": "Archival photograph from the Rosehill College collection"
       }
     },
@@ -33,7 +33,7 @@
           "html": "<ul><li>First Form 7</li><li>Tender for gymnasium — $96,323</li><li>Des Hunt first Board staff representative</li><li>Girls' cricket unbeaten</li></ul>",
           "image": {
             "src": "assets/img/Our-School---Our-History---02_1.avif",
-            "srcset": "/assets/img/Our-School---Our-History---02_1-rp-500.avif 500w, /assets/img/Our-School---Our-History---02_1-rp-800.avif 800w, /assets/img/Our-School---Our-History---02_1-rp-1080.avif 1080w, /assets/img/Our-School---Our-History---02_1-rp-1600.avif 1600w, /assets/img/Our-School---Our-History---02_1.avif 3685w",
+            "srcset": "/assets/img/Our-School---Our-History---02_1-rp-500.avif 500w, /assets/img/Our-School---Our-History---02_1-rp-800.avif 800w, /assets/img/Our-School---Our-History---02_1-rp-1080.avif 1080w, /assets/img/Our-School---Our-History---02_1-rp-1600.avif 1600w, /assets/img/Our-School---Our-History---02_1-rp-2200.avif 2200w, /assets/img/Our-School---Our-History---02_1-rp-3000.avif 3000w, /assets/img/Our-School---Our-History---02_1.avif 3685w",
             "alt": "Photograph from Rosehill College in the mid-1970s"
           }
         },
@@ -42,7 +42,7 @@
           "html": "<ul><li>Eric Jerkovich retired</li><li>Computer suite opened in B12</li><li>Polynesian group formed</li><li>Senior water polo team won North Island Championship</li><li>Golf team Auckland Championship</li></ul>",
           "image": {
             "src": "assets/img/Our-School---Our-History---1984.avif",
-            "srcset": "/assets/img/Our-School---Our-History---1984-p-500.jpg 500w, /assets/img/Our-School---Our-History---1984-p-800.jpg 800w, /assets/img/Our-School---Our-History---1984-p-1080.jpg 1080w, /assets/img/Our-School---Our-History---1984-p-1600.jpg 1600w",
+            "srcset": "/assets/img/Our-School---Our-History---1984-rp-500.avif 500w, /assets/img/Our-School---Our-History---1984-rp-800.avif 800w, /assets/img/Our-School---Our-History---1984-rp-1080.avif 1080w, /assets/img/Our-School---Our-History---1984-rp-1600.avif 1600w, /assets/img/Our-School---Our-History---1984.avif 1856w",
             "alt": "Front page of the Rosehill College Bulletin, November 1984, announcing Mr Jerkovich's retirement"
           }
         },
@@ -69,7 +69,7 @@
           "html": "<ul><li>Gymnasium/Sports Centre completed</li><li>Kapa Haka won Mōteatea-Kia Mōhio Kia Rangatiri Trophy at Polyfest</li><li>Teachers Dave and Lyndon Ormandy left after 22 years</li><li>Year 9 and 10 teams won Counties Manukau Mathex competition</li></ul>",
           "image": {
             "src": "assets/img/Our-School---Our-History---2008_1.avif",
-            "srcset": "/assets/img/Our-School---Our-History---2008_1-rp-500.avif 500w, /assets/img/Our-School---Our-History---2008_1-rp-800.avif 800w, /assets/img/Our-School---Our-History---2008_1-rp-1080.avif 1080w, /assets/img/Our-School---Our-History---2008_1-rp-1600.avif 1600w, /assets/img/Our-School---Our-History---2008_1.avif 2382w",
+            "srcset": "/assets/img/Our-School---Our-History---2008_1-rp-500.avif 500w, /assets/img/Our-School---Our-History---2008_1-rp-800.avif 800w, /assets/img/Our-School---Our-History---2008_1-rp-1080.avif 1080w, /assets/img/Our-School---Our-History---2008_1-rp-1600.avif 1600w, /assets/img/Our-School---Our-History---2008_1-rp-2200.avif 2200w, /assets/img/Our-School---Our-History---2008_1.avif 2382w",
             "alt": "Photograph from Rosehill College in 2008"
           }
         },
@@ -99,7 +99,7 @@
       "images": [
         {
           "src": "assets/img/Our-School---Our-History---List---2_1.avif",
-          "srcset": "/assets/img/Our-School---Our-History---List---2_1-rp-500.avif 500w, /assets/img/Our-School---Our-History---List---2_1-rp-800.avif 800w, /assets/img/Our-School---Our-History---List---2_1-rp-1080.avif 1080w, /assets/img/Our-School---Our-History---List---2_1-rp-1600.avif 1600w, /assets/img/Our-School---Our-History---List---2_1.avif 3726w",
+          "srcset": "/assets/img/Our-School---Our-History---List---2_1-rp-500.avif 500w, /assets/img/Our-School---Our-History---List---2_1-rp-800.avif 800w, /assets/img/Our-School---Our-History---List---2_1-rp-1080.avif 1080w, /assets/img/Our-School---Our-History---List---2_1-rp-1600.avif 1600w, /assets/img/Our-School---Our-History---List---2_1-rp-2200.avif 2200w, /assets/img/Our-School---Our-History---List---2_1-rp-3000.avif 3000w, /assets/img/Our-School---Our-History---List---2_1.avif 3726w",
           "alt": "Archival photograph from the Rosehill College collection"
         },
         {
@@ -109,32 +109,32 @@
         },
         {
           "src": "assets/img/Our-School---Our-History---List-4_1.avif",
-          "srcset": "",
+          "srcset": "/assets/img/Our-School---Our-History---List-4_1-rp-500.avif 500w, /assets/img/Our-School---Our-History---List-4_1-rp-800.avif 800w, /assets/img/Our-School---Our-History---List-4_1-rp-1080.avif 1080w, /assets/img/Our-School---Our-History---List-4_1-rp-1600.avif 1600w, /assets/img/Our-School---Our-History---List-4_1.avif 2042w",
           "alt": "Archival photograph from the Rosehill College collection"
         },
         {
           "src": "assets/img/Our-School---Our-History---List-5_1.avif",
-          "srcset": "",
+          "srcset": "/assets/img/Our-School---Our-History---List-5_1-rp-500.avif 500w, /assets/img/Our-School---Our-History---List-5_1-rp-800.avif 800w, /assets/img/Our-School---Our-History---List-5_1-rp-1080.avif 1080w, /assets/img/Our-School---Our-History---List-5_1-rp-1600.avif 1600w, /assets/img/Our-School---Our-History---List-5_1-rp-2200.avif 2200w, /assets/img/Our-School---Our-History---List-5_1.avif 2387w",
           "alt": "Archival photograph from the Rosehill College collection"
         },
         {
           "src": "assets/img/Our-School---Our-History---List-6_1.avif",
-          "srcset": "",
+          "srcset": "/assets/img/Our-School---Our-History---List-6_1-rp-500.avif 500w, /assets/img/Our-School---Our-History---List-6_1-rp-800.avif 800w, /assets/img/Our-School---Our-History---List-6_1-rp-1080.avif 1080w, /assets/img/Our-School---Our-History---List-6_1-rp-1600.avif 1600w, /assets/img/Our-School---Our-History---List-6_1.avif 1796w",
           "alt": "Archival photograph from the Rosehill College collection"
         },
         {
           "src": "assets/img/Our-School---Our-History---List-7_1.avif",
-          "srcset": "",
+          "srcset": "/assets/img/Our-School---Our-History---List-7_1-rp-500.avif 500w, /assets/img/Our-School---Our-History---List-7_1-rp-800.avif 800w, /assets/img/Our-School---Our-History---List-7_1-rp-1080.avif 1080w, /assets/img/Our-School---Our-History---List-7_1-rp-1600.avif 1600w, /assets/img/Our-School---Our-History---List-7_1.avif 1761w",
           "alt": "Archival photograph from the Rosehill College collection"
         },
         {
           "src": "assets/img/Our-School---Our-History---List-9.avif",
-          "srcset": "/assets/img/Our-School---Our-History---List-9-p-500.avif 500w, /assets/img/Our-School---Our-History---List-9-p-800.avif 800w, /assets/img/Our-School---Our-History---List-9-p-1080.avif 1080w, /assets/img/Our-School---Our-History---List-9-p-1600.avif 1600w, /assets/img/Our-School---Our-History---List-9-p-2000.avif 2000w, /assets/img/Our-School---Our-History---List-9-p-2600.avif 2600w, /assets/img/Our-School---Our-History---List-9-p-3200.avif 3200w",
+          "srcset": "/assets/img/Our-School---Our-History---List-9-rp-500.avif 500w, /assets/img/Our-School---Our-History---List-9-rp-800.avif 800w, /assets/img/Our-School---Our-History---List-9-rp-1080.avif 1080w, /assets/img/Our-School---Our-History---List-9-rp-1600.avif 1600w, /assets/img/Our-School---Our-History---List-9-rp-2200.avif 2200w, /assets/img/Our-School---Our-History---List-9-rp-3000.avif 3000w",
           "alt": "Archival photograph from the Rosehill College collection"
         },
         {
           "src": "assets/img/Our-School---Our-History---List-12.avif",
-          "srcset": "/assets/img/Our-School---Our-History---List-12-p-500.jpg 500w, /assets/img/Our-School---Our-History---List-12-p-800.jpg 800w",
+          "srcset": "",
           "alt": "Two visitors smiling together on the tennis courts at Rosehill College"
         }
       ]

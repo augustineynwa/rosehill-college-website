@@ -3,7 +3,7 @@
   "path": "curriculum/course-information.html",
   "slug": "course-information",
   "title": "Course Information",
-  "metaDescription": "Explore detailed course information at Rosehill College to find the right path for your educational journey. Learn about our diverse curriculum offerings, subject choices, and course requirements designed to support student interests, strengths, and future goals.",
+  "metaDescription": "Rosehill College course information for Years 9–13 — subject options, NCEA course requirements and option booklets to plan your pathway.",
   "sections": [
     {
       "type": "hero",
@@ -12,7 +12,7 @@
       "lede": "At Rosehill College, we believe in providing a balanced education that not only focuses on academic excellence but also fosters personal growth and development. Our courses are structured to challenge students intellectually while supporting their individual learning needs.",
       "image": {
         "src": "assets/img/class-room.avif",
-        "srcset": "/assets/img/class-room-p-500.avif 500w, /assets/img/class-room-p-800.avif 800w, /assets/img/class-room-p-1080.avif 1080w, /assets/img/class-room-p-1600.avif 1600w",
+        "srcset": "/assets/img/class-room-rp-500.avif 500w, /assets/img/class-room-rp-800.avif 800w, /assets/img/class-room-rp-1080.avif 1080w, /assets/img/class-room-rp-1600.avif 1600w, /assets/img/class-room.avif 1666w",
         "alt": "Rosehill College students learning in class"
       }
     },

@@ -3,7 +3,7 @@
   "path": "cocurricular/sports.html",
   "slug": "sports",
   "title": "Sports",
-  "metaDescription": "Discover sports at Rosehill College. Our sports programme encourages teamwork, resilience and school spirit through a wide range of athletic opportunities — find out about our sport codes and how to get involved.",
+  "metaDescription": "Sport at Rosehill College — a wide range of codes from rugby and netball to rowing. Find teams, trials and how to get involved.",
   "sections": [
     {
       "type": "hero",
@@ -82,7 +82,7 @@
       "images": [
         {
           "src": "assets/img/Sports---Co-curricular---Basketball_1.avif",
-          "srcset": "/assets/img/Sports---Co-curricular---Basketball_1-rp-500.avif 500w, /assets/img/Sports---Co-curricular---Basketball_1-rp-800.avif 800w, /assets/img/Sports---Co-curricular---Basketball_1-rp-1080.avif 1080w, /assets/img/Sports---Co-curricular---Basketball_1-rp-1600.avif 1600w, /assets/img/Sports---Co-curricular---Basketball_1.avif 4100w",
+          "srcset": "/assets/img/Sports---Co-curricular---Basketball_1-rp-500.avif 500w, /assets/img/Sports---Co-curricular---Basketball_1-rp-800.avif 800w, /assets/img/Sports---Co-curricular---Basketball_1-rp-1080.avif 1080w, /assets/img/Sports---Co-curricular---Basketball_1-rp-1600.avif 1600w, /assets/img/Sports---Co-curricular---Basketball_1-rp-2200.avif 2200w, /assets/img/Sports---Co-curricular---Basketball_1-rp-3000.avif 3000w",
           "alt": "Rosehill College students playing basketball",
           "caption": "Basketball"
         },
@@ -94,7 +94,7 @@
         },
         {
           "src": "assets/img/Co-curricular---Sports---Netball_1.avif",
-          "srcset": "",
+          "srcset": "/assets/img/Co-curricular---Sports---Netball_1-rp-500.avif 500w, /assets/img/Co-curricular---Sports---Netball_1-rp-800.avif 800w, /assets/img/Co-curricular---Sports---Netball_1-rp-1080.avif 1080w, /assets/img/Co-curricular---Sports---Netball_1.avif 1210w",
           "alt": "Rosehill College students playing netball",
           "caption": "Netball"
         },
@@ -106,25 +106,25 @@
         },
         {
           "src": "assets/img/Co-curricular---Sports---Softball.avif",
-          "srcset": "/assets/img/Co-curricular---Sports---Softball-p-500.avif 500w, /assets/img/Co-curricular---Sports---Softball-p-800.avif 800w, /assets/img/Co-curricular---Sports---Softball-p-1080.avif 1080w",
+          "srcset": "",
           "alt": "Rosehill College students playing softball",
           "caption": "Softball"
         },
         {
           "src": "assets/img/Co-curricular---Sports---Volleyball.avif",
-          "srcset": "/assets/img/Co-curricular---Sports---Volleyball-p-500.avif 500w, /assets/img/Co-curricular---Sports---Volleyball-p-800.avif 800w, /assets/img/Co-curricular---Sports---Volleyball-p-1080.avif 1080w, /assets/img/Co-curricular---Sports---Volleyball-p-1600.avif 1600w",
+          "srcset": "/assets/img/Co-curricular---Sports---Volleyball-rp-500.avif 500w, /assets/img/Co-curricular---Sports---Volleyball-rp-800.avif 800w, /assets/img/Co-curricular---Sports---Volleyball-rp-1080.avif 1080w, /assets/img/Co-curricular---Sports---Volleyball-rp-1600.avif 1600w, /assets/img/Co-curricular---Sports---Volleyball-rp-2200.avif 2200w, /assets/img/Co-curricular---Sports---Volleyball-rp-3000.avif 3000w",
           "alt": "Rosehill College students playing volleyball",
           "caption": "Volleyball"
         },
         {
           "src": "assets/img/Co-curricular---Sports---Touch.avif",
-          "srcset": "/assets/img/Co-curricular---Sports---Touch-p-500.avif 500w, /assets/img/Co-curricular---Sports---Touch-p-800.avif 800w, /assets/img/Co-curricular---Sports---Touch-p-1080.avif 1080w",
+          "srcset": "",
           "alt": "Rosehill College students playing touch",
           "caption": "Touch"
         },
         {
           "src": "assets/img/Co-curricular---Sports---Athletics_1.avif",
-          "srcset": "",
+          "srcset": "/assets/img/Co-curricular---Sports---Athletics_1-rp-500.avif 500w, /assets/img/Co-curricular---Sports---Athletics_1-rp-800.avif 800w, /assets/img/Co-curricular---Sports---Athletics_1-rp-1080.avif 1080w, /assets/img/Co-curricular---Sports---Athletics_1.avif 1263w",
           "alt": "Rosehill College students competing in athletics",
           "caption": "Athletics"
         }
@@ -152,7 +152,7 @@
         },
         {
           "title": "Fair play rules",
-          "html": "<ul><li>Treat opponents with respect.</li><li>Play hard but within the rules.</li><li>Exercise self control at all times (towards opponents, officials and spectators).</li><li>Respect and accept the decisions of officials without gesture or argument.</li><li>Always do your best but accept victory or defeat with dignity.</li><li>Show that it is a privilege to represent your school.</li><li>Recognise and applaud honestly the efforts of team mates or opponents regardless of gender, ethnic origin or special needs.</li><li>Always thank your opponents and officials after the game or fixture.</li></ul>"
+          "html": "<ul><li>Treat opponents with respect.</li><li>Play hard but within the rules.</li><li>Exercise self-control at all times (towards opponents, officials and spectators).</li><li>Respect and accept the decisions of officials without gesture or argument.</li><li>Always do your best but accept victory or defeat with dignity.</li><li>Show that it is a privilege to represent your school.</li><li>Recognise and applaud honestly the efforts of teammates or opponents regardless of gender, ethnic origin or special needs.</li><li>Always thank your opponents and officials after the game or fixture.</li></ul>"
         },
         {
           "title": "Attendance",

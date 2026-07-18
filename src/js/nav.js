@@ -71,12 +71,23 @@ export function initNav() {
   const burger = header.querySelector('[data-menu-toggle]');
   const mobileMenu = header.querySelector('[data-mobile-menu]');
   if (burger && mobileMenu) {
+    // the overlay covers the page, but the page behind it stays focusable and
+    // readable to assistive tech unless we explicitly take it out of the tree —
+    // otherwise tabbing past the last menu link walks the hidden document
+    const behind = () => [
+      header.querySelector('.site-header__inner'),
+      document.querySelector('main'),
+      document.querySelector('footer'),
+    ].filter(Boolean);
+
     burger.addEventListener('click', () => {
       const open = mobileMenu.hidden;
       mobileMenu.hidden = !open;
       burger.setAttribute('aria-expanded', String(open));
       header.classList.toggle('is-open', open);
       document.documentElement.style.overflow = open ? 'hidden' : '';
+      behind().forEach((el) => { el.inert = open; });
+      if (open) mobileMenu.querySelector('a, button')?.focus();
     });
   }
 
@@ -93,6 +104,10 @@ export function initNav() {
       burger.setAttribute('aria-expanded', 'false');
       header.classList.remove('is-open');
       document.documentElement.style.overflow = '';
+      // must mirror the open handler — leaving these inert would make the
+      // whole page unresponsive after closing with Escape
+      [header.querySelector('.site-header__inner'), document.querySelector('main'), document.querySelector('footer')]
+        .filter(Boolean).forEach((el) => { el.inert = false; });
       burger.focus();
     }
   });

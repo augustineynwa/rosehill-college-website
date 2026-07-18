@@ -6,7 +6,9 @@
     <div class="home-life__track" data-life-track>
       {{#each images}}
       <figure class="home-life__panel media-frame" data-life-panel data-depth="{{depth}}">
-        <img src="/{{src}}" {{#if srcset}}srcset="{{srcset}}" sizes="60vw"{{/if}} alt="{{alt}}" loading="lazy">
+        {{! panels are min(46rem, 78vw); the old flat 60vw under-requested them
+            on mobile (234px asked for a 304px slot), which showed as soft images }}
+        <img src="/{{src}}" {{#if srcset}}srcset="{{srcset}}" sizes="(max-width: 48rem) 78vw, 46rem"{{/if}} alt="{{alt}}" loading="lazy" decoding="async">
         {{#if caption}}<figcaption class="home-life__caption">{{caption}}</figcaption>{{/if}}
       </figure>
       {{/each}}

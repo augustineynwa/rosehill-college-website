@@ -7,7 +7,8 @@
     <div class="montage__row" data-montage-row data-dir="{{#if (eq (mod @index 2) 0)}}left{{else}}right{{/if}}">
       {{#each images}}
       <figure class="montage__item media-frame media-frame--card">
-        <img src="/{{src}}" {{#if srcset}}srcset="{{srcset}}" sizes="(max-width: 48rem) 60vw, 30vw"{{/if}} alt="{{alt}}" loading="lazy">
+        {{! items are min(24rem, 66vw) — match that rather than a guessed vw }}
+        <img src="/{{src}}" {{#if srcset}}srcset="{{srcset}}" sizes="(max-width: 36rem) 66vw, 24rem"{{/if}} alt="{{alt}}" loading="lazy" decoding="async">
         <figcaption class="montage__label">{{label}}</figcaption>
       </figure>
       {{/each}}

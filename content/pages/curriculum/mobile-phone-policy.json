@@ -12,7 +12,7 @@
       "lede": "At Rosehill College, we believe mobile phones are not necessary during the school day. However, we understand that some parents and caregivers want their children to have a phone for after-school communication.",
       "image": {
         "src": "assets/img/Mobile-Phone-Policy.avif",
-        "srcset": "/assets/img/c98d00b9f557a4580700732d338d1f36_Mobile-Phone-Policy-p-500.avif 500w, /assets/img/c98d00b9f557a4580700732d338d1f36_Mobile-Phone-Policy-p-800.avif 800w",
+        "srcset": "",
         "alt": "A mobile phone put away in a school bag during the Rosehill College school day"
       }
     },
@@ -23,7 +23,7 @@
       "aside": {
         "image": {
           "src": "assets/img/class-room.avif",
-          "srcset": "/assets/img/class-room-p-500.avif 500w, /assets/img/class-room-p-800.avif 800w, /assets/img/class-room-p-1080.avif 1080w, /assets/img/class-room-p-1600.avif 1600w",
+          "srcset": "/assets/img/class-room-rp-500.avif 500w, /assets/img/class-room-rp-800.avif 800w, /assets/img/class-room-rp-1080.avif 1080w, /assets/img/class-room-rp-1600.avif 1600w, /assets/img/class-room.avif 1666w",
           "alt": "Students focused on their learning in a Rosehill College classroom"
         },
         "html": "<p><strong>Rosehill College digital usage guidelines</strong></p><ul><li><a href=\"https://drive.google.com/file/d/1yenNlrnhQalhgS6fZQYqIqe-GaKAdoz8/view\" rel=\"external\">Cybersecurity and BYOD Agreement</a></li><li><a href=\"https://web-assets.education.govt.nz/s3fs-public/2024-08/TPA_CellphonePolicy_Whanau_FAQs_FINAL.pdf?VersionId=zErBiZlv82qK7x.mNlqpdKMpVpHuUbiW\" rel=\"external\">Phones away for the day — whānau FAQs (Ministry of Education)</a></li></ul>"
@@ -53,7 +53,7 @@
       "heading": "Guidelines for parents — use outside of school",
       "image": {
         "src": "assets/img/Guidelines.avif",
-        "srcset": "/assets/img/Guidelines-p-500.avif 500w, /assets/img/Guidelines-p-800.avif 800w, /assets/img/Guidelines-p-1080.avif 1080w",
+        "srcset": "",
         "alt": "A parent and teenager talking together about phone use at home"
       },
       "html": "<p>Parents and caregivers are responsible for their children's phone use outside school hours. We encourage families to:</p><ul><li>Set clear rules about phone use at home</li><li>Encourage children to be the same person online and in person</li><li>Monitor passwords, limit Wi-Fi use overnight, and stay engaged with your child's online activity</li></ul>"

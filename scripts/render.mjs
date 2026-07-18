@@ -113,6 +113,39 @@ const cleanHref = (p) => {
   return u === '/index' ? '/' : u;
 };
 
+/**
+ * schema.org School for the homepage. Everything is derived from site.json so
+ * it can't drift from the contact details shown on the page. This is what
+ * populates the Google panel a parent sees when they search the school.
+ */
+function schoolSchema() {
+  const base = (site.baseUrl || '').replace(/\/$/, '');
+  // "5 Edinburgh Avenue," / "Rosehill," / "Papakura 2113," / "New Zealand"
+  const [street = '', suburb = '', cityLine = ''] = (site.address?.physical || []).map((l) => l.replace(/,\s*$/, ''));
+  const [, city = '', postcode = ''] = /^(.*?)\s*(\d{4})$/.exec(cityLine) || [];
+  return JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'School',
+    name: site.name,
+    description: site.vision,
+    url: base + '/',
+    logo: base + '/assets/img/RHC-Official-Crest.svg',
+    image: base + '/assets/img/og-default.jpg',
+    telephone: site.contact?.phone,
+    faxNumber: site.contact?.fax,
+    email: site.contact?.email,
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: [street, suburb].filter(Boolean).join(', '),
+      addressLocality: city || 'Papakura',
+      postalCode: postcode || '',
+      addressRegion: 'Auckland',
+      addressCountry: 'NZ',
+    },
+    sameAs: [site.external?.facebook, site.external?.instagram].filter(Boolean),
+  });
+}
+
 // ---------- render pages + search index ----------
 const searchIndex = [];
 const sitemapPaths = [];
@@ -139,7 +172,11 @@ for (const f of walk(join(CONTENT, 'pages'), '.json')) {
   const layout = layouts[page.layout || 'page'];
   if (!layout) throw new Error(`Unknown layout "${page.layout}" for ${page.path}`);
   const canonicalPath = cleanHref(page.path);
-  const html = cleanUrls(layout({ ...page, site, root, canonicalPath }));
+  const isHome = page.path === 'index.html';
+  const html = cleanUrls(layout({
+    ...page, site, root, canonicalPath, isHome,
+    schoolSchema: isHome ? schoolSchema() : '',
+  }));
   mkdirSync(dirname(outPath), { recursive: true });
   writeFileSync(outPath, html, 'utf8');
   const indexable = !['404.html', 'search.html', '401.html', 'my-rhc.html'].includes(page.path)

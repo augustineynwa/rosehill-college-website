@@ -3,7 +3,7 @@
   "path": "cocurricular/arts-and-culture.html",
   "slug": "arts-and-culture",
   "title": "Arts and Culture",
-  "metaDescription": "Explore Rosehill College's vibrant Arts and Culture programme — visual arts, music, dance, drama, kapa haka and Pasifika groups, with opportunities to perform locally and internationally.",
+  "metaDescription": "Arts and culture at Rosehill College — visual arts, music, dance, drama, kapa haka and Pasifika groups, with performance opportunities.",
   "sections": [
     {
       "type": "hero",
@@ -23,7 +23,7 @@
       "heading": "Dance at Rosehill",
       "image": {
         "src": "assets/img/Curriculum---Subjects---Dance_1.avif",
-        "srcset": "",
+        "srcset": "/assets/img/Curriculum---Subjects---Dance_1-rp-500.avif 500w, /assets/img/Curriculum---Subjects---Dance_1-rp-800.avif 800w, /assets/img/Curriculum---Subjects---Dance_1-rp-1080.avif 1080w, /assets/img/Curriculum---Subjects---Dance_1.avif 1280w",
         "alt": "Rosehill College dance students in performance"
       },
       "html": "<p>Dance is offered as an NCEA subject at all levels, featuring opportunities for students to participate in dance shows, school productions, competitions, and cheerleading.</p><p>Dance at Rosehill College stimulates creativity and fosters self-expression, all while building confidence. In addition to our rich and dynamic curriculum, we offer a range of extra-curricular dance activities, including:</p><ul><li><strong>NZ Street Dance Megaschool Competition:</strong> students compete against other Auckland schools in this prestigious Hip Hop competition held in central Auckland.</li><li><strong>'Ascension' Contemporary Dance Group:</strong> students develop a repertoire of contemporary dances showcased at the Auckland Cheerleading Competitions.</li></ul><p>All senior dance classes, performances, and practices take place in our Performing Arts Centre, which features a purpose-built sprung dance floor.</p>"
@@ -31,7 +31,7 @@
     {
       "type": "prose",
       "heading": "Drama at Rosehill",
-      "html": "<p>Rosehill College's Drama programme boasts a history of academic success and numerous awards. Our highly regarded and inspirational teachers lead annual productions, participate in festivals, theatresports, drama school, and oversee the technical aspects of performances.</p><p>Drama at Rosehill College fosters critical literacy, enabling students to shape, communicate, and interpret meaning while gaining a deeper understanding of themselves and others. Our diverse extra-curricular activities include:</p><ul><li><strong>Annual school production/musical:</strong> renowned for high-quality plays and musicals, Rosehill College offers students the chance to perform on stage and receive training as backstage crew, lighting and sound teams, props and set makers, and show band members. Held at the Hawkins Theatre in Papakura, these productions provide a semi-professional theatre experience. Our productions have won awards in the Auckland Showdown competition, including Best Props Design (Lion, Witch and the Wardrobe 2011, Fiddler on the Roof 2012) and Best Set Design (The Witches 2013).</li><li><strong>Theatresports:</strong> students master the art of improvisation and compete in the Auckland Theatresports Festival. Rosehill College won the Auckland Shield in 2012 and continues to produce strong teams annually.</li><li><strong>Sheilah Winn Shakespeare Festival:</strong> both student and teacher-directed pieces are entered into this national competition, where students perform scenes before a judging panel. Winners advance to the finals in Wellington and may be selected to visit The Globe Theatre in London.</li><li><strong>Talent Quest:</strong> organised by Rosehill College's Arts Committee, this event showcases the diverse talents of our students at the Hawkins Theatre. Performances include Hip Hop and Contemporary dancers, bands, singers, and stand-up comedians.</li></ul>"
+      "html": "<p>Rosehill College's Drama programme boasts a history of academic success and numerous awards. Our highly regarded and inspirational teachers lead annual productions, participate in festivals, theatresports, drama school, and oversee the technical aspects of performances.</p><p>Drama at Rosehill College fosters critical literacy, enabling students to shape, communicate, and interpret meaning while gaining a deeper understanding of themselves and others. Our diverse extra-curricular activities include:</p><ul><li><strong>Annual school production/musical:</strong> renowned for high-quality plays and musicals, Rosehill College offers students the chance to perform on stage and receive training as backstage crew, lighting and sound teams, props and set makers, and show band members. Held at the Hawkins Theatre in Papakura, these productions provide a semi-professional theatre experience. Our productions have won awards in the Auckland Showdown competition, including Best Props Design (The Lion, the Witch and the Wardrobe 2011, Fiddler on the Roof 2012) and Best Set Design (The Witches 2013).</li><li><strong>Theatresports:</strong> students master the art of improvisation and compete in the Auckland Theatresports Festival. Rosehill College won the Auckland Shield in 2012 and continues to produce strong teams annually.</li><li><strong>Sheilah Winn Shakespeare Festival:</strong> both student and teacher-directed pieces are entered into this national competition, where students perform scenes before a judging panel. Winners advance to the finals in Wellington and may be selected to visit The Globe Theatre in London.</li><li><strong>Talent Quest:</strong> organised by Rosehill College's Arts Committee, this event showcases the diverse talents of our students at the Hawkins Theatre. Performances include Hip Hop and Contemporary dancers, bands, singers, and stand-up comedians.</li></ul>"
     },
     {
       "type": "media-text",
@@ -40,7 +40,7 @@
       "heading": "Music at Rosehill",
       "image": {
         "src": "assets/img/Co-curricular---Arts-and-Culture---Music.avif",
-        "srcset": "/assets/img/Co-curricular---Arts-and-Culture---Music-p-500.avif 500w, /assets/img/Co-curricular---Arts-and-Culture---Music-p-800.avif 800w",
+        "srcset": "",
         "alt": "Rosehill College music students performing"
       },
       "html": "<p>At Rosehill College, students can study vocals and band as subjects, and take weekly instrument lessons. Our bands, ensembles, and choirs rehearse regularly to enhance their skills, preparing for competitions and tours both in New Zealand and internationally, with past destinations including Sydney, Argentina, Singapore, and China. Our bands have advanced in Rockquest, performed at Eden Park, and our composers have had their works performed by orchestras.</p><p>We offer courses at all levels for vocalists and instrumentalists, accommodating both students who can read music and those who cannot. Students enrolled in Music courses can receive free weekly vocal or instrumental lessons from expert itinerant music teachers (subject to availability).</p><p>All students are encouraged to join co-curricular music groups once they reach the necessary level.</p>"
@@ -68,7 +68,7 @@
         },
         {
           "title": "Show Band",
-          "html": "<p>Includes flutes, oboes, clarinets, saxophones, trumpets, horns, trombones, piano, guitar, bass guitar, drumkit, auxiliary percussion, mallet percussion, and timpani. Rehearsals occur primarily in term two, with performances at the Hawkins Theatre in term three. The band accompanies the school musical, with past shows including Jesus Christ Superstar, Westside Story, Man of La Mancha, Little Shop of Horrors, Big Al, Grease, Fiddler on the Roof, Wizard of Oz, Annie, and Addams Family.</p>"
+          "html": "<p>Includes flutes, oboes, clarinets, saxophones, trumpets, horns, trombones, piano, guitar, bass guitar, drumkit, auxiliary percussion, mallet percussion, and timpani. Rehearsals occur primarily in term two, with performances at the Hawkins Theatre in term three. The band accompanies the school musical, with past shows including Jesus Christ Superstar, West Side Story, Man of La Mancha, Little Shop of Horrors, Big Al, Grease, Fiddler on the Roof, Wizard of Oz, Annie, and Addams Family.</p>"
         },
         {
           "title": "Tour Band and Singers",

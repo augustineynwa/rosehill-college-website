@@ -3,7 +3,7 @@
   "path": "index.html",
   "slug": "home",
   "title": "Welcome to Rosehill College",
-  "metaDescription": "Empowering Year 9–13 students in Papakura, South Auckland to achieve their best. Experience Rosehill College's commitment to academic excellence and personal growth.",
+  "metaDescription": "Rosehill College is a state co-educational secondary school in Papakura, South Auckland, for Years 9–13. Explore enrolment, curriculum and school life.",
   "sections": [
     {
       "type": "home-hero",
@@ -27,7 +27,7 @@
           "meaning": "\"We rise by lifting others.\" We use mana-enhancing, respectful, inclusive words and actions, and look after our learning environment.",
           "image": {
             "src": "assets/img/Curriculum---Our-RHC-Way---Connect.avif",
-            "srcset": "/assets/img/Curriculum---Our-RHC-Way---Connect-p-500.avif 500w, /assets/img/Curriculum---Our-RHC-Way---Connect-p-800.avif 800w, /assets/img/Curriculum---Our-RHC-Way---Connect-p-1080.avif 1080w, /assets/img/Curriculum---Our-RHC-Way---Connect-p-1600.avif 1600w",
+            "srcset": "/assets/img/Curriculum---Our-RHC-Way---Connect-rp-500.avif 500w, /assets/img/Curriculum---Our-RHC-Way---Connect-rp-800.avif 800w, /assets/img/Curriculum---Our-RHC-Way---Connect-rp-1080.avif 1080w, /assets/img/Curriculum---Our-RHC-Way---Connect-rp-1600.avif 1600w, /assets/img/Curriculum---Our-RHC-Way---Connect-rp-2200.avif 2200w, /assets/img/Curriculum---Our-RHC-Way---Connect-rp-3000.avif 3000w",
             "alt": "Rosehill College students connecting with each other in the school grounds"
           }
         },
@@ -37,7 +37,7 @@
           "meaning": "\"Excellence in all that we do.\" We celebrate success together, reflect on our learning and our actions every day, and care about self-leadership.",
           "image": {
             "src": "assets/img/Junior-Diploma-3.avif",
-            "srcset": "/assets/img/Junior-Diploma-3-p-500.avif 500w, /assets/img/Junior-Diploma-3-p-800.avif 800w, /assets/img/Junior-Diploma-3-p-1080.avif 1080w, /assets/img/Junior-Diploma-3-p-1600.avif 1600w",
+            "srcset": "/assets/img/Junior-Diploma-3-rp-500.avif 500w, /assets/img/Junior-Diploma-3-rp-800.avif 800w, /assets/img/Junior-Diploma-3-rp-1080.avif 1080w, /assets/img/Junior-Diploma-3-rp-1600.avif 1600w, /assets/img/Junior-Diploma-3.avif 1817w",
             "alt": "Rosehill College students celebrating success together with a certificate"
           }
         },
@@ -47,7 +47,7 @@
           "meaning": "\"Together we are more.\" We care about our school community whānau, respect others' ideas and contributions, and know everyone is unique.",
           "image": {
             "src": "assets/img/Curriculum---Our-RHC-Way---Respect_1.avif",
-            "srcset": "/assets/img/Curriculum---Our-RHC-Way---Respect_1-rp-500.avif 500w, /assets/img/Curriculum---Our-RHC-Way---Respect_1-rp-800.avif 800w, /assets/img/Curriculum---Our-RHC-Way---Respect_1-rp-1080.avif 1080w, /assets/img/Curriculum---Our-RHC-Way---Respect_1-rp-1600.avif 1600w, /assets/img/Curriculum---Our-RHC-Way---Respect_1.avif 3733w",
+            "srcset": "/assets/img/Curriculum---Our-RHC-Way---Respect_1-rp-500.avif 500w, /assets/img/Curriculum---Our-RHC-Way---Respect_1-rp-800.avif 800w, /assets/img/Curriculum---Our-RHC-Way---Respect_1-rp-1080.avif 1080w, /assets/img/Curriculum---Our-RHC-Way---Respect_1-rp-1600.avif 1600w, /assets/img/Curriculum---Our-RHC-Way---Respect_1-rp-2200.avif 2200w, /assets/img/Curriculum---Our-RHC-Way---Respect_1-rp-3000.avif 3000w, /assets/img/Curriculum---Our-RHC-Way---Respect_1.avif 3733w",
             "alt": "Rosehill College students showing respect for one another at school"
           }
         },
@@ -57,7 +57,7 @@
           "meaning": "\"We are resilient and persevere.\" We support each other through challenges, know mistakes are moments of learning, and are determined to achieve excellence.",
           "image": {
             "src": "assets/img/Curriculum---Our-RHC-Way---Strive_1.avif",
-            "srcset": "/assets/img/Curriculum---Our-RHC-Way---Strive_1-rp-500.avif 500w, /assets/img/Curriculum---Our-RHC-Way---Strive_1-rp-800.avif 800w, /assets/img/Curriculum---Our-RHC-Way---Strive_1-rp-1080.avif 1080w, /assets/img/Curriculum---Our-RHC-Way---Strive_1-rp-1600.avif 1600w, /assets/img/Curriculum---Our-RHC-Way---Strive_1.avif 2458w",
+            "srcset": "/assets/img/Curriculum---Our-RHC-Way---Strive_1-rp-500.avif 500w, /assets/img/Curriculum---Our-RHC-Way---Strive_1-rp-800.avif 800w, /assets/img/Curriculum---Our-RHC-Way---Strive_1-rp-1080.avif 1080w, /assets/img/Curriculum---Our-RHC-Way---Strive_1-rp-1600.avif 1600w, /assets/img/Curriculum---Our-RHC-Way---Strive_1-rp-2200.avif 2200w, /assets/img/Curriculum---Our-RHC-Way---Strive_1.avif 2458w",
             "alt": "Rosehill College students striving together in a school activity"
           }
         }
@@ -72,49 +72,49 @@
       "images": [
         {
           "src": "assets/img/Our-School---Life-at-RHC---Top_1.avif",
-          "srcset": "",
+          "srcset": "/assets/img/Our-School---Life-at-RHC---Top_1-rp-500.avif 500w, /assets/img/Our-School---Life-at-RHC---Top_1-rp-800.avif 800w, /assets/img/Our-School---Life-at-RHC---Top_1-rp-1080.avif 1080w, /assets/img/Our-School---Life-at-RHC---Top_1-rp-1600.avif 1600w, /assets/img/Our-School---Life-at-RHC---Top_1-rp-2200.avif 2200w, /assets/img/Our-School---Life-at-RHC---Top_1.avif 2541w",
           "alt": "Rosehill College students enjoying life on campus",
           "caption": "Our community",
           "depth": "1"
         },
         {
           "src": "assets/img/Our-School---Life-at-RHC---Academic-Excellence_1.avif",
-          "srcset": "",
+          "srcset": "/assets/img/Our-School---Life-at-RHC---Academic-Excellence_1-rp-500.avif 500w, /assets/img/Our-School---Life-at-RHC---Academic-Excellence_1-rp-800.avif 800w, /assets/img/Our-School---Life-at-RHC---Academic-Excellence_1-rp-1080.avif 1080w, /assets/img/Our-School---Life-at-RHC---Academic-Excellence_1.avif 1257w",
           "alt": "Rosehill College students focused on their studies",
           "caption": "Academic excellence",
           "depth": "2"
         },
         {
           "src": "assets/img/Our-School---Life-at-RHC---Arts-and-Creativity.avif",
-          "srcset": "/assets/img/Our-School---Life-at-RHC---Arts-and-Creativity-p-500.avif 500w, /assets/img/Our-School---Life-at-RHC---Arts-and-Creativity-p-800.avif 800w, /assets/img/Our-School---Life-at-RHC---Arts-and-Creativity.avif 1080w",
+          "srcset": "/assets/img/Our-School---Life-at-RHC---Arts-and-Creativity-rp-500.avif 500w, /assets/img/Our-School---Life-at-RHC---Arts-and-Creativity-rp-800.avif 800w, /assets/img/Our-School---Life-at-RHC---Arts-and-Creativity-rp-1080.avif 1080w",
           "alt": "Rosehill College students performing in the arts",
           "caption": "Arts and creativity",
           "depth": "1"
         },
         {
           "src": "assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1.avif",
-          "srcset": "/assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-500.avif 500w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-800.avif 800w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-1080.avif 1080w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-1600.avif 1600w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1.avif 6000w",
+          "srcset": "/assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-500.avif 500w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-800.avif 800w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-1080.avif 1080w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-1600.avif 1600w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-2200.avif 2200w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-3000.avif 3000w",
           "alt": "Rosehill College kapa haka group performing",
           "caption": "Kapa haka",
           "depth": "2"
         },
         {
           "src": "assets/img/Our-School---Life-at-RHC---Sports-and-Recreation_1.avif",
-          "srcset": "",
+          "srcset": "/assets/img/Our-School---Life-at-RHC---Sports-and-Recreation_1-rp-500.avif 500w, /assets/img/Our-School---Life-at-RHC---Sports-and-Recreation_1-rp-800.avif 800w, /assets/img/Our-School---Life-at-RHC---Sports-and-Recreation_1-rp-1080.avif 1080w, /assets/img/Our-School---Life-at-RHC---Sports-and-Recreation_1-rp-1600.avif 1600w, /assets/img/Our-School---Life-at-RHC---Sports-and-Recreation_1-rp-2200.avif 2200w, /assets/img/Our-School---Life-at-RHC---Sports-and-Recreation_1.avif 2260w",
           "alt": "Rosehill College students playing sport",
           "caption": "Sports and recreation",
           "depth": "1"
         },
         {
           "src": "assets/img/Our-School---Life-at-RHC---Wellbeing-and-Support.avif",
-          "srcset": "/assets/img/Our-School---Life-at-RHC---Wellbeing-and-Support-p-500.avif 500w, /assets/img/Our-School---Life-at-RHC---Wellbeing-and-Support-p-1080.avif 1080w, /assets/img/Our-School---Life-at-RHC---Wellbeing-and-Support-p-2000.avif 2000w",
+          "srcset": "/assets/img/Our-School---Life-at-RHC---Wellbeing-and-Support-rp-500.avif 500w, /assets/img/Our-School---Life-at-RHC---Wellbeing-and-Support-rp-800.avif 800w, /assets/img/Our-School---Life-at-RHC---Wellbeing-and-Support-rp-1080.avif 1080w, /assets/img/Our-School---Life-at-RHC---Wellbeing-and-Support-rp-1600.avif 1600w",
           "alt": "Rosehill College students supported by staff",
           "caption": "Wellbeing and support",
           "depth": "2"
         },
         {
           "src": "assets/img/Our-School---Life-at-RHC---RHC-Community_1.avif",
-          "srcset": "",
+          "srcset": "/assets/img/Our-School---Life-at-RHC---RHC-Community_1-rp-500.avif 500w, /assets/img/Our-School---Life-at-RHC---RHC-Community_1-rp-800.avif 800w, /assets/img/Our-School---Life-at-RHC---RHC-Community_1-rp-1080.avif 1080w, /assets/img/Our-School---Life-at-RHC---RHC-Community_1-rp-1600.avif 1600w, /assets/img/Our-School---Life-at-RHC---RHC-Community_1-rp-2200.avif 2200w, /assets/img/Our-School---Life-at-RHC---RHC-Community_1.avif 2650w",
           "alt": "The wider Rosehill College community together",
           "caption": "RHC community",
           "depth": "1"
@@ -138,7 +138,7 @@
           },
           "image": {
             "src": "assets/img/class-room.avif",
-            "srcset": "/assets/img/class-room-p-500.avif 500w, /assets/img/class-room-p-800.avif 800w, /assets/img/class-room-p-1080.avif 1080w",
+            "srcset": "/assets/img/class-room-rp-500.avif 500w, /assets/img/class-room-rp-800.avif 800w, /assets/img/class-room-rp-1080.avif 1080w, /assets/img/class-room-rp-1600.avif 1600w, /assets/img/class-room.avif 1666w",
             "alt": ""
           }
         },
@@ -166,7 +166,7 @@
           },
           "image": {
             "src": "assets/img/Junior-Diploma-1.avif",
-            "srcset": "/assets/img/Junior-Diploma-1-p-500.avif 500w, /assets/img/Junior-Diploma-1-p-800.avif 800w, /assets/img/Junior-Diploma-1-p-1080.avif 1080w",
+            "srcset": "",
             "alt": ""
           }
         },
@@ -180,7 +180,7 @@
           },
           "image": {
             "src": "assets/img/Curriculum---Digital-Learning---Cyber-Security.avif",
-            "srcset": "/assets/img/Curriculum---Digital-Learning---Cyber-Security-p-500.avif 500w",
+            "srcset": "",
             "alt": ""
           }
         },
@@ -194,7 +194,7 @@
           },
           "image": {
             "src": "assets/img/2026-head-students-11.avif",
-            "srcset": "/assets/img/2026-head-students-11-p-500.avif 500w, /assets/img/2026-head-students-11-p-800.avif 800w, /assets/img/2026-head-students-11-p-1080.avif 1080w",
+            "srcset": "",
             "alt": ""
           }
         }
@@ -211,7 +211,7 @@
           "images": [
             {
               "src": "assets/img/Co-curricular---Sports---Volleyball-p-800.avif",
-              "srcset": "/assets/img/Co-curricular---Sports---Volleyball-p-500.avif 500w, /assets/img/Co-curricular---Sports---Volleyball-p-800.avif 800w, /assets/img/Co-curricular---Sports---Volleyball-p-1080.avif 1080w",
+              "srcset": "",
               "alt": "Rosehill College volleyball players mid-match",
               "label": "Volleyball"
             },
@@ -223,19 +223,19 @@
             },
             {
               "src": "assets/img/Co-curricular---Sports---Netball_1.avif",
-              "srcset": "",
+              "srcset": "/assets/img/Co-curricular---Sports---Netball_1-rp-500.avif 500w, /assets/img/Co-curricular---Sports---Netball_1-rp-800.avif 800w, /assets/img/Co-curricular---Sports---Netball_1-rp-1080.avif 1080w, /assets/img/Co-curricular---Sports---Netball_1.avif 1210w",
               "alt": "Rosehill College netball players on court",
               "label": "Netball"
             },
             {
               "src": "assets/img/Co-curricular---Sports---Athletics_1.avif",
-              "srcset": "",
+              "srcset": "/assets/img/Co-curricular---Sports---Athletics_1-rp-500.avif 500w, /assets/img/Co-curricular---Sports---Athletics_1-rp-800.avif 800w, /assets/img/Co-curricular---Sports---Athletics_1-rp-1080.avif 1080w, /assets/img/Co-curricular---Sports---Athletics_1.avif 1263w",
               "alt": "Rosehill College athletes competing in athletics",
               "label": "Athletics"
             },
             {
               "src": "assets/img/Sports---Co-curricular---Basketball_1.avif",
-              "srcset": "/assets/img/Sports---Co-curricular---Basketball_1-rp-500.avif 500w, /assets/img/Sports---Co-curricular---Basketball_1-rp-800.avif 800w, /assets/img/Sports---Co-curricular---Basketball_1-rp-1080.avif 1080w, /assets/img/Sports---Co-curricular---Basketball_1-rp-1600.avif 1600w, /assets/img/Sports---Co-curricular---Basketball_1.avif 4100w",
+              "srcset": "/assets/img/Sports---Co-curricular---Basketball_1-rp-500.avif 500w, /assets/img/Sports---Co-curricular---Basketball_1-rp-800.avif 800w, /assets/img/Sports---Co-curricular---Basketball_1-rp-1080.avif 1080w, /assets/img/Sports---Co-curricular---Basketball_1-rp-1600.avif 1600w, /assets/img/Sports---Co-curricular---Basketball_1-rp-2200.avif 2200w, /assets/img/Sports---Co-curricular---Basketball_1-rp-3000.avif 3000w",
               "alt": "Rosehill College basketball game",
               "label": "Basketball"
             }
@@ -245,7 +245,7 @@
           "images": [
             {
               "src": "assets/img/Co-curricular---Arts-and-Culture---Music-p-800.avif",
-              "srcset": "/assets/img/Co-curricular---Arts-and-Culture---Music-p-500.avif 500w, /assets/img/Co-curricular---Arts-and-Culture---Music-p-800.avif 800w",
+              "srcset": "",
               "alt": "Rosehill College musicians performing",
               "label": "Music"
             },
@@ -257,19 +257,19 @@
             },
             {
               "src": "assets/img/Co-curricular---Sports---Touch-p-800.avif",
-              "srcset": "/assets/img/Co-curricular---Sports---Touch-p-500.avif 500w, /assets/img/Co-curricular---Sports---Touch-p-800.avif 800w, /assets/img/Co-curricular---Sports---Touch-p-1080.avif 1080w",
+              "srcset": "",
               "alt": "Rosehill College touch rugby players",
               "label": "Touch"
             },
             {
               "src": "assets/img/Co-curricular---Sports---Softball-p-800.avif",
-              "srcset": "/assets/img/Co-curricular---Sports---Softball-p-500.avif 500w, /assets/img/Co-curricular---Sports---Softball-p-800.avif 800w",
+              "srcset": "",
               "alt": "Rosehill College softball players",
               "label": "Softball"
             },
             {
               "src": "assets/img/Co-curricular---Sports---Weighlifting-p-800.avif",
-              "srcset": "/assets/img/Co-curricular---Sports---Weighlifting-p-500.avif 500w, /assets/img/Co-curricular---Sports---Weighlifting-p-800.avif 800w",
+              "srcset": "",
               "alt": "Rosehill College weightlifting athlete",
               "label": "Weightlifting"
             }
@@ -324,7 +324,7 @@
         "text": "Our student leadership team for 2026 has been announced — meet the head students who will represent and serve our college this year.",
         "image": {
           "src": "assets/img/2026-head-students-02.avif",
-          "srcset": "/assets/img/2026-head-students-02-p-500.avif 500w, /assets/img/2026-head-students-02-p-800.avif 800w, /assets/img/2026-head-students-02-p-1080.avif 1080w",
+          "srcset": "",
           "alt": "Rosehill College 2026 head students"
         }
       },
@@ -345,7 +345,7 @@
           "text": "The Rosehill College app is moving to SchoolBridge — see what's changing and how to get set up.",
           "image": {
             "src": "assets/img/School-App-Flyer.avif",
-            "srcset": "/assets/img/6788492c6806e8ef1db10541cd612e96_App-flyer-1-p-500.avif 500w, /assets/img/6788492c6806e8ef1db10541cd612e96_App-flyer-1-p-800.avif 800w",
+            "srcset": "/assets/img/School-App-Flyer-rp-500.avif 500w, /assets/img/School-App-Flyer-rp-800.avif 800w, /assets/img/School-App-Flyer-rp-1080.avif 1080w, /assets/img/School-App-Flyer-rp-1600.avif 1600w, /assets/img/School-App-Flyer-rp-2200.avif 2200w, /assets/img/School-App-Flyer.avif 2479w",
             "alt": "Rosehill College school app flyer",
             "fit": "contain"
           }
@@ -371,7 +371,7 @@
       "text": "Enrolment for 2027 is open. Join a college where together we create an environment for personal excellence.",
       "image": {
         "src": "assets/img/Main-Page---Enrolment_2105x460_1.avif",
-        "srcset": ""
+        "srcset": "/assets/img/Main-Page---Enrolment_2105x460_1-rp-500.avif 500w, /assets/img/Main-Page---Enrolment_2105x460_1-rp-800.avif 800w, /assets/img/Main-Page---Enrolment_2105x460_1-rp-1080.avif 1080w, /assets/img/Main-Page---Enrolment_2105x460_1-rp-1600.avif 1600w"
       },
       "actions": [
         {

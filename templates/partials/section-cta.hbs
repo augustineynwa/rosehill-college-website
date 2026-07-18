@@ -3,7 +3,7 @@
     <div class="cta-band" data-reveal>
       {{#if image}}
       <div class="cta-band__media" aria-hidden="true" data-parallax-img>
-        <img src="/{{image.src}}" {{#if image.srcset}}srcset="{{image.srcset}}" sizes="100vw"{{/if}} alt="" loading="lazy">
+        <img src="/{{image.src}}" {{#if image.srcset}}srcset="{{image.srcset}}" sizes="100vw"{{/if}} alt="" loading="lazy" decoding="async">
       </div>
       {{/if}}
       <div class="cta-band__body stack">

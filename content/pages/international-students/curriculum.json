@@ -10,14 +10,14 @@
       "eyebrow": "Te marautanga",
       "reo": true,
       "heading": "Curriculum for international students",
-      "lede": "The school curriculum is core to student life in New Zealand at Rosehill College. International students are integrated into regular classes with local students and can choose from over 40 subject options in Year 12 and 13, including our ever-popular Outdoor Education course."
+      "lede": "The school curriculum is core to student life in New Zealand at Rosehill College. International students are integrated into regular classes with local students and can choose from over 40 subject options in Years 12 and 13, including our ever-popular Outdoor Education course."
     },
     {
       "type": "media-text",
       "heading": "A pathway to tertiary study",
       "image": {
         "src": "assets/img/International-Students---Curriculum---Education-Journey-Infographic_1.avif",
-        "srcset": "",
+        "srcset": "/assets/img/International-Students---Curriculum---Education-Journey-Infographic_1-rp-500.avif 500w, /assets/img/International-Students---Curriculum---Education-Journey-Infographic_1-rp-800.avif 800w, /assets/img/International-Students---Curriculum---Education-Journey-Infographic_1-rp-1080.avif 1080w, /assets/img/International-Students---Curriculum---Education-Journey-Infographic_1-rp-1600.avif 1600w, /assets/img/International-Students---Curriculum---Education-Journey-Infographic_1-rp-2200.avif 2200w, /assets/img/International-Students---Curriculum---Education-Journey-Infographic_1.avif 2829w",
         "alt": "Infographic showing the New Zealand secondary education journey at Rosehill College, from Year 11 foundation study through NCEA Levels 2 and 3 in Years 12 and 13 towards University Entrance and tertiary study",
         "fit": "contain"
       },
@@ -46,7 +46,7 @@
         },
         {
           "value": "40+",
-          "label": "subject options in Year 12 and 13"
+          "label": "subject options in Years 12 and 13"
         }
       ]
     },

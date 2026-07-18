@@ -3,7 +3,7 @@
   "path": "curriculum/alternative-education.html",
   "slug": "alternative-education",
   "title": "Alternative Education",
-  "metaDescription": "Rosehill College leads the Alternative Education (Alt Ed) Programme for the Papakura area, providing flexible, supportive learning pathways for students in Years 9–11 in partnership with Blue Light Papakura and Te Awatea.",
+  "metaDescription": "Rosehill College leads the Alternative Education programme for Papakura, offering flexible learning pathways for students who need them.",
   "sections": [
     {
       "type": "hero",
@@ -48,7 +48,7 @@
       "heading": "Programme focus",
       "image": {
         "src": "assets/img/41477_2019_374_Figa_HTML_1.avif",
-        "srcset": "/assets/img/41477_2019_374_Figa_HTML_1-rp-500.avif 500w, /assets/img/41477_2019_374_Figa_HTML_1-rp-800.avif 800w, /assets/img/41477_2019_374_Figa_HTML_1-rp-1080.avif 1080w, /assets/img/41477_2019_374_Figa_HTML_1.avif 1435w",
+        "srcset": "/assets/img/41477_2019_374_Figa_HTML_1-rp-500.avif 500w, /assets/img/41477_2019_374_Figa_HTML_1-rp-800.avif 800w, /assets/img/41477_2019_374_Figa_HTML_1-rp-1080.avif 1080w",
         "alt": "Sunlight streaming through a green forest canopy"
       },
       "html": "<ul><li><strong>Core learning:</strong> literacy, numeracy, and NCEA Foundation Level</li><li><strong>Pathways:</strong> transition planning, employment skills, and work readiness</li><li><strong>Life skills:</strong> hauora, resilience, communication, and teamwork</li><li><strong>Service and leadership:</strong> building social responsibility and whanaungatanga</li><li><strong>Support:</strong> small class sizes, mentoring, and wrap-around pastoral care</li></ul>"

@@ -20,7 +20,7 @@
         <figure class="journey-media col-aside" aria-hidden="true">
           {{#each steps}}
           <div class="journey-media__item media-frame media-frame--portrait" data-journey-media>
-            <img src="/{{image.src}}" {{#if image.srcset}}srcset="{{image.srcset}}" sizes="25vw"{{/if}} alt="" loading="lazy">
+            <img src="/{{image.src}}" {{#if image.srcset}}srcset="{{image.srcset}}" sizes="25vw"{{/if}} alt="" loading="lazy" decoding="async">
           </div>
           {{/each}}
         </figure>

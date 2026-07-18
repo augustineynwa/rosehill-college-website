@@ -3,7 +3,7 @@
   "path": "join-us/school-zone-and-buses.html",
   "slug": "school-zone-and-buses",
   "title": "School Zone & Buses",
-  "metaDescription": "Check if you're in the Rosehill College zone and find bus routes. Urban routes via Ritchies Murphy, rural routes via Brougham Buses.",
+  "metaDescription": "Check the Rosehill College enrolment zone and school bus routes, including urban and rural services to our Papakura campus.",
   "sections": [
     {
       "type": "hero",
@@ -12,7 +12,7 @@
       "lede": "Check if you're in the Rosehill College zone and find bus routes — urban routes with Auckland Transport, rural routes with Brougham Buses.",
       "image": {
         "src": "assets/img/Join-Us---School-Buses_1.avif",
-        "srcset": "/assets/img/Join-Us---School-Buses_1-rp-500.avif 500w, /assets/img/Join-Us---School-Buses_1-rp-800.avif 800w, /assets/img/Join-Us---School-Buses_1-rp-1080.avif 1080w, /assets/img/Join-Us---School-Buses_1-rp-1600.avif 1600w, /assets/img/Join-Us---School-Buses_1.avif 4595w",
+        "srcset": "/assets/img/Join-Us---School-Buses_1-rp-500.avif 500w, /assets/img/Join-Us---School-Buses_1-rp-800.avif 800w, /assets/img/Join-Us---School-Buses_1-rp-1080.avif 1080w, /assets/img/Join-Us---School-Buses_1-rp-1600.avif 1600w, /assets/img/Join-Us---School-Buses_1-rp-2200.avif 2200w, /assets/img/Join-Us---School-Buses_1-rp-3000.avif 3000w",
         "alt": "School buses at Rosehill College"
       },
       "actions": [
@@ -32,7 +32,7 @@
       "aside": {
         "image": {
           "src": "assets/img/AT_Logo_Shore_RGB.avif",
-          "srcset": "/assets/img/AT_Logo_Shore_RGB-p-500.png 500w, /assets/img/AT_Logo_Shore_RGB-p-800.png 800w, /assets/img/AT_Logo_Shore_RGB-p-1080.png 1080w",
+          "srcset": "/assets/img/AT_Logo_Shore_RGB-rp-500.avif 500w, /assets/img/AT_Logo_Shore_RGB-rp-800.avif 800w, /assets/img/AT_Logo_Shore_RGB-rp-1080.avif 1080w, /assets/img/AT_Logo_Shore_RGB-rp-1600.avif 1600w, /assets/img/AT_Logo_Shore_RGB-rp-2200.avif 2200w, /assets/img/AT_Logo_Shore_RGB-rp-3000.avif 3000w, /assets/img/AT_Logo_Shore_RGB.avif 3315w",
           "alt": "Auckland Transport logo",
           "fit": "contain"
         },
@@ -154,7 +154,7 @@
       "heading": "School zone",
       "image": {
         "src": "assets/img/Join-Us---School-Zone-and-Buses---School-Zone.avif",
-        "srcset": "/assets/img/Join-Us---School-Zone-and-Buses---School-Zone-p-500.avif 500w, /assets/img/Join-Us---School-Zone-and-Buses---School-Zone-p-800.avif 800w",
+        "srcset": "",
         "alt": "Map showing the Rosehill College home zone boundary"
       },
       "html": "<p>All students who live within the Rosehill College zone are entitled to enrol at the College. You can check if you are in zone for Rosehill College by entering your address at the following link:</p><p><a href=\"https://www.educationcounts.govt.nz/find-school\" rel=\"external\"><strong>Check for your school zone</strong></a></p><p>Proof of residence within the home zone will be required.</p>"

@@ -6,8 +6,23 @@
 <meta property="og:title" content="{{title}} | Rosehill College">
 <meta property="og:description" content="{{metaDescription}}">
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="Rosehill College">
+<meta property="og:locale" content="en_NZ">
 {{#if site.baseUrl}}<link rel="canonical" href="{{site.baseUrl}}{{canonicalPath}}">
-<meta property="og:url" content="{{site.baseUrl}}{{canonicalPath}}">{{/if}}
+<meta property="og:url" content="{{site.baseUrl}}{{canonicalPath}}">
+{{! must be a real JPG/PNG — Facebook, WhatsApp and LinkedIn don't unfurl the
+    AVIF the rest of the library uses, and reject SVG }}
+{{#if ogImage}}<meta property="og:image" content="{{site.baseUrl}}{{ogImage}}">
+{{else}}<meta property="og:image" content="{{site.baseUrl}}/assets/img/og-default.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+{{/if}}<meta property="og:image:alt" content="The Rosehill College crest over an aerial view of the Papakura campus">
+<meta name="twitter:card" content="summary_large_image">{{/if}}
+{{! School schema — feeds the Google knowledge panel parents see when they
+    search "Rosehill College". Homepage only; every value comes from site.json. }}
+{{#if isHome}}{{#if site.baseUrl}}
+<script type="application/ld+json">{{{schoolSchema}}}</script>
+{{/if}}{{/if}}
 <link rel="icon" href="/assets/img/favicon.png">
 <link rel="apple-touch-icon" href="/assets/img/webclip.png">
 <link rel="preload" href="/assets/fonts/albertus-nova.woff2" as="font" type="font/woff2" crossorigin>

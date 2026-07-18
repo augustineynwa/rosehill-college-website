@@ -3,7 +3,7 @@
   "path": "our-community/our-board.html",
   "slug": "our-board",
   "title": "Our Board",
-  "metaDescription": "Learn about the Rosehill College Board of Trustees, a dedicated group of community and school representatives who guide our vision and ensure a high-quality educational experience. Meet the board members who oversee governance, support our goals, and uphold the values that make Rosehill College exceptional.",
+  "metaDescription": "Meet the Rosehill College Board — the parent, staff and student representatives who govern our Papakura secondary school.",
   "sections": [
     {
       "type": "hero",
@@ -13,7 +13,7 @@
       "lede": "Established under the Education Act 2020, the Board is the controlling authority of the school.",
       "image": {
         "src": "assets/img/Our-Community---Our-Board---Meeting-Dates.avif",
-        "srcset": "/assets/img/Our-Community---Our-Board---Meeting-Dates-p-500.avif 500w, /assets/img/Our-Community---Our-Board---Meeting-Dates-p-800.avif 800w, /assets/img/Our-Community---Our-Board---Meeting-Dates-p-1080.avif 1080w, /assets/img/Our-Community---Our-Board---Meeting-Dates-p-1600.avif 1600w, /assets/img/Our-Community---Our-Board---Meeting-Dates-p-2000.avif 2000w, /assets/img/Our-Community---Our-Board---Meeting-Dates-p-2600.avif 2600w, /assets/img/Our-Community---Our-Board---Meeting-Dates-p-3200.avif 3200w",
+        "srcset": "/assets/img/Our-Community---Our-Board---Meeting-Dates-rp-500.avif 500w, /assets/img/Our-Community---Our-Board---Meeting-Dates-rp-800.avif 800w, /assets/img/Our-Community---Our-Board---Meeting-Dates-rp-1080.avif 1080w, /assets/img/Our-Community---Our-Board---Meeting-Dates-rp-1600.avif 1600w, /assets/img/Our-Community---Our-Board---Meeting-Dates-rp-2200.avif 2200w, /assets/img/Our-Community---Our-Board---Meeting-Dates-rp-3000.avif 3000w, /assets/img/Our-Community---Our-Board---Meeting-Dates.avif 3203w",
         "alt": "Rosehill College"
       }
     },
@@ -166,7 +166,7 @@
       "aside": {
         "image": {
           "src": "assets/img/Our-Community---Our-Board---Board-Members_1.avif",
-          "srcset": "",
+          "srcset": "/assets/img/Our-Community---Our-Board---Board-Members_1-rp-500.avif 500w, /assets/img/Our-Community---Our-Board---Board-Members_1-rp-800.avif 800w, /assets/img/Our-Community---Our-Board---Board-Members_1-rp-1080.avif 1080w, /assets/img/Our-Community---Our-Board---Board-Members_1-rp-1600.avif 1600w, /assets/img/Our-Community---Our-Board---Board-Members_1-rp-2200.avif 2200w, /assets/img/Our-Community---Our-Board---Board-Members_1-rp-3000.avif 3000w",
           "alt": "Rosehill College"
         }
       }
