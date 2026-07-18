@@ -387,6 +387,30 @@ body { padding-top: var(--notice-h, 0px); }
 }
 /* never zoom/pan a contained image */
 .media-frame--contain[data-parallax-img] img { transform: none !important; }
+
+/* Some graphics arrive already framed — the values diagram carries its own
+   navy panel and rounded corners. Wrapping those in a second frame is both
+   redundant and, because the frame forces an aspect ratio, destructive: a
+   square source in a 3:4 frame loses its left and right edges, which on a
+   diagram is where the labels live. These sit at their true proportions with
+   no chrome at all. */
+.media-frame--natural {
+  /* --ar is the image's true ratio, filled in at build time by
+     gen-image-variants. The 1/1 fallback is deliberate: `auto` would let the
+     box collapse to zero height before the image loads, and a zero-height box
+     never intersects the viewport, so a lazy-loaded image inside it would
+     never load at all. */
+  aspect-ratio: var(--ar, 1 / 1);
+  overflow: visible;
+  background: none;
+  border-radius: 0;
+}
+/* fills the box rather than sizing to `auto`: an auto-height img is zero-height
+   until it loads, and a zero-height img is never intersected by the lazy-load
+   observer. Because --ar is the image's own ratio, `contain` here fits exactly
+   — it neither crops nor letterboxes. */
+.media-frame--natural img { object-fit: contain; }
+.media-frame--natural[data-parallax-img] img { transform: none !important; }
 figure.media-frame figcaption { padding: var(--sp-1) var(--sp-2); }
 
 /* ---------------------------------------------------------------- prose */

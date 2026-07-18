@@ -25,7 +25,9 @@
         "image": {
           "src": "assets/img/Our-School---Values_1.avif",
           "srcset": "/assets/img/Our-School---Values_1-rp-500.avif 500w, /assets/img/Our-School---Values_1-rp-800.avif 800w, /assets/img/Our-School---Values_1-rp-1080.avif 1080w, /assets/img/Our-School---Values_1-rp-1600.avif 1600w, /assets/img/Our-School---Values_1.avif 2000w",
-          "alt": "Rosehill College students living the school values"
+          "fit": "natural",
+          "alt": "The Rosehill College values wheel: Ākonga at the centre, surrounded by Rangatiratanga (Reflect), Whanaungatanga (Respect), Manaakitanga (Connect) and Hihiritanga (Strive)",
+          "ar": "2000 / 2000"
         }
       }
     },

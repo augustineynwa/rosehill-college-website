@@ -88,6 +88,29 @@ async function ensureVariants(src) {
   return srcset;
 }
 
+/**
+ * Intrinsic aspect ratio, as a CSS `w / h` string. Only needed by `fit:natural`
+ * images: those drop the frame's fixed ratio, so without a ratio of their own
+ * the box has no height until the image loads. That isn't merely a layout
+ * shift — a zero-height box never intersects the viewport, so a lazy-loaded
+ * image inside one never loads at all. Deriving it here keeps it correct
+ * automatically; it is not something an editor should have to type.
+ */
+const ratios = new Map();
+async function intrinsicRatio(src) {
+  if (ratios.has(src)) return ratios.get(src);
+  const abs = join(IMG_DIR, src.replace(/^\/?assets\/img\//, ''));
+  let ar = '';
+  if (existsSync(abs)) {
+    try {
+      const m = await sharp(abs, { limitInputPixels: false }).metadata();
+      if (m.width && m.height) ar = `${m.width} / ${m.height}`;
+    } catch { /* unreadable — fall back to the CSS default */ }
+  }
+  ratios.set(src, ar);
+  return ar;
+}
+
 async function processNode(node) {
   if (Array.isArray(node)) {
     for (const n of node) await processNode(n);
@@ -99,6 +122,12 @@ async function processNode(node) {
       if (!node.srcset) {
         const ss = await ensureVariants(node.src);
         if (ss) node.srcset = ss;
+      }
+      if (node.fit === 'natural') {
+        const ar = await intrinsicRatio(node.src);
+        if (ar && node.ar !== ar) node.ar = ar;
+      } else if ('ar' in node) {
+        delete node.ar;   // no longer natural — don't leave a stale ratio behind
       }
     }
     for (const key of Object.keys(node)) await processNode(node[key]);

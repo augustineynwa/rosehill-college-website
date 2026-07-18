@@ -7,7 +7,7 @@
       </div>
       {{#if aside}}
       <aside class="col-aside prose-aside" data-reveal>
-        {{#if aside.image}}<figure class="media-frame media-frame--portrait{{#if aside.image.fit}} media-frame--{{aside.image.fit}}{{/if}}"{{#if aside.image.pos}} style="--pos: {{aside.image.pos}}"{{/if}}><img src="/{{aside.image.src}}" {{#if aside.image.srcset}}srcset="{{aside.image.srcset}}" sizes="(max-width: 64rem) 100vw, 25vw"{{/if}} alt="{{aside.image.alt}}" loading="lazy" decoding="async"></figure>{{/if}}
+        {{#if aside.image}}<figure class="media-frame media-frame--portrait{{#if aside.image.fit}} media-frame--{{aside.image.fit}}{{/if}}"{{#if (or aside.image.pos aside.image.ar)}} style="{{#if aside.image.pos}}--pos: {{aside.image.pos}};{{/if}}{{#if aside.image.ar}}--ar: {{aside.image.ar}};{{/if}}"{{/if}}><img src="/{{aside.image.src}}" {{#if aside.image.srcset}}srcset="{{aside.image.srcset}}" sizes="(max-width: 64rem) 100vw, 25vw"{{/if}} alt="{{aside.image.alt}}" loading="lazy" decoding="async"></figure>{{/if}}
         {{#if aside.html}}{{raw aside.html}}{{/if}}
       </aside>
       {{/if}}
