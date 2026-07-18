@@ -7,7 +7,7 @@
     <p class="site-notice__text">
       <span class="site-notice__tag" aria-hidden="true">{{#if (eq site.notice.level "info")}}Notice{{else if (eq site.notice.level "important")}}Important{{else}}Urgent{{/if}}</span>
       {{site.notice.message}}
-      {{#if site.notice.link.href}}<a class="site-notice__link" href="{{site.notice.link.href}}">{{#if site.notice.link.label}}{{site.notice.link.label}}{{else}}Read more{{/if}} →</a>{{/if}}
+      {{#if site.notice.link.href}}<a class="site-notice__link" href="{{site.notice.link.href}}">{{#if site.notice.link.label}}{{site.notice.link.label}}{{else}}Read the full notice{{/if}} →</a>{{/if}}
     </p>
     <button class="site-notice__close" type="button" aria-label="Dismiss this notice" data-notice-close>
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>

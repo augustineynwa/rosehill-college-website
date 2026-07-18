@@ -77,7 +77,8 @@
           "src": "https://www.youtube-nocookie.com/embed/R0JKCYZ8hng?rel=0",
           "iframeTitle": "How playing an instrument benefits your brain - Anita Collins"
         }
-      ]
+      ],
+      "facade": true
     },
     {
       "type": "prose",

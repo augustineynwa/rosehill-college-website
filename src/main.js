@@ -40,10 +40,12 @@ document.querySelectorAll('[data-web3form]').forEach((form) => {
   const btn = form.querySelector('button[type="submit"]');
   const say = (msg, ok) => {
     if (!status) return;
-    status.textContent = msg;
-    status.hidden = false;
+    // style first, text last: a live region must already be rendered when its
+    // content changes, or the announcement is unreliable across screen readers
     status.classList.toggle('form-status--ok', !!ok);
     status.classList.toggle('form-status--err', !ok);
+    status.textContent = '';
+    requestAnimationFrame(() => { status.textContent = msg; });
   };
   form.addEventListener('submit', async (e) => {
     e.preventDefault();

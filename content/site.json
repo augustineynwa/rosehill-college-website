@@ -39,6 +39,7 @@
         { "label": "About Us", "href": "our-school/about-us.html" },
         { "label": "Life at Rosehill College", "href": "our-school/life-at-rosehill-college.html" },
         { "label": "Our History", "href": "our-school/our-history.html" },
+        { "label": "Kaupapa Māori", "href": "our-school/kaupapa-maori.html" },
         { "label": "Our Latest News", "href": "our-school/our-latest-news.html" },
         { "label": "Start of School Information", "href": "our-school/start-of-school-information.html" },
         { "label": "Term Dates", "href": "our-school/term-dates.html" },
@@ -61,17 +62,21 @@
       "children": [
         { "label": "Our Rosehill College Way", "href": "curriculum/our-rosehill-college-way.html" },
         { "label": "Course Information", "href": "curriculum/course-information.html" },
+        { "label": "Learning Areas and Subjects", "href": "curriculum/learning-areas.html" },
         { "label": "Year 9 SMART Assessment", "href": "curriculum/year-9-smart-assessment.html" },
         { "label": "Junior Diploma", "href": "curriculum/junior-diploma.html" },
         { "label": "Digital Learning and BYOD", "href": "curriculum/digital-learning-and-byod.html" },
         { "label": "Mobile Phone Policy", "href": "curriculum/mobile-phone-policy.html" },
-        { "label": "Education Outside the Classroom", "href": "curriculum/education-outside-the-classroom.html" }
+        { "label": "Education Outside the Classroom", "href": "curriculum/education-outside-the-classroom.html" },
+        { "label": "Student Support", "href": "curriculum/student-support.html" },
+        { "label": "Alternative Education", "href": "curriculum/alternative-education.html" }
       ]
     },
     {
       "label": "Co-Curricular",
       "children": [
         { "label": "Sports", "href": "cocurricular/sports.html" },
+        { "label": "Arts and Culture", "href": "cocurricular/arts-and-culture.html" },
         { "label": "Careers at Rosehill College", "href": "cocurricular/careers-at-rosehill-college.html" }
       ]
     },

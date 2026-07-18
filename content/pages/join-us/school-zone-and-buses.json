@@ -164,7 +164,8 @@
       "heading": "Rosehill College zone map",
       "src": "https://www.google.com/maps/d/u/0/embed?mid=1h3ZIk4JKD294Y9Erb-6R2-zVCEdTSbY&ehbc=2E312F&noprof=1",
       "iframeTitle": "Interactive map of the Rosehill College home zone",
-      "tall": true
+      "tall": true,
+      "facade": true
     },
     {
       "type": "accordion",

@@ -40,7 +40,8 @@
       "eyebrow": "Taiwan",
       "heading": "A student's story",
       "src": "https://www.youtube-nocookie.com/embed/EPNu_wPZshg?rel=0",
-      "iframeTitle": "Rosehill College international student from Taiwan shares their story"
+      "iframeTitle": "Rosehill College international student from Taiwan shares their story",
+      "facade": true
     },
     {
       "type": "cta",

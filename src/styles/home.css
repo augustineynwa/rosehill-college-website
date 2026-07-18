@@ -117,7 +117,7 @@
 .pou-list { display: flex; flex-direction: column; gap: var(--sp-12); counter-reset: pou; }
 .pou {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(var(--grid-cols), minmax(0, 1fr));
   column-gap: var(--gutter);
   row-gap: var(--sp-3);
   align-items: center;

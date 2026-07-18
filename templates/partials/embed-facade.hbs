@@ -1,0 +1,13 @@
+{{! Click-to-load placeholder for a heavy third-party embed (YouTube, Maps,
+    FlipHTML5). main.js swaps it for the real iframe on click, so nothing is
+    fetched from the external service until the visitor asks for it.
+    Expects: src, iframeTitle, and optionally facadeLabel / tall. }}
+<div class="embed-frame {{#if tall}}embed-frame--tall{{/if}} embed-facade" data-reveal data-embed-facade data-src="{{src}}" data-title="{{iframeTitle}}">
+  <button type="button" class="embed-facade__button">
+    <span class="embed-facade__icon" aria-hidden="true">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+    </span>
+    <span class="embed-facade__label">{{#if facadeLabel}}{{facadeLabel}}{{else}}Load {{iframeTitle}}{{/if}}</span>
+    <span class="embed-facade__note caption">Loads content from an external service</span>
+  </button>
+</div>

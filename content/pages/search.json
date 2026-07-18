@@ -14,5 +14,6 @@
     {
       "type": "search"
     }
-  ]
+  ],
+  "noindex": true
 }

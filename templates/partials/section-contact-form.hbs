@@ -33,7 +33,10 @@
         </div>
         <button class="btn btn--red btn--lg" type="submit">Send message</button>
         <p class="caption">Fields marked * are required.</p>
-        <p class="form-status" data-form-status role="status" aria-live="polite" hidden></p>
+        {{! must stay in the DOM (not [hidden]) or the live region isn't
+            registered before its text changes and screen readers stay silent.
+            CSS collapses it while empty. }}
+        <p class="form-status" data-form-status role="status" aria-live="polite"></p>
       </form>
       <aside class="col-aside prose-aside stack" data-reveal>
         {{#if aside}}{{raw aside}}{{/if}}

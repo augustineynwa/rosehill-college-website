@@ -44,6 +44,13 @@
 /join-us/international-students/curriculum-pathway              /international-students/curriculum                       301
 /join-us/international-students/students-voices                 /international-students/students-voices                  301
 
+# --- Old pages with no direct successor: sent to the nearest equivalent ---
+# (nearest-match rather than a 404; confirm targets with the school)
+/cocurricular/clubs                                        /cocurricular/arts-and-culture  301
+/curriculum/student-assessment-and-reporting/student-report-guide  /curriculum/course-information  301
+/curriculum/student-assessment-and-reporting/year-12       /curriculum/course-information  301
+/curriculum/student-assessment-and-reporting/*             /curriculum/course-information  301
+
 # --- Collection pages that no longer have individual URLs ---
 # Individual news posts, vacancies and sponsor pages were consolidated into
 # single index pages. Point the whole namespace at the relevant page.

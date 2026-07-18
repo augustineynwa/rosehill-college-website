@@ -17,7 +17,8 @@
       "tall": true,
       "src": "https://online.fliphtml5.com/snsln/jntx/",
       "iframeTitle": "Rosehill College prospectus",
-      "note": "Trouble viewing? <a href=\"https://online.fliphtml5.com/snsln/jntx/\" rel=\"external\">Open the prospectus in a new tab</a>."
+      "note": "Trouble viewing? <a href=\"https://online.fliphtml5.com/snsln/jntx/\" rel=\"external\">Open the prospectus in a new tab</a>.",
+      "facade": true
     },
     {
       "type": "cta",

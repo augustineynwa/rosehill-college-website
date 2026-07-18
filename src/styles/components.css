@@ -24,8 +24,8 @@
 .btn:hover { transform: translateY(-2px); }
 .btn:active { transform: translateY(0); }
 .btn--red { background: var(--c-red); color: #fff; }
-.btn--red:hover { background: var(--c-red-bright); }
-.btn--ghost { border-color: var(--c-line-strong); color: var(--fg); background: transparent; }
+.btn--red:hover { background: var(--c-red-deep); }
+.btn--ghost { border-color: var(--c-line-control); color: var(--fg); background: transparent; }
 .btn--ghost:hover { border-color: var(--c-gold); color: var(--c-gold); }
 [data-theme="light"] .btn--ghost { border-color: rgba(16, 20, 42, 0.35); }
 [data-theme="light"] .btn--ghost:hover { border-color: var(--c-accent); color: var(--c-accent); }
@@ -121,7 +121,7 @@ body { padding-top: var(--notice-h, 0px); }
   display: flex;
   align-items: center;
   gap: var(--sp-4);
-  height: 4.5rem;
+  height: var(--header-h);
 }
 .site-header__brand {
   display: flex;
@@ -205,6 +205,16 @@ body { padding-top: var(--notice-h, 0px); }
 
 /* header actions */
 .site-header__actions { display: flex; align-items: center; gap: var(--sp-2); margin-inline-start: var(--sp-2); }
+.site-header__search {
+  display: grid;
+  place-items: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: var(--radius-sm);
+  color: var(--c-text-soft);
+  transition: color var(--dur-fast) var(--ease-out), background-color var(--dur-fast) var(--ease-out);
+}
+.site-header__search:hover { color: var(--c-gold); background: var(--c-ink-800); }
 .absence { position: relative; }
 .absence__menu {
   position: absolute;
@@ -254,7 +264,9 @@ body { padding-top: var(--notice-h, 0px); }
 /* mobile menu */
 .mobile-menu {
   position: fixed;
-  inset: 4.5rem 0 0;
+  /* fixed elements aren't shifted by body's --notice-h padding, so the notice
+     height has to be added here or the menu hides behind the header */
+  inset: calc(var(--notice-h, 0px) + var(--header-h)) 0 0;
   background: var(--c-ink-950);
   overflow-y: auto;
   z-index: var(--z-overlay);
@@ -324,7 +336,7 @@ body { padding-top: var(--notice-h, 0px); }
 
 /* ---------------------------------------------------------------- page hero */
 .page-hero {
-  padding-block: calc(4.5rem + var(--section-pad)) 0;
+  padding-block: calc(var(--header-h) + var(--section-pad)) 0;
   position: relative;
 }
 .page-hero__text { max-width: 50em; padding-block-end: var(--section-pad); }
@@ -422,7 +434,7 @@ figure.media-frame figcaption { padding: var(--sp-1) var(--sp-2); }
 /* ---------------------------------------------------------------- gallery */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(var(--grid-cols), minmax(0, 1fr));
   gap: var(--gutter);
 }
 .gallery__item { grid-column: span 4; aspect-ratio: var(--ratio-card); }
@@ -591,10 +603,15 @@ figure.media-frame figcaption { padding: var(--sp-1) var(--sp-2); }
 @media (max-width: 40rem) { .def-list__row { grid-template-columns: 1fr; gap: var(--sp-1); } }
 
 /* ---------------------------------------------------------------- docs */
-.doc-list { display: grid; gap: var(--sp-1); max-width: 46rem; }
+/* minmax(0,1fr): without the 0 floor the column sizes to its widest item's
+   max-content, so one long label/meta pushes the whole list past the viewport */
+.doc-list { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--sp-1); max-width: 46rem; }
 .doc-list--columns { max-width: none; grid-template-columns: repeat(auto-fill, minmax(min(21rem, 100%), 1fr)); }
 .doc__link {
   display: flex;
+  /* staff can type any length into the CMS "Meta" field — wrap rather than
+     forcing the row wider than the screen */
+  flex-wrap: wrap;
   align-items: center;
   gap: var(--sp-2);
   padding: var(--sp-2) var(--sp-3);
@@ -608,8 +625,8 @@ figure.media-frame figcaption { padding: var(--sp-1) var(--sp-2); }
 [data-theme="light"] .doc__link:hover { border-color: var(--c-accent); }
 .doc__icon { flex-shrink: 0; color: var(--c-gold); }
 [data-theme="light"] .doc__icon { color: var(--c-red); }
-.doc__label { font-weight: 700; }
-.doc__meta { margin-inline-start: auto; white-space: nowrap; }
+.doc__label { font-weight: 700; min-width: 0; overflow-wrap: anywhere; }
+.doc__meta { margin-inline-start: auto; min-width: 0; overflow-wrap: anywhere; }
 
 /* ---------------------------------------------------------------- embed */
 .embed-frame {
@@ -655,7 +672,7 @@ figure.media-frame figcaption { padding: var(--sp-1) var(--sp-2); }
 .embed-facade__label { font-family: var(--font-display); font-size: var(--step-2); }
 .embed-grid {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(var(--grid-cols), minmax(0, 1fr));
   gap: var(--gutter);
 }
 .embed-grid .embed-frame:first-child { grid-column: 1 / span 8; }
@@ -671,13 +688,13 @@ figure.media-frame figcaption { padding: var(--sp-1) var(--sp-2); }
 .field label { font-weight: 700; font-size: var(--step--1); letter-spacing: 0.04em; }
 .field input, .field textarea, .field select {
   background: var(--bg-raised);
-  border: 1px solid var(--c-line-strong);
+  border: 1px solid var(--c-line-control);
   border-radius: var(--radius-sm);
   color: var(--fg);
   padding: 0.7em 0.9em;
   transition: border-color var(--dur-fast) var(--ease-out);
 }
-.field input:focus-visible, .field textarea:focus-visible { outline-offset: 0; border-color: var(--c-gold); }
+.field input:focus-visible, .field textarea:focus-visible, .field select:focus-visible { outline-offset: 0; border-color: var(--c-gold); }
 .contact-form .btn { align-self: flex-start; }
 .form-status {
   margin: 0;
@@ -686,8 +703,14 @@ figure.media-frame figcaption { padding: var(--sp-1) var(--sp-2); }
   border-left: 4px solid currentColor;
   font-size: var(--step--1);
 }
-.form-status--ok { color: #1f7a3d; background: rgba(31, 122, 61, 0.1); }
-.form-status--err { color: var(--c-red); background: rgba(218, 48, 41, 0.1); }
+/* the live region stays in the DOM so it's announced; collapse it while empty */
+.form-status:empty { display: none; }
+/* light-on-dark: the mid-tone green/red these replaced sat at ~3.5:1 on the
+   near-black base, under the 4.5:1 needed for this text size */
+.form-status--ok { color: #7ee2a8; background: rgba(126, 226, 168, 0.12); }
+.form-status--err { color: #ff9d97; background: rgba(255, 157, 151, 0.12); }
+[data-theme="light"] .form-status--ok { color: #14612f; background: rgba(20, 97, 47, 0.1); }
+[data-theme="light"] .form-status--err { color: #b3231c; background: rgba(179, 35, 28, 0.1); }
 
 /* ---------------------------------------------------------------- news */
 .news-feature { margin-block-end: var(--sp-8); }
@@ -725,7 +748,7 @@ figure.media-frame figcaption { padding: var(--sp-1) var(--sp-2); }
   width: 100%;
   max-width: 40rem;
   background: var(--bg-raised);
-  border: 1px solid var(--c-line-strong);
+  border: 1px solid var(--c-line-control);
   border-radius: var(--radius-md);
   color: var(--fg);
   font-size: var(--step-1);

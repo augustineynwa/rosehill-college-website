@@ -249,6 +249,9 @@ collections:
             name: slug
             widget: hidden
             default: not-found
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -1284,6 +1287,9 @@ collections:
             name: slug
             widget: hidden
             default: arts-and-culture
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -1316,6 +1322,9 @@ collections:
             name: slug
             widget: hidden
             default: careers-at-rosehill-college
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -1348,6 +1357,9 @@ collections:
             name: slug
             widget: hidden
             default: sports
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -1380,6 +1392,9 @@ collections:
             name: slug
             widget: hidden
             default: contact-us
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -1412,6 +1427,9 @@ collections:
             name: slug
             widget: hidden
             default: alternative-education
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -1444,6 +1462,9 @@ collections:
             name: slug
             widget: hidden
             default: course-information
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -1476,6 +1497,9 @@ collections:
             name: slug
             widget: hidden
             default: digital-learning-and-byod
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -1508,6 +1532,9 @@ collections:
             name: slug
             widget: hidden
             default: education-outside-the-classroom
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -1540,6 +1567,9 @@ collections:
             name: slug
             widget: hidden
             default: junior-diploma
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -1572,6 +1602,9 @@ collections:
             name: slug
             widget: hidden
             default: learning-areas
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -1604,6 +1637,9 @@ collections:
             name: slug
             widget: hidden
             default: mobile-phone-policy
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -1636,6 +1672,9 @@ collections:
             name: slug
             widget: hidden
             default: our-rosehill-college-way
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -1668,6 +1707,9 @@ collections:
             name: slug
             widget: hidden
             default: student-support
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -1700,6 +1742,9 @@ collections:
             name: slug
             widget: hidden
             default: year-9-smart-assessment
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -1732,6 +1777,9 @@ collections:
             name: slug
             widget: hidden
             default: home
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -2070,6 +2118,9 @@ collections:
             name: slug
             widget: hidden
             default: applying-nz-arrival-information
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -2102,6 +2153,9 @@ collections:
             name: slug
             widget: hidden
             default: international-curriculum
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -2134,6 +2188,9 @@ collections:
             name: slug
             widget: hidden
             default: fees-policies
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -2166,6 +2223,9 @@ collections:
             name: slug
             widget: hidden
             default: living-in-aotearoa
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -2198,6 +2258,9 @@ collections:
             name: slug
             widget: hidden
             default: students-voices
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -2230,6 +2293,9 @@ collections:
             name: slug
             widget: hidden
             default: why-study-at-rosehill
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -2262,6 +2328,9 @@ collections:
             name: slug
             widget: hidden
             default: enrolment
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -2294,6 +2363,9 @@ collections:
             name: slug
             widget: hidden
             default: prospectus
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -2326,6 +2398,9 @@ collections:
             name: slug
             widget: hidden
             default: school-policies
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -2358,6 +2433,9 @@ collections:
             name: slug
             widget: hidden
             default: school-zone-and-buses
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -2390,6 +2468,9 @@ collections:
             name: slug
             widget: hidden
             default: staff-vacancies
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -2422,6 +2503,9 @@ collections:
             name: slug
             widget: hidden
             default: uniform-and-stationery
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -2454,6 +2538,9 @@ collections:
             name: slug
             widget: hidden
             default: my-rhc
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -2486,6 +2573,9 @@ collections:
             name: slug
             widget: hidden
             default: community-outreach
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -2518,6 +2608,9 @@ collections:
             name: slug
             widget: hidden
             default: our-board
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -2550,6 +2643,9 @@ collections:
             name: slug
             widget: hidden
             default: our-staff
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -2582,6 +2678,9 @@ collections:
             name: slug
             widget: hidden
             default: our-student-leaders
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -2614,6 +2713,9 @@ collections:
             name: slug
             widget: hidden
             default: student-welfare
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -2646,6 +2748,9 @@ collections:
             name: slug
             widget: hidden
             default: about-us
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -2678,6 +2783,9 @@ collections:
             name: slug
             widget: hidden
             default: kaupapa-maori
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -2710,6 +2818,9 @@ collections:
             name: slug
             widget: hidden
             default: life-at-rosehill-college
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -2742,6 +2853,9 @@ collections:
             name: slug
             widget: hidden
             default: our-history
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -2774,6 +2888,9 @@ collections:
             name: slug
             widget: hidden
             default: our-latest-news
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -2806,6 +2923,9 @@ collections:
             name: slug
             widget: hidden
             default: principals-message
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -2838,6 +2958,9 @@ collections:
             name: slug
             widget: hidden
             default: start-of-school-information
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -2870,6 +2993,9 @@ collections:
             name: slug
             widget: hidden
             default: term-dates
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -2902,6 +3028,9 @@ collections:
             name: slug
             widget: hidden
             default: yearbook
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -2934,6 +3063,9 @@ collections:
             name: slug
             widget: hidden
             default: school-app-upgrade
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string
@@ -2966,6 +3098,9 @@ collections:
             name: slug
             widget: hidden
             default: search
+          - label: noindex
+            name: noindex
+            widget: hidden
           - label: Page title
             name: title
             widget: string

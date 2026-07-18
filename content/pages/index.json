@@ -11,8 +11,7 @@
       "vision": "Through living our values we enable our vision: together we create an environment for personal excellence.",
       "video": {
         "poster": "Website-sizzle-reel_poster.0000000.jpg",
-        "mp4": "Website-sizzle-reel_mp4.mp4",
-        "webm": "Website-sizzle-reel_webm.webm"
+        "mp4": "Website-sizzle-reel_mp4.mp4"
       }
     },
     {
@@ -309,7 +308,8 @@
           "src": "https://www.youtube-nocookie.com/embed/qqcnKM0j83Y?rel=0",
           "iframeTitle": "Rosehill College Term 3 2024 Slideshow"
         }
-      ]
+      ],
+      "facade": true
     },
     {
       "type": "news-list",

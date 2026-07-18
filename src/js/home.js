@@ -175,15 +175,14 @@ export async function initHome(gsap, ScrollTrigger, lenis) {
       if (loaded) return;
       loaded = true;
       video.poster = video.dataset.poster;
-      // H.264 first: it has hardware decode on virtually every machine, while
+      // H.264 only: it has hardware decode on virtually every machine, while
       // VP9/webm often falls back to software decode (costly at full-screen).
+      // A webm was shipped alongside this but, listed second and larger than
+      // the mp4, no browser ever selected it — it was 7MB of dead weight.
       const mp4 = document.createElement('source');
       mp4.src = video.dataset.mp4;
       mp4.type = 'video/mp4';
-      const webm = document.createElement('source');
-      webm.src = video.dataset.webm;
-      webm.type = 'video/webm';
-      video.append(mp4, webm);
+      video.append(mp4);
       video.load();
     };
     new IntersectionObserver(([entry]) => {

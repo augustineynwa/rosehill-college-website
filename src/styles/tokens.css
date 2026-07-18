@@ -13,7 +13,9 @@
   --c-navy-bright: #3a4bb5;   /* lifted navy for hover / lines on dark */
   --c-accent: #293ca2;        /* brand accent (existing site) */
   --c-red: #da3029;           /* crest rose red — CTAs and markers only */
-  --c-red-bright: #ef4640;    /* hover state on dark */
+  --c-red-bright: #ef4640;    /* hover on dark — decoration/icons only */
+  --c-red-deep: #c22821;      /* hover for SOLID red buttons: brightening drops
+                                 white text to 3.74:1, this keeps it at 5.8:1 */
   --c-gold: #e0cf90;          /* complimentary gold — te reo eyebrows, fine rules */
   --c-silver: #f3f3f3;        /* crest silver / paper */
 
@@ -24,6 +26,9 @@
   --c-ink-700: #1b2450;       /* raised hover / borders on dark */
   --c-line: rgba(243, 243, 243, 0.14);      /* hairlines on dark */
   --c-line-strong: rgba(243, 243, 243, 0.28);
+  /* borders that are the ONLY boundary of an interactive control (inputs,
+     ghost buttons) must clear 3:1 per WCAG 1.4.11 — 0.28 measures 2.3:1 */
+  --c-line-control: rgba(243, 243, 243, 0.42);
 
   /* ---------- colour: text ---------- */
   --c-text: #f3f3f3;                       /* primary text on dark  (17.9:1 on ink-950) */
@@ -78,6 +83,10 @@
   --stack-eyebrow: var(--sp-2);   /* eyebrow → heading      */
   --stack-heading: var(--sp-3);   /* heading → body         */
   --stack-body: var(--sp-6);      /* heading block → content */
+
+  /* ---------- layout chrome ---------- */
+  --header-h: 4.5rem;   /* fixed header height; anything pinned below the
+                           header must offset by --notice-h + --header-h */
 
   /* ---------- grid ---------- */
   --grid-max: 84rem;                            /* 1344px content width */

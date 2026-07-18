@@ -301,6 +301,9 @@ for (const abs of walk(PAGES).sort()) {
       { label: 'layout', name: 'layout', widget: 'hidden', default: data.layout },
       { label: 'path', name: 'path', widget: 'hidden', default: data.path },
       { label: 'slug', name: 'slug', widget: 'hidden', default: data.slug },
+      // keeps utility pages (search, 404, My RHC) out of Google; hidden so it
+      // round-trips instead of being dropped when staff save the page
+      { label: 'noindex', name: 'noindex', widget: 'hidden' },
       { label: 'Page title', name: 'title', widget: 'string' },
       { label: 'Search-engine description', name: 'metaDescription', widget: 'text', required: false },
       sectionsField(isHome ? HOME_TYPES : PAGE_TYPES),
