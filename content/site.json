@@ -2,6 +2,13 @@
   "name": "Rosehill College",
   "motto": "Mā tātau hangahanga ai te taiao hiranga",
   "vision": "Together we create an environment for personal excellence",
+  "notice": {
+    "active": false,
+    "level": "urgent",
+    "message": "",
+    "link": { "label": "", "href": "" },
+    "expires": ""
+  },
   "address": {
     "physical": ["5 Edinburgh Avenue,", "Rosehill,", "Papakura 2113,", "New Zealand"],
     "postal": ["PO Box 72546,", "Papakura 2244,", "New Zealand"]

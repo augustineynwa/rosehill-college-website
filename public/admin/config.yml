@@ -27,6 +27,53 @@ collections:
         file: content/site.json
         format: json
         fields:
+          - label: 🔔 Urgent notice banner (homepage)
+            name: notice
+            widget: object
+            hint: Shows a banner across the top of the homepage. Turn Show on, type the message, and Publish. Goes live in ~1–2 minutes.
+            fields:
+              - label: Show the banner
+                name: active
+                widget: boolean
+                default: false
+                hint: Turn OFF to take the banner down.
+              - label: Level (sets the colour)
+                name: level
+                widget: select
+                default: urgent
+                options:
+                  - label: Urgent (red)
+                    value: urgent
+                  - label: Important (gold)
+                    value: important
+                  - label: Notice (navy)
+                    value: info
+              - label: Message
+                name: message
+                widget: text
+                required: false
+                hint: Keep it short — one or two sentences.
+              - label: Optional link
+                name: link
+                widget: object
+                collapsed: true
+                fields:
+                  - label: Link text (e.g. Read more)
+                    name: label
+                    widget: string
+                    required: false
+                  - label: Link (e.g. /our-school/our-latest-news)
+                    name: href
+                    widget: string
+                    required: false
+              - label: Auto-hide after this date (optional)
+                name: expires
+                widget: datetime
+                required: false
+                date_format: YYYY-MM-DD
+                time_format: false
+                picker_utc: true
+                hint: The banner disappears on its own after this date — so you can't forget to remove it.
           - label: School name
             name: name
             widget: string

@@ -32,11 +32,79 @@
 .btn--sm { font-size: var(--step--1); padding: 0.6em 1.2em; }
 .btn--lg { font-size: var(--step-1); padding: 0.85em 2.2em; }
 
+/* ---------------------------------------------------------------- urgent notice banner */
+/* A fixed band pinned above the header. --notice-h (set by the inline script in
+   the partial, then maintained by main.js) reserves its exact height so the
+   page content and header sit below it with no layout shift. When there's no
+   notice, --notice-h is unset → 0, and nothing changes. */
+.site-notice {
+  position: fixed;
+  inset-inline: 0;
+  top: 0;
+  z-index: calc(var(--z-nav) + 5);
+  color: #fff;
+}
+.site-notice--info { background: var(--c-navy); }
+.site-notice--important { background: var(--c-gold); color: var(--c-text-ink); }
+.site-notice--urgent { background: var(--c-red); }
+.site-notice__inner {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  padding-block: 0.7rem;
+  min-height: 3rem;
+}
+.site-notice__text {
+  margin: 0;
+  flex: 1;
+  font-size: var(--step-0);
+  line-height: 1.4;
+}
+.site-notice__tag {
+  display: inline-block;
+  margin-inline-end: 0.6em;
+  padding: 0.15em 0.6em;
+  border-radius: var(--radius-sm);
+  background: rgba(0, 0, 0, 0.22);
+  font-size: var(--step--1);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  vertical-align: 0.08em;
+}
+.site-notice--important .site-notice__tag { background: rgba(0, 0, 0, 0.16); }
+.site-notice__link {
+  color: inherit;
+  font-weight: 700;
+  white-space: nowrap;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.2em;
+}
+.site-notice__close {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.18);
+  color: inherit;
+  cursor: pointer;
+  transition: background-color var(--dur-fast) var(--ease-out);
+}
+.site-notice__close:hover { background: rgba(0, 0, 0, 0.34); }
+.site-notice--important .site-notice__close { background: rgba(0, 0, 0, 0.12); }
+.site-notice__link:hover { text-decoration-color: currentColor; }
+
+/* reserve the banner's height for the page + shift the fixed header down */
+body { padding-top: var(--notice-h, 0px); }
+
 /* ---------------------------------------------------------------- header */
 .site-header {
   position: fixed;
   inset-inline: 0;
-  top: 0;
+  top: var(--notice-h, 0px);
   z-index: var(--z-nav);
   transition: background-color var(--dur-fast) var(--ease-out),
               border-color var(--dur-fast) var(--ease-out);

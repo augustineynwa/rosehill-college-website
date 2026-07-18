@@ -317,6 +317,28 @@ const settings = {
     file: 'content/site.json',
     format: 'json',
     fields: [
+      {
+        label: '🔔 Urgent notice banner (homepage)', name: 'notice', widget: 'object',
+        hint: 'Shows a banner across the top of the homepage. Turn Show on, type the message, and Publish. Goes live in ~1–2 minutes.',
+        fields: [
+          { label: 'Show the banner', name: 'active', widget: 'boolean', default: false,
+            hint: 'Turn OFF to take the banner down.' },
+          { label: 'Level (sets the colour)', name: 'level', widget: 'select', default: 'urgent',
+            options: [
+              { label: 'Urgent (red)', value: 'urgent' },
+              { label: 'Important (gold)', value: 'important' },
+              { label: 'Notice (navy)', value: 'info' },
+            ] },
+          txt('message', 'Message', { hint: 'Keep it short — one or two sentences.' }),
+          {
+            label: 'Optional link', name: 'link', widget: 'object', collapsed: true,
+            fields: [str('label', 'Link text (e.g. Read more)'), str('href', 'Link (e.g. /our-school/our-latest-news)')],
+          },
+          { label: 'Auto-hide after this date (optional)', name: 'expires', widget: 'datetime',
+            required: false, date_format: 'YYYY-MM-DD', time_format: false, picker_utc: true,
+            hint: 'The banner disappears on its own after this date — so you can\'t forget to remove it.' },
+        ],
+      },
       str('name', 'School name'), str('motto', 'Motto (te reo Māori)'), txt('vision', 'Vision (English)'),
       {
         label: 'Addresses', name: 'address', widget: 'object', collapsed: true,

@@ -1,0 +1,29 @@
+{{#if site.notice.active}}{{#if site.notice.message}}
+<aside class="site-notice site-notice--{{#if site.notice.level}}{{site.notice.level}}{{else}}urgent{{/if}}"
+       data-site-notice data-notice-id="{{noticeId site.notice}}"
+       {{#if site.notice.expires}}data-expires="{{site.notice.expires}}"{{/if}}
+       role="region" aria-label="Important notice">
+  <div class="container site-notice__inner">
+    <p class="site-notice__text">
+      <span class="site-notice__tag" aria-hidden="true">{{#if (eq site.notice.level "info")}}Notice{{else if (eq site.notice.level "important")}}Important{{else}}Urgent{{/if}}</span>
+      {{site.notice.message}}
+      {{#if site.notice.link.href}}<a class="site-notice__link" href="{{site.notice.link.href}}">{{#if site.notice.link.label}}{{site.notice.link.label}}{{else}}Read more{{/if}} →</a>{{/if}}
+    </p>
+    <button class="site-notice__close" type="button" aria-label="Dismiss this notice" data-notice-close>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</aside>
+<script>/* hide before paint if expired or already dismissed — no flash, no layout shift */
+(function () {
+  var n = document.currentScript.previousElementSibling, root = document.documentElement;
+  function hide() { n.style.display = 'none'; root.style.setProperty('--notice-h', '0px'); }
+  try {
+    var exp = n.getAttribute('data-expires');
+    if (exp && new Date(exp + 'T23:59:59') < new Date()) return hide();
+    if (localStorage.getItem('rhc-notice-dismissed') === n.getAttribute('data-notice-id')) return hide();
+  } catch (e) {}
+  root.style.setProperty('--notice-h', n.offsetHeight + 'px');
+})();
+</script>
+{{/if}}{{/if}}

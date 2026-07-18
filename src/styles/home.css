@@ -6,7 +6,9 @@
 /* ---------------------------------------------------------------- hero */
 .home-hero {
   position: relative;
-  min-height: 100svh;
+  /* subtract the notice banner's height (0 when no notice) so the hero still
+     fits one screen and the scroll cue stays visible */
+  min-height: calc(100svh - var(--notice-h, 0px));
   display: grid;
   overflow: clip;
 }
@@ -33,7 +35,7 @@
    header at the top and the scroll cue at the bottom */
 .home-hero__stage {
   position: relative;
-  min-height: 100svh;
+  min-height: calc(100svh - var(--notice-h, 0px));
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -14,6 +14,24 @@ const motionOK = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 initNav();
 
+// urgent notice banner: dismiss (per-message) + keep --notice-h in sync on resize.
+// The initial height/expiry/dismiss check happens in an inline script in the
+// partial so there's no flash or layout shift before this module loads.
+(() => {
+  const notice = document.querySelector('[data-site-notice]');
+  if (!notice) return;
+  const root = document.documentElement;
+  const setH = () => {
+    if (notice.style.display !== 'none') root.style.setProperty('--notice-h', notice.offsetHeight + 'px');
+  };
+  notice.querySelector('[data-notice-close]')?.addEventListener('click', () => {
+    try { localStorage.setItem('rhc-notice-dismissed', notice.dataset.noticeId); } catch (e) {}
+    notice.style.display = 'none';
+    root.style.setProperty('--notice-h', '0px');
+  });
+  window.addEventListener('resize', setH, { passive: true });
+})();
+
 if (document.querySelector('[data-search-input]')) {
   import('./js/search.js').then(({ initSearch }) => initSearch());
 }

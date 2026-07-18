@@ -31,6 +31,14 @@ Handlebars.registerHelper('raw', (s) => new Handlebars.SafeString(s ?? ''));
 Handlebars.registerHelper('json', (o) => new Handlebars.SafeString(JSON.stringify(o)));
 Handlebars.registerHelper('pad2', (n) => String(n).padStart(2, '0'));
 Handlebars.registerHelper('mod', (a, b) => Number(a) % Number(b));
+// short stable id for a notice, so "dismiss" is per-message: changing the
+// wording changes the id, which re-shows the banner to everyone
+Handlebars.registerHelper('noticeId', (notice) => {
+  const s = `${notice?.level || ''}|${notice?.message || ''}`;
+  let h = 5381;
+  for (let i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) >>> 0;
+  return 'n' + h.toString(36);
+});
 // site-relative hrefs get a leading slash; external/mailto/tel pass through
 Handlebars.registerHelper('url', (h) => /^(https?:|mailto:|tel:|\/|#)/.test(h) ? h : '/' + h);
 // section dispatcher: renders partial "section-<type>" with the section as context
