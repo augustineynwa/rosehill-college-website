@@ -41,7 +41,29 @@ You'll land on the editor home screen with two areas:
 
 ---
 
-## 2. Making an edit
+## 2. The urgent notice banner 🔔
+
+A coloured band across the **top of the homepage** — for closures, event changes
+and anything parents must see the moment they land on the site.
+
+1. Go to **Site settings** → open **🔔 Urgent notice banner (homepage)**.
+2. Turn **Show the banner** on.
+3. Pick a **Level** — *Urgent* (red), *Important* (gold) or *Notice* (navy).
+   This only sets the colour.
+4. Type the **Message** — keep it to one or two sentences.
+5. *(Optional)* add a **link** (e.g. *Read more* → the news page) and an
+   **auto-hide date** so the banner takes itself down.
+6. **Publish → Publish now.** It's live in 1–2 minutes.
+
+**To take the banner down:** go back to the same place, turn **Show the banner**
+off, and Publish. (Or set the auto-hide date and it clears itself.)
+
+> **Good to know:** parents can dismiss the banner with the ✕, and it won't nag
+> them again for that same message. Change the wording and it shows once more.
+
+---
+
+## 3. Making an edit
 
 1. Click **Pages**, then the page you want (e.g. *Term Dates*).
 2. Each page is a stack of **sections** — labelled blocks like *Hero (page top)*,
@@ -63,7 +85,7 @@ need to know any code; just use the buttons.
 
 ---
 
-## 3. Publishing (making it go live)
+## 4. Publishing (making it go live)
 
 **Editing is not the same as publishing.** To put your changes on the real
 website:
@@ -79,7 +101,7 @@ That's it. Your change is now live for everyone.
 
 ---
 
-## 4. Photos
+## 5. Photos
 
 - Any photo field has a **Photo** button — choose an existing photo from the
   library, or **upload** a new one from your computer.
@@ -94,10 +116,11 @@ That's it. Your change is now live for everyone.
 
 ---
 
-## 5. Common tasks — quick reference
+## 6. Common tasks — quick reference
 
 | I want to… | Go to |
 | --- | --- |
+| Put up an urgent notice (closure, alert) | **Site settings** → 🔔 Urgent notice banner |
 | Change the school phone number or email | **Site settings** → Contact |
 | Edit the top menu or footer links | **Site settings** → Main navigation / Footer |
 | Update term dates or bell times | **Pages → Term Dates** → the *Table* sections |
@@ -109,7 +132,7 @@ That's it. Your change is now live for everyone.
 
 ---
 
-## 6. Good habits & things to watch
+## 7. Good habits & things to watch
 
 - **Macrons matter.** Write te reo Māori correctly — *whānau*, *Māori*,
   *Ngāti Tamaoho*. Copy-paste from a reliable source if unsure.
@@ -125,7 +148,7 @@ That's it. Your change is now live for everyone.
 
 ---
 
-## 7. If something looks wrong
+## 8. If something looks wrong
 
 - **The editor won't load / won't log in** — try a hard refresh
   (Ctrl+Shift+R), or a different browser. If it persists, contact IT.
