@@ -347,7 +347,24 @@ const settings = {
 };
 
 const config = {
-  backend: { name: 'git-gateway', branch: 'master' },
+  backend: {
+    name: 'github',
+    repo: 'augustineynwa/rosehill-college-website',
+    branch: 'main',
+    // token exchange runs on our own Worker (cms-auth/) — GitHub's OAuth
+    // secret can't live in the browser, and Netlify's proxy is Netlify-only
+    base_url: 'https://rhc-cms-auth.fusion-588.workers.dev',
+    auth_endpoint: 'auth',
+    commit_messages: {
+      create: 'Website edit: create {{collection}} “{{slug}}”',
+      update: 'Website edit: update {{collection}} “{{slug}}”',
+      delete: 'Website edit: delete {{collection}} “{{slug}}”',
+      uploadMedia: 'Website edit: upload {{path}}',
+      deleteMedia: 'Website edit: delete {{path}}',
+    },
+  },
+  // only applies when the CMS is opened on localhost (with `npm run cms`
+  // running); on the deployed site the GitHub backend above is used
   local_backend: true,
   media_folder: 'public/assets/img',
   public_folder: 'assets/img',

@@ -1,6 +1,15 @@
 backend:
-  name: git-gateway
-  branch: master
+  name: github
+  repo: augustineynwa/rosehill-college-website
+  branch: main
+  base_url: https://rhc-cms-auth.fusion-588.workers.dev
+  auth_endpoint: auth
+  commit_messages:
+    create: 'Website edit: create {{collection}} “{{slug}}”'
+    update: 'Website edit: update {{collection}} “{{slug}}”'
+    delete: 'Website edit: delete {{collection}} “{{slug}}”'
+    uploadMedia: 'Website edit: upload {{path}}'
+    deleteMedia: 'Website edit: delete {{path}}'
 local_backend: true
 media_folder: public/assets/img
 public_folder: assets/img

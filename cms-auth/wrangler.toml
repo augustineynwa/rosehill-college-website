@@ -1,0 +1,11 @@
+name = "rhc-cms-auth"
+main = "src/index.js"
+compatibility_date = "2026-01-01"
+workers_dev = true
+
+[vars]
+GITHUB_CLIENT_ID = "Ov23lilGm7jL4pXVGl1G"                    # public — the OAuth app's Client ID
+ALLOWED_ORIGIN = "https://rosehill-college-website.pages.dev" # only this site may receive a token
+
+# GITHUB_CLIENT_SECRET is a secret, never a var:
+#   npx wrangler secret put GITHUB_CLIENT_SECRET --config cms-auth/wrangler.toml
