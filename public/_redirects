@@ -1,0 +1,52 @@
+# 301 redirects: old Webflow URLs → new site structure.
+# Preserves Google rankings and existing bookmarks/printed links after cutover.
+# Format: <old path>  <new path>  <status>. First match wins, so exact paths
+# are listed before the wildcard fallbacks at the bottom.
+
+# --- Our School: "introduction" branch flattened ---
+/our-school/introduction/principals-message        /our-school/principals-message          301
+/our-school/introduction/about-us                  /our-school/about-us                    301
+/our-school/introduction/life-at-rosehill-college  /our-school/life-at-rosehill-college    301
+/our-school/introduction/our-history               /our-school/our-history                 301
+
+# --- Our School: "school-information" branch split across sections ---
+/our-school/school-information/term-dates          /our-school/term-dates                  301
+/our-school/school-information/school-uniform      /join-us/uniform-and-stationery         301
+/our-school/school-information/stationery-list     /join-us/uniform-and-stationery         301
+/our-school/school-information/school-buses        /join-us/school-zone-and-buses          301
+
+# --- People → Our Community ---
+/our-school/our-people/our-staff                   /our-community/our-staff                301
+/our-school/our-people/our-student-leaders         /our-community/our-student-leaders      301
+/our-school/our-people/our-school-board            /our-community/our-board                301
+/our-school/our-community/community-outreach       /our-community/community-outreach       301
+
+# --- Plans & policies → split ---
+/our-school/our-plans-policies/school-policies     /join-us/school-policies                301
+/our-school/our-plans-policies/mobile-phone-policy /curriculum/mobile-phone-policy         301
+
+# --- "academic-school-life" branch removed ---
+/academic-school-life/curriculum/course-information       /curriculum/course-information        301
+/academic-school-life/curriculum/our-rosehill-college-way /curriculum/our-rosehill-college-way  301
+/academic-school-life/co-curricular/sports                /cocurricular/sports                  301
+/academic-school-life/students-support/student-welfare    /our-community/student-welfare        301
+
+# --- Join Us: "enrolment-information" flattened ---
+/join-us/enrolment-information/enrolment           /join-us/enrolment                      301
+/join-us/enrolment-information/prospectus          /join-us/prospectus                     301
+/join-us/enrolment-information/school-zone         /join-us/school-zone-and-buses          301
+
+# --- International: moved out from under Join Us ---
+/join-us/international-students/why-study-at-rosehill            /international-students/why-study-at-rosehill            301
+/join-us/international-students/applying-nz-arrival-information  /international-students/applying-nz-arrival-information  301
+/join-us/international-students/fees-policies                   /international-students/fees-policies                    301
+/join-us/international-students/living-in-aotearoa              /international-students/living-in-aotearoa               301
+/join-us/international-students/curriculum-pathway              /international-students/curriculum                       301
+/join-us/international-students/students-voices                 /international-students/students-voices                  301
+
+# --- Collection pages that no longer have individual URLs ---
+# Individual news posts, vacancies and sponsor pages were consolidated into
+# single index pages. Point the whole namespace at the relevant page.
+/posts/*               /our-school/our-latest-news    301
+/vacancies/*           /join-us/staff-vacancies       301
+/community-sponsors/*  /our-community/community-outreach  301

@@ -32,6 +32,49 @@ initNav();
   window.addEventListener('resize', setH, { passive: true });
 })();
 
+// contact form → Web3Forms. Progressive enhancement: without JS the form still
+// posts natively to Web3Forms; with JS we submit in the background and show an
+// inline success/error message so the visitor never leaves the page.
+document.querySelectorAll('[data-web3form]').forEach((form) => {
+  const status = form.querySelector('[data-form-status]');
+  const btn = form.querySelector('button[type="submit"]');
+  const say = (msg, ok) => {
+    if (!status) return;
+    status.textContent = msg;
+    status.hidden = false;
+    status.classList.toggle('form-status--ok', !!ok);
+    status.classList.toggle('form-status--err', !ok);
+  };
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    if (form.botcheck?.checked) return; // honeypot tripped
+    if (!form.access_key?.value) { // not configured yet (e.g. preview build)
+      say('This form isn’t live yet — please email us at inquiries@rosehillcollege.school.nz.', false);
+      return;
+    }
+    const label = btn?.textContent;
+    if (btn) { btn.disabled = true; btn.textContent = 'Sending…'; }
+    try {
+      const res = await fetch(form.action, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify(Object.fromEntries(new FormData(form))),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (res.ok && data.success) {
+        form.reset();
+        say('Thanks — your message has been sent. We’ll be in touch soon.', true);
+      } else {
+        say(data.message || 'Sorry, something went wrong. Please email us instead.', false);
+      }
+    } catch {
+      say('Sorry, we couldn’t send that. Please check your connection or email us instead.', false);
+    } finally {
+      if (btn) { btn.disabled = false; btn.textContent = label; }
+    }
+  });
+});
+
 if (document.querySelector('[data-search-input]')) {
   import('./js/search.js').then(({ initSearch }) => initSearch());
 }

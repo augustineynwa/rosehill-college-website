@@ -4,8 +4,11 @@ compatibility_date = "2026-01-01"
 workers_dev = true
 
 [vars]
-GITHUB_CLIENT_ID = "Ov23lilGm7jL4pXVGl1G"                    # public — the OAuth app's Client ID
-ALLOWED_ORIGIN = "https://rosehill-college-website.pages.dev" # only this site may receive a token
+GITHUB_CLIENT_ID = "Ov23lilGm7jL4pXVGl1G"  # public — the OAuth app's Client ID
+# Sites allowed to receive a token (comma-separated). Preview + real domain, so
+# login works on both — no redeploy needed on cutover day. The Worker posts the
+# token only to whichever of these actually started the sign-in.
+ALLOWED_ORIGINS = "https://rosehill-college-website.pages.dev,https://rosehillcollege.school.nz,https://www.rosehillcollege.school.nz"
 
 # GITHUB_CLIENT_SECRET is a secret, never a var:
 #   npx wrangler secret put GITHUB_CLIENT_SECRET --config cms-auth/wrangler.toml

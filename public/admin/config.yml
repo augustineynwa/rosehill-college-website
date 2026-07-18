@@ -74,6 +74,14 @@ collections:
                 time_format: false
                 picker_utc: true
                 hint: The banner disappears on its own after this date — so you can't forget to remove it.
+          - label: baseUrl
+            name: baseUrl
+            widget: hidden
+            required: false
+          - label: web3formsKey
+            name: web3formsKey
+            widget: hidden
+            required: false
           - label: School name
             name: name
             widget: string

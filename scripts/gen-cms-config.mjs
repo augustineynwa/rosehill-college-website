@@ -20,6 +20,11 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const PAGES = join(ROOT, 'content', 'pages');
 
+// single source of truth for the live domain: content/site.json → baseUrl.
+// "View Live" links in the CMS follow it, so cutover is one edit in one file.
+const siteData = JSON.parse(readFileSync(join(ROOT, 'content', 'site.json'), 'utf8'));
+const SITE_URL = (siteData.baseUrl || 'https://rosehill-college-website.pages.dev').replace(/\/$/, '');
+
 // ---------- field helpers ----------
 const str = (name, label, extra = {}) => ({ label, name, widget: 'string', required: false, ...extra });
 const txt = (name, label, extra = {}) => ({ label, name, widget: 'text', required: false, ...extra });
@@ -339,6 +344,9 @@ const settings = {
             hint: 'The banner disappears on its own after this date — so you can\'t forget to remove it.' },
         ],
       },
+      // technical fields — declared (as hidden) so Decap round-trips them
+      // instead of dropping them when staff save Site settings.
+      hidden('baseUrl'), hidden('web3formsKey'),
       str('name', 'School name'), str('motto', 'Motto (te reo Māori)'), txt('vision', 'Vision (English)'),
       {
         label: 'Addresses', name: 'address', widget: 'object', collapsed: true,
@@ -397,7 +405,7 @@ const config = {
   media_folder: 'public/assets/img',
   public_folder: 'assets/img',
   publish_mode: 'simple',
-  site_url: 'https://rosehill-college-website.pages.dev',
+  site_url: SITE_URL,
   logo_url: '/assets/img/RHC-Official-Crest.svg',
   collections: [
     settings,

@@ -2,7 +2,13 @@
   <div class="container">
     {{> section-head}}
     <div class="grid band__body">
-      <form class="contact-form col-main stack" method="post" action="{{#if action}}{{action}}{{else}}#{{/if}}" data-reveal>
+      <form class="contact-form col-main stack" method="post"
+            action="https://api.web3forms.com/submit"
+            data-web3form data-reveal>
+        <input type="hidden" name="access_key" value="{{page.site.web3formsKey}}">
+        <input type="hidden" name="from_name" value="Rosehill College website">
+        {{! honeypot — hidden from people, catches bots that fill every field }}
+        <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
         <div class="field-row">
           <div class="field">
             <label for="cf-name">Name <span aria-hidden="true">*</span></label>
@@ -27,6 +33,7 @@
         </div>
         <button class="btn btn--red btn--lg" type="submit">Send message</button>
         <p class="caption">Fields marked * are required.</p>
+        <p class="form-status" data-form-status role="status" aria-live="polite" hidden></p>
       </form>
       <aside class="col-aside prose-aside stack" data-reveal>
         {{#if aside}}{{raw aside}}{{/if}}

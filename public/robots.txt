@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rosehill-college-website.pages.dev/sitemap.xml

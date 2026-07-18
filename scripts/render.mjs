@@ -115,6 +115,7 @@ const cleanHref = (p) => {
 
 // ---------- render pages + search index ----------
 const searchIndex = [];
+const sitemapPaths = [];
 function sectionText(sec) {
   const parts = [];
   const collect = (v) => {
@@ -137,18 +138,36 @@ for (const f of walk(join(CONTENT, 'pages'), '.json')) {
   const root = depth === 0 ? './' : '../'.repeat(depth);
   const layout = layouts[page.layout || 'page'];
   if (!layout) throw new Error(`Unknown layout "${page.layout}" for ${page.path}`);
-  const html = cleanUrls(layout({ ...page, site, root }));
+  const canonicalPath = cleanHref(page.path);
+  const html = cleanUrls(layout({ ...page, site, root, canonicalPath }));
   mkdirSync(dirname(outPath), { recursive: true });
   writeFileSync(outPath, html, 'utf8');
-  if (!['404.html', 'search.html', '401.html'].includes(page.path)) {
+  const indexable = !['404.html', 'search.html', '401.html', 'my-rhc.html'].includes(page.path)
+    && !page.noindex;
+  if (indexable) {
     searchIndex.push({
       title: page.title,
-      href: cleanHref(page.path),
+      href: canonicalPath,
       description: page.metaDescription || '',
       text: (page.sections || []).map(sectionText).join(' ').replace(/\s+/g, ' ').slice(0, 4000),
     });
+    sitemapPaths.push(canonicalPath);
   }
   count++;
+}
+
+// ---------- sitemap.xml + robots.txt (use site.baseUrl; regenerated every build) ----------
+const base = (site.baseUrl || '').replace(/\/$/, '');
+if (base) {
+  const urls = sitemapPaths
+    .sort()
+    .map((p) => `  <url><loc>${base}${p === '/' ? '/' : p}</loc></url>`)
+    .join('\n');
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`;
+  writeFileSync(join(ROOT, 'public', 'sitemap.xml'), sitemap, 'utf8');
+  writeFileSync(join(ROOT, 'public', 'robots.txt'),
+    `User-agent: *\nAllow: /\n\nSitemap: ${base}/sitemap.xml\n`, 'utf8');
+  console.log(`Wrote sitemap.xml (${sitemapPaths.length} urls) + robots.txt for ${base}`);
 }
 mkdirSync(join(ROOT, 'public'), { recursive: true });
 writeFileSync(join(ROOT, 'public', 'search-index.json'), JSON.stringify(searchIndex), 'utf8');

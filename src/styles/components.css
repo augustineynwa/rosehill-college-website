@@ -679,6 +679,15 @@ figure.media-frame figcaption { padding: var(--sp-1) var(--sp-2); }
 }
 .field input:focus-visible, .field textarea:focus-visible { outline-offset: 0; border-color: var(--c-gold); }
 .contact-form .btn { align-self: flex-start; }
+.form-status {
+  margin: 0;
+  padding: 0.7em 0.9em;
+  border-radius: var(--radius-sm);
+  border-left: 4px solid currentColor;
+  font-size: var(--step--1);
+}
+.form-status--ok { color: #1f7a3d; background: rgba(31, 122, 61, 0.1); }
+.form-status--err { color: var(--c-red); background: rgba(218, 48, 41, 0.1); }
 
 /* ---------------------------------------------------------------- news */
 .news-feature { margin-block-end: var(--sp-8); }

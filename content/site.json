@@ -2,6 +2,8 @@
   "name": "Rosehill College",
   "motto": "Mā tātau hangahanga ai te taiao hiranga",
   "vision": "Together we create an environment for personal excellence",
+  "baseUrl": "https://rosehill-college-website.pages.dev",
+  "web3formsKey": "",
   "notice": {
     "active": false,
     "level": "urgent",

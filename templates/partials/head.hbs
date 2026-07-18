@@ -5,6 +5,8 @@
 <meta property="og:title" content="{{title}} | Rosehill College">
 <meta property="og:description" content="{{metaDescription}}">
 <meta property="og:type" content="website">
+{{#if site.baseUrl}}<link rel="canonical" href="{{site.baseUrl}}{{canonicalPath}}">
+<meta property="og:url" content="{{site.baseUrl}}{{canonicalPath}}">{{/if}}
 <link rel="icon" href="/assets/img/favicon.png">
 <link rel="apple-touch-icon" href="/assets/img/webclip.png">
 <link rel="preload" href="/assets/fonts/albertus-nova.woff2" as="font" type="font/woff2" crossorigin>
