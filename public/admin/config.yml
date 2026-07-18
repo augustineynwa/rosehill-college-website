@@ -14,11 +14,13 @@ local_backend: true
 media_folder: public/assets/img
 public_folder: assets/img
 publish_mode: simple
-site_url: /
+site_url: https://rosehill-college-website.pages.dev
 logo_url: /assets/img/RHC-Official-Crest.svg
 collections:
   - name: settings
     label: Site settings
+    editor:
+      preview: false
     files:
       - name: site
         label: Contact details, nav & footer
@@ -171,11 +173,14 @@ collections:
             required: false
   - name: pages
     label: Pages
+    editor:
+      preview: false
     files:
       - name: '404'
         label: '404'
         file: content/pages/404.json
         format: json
+        preview_path: '404'
         fields:
           - label: layout
             name: layout
@@ -1210,6 +1215,7 @@ collections:
         label: Arts And Culture — cocurricular
         file: content/pages/cocurricular/arts-and-culture.json
         format: json
+        preview_path: cocurricular/arts-and-culture
         fields:
           - label: layout
             name: layout
@@ -1241,6 +1247,7 @@ collections:
         label: Careers At Rosehill College — cocurricular
         file: content/pages/cocurricular/careers-at-rosehill-college.json
         format: json
+        preview_path: cocurricular/careers-at-rosehill-college
         fields:
           - label: layout
             name: layout
@@ -1272,6 +1279,7 @@ collections:
         label: Sports — cocurricular
         file: content/pages/cocurricular/sports.json
         format: json
+        preview_path: cocurricular/sports
         fields:
           - label: layout
             name: layout
@@ -1303,6 +1311,7 @@ collections:
         label: Contact Us
         file: content/pages/contact-us.json
         format: json
+        preview_path: contact-us
         fields:
           - label: layout
             name: layout
@@ -1334,6 +1343,7 @@ collections:
         label: Alternative Education — curriculum
         file: content/pages/curriculum/alternative-education.json
         format: json
+        preview_path: curriculum/alternative-education
         fields:
           - label: layout
             name: layout
@@ -1365,6 +1375,7 @@ collections:
         label: Course Information — curriculum
         file: content/pages/curriculum/course-information.json
         format: json
+        preview_path: curriculum/course-information
         fields:
           - label: layout
             name: layout
@@ -1396,6 +1407,7 @@ collections:
         label: Digital Learning And Byod — curriculum
         file: content/pages/curriculum/digital-learning-and-byod.json
         format: json
+        preview_path: curriculum/digital-learning-and-byod
         fields:
           - label: layout
             name: layout
@@ -1427,6 +1439,7 @@ collections:
         label: Education Outside The Classroom — curriculum
         file: content/pages/curriculum/education-outside-the-classroom.json
         format: json
+        preview_path: curriculum/education-outside-the-classroom
         fields:
           - label: layout
             name: layout
@@ -1458,6 +1471,7 @@ collections:
         label: Junior Diploma — curriculum
         file: content/pages/curriculum/junior-diploma.json
         format: json
+        preview_path: curriculum/junior-diploma
         fields:
           - label: layout
             name: layout
@@ -1489,6 +1503,7 @@ collections:
         label: Learning Areas — curriculum
         file: content/pages/curriculum/learning-areas.json
         format: json
+        preview_path: curriculum/learning-areas
         fields:
           - label: layout
             name: layout
@@ -1520,6 +1535,7 @@ collections:
         label: Mobile Phone Policy — curriculum
         file: content/pages/curriculum/mobile-phone-policy.json
         format: json
+        preview_path: curriculum/mobile-phone-policy
         fields:
           - label: layout
             name: layout
@@ -1551,6 +1567,7 @@ collections:
         label: Our Rosehill College Way — curriculum
         file: content/pages/curriculum/our-rosehill-college-way.json
         format: json
+        preview_path: curriculum/our-rosehill-college-way
         fields:
           - label: layout
             name: layout
@@ -1582,6 +1599,7 @@ collections:
         label: Student Support — curriculum
         file: content/pages/curriculum/student-support.json
         format: json
+        preview_path: curriculum/student-support
         fields:
           - label: layout
             name: layout
@@ -1613,6 +1631,7 @@ collections:
         label: Year 9 Smart Assessment — curriculum
         file: content/pages/curriculum/year-9-smart-assessment.json
         format: json
+        preview_path: curriculum/year-9-smart-assessment
         fields:
           - label: layout
             name: layout
@@ -1644,6 +1663,7 @@ collections:
         label: Homepage
         file: content/pages/index.json
         format: json
+        preview_path: ''
         fields:
           - label: layout
             name: layout
@@ -1981,6 +2001,7 @@ collections:
         label: Applying Nz Arrival Information — international students
         file: content/pages/international-students/applying-nz-arrival-information.json
         format: json
+        preview_path: international-students/applying-nz-arrival-information
         fields:
           - label: layout
             name: layout
@@ -2012,6 +2033,7 @@ collections:
         label: Curriculum — international students
         file: content/pages/international-students/curriculum.json
         format: json
+        preview_path: international-students/curriculum
         fields:
           - label: layout
             name: layout
@@ -2043,6 +2065,7 @@ collections:
         label: Fees Policies — international students
         file: content/pages/international-students/fees-policies.json
         format: json
+        preview_path: international-students/fees-policies
         fields:
           - label: layout
             name: layout
@@ -2074,6 +2097,7 @@ collections:
         label: Living In Aotearoa — international students
         file: content/pages/international-students/living-in-aotearoa.json
         format: json
+        preview_path: international-students/living-in-aotearoa
         fields:
           - label: layout
             name: layout
@@ -2105,6 +2129,7 @@ collections:
         label: Students Voices — international students
         file: content/pages/international-students/students-voices.json
         format: json
+        preview_path: international-students/students-voices
         fields:
           - label: layout
             name: layout
@@ -2136,6 +2161,7 @@ collections:
         label: Why Study At Rosehill — international students
         file: content/pages/international-students/why-study-at-rosehill.json
         format: json
+        preview_path: international-students/why-study-at-rosehill
         fields:
           - label: layout
             name: layout
@@ -2167,6 +2193,7 @@ collections:
         label: Enrolment — join us
         file: content/pages/join-us/enrolment.json
         format: json
+        preview_path: join-us/enrolment
         fields:
           - label: layout
             name: layout
@@ -2198,6 +2225,7 @@ collections:
         label: Prospectus — join us
         file: content/pages/join-us/prospectus.json
         format: json
+        preview_path: join-us/prospectus
         fields:
           - label: layout
             name: layout
@@ -2229,6 +2257,7 @@ collections:
         label: School Policies — join us
         file: content/pages/join-us/school-policies.json
         format: json
+        preview_path: join-us/school-policies
         fields:
           - label: layout
             name: layout
@@ -2260,6 +2289,7 @@ collections:
         label: School Zone And Buses — join us
         file: content/pages/join-us/school-zone-and-buses.json
         format: json
+        preview_path: join-us/school-zone-and-buses
         fields:
           - label: layout
             name: layout
@@ -2291,6 +2321,7 @@ collections:
         label: Staff Vacancies — join us
         file: content/pages/join-us/staff-vacancies.json
         format: json
+        preview_path: join-us/staff-vacancies
         fields:
           - label: layout
             name: layout
@@ -2322,6 +2353,7 @@ collections:
         label: Uniform And Stationery — join us
         file: content/pages/join-us/uniform-and-stationery.json
         format: json
+        preview_path: join-us/uniform-and-stationery
         fields:
           - label: layout
             name: layout
@@ -2353,6 +2385,7 @@ collections:
         label: My Rhc
         file: content/pages/my-rhc.json
         format: json
+        preview_path: my-rhc
         fields:
           - label: layout
             name: layout
@@ -2384,6 +2417,7 @@ collections:
         label: Community Outreach — our community
         file: content/pages/our-community/community-outreach.json
         format: json
+        preview_path: our-community/community-outreach
         fields:
           - label: layout
             name: layout
@@ -2415,6 +2449,7 @@ collections:
         label: Our Board — our community
         file: content/pages/our-community/our-board.json
         format: json
+        preview_path: our-community/our-board
         fields:
           - label: layout
             name: layout
@@ -2446,6 +2481,7 @@ collections:
         label: Our Staff — our community
         file: content/pages/our-community/our-staff.json
         format: json
+        preview_path: our-community/our-staff
         fields:
           - label: layout
             name: layout
@@ -2477,6 +2513,7 @@ collections:
         label: Our Student Leaders — our community
         file: content/pages/our-community/our-student-leaders.json
         format: json
+        preview_path: our-community/our-student-leaders
         fields:
           - label: layout
             name: layout
@@ -2508,6 +2545,7 @@ collections:
         label: Student Welfare — our community
         file: content/pages/our-community/student-welfare.json
         format: json
+        preview_path: our-community/student-welfare
         fields:
           - label: layout
             name: layout
@@ -2539,6 +2577,7 @@ collections:
         label: About Us — our school
         file: content/pages/our-school/about-us.json
         format: json
+        preview_path: our-school/about-us
         fields:
           - label: layout
             name: layout
@@ -2570,6 +2609,7 @@ collections:
         label: Kaupapa Maori — our school
         file: content/pages/our-school/kaupapa-maori.json
         format: json
+        preview_path: our-school/kaupapa-maori
         fields:
           - label: layout
             name: layout
@@ -2601,6 +2641,7 @@ collections:
         label: Life At Rosehill College — our school
         file: content/pages/our-school/life-at-rosehill-college.json
         format: json
+        preview_path: our-school/life-at-rosehill-college
         fields:
           - label: layout
             name: layout
@@ -2632,6 +2673,7 @@ collections:
         label: Our History — our school
         file: content/pages/our-school/our-history.json
         format: json
+        preview_path: our-school/our-history
         fields:
           - label: layout
             name: layout
@@ -2663,6 +2705,7 @@ collections:
         label: Our Latest News — our school
         file: content/pages/our-school/our-latest-news.json
         format: json
+        preview_path: our-school/our-latest-news
         fields:
           - label: layout
             name: layout
@@ -2694,6 +2737,7 @@ collections:
         label: Principals Message — our school
         file: content/pages/our-school/principals-message.json
         format: json
+        preview_path: our-school/principals-message
         fields:
           - label: layout
             name: layout
@@ -2725,6 +2769,7 @@ collections:
         label: Start Of School Information — our school
         file: content/pages/our-school/start-of-school-information.json
         format: json
+        preview_path: our-school/start-of-school-information
         fields:
           - label: layout
             name: layout
@@ -2756,6 +2801,7 @@ collections:
         label: Term Dates — our school
         file: content/pages/our-school/term-dates.json
         format: json
+        preview_path: our-school/term-dates
         fields:
           - label: layout
             name: layout
@@ -2787,6 +2833,7 @@ collections:
         label: Yearbook — our school
         file: content/pages/our-school/yearbook.json
         format: json
+        preview_path: our-school/yearbook
         fields:
           - label: layout
             name: layout
@@ -2818,6 +2865,7 @@ collections:
         label: School App Upgrade In Progress
         file: content/pages/school-app-upgrade-in-progress.json
         format: json
+        preview_path: school-app-upgrade-in-progress
         fields:
           - label: layout
             name: layout
@@ -2849,6 +2897,7 @@ collections:
         label: Search
         file: content/pages/search.json
         format: json
+        preview_path: search
         fields:
           - label: layout
             name: layout

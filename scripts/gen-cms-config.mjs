@@ -289,6 +289,8 @@ for (const abs of walk(PAGES).sort()) {
     label: (isHome ? 'Homepage' : pretty(rel)) + (section !== 'General' ? ` — ${section}` : ''),
     file: rel,
     format: 'json',
+    // "View Live" (top-right) opens the real published page at its clean URL
+    preview_path: isHome ? '' : data.path.replace(/\.html$/, ''),
     fields: [
       // machine fields: never edited, but must be declared or they'd be dropped
       { label: 'layout', name: 'layout', widget: 'hidden', default: data.layout },
@@ -305,6 +307,10 @@ for (const abs of walk(PAGES).sort()) {
 const settings = {
   name: 'settings',
   label: 'Site settings',
+  // no inline preview: Decap's default preview can't load the site's CSS/fonts/
+  // theme, so it renders a misleading unstyled dump. Editors use "View Live"
+  // (top-right) to see the real, published page instead.
+  editor: { preview: false },
   files: [{
     name: 'site',
     label: 'Contact details, nav & footer',
@@ -369,11 +375,11 @@ const config = {
   media_folder: 'public/assets/img',
   public_folder: 'assets/img',
   publish_mode: 'simple',
-  site_url: '/',
+  site_url: 'https://rosehill-college-website.pages.dev',
   logo_url: '/assets/img/RHC-Official-Crest.svg',
   collections: [
     settings,
-    { name: 'pages', label: 'Pages', files },
+    { name: 'pages', label: 'Pages', editor: { preview: false }, files },
   ],
 };
 
