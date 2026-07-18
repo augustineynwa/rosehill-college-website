@@ -16,18 +16,21 @@
       </a>
     </article>
     {{/if}}
-    <ul class="news-grid" role="list">
+    {{! a news card IS a card — same grid, same surface, same hover. The only
+        real difference is a smaller title, so it reuses the card component
+        rather than maintaining a parallel copy of it. }}
+    <ul class="card-grid" role="list">
       {{#each items}}
-      <li class="news-card" data-reveal>
-        <a href="{{href}}" class="news-card__link" {{#if external}}rel="external"{{/if}}>
+      <li class="card" data-reveal>
+        <a href="{{href}}" class="card__link" {{#if external}}rel="external"{{/if}}>
           {{#if image}}
-          <figure class="news-card__media media-frame media-frame--card{{#if image.fit}} media-frame--{{image.fit}}{{/if}}"{{#if image.pos}} style="--pos: {{image.pos}}"{{/if}}>
+          <figure class="card__media media-frame media-frame--card{{#if image.fit}} media-frame--{{image.fit}}{{/if}}"{{#if image.pos}} style="--pos: {{image.pos}}"{{/if}}>
             <img src="/{{image.src}}" {{#if image.srcset}}srcset="{{image.srcset}}" sizes="(max-width: 48rem) 100vw, 33vw"{{/if}} alt="{{image.alt}}" loading="lazy" decoding="async">
           </figure>
           {{/if}}
-          <div class="news-card__body stack">
+          <div class="card__body stack">
             {{#if date}}<p class="caption">{{date}}</p>{{/if}}
-            <h3 class="news-card__title">{{title}}</h3>
+            <h3 class="card__title card__title--sm">{{title}}</h3>
             {{#if text}}<p class="card__text">{{text}}</p>{{/if}}
           </div>
         </a>

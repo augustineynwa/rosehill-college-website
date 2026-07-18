@@ -105,7 +105,7 @@
         "srcset": "/assets/img/Curriculum---Our-RHC-Way---Connect-rp-500.avif 500w, /assets/img/Curriculum---Our-RHC-Way---Connect-rp-800.avif 800w, /assets/img/Curriculum---Our-RHC-Way---Connect-rp-1080.avif 1080w, /assets/img/Curriculum---Our-RHC-Way---Connect-rp-1600.avif 1600w, /assets/img/Curriculum---Our-RHC-Way---Connect-rp-2200.avif 2200w, /assets/img/Curriculum---Our-RHC-Way---Connect-rp-3000.avif 3000w",
         "alt": "Rosehill College students connecting with each other — Manaakitanga"
       },
-      "html": "<p><strong>\"We rise by lifting others\"</strong></p><ul><li>We use mana enhancing, respectful, inclusive words and actions</li><li>We look after our learning environment</li><li>We are organised and prepared to learn</li><li>We bring the equipment we need, including charged laptops/Chromebooks</li></ul><p><strong>Because:</strong></p><ul><li>Connecting and learning collectively helps everyone</li><li>Being prepared for our learning keeps us focused on achieving</li><li>Everyone has the right to a safe and enjoyable learning environment</li></ul>"
+      "html": "<p><strong>\"We rise by lifting others\"</strong></p><ul><li>We use <span lang=\"mi\">mana</span> enhancing, respectful, inclusive words and actions</li><li>We look after our learning environment</li><li>We are organised and prepared to learn</li><li>We bring the equipment we need, including charged laptops/Chromebooks</li></ul><p><strong>Because:</strong></p><ul><li>Connecting and learning collectively helps everyone</li><li>Being prepared for our learning keeps us focused on achieving</li><li>Everyone has the right to a safe and enjoyable learning environment</li></ul>"
     },
     {
       "type": "media-text",
@@ -130,7 +130,7 @@
         "srcset": "/assets/img/Curriculum---Our-RHC-Way---Respect_1-rp-500.avif 500w, /assets/img/Curriculum---Our-RHC-Way---Respect_1-rp-800.avif 800w, /assets/img/Curriculum---Our-RHC-Way---Respect_1-rp-1080.avif 1080w, /assets/img/Curriculum---Our-RHC-Way---Respect_1-rp-1600.avif 1600w, /assets/img/Curriculum---Our-RHC-Way---Respect_1-rp-2200.avif 2200w, /assets/img/Curriculum---Our-RHC-Way---Respect_1-rp-3000.avif 3000w, /assets/img/Curriculum---Our-RHC-Way---Respect_1.avif 3733w",
         "alt": "Rosehill College students showing respect for each other — Whanaungatanga"
       },
-      "html": "<p><strong>\"Together we are more\"</strong></p><ul><li>We arrive on time</li><li>We wear our uniform correctly</li><li>We arrive with headphones/phones away</li><li>We respect others' ideas and contributions — everyone is unique</li></ul><p><strong>Because:</strong></p><ul><li>We care about our school community whānau</li><li>We are ready to greet each other</li><li>We know phones are not learning devices</li><li>We care about learning together</li><li>Our uniform represents commitment to our school community and our readiness to learn</li></ul>"
+      "html": "<p><strong>\"Together we are more\"</strong></p><ul><li>We arrive on time</li><li>We wear our uniform correctly</li><li>We arrive with headphones/phones away</li><li>We respect others' ideas and contributions — everyone is unique</li></ul><p><strong>Because:</strong></p><ul><li>We care about our school community <span lang=\"mi\">whānau</span></li><li>We are ready to greet each other</li><li>We know phones are not learning devices</li><li>We care about learning together</li><li>Our uniform represents commitment to our school community and our readiness to learn</li></ul>"
     },
     {
       "type": "media-text",

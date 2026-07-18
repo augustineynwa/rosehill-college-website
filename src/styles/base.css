@@ -47,6 +47,12 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   min-height: 100vh;
+  /* The site publishes ~57 email addresses, the longest 48 characters. An
+     unbreakable token like that widens whatever column holds it and pushes the
+     page sideways. Inherited here so it covers prose, tables, definition lists
+     and anything added later — it only takes effect when a word would
+     otherwise overflow. */
+  overflow-wrap: break-word;
 }
 img, picture, video, canvas, svg { display: block; max-width: 100%; }
 img { height: auto; }

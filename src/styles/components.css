@@ -308,6 +308,9 @@ body { padding-top: var(--notice-h, 0px); }
   .site-nav { display: none; }
   .site-header__burger { display: flex; }
   .site-header__myrhc { display: none; }
+  /* Search moves into the mobile menu as a text link; keeping the icon here
+     too overflows the header row on narrow phones. */
+  .site-header__search { display: none; }
 }
 
 /* ---------------------------------------------------------------- bands */
@@ -419,6 +422,8 @@ figure.media-frame figcaption { padding: var(--sp-1) var(--sp-2); }
 .card:hover .card__media img { transform: scale(1.04); }
 .card__body { padding: var(--sp-3) var(--sp-3) var(--sp-4); flex: 1; }
 .card__title { font-size: var(--step-2); }
+/* news items sit in denser grids and carry longer headlines */
+.card__title--sm { font-size: var(--step-1); font-family: var(--font-body); font-weight: 700; }
 .card__text { color: var(--fg-soft); }
 .card__cta {
   margin-block-start: auto;
@@ -587,11 +592,13 @@ figure.media-frame figcaption { padding: var(--sp-1) var(--sp-2); }
 .person__email { font-size: var(--step--1); color: var(--fg-faint); word-break: break-all; }
 
 /* ---------------------------------------------------------------- definition list */
-.def-list { display: grid; gap: 0; max-width: 52rem; }
+/* minmax(0,1fr) — without it the implicit track sizes to max-content, so one
+   long email address widened every row past the viewport */
+.def-list { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0; max-width: 52rem; }
 .def-list--columns { max-width: none; grid-template-columns: repeat(auto-fill, minmax(min(24rem, 100%), 1fr)); gap: var(--gutter); }
 .def-list__row {
   display: grid;
-  grid-template-columns: minmax(11rem, 1fr) 2.5fr;
+  grid-template-columns: minmax(11rem, 1fr) minmax(0, 2.5fr);
   gap: var(--sp-3);
   padding-block: var(--sp-3);
   border-bottom: 1px solid var(--line);
@@ -600,7 +607,7 @@ figure.media-frame figcaption { padding: var(--sp-1) var(--sp-2); }
 .def-list__term { font-weight: 700; color: var(--c-gold); }
 [data-theme="light"] .def-list__term { color: var(--c-accent); }
 .def-list__text { margin: 0; color: var(--fg-soft); }
-@media (max-width: 40rem) { .def-list__row { grid-template-columns: 1fr; gap: var(--sp-1); } }
+@media (max-width: 40rem) { .def-list__row { grid-template-columns: minmax(0, 1fr); gap: var(--sp-1); } }
 
 /* ---------------------------------------------------------------- docs */
 /* minmax(0,1fr): without the 0 floor the column sizes to its widest item's
@@ -726,22 +733,10 @@ figure.media-frame figcaption { padding: var(--sp-1) var(--sp-2); }
 .news-feature__media img { object-position: 50% 22%; }
 .news-feature__title { font-size: var(--step-3); }
 @media (max-width: 64rem) { .news-feature__link { grid-template-columns: 1fr; } }
-.news-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(19rem, 100%), 1fr));
-  gap: var(--gutter);
-}
-.news-card {
-  background: var(--bg-raised);
-  border: 1px solid var(--line);
-  border-radius: var(--radius-lg);
-  overflow: clip;
-  transition: border-color var(--dur-fast) var(--ease-out), transform var(--dur-med) var(--ease-out);
-}
-.news-card:hover { border-color: var(--c-line-strong); transform: translateY(-4px); }
-.news-card__link { display: block; height: 100%; text-decoration: none; color: inherit; }
-.news-card__body { padding: var(--sp-3); }
-.news-card__title { font-size: var(--step-1); font-family: var(--font-body); font-weight: 700; }
+/* news cards now reuse .card-grid / .card — see section-news-list.hbs. The
+   previous .news-grid / .news-card pair was a declaration-for-declaration
+   duplicate that also missed .card__media's corner reset, so news images
+   carried a stray radius inside the card's own clipped corner. */
 
 /* ---------------------------------------------------------------- search */
 .search-form__input {

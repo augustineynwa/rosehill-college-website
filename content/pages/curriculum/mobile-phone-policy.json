@@ -26,7 +26,7 @@
           "srcset": "/assets/img/class-room-rp-500.avif 500w, /assets/img/class-room-rp-800.avif 800w, /assets/img/class-room-rp-1080.avif 1080w, /assets/img/class-room-rp-1600.avif 1600w, /assets/img/class-room.avif 1666w",
           "alt": "Students focused on their learning in a Rosehill College classroom"
         },
-        "html": "<p><strong>Rosehill College digital usage guidelines</strong></p><ul><li><a href=\"https://drive.google.com/file/d/1yenNlrnhQalhgS6fZQYqIqe-GaKAdoz8/view\" rel=\"external\">Cybersecurity and BYOD Agreement</a></li><li><a href=\"https://web-assets.education.govt.nz/s3fs-public/2024-08/TPA_CellphonePolicy_Whanau_FAQs_FINAL.pdf?VersionId=zErBiZlv82qK7x.mNlqpdKMpVpHuUbiW\" rel=\"external\">Phones away for the day — whānau FAQs (Ministry of Education)</a></li></ul>"
+        "html": "<p><strong>Rosehill College digital usage guidelines</strong></p><ul><li><a href=\"https://drive.google.com/file/d/1yenNlrnhQalhgS6fZQYqIqe-GaKAdoz8/view\" rel=\"external\">Cybersecurity and BYOD Agreement</a></li><li><a href=\"https://web-assets.education.govt.nz/s3fs-public/2024-08/TPA_CellphonePolicy_Whanau_FAQs_FINAL.pdf?VersionId=zErBiZlv82qK7x.mNlqpdKMpVpHuUbiW\" rel=\"external\">Phones away for the day — <span lang=\"mi\">whānau</span> FAQs (Ministry of Education)</a></li></ul>"
       }
     },
     {
@@ -40,7 +40,7 @@
         },
         {
           "title": "Consequences for misuse",
-          "html": "<p>If a phone is seen during class or break times, it may be confiscated by a Head of House or any SLT member. It will be kept at the Student Office and collected by a parent, caregiver, or student at the end of the school week (Friday).</p><p>Phones may be confiscated if they disrupt learning or break school guidelines. Collection is available Fridays between 3.15–4.15pm from the Student Office.</p><p>Early collection can only be arranged through the Principal by emailing the Principal's Secretary at <a href=\"mailto:pa@rosehillcollege.school.nz\">pa@rosehillcollege.school.nz</a>. Please arrange this in advance.</p><p>Continued violations may result in a parent/student meeting with a Kaitiaki or Deputy Principal and could be treated as persistent defiance.</p>"
+          "html": "<p>If a phone is seen during class or break times, it may be confiscated by a Head of House or any SLT member. It will be kept at the Student Office and collected by a parent, caregiver, or student at the end of the school week (Friday).</p><p>Phones may be confiscated if they disrupt learning or break school guidelines. Collection is available Fridays between 3.15–4.15pm from the Student Office.</p><p>Early collection can only be arranged through the Principal by emailing the Principal's Secretary at <a href=\"mailto:pa@rosehillcollege.school.nz\">pa@rosehillcollege.school.nz</a>. Please arrange this in advance.</p><p>Continued violations may result in a parent/student meeting with a <span lang=\"mi\">Kaitiaki</span> or Deputy Principal and could be treated as persistent defiance.</p>"
         },
         {
           "title": "Inappropriate use during school hours",

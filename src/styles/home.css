@@ -209,8 +209,15 @@ html:not(.motion-ok) .home-life__panel { scroll-snap-align: center; }
 .journey-step__text { color: var(--fg-soft); max-width: 34em; }
 .journey-step__link { font-weight: 700; color: var(--c-gold); text-decoration: none; }
 .journey-step__link:hover { text-decoration: underline; }
-.journey-media { position: sticky; top: 14vh; height: min(60vh, 34rem); display: grid; }
-.journey-media__item { grid-area: 1 / 1; height: 100%; opacity: 0.001; }
+/* minmax(0,1fr): the implicit auto column would otherwise size itself to the
+   item's max-content width, so the item could never be constrained by it */
+.journey-media { position: sticky; top: 14vh; height: min(60vh, 34rem); display: grid; grid-template-columns: minmax(0, 1fr); }
+/* width must be stated explicitly. With only a height set, the 3/4
+   aspect-ratio inherited from .media-frame--portrait derived the width from
+   the height (~405px) instead of the ~260px grid column, pushing the whole
+   page sideways on desktop. Giving both dimensions makes the ratio inert and
+   the image is cropped by object-fit instead. */
+.journey-media__item { grid-area: 1 / 1; width: 100%; height: 100%; opacity: 0.001; }
 .journey-media__item:first-child { opacity: 1; }
 html:not(.motion-ok) .journey-media { display: none; }
 @media (max-width: 64rem) { .journey-media { display: none; } }
@@ -260,6 +267,3 @@ html:not(.motion-ok) .journey-media { display: none; }
   text-transform: uppercase;
 }
 html:not(.motion-ok) .montage__row { overflow-x: auto; width: auto; padding-inline: var(--page-margin); }
-
-/* ---------------------------------------------------------------- news on home */
-.home .news-grid { align-items: stretch; }

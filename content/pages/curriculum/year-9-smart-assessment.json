@@ -44,7 +44,7 @@
       "type": "prose",
       "id": "what-is-smart",
       "heading": "What is the SMART assessment?",
-      "html": "<p>The SMART (Student Monitoring, Assessment and Reporting Tool) is a new online assessment. It is being introduced across schools in Aotearoa New Zealand from 2026.</p><p>SMART provides clear and consistent information about student progress in:</p><ul><li>Reading</li><li>Writing</li><li>Mathematics</li></ul><p>It replaces the e-asTTle assessment and is aligned with the new curriculum.</p><p>Teachers use SMART results to track student progress and support conversations with students and whānau. Parents and caregivers will receive information about their child's progress through our reporting processes.</p>"
+      "html": "<p>The SMART (Student Monitoring, Assessment and Reporting Tool) is a new online assessment. It is being introduced across schools in <span lang=\"mi\">Aotearoa</span> New Zealand from 2026.</p><p>SMART provides clear and consistent information about student progress in:</p><ul><li>Reading</li><li>Writing</li><li>Mathematics</li></ul><p>It replaces the e-asTTle assessment and is aligned with the new curriculum.</p><p>Teachers use SMART results to track student progress and support conversations with students and <span lang=\"mi\">whānau</span>. Parents and caregivers will receive information about their child's progress through our reporting processes.</p>"
     },
     {
       "type": "prose",
@@ -56,7 +56,7 @@
       "type": "prose",
       "id": "how-it-runs",
       "heading": "How the assessment runs",
-      "html": "<p>Assessments are completed online — students should bring their own device. Each assessment typically takes 30–45 minutes.</p><p>Questions may include:</p><ul><li>Multiple choice</li><li>Short written responses</li><li>Interactive tasks (for example, drag-and-drop tools)</li></ul><p>Students complete the assessment in the Hall.</p><p>Parents can let Kaitiaki/Head of House know if a device needs to be booked. Please do so by 4th May.</p>"
+      "html": "<p>Assessments are completed online — students should bring their own device. Each assessment typically takes 30–45 minutes.</p><p>Questions may include:</p><ul><li>Multiple choice</li><li>Short written responses</li><li>Interactive tasks (for example, drag-and-drop tools)</li></ul><p>Students complete the assessment in the Hall.</p><p>Parents can let <span lang=\"mi\">Kaitiaki</span>/Head of House know if a device needs to be booked. Please do so by 4th May.</p>"
     },
     {
       "type": "cta",
