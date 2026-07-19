@@ -51,6 +51,11 @@
 /curriculum/student-assessment-and-reporting/year-12       /curriculum/course-information  301
 /curriculum/student-assessment-and-reporting/*             /curriculum/course-information  301
 
+# Learning Areas was never finished — seven of its nine faculties were lorem
+# ipsum in the Webflow build, and it was not in that site's navigation. Removed
+# rather than shipped half-written. Course Information covers subject choice.
+/curriculum/learning-areas                                 /curriculum/course-information  301
+
 # --- Collection pages that no longer have individual URLs ---
 # Individual news posts, vacancies and sponsor pages were consolidated into
 # single index pages. Point the whole namespace at the relevant page.
