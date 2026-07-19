@@ -81,6 +81,12 @@
       "heading": "Sport codes",
       "images": [
         {
+          "src": "assets/img/Sports---Co-curricular---Badminton_1.avif",
+          "srcset": "/assets/img/Sports---Co-curricular---Badminton_1-rp-500.avif 500w, /assets/img/Sports---Co-curricular---Badminton_1-rp-800.avif 800w, /assets/img/Sports---Co-curricular---Badminton_1-rp-1080.avif 1080w, /assets/img/Sports---Co-curricular---Badminton_1-rp-1600.avif 1600w, /assets/img/Sports---Co-curricular---Badminton_1.avif 1920w",
+          "alt": "Rosehill College students playing badminton",
+          "caption": "Badminton"
+        },
+        {
           "src": "assets/img/Sports---Co-curricular---Basketball_1.avif",
           "srcset": "/assets/img/Sports---Co-curricular---Basketball_1-rp-500.avif 500w, /assets/img/Sports---Co-curricular---Basketball_1-rp-800.avif 800w, /assets/img/Sports---Co-curricular---Basketball_1-rp-1080.avif 1080w, /assets/img/Sports---Co-curricular---Basketball_1-rp-1600.avif 1600w, /assets/img/Sports---Co-curricular---Basketball_1-rp-2200.avif 2200w, /assets/img/Sports---Co-curricular---Basketball_1-rp-3000.avif 3000w",
           "alt": "Rosehill College students playing basketball",
@@ -91,6 +97,12 @@
           "srcset": "/assets/img/Co-curricular---Sports---Football_1-rp-500.avif 500w, /assets/img/Co-curricular---Sports---Football_1-rp-800.avif 800w, /assets/img/Co-curricular---Sports---Football_1-rp-1080.avif 1080w, /assets/img/Co-curricular---Sports---Football_1-rp-1600.avif 1600w, /assets/img/Co-curricular---Sports---Football_1.avif 1943w",
           "alt": "Rosehill College students playing football",
           "caption": "Football"
+        },
+        {
+          "src": "assets/img/Co-curricular---Sports---Hockey_1.avif",
+          "srcset": "",
+          "alt": "Rosehill College students playing hockey",
+          "caption": "Hockey"
         },
         {
           "src": "assets/img/Co-curricular---Sports---Netball_1.avif",
@@ -123,10 +135,22 @@
           "caption": "Touch"
         },
         {
+          "src": "assets/img/Co-curricular---Sports---Tag_1.avif",
+          "srcset": "",
+          "alt": "Rosehill College students playing tag",
+          "caption": "Tag"
+        },
+        {
           "src": "assets/img/Co-curricular---Sports---Athletics_1.avif",
           "srcset": "/assets/img/Co-curricular---Sports---Athletics_1-rp-500.avif 500w, /assets/img/Co-curricular---Sports---Athletics_1-rp-800.avif 800w, /assets/img/Co-curricular---Sports---Athletics_1-rp-1080.avif 1080w, /assets/img/Co-curricular---Sports---Athletics_1.avif 1263w",
           "alt": "Rosehill College students competing in athletics",
           "caption": "Athletics"
+        },
+        {
+          "src": "assets/img/Co-curricular---Sports---Weighlifting.avif",
+          "srcset": "",
+          "alt": "A Rosehill College student weightlifting",
+          "caption": "Weightlifting"
         }
       ]
     },
