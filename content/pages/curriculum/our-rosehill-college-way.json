@@ -9,7 +9,12 @@
       "type": "hero",
       "eyebrow": "Values and expectations",
       "heading": "Our Rosehill College Way",
-      "lede": "Manaakitanga, Rangatiratanga, Whanaungatanga and Hihiritanga — four values that shape how we connect, reflect, respect and strive every day, alongside clear expectations for attendance and uniform."
+      "lede": "Manaakitanga, Rangatiratanga, Whanaungatanga and Hihiritanga — four values that shape how we connect, reflect, respect and strive every day, alongside clear expectations for attendance and uniform.",
+      "image": {
+        "src": "assets/img/Landing-Page---Rosehill-Values_1.avif",
+        "srcset": "/assets/img/Landing-Page---Rosehill-Values_1-rp-500.avif 500w, /assets/img/Landing-Page---Rosehill-Values_1-rp-800.avif 800w, /assets/img/Landing-Page---Rosehill-Values_1-rp-1080.avif 1080w, /assets/img/Landing-Page---Rosehill-Values_1-rp-1600.avif 1600w, /assets/img/Landing-Page---Rosehill-Values_1-rp-2200.avif 2200w, /assets/img/Landing-Page---Rosehill-Values_1.avif 2304w",
+        "alt": "The Rosehill College crest embroidered on a school blazer"
+      }
     },
     {
       "type": "gallery",

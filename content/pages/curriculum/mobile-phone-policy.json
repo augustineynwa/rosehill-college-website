@@ -9,7 +9,12 @@
       "type": "hero",
       "eyebrow": "Phones away for the day",
       "heading": "Mobile phone policy",
-      "lede": "At Rosehill College, we believe mobile phones are not necessary during the school day. However, we understand that some parents and caregivers want their children to have a phone for after-school communication."
+      "lede": "At Rosehill College, we believe mobile phones are not necessary during the school day. However, we understand that some parents and caregivers want their children to have a phone for after-school communication.",
+      "image": {
+        "src": "assets/img/Curriculum---Our-RHC-Way---Expect.avif",
+        "srcset": "/assets/img/Curriculum---Our-RHC-Way---Expect-rp-500.avif 500w, /assets/img/Curriculum---Our-RHC-Way---Expect-rp-800.avif 800w, /assets/img/Curriculum---Our-RHC-Way---Expect-rp-1080.avif 1080w, /assets/img/Curriculum---Our-RHC-Way---Expect-rp-1600.avif 1600w, /assets/img/Curriculum---Our-RHC-Way---Expect-rp-2200.avif 2200w, /assets/img/Curriculum---Our-RHC-Way---Expect-rp-3000.avif 3000w",
+        "alt": "Three Rosehill College students together outside on campus"
+      }
     },
     {
       "type": "gallery",
