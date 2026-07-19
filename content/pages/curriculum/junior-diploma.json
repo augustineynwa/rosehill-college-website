@@ -13,7 +13,8 @@
       "image": {
         "src": "assets/img/Junior-Diploma-3.avif",
         "srcset": "/assets/img/Junior-Diploma-3-rp-500.avif 500w, /assets/img/Junior-Diploma-3-rp-800.avif 800w, /assets/img/Junior-Diploma-3-rp-1080.avif 1080w, /assets/img/Junior-Diploma-3-rp-1600.avif 1600w, /assets/img/Junior-Diploma-3.avif 1817w",
-        "alt": "Rosehill College junior students on campus"
+        "alt": "Rosehill College junior students on campus",
+        "pos": "50% 38%"
       }
     },
     {

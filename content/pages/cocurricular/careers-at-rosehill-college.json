@@ -9,12 +9,7 @@
       "type": "hero",
       "eyebrow": "Careers guidance",
       "heading": "Careers at Rosehill College",
-      "lede": "At Rosehill College, our Careers Department is dedicated to helping students take confident steps towards their future — whether that path leads to employment, further study, trades, or something uniquely their own.",
-      "image": {
-        "src": "assets/img/Curriculum---Student-Support---Careers.avif",
-        "srcset": "",
-        "alt": "Careers guidance at Rosehill College"
-      }
+      "lede": "At Rosehill College, our Careers Department is dedicated to helping students take confident steps towards their future — whether that path leads to employment, further study, trades, or something uniquely their own."
     },
     {
       "type": "prose",

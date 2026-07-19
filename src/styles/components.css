@@ -355,6 +355,10 @@ body { padding-top: var(--notice-h, 0px); }
   width: 100%;
   height: 120%;
   object-fit: cover;
+  /* the extra 20% height gives the parallax room to move, which means the band
+     never shows the whole frame — so heads near the top of a photo can be cut.
+     `pos` on the image biases the crop; default is centred. */
+  object-position: var(--pos, 50% 50%);
   will-change: transform;
 }
 .page-hero__scrim {
