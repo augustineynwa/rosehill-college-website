@@ -1686,6 +1686,41 @@ collections:
             types: *ref_0
             summary: '{{fields.heading}}'
             hint: Each block is one section of the page. Drag to reorder.
+      - name: curriculum-ncea
+        label: Ncea — curriculum
+        file: content/pages/curriculum/ncea.json
+        format: json
+        preview_path: curriculum/ncea
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: curriculum/ncea.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: ncea
+          - label: noindex
+            name: noindex
+            widget: hidden
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
       - name: curriculum-our-rosehill-college-way
         label: Our Rosehill College Way — curriculum
         file: content/pages/curriculum/our-rosehill-college-way.json

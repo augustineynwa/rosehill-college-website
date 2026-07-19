@@ -1,0 +1,113 @@
+{
+  "layout": "page",
+  "path": "curriculum/ncea.html",
+  "slug": "ncea",
+  "title": "NCEA",
+  "metaDescription": "NCEA at Rosehill College — Levels 2 and 3, literacy and numeracy, University Entrance, Scholarship and how senior students choose their courses.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Ngā tohu o te kura tuarua",
+      "reo": true,
+      "heading": "NCEA at Rosehill College",
+      "lede": "Building pathways for further study, training and employment.",
+      "image": {
+        "src": "assets/img/NCEA-Senior-2.avif",
+        "srcset": "/assets/img/NCEA-Senior-2-rp-500.avif 500w, /assets/img/NCEA-Senior-2-rp-800.avif 800w, /assets/img/NCEA-Senior-2-rp-1080.avif 1080w, /assets/img/NCEA-Senior-2-rp-1600.avif 1600w, /assets/img/NCEA-Senior-2.avif 2048w",
+        "alt": "Senior Rosehill College students working with their teacher in a chemistry class"
+      }
+    },
+    {
+      "type": "prose",
+      "heading": "Senior study at Rosehill",
+      "html": "<p>At Rosehill College, students in Years 12 and 13 can study towards NCEA Levels 2 and 3.</p><p>Our senior curriculum includes academic, creative, technological, vocational and foundation pathways. Students are supported to select courses that reflect their interests, strengths and plans for further study, training or employment.</p>"
+    },
+    {
+      "type": "docs",
+      "heading": "Resources",
+      "lede": "Exam timetables are published by NZQA and open on the NZQA website.",
+      "docs": [
+        {
+          "href": "https://www2.nzqa.govt.nz/assets/NCEA/2026-Exam-Timetable.pdf",
+          "label": "NCEA Exam Timetable 2026",
+          "meta": "PDF, NZQA"
+        },
+        {
+          "href": "https://www2.nzqa.govt.nz/assets/NCEA/NCEA-and-Schol-Assessment-Timetable-2026.pdf",
+          "label": "NCEA and NZ Scholarship Assessment Timetable 2026",
+          "meta": "PDF, NZQA"
+        },
+        {
+          "href": "https://www2.nzqa.govt.nz/login/",
+          "label": "NZQA Student Login",
+          "meta": "NZQA website"
+        },
+        {
+          "href": "assets/docs/NCEA-Course-Information-2026.pdf",
+          "label": "NCEA Course Information 2026",
+          "meta": "PDF"
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "id": "senior-qualifications",
+      "heading": "Senior qualifications",
+      "html": "<p>The National Certificate of Educational Achievement, or NCEA, is New Zealand's main secondary school qualification. Students gain credits by completing Achievement Standards and Unit Standards.</p><h3>NCEA Level 2</h3><p>Students need:</p><ul><li>60 credits at Level 2 or above</li><li>the NCEA literacy and numeracy requirement.</li></ul><h3>NCEA Level 3</h3><p>Students need:</p><ul><li>60 credits at Level 3 or above</li><li>the NCEA literacy and numeracy requirement.</li></ul><p><strong>Achievement Standards</strong> may be assessed internally by the school or externally through examinations, portfolios or performances. They are usually graded Not Achieved, Achieved, Merit or Excellence.</p><p><strong>Unit Standards</strong> are generally assessed internally by the school or an external provider and are usually graded Not Achieved or Achieved.</p>"
+    },
+    {
+      "type": "prose",
+      "id": "literacy-numeracy",
+      "heading": "Literacy and numeracy",
+      "html": "<p>Students must achieve 10 Literacy credits and 10 Numeracy credits. This is a one-off requirement that must be completed before an NCEA certificate can be awarded.</p><p>Rosehill College provides additional support for senior students who have not yet met the requirement. Students may be placed in programmes such as:</p><ul><li>12CAA Literacy and Numeracy</li><li>English for Literacy</li><li>Mathematics for Numeracy</li></ul>"
+    },
+    {
+      "type": "prose",
+      "id": "university-entrance",
+      "heading": "University Entrance",
+      "html": "<p>University Entrance, or UE, is the minimum requirement for direct entry into a New Zealand university. Requirements for the University Entrance qualification include:</p><ul><li>Achievement of NCEA Level 3</li><li>14 credits in each of three courses from the list of Approved Subjects — see the NCEA Course Information 2026 guide above</li><li>NCEA literacy and numeracy — gained before January 2024, <em>or</em> 20 credits from the NCEA numeracy co-requisite, <em>or</em> NZQA approved transition standards</li><li>UE literacy — 10 credits (five in Reading and five in Writing) from:<ul><li>specific Level 2 and above Achievement Standards, or</li><li>specific <span lang=\"mi\">Te Reo Māori</span> and <span lang=\"mi\">Te Reo Rangatira</span> Level 2 and above standards, or</li><li>two specific Level 4 English for Academic Purposes Unit Standards, or</li><li>an academic literacy common assessment tool (CAT) at Level 3 (no credit value, run by NZQA for specific students).</li></ul></li></ul><p>University Entrance does not guarantee entry into every university programme. Some programmes also require particular subjects, higher grades or rank scores, portfolios, auditions or interviews.</p><p>Rosehill College advises university-bound students to take four UE-approved courses where possible.</p>"
+    },
+    {
+      "type": "media-text",
+      "id": "scholarship",
+      "heading": "Scholarship and other pathways",
+      "image": {
+        "src": "assets/img/NCEA-Senior.avif",
+        "srcset": "",
+        "alt": "A Rosehill College student embracing a staff member at prizegiving"
+      },
+      "portrait": true,
+      "html": "<p>Students may also have opportunities to participate in:</p><ul><li>New Zealand Scholarship</li><li>the New Zealand Certificate in Foundation Skills</li><li>Vocational Pathways</li><li>Trades Academy</li><li>Gateway and Vocations programmes</li><li>extramural university study</li><li>academic extension and enrichment programmes.</li></ul><p>New Zealand Scholarship is intended for high-performing Level 3 students. It is assessed externally, does not provide NCEA credits and may lead to a monetary award.</p><p>Students interested in these pathways should speak with their <span lang=\"mi\">Kaitiaki</span>/Head of House, subject teacher or the Careers team.</p>"
+    },
+    {
+      "type": "prose",
+      "id": "selecting-courses",
+      "heading": "Selecting senior courses",
+      "html": "<p>Rosehill College students in Years 12 and 13 select five courses and two back-up options.</p><h3>Ability + Interest + Occupation = Course Choice</h3><p>When choosing courses, students should consider:</p><ul><li>the subjects they enjoy</li><li>their previous achievement</li><li>course entry requirements</li><li>the subjects needed for tertiary study or employment</li><li>where each course may lead</li></ul><p>Students and <span lang=\"mi\">whānau</span> should read the full Course Information Guide before making selections.</p><p>Course advice is available from <span lang=\"mi\">Manaakitia Mai</span> Teachers, subject teachers, <span lang=\"mi\">Kaitiaki</span>/Heads of House, and the Careers team.</p>"
+    },
+    {
+      "type": "prose",
+      "id": "changes",
+      "heading": "Changes to senior qualifications",
+      "html": "<p>NCEA remains in place for Rosehill College senior students in 2026.</p><p>The Ministry of Education has confirmed that a new qualification system will be introduced progressively:</p><ul><li><strong>2028</strong> — Year 11 Foundational Award</li><li><strong>2029</strong> — New Zealand Certificate of Education for Year 12</li><li><strong>2030</strong> — New Zealand Advanced Certificate of Education for Year 13.</li></ul><p>Students will not be required to change from NCEA to the new qualification system partway through their secondary schooling.</p><p>Rosehill College will provide further information as the Ministry of Education and NZQA confirm the implementation details.</p><p class=\"caption\">Last reviewed: 17 June 2026</p>"
+    },
+    {
+      "type": "cta",
+      "eyebrow": "Anga whakamua",
+      "reo": true,
+      "heading": "Choosing your senior courses?",
+      "text": "The Course Information guide sets out every senior course, its entry requirements and where it can lead.",
+      "actions": [
+        {
+          "label": "Course information",
+          "href": "/curriculum/course-information.html",
+          "primary": true
+        },
+        {
+          "label": "Careers at Rosehill College",
+          "href": "/cocurricular/careers-at-rosehill-college.html"
+        }
+      ]
+    }
+  ]
+}
