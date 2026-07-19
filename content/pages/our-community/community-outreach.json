@@ -58,6 +58,84 @@
       "text": "Together, we can continue to make Rosehill College a place of positive change and community spirit!"
     },
     {
+      "type": "gallery",
+      "id": "community-supporters",
+      "heading": "Our community supporters",
+      "lede": "Rosehill College is grateful to the community trusts and funders whose grants support our students, facilities and programmes.",
+      "images": [
+        {
+          "src": "assets/img/Tupiki-Trust.webp",
+          "srcset": "",
+          "fit": "contain",
+          "alt": "Tupiki Trust logo",
+          "caption": "Tupiki Trust"
+        },
+        {
+          "src": "assets/img/Pub-Charity.avif",
+          "srcset": "",
+          "fit": "contain",
+          "alt": "Pub Charity logo",
+          "caption": "Pub Charity"
+        },
+        {
+          "src": "assets/img/BlueSky-Community-Trust.avif",
+          "srcset": "",
+          "fit": "contain",
+          "alt": "BlueSky Community Trust logo",
+          "caption": "BlueSky Community Trust"
+        },
+        {
+          "src": "assets/img/Milestone-Foundation.avif",
+          "srcset": "",
+          "fit": "contain",
+          "alt": "Milestone Foundation logo",
+          "caption": "Milestone Foundation"
+        },
+        {
+          "src": "assets/img/Grassroots-Trust.avif",
+          "srcset": "",
+          "fit": "contain",
+          "alt": "Grassroots Trust logo",
+          "caption": "Grassroots Trust"
+        },
+        {
+          "src": "assets/img/Four-Winds-Foundation.avif",
+          "srcset": "/assets/img/Four-Winds-Foundation-rp-500.avif 500w, /assets/img/Four-Winds-Foundation-rp-800.avif 800w, /assets/img/Four-Winds-Foundation-rp-1080.avif 1080w, /assets/img/Four-Winds-Foundation-rp-1600.avif 1600w, /assets/img/Four-Winds-Foundation-rp-2200.avif 2200w",
+          "fit": "contain",
+          "alt": "Four Winds Foundation logo",
+          "caption": "Four Winds Foundation"
+        },
+        {
+          "src": "assets/img/Dragon-Community-Trust.avif",
+          "srcset": "",
+          "fit": "contain",
+          "alt": "Dragon Community Trust logo",
+          "caption": "Dragon Community Trust"
+        },
+        {
+          "src": "assets/img/Lottery-Grants-Board.webp",
+          "srcset": "/assets/img/Lottery-Grants-Board-rp-500.webp 500w, /assets/img/Lottery-Grants-Board-rp-800.webp 800w, /assets/img/Lottery-Grants-Board-rp-1080.webp 1080w, /assets/img/Lottery-Grants-Board.webp 1204w",
+          "fit": "contain",
+          "alt": "Lottery Grants Board logo",
+          "caption": "Lottery Grants Board"
+        },
+        {
+          "src": "assets/img/Akarana-Community-Trust.avif",
+          "srcset": "/assets/img/Akarana-Community-Trust-rp-500.avif 500w, /assets/img/Akarana-Community-Trust-rp-800.avif 800w, /assets/img/Akarana-Community-Trust-rp-1080.avif 1080w, /assets/img/Akarana-Community-Trust-rp-1600.avif 1600w, /assets/img/Akarana-Community-Trust-rp-2200.avif 2200w, /assets/img/Akarana-Community-Trust-rp-3000.avif 3000w",
+          "fit": "contain",
+          "alt": "Akarana Community Trust logo",
+          "caption": "Akarana Community Trust"
+        },
+        {
+          "src": "assets/img/RANO-Community-Trust.svg",
+          "srcset": "",
+          "fit": "contain",
+          "alt": "RANO Community Trust logo",
+          "caption": "RANO Community Trust"
+        }
+      ]
+    },
+    {
       "type": "prose",
       "heading": "Rosehill College yearly Christmas Hamper Project",
       "html": "<p>Since 2024, the Community Committee has made an incredible impact through the Christmas Hamper Project, expanding its efforts to support not only Rosehill College families but also those from neighbouring schools. Following the heartwarming success of the initiative, the team, led by Business Manager Ms Carolissen, has worked tirelessly to broaden its reach.</p><p>Thanks to the generous sponsorship of Life Church and the kindness of our staff, students, and families, we have already raised a significant amount of funding. This has enabled us to provide hampers for families facing hardship during the Christmas period. We are truly overwhelmed by the community's outpouring of support. It is both inspiring and deeply appreciated, and we are grateful for every donation that makes this project possible.</p><p>If you would like to be part of this wonderful effort and help brighten a family's Christmas, please consider making a donation throughout the year. Every contribution helps to bring joy to those in need. Thank you for your generosity and for helping us spread some Christmas cheer in our community!</p>",
