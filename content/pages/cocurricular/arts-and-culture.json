@@ -90,11 +90,9 @@
       "html": "<p>We offer lessons in flute, oboe, clarinet, saxophone, trumpet, horn, trombone, piano, guitar, bass guitar, drumkit, and vocals for students enrolled in a full-year Music course. While we strive to accommodate all students, availability may be limited and some students may be placed on a waiting list.</p><p>For more information, please visit the <a href=\"https://sites.google.com/rosehillcollege.school.nz/artsfaculty/bands-and-groups\" rel=\"external\">Arts Faculty bands and groups page</a>.</p>",
       "aside": {
         "image": {
-          "src": "assets/img/Curriculum---Subjects---Instrumental_1.avif",
-          "srcset": "/assets/img/Curriculum---Subjects---Instrumental_1-rp-500.avif 500w, /assets/img/Curriculum---Subjects---Instrumental_1-rp-800.avif 800w, /assets/img/Curriculum---Subjects---Instrumental_1-rp-1080.avif 1080w, /assets/img/Curriculum---Subjects---Instrumental_1.avif 1280w",
-          "alt": "Rosehill College student learning an instrument",
-          "fit": "natural",
-          "ar": "1280 / 498"
+          "src": "assets/img/Our-School---Life-at-RHC---Arts-and-Creativity.avif",
+          "srcset": "/assets/img/Our-School---Life-at-RHC---Arts-and-Creativity-rp-500.avif 500w, /assets/img/Our-School---Life-at-RHC---Arts-and-Creativity-rp-800.avif 800w, /assets/img/Our-School---Life-at-RHC---Arts-and-Creativity-rp-1080.avif 1080w",
+          "alt": "A Rosehill College student performing on stage in the school production"
         }
       }
     },
