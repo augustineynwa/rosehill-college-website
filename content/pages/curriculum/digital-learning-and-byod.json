@@ -11,9 +11,10 @@
       "heading": "Digital learning and BYOD",
       "lede": "At Rosehill College, we are committed to leveraging digital technologies to enhance our students' learning experiences. As part of this commitment, all students are recommended to have a personal digital device, which they will use to access educational resources, collaborate with peers, and engage in interactive learning activities.",
       "image": {
-        "src": "assets/img/Curriculum---Digital-Learning---E-Learning_1.avif",
-        "srcset": "",
-        "alt": "Rosehill College students learning with digital devices"
+        "src": "assets/img/class-room.avif",
+        "pos": "50% 40%",
+        "alt": "A Rosehill College teacher helping two students working on laptops in class",
+        "srcset": "/assets/img/class-room-rp-500.avif 500w, /assets/img/class-room-rp-800.avif 800w, /assets/img/class-room-rp-1080.avif 1080w, /assets/img/class-room-rp-1600.avif 1600w, /assets/img/class-room.avif 1666w"
       }
     },
     {

@@ -11,9 +11,10 @@
       "heading": "Course information",
       "lede": "At Rosehill College, we believe in providing a balanced education that not only focuses on academic excellence but also fosters personal growth and development. Our courses are structured to challenge students intellectually while supporting their individual learning needs.",
       "image": {
-        "src": "assets/img/class-room.avif",
-        "srcset": "/assets/img/class-room-rp-500.avif 500w, /assets/img/class-room-rp-800.avif 800w, /assets/img/class-room-rp-1080.avif 1080w, /assets/img/class-room-rp-1600.avif 1600w, /assets/img/class-room.avif 1666w",
-        "alt": "Rosehill College students learning in class"
+        "src": "assets/img/2026-head-students-11-2.avif",
+        "pos": "50% 35%",
+        "alt": "Rosehill College students in school uniform",
+        "srcset": "/assets/img/2026-head-students-11-2-rp-500.avif 500w, /assets/img/2026-head-students-11-2-rp-800.avif 800w, /assets/img/2026-head-students-11-2-rp-1080.avif 1080w, /assets/img/2026-head-students-11-2-rp-1600.avif 1600w"
       }
     },
     {

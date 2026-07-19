@@ -12,9 +12,10 @@
       "heading": "Arts and culture",
       "lede": "Rosehill College offers a vibrant and diverse Arts and Culture programme, providing students with numerous opportunities to excel in various disciplines, from visual arts and music to drama and kapa haka. With a history of national achievements and strong community involvement, students are encouraged to showcase their talents both locally and internationally.",
       "image": {
-        "src": "assets/img/Co-curricular---Arts-and-Culture---Dance_1.avif",
-        "srcset": "",
-        "alt": "Rosehill College dancers performing"
+        "src": "assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1.avif",
+        "pos": "50% 40%",
+        "alt": "The Rosehill College kapa haka roopu performing together on stage",
+        "srcset": "/assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-500.avif 500w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-800.avif 800w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-1080.avif 1080w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-1600.avif 1600w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-2200.avif 2200w, /assets/img/Our-School---Kaupapa-Mauri---Kapa-Haka_1-rp-3000.avif 3000w"
       }
     },
     {
