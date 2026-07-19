@@ -4,7 +4,11 @@
     <div class="gallery {{#if masonry}}gallery--masonry{{/if}}" data-gallery>
       {{#each images}}
       <figure class="gallery__item media-frame{{#if fit}} media-frame--{{fit}}{{/if}}"{{frameStyle this}} data-reveal>
-        <img src="/{{src}}" {{#if srcset}}srcset="{{srcset}}" sizes="(max-width: 48rem) 100vw, 33vw"{{/if}} alt="{{alt}}" loading="lazy" decoding="async">
+        {{!-- `sizes` has to match what the item actually occupies or the browser
+              fetches a variant that is too small and upscales it. Items alternate
+              between 4 and 8 of the 12 columns, and fit:natural items take the
+              full width, so hint at the largest each can be. --}}
+        <img src="/{{src}}" {{#if srcset}}srcset="{{srcset}}" sizes="(max-width: 48rem) 100vw, {{#if (eq fit "natural")}}92vw{{else}}66vw{{/if}}"{{/if}} alt="{{alt}}" loading="lazy" decoding="async">
         {{#if caption}}<figcaption class="caption">{{caption}}</figcaption>{{/if}}
       </figure>
       {{/each}}

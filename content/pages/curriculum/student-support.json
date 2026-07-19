@@ -25,14 +25,16 @@
       }
     },
     {
-      "type": "media-text",
+      "type": "prose",
       "heading": "Learner Support",
-      "image": {
-        "src": "assets/img/Curriculum---Student-Support---Learner-Support---1.avif",
-        "srcset": "",
-        "alt": "A Rosehill College staff member supporting a student with their learning"
-      },
-      "html": "<p>The role of Learner Support is to:</p><ul><li>Assist with transition of students with SEN from year 8 to year 9.</li><li>Provide support for students with identified Special Educational Needs (SEN) in years 9 to 13.</li><li>Carry out evaluations of students with suspected SEN.</li><li>Liaise with parents and caregivers.</li><li>Provide advice and guidance to teachers on SEN matters.</li><li>Liaise with support agencies providing services to students with SEN, their caregivers and their teachers.</li></ul><p>If you have any queries please contact the Head of Learning Support on extension 873.</p>"
+      "html": "<p>The role of Learner Support is to:</p><ul><li>Assist with transition of students with SEN from year 8 to year 9.</li><li>Provide support for students with identified Special Educational Needs (SEN) in years 9 to 13.</li><li>Carry out evaluations of students with suspected SEN.</li><li>Liaise with parents and caregivers.</li><li>Provide advice and guidance to teachers on SEN matters.</li><li>Liaise with support agencies providing services to students with SEN, their caregivers and their teachers.</li></ul><p>If you have any queries please contact the Head of Learning Support on extension 873.</p>",
+      "aside": {
+        "image": {
+          "src": "assets/img/Curriculum---Student-Support---Learner-Support---1.avif",
+          "srcset": "",
+          "alt": "A Rosehill College staff member supporting a student with their learning"
+        }
+      }
     },
     {
       "type": "prose",
@@ -47,15 +49,16 @@
       }
     },
     {
-      "type": "media-text",
-      "flip": true,
+      "type": "prose",
       "heading": "Careers",
-      "image": {
-        "src": "assets/img/Curriculum---Student-Support---Careers.avif",
-        "srcset": "",
-        "alt": "Students receiving careers advice in the Rosehill College Careers Centre"
-      },
-      "html": "<p>The aim of Careers Education at Rosehill College is to provide appropriate career education, information, and guidance for students. The Careers Centre is available for student use before school, during intervals, at lunchtime, and after school, as well as during study time for Year 13 students. It contains information about a wide range of careers and courses and is staffed by Ms Ferguson, the Careers Adviser, and Ms Mowday, the Careers Assistant. Computers with internet access are also available.</p><p>Students can visit the Careers Room to receive expert advice and assistance to aid in their choices regarding tertiary education and employment opportunities. Assistance is also available for writing CVs, seeking work experience, applying for scholarships or Halls of Residence, and completing applications to tertiary institutions. Additionally, the Careers Department hosts a variety of lunchtime seminars to provide information about tertiary institutions, student loans, Armed Forces, etc. These seminars are advertised in the daily bulletin and on the Careers Bulletin on the school website.</p><p>If you would like to get in touch with Ms Ferguson or Ms Mowday, you can reach them via email at <a href=\"mailto:careers@rosehillcollege.school.nz\">careers@rosehillcollege.school.nz</a>.</p>"
+      "html": "<p>The aim of Careers Education at Rosehill College is to provide appropriate career education, information, and guidance for students. The Careers Centre is available for student use before school, during intervals, at lunchtime, and after school, as well as during study time for Year 13 students. It contains information about a wide range of careers and courses and is staffed by Ms Ferguson, the Careers Adviser, and Ms Mowday, the Careers Assistant. Computers with internet access are also available.</p><p>Students can visit the Careers Room to receive expert advice and assistance to aid in their choices regarding tertiary education and employment opportunities. Assistance is also available for writing CVs, seeking work experience, applying for scholarships or Halls of Residence, and completing applications to tertiary institutions. Additionally, the Careers Department hosts a variety of lunchtime seminars to provide information about tertiary institutions, student loans, Armed Forces, etc. These seminars are advertised in the daily bulletin and on the Careers Bulletin on the school website.</p><p>If you would like to get in touch with Ms Ferguson or Ms Mowday, you can reach them via email at <a href=\"mailto:careers@rosehillcollege.school.nz\">careers@rosehillcollege.school.nz</a>.</p>",
+      "aside": {
+        "image": {
+          "src": "assets/img/Curriculum---Student-Support---Careers.avif",
+          "srcset": "",
+          "alt": "Students receiving careers advice in the Rosehill College Careers Centre"
+        }
+      }
     },
     {
       "type": "prose",

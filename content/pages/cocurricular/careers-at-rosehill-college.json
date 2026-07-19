@@ -9,7 +9,13 @@
       "type": "hero",
       "eyebrow": "Careers guidance",
       "heading": "Careers at Rosehill College",
-      "lede": "At Rosehill College, our Careers Department is dedicated to helping students take confident steps towards their future — whether that path leads to employment, further study, trades, or something uniquely their own."
+      "lede": "At Rosehill College, our Careers Department is dedicated to helping students take confident steps towards their future — whether that path leads to employment, further study, trades, or something uniquely their own.",
+      "image": {
+        "src": "assets/img/Our-Community---Our-Student-Leaders---Btm-Banner.avif",
+        "srcset": "/assets/img/Our-Community---Our-Student-Leaders---Btm-Banner-rp-500.avif 500w, /assets/img/Our-Community---Our-Student-Leaders---Btm-Banner-rp-800.avif 800w, /assets/img/Our-Community---Our-Student-Leaders---Btm-Banner-rp-1080.avif 1080w, /assets/img/Our-Community---Our-Student-Leaders---Btm-Banner-rp-1600.avif 1600w, /assets/img/Our-Community---Our-Student-Leaders---Btm-Banner-rp-2200.avif 2200w, /assets/img/Our-Community---Our-Student-Leaders---Btm-Banner-rp-3000.avif 3000w",
+        "pos": "50% 40%",
+        "alt": "Senior Rosehill College students in school blazers in the school hall"
+      }
     },
     {
       "type": "prose",

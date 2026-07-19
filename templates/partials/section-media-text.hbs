@@ -1,9 +1,11 @@
 <section class="band {{#if pad}}band--{{pad}}{{/if}}" {{#if id}}id="{{id}}"{{/if}} {{#if theme}}data-theme="{{theme}}"{{/if}}>
   <div class="container">
     <div class="grid media-text {{#if flip}}media-text--flip{{/if}}">
+      {{#if image.src}}
       <figure class="media-text__media media-frame {{#if portrait}}media-frame--portrait{{else}}media-frame--card{{/if}}{{#if image.fit}} media-frame--{{image.fit}}{{/if}}"{{frameStyle image}} data-reveal data-parallax-img>
         <img src="/{{image.src}}" {{#if image.srcset}}srcset="{{image.srcset}}" sizes="(max-width: 64rem) 100vw, 50vw"{{/if}} alt="{{image.alt}}" loading="lazy" decoding="async">
       </figure>
+      {{/if}}
       <div class="media-text__text stack">
         {{#if eyebrow}}<p class="eyebrow" {{#if reo}}lang="mi"{{/if}}>{{eyebrow}}</p>{{/if}}
         {{#if heading}}<h2 data-reveal>{{heading}}</h2>{{/if}}
