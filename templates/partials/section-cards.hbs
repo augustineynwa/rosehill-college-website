@@ -6,7 +6,7 @@
       <li class="card" data-reveal>
         {{#if href}}<a href="{{href}}" class="card__link" {{#if external}}rel="external"{{/if}}>{{/if}}
           {{#if image}}
-          <figure class="card__media media-frame media-frame--card{{#if image.fit}} media-frame--{{image.fit}}{{/if}}"{{#if image.pos}} style="--pos: {{image.pos}}"{{/if}}>
+          <figure class="card__media media-frame media-frame--card{{#if image.fit}} media-frame--{{image.fit}}{{/if}}"{{frameStyle image}}>
             <img src="/{{image.src}}" {{#if image.srcset}}srcset="{{image.srcset}}" sizes="(max-width: 48rem) 100vw, 33vw"{{/if}} alt="{{image.alt}}" loading="lazy" decoding="async">
           </figure>
           {{/if}}

@@ -476,6 +476,14 @@ figure.media-frame figcaption { padding: var(--sp-1) var(--sp-2); }
 @media (max-width: 48rem) {
   .gallery__item, .gallery__item:nth-child(6n + 1), .gallery__item:nth-child(6n + 5) { grid-column: 1 / -1; aspect-ratio: var(--ratio-card); }
 }
+/* fit:natural means "this image sets its own proportions", so it has to win
+   over the card/wide ratios above. Here the ratio goes on the image rather than
+   the figure: a gallery figure also holds a caption, and grid items stretch to
+   the row, so a ratio on the figure gets its box shared with the caption and
+   the image letterboxes inside what is left. Keeping aspect-ratio on the image
+   also means it still reserves height before it loads, so lazy loading works. */
+.gallery__item.media-frame--natural { aspect-ratio: auto; align-self: start; }
+.gallery__item.media-frame--natural img { width: 100%; height: auto; aspect-ratio: var(--ar, 1 / 1); }
 
 /* ---------------------------------------------------------------- media-text */
 .media-text { align-items: center; row-gap: var(--sp-6); }

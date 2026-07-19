@@ -37,7 +37,9 @@
       "image": {
         "src": "assets/img/Join-Us---Uniform---Seniors-Uniforms.avif",
         "srcset": "/assets/img/Join-Us---Uniform---Seniors-Uniforms-rp-500.avif 500w, /assets/img/Join-Us---Uniform---Seniors-Uniforms-rp-800.avif 800w, /assets/img/Join-Us---Uniform---Seniors-Uniforms-rp-1080.avif 1080w, /assets/img/Join-Us---Uniform---Seniors-Uniforms-rp-1600.avif 1600w",
-        "alt": "The Rosehill College seniors uniform"
+        "alt": "The Rosehill College seniors uniform",
+        "fit": "natural",
+        "ar": "2104 / 1488"
       },
       "html": "<p>The expectation for students to wear their uniforms at Rosehill College is grounded in the belief that it promotes unity and school spirit. Uniforms eliminate socio-economic disparities, allowing students to focus on their education rather than fashion.</p>"
     },
@@ -48,7 +50,9 @@
       "image": {
         "src": "assets/img/Join-Us---Uniform---Juniors-Uniforms_1.avif",
         "srcset": "/assets/img/Join-Us---Uniform---Juniors-Uniforms_1-rp-500.avif 500w, /assets/img/Join-Us---Uniform---Juniors-Uniforms_1-rp-800.avif 800w, /assets/img/Join-Us---Uniform---Juniors-Uniforms_1-rp-1080.avif 1080w, /assets/img/Join-Us---Uniform---Juniors-Uniforms_1-rp-1600.avif 1600w",
-        "alt": "The Rosehill College juniors uniform"
+        "alt": "The Rosehill College juniors uniform",
+        "fit": "natural",
+        "ar": "2104 / 1488"
       },
       "html": "<p>Wearing our uniform supports a disciplined atmosphere and enhances the school's identity, making students easily recognisable as members of our institution. It also encourages students to take pride in their appearance and fosters a professional mindset that benefits them in future academic and career endeavours.</p>",
       "actions": [

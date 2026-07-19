@@ -31,6 +31,22 @@ Handlebars.registerHelper('raw', (s) => new Handlebars.SafeString(s ?? ''));
 Handlebars.registerHelper('json', (o) => new Handlebars.SafeString(JSON.stringify(o)));
 Handlebars.registerHelper('pad2', (n) => String(n).padStart(2, '0'));
 Handlebars.registerHelper('mod', (a, b) => Number(a) % Number(b));
+/**
+ * The style attribute for a media frame: object-position and, for fit:natural
+ * images, the intrinsic aspect ratio.
+ *
+ * This is a helper rather than inline markup because every partial that renders
+ * a frame needs it, and one that forgets --ar silently breaks fit:natural — the
+ * frame falls back to a square and letterboxes the image. That is exactly what
+ * happened when only the prose partial emitted it.
+ */
+Handlebars.registerHelper('frameStyle', (image) => {
+  const parts = [];
+  if (image?.pos) parts.push(`--pos: ${image.pos}`);
+  if (image?.ar) parts.push(`--ar: ${image.ar}`);
+  return parts.length ? new Handlebars.SafeString(` style="${parts.join('; ')}"`) : '';
+});
+
 // short stable id for a notice, so "dismiss" is per-message: changing the
 // wording changes the id, which re-shows the banner to everyone
 Handlebars.registerHelper('noticeId', (notice) => {
