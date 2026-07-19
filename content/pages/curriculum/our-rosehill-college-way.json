@@ -9,12 +9,20 @@
       "type": "hero",
       "eyebrow": "Values and expectations",
       "heading": "Our Rosehill College Way",
-      "lede": "Manaakitanga, Rangatiratanga, Whanaungatanga and Hihiritanga — four values that shape how we connect, reflect, respect and strive every day, alongside clear expectations for attendance and uniform.",
-      "image": {
-        "src": "assets/img/Curriculum---Our-RHC-Way-Banner_1.avif",
-        "srcset": "/assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-500.avif 500w, /assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-800.avif 800w, /assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-1080.avif 1080w, /assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-1600.avif 1600w, /assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-2200.avif 2200w, /assets/img/Curriculum---Our-RHC-Way-Banner_1.avif 2245w",
-        "alt": "Rosehill College students living the RHC Way"
-      }
+      "lede": "Manaakitanga, Rangatiratanga, Whanaungatanga and Hihiritanga — four values that shape how we connect, reflect, respect and strive every day, alongside clear expectations for attendance and uniform."
+    },
+    {
+      "type": "gallery",
+      "heading": "At a glance",
+      "images": [
+        {
+          "src": "assets/img/Curriculum---Our-RHC-Way-Banner_1.avif",
+          "srcset": "/assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-500.avif 500w, /assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-800.avif 800w, /assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-1080.avif 1080w, /assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-1600.avif 1600w, /assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-2200.avif 2200w, /assets/img/Curriculum---Our-RHC-Way-Banner_1.avif 2245w",
+          "fit": "natural",
+          "alt": "The Rosehill College Way: four values around the vision \"Together we create an environment for personal excellence\" — Manaakitanga (Connect), Rangatiratanga (Reflect), Whanaungatanga (Respect) and Hihiritanga (Strive). Each value is described in full below.",
+          "ar": "2245 / 1587"
+        }
+      ]
     },
     {
       "type": "prose",

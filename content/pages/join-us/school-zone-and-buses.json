@@ -155,7 +155,9 @@
       "image": {
         "src": "assets/img/Join-Us---School-Zone-and-Buses---School-Zone.avif",
         "srcset": "",
-        "alt": "Map showing the Rosehill College home zone boundary"
+        "alt": "Map showing the Rosehill College home zone boundary",
+        "fit": "natural",
+        "ar": "1077 / 1077"
       },
       "html": "<p>All students who live within the Rosehill College zone are entitled to enrol at the College. You can check if you are in zone for Rosehill College by entering your address at the following link:</p><p><a href=\"https://www.educationcounts.govt.nz/find-school\" rel=\"external\"><strong>Check for your school zone</strong></a></p><p>Proof of residence within the home zone will be required.</p>"
     },

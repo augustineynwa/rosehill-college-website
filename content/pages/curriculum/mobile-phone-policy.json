@@ -9,12 +9,20 @@
       "type": "hero",
       "eyebrow": "Phones away for the day",
       "heading": "Mobile phone policy",
-      "lede": "At Rosehill College, we believe mobile phones are not necessary during the school day. However, we understand that some parents and caregivers want their children to have a phone for after-school communication.",
-      "image": {
-        "src": "assets/img/Mobile-Phone-Policy.avif",
-        "srcset": "",
-        "alt": "A mobile phone put away in a school bag during the Rosehill College school day"
-      }
+      "lede": "At Rosehill College, we believe mobile phones are not necessary during the school day. However, we understand that some parents and caregivers want their children to have a phone for after-school communication."
+    },
+    {
+      "type": "gallery",
+      "heading": "The policy at a glance",
+      "images": [
+        {
+          "src": "assets/img/Mobile-Phone-Policy.avif",
+          "srcset": "",
+          "fit": "natural",
+          "alt": "Mobile phone policy summary. Expectations: phones on silent and kept in bags from 8.45am to 3.10pm; students are personally responsible for their device; the school accepts no responsibility for loss, damage or theft. Consequences: the phone may be confiscated and held until Friday, and repeated breaches are treated as continual disobedience. The full policy is set out below.",
+          "ar": "960 / 720"
+        }
+      ]
     },
     {
       "type": "prose",

@@ -108,7 +108,8 @@
       "image": {
         "src": "assets/img/Curriculum---Subjects---Languages_1.avif",
         "srcset": "",
-        "alt": "Rosehill College students in class"
+        "alt": "Rosehill College students in class",
+        "fit": "contain"
       },
       "html": "<p><strong>Kapa <span lang=\"mi\">haka</span>:</strong> our <span lang=\"mi\">Māori</span> Arts co-ordinator and tutors nurture unique talents, enabling students to perform at festivals and participate in overseas tours.</p><p><strong>Pasifika:</strong> students and families dedicate their efforts to different Pacific Island cultural groups, ensuring vibrant performances at festivals.</p><p><strong>Debating and public speaking:</strong> our teams compete in inter-secondary school debating competitions and participate in speech contests in both English and <span lang=\"mi\">Māori</span>.</p><p><strong>Arts Council:</strong> the Arts Council, one of Rosehill College's four main student councils, is led by a head student. The Council organises house competitions, including wearable arts, pavement art, talent quests, and 'dancing with the staff', and actively supports all performing arts activities within the College.</p>"
     },
