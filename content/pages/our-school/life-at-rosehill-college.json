@@ -36,37 +36,49 @@
           "src": "assets/img/Atawhai-website.avif",
           "srcset": "/assets/img/Atawhai-website-rp-500.avif 500w, /assets/img/Atawhai-website-rp-800.avif 800w, /assets/img/Atawhai-website-rp-1080.avif 1080w, /assets/img/Atawhai-website-rp-1600.avif 1600w, /assets/img/Atawhai-website-rp-2200.avif 2200w, /assets/img/Atawhai-website.avif 2480w",
           "alt": "Atawhai house emblem",
-          "caption": "Atawhai"
+          "caption": "Atawhai",
+          "fit": "natural",
+          "ar": "2480 / 1169"
         },
         {
           "src": "assets/img/Kahurangi-website.avif",
           "srcset": "/assets/img/Kahurangi-website-rp-500.avif 500w, /assets/img/Kahurangi-website-rp-800.avif 800w, /assets/img/Kahurangi-website-rp-1080.avif 1080w, /assets/img/Kahurangi-website-rp-1600.avif 1600w, /assets/img/Kahurangi-website-rp-2200.avif 2200w, /assets/img/Kahurangi-website.avif 2480w",
           "alt": "Kahurangi house emblem",
-          "caption": "Kahurangi"
+          "caption": "Kahurangi",
+          "fit": "natural",
+          "ar": "2480 / 1169"
         },
         {
           "src": "assets/img/Manutaki-website.avif",
           "srcset": "/assets/img/Manutaki-website-rp-500.avif 500w, /assets/img/Manutaki-website-rp-800.avif 800w, /assets/img/Manutaki-website-rp-1080.avif 1080w, /assets/img/Manutaki-website-rp-1600.avif 1600w, /assets/img/Manutaki-website-rp-2200.avif 2200w, /assets/img/Manutaki-website.avif 2480w",
           "alt": "Manutaki house emblem",
-          "caption": "Manutaki"
+          "caption": "Manutaki",
+          "fit": "natural",
+          "ar": "2480 / 1169"
         },
         {
           "src": "assets/img/Pounamu-website.avif",
           "srcset": "/assets/img/Pounamu-website-rp-500.avif 500w, /assets/img/Pounamu-website-rp-800.avif 800w, /assets/img/Pounamu-website-rp-1080.avif 1080w, /assets/img/Pounamu-website-rp-1600.avif 1600w, /assets/img/Pounamu-website-rp-2200.avif 2200w, /assets/img/Pounamu-website.avif 2480w",
           "alt": "Pounamu house emblem",
-          "caption": "Pounamu"
+          "caption": "Pounamu",
+          "fit": "natural",
+          "ar": "2480 / 1169"
         },
         {
           "src": "assets/img/Rangatahi-website.avif",
           "srcset": "/assets/img/Rangatahi-website-rp-500.avif 500w, /assets/img/Rangatahi-website-rp-800.avif 800w, /assets/img/Rangatahi-website-rp-1080.avif 1080w, /assets/img/Rangatahi-website-rp-1600.avif 1600w, /assets/img/Rangatahi-website-rp-2200.avif 2200w, /assets/img/Rangatahi-website.avif 2480w",
           "alt": "Rangatahi house emblem",
-          "caption": "Rangatahi"
+          "caption": "Rangatahi",
+          "fit": "natural",
+          "ar": "2480 / 1169"
         },
         {
           "src": "assets/img/Taikura-website.avif",
           "srcset": "/assets/img/Taikura-website-rp-500.avif 500w, /assets/img/Taikura-website-rp-800.avif 800w, /assets/img/Taikura-website-rp-1080.avif 1080w, /assets/img/Taikura-website-rp-1600.avif 1600w, /assets/img/Taikura-website-rp-2200.avif 2200w, /assets/img/Taikura-website.avif 2480w",
           "alt": "Taikura house emblem",
-          "caption": "Taikura"
+          "caption": "Taikura",
+          "fit": "natural",
+          "ar": "2480 / 1169"
         }
       ]
     },

@@ -482,7 +482,11 @@ figure.media-frame figcaption { padding: var(--sp-1) var(--sp-2); }
    the row, so a ratio on the figure gets its box shared with the caption and
    the image letterboxes inside what is left. Keeping aspect-ratio on the image
    also means it still reserves height before it loads, so lazy loading works. */
-.gallery__item.media-frame--natural { aspect-ratio: auto; align-self: start; }
+/* An image is only set to fit:natural when it carries information — a diagram,
+   a poster, a chart. Those are there to be read, so they take the full column
+   width rather than the gallery's alternating 4- and 8-column spans, which are
+   sized for photographs. */
+.gallery__item.media-frame--natural { grid-column: 1 / -1; aspect-ratio: auto; align-self: start; }
 .gallery__item.media-frame--natural img { width: 100%; height: auto; aspect-ratio: var(--ar, 1 / 1); }
 
 /* ---------------------------------------------------------------- media-text */
