@@ -122,5 +122,13 @@ if (motionOK) {
   const fallback = document.querySelector('[data-crest-fallback]');
   if (fallback) fallback.style.display = '';
   const video = document.querySelector('[data-ambient-video]');
-  if (video) { video.removeAttribute('autoplay'); video.pause?.(); }
+  if (video) {
+    // The poster and sources live in data attributes and are normally attached
+    // by home.js, which never runs here. Without the poster the hero ambient
+    // layer is simply blank, so reduced motion loses the imagery rather than
+    // just the movement. Attach the poster; leave the video itself unloaded.
+    if (video.dataset.poster) video.poster = video.dataset.poster;
+    video.removeAttribute('autoplay');
+    video.pause?.();
+  }
 }

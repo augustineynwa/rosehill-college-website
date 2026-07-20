@@ -219,7 +219,23 @@ html:not(.motion-ok) .home-life__panel { scroll-snap-align: center; }
    the image is cropped by object-fit instead. */
 .journey-media__item { grid-area: 1 / 1; width: 100%; height: 100%; opacity: 0.001; }
 .journey-media__item:first-child { opacity: 1; }
-html:not(.motion-ok) .journey-media { display: none; }
+/* Reduced motion can't crossfade between the year-level images, but hiding the
+   column outright removes the imagery and leaves a hole beside the steps.
+   Un-stick it and let the images stack instead, so each sits roughly alongside
+   its year. Motion is what's dropped, not content. */
+html:not(.motion-ok) .journey-media {
+  position: static;
+  height: auto;
+  gap: var(--sp-6);
+}
+html:not(.motion-ok) .journey-media__item {
+  grid-area: auto;
+  height: auto;
+  aspect-ratio: var(--ratio-portrait);
+  opacity: 1;
+}
+/* below this width the steps are single-column and the media column has nowhere
+   to sit, so it is dropped at every motion setting */
 @media (max-width: 64rem) { .journey-media { display: none; } }
 
 /* corner progress marker */
