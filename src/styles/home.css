@@ -267,8 +267,22 @@ html:not(.motion-ok) .journey-media__item {
 /* ---------------------------------------------------------------- co-curricular montage */
 .home-cocurricular { overflow: clip; }
 .montage { display: grid; gap: var(--gutter); }
-.montage__row { display: flex; gap: var(--gutter); width: max-content; will-change: transform; }
-.montage__item { position: relative; width: min(24rem, 66vw); flex: 0 0 auto; }
+/* min-width keeps the row at least viewport-wide so that when the items do not
+   add up to a full screen they centre instead of hugging the left edge. Once
+   they overflow, max-content wins and justify-content stops applying. */
+.montage__row {
+  display: flex;
+  gap: var(--gutter);
+  width: max-content;
+  min-width: 100%;
+  justify-content: center;
+  will-change: transform;
+}
+/* Scales with the viewport rather than capping at 24rem. The row is a marquee
+   driven by `scrollWidth - innerWidth`, so a fixed cap meant that past roughly
+   2100px the row no longer overflowed, the shift computed to zero and the
+   section sat still and left-aligned with dead space beside it. */
+.montage__item { position: relative; width: clamp(16rem, 26vw, 44rem); flex: 0 0 auto; }
 .montage__label {
   position: absolute;
   left: var(--sp-2);
