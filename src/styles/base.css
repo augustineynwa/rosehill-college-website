@@ -156,16 +156,15 @@ hr { border: 0; border-top: 1px solid var(--line); margin-block: var(--sp-6); }
   border: 0;
 }
 
-/* ---------- motion safety ---------- */
-@media (prefers-reduced-motion: reduce) {
-  html { scroll-behavior: auto; }
-  *, *::before, *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}
+/* ---------- motion ----------
+   This used to hold a `prefers-reduced-motion: reduce` block that flattened
+   every animation and transition with !important. The school chose to show the
+   animated site to every visitor, so it has been removed — while it was here it
+   would have overridden the animations regardless of what the JS did.
+
+   To honour the preference again, restore this block and set `motionOK` in
+   main.js back to reading the media query. Both are needed; one without the
+   other leaves motion half-on. */
 
 /* JS reveal hooks are hidden by GSAP itself at init — never in CSS, so
    content paints immediately even on slow connections (protects LCP). */

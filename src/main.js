@@ -10,7 +10,13 @@ import './styles/home.css';
 import { initNav } from './js/nav.js';
 import { initAnimations } from './js/animations.js';
 
-const motionOK = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+/* The school asked for the animated site to play for every visitor, so this no
+   longer reads prefers-reduced-motion. Kept as a named constant rather than
+   deleted, because the static branch below is still the right behaviour if we
+   ever honour the preference again — flip this back to
+   `!window.matchMedia('(prefers-reduced-motion: reduce)').matches` and
+   everything reconnects. Decision recorded, not an oversight. */
+const motionOK = true;
 
 initNav();
 

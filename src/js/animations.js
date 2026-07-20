@@ -1,6 +1,7 @@
 /** Shared motion language for every page.
  *  Slow reveals, parallax depth, mask wipes. No bounce.
- *  Only ever called when prefers-reduced-motion allows it. */
+ *  Runs for every visitor: the school chose to show the animated site
+ *  regardless of the device's reduced-motion preference. See main.js. */
 export function initAnimations(gsap, ScrollTrigger) {
   // entrances — one language everywhere. Elements already inside the first
   // viewport are never opacity-hidden (they may be the LCP element); they
