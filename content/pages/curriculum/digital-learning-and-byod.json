@@ -39,9 +39,15 @@
       ]
     },
     {
-      "type": "prose",
+      "type": "media-text",
       "heading": "E-learning and choosing a device",
-      "html": "<p>At Rosehill College, all students benefit from the additional learning opportunities that a digital device provides, making it a necessary learning tool. Each student's device will need to connect to the Rosehill College wireless network, and some devices will be better suited to this task than others. Rosehill College recommends a Chromebook as a functional and affordable tool that gives students access to Google applications, which teachers use to manage resources, lessons, and assessments. Other devices, such as laptops and tablets, will also work within our IT infrastructure.</p>"
+      "image": {
+        "src": "assets/img/RHC-Library-Study.avif",
+        "srcset": "/assets/img/RHC-Library-Study-rp-500.avif 500w, /assets/img/RHC-Library-Study-rp-800.avif 800w, /assets/img/RHC-Library-Study-rp-1080.avif 1080w, /assets/img/RHC-Library-Study-rp-1600.avif 1600w, /assets/img/RHC-Library-Study-rp-2200.avif 2200w, /assets/img/RHC-Library-Study-rp-3000.avif 3000w, /assets/img/RHC-Library-Study.avif 3200w",
+        "alt": "Rosehill College students studying in the school library"
+      },
+      "html": "<p>At Rosehill College, all students benefit from the additional learning opportunities that a digital device provides, making it a necessary learning tool. Each student's device will need to connect to the Rosehill College wireless network, and some devices will be better suited to this task than others. Rosehill College recommends a Chromebook as a functional and affordable tool that gives students access to Google applications, which teachers use to manage resources, lessons, and assessments. Other devices, such as laptops and tablets, will also work within our IT infrastructure.</p>",
+      "flip": true
     },
     {
       "type": "table",

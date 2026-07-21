@@ -12,9 +12,10 @@
       "heading": "Community outreach",
       "lede": "We get involved to make a difference! At Rosehill College, we are committed to making a positive difference in our community. Through partnerships, service projects, and outreach programmes, our students develop leadership skills, empathy, and a strong sense of responsibility while creating lasting connections with the wider community.",
       "image": {
-        "src": "assets/img/Community-Outreach-1_1.avif",
-        "srcset": "/assets/img/Community-Outreach-1_1-rp-500.avif 500w, /assets/img/Community-Outreach-1_1-rp-800.avif 800w, /assets/img/Community-Outreach-1_1-rp-1080.avif 1080w, /assets/img/Community-Outreach-1_1-rp-1600.avif 1600w",
-        "alt": "Rosehill College students taking part in a community outreach event"
+        "src": "assets/img/RHC-Anzac-Service.avif",
+        "srcset": "/assets/img/RHC-Anzac-Service-rp-500.avif 500w, /assets/img/RHC-Anzac-Service-rp-800.avif 800w, /assets/img/RHC-Anzac-Service-rp-1080.avif 1080w, /assets/img/RHC-Anzac-Service-rp-1600.avif 1600w, /assets/img/RHC-Anzac-Service-rp-2200.avif 2200w, /assets/img/RHC-Anzac-Service-rp-3000.avif 3000w, /assets/img/RHC-Anzac-Service.avif 3200w",
+        "alt": "Rosehill College student leaders at an Anzac Day service at the Papakura cenotaph",
+        "pos": "50% 35%"
       }
     },
     {

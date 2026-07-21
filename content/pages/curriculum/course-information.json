@@ -18,13 +18,14 @@
       }
     },
     {
-      "type": "prose",
-      "id": "pathways",
+      "type": "media-text",
       "heading": "Finding the right pathway",
-      "html": "<p>Here, you will find detailed descriptions of the diverse range of courses we offer, designed to cater to the varied interests and aspirations of our students. Our curriculum is comprehensive and inclusive, ensuring that every student has the opportunity to pursue their passions and achieve their academic goals.</p><ul><li>Do you need assistance in identifying a pathway?</li><li>Are you uncertain about the course requirements for your university or trade?</li><li>Are you feeling overwhelmed by the options available?</li></ul><p>Visit our careers advisor at their office, located in the library. Alternatively, you may email them at <a href=\"mailto:careers@rosehillcollege.school.nz\">careers@rosehillcollege.school.nz</a>.</p>",
-      "aside": {
-        "html": "<p><strong>Careers advisor</strong></p><p>Office in the library<br><a href=\"mailto:careers@rosehillcollege.school.nz\">careers@rosehillcollege.school.nz</a></p>"
-      }
+      "image": {
+        "src": "assets/img/RHC-Science-Class.avif",
+        "srcset": "/assets/img/RHC-Science-Class-rp-500.avif 500w, /assets/img/RHC-Science-Class-rp-800.avif 800w, /assets/img/RHC-Science-Class-rp-1080.avif 1080w, /assets/img/RHC-Science-Class-rp-1600.avif 1600w, /assets/img/RHC-Science-Class-rp-2200.avif 2200w",
+        "alt": "Rosehill College students working in a science class"
+      },
+      "html": "<p>Here, you will find detailed descriptions of the diverse range of courses we offer, designed to cater to the varied interests and aspirations of our students. Our curriculum is comprehensive and inclusive, ensuring that every student has the opportunity to pursue their passions and achieve their academic goals.</p><ul><li>Do you need assistance in identifying a pathway?</li><li>Are you uncertain about the course requirements for your university or trade?</li><li>Are you feeling overwhelmed by the options available?</li></ul><p>Visit our careers advisor at their office, located in the library. Alternatively, you may email them at <a href=\"mailto:careers@rosehillcollege.school.nz\">careers@rosehillcollege.school.nz</a>.</p>"
     },
     {
       "type": "prose",

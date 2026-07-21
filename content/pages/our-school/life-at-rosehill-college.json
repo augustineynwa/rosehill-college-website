@@ -11,10 +11,9 @@
       "heading": "Life at Rosehill College",
       "lede": "Rosehill College offers a vibrant and supportive environment, designed to nurture the growth and development of our students. As one of the leading secondary schools in Auckland, we provide diverse opportunities for all students to excel academically, athletically, and culturally, guiding them to achieve their personal best.",
       "image": {
-        "src": "assets/img/Our-School---Life-at-RHC---Top_1.avif",
-        "srcset": "/assets/img/Our-School---Life-at-RHC---Top_1-rp-500.avif 500w, /assets/img/Our-School---Life-at-RHC---Top_1-rp-800.avif 800w, /assets/img/Our-School---Life-at-RHC---Top_1-rp-1080.avif 1080w, /assets/img/Our-School---Life-at-RHC---Top_1-rp-1600.avif 1600w, /assets/img/Our-School---Life-at-RHC---Top_1-rp-2200.avif 2200w, /assets/img/Our-School---Life-at-RHC---Top_1.avif 2541w",
-        "alt": "Rosehill College students enjoying daily life on campus",
-        "pos": "50% 35%"
+        "src": "assets/img/RHC-Campus-Aerial.avif",
+        "srcset": "/assets/img/RHC-Campus-Aerial-rp-500.avif 500w, /assets/img/RHC-Campus-Aerial-rp-800.avif 800w, /assets/img/RHC-Campus-Aerial-rp-1080.avif 1080w, /assets/img/RHC-Campus-Aerial-rp-1600.avif 1600w, /assets/img/RHC-Campus-Aerial-rp-2200.avif 2200w, /assets/img/RHC-Campus-Aerial-rp-3000.avif 3000w, /assets/img/RHC-Campus-Aerial.avif 3200w",
+        "alt": "Aerial view of the Rosehill College campus and playing fields"
       }
     },
     {
