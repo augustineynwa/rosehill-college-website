@@ -532,14 +532,18 @@ figure.media-frame figcaption { padding: var(--sp-1) var(--sp-2); }
 
 /* ---------------------------------------------------------------- stats */
 .stat-band {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(11rem, 100%), 1fr));
-  gap: var(--gutter);
+  /* flex, not grid: equal grid columns forced a long value like "Year 9–13" to
+     wrap mid-token while shorter ones sat with space to spare. Here each stat is
+     at least as wide as its content and they share the leftover space evenly, so
+     nothing wraps and the row still reads as evenly spaced. */
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-6) var(--gutter);
   border-block: 1px solid var(--line);
   padding-block: var(--sp-6);
 }
-.stat { display: flex; flex-direction: column-reverse; gap: var(--sp-1); }
-.stat__value { font-family: var(--font-display); font-size: var(--step-5); line-height: 1; color: var(--c-silver); }
+.stat { flex: 1 1 auto; min-width: max-content; display: flex; flex-direction: column-reverse; gap: var(--sp-1); }
+.stat__value { font-family: var(--font-display); font-size: var(--step-5); line-height: 1; color: var(--c-silver); white-space: nowrap; }
 .stat__label { color: var(--fg-faint); font-size: var(--step--1); letter-spacing: 0.08em; text-transform: uppercase; }
 
 /* ---------------------------------------------------------------- CTA band */
