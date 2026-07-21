@@ -56,9 +56,10 @@
           "english": "Strive",
           "meaning": "\"We are resilient and persevere.\" We support each other through challenges, know mistakes are moments of learning, and are determined to achieve excellence.",
           "image": {
-            "src": "assets/img/Curriculum---Our-RHC-Way---Strive_1.avif",
-            "srcset": "/assets/img/Curriculum---Our-RHC-Way---Strive_1-rp-500.avif 500w, /assets/img/Curriculum---Our-RHC-Way---Strive_1-rp-800.avif 800w, /assets/img/Curriculum---Our-RHC-Way---Strive_1-rp-1080.avif 1080w, /assets/img/Curriculum---Our-RHC-Way---Strive_1-rp-1600.avif 1600w, /assets/img/Curriculum---Our-RHC-Way---Strive_1-rp-2200.avif 2200w, /assets/img/Curriculum---Our-RHC-Way---Strive_1.avif 2458w",
-            "alt": "Rosehill College students striving together in a school activity"
+            "src": "assets/img/RHC-Strive-Netball.avif",
+            "srcset": "/assets/img/RHC-Strive-Netball-rp-500.avif 500w, /assets/img/RHC-Strive-Netball-rp-800.avif 800w, /assets/img/RHC-Strive-Netball-rp-1080.avif 1080w, /assets/img/RHC-Strive-Netball-rp-1600.avif 1600w",
+            "alt": "A focused Rosehill College netball player leaping to catch the ball during a game",
+            "pos": "50% 30%"
           }
         }
       ]

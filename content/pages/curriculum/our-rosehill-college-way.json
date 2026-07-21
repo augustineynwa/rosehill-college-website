@@ -158,9 +158,10 @@
       "reo": true,
       "heading": "Strive",
       "image": {
-        "src": "assets/img/Curriculum---Our-RHC-Way---Strive_1.avif",
-        "srcset": "/assets/img/Curriculum---Our-RHC-Way---Strive_1-rp-500.avif 500w, /assets/img/Curriculum---Our-RHC-Way---Strive_1-rp-800.avif 800w, /assets/img/Curriculum---Our-RHC-Way---Strive_1-rp-1080.avif 1080w, /assets/img/Curriculum---Our-RHC-Way---Strive_1-rp-1600.avif 1600w, /assets/img/Curriculum---Our-RHC-Way---Strive_1-rp-2200.avif 2200w, /assets/img/Curriculum---Our-RHC-Way---Strive_1.avif 2458w",
-        "alt": "Rosehill College students striving for excellence — Hihiritanga"
+        "src": "assets/img/RHC-Strive-Netball.avif",
+        "srcset": "/assets/img/RHC-Strive-Netball-rp-500.avif 500w, /assets/img/RHC-Strive-Netball-rp-800.avif 800w, /assets/img/RHC-Strive-Netball-rp-1080.avif 1080w, /assets/img/RHC-Strive-Netball-rp-1600.avif 1600w",
+        "alt": "A focused Rosehill College netball player leaping to catch the ball during a game",
+        "pos": "50% 30%"
       },
       "html": "<p><strong>\"We are resilient and persevere\"</strong></p><ul><li>We support each other through challenges</li><li>We follow the 'RHC Way' and encourage others to do the same</li><li>We know mistakes are moments of learning</li><li>We are determined to achieve excellence</li></ul><p><strong>Because:</strong></p><ul><li>We encourage personal and collective excellence</li><li>We care about serving others</li><li>We are active listeners and contributors</li></ul>"
     },
