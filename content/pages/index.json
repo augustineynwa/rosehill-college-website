@@ -138,9 +138,9 @@
             "label": "Year 9 SMART Assessment"
           },
           "image": {
-            "src": "assets/img/class-room.avif",
-            "srcset": "/assets/img/class-room-rp-500.avif 500w, /assets/img/class-room-rp-800.avif 800w, /assets/img/class-room-rp-1080.avif 1080w, /assets/img/class-room-rp-1600.avif 1600w, /assets/img/class-room.avif 1666w",
-            "alt": ""
+            "src": "assets/img/Junior-Diploma-2.avif",
+            "srcset": "",
+            "alt": "A Rosehill College junior student at a school celebration"
           }
         },
         {
@@ -180,9 +180,9 @@
             "label": "Senior courses"
           },
           "image": {
-            "src": "assets/img/Curriculum---Digital-Learning---Cyber-Security.avif",
-            "srcset": "",
-            "alt": ""
+            "src": "assets/img/RHC-Cultural-Performance.avif",
+            "srcset": "/assets/img/RHC-Cultural-Performance-rp-500.avif 500w, /assets/img/RHC-Cultural-Performance-rp-800.avif 800w, /assets/img/RHC-Cultural-Performance-rp-1080.avif 1080w, /assets/img/RHC-Cultural-Performance-rp-1600.avif 1600w, /assets/img/RHC-Cultural-Performance-rp-2200.avif 2200w, /assets/img/RHC-Cultural-Performance.avif 2344w",
+            "alt": "A Rosehill College student performing in a cultural showcase"
           }
         },
         {
