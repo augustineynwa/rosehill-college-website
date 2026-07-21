@@ -194,9 +194,9 @@
             "label": "Our student leaders"
           },
           "image": {
-            "src": "assets/img/2026-head-students-11.avif",
-            "srcset": "",
-            "alt": ""
+            "src": "assets/img/2026-head-students-04.avif",
+            "srcset": "/assets/img/2026-head-students-04-rp-500.avif 500w, /assets/img/2026-head-students-04-rp-800.avif 800w, /assets/img/2026-head-students-04-rp-1080.avif 1080w, /assets/img/2026-head-students-04.avif 1237w",
+            "alt": "A Rosehill College head student in school uniform"
           }
         }
       ]
