@@ -73,9 +73,13 @@ export function initNav() {
   if (burger && mobileMenu) {
     // the overlay covers the page, but the page behind it stays focusable and
     // readable to assistive tech unless we explicitly take it out of the tree —
-    // otherwise tabbing past the last menu link walks the hidden document
+    // otherwise tabbing past the last menu link walks the hidden document.
+    // NB: do NOT inert .site-header__inner — the burger that closes the menu
+    // lives inside it, and `inert` cascades to descendants and can't be undone
+    // on a child, so inerting the header made the close button dead (no way to
+    // shut the menu on touch, where there's no Escape key). The header's other
+    // controls are display:none at mobile widths, so nothing focusable leaks.
     const behind = () => [
-      header.querySelector('.site-header__inner'),
       document.querySelector('main'),
       document.querySelector('footer'),
     ].filter(Boolean);
@@ -106,7 +110,7 @@ export function initNav() {
       document.documentElement.style.overflow = '';
       // must mirror the open handler — leaving these inert would make the
       // whole page unresponsive after closing with Escape
-      [header.querySelector('.site-header__inner'), document.querySelector('main'), document.querySelector('footer')]
+      [document.querySelector('main'), document.querySelector('footer')]
         .filter(Boolean).forEach((el) => { el.inert = false; });
       burger.focus();
     }
