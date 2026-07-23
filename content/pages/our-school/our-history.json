@@ -137,7 +137,8 @@
           "srcset": "",
           "alt": "Two visitors smiling together on the tennis courts at Rosehill College"
         }
-      ]
+      ],
+      "masonry": true
     },
     {
       "type": "cta",

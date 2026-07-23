@@ -493,6 +493,27 @@ figure.media-frame figcaption { padding: var(--sp-1) var(--sp-2); }
 .gallery__item.media-frame--natural { grid-column: 1 / -1; aspect-ratio: auto; align-self: start; }
 .gallery__item.media-frame--natural img { width: 100%; height: auto; aspect-ratio: var(--ar, 1 / 1); }
 
+/* Masonry: for mixed-ratio sets (e.g. the history archive) where the alternating
+   card/wide grid above forces awkward crops. CSS columns so each photo keeps its
+   own proportions, shown whole, packed by height. */
+.gallery--masonry {
+  display: block;
+  column-count: 3;
+  column-gap: var(--gutter);
+}
+@media (max-width: 64rem) { .gallery--masonry { column-count: 2; } }
+@media (max-width: 40rem) { .gallery--masonry { column-count: 1; } }
+.gallery--masonry .gallery__item,
+.gallery--masonry .gallery__item:nth-child(6n + 1),
+.gallery--masonry .gallery__item:nth-child(6n + 5) {
+  grid-column: auto;
+  aspect-ratio: auto;      /* size to the photo, not a fixed card */
+  width: 100%;
+  margin-block-end: var(--gutter);
+  break-inside: avoid;     /* never split a photo across columns */
+}
+.gallery--masonry .gallery__item img { height: auto; aspect-ratio: auto; object-fit: contain; }
+
 /* ---------------------------------------------------------------- media-text */
 .media-text { align-items: center; row-gap: var(--sp-6); }
 .media-text__media { grid-column: 1 / span 6; }
