@@ -94,7 +94,17 @@
   --gutter: clamp(1rem, 2.5vw, 2rem);
   --page-margin: clamp(1.25rem, 5vw, 4rem);
 
-  /* ---------- media aspect ratios (fixed per component) ---------- */
+  /* ---------- media aspect ratios (fixed per component) ----------
+     IMAGE CONTAINER STANDARD — every image frame resolves to one of these.
+       hero (16:9) .... hero bands, news feature, embed hero
+       card (4:3) ..... cards, media-text default, gallery small tiles — the
+                        default for any scene, group or activity photo
+       portrait (3:4) . media-text/prose ONLY for a single person's portrait
+                        (head students, principal, a soloist). Not for scenes.
+       wide (21:9) .... gallery large mosaic tiles
+     Escape hatches that never crop: image.fit "contain" (logos/charts) and
+     "natural" (documents/flyers — box sized to the image's own --ar). When
+     fit is set it overrides the ratio class, so don't also set portrait. */
   --ratio-hero: 16 / 9;
   --ratio-card: 4 / 3;
   --ratio-portrait: 3 / 4;

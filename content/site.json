@@ -34,75 +34,140 @@
   "nav": [
     {
       "label": "Our School",
-      "children": [
-        { "label": "Principal's Message", "href": "our-school/principals-message.html" },
-        { "label": "About Us", "href": "our-school/about-us.html" },
-        { "label": "Life at Rosehill College", "href": "our-school/life-at-rosehill-college.html" },
-        { "label": "Our History", "href": "our-school/our-history.html" },
-        { "label": "Kaupapa Māori", "href": "our-school/kaupapa-maori.html" },
-        { "label": "Our Latest News", "href": "our-school/our-latest-news.html" },
-        { "label": "Start of School Information", "href": "our-school/start-of-school-information.html" },
-        { "label": "Term Dates", "href": "our-school/term-dates.html" },
-        { "label": "Yearbook", "href": "our-school/yearbook.html" }
+      "mega": true,
+      "cols": 3,
+      "groups": [
+        {
+          "heading": "Introduction",
+          "children": [
+            { "label": "Principal's Message", "href": "our-school/principals-message.html" },
+            { "label": "About Us", "href": "our-school/about-us.html" },
+            { "label": "Life at Rosehill College", "href": "our-school/life-at-rosehill-college.html" },
+            { "label": "Our History", "href": "our-school/our-history.html" },
+            { "label": "Kaupapa Māori", "href": "our-school/kaupapa-maori.html" }
+          ]
+        },
+        {
+          "heading": "Our Plans & Policies",
+          "children": [
+            { "label": "School Policies", "href": "join-us/school-policies.html" },
+            { "label": "Strategic Plans", "href": "https://cdn.prod.website-files.com/66626e6e1c55fe0cf6b6e8b2/67db5cd704a5434870bba5ec_Rosehill%20College%20Strategic%20Plan.pdf", "external": true },
+            { "label": "Attendance Management Plan", "href": "https://cdn.prod.website-files.com/66626e6e1c55fe0cf6b6e8b2/69890c9776666dfa1c0a34c6_36314900d068c77eb7392bc474f3e1c2_Attendance%20Management%20Plan.pdf", "external": true },
+            { "label": "Mobile Phone Policy", "href": "curriculum/mobile-phone-policy.html" }
+          ]
+        },
+        {
+          "heading": "Our People",
+          "children": [
+            { "label": "Our Staff", "href": "our-community/our-staff.html" },
+            { "label": "Our School Board", "href": "our-community/our-board.html" },
+            { "label": "Student Leaders", "href": "our-community/our-student-leaders.html" }
+          ]
+        },
+        {
+          "heading": "Our Community",
+          "children": [
+            { "label": "Community Outreach", "href": "our-community/community-outreach.html" },
+            { "label": "Adult & Community Education", "href": "https://www.rosehilladultlearn.co.nz/", "external": true }
+          ]
+        },
+        {
+          "heading": "School Information",
+          "children": [
+            { "label": "Term Dates", "href": "our-school/term-dates.html" },
+            { "label": "Uniform & Stationery", "href": "join-us/uniform-and-stationery.html" },
+            { "label": "School Buses", "href": "join-us/school-zone-and-buses.html" },
+            { "label": "Start of School Information", "href": "our-school/start-of-school-information.html" }
+          ]
+        }
+      ],
+      "cards": [
+        { "label": "Our News", "sub": "Stay connected with school life", "href": "our-school/our-latest-news.html", "icon": "news" },
+        { "label": "Yearbook", "sub": "Explore moments worth remembering", "href": "our-school/yearbook.html", "icon": "yearbook" }
       ]
     },
     {
-      "label": "Our Community",
-      "children": [
-        { "label": "Our Staff", "href": "our-community/our-staff.html" },
-        { "label": "Our Student Leaders", "href": "our-community/our-student-leaders.html" },
-        { "label": "Our Board", "href": "our-community/our-board.html" },
-        { "label": "Student Welfare", "href": "our-community/student-welfare.html" },
-        { "label": "Community Outreach", "href": "our-community/community-outreach.html" },
-        { "label": "Adult & Community Education", "href": "https://www.rosehilladultlearn.co.nz/", "external": true }
-      ]
-    },
-    {
-      "label": "Curriculum",
-      "children": [
-        { "label": "Our Rosehill College Way", "href": "curriculum/our-rosehill-college-way.html" },
-        { "label": "Course Information", "href": "curriculum/course-information.html" },
-        { "label": "Year 9 SMART Assessment", "href": "curriculum/year-9-smart-assessment.html" },
-        { "label": "Junior Diploma", "href": "curriculum/junior-diploma.html" },
-        { "label": "NCEA", "href": "curriculum/ncea.html" },
-        { "label": "Digital Learning and BYOD", "href": "curriculum/digital-learning-and-byod.html" },
-        { "label": "Mobile Phone Policy", "href": "curriculum/mobile-phone-policy.html" },
-        { "label": "Education Outside the Classroom", "href": "curriculum/education-outside-the-classroom.html" },
-        { "label": "Student Support", "href": "curriculum/student-support.html" },
-        { "label": "Alternative Education", "href": "curriculum/alternative-education.html" }
-      ]
-    },
-    {
-      "label": "Co-Curricular",
-      "children": [
-        { "label": "Sports", "href": "cocurricular/sports.html" },
-        { "label": "Arts and Culture", "href": "cocurricular/arts-and-culture.html" },
-        { "label": "Careers at Rosehill College", "href": "cocurricular/careers-at-rosehill-college.html" }
+      "label": "Academic & School Life",
+      "mega": true,
+      "cols": 2,
+      "groups": [
+        {
+          "heading": "Curriculum",
+          "children": [
+            { "label": "Our Rosehill College Way", "href": "curriculum/our-rosehill-college-way.html" },
+            { "label": "Course Information", "href": "curriculum/course-information.html" }
+          ],
+          "subgroups": [
+            {
+              "subheading": "Juniors Y9 – Y11",
+              "items": [
+                { "label": "Y9 SMART Assessment", "href": "curriculum/year-9-smart-assessment.html", "badge": "NEW" },
+                { "label": "Junior Diploma", "href": "curriculum/junior-diploma.html" }
+              ]
+            },
+            {
+              "subheading": "Seniors Y12 – Y13",
+              "items": [
+                { "label": "NCEA", "href": "curriculum/ncea.html" }
+              ]
+            }
+          ]
+        },
+        { "heading": "Digital Learning & BYOD", "href": "curriculum/digital-learning-and-byod.html" },
+        { "heading": "Education Outside the Classroom", "href": "curriculum/education-outside-the-classroom.html" },
+        {
+          "heading": "Co-Curricular",
+          "children": [
+            { "label": "Sports", "href": "cocurricular/sports.html" },
+            { "label": "Arts and Culture", "href": "cocurricular/arts-and-culture.html" }
+          ]
+        },
+        {
+          "heading": "Students Support",
+          "children": [
+            { "label": "Student Welfare", "href": "our-community/student-welfare.html" },
+            { "label": "Student Support", "href": "curriculum/student-support.html" },
+            { "label": "Careers at Rosehill College", "href": "cocurricular/careers-at-rosehill-college.html" }
+          ]
+        }
       ]
     },
     {
       "label": "Join Us",
-      "children": [
-        { "label": "Enrolment", "href": "join-us/enrolment.html" },
-        { "label": "Uniform & Stationery", "href": "join-us/uniform-and-stationery.html" },
-        { "label": "School Zone & Buses", "href": "join-us/school-zone-and-buses.html" },
-        { "label": "Prospectus", "href": "join-us/prospectus.html" },
-        { "label": "School Policies", "href": "join-us/school-policies.html" },
-        { "label": "Staff Vacancies", "href": "join-us/staff-vacancies.html" }
+      "mega": true,
+      "cols": 1,
+      "groups": [
+        {
+          "heading": "Enrolment Information",
+          "children": [
+            { "label": "Enrolment", "href": "join-us/enrolment.html" },
+            { "label": "Prospectus", "href": "join-us/prospectus.html" },
+            { "label": "School Zone", "href": "join-us/school-zone-and-buses.html" }
+          ]
+        },
+        { "heading": "Alternative Education", "href": "curriculum/alternative-education.html" },
+        { "heading": "Staff Vacancies", "href": "join-us/staff-vacancies.html" }
       ]
     },
     {
       "label": "International",
-      "children": [
-        { "label": "Why Study at Rosehill?", "href": "international-students/why-study-at-rosehill.html" },
-        { "label": "Applying & NZ Arrival Information", "href": "international-students/applying-nz-arrival-information.html" },
-        { "label": "Fees & Policies", "href": "international-students/fees-policies.html" },
-        { "label": "Living in Aotearoa", "href": "international-students/living-in-aotearoa.html" },
-        { "label": "Curriculum", "href": "international-students/curriculum.html" },
-        { "label": "Students' Voices", "href": "international-students/students-voices.html" }
+      "mega": true,
+      "cols": 1,
+      "align": "right",
+      "groups": [
+        {
+          "heading": "International Students",
+          "children": [
+            { "label": "Why Study at Rosehill?", "href": "international-students/why-study-at-rosehill.html" },
+            { "label": "Applying & New Zealand Arrival Information", "href": "international-students/applying-nz-arrival-information.html" },
+            { "label": "International Students Fees & Policies", "href": "international-students/fees-policies.html" },
+            { "label": "Living in Aotearoa", "href": "international-students/living-in-aotearoa.html" },
+            { "label": "Curriculum Pathway", "href": "international-students/curriculum.html" },
+            { "label": "Students' Voices", "href": "international-students/students-voices.html" }
+          ]
+        }
       ]
-    },
-    { "label": "Contact Us", "href": "contact-us.html" }
+    }
   ],
   "footerLinks": [
     { "label": "Term Dates", "href": "our-school/term-dates.html" },

@@ -10,8 +10,54 @@
     <nav class="site-nav" aria-label="Primary" data-nav>
       <ul class="site-nav__list" role="list">
         {{#each site.nav}}
-        <li class="site-nav__item {{#if children}}has-children{{/if}}">
-          {{#if children}}
+        <li class="site-nav__item {{#if children}}has-children{{/if}}{{#if mega}}has-children has-mega{{/if}}">
+          {{#if mega}}
+          <button class="site-nav__link" type="button" aria-expanded="false" data-nav-toggle>
+            {{label}}
+            <svg class="site-nav__chevron" width="10" height="10" viewBox="0 0 512 512" aria-hidden="true"><path fill="currentColor" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
+          </button>
+          <div class="site-nav__dropdown site-nav__mega{{#if (eq align "right")}} site-nav__mega--right{{/if}}" style="--mega-cols: {{#if cols}}{{cols}}{{else}}3{{/if}};">
+            <div class="site-nav__mega-cols">
+              {{#each groups}}
+              <div class="site-nav__mega-group">
+                {{#if href}}
+                <a class="site-nav__mega-heading site-nav__mega-heading--link" href="{{#unless external}}/{{/unless}}{{href}}" {{#if external}}rel="external"{{/if}} {{#if (eq href @root.path)}}aria-current="page"{{/if}}>{{heading}}</a>
+                {{else}}
+                <p class="site-nav__mega-heading">{{heading}}</p>
+                {{/if}}
+                {{#if children}}
+                <ul role="list">
+                  {{#each children}}
+                  <li><a href="{{#unless external}}/{{/unless}}{{href}}" class="site-nav__sublink" {{#if external}}rel="external"{{/if}} {{#if (eq href @root.path)}}aria-current="page"{{/if}}>{{label}}{{#if badge}} <span class="site-nav__badge">{{badge}}</span>{{/if}}</a></li>
+                  {{/each}}
+                </ul>
+                {{/if}}
+                {{#each subgroups}}
+                <p class="site-nav__mega-subhead">{{subheading}}</p>
+                <ul role="list">
+                  {{#each items}}
+                  <li><a href="{{#unless external}}/{{/unless}}{{href}}" class="site-nav__sublink site-nav__sublink--indent" {{#if external}}rel="external"{{/if}} {{#if (eq href @root.path)}}aria-current="page"{{/if}}>{{label}}{{#if badge}} <span class="site-nav__badge">{{badge}}</span>{{/if}}</a></li>
+                  {{/each}}
+                </ul>
+                {{/each}}
+              </div>
+              {{/each}}
+            </div>
+            {{#if cards}}
+            <div class="site-nav__mega-cards">
+              {{#each cards}}
+              <a class="site-nav__card" href="{{#unless external}}/{{/unless}}{{href}}" {{#if external}}rel="external"{{/if}}>
+                <span class="site-nav__card-text">
+                  <span class="site-nav__card-title">{{label}}</span>
+                  <span class="site-nav__card-sub">{{sub}}</span>
+                </span>
+                <svg class="site-nav__card-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17L17 7M17 7H8M17 7v9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+              {{/each}}
+            </div>
+            {{/if}}
+          </div>
+          {{else if children}}
           <button class="site-nav__link" type="button" aria-expanded="false" data-nav-toggle>
             {{label}}
             <svg class="site-nav__chevron" width="10" height="10" viewBox="0 0 512 512" aria-hidden="true"><path fill="currentColor" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
@@ -36,6 +82,7 @@
           <path d="M20 20l-3.6-3.6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
         </svg>
       </a>
+      <a href="/contact-us.html" class="site-header__contact"{{#if (eq "contact-us.html" @root.path)}} aria-current="page"{{/if}}>Contact&nbsp;Us</a>
       <a href="/my-rhc.html" class="btn btn--ghost btn--sm site-header__myrhc">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 21C5 17.134 8.13401 14 12 14C15.866 14 19 17.134 19 21M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         My RHC
@@ -63,12 +110,41 @@
       <a href="/index.html" class="mobile-menu__top-link">Home</a>
       <a href="/search.html" class="mobile-menu__top-link">Search</a>
       {{#each site.nav}}
-      {{#if children}}
+      {{#if mega}}
+      <details class="mobile-menu__group" name="mobile-nav">
+        <summary class="mobile-menu__summary">{{label}}</summary>
+        {{#each groups}}
+        {{#if href}}
+        <p class="mobile-menu__subhead"><a href="{{#unless external}}/{{/unless}}{{href}}" class="mobile-menu__link" {{#if external}}rel="external"{{/if}}>{{heading}}</a></p>
+        {{else}}
+        <p class="mobile-menu__subhead">{{heading}}</p>
+        {{/if}}
+        {{#if children}}
+        <ul role="list" class="mobile-menu__list">
+          {{#each children}}
+          <li><a href="{{#unless external}}/{{/unless}}{{href}}" class="mobile-menu__link" {{#if external}}rel="external"{{/if}}>{{label}}{{#if badge}} <span class="site-nav__badge">{{badge}}</span>{{/if}}</a></li>
+          {{/each}}
+        </ul>
+        {{/if}}
+        {{#each subgroups}}
+        <p class="mobile-menu__subhead mobile-menu__subhead--sm">{{subheading}}</p>
+        <ul role="list" class="mobile-menu__list">
+          {{#each items}}
+          <li><a href="{{#unless external}}/{{/unless}}{{href}}" class="mobile-menu__link" {{#if external}}rel="external"{{/if}}>{{label}}{{#if badge}} <span class="site-nav__badge">{{badge}}</span>{{/if}}</a></li>
+          {{/each}}
+        </ul>
+        {{/each}}
+        {{/each}}
+        {{#each cards}}
+        <a href="{{#unless external}}/{{/unless}}{{href}}" class="mobile-menu__link" {{#if external}}rel="external"{{/if}}>{{label}} — {{sub}}</a>
+        {{/each}}
+      </details>
+      {{else if children}}
       <details class="mobile-menu__group" name="mobile-nav">
         <summary class="mobile-menu__summary">{{label}}</summary>
         <ul role="list" class="mobile-menu__list">
           {{#each children}}
-          <li><a href="{{#unless external}}/{{/unless}}{{href}}" class="mobile-menu__link">{{label}}</a></li>
+          <li><a href="{{#unless external}}/{{/unless}}{{href}}" class="mobile-menu__link" {{#if external}}rel="external"{{/if}}>{{label}}</a></li>
           {{/each}}
         </ul>
       </details>
@@ -76,6 +152,7 @@
       <a href="/{{href}}" class="mobile-menu__top-link">{{label}}</a>
       {{/if}}
       {{/each}}
+      <a href="/contact-us.html" class="mobile-menu__top-link">Contact Us</a>
       <div class="mobile-menu__cta">
         <a href="/my-rhc.html" class="btn btn--ghost">My RHC</a>
         <a href="/join-us/enrolment.html" class="btn btn--red">Enrol now</a>
