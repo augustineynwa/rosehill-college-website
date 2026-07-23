@@ -1,10 +1,29 @@
 # Deploying — Cloudflare Pages
 
-**Live preview:** https://rosehill-college-website.pages.dev (auto-deploys from `main`)
+**Live preview:** https://rosehill-college-website.pages.dev
+
+## The deploy is a git push
+
+The primary way to deploy is simply:
+
+```bash
+git add -A && git commit -m "…" && git push
+```
+
+The `rosehill-college-website` Pages project is connected to this repo and
+**auto-builds and publishes every push to `main`** (live in ~1 minute). No
+wrangler command needed. See `EDITING.md` for the day-to-day workflow.
 
 Target for now: **a preview URL only** (`*.pages.dev`). Nothing points at the
 live `rosehillcollege.school.nz`, and the preview is `noindex` so it can't turn
 up in search results while it's being reviewed.
+
+> **Heads-up — two Pages projects exist.** `rosehill-college-website` (git
+> auto-deploy, the canonical one above) and `rosehill-college` (direct upload via
+> `npm run deploy`). They drift apart because only one updates at a time. Pick one
+> and retire the other before go-live; the git-connected project is the keeper.
+> Until then, prefer the git push — `npm run deploy` publishes to a *different*
+> URL (`rosehill-college.pages.dev`).
 
 ## One-time: authorise Cloudflare
 
@@ -22,17 +41,20 @@ Then confirm:
 npx wrangler whoami
 ```
 
-## Deploy
+## Manual deploy (fallback)
+
+You normally never need this — a `git push` deploys. But to publish straight from
+your machine without a commit:
 
 ```bash
 npm run deploy
 ```
 
 That runs `build:deploy` (build + strip `/admin`) and pushes `dist/` to a
-Cloudflare Pages project called **rosehill-college**. First run will ask to
-create the project — accept the default `dist` output directory.
-
-You'll get a URL like `https://rosehill-college.pages.dev`.
+Cloudflare Pages project called **rosehill-college** — note this is the *second*
+project, at `https://rosehill-college.pages.dev`, not the canonical
+`rosehill-college-website.pages.dev`. Requires `npx wrangler login` first (see
+below).
 
 ## What the build does
 
@@ -48,17 +70,16 @@ You'll get a URL like `https://rosehill-college.pages.dev`.
 Output: ~103 MB, 741 files, largest file 6.8 MB — all well inside Cloudflare
 Pages' limits (20,000 files, 25 MiB/file).
 
-## Continuous deploys (optional, recommended later)
+## Continuous deploys — already set up
 
-Instead of deploying from your machine, connect the git repo in the Cloudflare
-dashboard:
+The `rosehill-college-website` project is already wired to this repo with:
 
 - **Build command:** `npm run build:deploy`
 - **Output directory:** `dist`
 - **Node version:** 20 or later
 
-Then every push deploys automatically — which is also the prerequisite for
-staff CMS edits publishing themselves.
+So every push to `main` deploys automatically. This is also the prerequisite for
+staff CMS edits publishing themselves once the CMS auth backend is enabled.
 
 ## Still to do before this is the real site
 

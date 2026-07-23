@@ -5,6 +5,10 @@ Auckland). Vite + GSAP ScrollTrigger + Lenis + three.js, structured for a clean
 port to self-hosted WordPress. Every page composes from one design system and
 one shared component library; all editable content lives in per-page JSON.
 
+**New here and want to edit the site?** Start with **`EDITING.md`** — setup, the
+edit → push → auto-deploy loop, and where everything lives. Content/section field
+reference is in `PAGE_SPEC.md`; deployment detail in `DEPLOY.md`.
+
 ## Architecture
 
 ```
