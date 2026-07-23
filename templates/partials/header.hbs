@@ -48,8 +48,10 @@
           <a href="{{site.external.schoolApp}}" class="absence__link" rel="external">Report in the school app</a>
         </div>
       </div>
-      <button class="site-header__burger" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle>
-        <span class="visually-hidden">Menu</span>
+      {{! accessible name via aria-label, not a hidden <span> child — a child
+          span made the first line :nth-child(2), so `.burger-line:first-child`
+          matched nothing and only the second line rotated (the "chopstick") }}
+      <button class="site-header__burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle>
         <span class="site-header__burger-line" aria-hidden="true"></span>
         <span class="site-header__burger-line" aria-hidden="true"></span>
       </button>
@@ -62,7 +64,7 @@
       <a href="/search.html" class="mobile-menu__top-link">Search</a>
       {{#each site.nav}}
       {{#if children}}
-      <details class="mobile-menu__group">
+      <details class="mobile-menu__group" name="mobile-nav">
         <summary class="mobile-menu__summary">{{label}}</summary>
         <ul role="list" class="mobile-menu__list">
           {{#each children}}
