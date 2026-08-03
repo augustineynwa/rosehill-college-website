@@ -192,6 +192,74 @@
       ]
     },
     {
+      "type": "logos",
+      "id": "sponsors",
+      "heading": "Our sports sponsors",
+      "lede": "We are grateful to the local businesses whose support helps our teams take the field.",
+      "logos": [
+        {
+          "src": "assets/img/sponsor-dynasty.webp",
+          "alt": "Dynasty",
+          "fit": "contain"
+        },
+        {
+          "src": "assets/img/sponsor-carlton-haulage.webp",
+          "alt": "Carlton Haulage",
+          "fit": "contain"
+        },
+        {
+          "src": "assets/img/sponsor-enzed.avif",
+          "alt": "Enzed",
+          "fit": "contain"
+        },
+        {
+          "src": "assets/img/sponsor-papakura-auto.avif",
+          "alt": "Papakura Auto",
+          "fit": "contain"
+        },
+        {
+          "src": "assets/img/sponsor-tooth-group.avif",
+          "alt": "Tooth Group",
+          "fit": "contain"
+        },
+        {
+          "src": "assets/img/sponsor-top.avif",
+          "alt": "TOP",
+          "fit": "contain"
+        },
+        {
+          "src": "assets/img/sponsor-good-ben.avif",
+          "alt": "Good Ben",
+          "fit": "contain"
+        },
+        {
+          "src": "assets/img/sponsor-02.avif",
+          "alt": "Rosehill College Sport sponsor",
+          "fit": "contain"
+        },
+        {
+          "src": "assets/img/sponsor-06.avif",
+          "alt": "Rosehill College Sport sponsor",
+          "fit": "contain"
+        },
+        {
+          "src": "assets/img/sponsor-10.avif",
+          "alt": "Rosehill College Sport sponsor",
+          "fit": "contain"
+        },
+        {
+          "src": "assets/img/sponsor-13.avif",
+          "alt": "Rosehill College Sport sponsor",
+          "fit": "contain"
+        },
+        {
+          "src": "assets/img/sponsor-14.avif",
+          "alt": "Rosehill College Sport sponsor",
+          "fit": "contain"
+        }
+      ]
+    },
+    {
       "type": "cta",
       "heading": "Get involved in sport at Rosehill",
       "text": "Talk to the sports office about registering for a code, or visit our external sports page for fixtures, results and training schedules.",
