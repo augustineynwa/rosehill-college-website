@@ -30,7 +30,7 @@
     {
       "type": "prose",
       "id": "offered-courses",
-      "heading": "Offered courses",
+      "heading": "Offered courses 2027",
       "html": "<p>At Rosehill College, we strive to create a dynamic and supportive learning environment where junior students can thrive academically, socially, and personally. We are also committed to providing a rich and diverse educational experience that equips our senior students with the knowledge, skills, and confidence to succeed in their future endeavours. Our experienced and dedicated teachers are committed to guiding students through these formative years, ensuring they are well-prepared for next steps in their academic and professional journeys.</p>"
     },
     {
@@ -40,18 +40,18 @@
       "lede": "Our junior curriculum is designed to provide a comprehensive and engaging educational experience for Year 9, Year 10 and Year 11 students. We aim to lay a solid foundation for future academic success and personal growth by offering a wide variety of subjects that cater to diverse interests and abilities.",
       "docs": [
         {
-          "href": "assets/docs/Course-Info-Year-9-2026.pdf",
-          "label": "Year 9 courses 2026",
+          "href": "assets/docs/Course-Info-Year-9-2027.pdf",
+          "label": "Year 9 courses 2027",
           "meta": "PDF"
         },
         {
-          "href": "assets/docs/Course-Info-Year-10-2026.pdf",
-          "label": "Year 10 courses 2026",
+          "href": "assets/docs/Course-Info-Year-10-2027.pdf",
+          "label": "Year 10 courses 2027",
           "meta": "PDF"
         },
         {
-          "href": "assets/docs/Course-Info-Year-11-2026.pdf",
-          "label": "Year 11 courses 2026",
+          "href": "assets/docs/Course-Info-Year-11-2027.pdf",
+          "label": "Year 11 courses 2027",
           "meta": "PDF"
         }
       ]
@@ -63,8 +63,8 @@
       "lede": "Our senior curriculum is designed to provide Year 12 and Year 13 students with specialised and advanced learning opportunities that prepare them for higher education, vocational training, and successful careers. We offer a broad range of subjects, allowing students to tailor their education to their interests and aspirations.",
       "docs": [
         {
-          "href": "assets/docs/NCEA-Course-Information-2026.pdf",
-          "label": "Year 12 & 13 NCEA course information 2026",
+          "href": "assets/docs/NCEA-Course-Information-2027.pdf",
+          "label": "Year 12 & 13 NCEA course information 2027",
           "meta": "PDF"
         }
       ]
