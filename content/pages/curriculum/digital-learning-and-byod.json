@@ -130,16 +130,12 @@
     {
       "type": "cta",
       "heading": "More on devices at school",
-      "text": "Read our mobile phone policy, or find out how to get support with learning at Rosehill College.",
+      "text": "Read our mobile phone policy to understand how we support focused learning at Rosehill College.",
       "actions": [
         {
           "href": "/curriculum/mobile-phone-policy.html",
           "label": "Mobile phone policy",
           "primary": true
-        },
-        {
-          "href": "/curriculum/student-support.html",
-          "label": "Student support"
         }
       ]
     }

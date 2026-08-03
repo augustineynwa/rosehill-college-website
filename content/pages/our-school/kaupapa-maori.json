@@ -4,6 +4,7 @@
   "slug": "kaupapa-maori",
   "title": "Kaupapa Māori",
   "metaDescription": "Kaupapa Māori at Rosehill College — te ao Māori woven through our curriculum, kapa haka, and the school haka gifted to us.",
+  "noindex": true,
   "sections": [
     {
       "type": "hero",

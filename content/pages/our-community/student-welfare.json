@@ -99,10 +99,6 @@
           "href": "/contact-us.html",
           "label": "Contact us",
           "primary": true
-        },
-        {
-          "href": "/curriculum/student-support.html",
-          "label": "Learning support"
         }
       ]
     }

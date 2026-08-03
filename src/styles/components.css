@@ -142,8 +142,8 @@ body { padding-top: var(--notice-h, 0px); }
   color: var(--c-text);
 }
 
-/* primary nav */
-.site-nav { margin-inline-start: auto; }
+/* primary nav — sits next to the logo; actions push to the right edge */
+.site-nav { margin-inline-start: var(--sp-4); }
 .site-nav__list { display: flex; align-items: center; gap: var(--sp-1); }
 .site-nav__item { position: relative; }
 .site-nav__link {
@@ -284,7 +284,7 @@ a.site-nav__mega-heading--link[aria-current="page"] { color: var(--c-silver); }
 .site-nav__card-arrow { flex: none; color: var(--c-gold); }
 
 /* header actions */
-.site-header__actions { display: flex; align-items: center; gap: var(--sp-2); margin-inline-start: var(--sp-2); }
+.site-header__actions { display: flex; align-items: center; gap: var(--sp-2); margin-inline-start: auto; }
 .site-header__contact {
   color: var(--c-text-soft);
   font-size: var(--step--1);

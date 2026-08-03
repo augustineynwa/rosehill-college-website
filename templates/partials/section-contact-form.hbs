@@ -19,9 +19,20 @@
             <input id="cf-email" name="email" type="email" autocomplete="email" required>
           </div>
         </div>
-        <div class="field">
-          <label for="cf-phone">Phone</label>
-          <input id="cf-phone" name="phone" type="tel" autocomplete="tel">
+        <div class="field-row">
+          <div class="field">
+            <label for="cf-phone">Phone</label>
+            <input id="cf-phone" name="phone" type="tel" autocomplete="tel">
+          </div>
+          <div class="field">
+            <label for="cf-category">Enquiry type <span aria-hidden="true">*</span></label>
+            <select id="cf-category" name="enquiry_category" required>
+              <option value="" disabled selected>Please choose…</option>
+              <option value="General enquiry">General enquiry</option>
+              <option value="Enrolment">Enrolment</option>
+              <option value="International Students">International Students</option>
+            </select>
+          </div>
         </div>
         <div class="field">
           <label for="cf-subject">Subject <span aria-hidden="true">*</span></label>

@@ -4,6 +4,7 @@
   "slug": "arts-and-culture",
   "title": "Arts and Culture",
   "metaDescription": "Arts and culture at Rosehill College — visual arts, music, dance, drama, kapa haka and Pasifika groups, with performance opportunities.",
+  "noindex": true,
   "sections": [
     {
       "type": "hero",

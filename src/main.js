@@ -20,6 +20,24 @@ const motionOK = true;
 
 initNav();
 
+// Open external links and document downloads (PDFs, Google Docs, Office files)
+// in a new tab, so visitors don't lose the site. Runs over every link including
+// ones inside page copy, which templates can't annotate individually.
+(() => {
+  const docExt = /\.(pdf|docx?|xlsx?|pptx?|odt|ods|odp)(\?|#|$)/i;
+  const isDoc = (href) => docExt.test(href) || /(docs|drive)\.google\.com/i.test(href);
+  document.querySelectorAll('a[href]').forEach((a) => {
+    const href = a.getAttribute('href') || '';
+    if (!href || href.startsWith('#') || /^(mailto:|tel:)/i.test(href)) return;
+    let external = false;
+    try { external = new URL(a.href, location.href).host !== location.host; } catch (e) {}
+    if (external || isDoc(href)) {
+      a.target = '_blank';
+      a.rel = `${a.rel ? a.rel + ' ' : ''}noopener noreferrer`.trim();
+    }
+  });
+})();
+
 // urgent notice banner: dismiss (per-message) + keep --notice-h in sync on resize.
 // The initial height/expiry/dismiss check happens in an inline script in the
 // partial so there's no flash or layout shift before this module loads.
@@ -63,10 +81,15 @@ document.querySelectorAll('[data-web3form]').forEach((form) => {
     const label = btn?.textContent;
     if (btn) { btn.disabled = true; btn.textContent = 'Sending…'; }
     try {
+      // Everything routes to one inbox for now; prefix the subject with the
+      // chosen category so the office can see at a glance where to forward it.
+      const fd = new FormData(form);
+      const category = fd.get('enquiry_category');
+      if (category) fd.set('subject', `[${category}] ${fd.get('subject') || ''}`.trim());
       const res = await fetch(form.action, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-        body: JSON.stringify(Object.fromEntries(new FormData(form))),
+        body: JSON.stringify(Object.fromEntries(fd)),
       });
       const data = await res.json().catch(() => ({}));
       if (res.ok && data.success) {
