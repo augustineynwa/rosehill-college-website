@@ -62,3 +62,6 @@
 /posts/*               /our-school/our-latest-news    301
 /vacancies/*           /join-us/staff-vacancies       301
 /community-sponsors/*  /our-community/community-outreach  301
+
+/join-us/school-zone-and-buses  /join-us/school-buses  301
+/join-us/school-zone-and-buses.html  /join-us/school-buses  301

@@ -1,0 +1,71 @@
+{
+  "layout": "page",
+  "path": "join-us/school-zone.html",
+  "slug": "school-zone",
+  "title": "School Zone",
+  "metaDescription": "Check the Rosehill College enrolment zone. See the home zone map, the full boundary description, and how to confirm whether your address is in zone.",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Enrolment",
+      "heading": "School zone",
+      "lede": "All students who live within the Rosehill College home zone are entitled to enrol at the College. Check whether your address is in zone below.",
+      "actions": [
+        {
+          "href": "https://www.educationcounts.govt.nz/find-school",
+          "label": "Check your school zone",
+          "primary": true,
+          "external": true
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "id": "in-zone",
+      "heading": "Are you in zone?",
+      "html": "<p>All students who live within the Rosehill College zone are entitled to enrol at the College. You can check if you are in zone by entering your address at the following link:</p><p><a href=\"https://www.educationcounts.govt.nz/find-school\" rel=\"external\"><strong>Check for your school zone</strong></a></p><p>Proof of residence within the home zone will be required.</p>",
+      "aside": {
+        "image": {
+          "src": "assets/img/Join-Us---School-Zone-and-Buses---School-Zone.avif",
+          "srcset": "",
+          "alt": "Map showing the Rosehill College home zone boundary",
+          "fit": "natural",
+          "ar": "1077 / 1077"
+        }
+      }
+    },
+    {
+      "type": "embed",
+      "heading": "Rosehill College zone map",
+      "src": "https://www.google.com/maps/d/u/0/embed?mid=1h3ZIk4JKD294Y9Erb-6R2-zVCEdTSbY&ehbc=2E312F&noprof=1",
+      "iframeTitle": "Interactive map of the Rosehill College home zone",
+      "tall": true
+    },
+    {
+      "type": "accordion",
+      "heading": "The home zone in detail",
+      "items": [
+        {
+          "title": "Full description of the home zone",
+          "html": "<p>All students who live within the home zone described below shall be entitled to enrol at the school.</p><p>Starting at the Takanini Motorway Interchange on State Highway 1 (Spartan Road addresses 1-17 only included, Manuroa Road addresses 15 and below only included, Taka Street addresses 16 and below only included, Walters Road addresses 20 and below only included, Onslow Road addresses 11 and below only included, Settlement Road odd addresses 31 and below and even addresses 22 and below only included, Boundary Road addresses 60 and below only included), travel south east along the railway line to the level crossing at Opaheke Road.</p><p>From the level crossing, travel east along Opaheke Road (Walker Road included) to Ponga Road (addresses 2011 and below included, Coal Mine Road, Kauri View Road, Judge Richardson Drive and McEntee Road included).</p><p>From 2011 Ponga Road, the zone travels south, across country, to the intersection of Ararimu Road (addresses 825 and below included, Turner Road, Fausett Road, Maxted Road and Matthew Whitford Drive included, Dunn Road excluded) and Steel Road (included).</p><p>Follow Ararimu Road west towards State Highway One (Dale Road, Hillview Road addresses 151 and below included and Maher Road included). Continue west along Ararimu Road to Great South Road.</p><p>The zone travels south down Great South Road (addresses 1746 and below included, Flay Road, Ambush Road, Helland Drive and Ingram Road included) to Kern Road. Travel south west along Kern Road to Runciman Road (Old Coach Way, Patrick Lane and Coulston Road included).</p><p>Travel north along Runciman Road (addresses 377 and above included and Norfolk King Drive excluded) to Tuhimata Road (address 479 included only). Travel across country to the intersection of Needham Road (included) and Burtt Road (addresses 155 and above included, Solitaire Lane, Cheriton Lane and McPherson Road included).</p><p>Travel north east along Burtt Road, and continue east along Pitt Road to Great South Road, then travel north west to Great South Road and then continue north west along Great South Road to State Highway 22 (SH22).</p><p>Follow SH22 (addresses 741 Karaka Road (SH22) and below included, off roads included) west to Glenbrook Road (Gellert Road included). Continue west along Glenbrook Road (addresses 891 and below included, Kingseat Road even addresses 342 and above only and odd addresses 339 and above only included, Pearson Road, Cuff Road and Ostrich Road excluded) to Blomfield Lane (included).</p><p>From Blomfield Lane, travel west to the Taihiki River, then follow the coastline north and west, including all of Waiau Pa and Clarks Beach, then continue following the coastline east towards the Manukau Harbour.</p><p>From the Manukau Harbour, follow the Papakura Stream inland across Great South Road to include the former Manukau Golf Course (Waiata Shores included) and continue inland to the railway line, and back to the starting point.</p><p>All residential addresses on included sides of boundary roads and all no exit roads off included sides of boundary roads are included in the zone unless otherwise stated.</p>"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "Unsure if you're in zone?",
+      "text": "If you are unsure if your property falls within the Rosehill College zone, please contact our Enrolment Officer at enrolments@rosehillcollege.school.nz or by phone 09 295 0661 ext 871.",
+      "actions": [
+        {
+          "href": "mailto:enrolments@rosehillcollege.school.nz",
+          "label": "Email the Enrolment Officer",
+          "primary": true
+        },
+        {
+          "href": "/join-us/school-buses.html",
+          "label": "School buses"
+        }
+      ]
+    }
+  ]
+}
