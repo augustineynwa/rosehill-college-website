@@ -1,0 +1,18 @@
+<section class="band {{#if pad}}band--{{pad}}{{/if}}" {{#if id}}id="{{id}}"{{/if}} {{#if theme}}data-theme="{{theme}}"{{/if}}>
+  <div class="container">
+    {{> section-head}}
+    {{! Tabbed Google Calendar. Tabs switch the iframe between the month view
+        and the AGENDA (Key Dates) view. On tablet/mobile the tabs hide and the
+        agenda view is shown by default — behaviour driven by initCalendar(). }}
+    <div class="calendar" data-calendar data-full="{{fullUrl}}" data-agenda="{{agendaUrl}}" data-reveal>
+      <div class="calendar__tabs" role="tablist" aria-label="{{#if tabsLabel}}{{tabsLabel}}{{else}}Calendar view{{/if}}">
+        <button class="calendar__tab is-active" type="button" role="tab" aria-selected="true" data-view="full">{{#if fullLabel}}{{fullLabel}}{{else}}Calendar{{/if}}</button>
+        <button class="calendar__tab" type="button" role="tab" aria-selected="false" data-view="agenda">{{#if agendaLabel}}{{agendaLabel}}{{else}}Key Dates{{/if}}</button>
+      </div>
+      <div class="calendar__frame">
+        <iframe data-calendar-frame title="{{#if iframeTitle}}{{iframeTitle}}{{else}}Rosehill College calendar{{/if}}" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+    {{#if note}}<p class="caption band__note">{{raw note}}</p>{{/if}}
+  </div>
+</section>

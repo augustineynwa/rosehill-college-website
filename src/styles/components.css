@@ -815,6 +815,46 @@ figure.media-frame figcaption { padding: var(--sp-1) var(--sp-2); }
   background: var(--c-ink-900);
 }
 .embed-frame--tall { aspect-ratio: 4 / 3; }
+
+/* tabbed calendar (Term Dates) */
+.calendar__tabs {
+  display: flex;
+  gap: var(--sp-1);
+  border-bottom: 1px solid var(--c-line);
+  margin-block-end: var(--sp-2);
+}
+.calendar__tab {
+  padding: 0.6em 1.1em;
+  margin-block-end: -1px;
+  background: none;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  color: var(--c-text-soft);
+  font-weight: 700;
+  font-size: var(--step--1);
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: color var(--dur-fast) var(--ease-out), border-color var(--dur-fast) var(--ease-out);
+}
+.calendar__tab:hover { color: var(--c-text); }
+.calendar__tab.is-active { color: var(--c-gold); border-bottom-color: var(--c-gold); }
+.calendar__frame {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 68%;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--c-line);
+  background: var(--c-ink-800);
+}
+.calendar__frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+/* tablet + mobile: tabs hidden, agenda view forced by JS; give it more height */
+@media (max-width: 991px) {
+  .calendar__tabs { display: none; }
+  .calendar__frame { padding-bottom: 110%; }
+}
+@media (max-width: 479px) { .calendar__frame { padding-bottom: 125%; } }
 .embed-frame iframe { width: 100%; height: 100%; border: 0; display: block; }
 .embed-facade {
   background:

@@ -126,6 +126,36 @@ document.querySelectorAll('[data-embed-facade]').forEach((facade) => {
   });
 });
 
+// tabbed Google Calendar (Term Dates): switch the iframe between the month and
+// AGENDA (Key Dates) views. Tablet/mobile forces the agenda view; the tabs are
+// hidden there by CSS. Auto-switch only fires when crossing the breakpoint, so
+// an ordinary resize never resets a visitor's chosen tab.
+document.querySelectorAll('[data-calendar]').forEach((cal) => {
+  const frame = cal.querySelector('[data-calendar-frame]');
+  const tabs = [...cal.querySelectorAll('.calendar__tab')];
+  const urls = { full: cal.dataset.full, agenda: cal.dataset.agenda };
+  const setView = (view) => {
+    if (!urls[view] || !frame) return;
+    frame.src = urls[view];
+    tabs.forEach((t) => {
+      const on = t.dataset.view === view;
+      t.classList.toggle('is-active', on);
+      t.setAttribute('aria-selected', String(on));
+    });
+  };
+  tabs.forEach((t) => t.addEventListener('click', () => setView(t.dataset.view)));
+  let narrow = null;
+  const sync = () => {
+    const isNarrow = window.innerWidth <= 991;
+    if (isNarrow === narrow) return;
+    narrow = isNarrow;
+    setView(isNarrow ? 'agenda' : 'full');
+  };
+  sync();
+  let rt;
+  window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(sync, 200); }, { passive: true });
+});
+
 // smooth momentum scroll + shared entrance/parallax motion — only when allowed
 if (motionOK) {
   Promise.all([
