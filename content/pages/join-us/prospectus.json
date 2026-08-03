@@ -13,11 +13,11 @@
     },
     {
       "type": "embed",
-      "heading": "Read the prospectus",
+      "heading": "Read the 2026 prospectus",
       "tall": true,
-      "src": "https://online.fliphtml5.com/snsln/jntx/",
-      "iframeTitle": "Rosehill College prospectus",
-      "note": "Trouble viewing? <a href=\"https://online.fliphtml5.com/snsln/jntx/\" rel=\"external\">Open the prospectus in a new tab</a>."
+      "src": "/assets/docs/Rosehill-College-Prospectus-2026.pdf",
+      "iframeTitle": "Rosehill College 2026 prospectus",
+      "note": "<a href=\"/assets/docs/Rosehill-College-Prospectus-2026.pdf\">Download the prospectus (PDF, 5.6 MB)</a>"
     },
     {
       "type": "cta",
