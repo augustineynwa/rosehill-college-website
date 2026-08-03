@@ -615,6 +615,63 @@ figure.media-frame figcaption { padding: var(--sp-1) var(--sp-2); }
 }
 .gallery--masonry .gallery__item img { height: auto; aspect-ratio: auto; object-fit: contain; }
 
+/* Grid: an even grid of equal tiles (e.g. the sport codes) — every item the same
+   card ratio, no mosaic alternation. */
+.gallery--grid { grid-template-columns: repeat(auto-fill, minmax(min(15rem, 100%), 1fr)); }
+.gallery--grid .gallery__item,
+.gallery--grid .gallery__item:nth-child(6n + 1),
+.gallery--grid .gallery__item:nth-child(6n + 5) {
+  grid-column: auto;
+  aspect-ratio: var(--ratio-card);
+}
+
+/* logo marquee (community supporters, sports sponsors) */
+.logo-marquee {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+}
+.logo-marquee__track {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-4);
+  width: max-content;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  animation: logo-marquee 45s linear infinite;
+}
+.logo-marquee:hover .logo-marquee__track,
+.logo-marquee:focus-within .logo-marquee__track { animation-play-state: paused; }
+.logo-marquee__cell { flex: none; }
+.logo-marquee__item {
+  display: grid;
+  place-items: center;
+  width: 11rem;
+  height: 5.5rem;
+  padding: var(--sp-2) var(--sp-3);
+  background: var(--c-silver);
+  border-radius: var(--radius-md);
+}
+.logo-marquee__item img { max-width: 100%; max-height: 100%; object-fit: contain; }
+a.logo-marquee__item { transition: transform var(--dur-fast) var(--ease-out), box-shadow var(--dur-fast) var(--ease-out); }
+a.logo-marquee__item:hover { transform: translateY(-2px); box-shadow: var(--shadow-lift); }
+@keyframes logo-marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+/* social icon links */
+.social-links { display: flex; gap: var(--sp-2); margin-block-start: var(--sp-1); }
+.social-links__btn {
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--c-line);
+  color: var(--c-text-soft);
+  transition: color var(--dur-fast) var(--ease-out), border-color var(--dur-fast) var(--ease-out), transform var(--dur-fast) var(--ease-out);
+}
+.social-links__btn:hover { color: var(--c-gold); border-color: var(--c-gold); transform: translateY(-2px); }
+
 /* ---------------------------------------------------------------- media-text */
 .media-text { align-items: center; row-gap: var(--sp-6); }
 .media-text__media { grid-column: 1 / span 6; }

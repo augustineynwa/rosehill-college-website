@@ -22,7 +22,7 @@
       "heading": "Sport at Rosehill College",
       "html": "<p>Our dedicated staff members are passionate about nurturing the holistic development of our students, recognising that sports play a crucial role in creating enriching experiences. Here, hard work and honesty are not just values we uphold — they are achievements we celebrate.</p><p>Our sport codes include badminton, basketball, football, hockey, netball, rugby, softball, volleyball, touch, tag, athletics and weightlifting.</p><p>For more information regarding Rosehill College sports, please visit our external <a href=\"https://www.sporty.co.nz/rosehillcol/home-1\" rel=\"external\">Rosehill College Sports Page</a>. Here you will find details on fixtures, results, team rosters, training schedules, and other relevant sports-related matters.</p>",
       "aside": {
-        "html": "<p><strong>Follow Rosehill College Sport</strong></p><p><a href=\"https://www.facebook.com/RosehillCollegeSport\" rel=\"external\">Facebook — Rosehill College Sport</a><br><a href=\"https://www.instagram.com/rosehillcollegesport/\" rel=\"external\">Instagram — @rosehillcollegesport</a></p>"
+        "html": "<p><strong>Follow Rosehill College Sport</strong></p><div class=\"social-links\"><a class=\"social-links__btn\" href=\"https://www.facebook.com/RosehillCollegeSport\" rel=\"external\" aria-label=\"Rosehill College Sport on Facebook\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.96.93-1.96 1.89v2.25h3.33l-.53 3.49h-2.8V24C19.61 23.1 24 18.1 24 12.07z\"/></svg></a><a class=\"social-links__btn\" href=\"https://www.instagram.com/rosehillcollegesport/\" rel=\"external\" aria-label=\"Rosehill College Sport on Instagram\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"5\"/><circle cx=\"12\" cy=\"12\" r=\"4\"/><circle cx=\"17.5\" cy=\"6.5\" r=\"1\" fill=\"currentColor\" stroke=\"none\"/></svg></a></div>"
       }
     },
     {
@@ -78,7 +78,10 @@
     },
     {
       "type": "gallery",
+      "id": "codes",
       "heading": "Sport codes",
+      "grid": true,
+      "lightbox": true,
       "images": [
         {
           "src": "assets/img/Sports---Co-curricular---Badminton_1.avif",

@@ -1,0 +1,31 @@
+<section class="band {{#if pad}}band--{{pad}}{{/if}}" {{#if id}}id="{{id}}"{{/if}} {{#if theme}}data-theme="{{theme}}"{{/if}}>
+  <div class="container">
+    {{> section-head}}
+    {{! A seamless logo marquee. The track holds the logos twice; the animation
+        shifts it by exactly one set (-50%) so it loops without a jump. The
+        duplicate set is aria-hidden so screen readers read each logo once. }}
+    <div class="logo-marquee" data-marquee>
+      <ul class="logo-marquee__track" role="list">
+        {{#each logos}}
+        <li class="logo-marquee__cell">
+          {{#if href}}
+          <a class="logo-marquee__item" href="{{href}}" rel="external" aria-label="{{alt}}">
+            <img src="/{{src}}" alt="{{alt}}" loading="lazy" decoding="async"{{#if srcset}} srcset="{{srcset}}"{{/if}}>
+          </a>
+          {{else}}
+          <span class="logo-marquee__item">
+            <img src="/{{src}}" alt="{{alt}}" loading="lazy" decoding="async"{{#if srcset}} srcset="{{srcset}}"{{/if}}>
+          </span>
+          {{/if}}
+        </li>
+        {{/each}}
+        {{#each logos}}
+        <li class="logo-marquee__cell" aria-hidden="true">
+          <span class="logo-marquee__item"><img src="/{{src}}" alt="" loading="lazy" decoding="async"></span>
+        </li>
+        {{/each}}
+      </ul>
+    </div>
+    {{#if note}}<p class="caption band__note">{{raw note}}</p>{{/if}}
+  </div>
+</section>
