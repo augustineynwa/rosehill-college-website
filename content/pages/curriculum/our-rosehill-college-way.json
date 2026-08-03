@@ -78,6 +78,7 @@
     {
       "type": "gallery",
       "heading": "Every day counts",
+      "masonry": true,
       "lede": "One or two days a week does not seem that much, but the missed learning adds up — and children learn best at the start of the day, so arriving late to school or class matters too.",
       "images": [
         {
@@ -99,18 +100,6 @@
           "alt": "Chart showing the impact of arriving late to school and class",
           "caption": "Late for school, late to class? Children learn best at the start of the day.",
           "fit": "contain"
-        }
-      ]
-    },
-    {
-      "type": "docs",
-      "heading": "Attendance Management Plan",
-      "lede": "Read our full plan for supporting every student to attend school every day.",
-      "docs": [
-        {
-          "href": "assets/docs/Attendance-Management-Plan.pdf",
-          "label": "Attendance Management Plan",
-          "meta": "PDF"
         }
       ]
     },

@@ -64,50 +64,7 @@
     {
       "type": "prose",
       "heading": "Homestay accommodation",
-      "html": "<p>If you are staying with a homestay family, they will collect you from the airport when you arrive, show you around your new home, and help you settle in. You should arrive a couple of days before your course starts so you can acclimatise.</p><p>Most of our international students live with a local host family while they are in New Zealand. Our homestay provides warm and caring host families who offer safe, comfortable and well-maintained homes, giving students a secure and supportive living environment. The families are carefully selected by our dedicated and experienced staff.</p><p>All international students not living with their parents must live in a school-approved homestay. Students are not permitted to live in flats/apartments. Regardless of age, they must live with a family where approved adults care for them. All accommodation will be regularly visited by Rosehill College homestay staff, and all Rosehill College homestay carers and designated caregivers and their live-in family members over the age of 18 have been vetted by the New Zealand Police.</p>"
-    },
-    {
-      "type": "docs",
-      "heading": "Homestay documents and forms",
-      "lede": "If you and your family are considering becoming a host family, please read the documents and fill out the forms below, or contact our International Coordinator for more details.",
-      "columns": true,
-      "docs": [
-        {
-          "href": "assets/docs/Rosehill-College_Homestay-Welcome-Letter_2026.pdf",
-          "label": "Homestay welcome letter",
-          "meta": "PDF"
-        },
-        {
-          "href": "assets/docs/RH_Homestay-Information-for-Caregivers_2026.pdf",
-          "label": "Homestay information for caregivers of international students",
-          "meta": "PDF"
-        },
-        {
-          "href": "assets/docs/RH_Student-Handbook-Homestay_2026.pdf",
-          "label": "Homestay information for international students",
-          "meta": "PDF"
-        },
-        {
-          "href": "assets/docs/RH_Application-to-be-a-Homestay-forms__2026.pdf",
-          "label": "Homestay application form",
-          "meta": "PDF"
-        },
-        {
-          "href": "assets/docs/RH_Guidelines-for-hosting-an-international-student-homestays_2026.pdf",
-          "label": "Homestay hosting guidelines",
-          "meta": "PDF"
-        },
-        {
-          "href": "assets/docs/RH_homestay-Carer-Agreement-2026.pdf",
-          "label": "Homestay carer agreement",
-          "meta": "PDF"
-        },
-        {
-          "href": "assets/docs/nz-police-vet-request-consent-form-2026_RosehillCollege.pdf",
-          "label": "Police vetting form",
-          "meta": "PDF"
-        }
-      ]
+      "html": "<p>Most international students live with a carefully selected, police-vetted local host family who collect you from the airport and help you settle in. Full details about homestay life, host families and the forms for prospective hosts are on our <a href=\"/international-students/living-in-aotearoa.html\">Living in Aotearoa</a> page.</p>"
     },
     {
       "type": "list",

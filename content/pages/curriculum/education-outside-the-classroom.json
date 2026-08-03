@@ -59,10 +59,58 @@
       ]
     },
     {
-      "type": "prose",
+      "type": "docs",
       "id": "camp-forms",
       "heading": "Camp forms",
-      "html": "<p>Below are the Year 10 Camp forms each student will need to have completed:</p><ul><li>(House) Parental Consent</li><li>EOTC Health Profile Form</li></ul><p>For your information there are also the following:</p><ul><li><a href=\"https://drive.google.com/file/d/1ALX7u1qkvB3yLBM-QdATiUOGQQ940ppM/view\" rel=\"external\">Year 10 Camp Letter</a></li><li><a href=\"https://drive.google.com/file/d/1u8LLHG7PWDsX58As0TINGKPD4H35N-Pw/view\" rel=\"external\">Gear List</a></li><li><a href=\"https://drive.google.com/file/d/1VSrRMJRUw66gyDiGWWh3SMNtEzV9yrBd/view\" rel=\"external\">Atawhai Parental Consent</a></li><li><a href=\"https://drive.google.com/file/d/1WojD7zrPqP_DOr-HsUo3iosIZBRqXSLB/view\" rel=\"external\">Kahurangi Parental Consent</a></li><li><a href=\"https://drive.google.com/file/d/1x_TVQaUkRQPps4vj9phymF_QH1lrGZyM/view\" rel=\"external\">Manutaki Parental Consent</a></li><li><a href=\"https://drive.google.com/file/d/1iYNjCvDrY3HqwbVSRhMxNLWjFLbeL_b-/view\" rel=\"external\">Pounamu Parental Consent</a></li><li><a href=\"https://drive.google.com/file/d/1z7KYGmN0sdwSmyfnlEcKlVOyR8RG6zhf/view\" rel=\"external\">Rangatahi Parental Consent</a></li><li><a href=\"https://drive.google.com/file/d/1m9pV0faFgeMqppTM2sqq1ZLB2ZFSt798/view\" rel=\"external\">Taikura Parental Consent</a></li><li><a href=\"https://drive.google.com/file/d/1xm233CfthHYtV_dtMqpso6qlxTQb_DMN/view\" rel=\"external\">EOTC Health Profile</a></li></ul>"
+      "lede": "Each student needs the (House) Parental Consent and the EOTC Health Profile completed. Download the forms below.",
+      "columns": true,
+      "docs": [
+        {
+          "href": "https://drive.google.com/file/d/1ALX7u1qkvB3yLBM-QdATiUOGQQ940ppM/view",
+          "label": "Year 10 Camp Letter",
+          "meta": "Form"
+        },
+        {
+          "href": "https://drive.google.com/file/d/1u8LLHG7PWDsX58As0TINGKPD4H35N-Pw/view",
+          "label": "Gear List",
+          "meta": "Form"
+        },
+        {
+          "href": "https://drive.google.com/file/d/1VSrRMJRUw66gyDiGWWh3SMNtEzV9yrBd/view",
+          "label": "Atawhai Parental Consent",
+          "meta": "Form"
+        },
+        {
+          "href": "https://drive.google.com/file/d/1WojD7zrPqP_DOr-HsUo3iosIZBRqXSLB/view",
+          "label": "Kahurangi Parental Consent",
+          "meta": "Form"
+        },
+        {
+          "href": "https://drive.google.com/file/d/1x_TVQaUkRQPps4vj9phymF_QH1lrGZyM/view",
+          "label": "Manutaki Parental Consent",
+          "meta": "Form"
+        },
+        {
+          "href": "https://drive.google.com/file/d/1iYNjCvDrY3HqwbVSRhMxNLWjFLbeL_b-/view",
+          "label": "Pounamu Parental Consent",
+          "meta": "Form"
+        },
+        {
+          "href": "https://drive.google.com/file/d/1z7KYGmN0sdwSmyfnlEcKlVOyR8RG6zhf/view",
+          "label": "Rangatahi Parental Consent",
+          "meta": "Form"
+        },
+        {
+          "href": "https://drive.google.com/file/d/1m9pV0faFgeMqppTM2sqq1ZLB2ZFSt798/view",
+          "label": "Taikura Parental Consent",
+          "meta": "Form"
+        },
+        {
+          "href": "https://drive.google.com/file/d/1xm233CfthHYtV_dtMqpso6qlxTQb_DMN/view",
+          "label": "EOTC Health Profile",
+          "meta": "Form"
+        }
+      ]
     },
     {
       "type": "list",
