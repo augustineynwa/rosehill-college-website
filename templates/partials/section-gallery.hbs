@@ -3,7 +3,7 @@
     {{> section-head}}
     <div class="gallery {{#if masonry}}gallery--masonry{{/if}}" data-gallery>
       {{#each images}}
-      <figure class="gallery__item media-frame{{#if fit}} media-frame--{{fit}}{{/if}}"{{frameStyle this}} data-reveal>
+      <figure class="gallery__item media-frame{{#if fit}} media-frame--{{fit}}{{/if}}"{{frameStyle this}} data-reveal{{#if ../lightbox}} data-lightbox data-lightbox-group="gal-{{#if ../id}}{{../id}}{{else}}g{{/if}}" data-full="/{{src}}" tabindex="0" role="button" aria-label="View larger image"{{/if}}>
         {{!-- `sizes` has to match what the item actually occupies or the browser
               fetches a variant that is too small and upscales it. Items alternate
               between 4 and 8 of the 12 columns, and fit:natural items take the

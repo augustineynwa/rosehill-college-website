@@ -156,6 +156,77 @@ document.querySelectorAll('[data-calendar]').forEach((cal) => {
   window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(sync, 200); }, { passive: true });
 });
 
+// Lightbox: click any [data-lightbox] figure to view the image full-screen.
+// Figures sharing a data-lightbox-group get prev/next; Esc and arrow keys work.
+(() => {
+  const triggers = [...document.querySelectorAll('[data-lightbox]')];
+  if (!triggers.length) return;
+  let overlay, imgEl, capEl, group = [], index = 0, opener = null;
+
+  const build = () => {
+    overlay = document.createElement('div');
+    overlay.className = 'lightbox';
+    overlay.setAttribute('role', 'dialog');
+    overlay.setAttribute('aria-modal', 'true');
+    overlay.innerHTML =
+      '<button class="lightbox__close" type="button" aria-label="Close">×</button>' +
+      '<button class="lightbox__nav lightbox__nav--prev" type="button" aria-label="Previous image">‹</button>' +
+      '<figure class="lightbox__figure"><img class="lightbox__img" alt=""><figcaption class="lightbox__cap caption"></figcaption></figure>' +
+      '<button class="lightbox__nav lightbox__nav--next" type="button" aria-label="Next image">›</button>';
+    document.body.appendChild(overlay);
+    imgEl = overlay.querySelector('.lightbox__img');
+    capEl = overlay.querySelector('.lightbox__cap');
+    overlay.addEventListener('click', (e) => {
+      if (e.target === overlay || e.target.closest('.lightbox__close')) close();
+    });
+    overlay.querySelector('.lightbox__nav--prev').addEventListener('click', () => step(-1));
+    overlay.querySelector('.lightbox__nav--next').addEventListener('click', () => step(1));
+  };
+
+  const render = () => {
+    const t = group[index];
+    const img = t.querySelector('img');
+    imgEl.src = t.dataset.full || img?.currentSrc || img?.src || '';
+    imgEl.alt = img?.alt || '';
+    const cap = t.dataset.lightboxCaption || t.querySelector('figcaption')?.textContent || '';
+    capEl.textContent = cap;
+    capEl.hidden = !cap;
+    const multi = group.length > 1;
+    overlay.querySelectorAll('.lightbox__nav').forEach((n) => { n.hidden = !multi; });
+  };
+
+  const open = (t) => {
+    if (!overlay) build();
+    opener = t;
+    const g = t.dataset.lightboxGroup;
+    group = g ? triggers.filter((x) => x.dataset.lightboxGroup === g) : [t];
+    index = Math.max(0, group.indexOf(t));
+    render();
+    overlay.classList.add('is-open');
+    document.documentElement.style.overflow = 'hidden';
+    overlay.querySelector('.lightbox__close').focus();
+  };
+  const close = () => {
+    overlay.classList.remove('is-open');
+    document.documentElement.style.overflow = '';
+    opener?.focus();
+  };
+  const step = (d) => { index = (index + d + group.length) % group.length; render(); };
+
+  triggers.forEach((t) => {
+    t.addEventListener('click', () => open(t));
+    t.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(t); }
+    });
+  });
+  document.addEventListener('keydown', (e) => {
+    if (!overlay || !overlay.classList.contains('is-open')) return;
+    if (e.key === 'Escape') close();
+    else if (e.key === 'ArrowLeft') step(-1);
+    else if (e.key === 'ArrowRight') step(1);
+  });
+})();
+
 // smooth momentum scroll + shared entrance/parallax motion — only when allowed
 if (motionOK) {
   Promise.all([

@@ -2,8 +2,9 @@
   <div class="container">
     <div class="grid media-text {{#if flip}}media-text--flip{{/if}}">
       {{#if image.src}}
-      <figure class="media-text__media media-frame {{#if portrait}}media-frame--portrait{{else}}media-frame--card{{/if}}{{#if image.fit}} media-frame--{{image.fit}}{{/if}}"{{frameStyle image}} data-reveal data-parallax-img>
+      <figure class="media-text__media media-frame {{#if portrait}}media-frame--portrait{{else}}media-frame--card{{/if}}{{#if image.fit}} media-frame--{{image.fit}}{{/if}}"{{frameStyle image}} data-reveal data-parallax-img{{#if image.zoom}} data-lightbox data-full="/{{image.src}}" tabindex="0" role="button" aria-label="View larger image"{{/if}}>
         <img src="/{{image.src}}" {{#if image.srcset}}srcset="{{image.srcset}}" sizes="(max-width: 64rem) 100vw, 50vw"{{/if}} alt="{{image.alt}}" loading="lazy" decoding="async">
+        {{#if image.caption}}<figcaption class="caption">{{image.caption}}</figcaption>{{/if}}
       </figure>
       {{/if}}
       <div class="media-text__text stack">

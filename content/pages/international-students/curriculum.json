@@ -19,7 +19,9 @@
         "src": "assets/img/International-Students---Curriculum---Education-Journey-Infographic_1.avif",
         "srcset": "/assets/img/International-Students---Curriculum---Education-Journey-Infographic_1-rp-500.avif 500w, /assets/img/International-Students---Curriculum---Education-Journey-Infographic_1-rp-800.avif 800w, /assets/img/International-Students---Curriculum---Education-Journey-Infographic_1-rp-1080.avif 1080w, /assets/img/International-Students---Curriculum---Education-Journey-Infographic_1-rp-1600.avif 1600w, /assets/img/International-Students---Curriculum---Education-Journey-Infographic_1-rp-2200.avif 2200w, /assets/img/International-Students---Curriculum---Education-Journey-Infographic_1.avif 2829w",
         "alt": "Infographic showing the New Zealand secondary education journey at Rosehill College, from Year 11 foundation study through NCEA Levels 2 and 3 in Years 12 and 13 towards University Entrance and tertiary study",
-        "fit": "contain"
+        "fit": "contain",
+        "zoom": true,
+        "caption": "Tap or click the diagram to view it full size."
       },
       "html": "<p>ESOL support is provided where needed and we have Chinese interpreters available.</p><p>Our Year 12 and 13 courses give students the opportunity to gain New Zealand's NCEA qualification at Levels 2 and 3, providing a pathway to tertiary study. NCEA is an internationally recognised qualification accepted by universities worldwide.</p><p>Year 11 students study a curriculum tailored to provide a strong foundation for the rigours of NCEA in Year 12. All subjects at this level offer NCEA-style evaluations, to ensure students are ready for external assessments in Year 12.</p>",
       "actions": [
