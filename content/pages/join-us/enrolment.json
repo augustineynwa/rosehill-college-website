@@ -4,6 +4,28 @@
   "slug": "enrolment",
   "title": "Enrolment",
   "metaDescription": "Enrol at Rosehill College, Papakura. In-zone and out-of-zone applications, key dates, required documents and step-by-step enrolment guidance.",
+  "pageNav": [
+    {
+      "label": "Returning students",
+      "href": "#returning"
+    },
+    {
+      "label": "In-zone",
+      "href": "#in-zone"
+    },
+    {
+      "label": "Apply",
+      "href": "#apply"
+    },
+    {
+      "label": "Out-of-zone",
+      "href": "#out-of-zone"
+    },
+    {
+      "label": "Key dates",
+      "href": "#key-dates"
+    }
+  ],
   "sections": [
     {
       "type": "hero",
@@ -24,7 +46,8 @@
       "aside": {
         "html": "<p><strong>Privacy commitment</strong></p><p>We are committed to safeguarding your personal information throughout the enrolment process. For more details, please review our <a href=\"/join-us/school-policies.html\">Privacy Policy</a>.</p>"
       },
-      "eyebrow": "Re-enrolment"
+      "eyebrow": "Re-enrolment",
+      "id": "returning"
     },
     {
       "type": "media-text",

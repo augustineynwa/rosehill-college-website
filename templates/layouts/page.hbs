@@ -7,6 +7,16 @@
   <a class="skip-link" href="#main">Skip to main content</a>
   {{> header}}
   <main id="main" class="page-main" tabindex="-1">
+    {{#if pageNav}}
+    <nav class="page-jump" aria-label="On this page" data-page-jump>
+      <div class="container page-jump__inner">
+        <span class="page-jump__label">On this page</span>
+        <ul class="page-jump__list" role="list">
+          {{#each pageNav}}<li><a href="{{href}}" class="page-jump__link">{{label}}</a></li>{{/each}}
+        </ul>
+      </div>
+    </nav>
+    {{/if}}
     {{#each sections}}{{section this}}{{/each}}
   </main>
   {{> footer}}

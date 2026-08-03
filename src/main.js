@@ -156,6 +156,46 @@ document.querySelectorAll('[data-calendar]').forEach((cal) => {
   window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(sync, 200); }, { passive: true });
 });
 
+// "On this page" jump nav: smooth-scroll to a section (through Lenis, offset for
+// the sticky header + this bar) and highlight the section currently in view.
+(() => {
+  const jump = document.querySelector('[data-page-jump]');
+  if (!jump) return;
+  const links = [...jump.querySelectorAll('.page-jump__link')];
+  const map = new Map();
+  links.forEach((l) => {
+    const el = document.getElementById(l.getAttribute('href').slice(1));
+    if (el) map.set(el, l);
+  });
+  if (!map.size) return;
+
+  const header = document.querySelector('[data-header]');
+  links.forEach((l) => {
+    l.addEventListener('click', (e) => {
+      const el = document.getElementById(l.getAttribute('href').slice(1));
+      if (!el) return;
+      e.preventDefault();
+      const offset = -((header?.offsetHeight || 0) + jump.offsetHeight + 8);
+      if (window.__lenis) {
+        window.__lenis.scrollTo(el, { offset });
+      } else {
+        const y = el.getBoundingClientRect().top + window.scrollY + offset;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      }
+      history.replaceState(null, '', '#' + el.id);
+    });
+  });
+
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach((e) => {
+      if (!e.isIntersecting) return;
+      links.forEach((l) => l.classList.remove('is-active'));
+      map.get(e.target)?.classList.add('is-active');
+    });
+  }, { rootMargin: '-40% 0px -55% 0px' });
+  map.forEach((_, el) => obs.observe(el));
+})();
+
 // Lightbox: click any [data-lightbox] figure to view the image full-screen.
 // Figures sharing a data-lightbox-group get prev/next; Esc and arrow keys work.
 (() => {
@@ -237,6 +277,7 @@ if (motionOK) {
     gsap.registerPlugin(ScrollTrigger);
 
     const lenis = new Lenis({ lerp: 0.11, wheelMultiplier: 1 });
+    window.__lenis = lenis; // let the "on this page" nav scroll through Lenis
     lenis.on('scroll', ScrollTrigger.update);
     gsap.ticker.add((time) => lenis.raf(time * 1000));
     gsap.ticker.lagSmoothing(0);
