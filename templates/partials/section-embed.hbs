@@ -17,7 +17,7 @@
     {{else if facade}}
     {{> embed-facade}}
     {{else}}
-    <div class="embed-frame {{#if tall}}embed-frame--tall{{/if}}" data-reveal>
+    <div class="embed-frame {{#if tall}}embed-frame--tall{{/if}}{{#if flip}}embed-frame--flip{{/if}}" data-reveal>
       <iframe src="{{src}}" title="{{iframeTitle}}" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" {{#if allow}}allow="{{allow}}"{{/if}}></iframe>
     </div>
     {{/if}}
