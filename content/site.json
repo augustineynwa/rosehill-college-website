@@ -79,13 +79,11 @@
             },
             {
               "label": "Strategic Plans",
-              "href": "https://cdn.prod.website-files.com/66626e6e1c55fe0cf6b6e8b2/67db5cd704a5434870bba5ec_Rosehill%20College%20Strategic%20Plan.pdf",
-              "external": true
+              "href": "assets/docs/Rosehill-College-Strategic-Plan.pdf"
             },
             {
               "label": "Attendance Management Plan",
-              "href": "https://cdn.prod.website-files.com/66626e6e1c55fe0cf6b6e8b2/69890c9776666dfa1c0a34c6_36314900d068c77eb7392bc474f3e1c2_Attendance%20Management%20Plan.pdf",
-              "external": true
+              "href": "assets/docs/Attendance-Management-Plan.pdf"
             },
             {
               "label": "Mobile Phone Policy",
@@ -272,7 +270,6 @@
       "label": "International",
       "mega": true,
       "cols": 1,
-      "align": "right",
       "groups": [
         {
           "heading": "International Students",

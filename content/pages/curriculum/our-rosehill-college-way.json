@@ -78,7 +78,6 @@
     {
       "type": "gallery",
       "heading": "Every day counts",
-      "masonry": true,
       "lede": "One or two days a week does not seem that much, but the missed learning adds up — and children learn best at the start of the day, so arriving late to school or class matters too.",
       "images": [
         {
@@ -86,22 +85,26 @@
           "srcset": "/assets/img/Attendance---Chart--1_1-rp-500.avif 500w, /assets/img/Attendance---Chart--1_1-rp-800.avif 800w, /assets/img/Attendance---Chart--1_1-rp-1080.avif 1080w, /assets/img/Attendance---Chart--1_1-rp-1600.avif 1600w, /assets/img/Attendance---Chart--1_1.avif 1801w",
           "alt": "Chart showing how missing one or two days a week adds up over a school year",
           "caption": "1 or 2 days a week does not seem that much but...",
-          "fit": "contain"
+          "fit": "natural",
+          "ar": "1801 / 378"
         },
         {
           "src": "assets/img/Attendance---Chart_1.avif",
           "srcset": "/assets/img/Attendance---Chart_1-rp-500.avif 500w, /assets/img/Attendance---Chart_1-rp-800.avif 800w, /assets/img/Attendance---Chart_1-rp-1080.avif 1080w, /assets/img/Attendance---Chart_1-rp-1600.avif 1600w, /assets/img/Attendance---Chart_1.avif 1838w",
           "alt": "Chart showing the impact of missed school days on learning",
-          "fit": "contain"
+          "fit": "natural",
+          "ar": "1838 / 1065"
         },
         {
           "src": "assets/img/Attendance---Chart---3_1.avif",
           "srcset": "/assets/img/Attendance---Chart---3_1-rp-500.avif 500w, /assets/img/Attendance---Chart---3_1-rp-800.avif 800w, /assets/img/Attendance---Chart---3_1-rp-1080.avif 1080w, /assets/img/Attendance---Chart---3_1-rp-1600.avif 1600w, /assets/img/Attendance---Chart---3_1.avif 1801w",
           "alt": "Chart showing the impact of arriving late to school and class",
           "caption": "Late for school, late to class? Children learn best at the start of the day.",
-          "fit": "contain"
+          "fit": "natural",
+          "ar": "1801 / 448"
         }
-      ]
+      ],
+      "panel": true
     },
     {
       "type": "media-text",

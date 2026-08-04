@@ -1,7 +1,7 @@
 <section class="band {{#if pad}}band--{{pad}}{{/if}}" {{#if id}}id="{{id}}"{{/if}}>
   <div class="container">
     {{> section-head}}
-    <div class="gallery {{#if masonry}}gallery--masonry{{/if}}{{#if grid}} gallery--grid{{/if}}" data-gallery>
+    <div class="gallery {{#if masonry}}gallery--masonry{{/if}}{{#if grid}} gallery--grid{{/if}}{{#if panel}} gallery--panel{{/if}}" data-gallery>
       {{#each images}}
       <figure class="gallery__item media-frame{{#if fit}} media-frame--{{fit}}{{/if}}"{{frameStyle this}} data-reveal{{#if ../lightbox}} data-lightbox data-lightbox-group="gal-{{#if ../id}}{{../id}}{{else}}g{{/if}}" data-full="/{{src}}" tabindex="0" role="button" aria-label="View larger image"{{/if}}>
         {{!-- `sizes` has to match what the item actually occupies or the browser
