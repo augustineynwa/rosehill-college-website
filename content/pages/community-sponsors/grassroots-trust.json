@@ -1,0 +1,76 @@
+{
+  "layout": "page",
+  "path": "community-sponsors/grassroots-trust.html",
+  "slug": "grassroots-trust",
+  "title": "Grassroots Trust — community supporter",
+  "metaDescription": "Rosehill College thanks Grassroots Trust for their support. These devices are already making a meaningful difference in the classroom. The C-Pen Reader allows students to scan and ",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Community supporter",
+      "heading": "Grassroots Trust",
+      "lede": "Rosehill College would like to sincerely thank Grassroots Trust for their generous support in funding the purchase of C-Pen Reader 2 devices for our Learning Development students."
+    },
+    {
+      "type": "prose",
+      "html": "<p>These devices are already making a meaningful difference in the classroom. The C-Pen Reader allows students to scan and hear text read aloud instantly, supporting those who benefit from additional literacy assistance. This has helped to build confidence, independence, and engagement in learning.</p><p>We are incredibly grateful to Grassroots Trust Limited for helping us provide tools that empower our students and enhance their learning experience.</p>"
+    },
+    {
+      "type": "gallery",
+      "id": "impact",
+      "heading": "Trust impact gallery",
+      "grid": true,
+      "lightbox": true,
+      "images": [
+        {
+          "src": "assets/img/sponsors/grassroots-trust-1.avif",
+          "alt": "C-Pen Reader devices supporting Learning Development students at Rosehill College, funded by Grassroots Trust (1)"
+        },
+        {
+          "src": "assets/img/sponsors/grassroots-trust-2.avif",
+          "alt": "C-Pen Reader devices supporting Learning Development students at Rosehill College, funded by Grassroots Trust (2)"
+        },
+        {
+          "src": "assets/img/sponsors/grassroots-trust-3.avif",
+          "alt": "C-Pen Reader devices supporting Learning Development students at Rosehill College, funded by Grassroots Trust (3)"
+        },
+        {
+          "src": "assets/img/sponsors/grassroots-trust-4.avif",
+          "alt": "C-Pen Reader devices supporting Learning Development students at Rosehill College, funded by Grassroots Trust (4)"
+        },
+        {
+          "src": "assets/img/sponsors/grassroots-trust-5.avif",
+          "alt": "C-Pen Reader devices supporting Learning Development students at Rosehill College, funded by Grassroots Trust (5)"
+        },
+        {
+          "src": "assets/img/sponsors/grassroots-trust-6.avif",
+          "alt": "C-Pen Reader devices supporting Learning Development students at Rosehill College, funded by Grassroots Trust (6)"
+        },
+        {
+          "src": "assets/img/sponsors/grassroots-trust-7.avif",
+          "alt": "C-Pen Reader devices supporting Learning Development students at Rosehill College, funded by Grassroots Trust (7)"
+        },
+        {
+          "src": "assets/img/sponsors/grassroots-trust-8.avif",
+          "alt": "C-Pen Reader devices supporting Learning Development students at Rosehill College, funded by Grassroots Trust (8)"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "Our community supporters",
+      "text": "Rosehill College is grateful to the community trusts and funders whose grants support our students, facilities and programmes.",
+      "actions": [
+        {
+          "href": "/our-community/community-outreach.html#community-supporters",
+          "label": "Community outreach",
+          "primary": true
+        },
+        {
+          "href": "/contact-us.html",
+          "label": "Contact us"
+        }
+      ]
+    }
+  ]
+}

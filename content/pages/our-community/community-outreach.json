@@ -76,7 +76,8 @@
           "srcset": "",
           "fit": "contain",
           "alt": "Pub Charity logo",
-          "caption": "Pub Charity"
+          "caption": "Pub Charity",
+          "href": "community-sponsors/pub-charity.html"
         },
         {
           "src": "assets/img/BlueSky-Community-Trust.avif",
@@ -97,14 +98,16 @@
           "srcset": "",
           "fit": "contain",
           "alt": "Grassroots Trust logo",
-          "caption": "Grassroots Trust"
+          "caption": "Grassroots Trust",
+          "href": "community-sponsors/grassroots-trust.html"
         },
         {
           "src": "assets/img/Four-Winds-Foundation.avif",
           "srcset": "/assets/img/Four-Winds-Foundation-rp-500.avif 500w, /assets/img/Four-Winds-Foundation-rp-800.avif 800w, /assets/img/Four-Winds-Foundation-rp-1080.avif 1080w, /assets/img/Four-Winds-Foundation-rp-1600.avif 1600w, /assets/img/Four-Winds-Foundation-rp-2200.avif 2200w",
           "fit": "contain",
           "alt": "Four Winds Foundation logo",
-          "caption": "Four Winds Foundation"
+          "caption": "Four Winds Foundation",
+          "href": "community-sponsors/four-winds-foundation.html"
         },
         {
           "src": "assets/img/Dragon-Community-Trust.avif",
@@ -132,7 +135,8 @@
           "srcset": "",
           "fit": "contain",
           "alt": "RANO Community Trust logo",
-          "caption": "RANO Community Trust"
+          "caption": "RANO Community Trust",
+          "href": "community-sponsors/rano-community-trust.html"
         }
       ],
       "note": "Some of the community trusts and funders whose grants support our students."

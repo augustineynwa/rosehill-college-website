@@ -1,0 +1,52 @@
+{
+  "layout": "page",
+  "path": "community-sponsors/pub-charity.html",
+  "slug": "pub-charity",
+  "title": "Pub Charity — community supporter",
+  "metaDescription": "Rosehill College thanks Pub Charity for their support. Their contribution has enabled the development of a concrete-based volleyball court, providing students with a safe, durable,",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Community supporter",
+      "heading": "Pub Charity",
+      "lede": "Rosehill College would like to sincerely thank Pub Charity for their generous support of our school through recent funding grants."
+    },
+    {
+      "type": "prose",
+      "html": "<p>Their contribution has enabled the development of a concrete-based volleyball court, providing students with a safe, durable, and high-quality space for physical activity and sport. This new facility supports student wellbeing, encourages participation, and enhances opportunities for both recreation and competitive play.</p><p>Pub Charity has also approved funding for projectors in classrooms, helping to strengthen teaching and learning across the school. These upgrades support more engaging and interactive lessons, benefiting students across a wide range of subjects.</p><p>We are extremely grateful for Pub Charity’s ongoing support and commitment to improving educational and sporting opportunities for our students.</p>"
+    },
+    {
+      "type": "gallery",
+      "id": "impact",
+      "heading": "Trust impact gallery",
+      "grid": true,
+      "lightbox": true,
+      "images": [
+        {
+          "src": "assets/img/sponsors/pub-charity-1.avif",
+          "alt": "The new concrete volleyball court at Rosehill College, funded by Pub Charity (1)"
+        },
+        {
+          "src": "assets/img/sponsors/pub-charity-2.avif",
+          "alt": "The new concrete volleyball court at Rosehill College, funded by Pub Charity (2)"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "Our community supporters",
+      "text": "Rosehill College is grateful to the community trusts and funders whose grants support our students, facilities and programmes.",
+      "actions": [
+        {
+          "href": "/our-community/community-outreach.html#community-supporters",
+          "label": "Community outreach",
+          "primary": true
+        },
+        {
+          "href": "/contact-us.html",
+          "label": "Contact us"
+        }
+      ]
+    }
+  ]
+}

@@ -9,7 +9,7 @@
         {{#each logos}}
         <li class="logo-marquee__cell">
           {{#if href}}
-          <a class="logo-marquee__item" href="{{href}}" rel="external" aria-label="{{alt}}">
+          <a class="logo-marquee__item" href="{{#unless external}}/{{/unless}}{{href}}" {{#if external}}rel="external"{{/if}} aria-label="{{alt}}">
             <img src="/{{src}}" alt="{{alt}}" loading="lazy" decoding="async"{{#if srcset}} srcset="{{srcset}}"{{/if}}>
           </a>
           {{else}}

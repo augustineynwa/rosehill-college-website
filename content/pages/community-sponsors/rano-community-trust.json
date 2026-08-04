@@ -1,0 +1,84 @@
+{
+  "layout": "page",
+  "path": "community-sponsors/rano-community-trust.html",
+  "slug": "rano-community-trust",
+  "title": "Rano Community Trust — community supporter",
+  "metaDescription": "Rosehill College thanks Rano Community Trust for their support. Through this funding, the school has been able to purchase Chromebooks, a Chromebook charging trolley (COW), solid-s",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Community supporter",
+      "heading": "Rano Community Trust",
+      "lede": "Rosehill College sincerely thanks Rano Community Trust for its generous funding support, which has helped enhance learning resources and facilities for our students."
+    },
+    {
+      "type": "prose",
+      "html": "<p>Through this funding, the school has been able to purchase Chromebooks, a Chromebook charging trolley (COW), solid-state drives (SSDs), VR Meta Quest 3 headsets with adjustable straps, and camera equipment to support both teaching and learning across the college.</p><p>The provision of additional Chromebooks and a secure charging trolley has enabled more students to access online learning platforms, ensuring that digital learning opportunities are more readily available across classrooms.</p><p>Upgrades to our computer lab devices with SSD storage have also resulted in significant improvements in device speed, reliability, and overall performance, allowing students to work more efficiently during their learning sessions.</p><p>Students have also benefited from the introduction of Meta Quest 3 virtual reality headsets, fitted with adjustable head straps to provide a safe and comfortable VR experience. These devices offer engaging and immersive learning opportunities across a range of curriculum areas.</p><p>Rano Community Trust’s funding has also contributed to the refurbishment of the Rosehill College Sports Centre, alongside the generous support of several other community trusts.</p><p>In addition, the Trust supported the purchase of new camera equipment, which is already being used to capture school events and activities. Some of the images featured in this post were taken using this new equipment.</p><p>We are deeply grateful to Rano Community Trust for its continued support of Rosehill College and our students.</p>"
+    },
+    {
+      "type": "gallery",
+      "id": "impact",
+      "heading": "Trust impact gallery",
+      "grid": true,
+      "lightbox": true,
+      "images": [
+        {
+          "src": "assets/img/sponsors/rano-community-trust-1.avif",
+          "alt": "Chromebooks, VR headsets and other resources at Rosehill College, funded by Rano Community Trust (1)"
+        },
+        {
+          "src": "assets/img/sponsors/rano-community-trust-2.avif",
+          "alt": "Chromebooks, VR headsets and other resources at Rosehill College, funded by Rano Community Trust (2)"
+        },
+        {
+          "src": "assets/img/sponsors/rano-community-trust-3.avif",
+          "alt": "Chromebooks, VR headsets and other resources at Rosehill College, funded by Rano Community Trust (3)"
+        },
+        {
+          "src": "assets/img/sponsors/rano-community-trust-4.avif",
+          "alt": "Chromebooks, VR headsets and other resources at Rosehill College, funded by Rano Community Trust (4)"
+        },
+        {
+          "src": "assets/img/sponsors/rano-community-trust-5.avif",
+          "alt": "Chromebooks, VR headsets and other resources at Rosehill College, funded by Rano Community Trust (5)"
+        },
+        {
+          "src": "assets/img/sponsors/rano-community-trust-6.avif",
+          "alt": "Chromebooks, VR headsets and other resources at Rosehill College, funded by Rano Community Trust (6)"
+        },
+        {
+          "src": "assets/img/sponsors/rano-community-trust-7.avif",
+          "alt": "Chromebooks, VR headsets and other resources at Rosehill College, funded by Rano Community Trust (7)"
+        },
+        {
+          "src": "assets/img/sponsors/rano-community-trust-8.avif",
+          "alt": "Chromebooks, VR headsets and other resources at Rosehill College, funded by Rano Community Trust (8)"
+        },
+        {
+          "src": "assets/img/sponsors/rano-community-trust-9.avif",
+          "alt": "Chromebooks, VR headsets and other resources at Rosehill College, funded by Rano Community Trust (9)"
+        },
+        {
+          "src": "assets/img/sponsors/rano-community-trust-10.avif",
+          "alt": "Chromebooks, VR headsets and other resources at Rosehill College, funded by Rano Community Trust (10)"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "Our community supporters",
+      "text": "Rosehill College is grateful to the community trusts and funders whose grants support our students, facilities and programmes.",
+      "actions": [
+        {
+          "href": "/our-community/community-outreach.html#community-supporters",
+          "label": "Community outreach",
+          "primary": true
+        },
+        {
+          "href": "/contact-us.html",
+          "label": "Contact us"
+        }
+      ]
+    }
+  ]
+}

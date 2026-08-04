@@ -1,0 +1,68 @@
+{
+  "layout": "page",
+  "path": "community-sponsors/four-winds-foundation.html",
+  "slug": "four-winds-foundation",
+  "title": "Four Winds Foundation — community supporter",
+  "metaDescription": "Rosehill College thanks Four Winds Foundation for their support. This funding has enhanced our sports facilities, providing students with improved opportunities to participate in b",
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Community supporter",
+      "heading": "Four Winds Foundation",
+      "lede": "Rosehill College would like to sincerely thank the Four Winds Foundation for their generous support in funding our basketball hoops."
+    },
+    {
+      "type": "prose",
+      "html": "<p>This funding has enhanced our sports facilities, providing students with improved opportunities to participate in basketball during physical education classes, lunchtime activities, and competitive sport. The upgraded hoops create a safer and more enjoyable environment, encouraging students to stay active and engaged.</p><p>Basketball continues to be a popular sport within our kura, and this support ensures more students can take part, develop their skills, and enjoy the game.</p><p>We are extremely grateful to the Four Winds Foundation for their contribution to student wellbeing and sport at Rosehill College.</p>"
+    },
+    {
+      "type": "gallery",
+      "id": "impact",
+      "heading": "Trust impact gallery",
+      "grid": true,
+      "lightbox": true,
+      "images": [
+        {
+          "src": "assets/img/sponsors/four-winds-foundation-1.avif",
+          "alt": "New basketball hoops at Rosehill College, funded by the Four Winds Foundation (1)"
+        },
+        {
+          "src": "assets/img/sponsors/four-winds-foundation-2.avif",
+          "alt": "New basketball hoops at Rosehill College, funded by the Four Winds Foundation (2)"
+        },
+        {
+          "src": "assets/img/sponsors/four-winds-foundation-3.avif",
+          "alt": "New basketball hoops at Rosehill College, funded by the Four Winds Foundation (3)"
+        },
+        {
+          "src": "assets/img/sponsors/four-winds-foundation-4.avif",
+          "alt": "New basketball hoops at Rosehill College, funded by the Four Winds Foundation (4)"
+        },
+        {
+          "src": "assets/img/sponsors/four-winds-foundation-5.avif",
+          "alt": "New basketball hoops at Rosehill College, funded by the Four Winds Foundation (5)"
+        },
+        {
+          "src": "assets/img/sponsors/four-winds-foundation-6.avif",
+          "alt": "New basketball hoops at Rosehill College, funded by the Four Winds Foundation (6)"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "heading": "Our community supporters",
+      "text": "Rosehill College is grateful to the community trusts and funders whose grants support our students, facilities and programmes.",
+      "actions": [
+        {
+          "href": "/our-community/community-outreach.html#community-supporters",
+          "label": "Community outreach",
+          "primary": true
+        },
+        {
+          "href": "/contact-us.html",
+          "label": "Contact us"
+        }
+      ]
+    }
+  ]
+}
