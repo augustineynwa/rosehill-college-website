@@ -24,11 +24,14 @@
 <link rel="preload" href="/assets/fonts/albertus-nova.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/carlito-400.woff2" as="font" type="font/woff2" crossorigin>
 <script>document.documentElement.classList.replace('no-js','js');
-/* `motion-ok` now means "JS is running", not "the device wants motion" — the
-   school chose to show the animated site to everyone. It stays inside this
-   script so that when JS fails the CSS fallbacks still give a usable static
-   layout. Don't re-gate this on prefers-reduced-motion without asking. */
-document.documentElement.classList.add('motion-ok');</script>
+/* `motion-ok` gates the pinned scroll animations. It is NOT tied to
+   prefers-reduced-motion — the school chose to show the animated site to
+   everyone — but the GSAP ScrollTrigger pinning + Lenis engine mis-behaves on
+   touch/iOS Safari (overlapping, frozen sections), so we only opt in on real
+   pointer devices. Touch devices fall through to the built static/swipe layout
+   (see html:not(.motion-ok) rules). Setting the class here (not in the module)
+   keeps the fallback correct even if the JS bundle fails to load. */
+if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) document.documentElement.classList.add('motion-ok');</script>
 </head>
 <body data-page="pub-charity" >
   <a class="skip-link" href="#main">Skip to main content</a>

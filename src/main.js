@@ -10,13 +10,12 @@ import './styles/home.css';
 import { initNav } from './js/nav.js';
 import { initAnimations } from './js/animations.js';
 
-/* The school asked for the animated site to play for every visitor, so this no
-   longer reads prefers-reduced-motion. Kept as a named constant rather than
-   deleted, because the static branch below is still the right behaviour if we
-   ever honour the preference again — flip this back to
-   `!window.matchMedia('(prefers-reduced-motion: reduce)').matches` and
-   everything reconnects. Decision recorded, not an oversight. */
-const motionOK = true;
+/* The school shows the animated site to every visitor, but the pinned
+   ScrollTrigger + Lenis engine breaks on touch/iOS Safari (overlapping, frozen
+   sections). So motion is gated on a real pointer device, decided once in the
+   head script (see head.hbs) and read back here so the JS and CSS agree. Touch
+   devices take the static branch below + the html:not(.motion-ok) CSS fallback. */
+const motionOK = document.documentElement.classList.contains('motion-ok');
 
 initNav();
 
