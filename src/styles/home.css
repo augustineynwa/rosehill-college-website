@@ -259,6 +259,9 @@ html:not(.motion-ok) .journey-media__item {
   transition: opacity var(--dur-fast) var(--ease-out), visibility 0s linear var(--dur-fast);
 }
 .journey-marker.is-visible { opacity: 1; visibility: visible; transition-delay: 0s; }
+/* hide the corner marker while the mobile menu is open, so it can't float over
+   the menu overlay (the header carries .is-open whenever the menu is open) */
+body:has(.site-header.is-open) .journey-marker { opacity: 0; visibility: hidden; }
 .journey-marker__label { font-size: var(--step--1); letter-spacing: 0.1em; text-transform: uppercase; color: var(--fg-faint); }
 .journey-marker__value { font-family: var(--font-display); font-size: var(--step-3); color: var(--c-gold); line-height: 1; min-width: 1.4ch; }
 .journey-marker__bar { grid-column: 1 / -1; height: 2px; background: var(--c-line); border-radius: 1px; margin-block-start: var(--sp-1); overflow: hidden; display: block; }

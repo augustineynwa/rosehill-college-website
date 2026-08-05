@@ -135,9 +135,19 @@
         </ul>
         {{/each}}
         {{/each}}
-        {{#each cards}}
-        <a href="{{#unless external}}/{{/unless}}{{href}}" class="mobile-menu__link" {{#if external}}rel="external"{{/if}}>{{label}} — {{sub}}</a>
-        {{/each}}
+        {{#if cards}}
+        <div class="mobile-menu__cards">
+          {{#each cards}}
+          <a class="site-nav__card" href="{{#unless external}}/{{/unless}}{{href}}" {{#if external}}rel="external"{{/if}}>
+            <span class="site-nav__card-text">
+              <span class="site-nav__card-title">{{label}}</span>
+              <span class="site-nav__card-sub">{{sub}}</span>
+            </span>
+            <svg class="site-nav__card-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17L17 7M17 7H8M17 7v9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          {{/each}}
+        </div>
+        {{/if}}
       </details>
       {{else if children}}
       <details class="mobile-menu__group" name="mobile-nav">

@@ -122,6 +122,10 @@ body { padding-top: var(--notice-h, 0px); }
   align-items: center;
   gap: var(--sp-4);
   height: var(--header-h);
+  /* keep the header row (Report Absences, My RHC, the close button) above the
+     mobile-menu overlay so those controls stay tappable while the menu is open */
+  position: relative;
+  z-index: calc(var(--z-overlay) + 1);
 }
 .site-header__brand {
   display: flex;
@@ -400,6 +404,7 @@ a.site-nav__mega-heading--link[aria-current="page"] { color: var(--c-silver); }
   color: var(--c-text);
 }
 .mobile-menu__link:hover, .mobile-menu__top-link:hover { color: var(--c-gold); }
+.mobile-menu__cards { display: grid; gap: var(--sp-2); margin-block: var(--sp-2) var(--sp-3); }
 .mobile-menu__cta { display: flex; gap: var(--sp-2); padding-block-start: var(--sp-4); }
 
 @media (max-width: 74rem) {
@@ -1055,8 +1060,8 @@ html { scroll-padding-top: calc(var(--notice-h, 0px) + var(--header-h) + 1rem); 
   grid-template-columns: repeat(var(--grid-cols), minmax(0, 1fr));
   gap: var(--gutter);
 }
-.embed-grid .embed-frame:first-child { grid-column: 1 / span 8; }
-.embed-grid .embed-frame:not(:first-child) { grid-column: span 4; aspect-ratio: var(--ratio-card); }
+/* three equal video columns (Who we are) */
+.embed-grid .embed-frame { grid-column: span 4; aspect-ratio: var(--ratio-hero); }
 @media (max-width: 64rem) {
   .embed-grid .embed-frame:first-child, .embed-grid .embed-frame:not(:first-child) { grid-column: 1 / -1; aspect-ratio: var(--ratio-hero); }
 }
