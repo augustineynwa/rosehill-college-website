@@ -10,12 +10,7 @@
       "eyebrow": "Ngā kaiārahi ākonga",
       "reo": true,
       "heading": "Our student leaders 2026",
-      "lede": "At Rosehill College, our student leaders embody the values and spirit of our school community. Committed to excellence, integrity, and service, these exceptional students take on leadership roles to inspire and guide their peers. Each leader brings unique strengths and perspectives, contributing to the vibrant and inclusive atmosphere of our school.",
-      "image": {
-        "src": "assets/img/Our-Community---Our-Student-Leaders---Btm-Banner.avif",
-        "srcset": "/assets/img/Our-Community---Our-Student-Leaders---Btm-Banner-rp-500.avif 500w, /assets/img/Our-Community---Our-Student-Leaders---Btm-Banner-rp-800.avif 800w, /assets/img/Our-Community---Our-Student-Leaders---Btm-Banner-rp-1080.avif 1080w, /assets/img/Our-Community---Our-Student-Leaders---Btm-Banner-rp-1600.avif 1600w, /assets/img/Our-Community---Our-Student-Leaders---Btm-Banner-rp-2200.avif 2200w, /assets/img/Our-Community---Our-Student-Leaders---Btm-Banner-rp-3000.avif 3000w",
-        "alt": "Rosehill College students"
-      }
+      "lede": "At Rosehill College, our student leaders embody the values and spirit of our school community. Committed to excellence, integrity, and service, these exceptional students take on leadership roles to inspire and guide their peers. Each leader brings unique strengths and perspectives, contributing to the vibrant and inclusive atmosphere of our school."
     },
     {
       "type": "prose",

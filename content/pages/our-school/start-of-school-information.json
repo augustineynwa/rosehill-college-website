@@ -51,6 +51,18 @@
       ]
     },
     {
+      "type": "docs",
+      "id": "downloads",
+      "heading": "Handbook & key documents",
+      "docs": [
+        {
+          "href": "assets/docs/Student-Handbook.pdf",
+          "label": "Rosehill College Student Handbook",
+          "meta": "PDF"
+        }
+      ]
+    },
+    {
       "type": "cta",
       "heading": "Keep us up to date",
       "text": "If any of your details have changed — email address, phone numbers, home address or caregiver and emergency information — please email studentadmin@rosehillcollege.school.nz.",

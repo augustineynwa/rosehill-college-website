@@ -54,7 +54,8 @@
           "label": "Year 11 courses 2027",
           "meta": "PDF"
         }
-      ]
+      ],
+      "columns": true
     },
     {
       "type": "docs",
@@ -67,7 +68,8 @@
           "label": "Year 12 & 13 NCEA course information 2027",
           "meta": "PDF"
         }
-      ]
+      ],
+      "columns": true
     },
     {
       "type": "cta",

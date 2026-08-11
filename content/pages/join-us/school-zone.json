@@ -9,7 +9,7 @@
       "type": "hero",
       "eyebrow": "Enrolment",
       "heading": "School zone",
-      "lede": "All students who live within the Rosehill College home zone are entitled to enrol at the College. Check whether your address is in zone below.",
+      "lede": "All students who live within the Rosehill College home zone are entitled to enrol at the College. Check whether your address is in zone below — proof of residence within the home zone will be required, and you can see the full boundary on the interactive map.",
       "actions": [
         {
           "href": "https://www.educationcounts.govt.nz/find-school",
@@ -18,12 +18,6 @@
           "external": true
         }
       ]
-    },
-    {
-      "type": "prose",
-      "id": "in-zone",
-      "heading": "Are you in zone?",
-      "html": "<p>All students who live within the Rosehill College zone are entitled to enrol at the College. You can check if you are in zone by entering your address at the following link:</p><p><a href=\"https://www.educationcounts.govt.nz/find-school\" rel=\"external\"><strong>Check for your school zone</strong></a></p><p>Proof of residence within the home zone will be required. Use the interactive map below to see the full home zone boundary.</p>"
     },
     {
       "type": "embed",

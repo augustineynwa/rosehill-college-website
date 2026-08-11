@@ -1,7 +1,7 @@
 <section class="band {{#if pad}}band--{{pad}}{{/if}}" {{#if id}}id="{{id}}"{{/if}} {{#if theme}}data-theme="{{theme}}"{{/if}}>
   <div class="container">
     {{> section-head}}
-    <div class="accordion {{#unless wide}}col-narrow{{/unless}}" data-reveal>
+    <div class="accordion {{#if wide}}accordion--wide{{else}}col-narrow{{/if}}" data-reveal>
       {{#each items}}
       {{! shared name makes the group exclusive — opening one closes the others
           (native, no JS). Scoped to this section by its id so multiple accordions

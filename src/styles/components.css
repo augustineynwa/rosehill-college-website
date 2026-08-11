@@ -189,6 +189,9 @@ body { padding-top: var(--notice-h, 0px); }
               transform var(--dur-fast) var(--ease-out),
               visibility 0s linear var(--dur-fast);
 }
+/* invisible bridge across the 0.5rem gap so moving the pointer from the trigger
+   to the panel doesn't fall into a dead zone and close the menu */
+.site-nav__dropdown::before { content: ""; position: absolute; inset-inline: 0; top: -0.6rem; height: 0.6rem; }
 .site-nav__item.is-open .site-nav__dropdown {
   opacity: 1;
   visibility: visible;
@@ -782,6 +785,9 @@ a.logo-marquee__item:hover { transform: translateY(-2px); box-shadow: var(--shad
 .accordion__icon { flex-shrink: 0; transition: transform var(--dur-fast) var(--ease-out); }
 .accordion__item[open] .accordion__icon { transform: rotate(180deg); }
 .accordion__body { padding-block: 0 var(--sp-4); }
+/* wide accordions (e.g. Enrolment steps) let their content fill the column,
+   overriding the prose reading-width cap */
+.accordion--wide .accordion__body.prose { max-width: none; }
 
 /* ---------------------------------------------------------------- timeline */
 .timeline { position: relative; display: flex; flex-direction: column; gap: var(--sp-12); }
