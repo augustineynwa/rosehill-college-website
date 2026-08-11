@@ -633,6 +633,14 @@ figure.media-frame figcaption { padding: var(--sp-1) var(--sp-2); }
   aspect-ratio: var(--ratio-card);
 }
 
+/* Poster: a single tall graphic (e.g. the Every Day Counts infographic),
+   centred and width-capped so it stays readable rather than spanning full width. */
+.gallery--poster { grid-template-columns: 1fr; max-width: 40rem; margin-inline: auto; }
+.gallery--poster .gallery__item,
+.gallery--poster .gallery__item:nth-child(6n + 1),
+.gallery--poster .gallery__item:nth-child(6n + 5) { grid-column: 1 / -1; aspect-ratio: auto; }
+.gallery--poster .gallery__item img { width: 100%; height: auto; aspect-ratio: auto; object-fit: contain; }
+
 /* Panel: full-width items stacked in one column, each on a light panel so
    charts/diagrams stay readable on the dark theme (e.g. the attendance charts). */
 .gallery--panel { grid-template-columns: 1fr; gap: var(--sp-3); }

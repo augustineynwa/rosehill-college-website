@@ -77,34 +77,16 @@
     },
     {
       "type": "gallery",
-      "heading": "Every day counts",
-      "lede": "One or two days a week does not seem that much, but the missed learning adds up — and children learn best at the start of the day, so arriving late to school or class matters too.",
+      "id": "every-day-counts",
+      "poster": true,
+      "lightbox": true,
       "images": [
         {
-          "src": "assets/img/Attendance---Chart--1_1.avif",
-          "srcset": "/assets/img/Attendance---Chart--1_1-rp-500.avif 500w, /assets/img/Attendance---Chart--1_1-rp-800.avif 800w, /assets/img/Attendance---Chart--1_1-rp-1080.avif 1080w, /assets/img/Attendance---Chart--1_1-rp-1600.avif 1600w, /assets/img/Attendance---Chart--1_1.avif 1801w",
-          "alt": "Chart showing how missing one or two days a week adds up over a school year",
-          "caption": "1 or 2 days a week does not seem that much but...",
-          "fit": "natural",
-          "ar": "1801 / 378"
-        },
-        {
-          "src": "assets/img/Attendance---Chart_1.avif",
-          "srcset": "/assets/img/Attendance---Chart_1-rp-500.avif 500w, /assets/img/Attendance---Chart_1-rp-800.avif 800w, /assets/img/Attendance---Chart_1-rp-1080.avif 1080w, /assets/img/Attendance---Chart_1-rp-1600.avif 1600w, /assets/img/Attendance---Chart_1.avif 1838w",
-          "alt": "Chart showing the impact of missed school days on learning",
-          "fit": "natural",
-          "ar": "1838 / 1065"
-        },
-        {
-          "src": "assets/img/Attendance---Chart---3_1.avif",
-          "srcset": "/assets/img/Attendance---Chart---3_1-rp-500.avif 500w, /assets/img/Attendance---Chart---3_1-rp-800.avif 800w, /assets/img/Attendance---Chart---3_1-rp-1080.avif 1080w, /assets/img/Attendance---Chart---3_1-rp-1600.avif 1600w, /assets/img/Attendance---Chart---3_1.avif 1801w",
-          "alt": "Chart showing the impact of arriving late to school and class",
-          "caption": "Late for school, late to class? Children learn best at the start of the day.",
-          "fit": "natural",
-          "ar": "1801 / 448"
+          "src": "assets/img/Attendance-Every-Day-Counts.avif",
+          "alt": "Every Day Counts infographic — how school absences and lateness add up over a child’s time at school",
+          "caption": "Tap to view full size"
         }
-      ],
-      "panel": true
+      ]
     },
     {
       "type": "media-text",
