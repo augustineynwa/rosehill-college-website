@@ -19,9 +19,9 @@
     {
       "type": "table",
       "id": "standard-fees",
-      "heading": "Standard fees 2026 — full year",
+      "heading": "Standard fees 2027 — full year",
       "lede": "The tuition fee includes GST, textbooks on loan, ESOL tuition if required, airport meet and greet on first arrival, consumables for Technology and Art subjects, and participation in school sports teams.",
-      "caption": "Rosehill College international student standard fees 2026 (NZ$)",
+      "caption": "Rosehill College international student standard fees 2027 (NZ$)",
       "columns": [
         "Fee",
         "Amount (NZ$)"
@@ -29,7 +29,7 @@
       "rows": [
         [
           "Tuition fee (one full year)",
-          "$16,800"
+          "$17,300"
         ],
         [
           "Administration fee",
@@ -37,11 +37,11 @@
         ],
         [
           "Medical and travel insurance (cover for one year)",
-          "$700"
+          "$750"
         ],
         [
           "Weekly homestay fee (inclusive)",
-          "$380"
+          "$410"
         ],
         [
           "Caregiver support fee",
@@ -49,7 +49,7 @@
         ],
         [
           "Airport pick up/drop off (each way)",
-          "$90"
+          "$100"
         ],
         [
           "Holiday luggage storage (flat fee)",
@@ -60,9 +60,9 @@
     {
       "type": "table",
       "id": "one-term-fees",
-      "heading": "One-term fees 2026",
+      "heading": "One-term fees 2027",
       "lede": "For students joining us for a single term. Shorter stays are charged at a weekly tuition rate with a four-week minimum.",
-      "caption": "Rosehill College international student one-term fees 2026 (NZ$)",
+      "caption": "Rosehill College international student one-term fees 2027 (NZ$)",
       "columns": [
         "Fee",
         "Amount (NZ$)"
@@ -70,23 +70,27 @@
       "rows": [
         [
           "Tuition fee (one term)",
-          "$4,500"
+          "$4,750"
         ],
         [
-          "Weekly tuition fee (4 weeks minimum × $450 per week)",
-          "$1,800"
+          "Weekly tuition fee (4 weeks minimum × $475 per week)",
+          "$1,900"
         ],
         [
           "Administration fee",
-          "$300"
+          "$400"
         ],
         [
           "Medical and travel insurance (cover for one term)",
-          "$250"
+          "$270"
         ],
         [
           "Weekly homestay fee (inclusive)",
-          "$380"
+          "$410"
+        ],
+        [
+          "Weekly homestay fee (4 weeks or less)",
+          "$450"
         ],
         [
           "Caregiver support fee",
@@ -94,7 +98,7 @@
         ],
         [
           "Airport pick up/drop off (each way)",
-          "$90"
+          "$100"
         ]
       ]
     },
@@ -103,7 +107,7 @@
       "id": "additional-fees",
       "heading": "Additional fees",
       "lede": "Rosehill College is a digital school and students will require either a Chromebook, laptop, or tablet for all subjects. Mathematics students are required to use a scientific calculator.",
-      "caption": "Additional fees for international students 2026",
+      "caption": "Additional fees for international students 2027",
       "columns": [
         "Item",
         "Details"
@@ -145,17 +149,12 @@
     },
     {
       "type": "docs",
-      "heading": "Download the 2026 fee schedules",
+      "heading": "Download the 2027 fee schedule",
       "docs": [
         {
-          "href": "assets/docs/Standard---International-Student-Fees-2026.pdf",
-          "label": "Standard fees 2026",
-          "meta": "Full year — PDF"
-        },
-        {
-          "href": "assets/docs/One-Term---International-Student-Fees-2026.pdf",
-          "label": "One-term fees 2026",
-          "meta": "One term only — PDF"
+          "href": "assets/docs/Rosehill-College-International-Fees-2027.pdf",
+          "label": "Rosehill College international student fees 2027",
+          "meta": "Full year & one term — PDF"
         }
       ]
     },
