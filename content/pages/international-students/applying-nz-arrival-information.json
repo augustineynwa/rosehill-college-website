@@ -91,7 +91,7 @@
       "actions": [
         {
           "href": "https://enroller.app/rosehillcollege/enrolment-application",
-          "label": "Apply to study",
+          "label": "Apply now",
           "primary": true
         },
         {
