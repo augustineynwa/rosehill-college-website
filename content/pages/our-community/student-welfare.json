@@ -3,7 +3,7 @@
   "path": "our-community/student-welfare.html",
   "slug": "student-welfare",
   "title": "Student Welfare",
-  "metaDescription": "Student welfare at Rosehill College — deans, counsellors, the school nurse and pastoral care supporting student wellbeing and safety.",
+  "metaDescription": "Student welfare at Rosehill College — Te Whare Kimiora brings together our counselling team, registered nurses and Māori support (Kaimanaaki) to look after student wellbeing, health and safety.",
   "sections": [
     {
       "type": "hero",
@@ -56,32 +56,133 @@
       "html": "<p>Educators are recognising that restorative practices have many advantages over punishment alone:</p><ul><li>Restorative practices have a focus on people, not rules.</li><li>Restorative practices give victims a voice about how they want their case to be handled.</li><li>Restorative practices make students who offend accountable to the people they have hurt.</li><li>Restorative practices address the root cause of an issue, not just the symptoms.</li></ul><p><strong>How do restorative practices fit with our values?</strong> Perfectly! Rosehill College is a community of students, parents and staff — so having a community or hui response to wrong-doing is ideal. Restorative practices place a priority on protecting relationships and rebuilding them if they become damaged through a harmful incident. Restorative practices are built upon core values such as Respect, Responsibility and Caring — which match our own values.</p>"
     },
     {
-      "type": "prose",
-      "heading": "Student Support",
-      "html": "<p>Student Support is the department at Rosehill College dedicated to the welfare of students. It is staffed by three full-time counsellors, two full-time nurses and a <span lang=\"mi\">Kaimanaaki</span> (<span lang=\"mi\">Māori</span> support).</p><p>Our three experienced counsellors (Dr Elahe Khaleghian, Ms Phillipa MacCormick and Miss Paula Alontave) are full members of the New Zealand Association of Counsellors, receiving regular supervision of their work. They have contact with a wide range of agencies who can also assist with more complicated issues for students.</p><p>Our registered nurse, Mrs Serena Li, attends to emergencies, general illness and chronic illnesses. Parents are advised to keep their children at home if they are significantly unwell.</p><p>Our <span lang=\"mi\">Kaimanaaki</span> (<span lang=\"mi\">Whaea</span> Pare Matthews) provides general support to <span lang=\"mi\">Māori</span> students and their <span lang=\"mi\">whānau</span>. The role of our <span lang=\"mi\">Kaimanaaki</span> is to provide support that allows <span lang=\"mi\">Māori</span> students to succeed to their potential.</p>",
-      "aside": {
-        "image": {
-          "src": "assets/img/Our-Community---Student-Welfare---Student-Support_1.avif",
-          "srcset": "/assets/img/Our-Community---Student-Welfare---Student-Support_1-rp-500.avif 500w, /assets/img/Our-Community---Student-Welfare---Student-Support_1-rp-800.avif 800w, /assets/img/Our-Community---Student-Welfare---Student-Support_1-rp-1080.avif 1080w, /assets/img/Our-Community---Student-Welfare---Student-Support_1-rp-1600.avif 1600w, /assets/img/Our-Community---Student-Welfare---Student-Support_1-rp-2200.avif 2200w, /assets/img/Our-Community---Student-Welfare---Student-Support_1-rp-3000.avif 3000w",
-          "alt": "Rosehill College students supporting each other on campus"
+      "type": "media-text",
+      "id": "te-whare-kimiora",
+      "eyebrow": "Hauora — health & wellbeing",
+      "reo": true,
+      "heading": "Te Whare Kimiora",
+      "image": {
+        "src": "assets/img/Te-Whare-Kimiora-Team.avif",
+        "srcset": "/assets/img/Te-Whare-Kimiora-Team-rp-500.avif 500w, /assets/img/Te-Whare-Kimiora-Team-rp-800.avif 800w, /assets/img/Te-Whare-Kimiora-Team-rp-1080.avif 1080w, /assets/img/Te-Whare-Kimiora-Team-rp-1600.avif 1600w, /assets/img/Te-Whare-Kimiora-Team-rp-2200.avif 2200w, /assets/img/Te-Whare-Kimiora-Team.avif 2400w",
+        "alt": "The Te Whare Kimiora team at Rosehill College — the school counsellors and registered nurses"
+      },
+      "html": "<p><em lang=\"mi\">Me mahi tahi tātou mō te oranga o te katoa</em> — we work together for the wellbeing of everyone.</p><p>Te Whare Kimiora is our health and wellbeing hub, based in <strong>M4</strong> next to the nurses' clinic. It brings together our counselling team, registered nurses and <span lang=\"mi\">Kaimanaaki</span> (<span lang=\"mi\">Māori</span> support), so every student has somewhere safe to turn — whether they need to talk something through, see a nurse, or find the right support beyond school.</p>"
+    },
+    {
+      "type": "cards",
+      "id": "counselling-team",
+      "heading": "Our counselling team",
+      "lede": "Our counsellors are full members of the New Zealand Association of Counsellors (NZAC), receive regular supervision, and work alongside a wide range of agencies who can help with more complex needs.",
+      "cards": [
+        {
+          "eyebrow": "Head of Counselling",
+          "title": "Dr Elahe Khaleghian",
+          "text": "GradDip Teaching (Secondary) · MNZAC · EMDR trained"
+        },
+        {
+          "eyebrow": "Counsellor",
+          "title": "Phillipa MacCormick",
+          "text": "BCouns · GradDip Teaching (Secondary) · MNZAC"
+        },
+        {
+          "eyebrow": "Counsellor",
+          "title": "Paula Avontale",
+          "text": "MCouns · GradDip Teaching (Secondary) · MNZAC"
         }
-      }
+      ]
+    },
+    {
+      "type": "accordion",
+      "id": "talking-to-a-counsellor",
+      "heading": "Talking to a counsellor",
+      "items": [
+        {
+          "title": "What we can help with",
+          "open": true,
+          "html": "<p>Counselling is a safe, confidential space to talk things through. Students come to us about:</p><ul><li>Anxiety, low mood and stress</li><li>Grief and loss</li><li>Friendships, peer pressure and family relationships</li><li>Gender and sexuality identity</li><li>Addiction and coping with change</li><li>Conflict, and any concerns about safety</li></ul>"
+        },
+        {
+          "title": "How to get support",
+          "html": "<p>Students can get in touch in whatever way feels easiest:</p><ul><li>Email <a href=\"mailto:kimiora@rosehillcollege.school.nz\">kimiora@rosehillcollege.school.nz</a></li><li>Fill in an Appointment Request Form — on the bookshelf in the counselling building</li><li>Drop in to Te Whare Kimiora (M4) during break times</li></ul><p>Staff who are worried about a student can refer through the student's Head of House, who will follow up with the team.</p>"
+        },
+        {
+          "title": "Confidentiality",
+          "html": "<p>Our counsellors follow the NZAC Code of Ethics. What you share stays confidential — except where there is a risk to your safety or someone else's, in which case information is shared carefully and appropriately to keep everyone safe.</p>"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "nurse-team",
+      "heading": "Our registered nurse team",
+      "lede": "The Health Centre sits alongside Te Whare Kimiora in M4. Our registered nurses provide free, confidential health care to help students stay well, attend school and thrive.",
+      "cards": [
+        {
+          "eyebrow": "Registered Nurse & Nurse Prescriber",
+          "title": "Serena",
+          "text": "11+ years in acute adult and paediatric care · Postgraduate Diploma · on site Mon–Fri"
+        },
+        {
+          "eyebrow": "Registered Nurse",
+          "title": "Nathalie",
+          "text": "13 years across acute hospital and community settings · on site Tue–Thu"
+        },
+        {
+          "eyebrow": "Registered Nurse",
+          "title": "Janelle",
+          "text": "Over a decade in acute adult nursing · on site Mon–Fri"
+        }
+      ]
+    },
+    {
+      "type": "accordion",
+      "id": "visiting-the-health-centre",
+      "heading": "Visiting the Health Centre",
+      "items": [
+        {
+          "title": "What our nurses do",
+          "open": true,
+          "html": "<p>Our nurses assess, treat and monitor a wide range of health needs, including:</p><ul><li>Injuries, illness and medical concerns</li><li>Chronic conditions such as asthma and diabetes</li><li>A sexual health clinic — contraception, testing and treatment, and pregnancy testing and support</li><li>Sore-throat screening and treatment to help prevent rheumatic fever</li><li>Health promotion and prevention</li><li>Referrals to GPs, specialists and other health services</li></ul>"
+        },
+        {
+          "title": "Year 9 health check",
+          "html": "<p>Every Year 9 student is offered a general health check — a friendly look at their physical and emotional wellbeing, lifestyle, and any concerns they may have, with follow-up support, education or referrals where needed.</p>"
+        },
+        {
+          "title": "Non-urgent visits",
+          "html": "<p>The nurses see booked appointments and follow-ups, and also run a drop-in clinic. To protect learning time, students with minor or non-urgent concerns are encouraged to come at break times, or before and after school. Students visiting during class time must bring a note, or have an email sent to the nurses.</p>"
+        },
+        {
+          "title": "Emergencies and urgent concerns",
+          "html": "<p>For an emergency or urgent health concern, act straight away — call <strong>491, 492 or 891</strong>, or send someone to M4 to alert the nurses. You can also email <a href=\"mailto:nurses@rosehillcollege.school.nz\">nurses@rosehillcollege.school.nz</a>.</p>"
+        },
+        {
+          "title": "Confidentiality and consent",
+          "html": "<p>Student health information is managed in line with legal and professional requirements, including the Health Information Privacy Code. Information is kept confidential and only shared with the student's consent, or where there is a legal or safety reason to do so. Where appropriate, we always encourage students to involve their parents or <span lang=\"mi\">whānau</span>.</p>"
+        }
+      ]
+    },
+    {
+      "type": "prose",
+      "heading": "Kaimanaaki — Māori support",
+      "reo": true,
+      "html": "<p>Our <span lang=\"mi\">Kaimanaaki</span> (<span lang=\"mi\">Whaea</span> Pare Matthews) provides support to <span lang=\"mi\">Māori</span> students and their <span lang=\"mi\">whānau</span>. The role of our <span lang=\"mi\">Kaimanaaki</span> is to provide support that allows <span lang=\"mi\">Māori</span> students to succeed to their potential.</p>"
     },
     {
       "type": "list",
-      "heading": "Visiting Student Support",
+      "heading": "Peer Support Programme",
       "items": [
         {
-          "term": "Making appointments",
-          "text": "Students can 'drop in' during break times and may be able to find the person they are wanting to talk to. It is probably best for students to fill in an appointment slip with their details — the counsellor, Kaimanaaki or nurse will send for them using a runner."
+          "term": "Student Advisors",
+          "text": "Dr Khaleghian runs our Peer Support Programme with the help of teaching staff and 100–200 Student Advisors — trustworthy, friendly seniors from each House who train for two days over the summer holidays."
+        },
+        {
+          "term": "Supporting our Year 9s",
+          "text": "Once trained, Student Advisors welcome and support our Year 9 students on their very first day, right through Term One and beyond, helping them settle into life at Rosehill College."
         },
         {
           "term": "Programmes and groups",
-          "text": "There are always speciality support groups running for students. Students should drop in to Student Support to check, or just keep an eye on the Daily Notices."
-        },
-        {
-          "term": "Peer Support Programme",
-          "text": "Dr Khaleghian runs this programme with the support of teaching staff and 100–200 Student Advisors. Student Advisors are trustworthy and friendly seniors from each House who train for two days during the summer holidays. Once trained, the Student Advisors support Year 9s on their first day at school, for all of Term One and beyond."
+          "text": "There are always speciality support groups running for students. Drop in to Te Whare Kimiora to check what's on, or keep an eye on the Daily Notices."
         }
       ]
     },
