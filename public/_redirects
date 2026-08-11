@@ -65,3 +65,21 @@
 
 /join-us/school-zone-and-buses  /join-us/school-buses  301
 /join-us/school-zone-and-buses.html  /join-us/school-buses  301
+
+# subdirectory reorganisation (menu-aligned folders)
+/join-us/uniform-and-stationery  /our-school/uniform-and-stationery  301
+/join-us/uniform-and-stationery.html  /our-school/uniform-and-stationery  301
+/join-us/school-policies  /our-school/school-policies  301
+/join-us/school-policies.html  /our-school/school-policies  301
+/curriculum/mobile-phone-policy  /our-school/mobile-phone-policy  301
+/curriculum/mobile-phone-policy.html  /our-school/mobile-phone-policy  301
+/our-community/our-staff  /our-school/our-staff  301
+/our-community/our-staff.html  /our-school/our-staff  301
+/our-community/our-board  /our-school/our-board  301
+/our-community/our-board.html  /our-school/our-board  301
+/our-community/our-student-leaders  /our-school/our-student-leaders  301
+/our-community/our-student-leaders.html  /our-school/our-student-leaders  301
+/our-community/community-outreach  /our-school/community-outreach  301
+/our-community/community-outreach.html  /our-school/community-outreach  301
+/curriculum/alternative-education  /join-us/alternative-education  301
+/curriculum/alternative-education.html  /join-us/alternative-education  301

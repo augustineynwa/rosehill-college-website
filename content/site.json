@@ -75,7 +75,7 @@
           "children": [
             {
               "label": "School Policies",
-              "href": "join-us/school-policies.html"
+              "href": "our-school/school-policies.html"
             },
             {
               "label": "Strategic Plans",
@@ -87,7 +87,7 @@
             },
             {
               "label": "Mobile Phone Policy",
-              "href": "curriculum/mobile-phone-policy.html"
+              "href": "our-school/mobile-phone-policy.html"
             }
           ]
         },
@@ -96,15 +96,15 @@
           "children": [
             {
               "label": "Our Staff",
-              "href": "our-community/our-staff.html"
+              "href": "our-school/our-staff.html"
             },
             {
               "label": "Our School Board",
-              "href": "our-community/our-board.html"
+              "href": "our-school/our-board.html"
             },
             {
               "label": "Student Leaders",
-              "href": "our-community/our-student-leaders.html"
+              "href": "our-school/our-student-leaders.html"
             }
           ]
         },
@@ -113,7 +113,7 @@
           "children": [
             {
               "label": "Community Outreach",
-              "href": "our-community/community-outreach.html"
+              "href": "our-school/community-outreach.html"
             },
             {
               "label": "Adult & Community Education",
@@ -131,7 +131,7 @@
             },
             {
               "label": "Uniform & Stationery",
-              "href": "join-us/uniform-and-stationery.html"
+              "href": "our-school/uniform-and-stationery.html"
             },
             {
               "label": "School Buses",
@@ -258,7 +258,7 @@
         },
         {
           "heading": "Alternative Education",
-          "href": "curriculum/alternative-education.html"
+          "href": "join-us/alternative-education.html"
         },
         {
           "heading": "Staff Vacancies",

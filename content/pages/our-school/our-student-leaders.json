@@ -1,6 +1,6 @@
 {
   "layout": "page",
-  "path": "our-community/our-student-leaders.html",
+  "path": "our-school/our-student-leaders.html",
   "slug": "our-student-leaders",
   "title": "Our Student Leaders",
   "metaDescription": "Meet the Rosehill College student leaders — head students, prefects and council members shaping school culture and spirit.",
@@ -91,7 +91,7 @@
       "text": "Our Student Representative sits on the Rosehill College Board, making sure ākonga are heard where decisions are made.",
       "actions": [
         {
-          "href": "/our-community/our-board.html",
+          "href": "/our-school/our-board.html",
           "label": "Our board",
           "primary": true
         },

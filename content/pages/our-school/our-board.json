@@ -1,6 +1,6 @@
 {
   "layout": "page",
-  "path": "our-community/our-board.html",
+  "path": "our-school/our-board.html",
   "slug": "our-board",
   "title": "Our Board",
   "metaDescription": "Meet the Rosehill College Board — the parent, staff and student representatives who govern our Papakura secondary school.",
@@ -184,7 +184,7 @@
           "primary": true
         },
         {
-          "href": "/our-community/our-student-leaders.html",
+          "href": "/our-school/our-student-leaders.html",
           "label": "Our student leaders"
         }
       ]

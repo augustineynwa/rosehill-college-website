@@ -40,7 +40,7 @@
       "heading": "Returning to Rosehill College?",
       "html": "<p>If your child has previously attended Rosehill College and you wish to re-enrol them, please contact us directly by emailing <a href=\"mailto:enrolments@rosehillcollege.school.nz\">enrolments@rosehillcollege.school.nz</a>.</p><p>We are here to assist you with a smooth and efficient re-enrolment process.</p>",
       "aside": {
-        "html": "<p><strong>Privacy commitment</strong></p><p>We are committed to safeguarding your personal information throughout the enrolment process. For more details, please review our <a href=\"/join-us/school-policies.html\">Privacy Policy</a>.</p>"
+        "html": "<p><strong>Privacy commitment</strong></p><p>We are committed to safeguarding your personal information throughout the enrolment process. For more details, please review our <a href=\"/our-school/school-policies.html\">Privacy Policy</a>.</p>"
       },
       "eyebrow": "Re-enrolment",
       "id": "returning"
@@ -260,7 +260,7 @@
           "label": "Course information"
         },
         {
-          "href": "/join-us/uniform-and-stationery.html",
+          "href": "/our-school/uniform-and-stationery.html",
           "label": "Uniform and stationery"
         }
       ]

@@ -1,6 +1,6 @@
 {
   "layout": "page",
-  "path": "our-community/our-staff.html",
+  "path": "our-school/our-staff.html",
   "slug": "our-staff",
   "title": "Our Staff",
   "metaDescription": "Meet the dedicated and experienced staff at Rosehill College — our senior leadership team, heads of house, curriculum leaders and support staff.",
@@ -258,7 +258,7 @@
           "primary": true
         },
         {
-          "href": "/our-community/our-board.html",
+          "href": "/our-school/our-board.html",
           "label": "Meet our board"
         }
       ]
