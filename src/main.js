@@ -266,6 +266,55 @@ document.querySelectorAll('[data-calendar]').forEach((cal) => {
   });
 })();
 
+// Video modal: [data-hero-play] plays a film full-frame with sound + controls.
+// The hero keeps its muted ambient loop; this is the "sit down and watch it" path.
+(() => {
+  const triggers = [...document.querySelectorAll('[data-hero-play]')];
+  if (!triggers.length) return;
+  let overlay, videoEl, opener = null;
+
+  const build = () => {
+    overlay = document.createElement('div');
+    overlay.className = 'video-modal';
+    overlay.setAttribute('role', 'dialog');
+    overlay.setAttribute('aria-modal', 'true');
+    overlay.innerHTML =
+      '<button class="video-modal__close" type="button" aria-label="Close video">×</button>' +
+      '<div class="video-modal__frame"><video class="video-modal__video" controls playsinline preload="none"></video></div>';
+    document.body.appendChild(overlay);
+    videoEl = overlay.querySelector('.video-modal__video');
+    overlay.addEventListener('click', (e) => {
+      if (e.target === overlay || e.target.closest('.video-modal__close')) close();
+    });
+  };
+
+  const open = (t) => {
+    if (!overlay) build();
+    opener = t;
+    const src = t.dataset.video;
+    if (videoEl.getAttribute('src') !== src) videoEl.setAttribute('src', src);
+    videoEl.setAttribute('aria-label', t.dataset.title || 'Video');
+    overlay.classList.add('is-open');
+    document.documentElement.style.overflow = 'hidden';
+    try { videoEl.currentTime = 0; } catch (_) {}
+    const p = videoEl.play();
+    if (p && p.catch) p.catch(() => {});
+    overlay.querySelector('.video-modal__close').focus();
+  };
+  const close = () => {
+    if (!overlay) return;
+    videoEl.pause();
+    overlay.classList.remove('is-open');
+    document.documentElement.style.overflow = '';
+    opener?.focus();
+  };
+
+  triggers.forEach((t) => t.addEventListener('click', () => open(t)));
+  document.addEventListener('keydown', (e) => {
+    if (overlay && overlay.classList.contains('is-open') && e.key === 'Escape') close();
+  });
+})();
+
 // smooth momentum scroll + shared entrance/parallax motion — only when allowed
 if (motionOK) {
   Promise.all([
