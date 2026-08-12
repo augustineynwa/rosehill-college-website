@@ -87,6 +87,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.7em;
+  margin-block-start: clamp(2rem, 5vh, 3.25rem);
   padding: 0.7em 1.4em 0.7em 1.1em;
   border: 1px solid rgba(255, 255, 255, 0.28);
   border-radius: 999px;
