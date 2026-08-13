@@ -51,8 +51,9 @@
         {
           "external": false,
           "title": "Student Handbook",
-          "href": "assets/docs/Student-Handbook.pdf",
-          "cta": "View"
+          "href": "https://www.rosehillcollege.school.nz/assets/docs/Student-Handbook.pdf",
+          "cta": "View",
+          "text": "Everything students need to know at Rosehill College."
         }
       ]
     },
