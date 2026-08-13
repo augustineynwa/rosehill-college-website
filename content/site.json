@@ -1,32 +1,4 @@
 {
-  "name": "Rosehill College",
-  "motto": "Mā tātau hangahanga ai te taiao hiranga",
-  "vision": "Together we create an environment for personal excellence",
-  "baseUrl": "https://rosehillcollege.school.nz",
-  "web3formsKey": "f32c5ddb-ea14-4c5f-a380-49ea5fe81988",
-  "notice": {
-    "active": false,
-    "level": "urgent",
-    "message": "",
-    "link": {
-      "label": "",
-      "href": ""
-    },
-    "expires": ""
-  },
-  "address": {
-    "physical": [
-      "5 Edinburgh Avenue,",
-      "Rosehill,",
-      "Papakura 2113,",
-      "New Zealand"
-    ],
-    "postal": [
-      "PO Box 72546,",
-      "Papakura 2244,",
-      "New Zealand"
-    ]
-  },
   "contact": {
     "phone": "+64 9 295 0661",
     "phoneHref": "tel:+6492950661",
@@ -35,13 +7,6 @@
     "attendanceEmail": "attendance@rosehillcollege.school.nz",
     "attendancePhone": "0800 722 929",
     "attendancePhoneHref": "tel:0800722929"
-  },
-  "external": {
-    "myRhc": "my-rhc.html",
-    "schoolApp": "https://rosehillcollege.bridge.school.nz/app",
-    "adultEducation": "https://www.rosehilladultlearn.co.nz/",
-    "facebook": "https://www.facebook.com/rosehillcollegeofficial/",
-    "instagram": "https://www.instagram.com/rosehillcollegeofficial/"
   },
   "nav": [
     {
@@ -303,6 +268,42 @@
       ]
     }
   ],
+  "copyright": "© 2026 Rosehill College",
+  "vision": "Together we create an environment for personal excellence",
+  "name": "Rosehill College",
+  "external": {
+    "myRhc": "my-rhc.html",
+    "schoolApp": "https://rosehillcollege.bridge.school.nz/app",
+    "adultEducation": "https://www.rosehilladultlearn.co.nz/",
+    "facebook": "https://www.facebook.com/rosehillcollegeofficial/",
+    "instagram": "https://www.instagram.com/rosehillcollegeofficial/"
+  },
+  "motto": "Mā tātau hangahanga ai te taiao hiranga",
+  "web3formsKey": "f32c5ddb-ea14-4c5f-a380-49ea5fe81988",
+  "address": {
+    "physical": [
+      "5 Edinburgh Avenue,",
+      "Rosehill,",
+      "Papakura 2113,",
+      "New Zealand"
+    ],
+    "postal": [
+      "PO Box 72546,",
+      "Papakura 2244,",
+      "New Zealand"
+    ]
+  },
+  "notice": {
+    "active": false,
+    "level": "important",
+    "message": "Year 9 and Year 10 students will be taking part in the Haka Competition during Periods 5 and 6 today.\n\nPlease note that early pick-up will not be available after 12.50pm, as we will not be able to bring students out of the competition to sign them out.\n\nThank you for your understanding.",
+    "link": {
+      "label": "",
+      "href": ""
+    },
+    "expires": "2026-08-15"
+  },
+  "baseUrl": "https://rosehillcollege.school.nz",
   "footerLinks": [
     {
       "label": "Term Dates",
@@ -320,6 +321,5 @@
       "label": "Contact Us",
       "href": "contact-us.html"
     }
-  ],
-  "copyright": "© 2026 Rosehill College"
+  ]
 }
