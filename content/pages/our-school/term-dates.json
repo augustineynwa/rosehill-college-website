@@ -35,7 +35,7 @@
         [
           "Term 3",
           "Monday 20 July – Friday 25 September",
-          "Teacher-only Day — TBC"
+          "Teacher-only Day — Friday 21 August"
         ],
         [
           "Term 4",
@@ -127,16 +127,16 @@
       ]
     },
     {
-      "type": "calendar",
-      "id": "calendar",
-      "reo": true,
-      "eyebrow": "Te maramataka",
+      "fullUrl": "https://calendar.google.com/calendar/embed?src=vsvce98eru5fb6nlq34ij2semni16b68%40import.calendar.google.com&ctz=Pacific%2FAuckland&showTitle=0&showTabs=0&showPrint=0",
       "heading": "Rosehill College calendar",
+      "agendaUrl": "https://calendar.google.com/calendar/embed?src=vsvce98eru5fb6nlq34ij2semni16b68%40import.calendar.google.com&ctz=Pacific%2FAuckland&mode=AGENDA&showTitle=0&showTabs=0&showPrint=0",
       "fullLabel": "Calendar",
       "agendaLabel": "Key Dates",
-      "fullUrl": "https://calendar.google.com/calendar/embed?src=vsvce98eru5fb6nlq34ij2semni16b68%40import.calendar.google.com&ctz=Pacific%2FAuckland&showTitle=0&showTabs=0&showPrint=0",
-      "agendaUrl": "https://calendar.google.com/calendar/embed?src=vsvce98eru5fb6nlq34ij2semni16b68%40import.calendar.google.com&ctz=Pacific%2FAuckland&mode=AGENDA&showTitle=0&showTabs=0&showPrint=0",
-      "iframeTitle": "Rosehill College events calendar"
+      "eyebrow": "Te maramataka",
+      "iframeTitle": "Rosehill College events calendar",
+      "type": "calendar",
+      "id": "calendar",
+      "reo": true
     },
     {
       "type": "cta",
