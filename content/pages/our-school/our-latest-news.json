@@ -19,33 +19,19 @@
       "cards": [
         {
           "external": false,
+          "title": "🐝 Spelling Bee Success for Asher",
+          "text": "A big congratulations to Year 10 student Asher, who has qualified for the Aotearoa New Zealand National Spelling Bee Auckland Regional Final in September.\n\nThat puts Asher among the top 350 spellers in the country, which is a fantastic achievement. He will now compete for a place in the national finals in Wellington next month.\n\nAll the best, Asher! We will be cheering you on at the Regional Final. 🐝📚",
+          "image": {
+            "src": "assets/img/spelling-bee.webp"
+          }
+        },
+        {
+          "external": false,
           "title": "🌺FIAFIA NIGHT 2026🌺",
           "text": "Come along for an evening of culture, music, dance and celebration at Fiafia Night 2026.\n\nOur Rosehill College students will take the stage to share their cultures and talents through performances, colourful costumes and plenty of energy. It is a great opportunity for whānau, friends and our wider community to come together and support our students.\n\n📅Friday 21 August 2026\n🕕6.00 pm\n📍The Hall, Rosehill College\n🪙$2 entry\n\nEveryone is welcome. Come along, support our students and enjoy the evening with us.",
           "image": {
             "src": "assets/img/fiafia.jpg",
             "alt": "fiafia night 2026"
-          }
-        },
-        {
-          "title": "Introducing our 2026 head students",
-          "text": "Congratulations to our newly announced head students for 2026. Meet the full student leadership team.",
-          "href": "/our-school/our-student-leaders.html",
-          "cta": "Meet our student leaders",
-          "image": {
-            "src": "assets/img/2026-head-students-04.avif",
-            "srcset": "/assets/img/2026-head-students-04-rp-500.avif 500w, /assets/img/2026-head-students-04-rp-800.avif 800w, /assets/img/2026-head-students-04-rp-1080.avif 1080w, /assets/img/2026-head-students-04.avif 1237w",
-            "alt": "Rosehill College 2026 head students"
-          }
-        },
-        {
-          "title": "Start of Year Letter to Parents 2026",
-          "text": "Everything whānau need to know about the start of the 2026 school year, from the Principal.",
-          "href": "/assets/docs/Start-of-Year-Letter-to-Parents-2026.pdf",
-          "cta": "Read the letter (PDF)",
-          "image": {
-            "src": "assets/img/back-to-school.avif",
-            "srcset": "",
-            "alt": "Back to school at Rosehill College"
           }
         }
       ]
