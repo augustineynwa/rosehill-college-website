@@ -31,7 +31,8 @@
       "actions": [
         {
           "href": "mailto:enrolments@rosehillcollege.school.nz",
-          "label": "Email the enrolment team"
+          "label": "Email the Enrolment Team",
+          "primary": true
         }
       ]
     },
