@@ -105,8 +105,8 @@
           ]
         },
         {
-          "title": "Confirmation of enrolment",
-          "html": "<p>Once we have received your application and all required documents, we will review your enrolment. For students who live within the Rosehill College enrolment zone, enrolment will be confirmed once all information has been verified. Processing times may vary during busy enrolment periods.</p><p>When your child’s enrolment has been approved, we will send a confirmation by email. <strong>Please ensure the email address and phone number provided on your application are correct so we can contact you if we need to.</strong></p>"
+          "title": "CONFIRMATION OF ENROLMENT",
+          "html": "Once we have received your application and all required documents, we will review your enrolment. For students who live within the Rosehill College enrolment zone, enrolment will be confirmed once all information has been verified. Processing times may vary during busy enrolment periods.\n\nWhen your child’s enrolment has been approved, we will send a confirmation by email. **Please ensure the email address and phone number provided on your application are correct so we can contact you if we need to.**\n\nUnder the **Education and Training Act 2020**, schools may cancel an enrolment if it is later found that a student was not living permanently within the Rosehill College enrolment zone at the time the application was made."
         }
       ],
       "wide": true
@@ -119,7 +119,7 @@
       "actions": [
         {
           "href": "https://rosehillcollege.school.kiwi/enrolment",
-          "label": "Start new enrolment application",
+          "label": "Start New Enrolment Application",
           "primary": true
         }
       ]
@@ -129,7 +129,7 @@
       "id": "out-of-zone",
       "flip": true,
       "eyebrow": "Out-of-zone enrolment",
-      "heading": "Out-of-zone enrolment",
+      "heading": "Out-of-zone Enrolment",
       "image": {
         "src": "assets/img/Out-of-Zone_1.avif",
         "srcset": "/assets/img/Out-of-Zone_1-rp-500.avif 500w, /assets/img/Out-of-Zone_1-rp-800.avif 800w, /assets/img/Out-of-Zone_1-rp-1080.avif 1080w, /assets/img/Out-of-Zone_1-rp-1600.avif 1600w, /assets/img/Out-of-Zone_1-rp-2200.avif 2200w, /assets/img/Out-of-Zone_1.avif 2480w",
@@ -137,17 +137,17 @@
         "fit": "natural",
         "ar": "2480 / 3507"
       },
-      "html": "<p>All out-of-zone enrolment applicants must collect an Out-of-Zone Enrolment Pack from the school reception. <strong>Online applications for out-of-zone enrolments are not accepted and will not be processed.</strong></p><p>A non-refundable administration fee of $50 is payable when the completed out-of-zone application is submitted. This fee applies to all out-of-zone applications and is not refundable, regardless of the outcome of the ballot process.</p>"
+      "html": "All out-of-zone enrolment applicants must collect an Out-of-zone Enrolment Pack from the school reception. **Online applications for out-of-zone enrolments are not accepted and will not be processed.**\n\nA **non-refundable administration fee of $50** is payable when the completed out-of-zone application is submitted. This fee applies to all out-of-zone applications and is not refundable, regardless of the outcome of the ballot process."
     },
     {
       "type": "prose",
       "heading": "How out-of-zone places are allocated",
-      "html": "<p>Each year, the Rosehill College Board will determine the number of places likely to be available in the following year for the enrolment of students who live outside the home zone. The Board will publish this information on our school website. The notice will indicate how applications are to be made and will specify a date by which all applications must be received.</p><p><strong>Applications for enrolment will be processed in the following order of priority:</strong></p><ol><li><strong>First priority:</strong> this priority is not applicable at this school because the school does not run a special programme approved by the Secretary for Education.</li><li><strong>Second priority:</strong> will be given to applicants who are siblings of current students.</li><li><strong>Third priority:</strong> will be given to applicants who are siblings of former students.</li><li><strong>Fourth priority:</strong> will be given to any applicant who is a child of a former student of the school.</li><li><strong>Fifth priority:</strong> will be given to any applicant who is either a child of an employee of the board of the school or a child of a member of the board of the school.</li><li><strong>Sixth priority:</strong> will be given to all other applicants.</li></ol><p>If there are more applicants in the second, third, fourth, or fifth priority groups than there are available places, selection within the priority group will be determined by ballot, conducted in accordance with the instructions of the Secretary under Section 11G(1) of the Education Act 1989. Parents will be informed of the ballot date by notice in a daily or community newspaper circulating in the area served by the school.</p><p><strong>Applicants seeking second or third priority status may be required to give proof of a sibling relationship.</strong></p>"
+      "html": "Each year, the Rosehill College Board will determine the number of places likely to be available in the following year for the enrolment of students who live outside the home zone. The Board will publish this information on our school website. The notice will indicate how applications are to be made and will specify a date by which all applications must be received.\n\n##### Applications for enrolment will be processed in the following order of priority:\n\n* **First priority:** this priority is not applicable at this school because the school does not run a special programme approved by the Secretary for Education.\n* **Second priority:** will be given to applicants who are siblings of current students.\n* **Third priority:** will be given to applicants who are siblings of former students.\n* **Fourth priority:** will be given to any applicant who is a child of a former student of the school.\n* **Fifth priority:** will be given to any applicant who is either a child of an employee of the board of the school or a child of a member of the board of the school.\n* **Sixth priority:** will be given to all other applicants.\n\nIf there are more applicants in the second, third, fourth, or fifth priority groups than there are available places, selection within the priority group will be determined by ballot, conducted in accordance with the instructions of the Secretary under Section 11G(1) of the Education Act 1989. Parents will be informed of the ballot date by notice in a daily or community newspaper circulating in the area served by the school.\n\n**Applicants seeking second or third priority status may be required to give proof of a sibling relationship.**"
     },
     {
       "type": "table",
       "heading": "Out-of-zone placements for 2027",
-      "lede": "The Rosehill College Board has carefully looked at the number of places we can offer for the upcoming school year. How many spaces are available depends on the number of in-zone enrolments we receive.",
+      "lede": "The Rosehill College Board has carefully considered the number of out-of-zone places available for the upcoming school year. The final number of available spaces depends on the number of in-zone enrolments received. The available places are listed below:",
       "caption": "Out-of-zone placements available for 2027",
       "columns": [
         "Year level",
@@ -216,13 +216,13 @@
     },
     {
       "type": "prose",
-      "heading": "Ballot results",
-      "html": "<p>The out-of-zone ballot is scheduled to take place on <strong>Wednesday 9 September 2026</strong>. Parents and caregivers will be notified of the outcome via email shortly after the ballot has been conducted.</p><p>If your child is offered a place, please confirm your acceptance within <strong>14 days</strong>. Any unaccepted placements will be offered to students on the waiting list in the order their names were drawn.</p><p>If you have not received your ballot result after the draw, please contact us for assistance.</p><p>Please note: additional ballots may only occur if the Board determines that further places become available during the school year.</p>"
+      "heading": "Ballot Results",
+      "html": "The out-of-zone ballot is scheduled to take place on **Wednesday 9 September 2026**. Parents and caregivers will be notified of the outcome via email shortly after the ballot has been conducted.\n\nIf your child is offered a place, please confirm your acceptance within **14 days**. Any unaccepted placements will be offered to students on the waiting list in the order their names were drawn.\n\nIf you have not received your ballot result after the draw, please contact us for assistance.\n\nPlease note: additional ballots may only occur if the Board determines that further places become available during the school year."
     },
     {
       "type": "table",
       "id": "key-dates",
-      "heading": "Enrolment key dates for 2027",
+      "heading": "Enrolment Key Dates for 2027",
       "lede": "Please note that the timeline for enrolment 2027 is provisional and subject to change. The dates outlined reflect our current planning and may be adjusted in accordance with Ministry of Education guidelines and internal scheduling updates. We encourage you to check our website regularly for the most up-to-date enrolment information.",
       "caption": "Enrolment year 2027 key dates",
       "columns": [
@@ -248,7 +248,7 @@
         ],
         [
           "Thursday 10 December 2026",
-          "Year 8 students transition days"
+          "Year 8 students Transition Day"
         ]
       ]
     },
@@ -256,16 +256,16 @@
       "type": "cta",
       "eyebrow": "Tīmata tō haerenga",
       "reo": true,
-      "heading": "Start your journey with us",
+      "heading": "Start Your Journey with Us",
       "text": "Become part of the Rosehill College whānau — explore detailed course descriptions and uniform requirements as you prepare to enrol.",
       "actions": [
         {
-          "href": "/curriculum/course-information.html",
-          "label": "Course information"
+          "href": "/curriculum/course-information",
+          "label": "Course Information"
         },
         {
-          "href": "/our-school/uniform-and-stationery.html",
-          "label": "Uniform and stationery"
+          "href": "/our-school/uniform-and-stationery",
+          "label": "Uniform and Stationery"
         }
       ]
     }
