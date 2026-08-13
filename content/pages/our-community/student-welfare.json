@@ -99,15 +99,15 @@
         {
           "title": "What we can help with",
           "open": true,
-          "html": "<p>Counselling is a safe, confidential space to talk things through. Students come to us about:</p><ul><li>Anxiety, low mood and stress</li><li>Grief and loss</li><li>Friendships, peer pressure and family relationships</li><li>Gender and sexuality identity</li><li>Addiction and coping with change</li><li>Conflict, and any concerns about safety</li></ul>"
+          "html": "Our school-based health and wellbeing services are here to help students stay healthy, feel supported, and take part in school life.\n\nThe team provides a safe and welcoming place where students can talk about health concerns, receive appropriate care, ask questions, and get help when something is affecting their wellbeing or ability to learn.\n\nOur aim is to make healthcare easier to access for students who may face barriers such as cost, transport, cultural concerns, or simply not knowing where to go for support."
         },
         {
           "title": "How to get support",
           "html": "<p>Students can get in touch in whatever way feels easiest:</p><ul><li>Email <a href=\"mailto:kimiora@rosehillcollege.school.nz\">kimiora@rosehillcollege.school.nz</a></li><li>Fill in an Appointment Request Form — on the bookshelf in the counselling building</li><li>Drop in to Te Whare Kimiora (M4) during break times</li></ul><p>Staff who are worried about a student can refer through the student's Head of House, who will follow up with the team.</p>"
         },
         {
-          "title": "Confidentiality",
-          "html": "<p>Our counsellors follow the NZAC Code of Ethics. What you share stays confidential — except where there is a risk to your safety or someone else's, in which case information is shared carefully and appropriately to keep everyone safe.</p>"
+          "title": "Confidentiality and Consent",
+          "html": "Students' health information is managed in accordance with legal and professional requirements, including the Health Information Privacy Code.\n\nInformation shared with the health team is treated confidentially. There are circumstances where information may need to be shared to meet legal or safety requirements.\n\nWhere appropriate, we encourage students to involve their parents or caregivers in decisions about their health. We recognise, however, that having a trusted and confidential place to seek help can be an important part of supporting young people."
         }
       ]
     },
@@ -142,23 +142,19 @@
         {
           "title": "What our nurses do",
           "open": true,
-          "html": "<p>Our nurses assess, treat and monitor a wide range of health needs, including:</p><ul><li>Injuries, illness and medical concerns</li><li>Chronic conditions such as asthma and diabetes</li><li>A sexual health clinic — contraception, testing and treatment, and pregnancy testing and support</li><li>Sore-throat screening and treatment to help prevent rheumatic fever</li><li>Health promotion and prevention</li><li>Referrals to GPs, specialists and other health services</li></ul>"
+          "html": "Our health team can support students with a range of health and wellbeing needs, including:\n\n* General health concerns\n* Injuries and accidents\n* Medical concerns and ongoing health conditions\n* Health checks and health education\n* Emotional wellbeing and mental health support\n* Healthy lifestyle and health promotion\n* Support with managing health conditions at school\n* Health advice and information\n* Referral to other health and support services when needed"
         },
         {
-          "title": "Year 9 health check",
-          "html": "<p>Every Year 9 student is offered a general health check — a friendly look at their physical and emotional wellbeing, lifestyle, and any concerns they may have, with follow-up support, education or referrals where needed.</p>"
+          "title": "Year 9 Health Checks",
+          "html": "Year 9 students may be offered a health check covering their general physical and emotional wellbeing, lifestyle, and any health concerns they would like to discuss.\n\nWhere further support is needed, the health team can provide follow-up advice or help connect the student with an appropriate service."
         },
         {
-          "title": "Non-urgent visits",
-          "html": "<p>The nurses see booked appointments and follow-ups, and also run a drop-in clinic. To protect learning time, students with minor or non-urgent concerns are encouraged to come at break times, or before and after school. Students visiting during class time must bring a note, or have an email sent to the nurses.</p>"
-        },
-        {
-          "title": "Emergencies and urgent concerns",
-          "html": "<p>For an emergency or urgent health concern, act straight away — call <strong>491, 492 or 891</strong>, or send someone to M4 to alert the nurses. You can also email <a href=\"mailto:nurses@rosehillcollege.school.nz\">nurses@rosehillcollege.school.nz</a>.</p>"
-        },
-        {
-          "title": "Confidentiality and consent",
+          "title": "Our Approach",
           "html": "<p>Student health information is managed in line with legal and professional requirements, including the Health Information Privacy Code. Information is kept confidential and only shared with the student's consent, or where there is a legal or safety reason to do so. Where appropriate, we always encourage students to involve their parents or <span lang=\"mi\">whānau</span>.</p>"
+        },
+        null,
+        {
+          "html": "Health, wellbeing, and learning are closely connected. When students are healthy and supported, they are better able to attend school, engage in learning, and make the most of their opportunities.\n\nWe work alongside students, whānau, staff, and appropriate health services to help students get the support they need."
         }
       ]
     },
