@@ -26,7 +26,7 @@ The design stays locked, so the site always looks right no matter what you type.
 
 ## 1. Getting in
 
-1. Go to **https://rosehill-college-website.pages.dev/admin/**
+1. Go to **https://rosehillcollege.school.nz/admin/**
 2. Click **Login with GitHub**
 3. If it asks, click **Authorize** (first time only on each computer)
 

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rosehill-college-website.pages.dev/sitemap.xml
+Sitemap: https://rosehillcollege.school.nz/sitemap.xml
