@@ -50,7 +50,7 @@
       "type": "media-text",
       "id": "in-zone",
       "eyebrow": "In-zone enrolment",
-      "heading": "In-zone enrolment",
+      "heading": "In-zone Enrolment",
       "image": {
         "src": "assets/img/In-Zone_1.avif",
         "srcset": "/assets/img/In-Zone_1-rp-500.avif 500w, /assets/img/In-Zone_1-rp-800.avif 800w, /assets/img/In-Zone_1-rp-1080.avif 1080w, /assets/img/In-Zone_1-rp-1600.avif 1600w, /assets/img/In-Zone_1-rp-2200.avif 2200w, /assets/img/In-Zone_1.avif 2480w",
@@ -58,7 +58,7 @@
         "fit": "natural",
         "ar": "2480 / 3507"
       },
-      "html": "<p>Complete your application online for a fast and straightforward process.</p><p>If you do not have access to an electronic device, computers are available at our front office for you to complete your online enrolment. Our front office staff are also available to assist you with the process.</p>"
+      "html": "<p>Complete your application online for a fast and straightforward process.</p>\n\n<p>If you do not have access to an electronic device, computers are available at our front office for you to complete your online enrolment. Our front office staff are also available to assist you with the process.</p>"
     },
     {
       "type": "accordion",
