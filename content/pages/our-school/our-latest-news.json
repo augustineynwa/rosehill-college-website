@@ -47,18 +47,6 @@
             "srcset": "",
             "alt": "Back to school at Rosehill College"
           }
-        },
-        {
-          "title": "School app upgrade in progress",
-          "text": "Our school app is being upgraded — find out what is changing and what you need to do.",
-          "href": "/school-app-upgrade-in-progress.html",
-          "cta": "Read the update",
-          "image": {
-            "src": "assets/img/School-App-Flyer.avif",
-            "srcset": "/assets/img/School-App-Flyer-rp-500.avif 500w, /assets/img/School-App-Flyer-rp-800.avif 800w, /assets/img/School-App-Flyer-rp-1080.avif 1080w, /assets/img/School-App-Flyer-rp-1600.avif 1600w, /assets/img/School-App-Flyer-rp-2200.avif 2200w, /assets/img/School-App-Flyer.avif 2479w",
-            "alt": "Rosehill College school app flyer",
-            "fit": "contain"
-          }
         }
       ]
     },
