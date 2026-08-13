@@ -47,18 +47,12 @@
           "title": "BYOD",
           "text": "Digital learning and which device to bring to school.",
           "href": "/curriculum/digital-learning-and-byod.html"
-        }
-      ]
-    },
-    {
-      "type": "docs",
-      "id": "downloads",
-      "heading": "Handbook & key documents",
-      "docs": [
+        },
         {
+          "external": false,
+          "title": "Student Handbook",
           "href": "assets/docs/Student-Handbook.pdf",
-          "label": "Rosehill College Student Handbook",
-          "meta": "PDF"
+          "cta": "View"
         }
       ]
     },
