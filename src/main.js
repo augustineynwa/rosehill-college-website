@@ -116,6 +116,45 @@ if (document.querySelector('[data-search-input]')) {
   import('./js/search.js').then(({ initSearch }) => initSearch());
 }
 
+// Live staff vacancies — pulled from the careers feed (managed in the admin hub)
+// and rendered natively. Every value from the feed is escaped before it hits the
+// DOM. Filling or closing a vacancy drops it from the feed automatically.
+document.querySelectorAll('[data-vacancies]').forEach((mount) => {
+  const feed = mount.dataset.feed;
+  if (!feed) return;
+  const esc = (s) => String(s == null ? '' : s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  const note = (msg) => { mount.innerHTML = `<p class="vacancy-list__empty">${msg}</p>`; };
+  fetch(feed, { headers: { Accept: 'application/json' } })
+    .then((r) => r.json())
+    .then((data) => {
+      const list = Array.isArray(data && data.vacancies) ? data.vacancies : [];
+      if (!list.length) {
+        note('There are no vacancies listed at present. Please check back regularly, or contact the school office if you would like to know more about working at Rosehill College.');
+        return;
+      }
+      mount.innerHTML = list.map((v) => {
+        const meta = [v.faculty, v.position_type].filter(Boolean).map(esc).join(' · ');
+        let closes = '';
+        if (v.closing_date) {
+          const d = new Date(v.closing_date);
+          if (!isNaN(d)) closes = `Closes ${d.toLocaleDateString('en-NZ', { day: 'numeric', month: 'long', year: 'numeric' })}`;
+        }
+        const metaLine = [meta, closes].filter(Boolean).join('&nbsp; · &nbsp;');
+        const desc = v.description ? `<div class="vacancy__body prose">${esc(v.description).replace(/\n/g, '<br>')}</div>` : '';
+        const apply = v.contact_email ? `<p class="vacancy__apply"><a class="btn btn--red btn--sm" href="mailto:${esc(v.contact_email)}">Enquire / apply</a></p>` : '';
+        return `<article class="vacancy">`
+          + `<h3 class="vacancy__title">${esc(v.title)}</h3>`
+          + (metaLine ? `<p class="vacancy__meta caption">${metaLine}</p>` : '')
+          + (v.tagline ? `<p class="vacancy__tagline">${esc(v.tagline)}</p>` : '')
+          + desc + apply
+          + `</article>`;
+      }).join('');
+    })
+    .catch(() => note("We couldn't load current vacancies just now. Please try again shortly, or contact the school office."));
+});
+
 // click-to-load facade for heavy third-party embeds (e.g. Google Calendar)
 document.querySelectorAll('[data-embed-facade]').forEach((facade) => {
   const btn = facade.querySelector('.embed-facade__button');

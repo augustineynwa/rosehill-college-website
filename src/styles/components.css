@@ -1044,6 +1044,23 @@ a.logo-marquee__item:hover { transform: translateY(-2px); box-shadow: var(--shad
 }
 .video-modal__close:hover { color: var(--c-gold); border-color: var(--c-gold); }
 
+/* live vacancies feed (Staff Vacancies) */
+.vacancy-list { display: flex; flex-direction: column; gap: var(--sp-4); }
+.vacancy-list__status, .vacancy-list__empty { color: var(--fg-soft); margin: 0; }
+.vacancy {
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: var(--sp-4) var(--sp-5, 1.5rem);
+  animation: vacancy-in 0.5s var(--ease-out) both;
+}
+.vacancy__title { font-size: var(--step-1); margin: 0; }
+.vacancy__meta { margin: 0.35rem 0 0; color: var(--fg-faint); }
+.vacancy__tagline { margin: 0.7rem 0 0; font-weight: 600; color: var(--fg-soft); }
+.vacancy__body { margin-top: 0.7rem; }
+.vacancy__apply { margin: var(--sp-3) 0 0; }
+@keyframes vacancy-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
 /* anchor targets clear the fixed header when jumped to directly */
 html { scroll-padding-top: calc(var(--notice-h, 0px) + var(--header-h) + 1rem); }
 

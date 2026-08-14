@@ -195,6 +195,10 @@ const S = {
     fields: [anchorId(), ...head(), md('aside', 'Side panel content')],
   },
   search: { label: 'Search box', name: 'search', widget: 'object', fields: [hidden('id')] },
+  vacancies: {
+    label: 'Live vacancies (careers feed)', name: 'vacancies', widget: 'object',
+    fields: [anchorId(), ...head(), hidden('feed')],
+  },
   'news-list': {
     label: 'News list', name: 'news-list', widget: 'object',
     fields: [anchorId(), ...head(), {
@@ -350,6 +354,7 @@ const settings = {
       // technical fields — declared (as hidden) so Decap round-trips them
       // instead of dropping them when staff save Site settings.
       hidden('baseUrl'), hidden('web3formsKey'),
+      hidden('web3formsKeyGeneral'), hidden('web3formsKeyEnrolment'), hidden('web3formsKeyInternational'),
       str('name', 'School name'), str('motto', 'Motto (te reo Māori)'), txt('vision', 'Vision (English)'),
       {
         label: 'Addresses', name: 'address', widget: 'object', collapsed: true,

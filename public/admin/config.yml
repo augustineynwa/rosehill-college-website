@@ -14,7 +14,7 @@ local_backend: true
 media_folder: public/assets/img
 public_folder: assets/img
 publish_mode: simple
-site_url: https://rosehill-college-website.pages.dev
+site_url: https://rosehillcollege.school.nz
 logo_url: /assets/img/RHC-Official-Crest.svg
 collections:
   - name: settings
@@ -1184,6 +1184,35 @@ collections:
                     name: id
                     widget: hidden
                     required: false
+              - label: Live vacancies (careers feed)
+                name: vacancies
+                widget: object
+                fields:
+                  - label: id
+                    name: id
+                    widget: hidden
+                    required: false
+                  - label: Eyebrow (small label above the heading)
+                    name: eyebrow
+                    widget: string
+                    required: false
+                  - label: Eyebrow is te reo Māori
+                    name: reo
+                    widget: boolean
+                    required: false
+                    default: false
+                  - label: Heading
+                    name: heading
+                    widget: string
+                    required: false
+                  - label: Intro paragraph
+                    name: lede
+                    widget: text
+                    required: false
+                  - label: feed
+                    name: feed
+                    widget: hidden
+                    required: false
               - &ref_2
                 label: News list
                 name: news-list
@@ -1418,6 +1447,146 @@ collections:
             types: *ref_0
             summary: '{{fields.heading}}'
             hint: Each block is one section of the page. Drag to reorder.
+      - name: community-sponsors-four-winds-foundation
+        label: Four Winds Foundation — community sponsors
+        file: content/pages/community-sponsors/four-winds-foundation.json
+        format: json
+        preview_path: community-sponsors/four-winds-foundation
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: community-sponsors/four-winds-foundation.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: four-winds-foundation
+          - label: noindex
+            name: noindex
+            widget: hidden
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: community-sponsors-grassroots-trust
+        label: Grassroots Trust — community sponsors
+        file: content/pages/community-sponsors/grassroots-trust.json
+        format: json
+        preview_path: community-sponsors/grassroots-trust
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: community-sponsors/grassroots-trust.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: grassroots-trust
+          - label: noindex
+            name: noindex
+            widget: hidden
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: community-sponsors-pub-charity
+        label: Pub Charity — community sponsors
+        file: content/pages/community-sponsors/pub-charity.json
+        format: json
+        preview_path: community-sponsors/pub-charity
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: community-sponsors/pub-charity.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: pub-charity
+          - label: noindex
+            name: noindex
+            widget: hidden
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: community-sponsors-rano-community-trust
+        label: Rano Community Trust — community sponsors
+        file: content/pages/community-sponsors/rano-community-trust.json
+        format: json
+        preview_path: community-sponsors/rano-community-trust
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: community-sponsors/rano-community-trust.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: rano-community-trust
+          - label: noindex
+            name: noindex
+            widget: hidden
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
       - name: contact-us
         label: Contact Us
         file: content/pages/contact-us.json
@@ -1436,41 +1605,6 @@ collections:
             name: slug
             widget: hidden
             default: contact-us
-          - label: noindex
-            name: noindex
-            widget: hidden
-          - label: Page title
-            name: title
-            widget: string
-          - label: Search-engine description
-            name: metaDescription
-            widget: text
-            required: false
-          - label: Sections
-            name: sections
-            widget: list
-            typeKey: type
-            types: *ref_0
-            summary: '{{fields.heading}}'
-            hint: Each block is one section of the page. Drag to reorder.
-      - name: curriculum-alternative-education
-        label: Alternative Education — curriculum
-        file: content/pages/curriculum/alternative-education.json
-        format: json
-        preview_path: curriculum/alternative-education
-        fields:
-          - label: layout
-            name: layout
-            widget: hidden
-            default: page
-          - label: path
-            name: path
-            widget: hidden
-            default: curriculum/alternative-education.html
-          - label: slug
-            name: slug
-            widget: hidden
-            default: alternative-education
           - label: noindex
             name: noindex
             widget: hidden
@@ -1628,41 +1762,6 @@ collections:
             types: *ref_0
             summary: '{{fields.heading}}'
             hint: Each block is one section of the page. Drag to reorder.
-      - name: curriculum-mobile-phone-policy
-        label: Mobile Phone Policy — curriculum
-        file: content/pages/curriculum/mobile-phone-policy.json
-        format: json
-        preview_path: curriculum/mobile-phone-policy
-        fields:
-          - label: layout
-            name: layout
-            widget: hidden
-            default: page
-          - label: path
-            name: path
-            widget: hidden
-            default: curriculum/mobile-phone-policy.html
-          - label: slug
-            name: slug
-            widget: hidden
-            default: mobile-phone-policy
-          - label: noindex
-            name: noindex
-            widget: hidden
-          - label: Page title
-            name: title
-            widget: string
-          - label: Search-engine description
-            name: metaDescription
-            widget: text
-            required: false
-          - label: Sections
-            name: sections
-            widget: list
-            typeKey: type
-            types: *ref_0
-            summary: '{{fields.heading}}'
-            hint: Each block is one section of the page. Drag to reorder.
       - name: curriculum-ncea
         label: Ncea — curriculum
         file: content/pages/curriculum/ncea.json
@@ -1716,41 +1815,6 @@ collections:
             name: slug
             widget: hidden
             default: our-rosehill-college-way
-          - label: noindex
-            name: noindex
-            widget: hidden
-          - label: Page title
-            name: title
-            widget: string
-          - label: Search-engine description
-            name: metaDescription
-            widget: text
-            required: false
-          - label: Sections
-            name: sections
-            widget: list
-            typeKey: type
-            types: *ref_0
-            summary: '{{fields.heading}}'
-            hint: Each block is one section of the page. Drag to reorder.
-      - name: curriculum-student-support
-        label: Student Support — curriculum
-        file: content/pages/curriculum/student-support.json
-        format: json
-        preview_path: curriculum/student-support
-        fields:
-          - label: layout
-            name: layout
-            widget: hidden
-            default: page
-          - label: path
-            name: path
-            widget: hidden
-            default: curriculum/student-support.html
-          - label: slug
-            name: slug
-            widget: hidden
-            default: student-support
           - label: noindex
             name: noindex
             widget: hidden
@@ -2362,6 +2426,41 @@ collections:
             types: *ref_0
             summary: '{{fields.heading}}'
             hint: Each block is one section of the page. Drag to reorder.
+      - name: join-us-alternative-education
+        label: Alternative Education — join us
+        file: content/pages/join-us/alternative-education.json
+        format: json
+        preview_path: join-us/alternative-education
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: join-us/alternative-education.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: alternative-education
+          - label: noindex
+            name: noindex
+            widget: hidden
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
       - name: join-us-enrolment
         label: Enrolment — join us
         file: content/pages/join-us/enrolment.json
@@ -2432,11 +2531,11 @@ collections:
             types: *ref_0
             summary: '{{fields.heading}}'
             hint: Each block is one section of the page. Drag to reorder.
-      - name: join-us-school-policies
-        label: School Policies — join us
-        file: content/pages/join-us/school-policies.json
+      - name: join-us-school-buses
+        label: School Buses — join us
+        file: content/pages/join-us/school-buses.json
         format: json
-        preview_path: join-us/school-policies
+        preview_path: join-us/school-buses
         fields:
           - label: layout
             name: layout
@@ -2445,11 +2544,11 @@ collections:
           - label: path
             name: path
             widget: hidden
-            default: join-us/school-policies.html
+            default: join-us/school-buses.html
           - label: slug
             name: slug
             widget: hidden
-            default: school-policies
+            default: school-buses
           - label: noindex
             name: noindex
             widget: hidden
@@ -2467,11 +2566,11 @@ collections:
             types: *ref_0
             summary: '{{fields.heading}}'
             hint: Each block is one section of the page. Drag to reorder.
-      - name: join-us-school-zone-and-buses
-        label: School Zone And Buses — join us
-        file: content/pages/join-us/school-zone-and-buses.json
+      - name: join-us-school-zone
+        label: School Zone — join us
+        file: content/pages/join-us/school-zone.json
         format: json
-        preview_path: join-us/school-zone-and-buses
+        preview_path: join-us/school-zone
         fields:
           - label: layout
             name: layout
@@ -2480,11 +2579,11 @@ collections:
           - label: path
             name: path
             widget: hidden
-            default: join-us/school-zone-and-buses.html
+            default: join-us/school-zone.html
           - label: slug
             name: slug
             widget: hidden
-            default: school-zone-and-buses
+            default: school-zone
           - label: noindex
             name: noindex
             widget: hidden
@@ -2537,41 +2636,6 @@ collections:
             types: *ref_0
             summary: '{{fields.heading}}'
             hint: Each block is one section of the page. Drag to reorder.
-      - name: join-us-uniform-and-stationery
-        label: Uniform And Stationery — join us
-        file: content/pages/join-us/uniform-and-stationery.json
-        format: json
-        preview_path: join-us/uniform-and-stationery
-        fields:
-          - label: layout
-            name: layout
-            widget: hidden
-            default: page
-          - label: path
-            name: path
-            widget: hidden
-            default: join-us/uniform-and-stationery.html
-          - label: slug
-            name: slug
-            widget: hidden
-            default: uniform-and-stationery
-          - label: noindex
-            name: noindex
-            widget: hidden
-          - label: Page title
-            name: title
-            widget: string
-          - label: Search-engine description
-            name: metaDescription
-            widget: text
-            required: false
-          - label: Sections
-            name: sections
-            widget: list
-            typeKey: type
-            types: *ref_0
-            summary: '{{fields.heading}}'
-            hint: Each block is one section of the page. Drag to reorder.
       - name: my-rhc
         label: My Rhc
         file: content/pages/my-rhc.json
@@ -2590,146 +2654,6 @@ collections:
             name: slug
             widget: hidden
             default: my-rhc
-          - label: noindex
-            name: noindex
-            widget: hidden
-          - label: Page title
-            name: title
-            widget: string
-          - label: Search-engine description
-            name: metaDescription
-            widget: text
-            required: false
-          - label: Sections
-            name: sections
-            widget: list
-            typeKey: type
-            types: *ref_0
-            summary: '{{fields.heading}}'
-            hint: Each block is one section of the page. Drag to reorder.
-      - name: our-community-community-outreach
-        label: Community Outreach — our community
-        file: content/pages/our-community/community-outreach.json
-        format: json
-        preview_path: our-community/community-outreach
-        fields:
-          - label: layout
-            name: layout
-            widget: hidden
-            default: page
-          - label: path
-            name: path
-            widget: hidden
-            default: our-community/community-outreach.html
-          - label: slug
-            name: slug
-            widget: hidden
-            default: community-outreach
-          - label: noindex
-            name: noindex
-            widget: hidden
-          - label: Page title
-            name: title
-            widget: string
-          - label: Search-engine description
-            name: metaDescription
-            widget: text
-            required: false
-          - label: Sections
-            name: sections
-            widget: list
-            typeKey: type
-            types: *ref_0
-            summary: '{{fields.heading}}'
-            hint: Each block is one section of the page. Drag to reorder.
-      - name: our-community-our-board
-        label: Our Board — our community
-        file: content/pages/our-community/our-board.json
-        format: json
-        preview_path: our-community/our-board
-        fields:
-          - label: layout
-            name: layout
-            widget: hidden
-            default: page
-          - label: path
-            name: path
-            widget: hidden
-            default: our-community/our-board.html
-          - label: slug
-            name: slug
-            widget: hidden
-            default: our-board
-          - label: noindex
-            name: noindex
-            widget: hidden
-          - label: Page title
-            name: title
-            widget: string
-          - label: Search-engine description
-            name: metaDescription
-            widget: text
-            required: false
-          - label: Sections
-            name: sections
-            widget: list
-            typeKey: type
-            types: *ref_0
-            summary: '{{fields.heading}}'
-            hint: Each block is one section of the page. Drag to reorder.
-      - name: our-community-our-staff
-        label: Our Staff — our community
-        file: content/pages/our-community/our-staff.json
-        format: json
-        preview_path: our-community/our-staff
-        fields:
-          - label: layout
-            name: layout
-            widget: hidden
-            default: page
-          - label: path
-            name: path
-            widget: hidden
-            default: our-community/our-staff.html
-          - label: slug
-            name: slug
-            widget: hidden
-            default: our-staff
-          - label: noindex
-            name: noindex
-            widget: hidden
-          - label: Page title
-            name: title
-            widget: string
-          - label: Search-engine description
-            name: metaDescription
-            widget: text
-            required: false
-          - label: Sections
-            name: sections
-            widget: list
-            typeKey: type
-            types: *ref_0
-            summary: '{{fields.heading}}'
-            hint: Each block is one section of the page. Drag to reorder.
-      - name: our-community-our-student-leaders
-        label: Our Student Leaders — our community
-        file: content/pages/our-community/our-student-leaders.json
-        format: json
-        preview_path: our-community/our-student-leaders
-        fields:
-          - label: layout
-            name: layout
-            widget: hidden
-            default: page
-          - label: path
-            name: path
-            widget: hidden
-            default: our-community/our-student-leaders.html
-          - label: slug
-            name: slug
-            widget: hidden
-            default: our-student-leaders
           - label: noindex
             name: noindex
             widget: hidden
@@ -2817,6 +2741,41 @@ collections:
             types: *ref_0
             summary: '{{fields.heading}}'
             hint: Each block is one section of the page. Drag to reorder.
+      - name: our-school-community-outreach
+        label: Community Outreach — our school
+        file: content/pages/our-school/community-outreach.json
+        format: json
+        preview_path: our-school/community-outreach
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: our-school/community-outreach.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: community-outreach
+          - label: noindex
+            name: noindex
+            widget: hidden
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
       - name: our-school-kaupapa-maori
         label: Kaupapa Maori — our school
         file: content/pages/our-school/kaupapa-maori.json
@@ -2870,6 +2829,76 @@ collections:
             name: slug
             widget: hidden
             default: life-at-rosehill-college
+          - label: noindex
+            name: noindex
+            widget: hidden
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: our-school-mobile-phone-policy
+        label: Mobile Phone Policy — our school
+        file: content/pages/our-school/mobile-phone-policy.json
+        format: json
+        preview_path: our-school/mobile-phone-policy
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: our-school/mobile-phone-policy.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: mobile-phone-policy
+          - label: noindex
+            name: noindex
+            widget: hidden
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: our-school-our-board
+        label: Our Board — our school
+        file: content/pages/our-school/our-board.json
+        format: json
+        preview_path: our-school/our-board
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: our-school/our-board.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: our-board
           - label: noindex
             name: noindex
             widget: hidden
@@ -2957,6 +2986,76 @@ collections:
             types: *ref_0
             summary: '{{fields.heading}}'
             hint: Each block is one section of the page. Drag to reorder.
+      - name: our-school-our-staff
+        label: Our Staff — our school
+        file: content/pages/our-school/our-staff.json
+        format: json
+        preview_path: our-school/our-staff
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: our-school/our-staff.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: our-staff
+          - label: noindex
+            name: noindex
+            widget: hidden
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: our-school-our-student-leaders
+        label: Our Student Leaders — our school
+        file: content/pages/our-school/our-student-leaders.json
+        format: json
+        preview_path: our-school/our-student-leaders
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: our-school/our-student-leaders.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: our-student-leaders
+          - label: noindex
+            name: noindex
+            widget: hidden
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
       - name: our-school-principals-message
         label: Principals Message — our school
         file: content/pages/our-school/principals-message.json
@@ -2975,6 +3074,41 @@ collections:
             name: slug
             widget: hidden
             default: principals-message
+          - label: noindex
+            name: noindex
+            widget: hidden
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: our-school-school-policies
+        label: School Policies — our school
+        file: content/pages/our-school/school-policies.json
+        format: json
+        preview_path: our-school/school-policies
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: our-school/school-policies.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: school-policies
           - label: noindex
             name: noindex
             widget: hidden
@@ -3045,6 +3179,41 @@ collections:
             name: slug
             widget: hidden
             default: term-dates
+          - label: noindex
+            name: noindex
+            widget: hidden
+          - label: Page title
+            name: title
+            widget: string
+          - label: Search-engine description
+            name: metaDescription
+            widget: text
+            required: false
+          - label: Sections
+            name: sections
+            widget: list
+            typeKey: type
+            types: *ref_0
+            summary: '{{fields.heading}}'
+            hint: Each block is one section of the page. Drag to reorder.
+      - name: our-school-uniform-and-stationery
+        label: Uniform And Stationery — our school
+        file: content/pages/our-school/uniform-and-stationery.json
+        format: json
+        preview_path: our-school/uniform-and-stationery
+        fields:
+          - label: layout
+            name: layout
+            widget: hidden
+            default: page
+          - label: path
+            name: path
+            widget: hidden
+            default: our-school/uniform-and-stationery.html
+          - label: slug
+            name: slug
+            widget: hidden
+            default: uniform-and-stationery
           - label: noindex
             name: noindex
             widget: hidden
