@@ -280,9 +280,6 @@
   },
   "motto": "Mā tātau hangahanga ai te taiao hiranga",
   "web3formsKey": "3c8b7c5f-23a2-47f4-a37f-df556fd9ea6f",
-  "web3formsKeyGeneral": "3c8b7c5f-23a2-47f4-a37f-df556fd9ea6f",
-  "web3formsKeyEnrolment": "65f53f37-fd76-496a-b76a-b1610f9b2cce",
-  "web3formsKeyInternational": "",
   "address": {
     "physical": [
       "5 Edinburgh Avenue,",
@@ -296,6 +293,7 @@
       "New Zealand"
     ]
   },
+  "web3formsKeyEnrolment": "65f53f37-fd76-496a-b76a-b1610f9b2cce",
   "notice": {
     "active": true,
     "level": "important",
@@ -304,8 +302,9 @@
       "label": "",
       "href": ""
     },
-    "expires": "2026-08-15"
+    "expires": "2026-08-14"
   },
+  "web3formsKeyGeneral": "3c8b7c5f-23a2-47f4-a37f-df556fd9ea6f",
   "baseUrl": "https://rosehillcollege.school.nz",
   "footerLinks": [
     {
@@ -324,5 +323,6 @@
       "label": "Contact Us",
       "href": "contact-us.html"
     }
-  ]
+  ],
+  "web3formsKeyInternational": ""
 }
