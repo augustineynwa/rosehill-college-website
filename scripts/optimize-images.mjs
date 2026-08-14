@@ -83,17 +83,26 @@ async function optimise(src) {
     }
   }
 
-  // 2) oversized AVIF upload (no variants yet) → re-encode leaner in place
-  if (ext === '.avif' && !hasVariants(base, ext)) {
+  // 2) oversized AVIF upload (no variants yet) → re-encode leaner under a NEW
+  //    name. A new filename is essential: re-encoding in place keeps the URL, so
+  //    Cloudflare's 7-day image cache would keep serving the old, heavy bytes.
+  //    The "-lean" suffix also marks it done, so it's never re-processed.
+  if (ext === '.avif' && !base.endsWith('-lean') && !hasVariants(base, ext)) {
     let size = 0; try { size = statSync(abs).size; } catch {}
     if (size > AVIF_BUDGET) {
       try {
         const buf = await sharp(abs, { limitInputPixels: false })
           .resize({ width: MAX_WIDTH, withoutEnlargement: true })
           .avif(AVIF).toBuffer();
-        if (buf.length < size) { writeFileSync(abs, buf); reencoded++; }
-        handled.set(key, key.startsWith('assets/img/') ? key : `assets/img/${relPath}`);
-        return handled.get(key);
+        if (buf.length < size) {
+          const outAbs = join(IMG_DIR, `${base}-lean.avif`);
+          writeFileSync(outAbs, buf);
+          if (abs !== outAbs) { try { rmSync(abs); } catch {} }
+          reencoded++;
+          const newSrc = `assets/img/${base}-lean.avif`;
+          handled.set(key, newSrc);
+          return newSrc;
+        }
       } catch (e) {
         console.warn(`  ! could not re-encode ${relPath}: ${e.message}`);
       }
