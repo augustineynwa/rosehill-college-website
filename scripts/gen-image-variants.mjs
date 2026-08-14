@@ -119,9 +119,15 @@ async function processNode(node) {
   if (node && typeof node === 'object') {
     // an image object: has a string src pointing at assets/img and a srcset field
     if (typeof node.src === 'string' && node.src.includes('assets/img/') && 'srcset' in node) {
-      if (!node.srcset) {
-        const ss = await ensureVariants(node.src);
-        if (ss) node.srcset = ss;
+      // Regenerate when the srcset is missing OR stale — i.e. it points at a
+      // different image than src. The CMS "Photo" field only updates src, so
+      // after a photo swap the old srcset lingers and browsers keep loading the
+      // old image. Detect the mismatch and rebuild (an empty result clears a
+      // stale srcset when the new image needs no variants).
+      const srcBase = basename(node.src, extname(node.src));
+      const srcsetMatchesSrc = node.srcset && node.srcset.includes(`/assets/img/${srcBase}`);
+      if (!srcsetMatchesSrc) {
+        node.srcset = await ensureVariants(node.src);
       }
       if (node.fit === 'natural') {
         const ar = await intrinsicRatio(node.src);
