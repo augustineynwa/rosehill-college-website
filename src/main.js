@@ -80,10 +80,17 @@ document.querySelectorAll('[data-web3form]').forEach((form) => {
     const label = btn?.textContent;
     if (btn) { btn.disabled = true; btn.textContent = 'Sending…'; }
     try {
-      // Everything routes to one inbox for now; prefix the subject with the
-      // chosen category so the office can see at a glance where to forward it.
       const fd = new FormData(form);
       const category = fd.get('enquiry_category');
+      // Route each category straight to its own inbox via a per-category
+      // Web3Forms key. Categories without a key yet fall back to the default
+      // access_key already in the form. Subject is prefixed either way.
+      const routeKey = {
+        'General enquiry': form.dataset.keyGeneral,
+        'Enrolment': form.dataset.keyEnrolment,
+        'International Students': form.dataset.keyInternational,
+      }[category];
+      if (routeKey) fd.set('access_key', routeKey);
       if (category) fd.set('subject', `[${category}] ${fd.get('subject') || ''}`.trim());
       const res = await fetch(form.action, {
         method: 'POST',

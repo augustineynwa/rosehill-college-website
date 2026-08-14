@@ -280,6 +280,9 @@
   },
   "motto": "Mā tātau hangahanga ai te taiao hiranga",
   "web3formsKey": "f32c5ddb-ea14-4c5f-a380-49ea5fe81988",
+  "web3formsKeyGeneral": "",
+  "web3formsKeyEnrolment": "65f53f37-fd76-496a-b76a-b1610f9b2cce",
+  "web3formsKeyInternational": "",
   "address": {
     "physical": [
       "5 Edinburgh Avenue,",

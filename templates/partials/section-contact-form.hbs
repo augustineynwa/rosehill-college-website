@@ -4,7 +4,10 @@
     <div class="grid band__body">
       <form class="contact-form col-main stack" method="post"
             action="https://api.web3forms.com/submit"
-            data-web3form data-reveal>
+            data-web3form data-reveal
+            data-key-general="{{page.site.web3formsKeyGeneral}}"
+            data-key-enrolment="{{page.site.web3formsKeyEnrolment}}"
+            data-key-international="{{page.site.web3formsKeyInternational}}">
         <input type="hidden" name="access_key" value="{{page.site.web3formsKey}}">
         <input type="hidden" name="from_name" value="Rosehill College website">
         {{! honeypot — hidden from people, catches bots that fill every field }}

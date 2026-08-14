@@ -82,6 +82,18 @@ collections:
             name: web3formsKey
             widget: hidden
             required: false
+          - label: web3formsKeyGeneral
+            name: web3formsKeyGeneral
+            widget: hidden
+            required: false
+          - label: web3formsKeyEnrolment
+            name: web3formsKeyEnrolment
+            widget: hidden
+            required: false
+          - label: web3formsKeyInternational
+            name: web3formsKeyInternational
+            widget: hidden
+            required: false
           - label: School name
             name: name
             widget: string
