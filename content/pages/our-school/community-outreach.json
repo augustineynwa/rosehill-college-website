@@ -65,7 +65,7 @@
       "lede": "Rosehill College is grateful to the community trusts and funders whose grants support our students, facilities and programmes.",
       "logos": [
         {
-          "src": "assets/img/Tupiki-Trust.webp",
+          "src": "assets/img/Tupiki-Trust.avif",
           "srcset": "",
           "fit": "contain",
           "alt": "Tupiki Trust logo",
@@ -117,8 +117,8 @@
           "caption": "Dragon Community Trust"
         },
         {
-          "src": "assets/img/Lottery-Grants-Board.webp",
-          "srcset": "/assets/img/Lottery-Grants-Board-rp-500.webp 500w, /assets/img/Lottery-Grants-Board-rp-800.webp 800w, /assets/img/Lottery-Grants-Board-rp-1080.webp 1080w, /assets/img/Lottery-Grants-Board.webp 1204w",
+          "src": "assets/img/Lottery-Grants-Board.avif",
+          "srcset": "/assets/img/Lottery-Grants-Board-rp-500.avif 500w, /assets/img/Lottery-Grants-Board-rp-800.avif 800w, /assets/img/Lottery-Grants-Board-rp-1080.avif 1080w, /assets/img/Lottery-Grants-Board.avif 1204w",
           "fit": "contain",
           "alt": "Lottery Grants Board logo",
           "caption": "Lottery Grants Board"

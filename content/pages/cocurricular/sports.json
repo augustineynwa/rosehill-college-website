@@ -198,14 +198,16 @@
       "lede": "We are grateful to the local businesses whose support helps our teams take the field.",
       "logos": [
         {
-          "src": "assets/img/sponsor-dynasty.webp",
+          "src": "assets/img/sponsor-dynasty.avif",
           "alt": "Dynasty",
-          "fit": "contain"
+          "fit": "contain",
+          "srcset": ""
         },
         {
-          "src": "assets/img/sponsor-carlton-haulage.webp",
+          "src": "assets/img/sponsor-carlton-haulage.avif",
           "alt": "Carlton Haulage",
-          "fit": "contain"
+          "fit": "contain",
+          "srcset": ""
         },
         {
           "src": "assets/img/sponsor-enzed.avif",
