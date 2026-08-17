@@ -199,6 +199,10 @@ const S = {
     label: 'Live vacancies (careers feed)', name: 'vacancies', widget: 'object',
     fields: [anchorId(), ...head(), hidden('feed')],
   },
+  'post-list': {
+    label: 'News list (shows posts automatically)', name: 'post-list', widget: 'object',
+    fields: [anchorId(), ...head()],
+  },
   'news-list': {
     label: 'News list', name: 'news-list', widget: 'object',
     fields: [anchorId(), ...head(), {
@@ -417,6 +421,35 @@ const config = {
   logo_url: '/assets/img/RHC-Official-Crest.svg',
   collections: [
     settings,
+    {
+      name: 'posts',
+      label: 'News posts',
+      label_singular: 'News post',
+      description: 'Each post gets its own page. Newest posts show first on the News page.',
+      folder: 'content/posts',
+      create: true,
+      slug: '{{slug}}',
+      identifier_field: 'title',
+      summary: '{{title}}',
+      sortable_fields: ['date', 'title'],
+      editor: { preview: false },
+      fields: [
+        str('title', 'Title', { required: true }),
+        { label: 'Date', name: 'date', widget: 'datetime', date_format: 'YYYY-MM-DD', time_format: false, required: false,
+          hint: 'Controls the order on the News page — newest first.' },
+        image('image', 'Featured image (shown on the News list)'),
+        txt('excerpt', 'Short summary (optional)', { hint: 'One or two sentences shown on the News list. Leave blank and it is taken from the start of the post.' }),
+        md('body', 'Post', 'Write the story — headings, bold, links and inline images all work.'),
+        { label: 'Photo gallery (optional)', name: 'gallery', widget: 'list', label_singular: 'Photo', collapsed: true, required: false,
+          summary: '{{fields.caption}} {{fields.alt}}',
+          fields: [
+            { label: 'Photo', name: 'src', widget: 'image', required: false },
+            str('alt', 'Alt text'),
+            str('caption', 'Caption'),
+            hidden('srcset'),
+          ] },
+      ],
+    },
     { name: 'pages', label: 'Pages', editor: { preview: false }, files },
   ],
 };

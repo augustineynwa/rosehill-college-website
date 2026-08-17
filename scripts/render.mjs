@@ -12,7 +12,7 @@
 import Handlebars from 'handlebars';
 import { marked } from 'marked';
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, statSync, rmSync, existsSync } from 'node:fs';
-import { join, dirname, relative } from 'node:path';
+import { join, dirname, relative, basename } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -179,8 +179,9 @@ function sectionText(sec) {
 }
 
 let count = 0;
-for (const f of walk(join(CONTENT, 'pages'), '.json')) {
-  const page = JSON.parse(readFileSync(f, 'utf8'));
+
+// render one page object to disk, and (optionally) add it to search + sitemap
+function emitPage(page, { index = true } = {}) {
   renderRichText(page.sections);
   const outPath = join(ROOT, page.path);
   const depth = page.path.split('/').length - 1;
@@ -195,9 +196,8 @@ for (const f of walk(join(CONTENT, 'pages'), '.json')) {
   }));
   mkdirSync(dirname(outPath), { recursive: true });
   writeFileSync(outPath, html, 'utf8');
-  const indexable = !['404.html', 'search.html', '401.html', 'my-rhc.html'].includes(page.path)
-    && !page.noindex;
-  if (indexable) {
+  const excluded = ['404.html', 'search.html', '401.html', 'my-rhc.html'].includes(page.path);
+  if (index && !excluded && !page.noindex) {
     searchIndex.push({
       title: page.title,
       href: canonicalPath,
@@ -207,6 +207,81 @@ for (const f of walk(join(CONTENT, 'pages'), '.json')) {
     sitemapPaths.push(canonicalPath);
   }
   count++;
+}
+
+// ---------- news posts (folder collection → own pages + paginated archive) ----------
+const NEWS_DIR = 'our-school/news';
+const POSTS_PER_PAGE = 6;
+const nzDate = (d) => {
+  const dt = new Date(d);
+  return isNaN(dt) ? '' : dt.toLocaleDateString('en-NZ', { day: 'numeric', month: 'long', year: 'numeric' });
+};
+function excerptFrom(body, max = 180) {
+  const t = String(body || '')
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, ' ')      // images
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')     // links → text
+    .replace(/[#>*_`~]|<[^>]+>/g, ' ')           // md marks + html
+    .replace(/\s+/g, ' ').trim();
+  return t.length <= max ? t : t.slice(0, max).replace(/\s+\S*$/, '') + '…';
+}
+const posts = walk(join(CONTENT, 'posts'), '.json').map((f) => {
+  const p = JSON.parse(readFileSync(f, 'utf8'));
+  if (!p.slug) p.slug = basename(f).replace(/\.json$/, '');
+  p.excerpt = p.excerpt || excerptFrom(p.body);
+  return p;
+}).sort((a, b) => new Date(b.date) - new Date(a.date));
+
+// each post is rendered through the standard page layout, from generated sections
+for (const post of posts) {
+  const sections = [
+    { type: 'hero', eyebrow: nzDate(post.date), heading: post.title, lede: post.excerpt, image: post.image },
+    { type: 'prose', html: post.body },
+  ];
+  if (Array.isArray(post.gallery) && post.gallery.length) {
+    sections.push({ type: 'gallery', id: 'photos', heading: 'Photos', grid: true, lightbox: true, images: post.gallery });
+  }
+  sections.push({
+    type: 'cta', heading: 'More school news',
+    text: 'Catch up on the latest announcements and highlights from around Rosehill College.',
+    actions: [{ href: '/our-school/our-latest-news.html', label: 'All news', primary: true }],
+  });
+  emitPage({
+    layout: 'page', path: `${NEWS_DIR}/${post.slug}.html`, slug: `news-${post.slug}`,
+    title: post.title, metaDescription: post.excerpt,
+    ogImage: post.image && post.image.src ? '/' + String(post.image.src).replace(/^\//, '') : '',
+    sections,
+  });
+}
+
+// ---------- main pages (defer any page that hosts the paginated post list) ----------
+const deferred = [];
+for (const f of walk(join(CONTENT, 'pages'), '.json')) {
+  const page = JSON.parse(readFileSync(f, 'utf8'));
+  if ((page.sections || []).some((s) => s.type === 'post-list')) { deferred.push(page); continue; }
+  emitPage(page);
+}
+
+// ---------- the news archive: page 1 at its own URL, older pages under /news/page/N ----------
+for (const page of deferred) {
+  const totalPages = Math.max(1, Math.ceil(posts.length / POSTS_PER_PAGE));
+  const previews = posts.map((p) => ({
+    title: p.title, href: `/${NEWS_DIR}/${p.slug}.html`, date: nzDate(p.date), image: p.image, excerpt: p.excerpt,
+  }));
+  for (let n = 1; n <= totalPages; n++) {
+    const slice = previews.slice((n - 1) * POSTS_PER_PAGE, n * POSTS_PER_PAGE);
+    const prevHref = n > 1 ? (n === 2 ? cleanHref(page.path) : `/${NEWS_DIR}/page/${n - 1}.html`) : '';
+    const nextHref = n < totalPages ? `/${NEWS_DIR}/page/${n + 1}.html` : '';
+    const sections = (page.sections || []).map((s) => s.type === 'post-list'
+      ? { ...s, posts: slice, pageNum: n, totalPages, prevHref, nextHref } : s);
+    const first = n === 1;
+    emitPage({
+      ...page,
+      path: first ? page.path : `${NEWS_DIR}/page/${n}.html`,
+      title: first ? page.title : `${page.title} — page ${n}`,
+      noindex: !first,
+      sections,
+    }, { index: first });
+  }
 }
 
 // ---------- sitemap.xml + robots.txt (use site.baseUrl; regenerated every build) ----------

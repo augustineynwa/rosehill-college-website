@@ -1,0 +1,35 @@
+<section class="band {{#if pad}}band--{{pad}}{{/if}}" {{#if id}}id="{{id}}"{{/if}}>
+  <div class="container">
+    {{> section-head}}
+    {{#if posts.length}}
+    <ul class="post-grid" role="list">
+      {{#each posts}}
+      <li class="post-card" data-reveal>
+        <a class="post-card__link" href="{{href}}">
+          {{#if image}}
+          <figure class="post-card__media media-frame">
+            <img src="/{{image.src}}" {{#if image.srcset}}srcset="{{image.srcset}}" sizes="(max-width: 48rem) 100vw, (max-width: 68rem) 50vw, 33vw"{{/if}} alt="{{image.alt}}" loading="lazy" decoding="async">
+          </figure>
+          {{/if}}
+          <div class="post-card__body">
+            {{#if date}}<p class="post-card__date caption">{{date}}</p>{{/if}}
+            <h3 class="post-card__title">{{title}}</h3>
+            {{#if excerpt}}<p class="post-card__excerpt">{{excerpt}}</p>{{/if}}
+            <span class="post-card__cta" aria-hidden="true">Read more →</span>
+          </div>
+        </a>
+      </li>
+      {{/each}}
+    </ul>
+    {{#if (or prevHref nextHref)}}
+    <nav class="pagination" aria-label="News pages">
+      {{#if prevHref}}<a class="pagination__link" rel="prev" href="{{prevHref}}">← Newer</a>{{else}}<span class="pagination__link is-disabled">← Newer</span>{{/if}}
+      <span class="pagination__status">Page {{pageNum}} of {{totalPages}}</span>
+      {{#if nextHref}}<a class="pagination__link" rel="next" href="{{nextHref}}">Older →</a>{{else}}<span class="pagination__link is-disabled">Older →</span>{{/if}}
+    </nav>
+    {{/if}}
+    {{else}}
+    <p class="post-grid__empty">No news posts just yet — check back soon.</p>
+    {{/if}}
+  </div>
+</section>

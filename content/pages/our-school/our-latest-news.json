@@ -13,39 +13,10 @@
       "lede": "Stay up-to-date with the latest news from Rosehill College — important announcements, upcoming events and highlights from school activities."
     },
     {
-      "type": "cards",
+      "type": "post-list",
+      "id": "all-news",
       "heading": "All news",
-      "lede": "The latest announcements and highlights from around the school.",
-      "cards": [
-        {
-          "external": false,
-          "title": "🐝 Spelling Bee Success for Asher",
-          "text": "A big congratulations to Year 10 student Asher, who has qualified for the Aotearoa New Zealand National Spelling Bee Auckland Regional Final in September.\n\nThat puts Asher among the top 350 spellers in the country, which is a fantastic achievement. He will now compete for a place in the national finals in Wellington next month.\n\nAll the best, Asher! We will be cheering you on at the Regional Final. 🐝📚",
-          "image": {
-            "src": "assets/img/spelling-bee.avif",
-            "srcset": ""
-          }
-        },
-        {
-          "external": false,
-          "title": "🌺FIAFIA NIGHT 2026🌺",
-          "text": "Come along for an evening of culture, music, dance and celebration at Fiafia Night 2026.\n\nOur Rosehill College students will take the stage to share their cultures and talents through performances, colourful costumes and plenty of energy. It is a great opportunity for whānau, friends and our wider community to come together and support our students.\n\n📅Friday 21 August 2026\n🕕6.00 pm\n📍The Hall, Rosehill College\n🪙$2 entry\n\nEveryone is welcome. Come along, support our students and enjoy the evening with us.",
-          "image": {
-            "src": "assets/img/fiafia.avif",
-            "alt": "fiafia night 2026",
-            "srcset": ""
-          }
-        },
-        {
-          "external": false,
-          "title": "Year 13 Student Selected for Prestigious Art Exhibition",
-          "text": "Congratulations to Year 13 student Nomeneta Harema, whose exceptional printmaking artwork, Fa‘asinomaga, created in Mr Mac's class, has been selected for the Pat Hanly Creativity Awards Exhibition 2026.\nAdding to this remarkable achievement, Nomeneta's artwork has also been chosen for the exhibition's promotional material, recognising both the quality of her work and her artistic talent.\nThe exhibition will be held at Auckland Art Gallery Toi o Tāmaki from 8 August to 13 September 2026, with the opening event, Young Gallery Night, taking place on 7 August from 6pm to 9pm.\nLearn more: https://www.aucklandartgallery.com/.../student-exhibition...\nWe are also proud to celebrate the creativity of our junior artists. Our Semester 1 Art Exhibition is now on display in the D6 foyer, featuring a wonderful collection of work by our Year 9, 10, and 11 students. We encourage our school community to stop by and enjoy the talent and creativity on display.\nKa rawe, Nomeneta! We are incredibly proud of your achievement and wish you every success at the exhibition.",
-          "image": {
-            "src": "assets/img/art-1.avif",
-            "srcset": "/assets/img/art-1-rp-500.avif 500w, /assets/img/art-1-rp-800.avif 800w, /assets/img/art-1-rp-1080.avif 1080w"
-          }
-        }
-      ]
+      "lede": "The latest announcements and highlights from around the school."
     },
     {
       "type": "docs",

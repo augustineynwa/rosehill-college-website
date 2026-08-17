@@ -132,7 +132,8 @@ async function processNode(node) {
 }
 
 let changed = 0;
-const files = walkFiles(PAGES);
+const POSTS = join(ROOT, 'content', 'posts');
+const files = [PAGES, POSTS].filter(existsSync).flatMap(walkFiles);
 if (existsSync(SITE)) files.push(SITE);
 for (const f of files) {
   const data = JSON.parse(readFileSync(f, 'utf8'));

@@ -19,6 +19,7 @@ import { fileURLToPath } from 'node:url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const PAGES = join(ROOT, 'content', 'pages');
+const POSTS = join(ROOT, 'content', 'posts');
 const IMG_DIR = join(ROOT, 'public', 'assets', 'img');
 
 const MIN_WIDTH = 1200;   // narrower than this already fits any layout slot
@@ -143,7 +144,7 @@ async function processNode(node) {
 let changed = 0;
 let madeVariants = 0;
 const before = generated.size;
-for (const f of walkFiles(PAGES, '.json')) {
+for (const f of [PAGES, POSTS].filter(existsSync).flatMap((d) => walkFiles(d, '.json'))) {
   const data = JSON.parse(readFileSync(f, 'utf8'));
   const snapshot = JSON.stringify(data);
   await processNode(data);

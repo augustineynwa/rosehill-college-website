@@ -238,6 +238,98 @@ collections:
             name: copyright
             widget: string
             required: false
+  - name: posts
+    label: News posts
+    label_singular: News post
+    description: Each post gets its own page. Newest posts show first on the News page.
+    folder: content/posts
+    create: true
+    slug: '{{slug}}'
+    identifier_field: title
+    summary: '{{title}}'
+    sortable_fields:
+      - date
+      - title
+    editor:
+      preview: false
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        required: true
+      - label: Date
+        name: date
+        widget: datetime
+        date_format: YYYY-MM-DD
+        time_format: false
+        required: false
+        hint: Controls the order on the News page — newest first.
+      - label: Featured image (shown on the News list)
+        name: image
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+          - label: Photo
+            name: src
+            widget: image
+            required: false
+            hint: Choose an existing photo or upload a new one
+          - label: Alt text — describe what is in the photo
+            name: alt
+            widget: string
+            required: false
+            hint: Read aloud to people using a screen reader. Leave blank only if purely decorative.
+          - label: srcset
+            name: srcset
+            widget: hidden
+            required: false
+          - label: pos
+            name: pos
+            widget: hidden
+            required: false
+          - label: fit
+            name: fit
+            widget: hidden
+            required: false
+          - label: ar
+            name: ar
+            widget: hidden
+            required: false
+      - label: Short summary (optional)
+        name: excerpt
+        widget: text
+        required: false
+        hint: One or two sentences shown on the News list. Leave blank and it is taken from the start of the post.
+      - label: Post
+        name: body
+        widget: markdown
+        required: false
+        hint: Write the story — headings, bold, links and inline images all work.
+      - label: Photo gallery (optional)
+        name: gallery
+        widget: list
+        label_singular: Photo
+        collapsed: true
+        required: false
+        summary: '{{fields.caption}} {{fields.alt}}'
+        fields:
+          - label: Photo
+            name: src
+            widget: image
+            required: false
+          - label: Alt text
+            name: alt
+            widget: string
+            required: false
+          - label: Caption
+            name: caption
+            widget: string
+            required: false
+          - label: srcset
+            name: srcset
+            widget: hidden
+            required: false
   - name: pages
     label: Pages
     editor:
@@ -1212,6 +1304,31 @@ collections:
                   - label: feed
                     name: feed
                     widget: hidden
+                    required: false
+              - label: News list (shows posts automatically)
+                name: post-list
+                widget: object
+                fields:
+                  - label: id
+                    name: id
+                    widget: hidden
+                    required: false
+                  - label: Eyebrow (small label above the heading)
+                    name: eyebrow
+                    widget: string
+                    required: false
+                  - label: Eyebrow is te reo Māori
+                    name: reo
+                    widget: boolean
+                    required: false
+                    default: false
+                  - label: Heading
+                    name: heading
+                    widget: string
+                    required: false
+                  - label: Intro paragraph
+                    name: lede
+                    widget: text
                     required: false
               - &ref_2
                 label: News list

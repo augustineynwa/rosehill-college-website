@@ -1061,6 +1061,51 @@ a.logo-marquee__item:hover { transform: translateY(-2px); box-shadow: var(--shad
 .vacancy__apply { margin: var(--sp-3) 0 0; }
 @keyframes vacancy-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
 
+/* news post listing — even preview cards + pagination */
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(22rem, 100%), 1fr));
+  gap: var(--sp-4);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.post-grid__empty { color: var(--fg-soft); }
+.post-card {
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  overflow: clip;
+  transition: border-color var(--dur-fast) var(--ease-out), transform var(--dur-med) var(--ease-out);
+}
+.post-card:hover { border-color: var(--c-line-strong); transform: translateY(-4px); }
+[data-theme="light"] .post-card:hover { border-color: rgba(16, 20, 42, 0.3); }
+.post-card__link { display: flex; flex-direction: column; height: 100%; text-decoration: none; color: inherit; }
+.post-card__media { aspect-ratio: 16 / 10; margin: 0; }
+.post-card__media img { width: 100%; height: 100%; object-fit: cover; }
+.post-card__body { display: flex; flex-direction: column; gap: 0.4rem; padding: var(--sp-4); flex: 1; }
+.post-card__date { margin: 0; color: var(--fg-faint); }
+.post-card__title { margin: 0; font-size: var(--step-1); line-height: 1.2; }
+.post-card__excerpt {
+  margin: 0; color: var(--fg-soft); font-size: var(--step--1);
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; line-clamp: 3; overflow: hidden;
+}
+.post-card__cta { margin-top: auto; padding-top: 0.4rem; color: var(--c-red); font-weight: 700; font-size: var(--step--1); }
+.post-card:hover .post-card__cta { color: var(--c-red-deep); }
+
+.pagination {
+  display: flex; align-items: center; justify-content: space-between; gap: var(--sp-3);
+  margin-top: var(--sp-6);
+}
+.pagination__link {
+  padding: 0.6em 1.2em; border: 1px solid var(--c-line-control); border-radius: var(--radius-sm);
+  color: var(--fg); text-decoration: none; font-weight: 700; font-size: var(--step--1);
+  transition: border-color var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out);
+}
+.pagination__link:hover { border-color: var(--c-gold); color: var(--c-gold); }
+.pagination__link.is-disabled { opacity: 0.35; pointer-events: none; }
+.pagination__status { color: var(--fg-faint); font-size: var(--step--1); }
+
 /* anchor targets clear the fixed header when jumped to directly */
 html { scroll-padding-top: calc(var(--notice-h, 0px) + var(--header-h) + 1rem); }
 
