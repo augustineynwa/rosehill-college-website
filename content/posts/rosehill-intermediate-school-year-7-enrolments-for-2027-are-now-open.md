@@ -16,31 +16,15 @@ Families are warmly invited to learn more about the school's curriculum, special
 
 ### **Key Dates**
 
-* **20 July**
+* **20 July** – Year 7 enrolments open
+* **5 August** – Year 6 Parent Information Evening
 
-   – Year 7 enrolments open
-* **5 August**
+  **5.30 pm** in the School Hall
+* **2 September** – Out-of-zone applications close
+* **16 September** – Year 6 Orientation Morning
 
-   – Year 6 Parent Information Evening
-
-
-  **5.30 pm**
-
-   in the School Hall
-* **2 September**
-
-   – Out-of-zone applications close
-* **16 September**
-
-   – Year 6 Orientation Morning
-
-
-  **9.30 am**
-
-   in the School Hall
+  **9.30 am** in the School Hall
 
 For further information, please contact **[office@rosehill.org.nz](mailto:office@rosehill.org.nz)**.
 
 Rosehill Intermediate School encourage families that are considering them for 2027 to attend the information evening and find out more about the opportunities available for your child.
-
-![]()
