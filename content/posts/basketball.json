@@ -1,0 +1,39 @@
+{
+  "title": "basketball 🏀",
+  "date": "2026-08-12",
+  "image": {
+    "src": "assets/img/basketball-2-1.jpg"
+  },
+  "gallery": [
+    {
+      "src": "assets/img/basketball-2-1.jpg"
+    },
+    {
+      "src": "assets/img/basketball-2-2.jpg"
+    },
+    {
+      "src": "assets/img/basketball-2-3.jpg"
+    },
+    {
+      "src": "assets/img/basketball-2-4.jpg"
+    },
+    {
+      "src": "assets/img/basketball-2-5.jpg"
+    },
+    {
+      "src": "assets/img/basketball-2-6.jpg"
+    },
+    {
+      "src": "assets/img/basketball-2-7.jpg"
+    },
+    {
+      "src": "assets/img/basketball-2-8.jpg"
+    },
+    {
+      "src": "assets/img/basketball-2-9.jpg"
+    },
+    {
+      "src": "assets/img/basketball-2-10.jpg"
+    }
+  ]
+}
