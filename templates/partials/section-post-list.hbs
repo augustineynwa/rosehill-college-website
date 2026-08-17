@@ -5,7 +5,7 @@
     <ul class="post-grid" role="list">
       {{#each posts}}
       <li class="post-card" data-reveal>
-        <a class="post-card__link" href="{{href}}">
+        <a class="post-card__link" href="{{href}}"{{#if external}} target="_blank" rel="noopener external"{{/if}}>
           {{#if image}}
           <figure class="post-card__media media-frame">
             <img src="/{{image.src}}" {{#if image.srcset}}srcset="{{image.srcset}}" sizes="(max-width: 48rem) 100vw, (max-width: 68rem) 50vw, 33vw"{{/if}} alt="{{image.alt}}" loading="lazy" decoding="async">
@@ -15,7 +15,7 @@
             {{#if date}}<p class="post-card__date caption">{{date}}</p>{{/if}}
             <h3 class="post-card__title">{{title}}</h3>
             {{#if excerpt}}<p class="post-card__excerpt">{{excerpt}}</p>{{/if}}
-            <span class="post-card__cta" aria-hidden="true">Read more →</span>
+            <span class="post-card__cta" aria-hidden="true">Read more {{#if external}}↗{{else}}→{{/if}}</span>
           </div>
         </a>
       </li>

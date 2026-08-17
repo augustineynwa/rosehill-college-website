@@ -14,6 +14,10 @@ local_backend: true
 media_folder: public/assets/img
 public_folder: assets/img
 publish_mode: simple
+slug:
+  encoding: ascii
+  clean_accents: true
+  sanitize_replacement: '-'
 site_url: https://rosehillcollege.school.nz
 logo_url: /assets/img/RHC-Official-Crest.svg
 collections:
@@ -243,6 +247,8 @@ collections:
     label_singular: News post
     description: Each post gets its own page. Newest posts show first on the News page.
     folder: content/posts
+    extension: json
+    format: json
     create: true
     slug: '{{slug}}'
     identifier_field: title
@@ -305,7 +311,7 @@ collections:
         name: body
         widget: markdown
         required: false
-        hint: Write the story — headings, bold, links and inline images all work.
+        hint: Write the story — headings, bold, links and inline images all work. Leave blank if the post just links to a file below.
       - label: Photo gallery (optional)
         name: gallery
         widget: list
@@ -330,6 +336,18 @@ collections:
             name: srcset
             widget: hidden
             required: false
+      - label: Attach a document (optional)
+        name: linkFile
+        widget: file
+        required: false
+        media_folder: /public/assets/docs
+        public_folder: /assets/docs
+        hint: Upload a PDF, newsletter or other file. When set, this post's "Read more" opens the file directly (no separate post page).
+      - label: Or link to a web page (optional)
+        name: linkUrl
+        widget: string
+        required: false
+        hint: Used only if no file is attached. “Read more” opens this link.
   - name: pages
     label: Pages
     editor:

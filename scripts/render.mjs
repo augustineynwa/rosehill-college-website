@@ -231,12 +231,22 @@ const posts = walk(join(CONTENT, 'posts'), '.json').map((f) => {
   return p;
 }).sort((a, b) => new Date(b.date) - new Date(a.date));
 
-// each post is rendered through the standard page layout, from generated sections
+// resolve each post's "Read more" target: an attached file / linked URL wins,
+// otherwise the post gets its own page. A pointer post (link set) skips its page.
+for (const p of posts) {
+  const file = p.linkFile ? '/' + String(p.linkFile).replace(/^\//, '') : '';
+  const ext = file || (p.linkUrl ? String(p.linkUrl).trim() : '');
+  p._href = ext || `/${NEWS_DIR}/${p.slug}.html`;
+  p._external = Boolean(ext);
+}
+
+// each in-site post is rendered through the standard page layout, from generated sections
 for (const post of posts) {
+  if (post._external) continue; // "Read more" goes straight to a file/URL — no page needed
   const sections = [
     { type: 'hero', eyebrow: nzDate(post.date), heading: post.title, lede: post.excerpt, image: post.image },
-    { type: 'prose', html: post.body },
   ];
+  if (post.body) sections.push({ type: 'prose', html: post.body });
   if (Array.isArray(post.gallery) && post.gallery.length) {
     sections.push({ type: 'gallery', id: 'photos', heading: 'Photos', grid: true, lightbox: true, images: post.gallery });
   }
@@ -265,7 +275,7 @@ for (const f of walk(join(CONTENT, 'pages'), '.json')) {
 for (const page of deferred) {
   const totalPages = Math.max(1, Math.ceil(posts.length / POSTS_PER_PAGE));
   const previews = posts.map((p) => ({
-    title: p.title, href: `/${NEWS_DIR}/${p.slug}.html`, date: nzDate(p.date), image: p.image, excerpt: p.excerpt,
+    title: p.title, href: p._href, external: p._external, date: nzDate(p.date), image: p.image, excerpt: p.excerpt,
   }));
   for (let n = 1; n <= totalPages; n++) {
     const slice = previews.slice((n - 1) * POSTS_PER_PAGE, n * POSTS_PER_PAGE);

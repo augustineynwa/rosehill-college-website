@@ -417,6 +417,9 @@ const config = {
   media_folder: 'public/assets/img',
   public_folder: 'assets/img',
   publish_mode: 'simple',
+  // clean URL slugs from any title — strips emoji and reduces macrons to ASCII
+  // so a post like "Ngā karere 🏑" becomes "nga-karere", not an emoji URL
+  slug: { encoding: 'ascii', clean_accents: true, sanitize_replacement: '-' },
   site_url: SITE_URL,
   logo_url: '/assets/img/RHC-Official-Crest.svg',
   collections: [
@@ -427,6 +430,8 @@ const config = {
       label_singular: 'News post',
       description: 'Each post gets its own page. Newest posts show first on the News page.',
       folder: 'content/posts',
+      extension: 'json',
+      format: 'json',
       create: true,
       slug: '{{slug}}',
       identifier_field: 'title',
@@ -439,7 +444,7 @@ const config = {
           hint: 'Controls the order on the News page — newest first.' },
         image('image', 'Featured image (shown on the News list)'),
         txt('excerpt', 'Short summary (optional)', { hint: 'One or two sentences shown on the News list. Leave blank and it is taken from the start of the post.' }),
-        md('body', 'Post', 'Write the story — headings, bold, links and inline images all work.'),
+        md('body', 'Post', 'Write the story — headings, bold, links and inline images all work. Leave blank if the post just links to a file below.'),
         { label: 'Photo gallery (optional)', name: 'gallery', widget: 'list', label_singular: 'Photo', collapsed: true, required: false,
           summary: '{{fields.caption}} {{fields.alt}}',
           fields: [
@@ -448,6 +453,10 @@ const config = {
             str('caption', 'Caption'),
             hidden('srcset'),
           ] },
+        { label: 'Attach a document (optional)', name: 'linkFile', widget: 'file', required: false,
+          media_folder: '/public/assets/docs', public_folder: '/assets/docs',
+          hint: "Upload a PDF, newsletter or other file. When set, this post's \"Read more\" opens the file directly (no separate post page)." },
+        str('linkUrl', 'Or link to a web page (optional)', { hint: 'Used only if no file is attached. “Read more” opens this link.' }),
       ],
     },
     { name: 'pages', label: 'Pages', editor: { preview: false }, files },
