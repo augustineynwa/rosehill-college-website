@@ -1,5 +1,6 @@
 ---
 title: Fiafia Night 2026
+date: 2026-08-13
 image:
   src: assets/img/fiafia.avif
 excerpt: An evening of culture, music, dance and celebration — Friday 21 August,
