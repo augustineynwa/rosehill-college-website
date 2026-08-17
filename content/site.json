@@ -295,7 +295,7 @@
   },
   "web3formsKeyEnrolment": "65f53f37-fd76-496a-b76a-b1610f9b2cce",
   "notice": {
-    "active": true,
+    "active": false,
     "level": "important",
     "message": "Year 9 and Year 10 students will be taking part in the Haka Competition during Periods 5 and 6 today.\n\nPlease note that early pick-up will not be available after 12.50pm, as we will not be able to bring students out of the competition to sign them out.",
     "link": {
