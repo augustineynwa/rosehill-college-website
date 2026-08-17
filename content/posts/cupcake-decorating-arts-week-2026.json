@@ -1,0 +1,39 @@
+{
+  "title": "📸 Cupcake decorating 🧁 Arts Week 2026 🖼️🖌️🎭",
+  "date": "2026-07-28",
+  "gallery": [
+    {
+      "src": "assets/img/cupcake-1.jpg"
+    },
+    {
+      "src": "assets/img/cupcake-2.jpg"
+    },
+    {
+      "src": "assets/img/cupcake-3.jpg"
+    },
+    {
+      "src": "assets/img/cupcake-4.jpg"
+    },
+    {
+      "src": "assets/img/cupcake-5.jpg"
+    },
+    {
+      "src": "assets/img/cupcake-6.jpg"
+    },
+    {
+      "src": "assets/img/cupcake-7.jpg"
+    },
+    {
+      "src": "assets/img/cupcake-8.jpg"
+    },
+    {
+      "src": "assets/img/cupcake-9.jpg"
+    },
+    {
+      "src": "assets/img/cupcake-10.jpg"
+    }
+  ],
+  "image": {
+    "src": "assets/img/cupcake-1.jpg"
+  }
+}
