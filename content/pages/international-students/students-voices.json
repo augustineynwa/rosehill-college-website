@@ -24,6 +24,18 @@
     },
     {
       "type": "media-text",
+      "reo": false,
+      "flip": true,
+      "portrait": true,
+      "eyebrow": "Nhi Hoang Vuong Dinh — International Student Leader 2026 · Vietnam",
+      "image": {
+        "src": "assets/img/nhi-hoang-vuong-dinh-international-student-leader-2026.webp"
+      },
+      "html": "Hi, I am from China. I am a Year 12 student and also the international student leader this year. It has been almost three years since I came to Rosehill College and I want to thank Mrs Henwood and Ms Booth for giving me the opportunity to take on this position.\n\nBeing the international student leader provides me with so much leadership experience and makes me feel more confident in communicating with others. And I really enjoy the process of working with teachers and helping other international students. The most interesting part of my role is getting to know students from diverse cultures and backgrounds, which enables me to make friends with them and get to know each other's countries.\n\nI also want to thank all of my friends who were friendly to me on my first day of school and offered their support and encouragement along the way. Their kindness inspired me to be more enthusiastic in helping new international students adjust to the school.",
+      "heading": "\"My time at Rosehill has given me lifelong friendships\""
+    },
+    {
+      "type": "media-text",
       "flip": true,
       "eyebrow": "Theana Chen — International Student Leader 2024 · China",
       "heading": "\"Being the international student leader makes me feel more confident\"",
@@ -63,7 +75,8 @@
           "href": "/international-students/applying-nz-arrival-information.html",
           "label": "Applying & arrival"
         }
-      ]
+      ],
+      "html": "It is my honour to be here as an International Student Leader 2026 from Vietnam. Time has passed so quickly that I can’t believe it is already my final year at Rosehill College.\n\nI would like to say a huge thank you to all the teachers and friends who have supported me throughout my study abroad journey, especially Mrs Henwood and Mrs Booth.\n\nAs a student leader, I have the opportunity to support other students, meet and connect people from different countries. I have also been involved in House activities, including Art Week and Haka training. These experiences have helped me become more confident and develop a deeper understanding of Māori culture.\n\nI am truly grateful for the friendships, opportunities, and unforgettable memories this position has given me. They have helped shape me into the person I am today. I will always look back on my time at Rosehill College with gratitude and cherish the memories I have made here."
     }
   ]
 }
