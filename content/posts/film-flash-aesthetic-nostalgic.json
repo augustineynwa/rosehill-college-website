@@ -1,0 +1,39 @@
+{
+  "title": "Film & Flash - Aesthetic Nostalgic",
+  "date": "2026-07-01",
+  "image": {
+    "src": "assets/img/aesthetic-1.jpg"
+  },
+  "gallery": [
+    {
+      "src": "assets/img/aesthetic-1.jpg"
+    },
+    {
+      "src": "assets/img/aesthetic-2.jpg"
+    },
+    {
+      "src": "assets/img/aesthetic-3.jpg"
+    },
+    {
+      "src": "assets/img/aesthetic-4.jpg"
+    },
+    {
+      "src": "assets/img/aesthetic-5.jpg"
+    },
+    {
+      "src": "assets/img/aesthetic-6.jpg"
+    },
+    {
+      "src": "assets/img/aesthetic-7.jpg"
+    },
+    {
+      "src": "assets/img/aesthetic-8.jpg"
+    },
+    {
+      "src": "assets/img/aesthetic-9.jpg"
+    },
+    {
+      "src": "assets/img/aesthetic-10.jpg"
+    }
+  ]
+}
