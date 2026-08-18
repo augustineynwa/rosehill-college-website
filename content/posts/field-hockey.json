@@ -1,0 +1,39 @@
+{
+  "title": "Field Hockey",
+  "date": "2026-07-04",
+  "image": {
+    "src": "assets/img/acg-1.jpg"
+  },
+  "gallery": [
+    {
+      "src": "assets/img/acg-1.jpg"
+    },
+    {
+      "src": "assets/img/acg-2.jpg"
+    },
+    {
+      "src": "assets/img/acg-3.jpg"
+    },
+    {
+      "src": "assets/img/acg-4.jpg"
+    },
+    {
+      "src": "assets/img/acg-5.jpg"
+    },
+    {
+      "src": "assets/img/acg-6.jpg"
+    },
+    {
+      "src": "assets/img/acg-7.jpg"
+    },
+    {
+      "src": "assets/img/acg-8.jpg"
+    },
+    {
+      "src": "assets/img/acg-9.jpg"
+    },
+    {
+      "src": "assets/img/acg-10.jpg"
+    }
+  ]
+}
