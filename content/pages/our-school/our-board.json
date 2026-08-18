@@ -19,12 +19,12 @@
     },
     {
       "type": "prose",
-      "heading": "How the Board is made up",
+      "heading": "How the Board is Made Up",
       "html": "<p>The Board has:</p><ul><li>5 members elected by parents of the College pupils.</li><li>1 member elected by staff.</li><li>1 member elected by students.</li><li>Up to 4 members who may be co-opted onto the Board.</li><li>The Board elects a Presiding Member and Deputy Presiding Member from amongst its own members.</li></ul><p>The constitution of the Board provides for:</p><ul><li>Control and management of the school.</li><li>Appointment and suspension of teachers and other staff.</li><li>Maintenance of grounds, buildings, services and equipment.</li><li>Expenditure of the finance allocated to the school by way of bulk funding.</li><li>Suspension and exclusion of pupils.</li></ul><p>Any correspondence can be emailed to <a href=\"mailto:board@rosehillcollege.school.nz\">board@rosehillcollege.school.nz</a>.</p>"
     },
     {
       "type": "docs",
-      "heading": "Annual statements and reports",
+      "heading": "Annual Statements and Reports",
       "docs": [
         {
           "href": "assets/docs/Rosehill-College-Annual-Plan-2025.pdf",
@@ -50,7 +50,7 @@
     },
     {
       "type": "table",
-      "heading": "Meeting dates",
+      "heading": "Meeting Dates",
       "caption": "2026 Board meeting dates",
       "columns": [
         "Month",
@@ -112,7 +112,7 @@
       "compact": true,
       "groups": [
         {
-          "title": "Board members",
+          "title": "Board Members",
           "people": [
             {
               "name": "Mrs Davida Suasua",
