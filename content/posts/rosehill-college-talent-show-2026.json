@@ -1,0 +1,38 @@
+{
+  "title": "Rosehill College Talent Show 2026",
+  "image": {
+    "src": "assets/img/talent-1.jpg"
+  },
+  "gallery": [
+    {
+      "src": "assets/img/talent-1.jpg"
+    },
+    {
+      "src": "assets/img/talent-2.jpg"
+    },
+    {
+      "src": "assets/img/talent-3.jpg"
+    },
+    {
+      "src": "assets/img/talent-4.jpg"
+    },
+    {
+      "src": "assets/img/talent-5.jpg"
+    },
+    {
+      "src": "assets/img/talent-6.jpg"
+    },
+    {
+      "src": "assets/img/talent-7.jpg"
+    },
+    {
+      "src": "assets/img/talent-8.jpg"
+    },
+    {
+      "src": "assets/img/talent-9.jpg"
+    },
+    {
+      "src": "assets/img/talent-10.jpg"
+    }
+  ]
+}
