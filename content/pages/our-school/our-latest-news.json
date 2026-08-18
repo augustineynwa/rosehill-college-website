@@ -19,28 +19,6 @@
       "lede": "The latest announcements and highlights from around the school."
     },
     {
-      "type": "docs",
-      "heading": "Documents for whānau",
-      "lede": "Key school documents you may be looking for.",
-      "docs": [
-        {
-          "href": "assets/docs/Student-Handbook.pdf",
-          "label": "Student Handbook",
-          "meta": "PDF"
-        },
-        {
-          "href": "assets/docs/Rosehill-College-Annual-Plan-2025.pdf",
-          "label": "Rosehill College Annual Plan 2025",
-          "meta": "PDF"
-        },
-        {
-          "href": "assets/docs/Rosehill-College-Strategic-Plan.pdf",
-          "label": "Rosehill College Strategic Plan",
-          "meta": "PDF"
-        }
-      ]
-    },
-    {
       "type": "cta",
       "eyebrow": "Ngā rā nunui",
       "reo": true,
