@@ -42,11 +42,6 @@
           "meta": "Google Drive"
         },
         {
-          "href": "https://drive.google.com/file/d/1MozTLziklEljPbAClTJNuqcDRgDIhVsq/view?usp=sharing",
-          "label": "Redacted Rosehill College Annual Report 2022",
-          "meta": "Google Drive"
-        },
-        {
           "href": "https://ero.govt.nz/institution/102/rosehill-college",
           "label": "ERO Report",
           "meta": "ero.govt.nz"
@@ -162,7 +157,7 @@
     {
       "type": "prose",
       "heading": "Board meeting minutes",
-      "html": "<p>The Rosehill College Board is committed to transparency and keeping our school community informed. Minutes from Board meetings are made available for public viewing once they have been confirmed at the subsequent meeting.</p><p>Please note that any confidential or sensitive matters discussed in <strong>public-excluded sessions</strong> will not be published.</p><ul><li><a href=\"https://drive.google.com/file/d/1aZgOdDcrHP0QDJ1MNN5fLZNnVc2PDMac/view?usp=drive_link\" rel=\"external\">28 January 2026</a></li><li><a href=\"https://drive.google.com/file/d/164SkEwxh004ierNjI3mx7u9a_APvEH_6/view?usp=sharing\" rel=\"external\">25 February 2026</a></li><li><a href=\"https://drive.google.com/file/d/14D3xYHkn22w3I9sMp0I5cEiVLby_jiZN/view?usp=sharing\" rel=\"external\">25 March 2026</a></li></ul>",
+      "html": "The Rosehill College Board is committed to transparency and keeping our school community informed. Minutes from Board meetings are made available for public viewing once they have been confirmed at the subsequent meeting.\n\nPlease note that any confidential or sensitive matters discussed in **public-excluded sessions** will not be published.\n\n* [28 January 2026](https://drive.google.com/file/d/1aZgOdDcrHP0QDJ1MNN5fLZNnVc2PDMac/view)\n* [25 February 2026](https://drive.google.com/file/d/164SkEwxh004ierNjI3mx7u9a_APvEH_6/view)\n* [25 March 2026](https://drive.google.com/file/d/14D3xYHkn22w3I9sMp0I5cEiVLby_jiZN/view)\n* [29 April 2026](https://drive.google.com/file/d/1Qf6qx0Ql6Zz1sqbpOJ5P1NyvVSjo5Sh9/view)\n* [27 May 2026](https://drive.google.com/file/d/1Z4QkNRfDjl42v0z7tZPtylUoo1rG2n4C/view)",
       "aside": {
         "image": {
           "src": "assets/img/Our-Community---Our-Board---Board-Members_1.avif",
