@@ -1,0 +1,39 @@
+{
+  "title": "Rosehill College Premier Netball",
+  "date": "2026-05-22",
+  "image": {
+    "src": "assets/img/netball-1.jpg"
+  },
+  "gallery": [
+    {
+      "src": "assets/img/netball-1.jpg"
+    },
+    {
+      "src": "assets/img/netball-2.jpg"
+    },
+    {
+      "src": "assets/img/netball-3.jpg"
+    },
+    {
+      "src": "assets/img/netball-4.jpg"
+    },
+    {
+      "src": "assets/img/netball-5.jpg"
+    },
+    {
+      "src": "assets/img/netball-6.jpg"
+    },
+    {
+      "src": "assets/img/netball-7.jpg"
+    },
+    {
+      "src": "assets/img/netball-8.jpg"
+    },
+    {
+      "src": "assets/img/netball-9.jpg"
+    },
+    {
+      "src": "assets/img/netball-10.jpg"
+    }
+  ]
+}
