@@ -1,0 +1,39 @@
+{
+  "title": "Anzac Day 2026",
+  "date": "2026-04-25",
+  "gallery": [
+    {
+      "src": "assets/img/anzac-1.jpg"
+    },
+    {
+      "src": "assets/img/anzac-2.jpg"
+    },
+    {
+      "src": "assets/img/anzac-3.jpg"
+    },
+    {
+      "src": "assets/img/anzac-4.jpg"
+    },
+    {
+      "src": "assets/img/anzac-5.jpg"
+    },
+    {
+      "src": "assets/img/anzac-6.jpg"
+    },
+    {
+      "src": "assets/img/anzac-7.jpg"
+    },
+    {
+      "src": "assets/img/anzac-8.jpg"
+    },
+    {
+      "src": "assets/img/anzac-9.jpg"
+    },
+    {
+      "src": "assets/img/anzac-10.jpg"
+    }
+  ],
+  "image": {
+    "src": "assets/img/anzac-10.jpg"
+  }
+}
