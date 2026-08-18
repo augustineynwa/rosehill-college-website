@@ -295,14 +295,14 @@
   },
   "web3formsKeyEnrolment": "65f53f37-fd76-496a-b76a-b1610f9b2cce",
   "notice": {
-    "active": false,
-    "level": "important",
-    "message": "Year 9 and Year 10 students will be taking part in the Haka Competition during Periods 5 and 6 today.\n\nPlease note that early pick-up will not be available after 12.50pm, as we will not be able to bring students out of the competition to sign them out.",
+    "active": true,
+    "level": "info",
+    "message": "School policies are now open for review.",
     "link": {
       "label": "",
-      "href": ""
+      "href": "/our-school/school-policies"
     },
-    "expires": "2026-08-14"
+    "expires": "2026-08-28"
   },
   "web3formsKeyGeneral": "3c8b7c5f-23a2-47f4-a37f-df556fd9ea6f",
   "baseUrl": "https://rosehillcollege.school.nz",
