@@ -1,0 +1,74 @@
+name: Optimise uploaded images
+
+# Why this exists:
+# Staff upload photos through the CMS as raw JP/PNG/WEBP. Cloudflare's build
+# re-encodes them to AVIF + builds responsive variants every time, and because
+# that output isn't committed back, the work piles up until the build exceeds
+# Cloudflare's 20-minute limit (which once froze all deploys for a day).
+#
+# This Action runs the SAME two image scripts on every push and commits their
+# output back to main. That keeps the repo permanently "baked", so Cloudflare's
+# build always finds the images already optimised and finishes in a couple of
+# minutes. The bot commit is made with the built-in GITHUB_TOKEN, which by
+# design does NOT re-trigger workflows — so there is no loop.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'content/**'
+      - 'public/assets/img/**'
+      - 'scripts/optimize-images.mjs'
+      - 'scripts/gen-image-variants.mjs'
+
+permissions:
+  contents: write
+
+# never run two of these at once — they both push to main
+concurrency:
+  group: optimise-images
+  cancel-in-progress: false
+
+jobs:
+  optimise:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Optimise images and rebuild variants
+        run: |
+          node scripts/optimize-images.mjs
+          node scripts/gen-image-variants.mjs
+
+      - name: Commit and push if anything changed
+        run: |
+          if [ -z "$(git status --porcelain content public/assets/img)" ]; then
+            echo "No new images to optimise — nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A content public/assets/img
+          git commit -m "Auto-optimise uploaded images [bot]"
+          # a CMS publish may land while this runs — rebase and retry the push
+          n=0
+          until [ "$n" -ge 5 ]; do
+            if git pull --rebase origin main && git push origin main; then
+              echo "Pushed optimised images."
+              exit 0
+            fi
+            n=$((n + 1))
+            echo "Push attempt $n failed, retrying in 5s…"
+            sleep 5
+          done
+          echo "::error::Could not push optimised images after retries."
+          exit 1
