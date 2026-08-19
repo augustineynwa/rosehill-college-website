@@ -2,38 +2,49 @@
   "title": "🔥 1st XV Girls 💪",
   "date": "2026-08-11",
   "image": {
-    "src": "assets/img/rugby-2-1.jpg"
+    "src": "assets/img/rugby-2-1.avif",
+    "srcset": ""
   },
   "gallery": [
     {
-      "src": "assets/img/rugby-2-1.jpg"
+      "src": "assets/img/rugby-2-1.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/rugby-2-2.jpg"
+      "src": "assets/img/rugby-2-2.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/rugby-2-3.jpg"
+      "src": "assets/img/rugby-2-3.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/rugby-2-4.jpg"
+      "src": "assets/img/rugby-2-4.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/rugby-2-5.jpg"
+      "src": "assets/img/rugby-2-5.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/rugby-2-6.jpg"
+      "src": "assets/img/rugby-2-6.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/rugby-2-7.jpg"
+      "src": "assets/img/rugby-2-7.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/rugby-2-8.jpg"
+      "src": "assets/img/rugby-2-8.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/rugby-2-9.jpg"
+      "src": "assets/img/rugby-2-9.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/rugby-2-10.jpg"
+      "src": "assets/img/rugby-2-10.avif",
+      "srcset": ""
     }
   ]
 }

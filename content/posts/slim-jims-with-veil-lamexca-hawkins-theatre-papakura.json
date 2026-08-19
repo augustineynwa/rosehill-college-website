@@ -4,67 +4,88 @@
   "body": "Slim Jim’s with veil and lamexca celebrating NZ music month at the Hawkins theatre 🎸👩🏽‍🎤🎤",
   "gallery": [
     {
-      "src": "assets/img/music-1.jpg"
+      "src": "assets/img/music-1.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/music-2.jpg"
+      "src": "assets/img/music-2.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/music-3.jpg"
+      "src": "assets/img/music-3.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/music-4.jpg"
+      "src": "assets/img/music-4.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/music-5.jpg"
+      "src": "assets/img/music-5.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/music-6.jpg"
+      "src": "assets/img/music-6.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/music-7.jpg"
+      "src": "assets/img/music-7.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/music-8.jpg"
+      "src": "assets/img/music-8.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/music-9.jpg"
+      "src": "assets/img/music-9.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/music-10.jpg"
+      "src": "assets/img/music-10.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/music-11.jpg"
+      "src": "assets/img/music-11.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/music-12.jpg"
+      "src": "assets/img/music-12.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/music-13.jpg"
+      "src": "assets/img/music-13.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/music-14.jpg"
+      "src": "assets/img/music-14.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/music-15.jpg"
+      "src": "assets/img/music-15.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/music-16.jpg"
+      "src": "assets/img/music-16.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/music-17.jpg"
+      "src": "assets/img/music-17.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/music-18.jpg"
+      "src": "assets/img/music-18.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/music-19.jpg"
+      "src": "assets/img/music-19.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/music-20.jpg"
+      "src": "assets/img/music-20.avif",
+      "srcset": ""
     }
   ],
   "image": {
-    "src": "assets/img/music-3.jpg"
+    "src": "assets/img/music-3.avif",
+    "srcset": ""
   }
 }

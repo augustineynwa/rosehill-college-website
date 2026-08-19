@@ -2,38 +2,49 @@
   "title": "Sports Training ⛹️",
   "date": "2026-06-03",
   "image": {
-    "src": "assets/img/basketball-1.jpg"
+    "src": "assets/img/basketball-1.avif",
+    "srcset": ""
   },
   "gallery": [
     {
-      "src": "assets/img/basketball-1.jpg"
+      "src": "assets/img/basketball-1.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/basketball-2.jpg"
+      "src": "assets/img/basketball-2.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/basketball-3.jpg"
+      "src": "assets/img/basketball-3.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/basketball-4.jpg"
+      "src": "assets/img/basketball-4.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/basketball-5.jpg"
+      "src": "assets/img/basketball-5.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/basketball-6.jpg"
+      "src": "assets/img/basketball-6.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/basketball-7.jpg"
+      "src": "assets/img/basketball-7.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/basketball-8.jpg"
+      "src": "assets/img/basketball-8.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/basketball-9.jpg"
+      "src": "assets/img/basketball-9.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/basketball-10.jpg"
+      "src": "assets/img/basketball-10.avif",
+      "srcset": ""
     }
   ]
 }

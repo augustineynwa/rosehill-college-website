@@ -2,68 +2,89 @@
   "title": "Pre-season jam - Girls First XV Vs. Chico Oaks",
   "date": "2026-03-23",
   "image": {
-    "src": "assets/img/preseason-0.jpg"
+    "src": "assets/img/preseason-0.avif",
+    "srcset": ""
   },
   "gallery": [
     {
-      "src": "assets/img/preseason-1.jpg"
+      "src": "assets/img/preseason-1.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/preseason-2.jpg"
+      "src": "assets/img/preseason-2.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/preseason-3.jpg"
+      "src": "assets/img/preseason-3.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/preseason-4.jpg"
+      "src": "assets/img/preseason-4.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/preseason-5.jpg"
+      "src": "assets/img/preseason-5.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/preseason-6.jpg"
+      "src": "assets/img/preseason-6.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/preseason-7.jpg"
+      "src": "assets/img/preseason-7.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/preseason-8.jpg"
+      "src": "assets/img/preseason-8.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/preseason-9.jpg"
+      "src": "assets/img/preseason-9.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/preseason-10.jpg"
+      "src": "assets/img/preseason-10.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/preseason-11.jpg"
+      "src": "assets/img/preseason-11.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/preseason-12.jpg"
+      "src": "assets/img/preseason-12.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/preseason-13.jpg"
+      "src": "assets/img/preseason-13.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/preseason-14.jpg"
+      "src": "assets/img/preseason-14.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/preseason-15.jpg"
+      "src": "assets/img/preseason-15.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/preseason-16.jpg"
+      "src": "assets/img/preseason-16.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/preseason-17.jpg"
+      "src": "assets/img/preseason-17.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/preseason-18.jpg"
+      "src": "assets/img/preseason-18.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/preseason-19.jpg"
+      "src": "assets/img/preseason-19.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/preseason-20.jpg"
+      "src": "assets/img/preseason-20.avif",
+      "srcset": ""
     }
   ]
 }

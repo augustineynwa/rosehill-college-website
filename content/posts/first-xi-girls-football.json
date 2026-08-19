@@ -2,53 +2,65 @@
   "title": "First XI Girls Football",
   "date": "2026-05-08",
   "image": {
-    "src": "assets/img/fxi-4.jpg"
+    "src": "assets/img/fxi-4.avif",
+    "srcset": ""
   },
   "gallery": [
     {
-      "src": "assets/img/fxi-1.jpg"
+      "src": "assets/img/fxi-2.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/fxi-2.jpg"
+      "src": "assets/img/fxi-3.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/fxi-3.jpg"
+      "src": "assets/img/fxi-4.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/fxi-4.jpg"
+      "src": "assets/img/fxi-5.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/fxi-5.jpg"
+      "src": "assets/img/fxi-6.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/fxi-6.jpg"
+      "src": "assets/img/fxi-7.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/fxi-7.jpg"
+      "src": "assets/img/fxi-8.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/fxi-8.jpg"
+      "src": "assets/img/fxi-9.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/fxi-9.jpg"
+      "src": "assets/img/fxi-10.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/fxi-10.jpg"
+      "src": "assets/img/fxi-11.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/fxi-11.jpg"
+      "src": "assets/img/fxi-12.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/fxi-12.jpg"
+      "src": "assets/img/fxi-13.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/fxi-13.jpg"
+      "src": "assets/img/fxi-14.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/fxi-14.jpg"
-    },
-    {
-      "src": "assets/img/fxi-15.jpg"
+      "src": "assets/img/fxi-15.avif",
+      "srcset": ""
     }
   ]
 }

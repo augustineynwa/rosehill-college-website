@@ -3,37 +3,48 @@
   "date": "2026-04-25",
   "gallery": [
     {
-      "src": "assets/img/anzac-1.jpg"
+      "src": "assets/img/anzac-1.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/anzac-2.jpg"
+      "src": "assets/img/anzac-2.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/anzac-3.jpg"
+      "src": "assets/img/anzac-3.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/anzac-4.jpg"
+      "src": "assets/img/anzac-4.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/anzac-5.jpg"
+      "src": "assets/img/anzac-5.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/anzac-6.jpg"
+      "src": "assets/img/anzac-6.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/anzac-7.jpg"
+      "src": "assets/img/anzac-7.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/anzac-8.jpg"
+      "src": "assets/img/anzac-8.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/anzac-9.jpg"
+      "src": "assets/img/anzac-9.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/anzac-10.jpg"
+      "src": "assets/img/anzac-10.avif",
+      "srcset": ""
     }
   ],
   "image": {
-    "src": "assets/img/anzac-10.jpg"
+    "src": "assets/img/anzac-10.avif",
+    "srcset": ""
   }
 }

@@ -2,68 +2,89 @@
   "title": "Rosehill College Senior School Ball 2026 📸",
   "date": "2026-07-07",
   "image": {
-    "src": "assets/img/ball-4.jpg"
+    "src": "assets/img/ball-4.avif",
+    "srcset": ""
   },
   "gallery": [
     {
-      "src": "assets/img/ball-1.jpg"
+      "src": "assets/img/ball-1.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/ball-2.jpg"
+      "src": "assets/img/ball-2.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/ball-3.jpg"
+      "src": "assets/img/ball-3.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/ball-4.jpg"
+      "src": "assets/img/ball-4.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/ball-5.jpg"
+      "src": "assets/img/ball-5.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/ball-6.jpg"
+      "src": "assets/img/ball-6.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/ball-7.jpg"
+      "src": "assets/img/ball-7.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/ball-8.jpg"
+      "src": "assets/img/ball-8.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/ball-9.jpg"
+      "src": "assets/img/ball-9.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/ball-10.jpg"
+      "src": "assets/img/ball-10.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/ball-11.jpg"
+      "src": "assets/img/ball-11.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/ball-12.jpg"
+      "src": "assets/img/ball-12.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/ball-13.jpg"
+      "src": "assets/img/ball-13.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/ball-14.jpg"
+      "src": "assets/img/ball-14.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/ball-15.jpg"
+      "src": "assets/img/ball-15.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/ball-16.jpg"
+      "src": "assets/img/ball-16.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/ball-17.jpg"
+      "src": "assets/img/ball-17.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/ball-18.jpg"
+      "src": "assets/img/ball-18.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/ball-19.jpg"
+      "src": "assets/img/ball-19.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/ball-20.jpg"
+      "src": "assets/img/ball-20.avif",
+      "srcset": ""
     }
   ]
 }

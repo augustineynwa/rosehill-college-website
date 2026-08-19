@@ -36,7 +36,8 @@
         }
       ],
       "image": {
-        "src": "assets/img/enrol-banner.png"
+        "src": "assets/img/enrol-banner.avif",
+        "srcset": "/assets/img/enrol-banner-rp-500.avif 500w, /assets/img/enrol-banner-rp-800.avif 800w, /assets/img/enrol-banner-rp-1080.avif 1080w, /assets/img/enrol-banner-rp-1600.avif 1600w, /assets/img/enrol-banner.avif 1672w"
       }
     },
     {

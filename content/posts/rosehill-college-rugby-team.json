@@ -4,37 +4,48 @@
   "body": "\\#sportsphotography🏈🏀⚽️⚾️🏐 #schoolboyrugby #newzealand #rugby #champions",
   "gallery": [
     {
-      "src": "assets/img/rugby-1.jpg"
+      "src": "assets/img/rugby-1.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/rugby-2.jpg"
+      "src": "assets/img/rugby-2.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/rugby-3.jpg"
+      "src": "assets/img/rugby-3.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/rugby-4.jpg"
+      "src": "assets/img/rugby-4.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/rugby-5.jpg"
+      "src": "assets/img/rugby-5.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/rugby-6.jpg"
+      "src": "assets/img/rugby-6.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/rugby-7.jpg"
+      "src": "assets/img/rugby-7.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/rugby-8.jpg"
+      "src": "assets/img/rugby-8.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/rugby-9.jpg"
+      "src": "assets/img/rugby-9.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/rugby-10.jpg"
+      "src": "assets/img/rugby-10.avif",
+      "srcset": ""
     }
   ],
   "image": {
-    "src": "assets/img/rugby-1.jpg"
+    "src": "assets/img/rugby-1.avif",
+    "srcset": ""
   }
 }

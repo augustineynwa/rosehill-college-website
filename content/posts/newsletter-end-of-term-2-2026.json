@@ -3,6 +3,7 @@
   "date": "2026-07-16",
   "linkFile": "/assets/docs/end-of-term-2-newsletter-2026.pdf",
   "image": {
-    "src": "assets/img/our-latest-news-default.png"
+    "src": "assets/img/our-latest-news-default.avif",
+    "srcset": "/assets/img/our-latest-news-default-rp-500.avif 500w, /assets/img/our-latest-news-default-rp-800.avif 800w, /assets/img/our-latest-news-default-rp-1080.avif 1080w, /assets/img/our-latest-news-default-rp-1600.avif 1600w, /assets/img/our-latest-news-default.avif 2000w"
   }
 }

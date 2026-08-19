@@ -2,38 +2,49 @@
   "title": "Winter Sports Season 2026",
   "date": "2026-04-23",
   "image": {
-    "src": "assets/img/winter-sports-5.jpg"
+    "src": "assets/img/winter-sports-5.avif",
+    "srcset": ""
   },
   "gallery": [
     {
-      "src": "assets/img/winter-sports-1.jpg"
+      "src": "assets/img/winter-sports-1.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/winter-sports-2.jpg"
+      "src": "assets/img/winter-sports-2.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/winter-sports-3.jpg"
+      "src": "assets/img/winter-sports-3.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/winter-sports-4.jpg"
+      "src": "assets/img/winter-sports-4.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/winter-sports-5.jpg"
+      "src": "assets/img/winter-sports-5.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/winter-sports-6.jpg"
+      "src": "assets/img/winter-sports-6.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/winter-sports-7.jpg"
+      "src": "assets/img/winter-sports-7.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/winter-sports-8.jpg"
+      "src": "assets/img/winter-sports-8.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/winter-sports-9.jpg"
+      "src": "assets/img/winter-sports-9.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/winter-sports-10.jpg"
+      "src": "assets/img/winter-sports-10.avif",
+      "srcset": ""
     }
   ]
 }

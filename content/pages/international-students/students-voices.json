@@ -29,7 +29,8 @@
       "portrait": true,
       "eyebrow": "Nhi Hoang Vuong Dinh — International Student Leader 2026 · Vietnam",
       "image": {
-        "src": "assets/img/nhi-hoang-vuong-dinh-international-student-leader-2026.webp"
+        "src": "assets/img/nhi-hoang-vuong-dinh-international-student-leader-2026.avif",
+        "srcset": "/assets/img/nhi-hoang-vuong-dinh-international-student-leader-2026-rp-500.avif 500w, /assets/img/nhi-hoang-vuong-dinh-international-student-leader-2026-rp-800.avif 800w, /assets/img/nhi-hoang-vuong-dinh-international-student-leader-2026-rp-1080.avif 1080w, /assets/img/nhi-hoang-vuong-dinh-international-student-leader-2026-rp-1600.avif 1600w, /assets/img/nhi-hoang-vuong-dinh-international-student-leader-2026.avif 1752w"
       },
       "html": "Hi, I am from China. I am a Year 12 student and also the international student leader this year. It has been almost three years since I came to Rosehill College and I want to thank Mrs Henwood and Ms Booth for giving me the opportunity to take on this position.\n\nBeing the international student leader provides me with so much leadership experience and makes me feel more confident in communicating with others. And I really enjoy the process of working with teachers and helping other international students. The most interesting part of my role is getting to know students from diverse cultures and backgrounds, which enables me to make friends with them and get to know each other's countries.\n\nI also want to thank all of my friends who were friendly to me on my first day of school and offered their support and encouragement along the way. Their kindness inspired me to be more enthusiastic in helping new international students adjust to the school.",
       "heading": "\"My time at Rosehill has given me lifelong friendships\""

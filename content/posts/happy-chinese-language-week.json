@@ -3,23 +3,29 @@
   "date": "2026-07-03",
   "body": "2026年中文周快乐！‍\n\n\\#chineselanguageweek #rosehillcollege #filmphotography #flashphotography",
   "image": {
-    "src": "assets/img/chinese-lang-week-1.jpg"
+    "src": "assets/img/chinese-lang-week-1.avif",
+    "srcset": ""
   },
   "gallery": [
     {
-      "src": "assets/img/chinese-lang-week-1.jpg"
+      "src": "assets/img/chinese-lang-week-1.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/chinese-lang-week-2.jpg"
+      "src": "assets/img/chinese-lang-week-2.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/chinese-lang-week-3.jpg"
+      "src": "assets/img/chinese-lang-week-3.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/chinese-lang-week-4.jpg"
+      "src": "assets/img/chinese-lang-week-4.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/chinese-lang-week-5.jpg"
+      "src": "assets/img/chinese-lang-week-5.avif",
+      "srcset": ""
     }
   ]
 }

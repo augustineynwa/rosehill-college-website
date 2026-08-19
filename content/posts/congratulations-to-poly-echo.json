@@ -2,7 +2,8 @@
   "title": "Congratulations to Poly Echo! 🎶",
   "date": "2026-05-29",
   "image": {
-    "src": "assets/img/poly-echo.jpg"
+    "src": "assets/img/poly-echo.avif",
+    "srcset": "/assets/img/poly-echo-rp-500.avif 500w, /assets/img/poly-echo-rp-800.avif 800w, /assets/img/poly-echo-rp-1080.avif 1080w, /assets/img/poly-echo-rp-1600.avif 1600w, /assets/img/poly-echo.avif 2048w"
   },
   "body": "A huge congratulations to Poly Echo for earning a place in the **Smokefree Tangata Beats Finals**. They will proudly represent Rosehill College on **20 June** at **Auckland Girls' Grammar School**. We are incredibly proud of your hard work, talent, and dedication. Wishing you all the very best for finals night!\n\n![](assets/img/poly-echo.jpg)"
 }

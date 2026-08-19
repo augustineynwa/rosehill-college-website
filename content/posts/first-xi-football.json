@@ -2,38 +2,49 @@
   "title": "First XI Football",
   "date": "2026-07-30",
   "image": {
-    "src": "assets/img/football-1.jpg"
+    "src": "assets/img/football-1.avif",
+    "srcset": ""
   },
   "gallery": [
     {
-      "src": "assets/img/football-1.jpg"
+      "src": "assets/img/football-1.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/football-2.jpg"
+      "src": "assets/img/football-2.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/football-3.jpg"
+      "src": "assets/img/football-3.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/football-4.jpg"
+      "src": "assets/img/football-4.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/football-5.jpg"
+      "src": "assets/img/football-5.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/football-6.jpg"
+      "src": "assets/img/football-6.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/football-7.jpg"
+      "src": "assets/img/football-7.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/football-8.jpg"
+      "src": "assets/img/football-8.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/football-9.jpg"
+      "src": "assets/img/football-9.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/football-10.jpg"
+      "src": "assets/img/football-10.avif",
+      "srcset": ""
     }
   ]
 }

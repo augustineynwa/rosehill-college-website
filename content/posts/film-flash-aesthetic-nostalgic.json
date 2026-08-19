@@ -2,38 +2,49 @@
   "title": "Film & Flash - Aesthetic Nostalgic",
   "date": "2026-07-01",
   "image": {
-    "src": "assets/img/aesthetic-1.jpg"
+    "src": "assets/img/aesthetic-1.avif",
+    "srcset": ""
   },
   "gallery": [
     {
-      "src": "assets/img/aesthetic-1.jpg"
+      "src": "assets/img/aesthetic-1.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/aesthetic-2.jpg"
+      "src": "assets/img/aesthetic-2.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/aesthetic-3.jpg"
+      "src": "assets/img/aesthetic-3.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/aesthetic-4.jpg"
+      "src": "assets/img/aesthetic-4.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/aesthetic-5.jpg"
+      "src": "assets/img/aesthetic-5.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/aesthetic-6.jpg"
+      "src": "assets/img/aesthetic-6.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/aesthetic-7.jpg"
+      "src": "assets/img/aesthetic-7.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/aesthetic-8.jpg"
+      "src": "assets/img/aesthetic-8.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/aesthetic-9.jpg"
+      "src": "assets/img/aesthetic-9.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/aesthetic-10.jpg"
+      "src": "assets/img/aesthetic-10.avif",
+      "srcset": ""
     }
   ]
 }

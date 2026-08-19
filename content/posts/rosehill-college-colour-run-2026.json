@@ -3,69 +3,90 @@
   "excerpt": "Colour, laughter, and unforgettable memories 🌈",
   "body": "Colour Run 2026 was packed with fun from start to finish. Thank you to everyone who took part and made the day such a fantastic success!",
   "image": {
-    "src": "assets/img/colour-2.jpg"
+    "src": "assets/img/colour-2.avif",
+    "srcset": ""
   },
   "date": "2026-05-27",
   "gallery": [
     {
-      "src": "assets/img/colour-1.jpg"
+      "src": "assets/img/colour-1.avif",
+      "srcset": "/assets/img/colour-1-rp-500.avif 500w, /assets/img/colour-1-rp-800.avif 800w, /assets/img/colour-1-rp-1080.avif 1080w, /assets/img/colour-1.avif 1256w"
     },
     {
-      "src": "assets/img/colour-2.jpg"
+      "src": "assets/img/colour-2.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/colour-3.jpg"
+      "src": "assets/img/colour-3.avif",
+      "srcset": "/assets/img/colour-3-rp-500.avif 500w, /assets/img/colour-3-rp-800.avif 800w, /assets/img/colour-3-rp-1080.avif 1080w, /assets/img/colour-3-rp-1600.avif 1600w, /assets/img/colour-3-rp-2200.avif 2200w, /assets/img/colour-3.avif 2560w"
     },
     {
-      "src": "assets/img/colour-4.jpg"
+      "src": "assets/img/colour-4.avif",
+      "srcset": "/assets/img/colour-4-rp-500.avif 500w, /assets/img/colour-4-rp-800.avif 800w, /assets/img/colour-4-rp-1080.avif 1080w, /assets/img/colour-4-rp-1600.avif 1600w, /assets/img/colour-4-rp-2200.avif 2200w, /assets/img/colour-4.avif 2560w"
     },
     {
-      "src": "assets/img/colour-5.jpg"
+      "src": "assets/img/colour-5.avif",
+      "srcset": "/assets/img/colour-5-rp-500.avif 500w, /assets/img/colour-5-rp-800.avif 800w, /assets/img/colour-5-rp-1080.avif 1080w, /assets/img/colour-5-rp-1600.avif 1600w, /assets/img/colour-5-rp-2200.avif 2200w, /assets/img/colour-5.avif 2424w"
     },
     {
-      "src": "assets/img/colour-6.jpg"
+      "src": "assets/img/colour-6.avif",
+      "srcset": "/assets/img/colour-6-rp-500.avif 500w, /assets/img/colour-6-rp-800.avif 800w, /assets/img/colour-6-rp-1080.avif 1080w, /assets/img/colour-6-rp-1600.avif 1600w, /assets/img/colour-6-rp-2200.avif 2200w, /assets/img/colour-6.avif 2560w"
     },
     {
-      "src": "assets/img/colour-7.jpg"
+      "src": "assets/img/colour-7.avif",
+      "srcset": "/assets/img/colour-7-rp-500.avif 500w, /assets/img/colour-7-rp-800.avif 800w, /assets/img/colour-7-rp-1080.avif 1080w, /assets/img/colour-7-rp-1600.avif 1600w"
     },
     {
-      "src": "assets/img/colour-8.jpg"
+      "src": "assets/img/colour-8.avif",
+      "srcset": "/assets/img/colour-8-rp-500.avif 500w, /assets/img/colour-8-rp-800.avif 800w, /assets/img/colour-8-rp-1080.avif 1080w, /assets/img/colour-8-rp-1600.avif 1600w, /assets/img/colour-8-rp-2200.avif 2200w, /assets/img/colour-8.avif 2560w"
     },
     {
-      "src": "assets/img/colour-9.jpg"
+      "src": "assets/img/colour-9.avif",
+      "srcset": "/assets/img/colour-9-rp-500.avif 500w, /assets/img/colour-9-rp-800.avif 800w, /assets/img/colour-9-rp-1080.avif 1080w, /assets/img/colour-9-rp-1600.avif 1600w, /assets/img/colour-9-rp-2200.avif 2200w, /assets/img/colour-9.avif 2560w"
     },
     {
-      "src": "assets/img/colour-10.jpg"
+      "src": "assets/img/colour-10.avif",
+      "srcset": "/assets/img/colour-10-rp-500.avif 500w, /assets/img/colour-10-rp-800.avif 800w, /assets/img/colour-10-rp-1080.avif 1080w, /assets/img/colour-10-rp-1600.avif 1600w, /assets/img/colour-10-rp-2200.avif 2200w, /assets/img/colour-10.avif 2458w"
     },
     {
-      "src": "assets/img/colour-11.jpg"
+      "src": "assets/img/colour-11.avif",
+      "srcset": "/assets/img/colour-11-rp-500.avif 500w, /assets/img/colour-11-rp-800.avif 800w, /assets/img/colour-11-rp-1080.avif 1080w, /assets/img/colour-11-rp-1600.avif 1600w, /assets/img/colour-11-rp-2200.avif 2200w, /assets/img/colour-11.avif 2560w"
     },
     {
-      "src": "assets/img/colour-12.jpg"
+      "src": "assets/img/colour-12.avif",
+      "srcset": "/assets/img/colour-12-rp-500.avif 500w, /assets/img/colour-12-rp-800.avif 800w, /assets/img/colour-12-rp-1080.avif 1080w, /assets/img/colour-12-rp-1600.avif 1600w, /assets/img/colour-12-rp-2200.avif 2200w, /assets/img/colour-12.avif 2208w"
     },
     {
-      "src": "assets/img/colour-13.jpg"
+      "src": "assets/img/colour-13.avif",
+      "srcset": "/assets/img/colour-13-rp-500.avif 500w, /assets/img/colour-13-rp-800.avif 800w, /assets/img/colour-13-rp-1080.avif 1080w, /assets/img/colour-13-rp-1600.avif 1600w, /assets/img/colour-13-rp-2200.avif 2200w, /assets/img/colour-13.avif 2560w"
     },
     {
-      "src": "assets/img/colour-14.jpg"
+      "src": "assets/img/colour-14.avif",
+      "srcset": "/assets/img/colour-14-rp-500.avif 500w, /assets/img/colour-14-rp-800.avif 800w, /assets/img/colour-14-rp-1080.avif 1080w, /assets/img/colour-14-rp-1600.avif 1600w, /assets/img/colour-14-rp-2200.avif 2200w, /assets/img/colour-14.avif 2560w"
     },
     {
-      "src": "assets/img/colour-15.jpg"
+      "src": "assets/img/colour-15.avif",
+      "srcset": "/assets/img/colour-15-rp-500.avif 500w, /assets/img/colour-15-rp-800.avif 800w, /assets/img/colour-15-rp-1080.avif 1080w, /assets/img/colour-15-rp-1600.avif 1600w, /assets/img/colour-15-rp-2200.avif 2200w, /assets/img/colour-15.avif 2560w"
     },
     {
-      "src": "assets/img/colour-16.jpg"
+      "src": "assets/img/colour-16.avif",
+      "srcset": "/assets/img/colour-16-rp-500.avif 500w, /assets/img/colour-16-rp-800.avif 800w, /assets/img/colour-16-rp-1080.avif 1080w, /assets/img/colour-16-rp-1600.avif 1600w, /assets/img/colour-16-rp-2200.avif 2200w, /assets/img/colour-16.avif 2422w"
     },
     {
-      "src": "assets/img/colour-17.jpg"
+      "src": "assets/img/colour-17.avif",
+      "srcset": "/assets/img/colour-17-rp-500.avif 500w, /assets/img/colour-17-rp-800.avif 800w, /assets/img/colour-17-rp-1080.avif 1080w, /assets/img/colour-17-rp-1600.avif 1600w, /assets/img/colour-17-rp-2200.avif 2200w, /assets/img/colour-17.avif 2560w"
     },
     {
-      "src": "assets/img/colour-18.jpg"
+      "src": "assets/img/colour-18.avif",
+      "srcset": "/assets/img/colour-18-rp-500.avif 500w, /assets/img/colour-18-rp-800.avif 800w, /assets/img/colour-18-rp-1080.avif 1080w, /assets/img/colour-18-rp-1600.avif 1600w, /assets/img/colour-18-rp-2200.avif 2200w, /assets/img/colour-18.avif 2560w"
     },
     {
-      "src": "assets/img/colour-19.jpg"
+      "src": "assets/img/colour-19.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/colour-20.jpg"
+      "src": "assets/img/colour-20.avif",
+      "srcset": "/assets/img/colour-20-rp-500.avif 500w, /assets/img/colour-20-rp-800.avif 800w, /assets/img/colour-20-rp-1080.avif 1080w, /assets/img/colour-20-rp-1600.avif 1600w, /assets/img/colour-20-rp-2200.avif 2200w, /assets/img/colour-20.avif 2560w"
     }
   ]
 }
