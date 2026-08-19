@@ -20,6 +20,7 @@ on:
       - 'public/assets/img/**'
       - 'scripts/optimize-images.mjs'
       - 'scripts/gen-image-variants.mjs'
+  workflow_dispatch: {}   # allow manual "re-bake now" from the Actions tab
 
 permissions:
   contents: write
