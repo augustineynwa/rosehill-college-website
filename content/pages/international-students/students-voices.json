@@ -55,42 +55,52 @@
     },
     {
       "type": "embed",
-      "eyebrow": "Korea — 2026",
+      "eyebrow": "2026",
       "heading": "",
-      "src": "https://www.youtube-nocookie.com/embed/D-RycRn4P5g?rel=0",
-      "iframeTitle": "Rosehill College Korean international students share their experience"
+      "src": "",
+      "iframeTitle": "Rosehill College Korean international students share their experience",
+      "embeds": [
+        {
+          "src": "https://www.youtube-nocookie.com/embed/D-RycRn4P5g?rel=0",
+          "iframeTitle": "Korean student"
+        }
+      ]
     },
     {
       "type": "embed",
-      "eyebrow": "Taiwan — 2025",
+      "eyebrow": "2025",
       "heading": "",
-      "src": "https://www.youtube-nocookie.com/embed/EPNu_wPZshg?rel=0",
-      "iframeTitle": "Rosehill College international student from Taiwan shares their story",
-      "embeds": []
+      "src": "",
+      "iframeTitle": "",
+      "embeds": [
+        {
+          "src": "https://www.youtube-nocookie.com/embed/EPNu_wPZshg?rel=0",
+          "iframeTitle": "Taiwanese student"
+        }
+      ]
     },
     {
       "type": "embed",
       "reo": false,
       "tall": false,
       "facade": false,
-      "eyebrow": "China — 2024",
-      "src": "https://www.youtube.com/watch?v=m2H9vFiV3M8"
-    },
-    {
-      "type": "embed",
-      "reo": false,
-      "tall": false,
-      "facade": false,
-      "eyebrow": "France — 2024",
-      "src": "https://www.youtube.com/watch?v=oXUNbgT7JRQ"
-    },
-    {
-      "type": "embed",
-      "reo": false,
-      "tall": false,
-      "facade": false,
-      "eyebrow": "Japan — 2024",
-      "src": "https://www.youtube.com/watch?v=ViQyQlv1w2s"
+      "eyebrow": "2024",
+      "src": "",
+      "embeds": [
+        {
+          "src": "https://www.youtube.com/watch?v=m2H9vFiV3M8",
+          "iframeTitle": "Chinese students"
+        },
+        {
+          "src": "https://www.youtube.com/watch?v=oXUNbgT7JRQ",
+          "iframeTitle": "French student"
+        },
+        {
+          "src": "https://www.youtube.com/watch?v=ViQyQlv1w2s",
+          "iframeTitle": "Japanese students"
+        }
+      ],
+      "lede": "Hear directly from our international students as they share their experiences at Rosehill College"
     },
     {
       "type": "cta",
