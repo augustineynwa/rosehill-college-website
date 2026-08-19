@@ -62,7 +62,7 @@
       "embeds": [
         {
           "src": "https://www.youtube-nocookie.com/embed/D-RycRn4P5g?rel=0",
-          "iframeTitle": "Korean student"
+          "iframeTitle": "Korean students"
         }
       ]
     },
@@ -77,7 +77,8 @@
           "src": "https://www.youtube-nocookie.com/embed/EPNu_wPZshg?rel=0",
           "iframeTitle": "Taiwanese student"
         }
-      ]
+      ],
+      "lede": "Discover Rosehill through the eyes of our international students"
     },
     {
       "type": "embed",
@@ -88,15 +89,15 @@
       "src": "",
       "embeds": [
         {
-          "src": "https://www.youtube.com/watch?v=m2H9vFiV3M8",
+          "src": "https://youtu.be/m2H9vFiV3M8?si=mLXOYMR5IqLvbwJ8",
           "iframeTitle": "Chinese students"
         },
         {
-          "src": "https://www.youtube.com/watch?v=oXUNbgT7JRQ",
+          "src": "https://youtu.be/oXUNbgT7JRQ?si=fzOm7I-oD3xOtbAA",
           "iframeTitle": "French student"
         },
         {
-          "src": "https://www.youtube.com/watch?v=ViQyQlv1w2s",
+          "src": "https://youtu.be/ViQyQlv1w2s?si=xq27OLactQC7IbvU",
           "iframeTitle": "Japanese students"
         }
       ],
