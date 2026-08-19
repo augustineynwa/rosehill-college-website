@@ -69,6 +69,30 @@
       "embeds": []
     },
     {
+      "type": "embed",
+      "reo": false,
+      "tall": false,
+      "facade": false,
+      "eyebrow": "China — 2024",
+      "src": "https://www.youtube.com/watch?v=m2H9vFiV3M8"
+    },
+    {
+      "type": "embed",
+      "reo": false,
+      "tall": false,
+      "facade": false,
+      "eyebrow": "France — 2024",
+      "src": "https://www.youtube.com/watch?v=oXUNbgT7JRQ"
+    },
+    {
+      "type": "embed",
+      "reo": false,
+      "tall": false,
+      "facade": false,
+      "eyebrow": "Japan — 2024",
+      "src": "https://www.youtube.com/watch?v=ViQyQlv1w2s"
+    },
+    {
       "type": "cta",
       "heading": "Add your voice to our community",
       "text": "Discover why international students choose Rosehill College, and how to join us.",
