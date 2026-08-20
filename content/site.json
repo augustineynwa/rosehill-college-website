@@ -282,9 +282,9 @@
   "web3formsKey": "3c8b7c5f-23a2-47f4-a37f-df556fd9ea6f",
   "address": {
     "physical": [
-      "5 Edinburgh Avenue,",
-      "Rosehill,",
-      "Papakura 2113,",
+      "5 Edinburgh Avenue",
+      "Rosehill",
+      "Papakura 2113",
       "New Zealand"
     ],
     "postal": [
