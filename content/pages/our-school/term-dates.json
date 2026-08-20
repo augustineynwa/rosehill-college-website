@@ -9,7 +9,7 @@
       "type": "hero",
       "eyebrow": "Ngā wā o te tau",
       "reo": true,
-      "heading": "Term dates 2026",
+      "heading": "Term Dates 2026",
       "lede": "Stay informed with the scheduled dates for the year 2026. Please note that these dates are subject to change based on school administration planning and any directives issued by the Ministry of Education. We recommend checking back regularly for the most up-to-date information."
     },
     {
@@ -45,11 +45,44 @@
       ]
     },
     {
+      "type": "table",
+      "reo": false,
+      "heading": "Term Dates 2027",
+      "lede": "The 2027 term dates have been scheduled to help families plan ahead for the school year. Please note that dates may be updated as we get closer to the end of 2026. We recommend checking this page regularly for any changes or updates.",
+      "columns": [
+        "Term",
+        "Dates",
+        "Holiday and Closure"
+      ],
+      "rows": [
+        [
+          "Term 1",
+          "Wednesday 3 February – Friday 9 April",
+          "Waitangi Day (Observed) — Monday 8 February<br>Good Friday — Friday 26 March<br>Good Monday — Monday 29 March<br>Good Tuesday — Tuesday 30 March"
+        ],
+        [
+          "Term 2",
+          "Tuesday 27 April – Friday 2 July",
+          "Anzac Day (Observed) — Monday 26 April<br>King’s Birthday — Monday 7 June<br>Matariki — Friday 25 June<br>Teacher-only Day — TBC"
+        ],
+        [
+          "Term 3",
+          "Monday 19 July – Friday 24 September",
+          "Teacher-only Day — TBC"
+        ],
+        [
+          "Term 4",
+          "Monday 11 Oct – 17 December",
+          "Labour Day — Monday 25 October"
+        ]
+      ]
+    },
+    {
       "type": "list",
       "id": "key-dates",
       "eyebrow": "Ngā rā nunui",
       "reo": true,
-      "heading": "Key dates this term",
+      "heading": "Key Dates this Term",
       "items": [
         {
           "term": "Saturday 8 August",
@@ -66,7 +99,7 @@
       ]
     },
     {
-      "heading": "Bell times",
+      "heading": "Bell Times",
       "caption": "Rosehill College bell times",
       "eyebrow": "Ngā wā pere",
       "rows": [
