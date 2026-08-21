@@ -295,14 +295,14 @@
   },
   "web3formsKeyEnrolment": "65f53f37-fd76-496a-b76a-b1610f9b2cce",
   "notice": {
-    "active": true,
+    "active": false,
     "level": "info",
-    "message": "Teacher Only Day – Friday 21 August. No classes for students.",
+    "message": "",
     "link": {
       "label": "",
       "href": ""
     },
-    "expires": "2026-08-21"
+    "expires": ""
   },
   "web3formsKeyGeneral": "3c8b7c5f-23a2-47f4-a37f-df556fd9ea6f",
   "baseUrl": "https://www.rosehillcollege.school.nz",
