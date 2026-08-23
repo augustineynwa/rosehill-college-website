@@ -142,13 +142,19 @@
     },
     {
       "type": "prose",
-      "heading": "How out-of-zone places are allocated",
+      "heading": "How Out-of-zone Places are Allocated",
       "html": "Each year, the Rosehill College Board will determine the number of places likely to be available in the following year for the enrolment of students who live outside the home zone. The Board will publish this information on our school website. The notice will indicate how applications are to be made and will specify a date by which all applications must be received.\n\n##### Applications for enrolment will be processed in the following order of priority:\n\n* **First priority:** this priority is not applicable at this school because the school does not run a special programme approved by the Secretary for Education.\n* **Second priority:** will be given to applicants who are siblings of current students.\n* **Third priority:** will be given to applicants who are siblings of former students.\n* **Fourth priority:** will be given to any applicant who is a child of a former student of the school.\n* **Fifth priority:** will be given to any applicant who is either a child of an employee of the board of the school or a child of a member of the board of the school.\n* **Sixth priority:** will be given to all other applicants.\n\nIf there are more applicants in the second, third, fourth, or fifth priority groups than there are available places, selection within the priority group will be determined by ballot, conducted in accordance with the instructions of the Secretary under Section 11G(1) of the Education Act 1989. Parents will be informed of the ballot date by notice in a daily or community newspaper circulating in the area served by the school.\n\n**Applicants seeking second or third priority status may be required to give proof of a sibling relationship.**"
     },
     {
+      "type": "prose",
+      "reo": false,
+      "html": "**Out-of-Zone 2026**\nCurrent application status: Closed",
+      "heading": "Out-of-Zone 2026"
+    },
+    {
       "type": "table",
-      "heading": "Out-of-zone placements for 2027",
-      "lede": "The Rosehill College Board has carefully considered the number of out-of-zone places available for the upcoming school year. The final number of available spaces depends on the number of in-zone enrolments received. The available places are listed below:",
+      "heading": "Out-of-zone Placements for 2027",
+      "lede": "\nThe Rosehill College Board has carefully considered the number of out-of-zone places available for the upcoming school year. The final number of available spaces depends on the number of in-zone enrolments received. The available places are listed below:",
       "caption": "Out-of-zone placements available for 2027",
       "columns": [
         "Year level",
@@ -268,7 +274,8 @@
           "href": "/our-school/uniform-and-stationery",
           "label": "Uniform and Stationery"
         }
-      ]
+      ],
+      "html": "Current application status: Closed"
     }
   ]
 }
