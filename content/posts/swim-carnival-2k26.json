@@ -1,68 +1,89 @@
 {
   "title": "Swim Carnival 2k26 🏊🏾‍♂️🎡",
   "image": {
-    "src": "assets/img/swim-carnival-1.jpg"
+    "src": "assets/img/swim-carnival-1.avif",
+    "srcset": ""
   },
   "gallery": [
     {
-      "src": "assets/img/swim-carnival-1.jpg"
+      "src": "assets/img/swim-carnival-1.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/swim-carnival-2.jpg"
+      "src": "assets/img/swim-carnival-2.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/swim-carnival-3.jpg"
+      "src": "assets/img/swim-carnival-3.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/swim-carnival-4.jpg"
+      "src": "assets/img/swim-carnival-4.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/swim-carnival-5.jpg"
+      "src": "assets/img/swim-carnival-5.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/swim-carnival-6.jpg"
+      "src": "assets/img/swim-carnival-6.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/swim-carnival-7.jpg"
+      "src": "assets/img/swim-carnival-7.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/swim-carnival-8.jpg"
+      "src": "assets/img/swim-carnival-8.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/swim-carnival-9.jpg"
+      "src": "assets/img/swim-carnival-9.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/swim-carnival-10.jpg"
+      "src": "assets/img/swim-carnival-10.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/swim-carnival-11.jpg"
+      "src": "assets/img/swim-carnival-11.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/swim-carnival-12.jpg"
+      "src": "assets/img/swim-carnival-12.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/swim-carnival-13.jpg"
+      "src": "assets/img/swim-carnival-13.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/swim-carnival-14.jpg"
+      "src": "assets/img/swim-carnival-14.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/swim-carnival-15.jpg"
+      "src": "assets/img/swim-carnival-15.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/swim-carnival-16.jpg"
+      "src": "assets/img/swim-carnival-16.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/swim-carnival-17.jpg"
+      "src": "assets/img/swim-carnival-17.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/swim-carnival-18.jpg"
+      "src": "assets/img/swim-carnival-18.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/swim-carnival-19.jpg"
+      "src": "assets/img/swim-carnival-19.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/swim-carnival-20.jpg"
+      "src": "assets/img/swim-carnival-20.avif",
+      "srcset": ""
     }
   ]
 }
