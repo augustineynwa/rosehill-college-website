@@ -3,59 +3,77 @@
   "body": "The Rosehill College library was filled with colour, culture, and celebration as students came together to mark Chinese New Year.\n\nStudents enjoyed a range of activities that celebrated Chinese traditions and provided an opportunity to learn more about the rich cultural heritage behind this special occasion. It was wonderful to see so many students taking part, connecting with one another, and embracing the diversity that strengthens our school community.\n\nA sincere thank you to everyone who helped organise the celebration and to all the students who participated. Your enthusiasm and involvement made the day a memorable one.\n\nWe wish everyone a happy, healthy, and prosperous Chinese New Year! 🧧",
   "date": "2026-02-20",
   "image": {
-    "src": "assets/img/cny-1.jpg"
+    "src": "assets/img/cny-1.avif",
+    "srcset": "/assets/img/cny-1-rp-500.avif 500w, /assets/img/cny-1-rp-800.avif 800w, /assets/img/cny-1-rp-1080.avif 1080w, /assets/img/cny-1-rp-1600.avif 1600w, /assets/img/cny-1.avif 1638w"
   },
   "gallery": [
     {
-      "src": "assets/img/cny-1.jpg"
+      "src": "assets/img/cny-1.avif",
+      "srcset": "/assets/img/cny-1-rp-500.avif 500w, /assets/img/cny-1-rp-800.avif 800w, /assets/img/cny-1-rp-1080.avif 1080w, /assets/img/cny-1-rp-1600.avif 1600w, /assets/img/cny-1.avif 1638w"
     },
     {
-      "src": "assets/img/cny-2.jpg"
+      "src": "assets/img/cny-2.avif",
+      "srcset": "/assets/img/cny-2-rp-500.avif 500w, /assets/img/cny-2-rp-800.avif 800w, /assets/img/cny-2-rp-1080.avif 1080w, /assets/img/cny-2-rp-1600.avif 1600w, /assets/img/cny-2.avif 1638w"
     },
     {
-      "src": "assets/img/cny-3.jpg"
+      "src": "assets/img/cny-3.avif",
+      "srcset": "/assets/img/cny-3-rp-500.avif 500w, /assets/img/cny-3-rp-800.avif 800w, /assets/img/cny-3-rp-1080.avif 1080w, /assets/img/cny-3-rp-1600.avif 1600w, /assets/img/cny-3.avif 1638w"
     },
     {
-      "src": "assets/img/cny-4.jpg"
+      "src": "assets/img/cny-4.avif",
+      "srcset": "/assets/img/cny-4-rp-500.avif 500w, /assets/img/cny-4-rp-800.avif 800w, /assets/img/cny-4-rp-1080.avif 1080w, /assets/img/cny-4-rp-1600.avif 1600w, /assets/img/cny-4.avif 1638w"
     },
     {
-      "src": "assets/img/cny-5.jpg"
+      "src": "assets/img/cny-5.avif",
+      "srcset": "/assets/img/cny-5-rp-500.avif 500w, /assets/img/cny-5-rp-800.avif 800w, /assets/img/cny-5-rp-1080.avif 1080w, /assets/img/cny-5-rp-1600.avif 1600w, /assets/img/cny-5.avif 1638w"
     },
     {
-      "src": "assets/img/cny-6.jpg"
+      "src": "assets/img/cny-6.avif",
+      "srcset": "/assets/img/cny-6-rp-500.avif 500w, /assets/img/cny-6-rp-800.avif 800w, /assets/img/cny-6-rp-1080.avif 1080w, /assets/img/cny-6-rp-1600.avif 1600w, /assets/img/cny-6.avif 1638w"
     },
     {
-      "src": "assets/img/cny-7.jpg"
+      "src": "assets/img/cny-7.avif",
+      "srcset": "/assets/img/cny-7-rp-500.avif 500w, /assets/img/cny-7-rp-800.avif 800w, /assets/img/cny-7-rp-1080.avif 1080w, /assets/img/cny-7-rp-1600.avif 1600w, /assets/img/cny-7.avif 1638w"
     },
     {
-      "src": "assets/img/cny-8.jpg"
+      "src": "assets/img/cny-8.avif",
+      "srcset": "/assets/img/cny-8-rp-500.avif 500w, /assets/img/cny-8-rp-800.avif 800w, /assets/img/cny-8-rp-1080.avif 1080w, /assets/img/cny-8-rp-1600.avif 1600w, /assets/img/cny-8.avif 1638w"
     },
     {
-      "src": "assets/img/cny-9.jpg"
+      "src": "assets/img/cny-9.avif",
+      "srcset": "/assets/img/cny-9-rp-500.avif 500w, /assets/img/cny-9-rp-800.avif 800w, /assets/img/cny-9-rp-1080.avif 1080w, /assets/img/cny-9-rp-1600.avif 1600w, /assets/img/cny-9.avif 1638w"
     },
     {
-      "src": "assets/img/cny-10.jpg"
+      "src": "assets/img/cny-10.avif",
+      "srcset": "/assets/img/cny-10-rp-500.avif 500w, /assets/img/cny-10-rp-800.avif 800w, /assets/img/cny-10-rp-1080.avif 1080w, /assets/img/cny-10-rp-1600.avif 1600w, /assets/img/cny-10.avif 1638w"
     },
     {
-      "src": "assets/img/cny-11.jpg"
+      "src": "assets/img/cny-11.avif",
+      "srcset": "/assets/img/cny-11-rp-500.avif 500w, /assets/img/cny-11-rp-800.avif 800w, /assets/img/cny-11-rp-1080.avif 1080w, /assets/img/cny-11-rp-1600.avif 1600w, /assets/img/cny-11.avif 1638w"
     },
     {
-      "src": "assets/img/cny-12.jpg"
+      "src": "assets/img/cny-12.avif",
+      "srcset": "/assets/img/cny-12-rp-500.avif 500w, /assets/img/cny-12-rp-800.avif 800w, /assets/img/cny-12-rp-1080.avif 1080w, /assets/img/cny-12-rp-1600.avif 1600w, /assets/img/cny-12.avif 2048w"
     },
     {
-      "src": "assets/img/cny-13.jpg"
+      "src": "assets/img/cny-13.avif",
+      "srcset": "/assets/img/cny-13-rp-500.avif 500w, /assets/img/cny-13-rp-800.avif 800w, /assets/img/cny-13-rp-1080.avif 1080w, /assets/img/cny-13-rp-1600.avif 1600w, /assets/img/cny-13.avif 2048w"
     },
     {
-      "src": "assets/img/cny-14.jpg"
+      "src": "assets/img/cny-14.avif",
+      "srcset": "/assets/img/cny-14-rp-500.avif 500w, /assets/img/cny-14-rp-800.avif 800w, /assets/img/cny-14-rp-1080.avif 1080w, /assets/img/cny-14-rp-1600.avif 1600w, /assets/img/cny-14.avif 2048w"
     },
     {
-      "src": "assets/img/cny-15.jpg"
+      "src": "assets/img/cny-15.avif",
+      "srcset": "/assets/img/cny-15-rp-500.avif 500w, /assets/img/cny-15-rp-800.avif 800w, /assets/img/cny-15-rp-1080.avif 1080w, /assets/img/cny-15-rp-1600.avif 1600w, /assets/img/cny-15.avif 1638w"
     },
     {
-      "src": "assets/img/cny-16.jpg"
+      "src": "assets/img/cny-16.avif",
+      "srcset": "/assets/img/cny-16-rp-500.avif 500w, /assets/img/cny-16-rp-800.avif 800w, /assets/img/cny-16-rp-1080.avif 1080w, /assets/img/cny-16-rp-1600.avif 1600w, /assets/img/cny-16.avif 1638w"
     },
     {
-      "src": "assets/img/cny-17.jpg"
+      "src": "assets/img/cny-17.avif",
+      "srcset": "/assets/img/cny-17-rp-500.avif 500w, /assets/img/cny-17-rp-800.avif 800w, /assets/img/cny-17-rp-1080.avif 1080w, /assets/img/cny-17-rp-1600.avif 1600w, /assets/img/cny-17.avif 1638w"
     }
   ]
 }
