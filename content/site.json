@@ -297,7 +297,7 @@
   "notice": {
     "active": true,
     "level": "info",
-    "message": "Our School Policies are now available for review on the Rosehill College website.",
+    "message": "Our School Policies are now available for review on the website.",
     "link": {
       "label": "Review Now",
       "href": "/our-school/school-policies"
