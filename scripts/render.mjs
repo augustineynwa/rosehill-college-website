@@ -192,9 +192,37 @@ function applyUploads(sections) {
   }
 }
 
+// Homepage "Stories and news": pull the latest Our News posts through so staff
+// never hand-maintain it — feature = newest post, then the next couple, plus an
+// evergreen link to the full archive. Enabled per-section with `auto: true`;
+// with it off, the manually entered feature/items are used instead.
+const NEWS_ARCHIVE_HREF = '/our-school/our-latest-news.html';
+function hydrateNewsList(sections) {
+  for (const sec of sections || []) {
+    if (sec.type !== 'news-list' || !sec.auto) continue;
+    const toCard = (p) => ({
+      href: p._href, external: p._external, title: p.title,
+      text: p.excerpt, date: nzDate(p.date), image: p.image,
+    });
+    const recent = posts.slice(0, 3);
+    if (recent[0]) sec.feature = toCard(recent[0]);
+    sec.items = recent.slice(1).map(toCard);
+    sec.items.push({
+      href: NEWS_ARCHIVE_HREF, title: 'All news and notices',
+      text: 'Browse every announcement, event and highlight from across the college.',
+      image: {
+        src: 'assets/img/Our-Latest-News---Default_1.avif',
+        srcset: '/assets/img/Our-Latest-News---Default_1-rp-500.avif 500w, /assets/img/Our-Latest-News---Default_1-rp-800.avif 800w, /assets/img/Our-Latest-News---Default_1-rp-1080.avif 1080w, /assets/img/Our-Latest-News---Default_1-rp-1600.avif 1600w, /assets/img/Our-Latest-News---Default_1.avif 2000w',
+        alt: 'Rosehill College students at a school event',
+      },
+    });
+  }
+}
+
 // render one page object to disk, and (optionally) add it to search + sitemap
 function emitPage(page, { index = true } = {}) {
   applyUploads(page.sections);
+  hydrateNewsList(page.sections);
   renderRichText(page.sections);
   const outPath = join(ROOT, page.path);
   const depth = page.path.split('/').length - 1;

@@ -316,49 +316,7 @@
       "reo": true,
       "heading": "Stories and News",
       "lede": "What's happening across our college community.",
-      "feature": {
-        "href": "/our-school/our-student-leaders.html",
-        "title": "Meet our 2026 head students",
-        "text": "Our student leadership team for 2026 has been announced — meet the head students who will represent and serve our college this year.",
-        "image": {
-          "src": "assets/img/2026-head-students-02.avif",
-          "srcset": "",
-          "alt": "Rosehill College 2026 head students"
-        }
-      },
-      "items": [
-        {
-          "href": "/assets/docs/Start-of-Year-Letter-to-Parents-2026.pdf",
-          "title": "Start of Year Letter to Parents 2026",
-          "text": "Everything whānau need to know for the start of the 2026 school year (PDF).",
-          "image": {
-            "src": "assets/img/back-to-school.avif",
-            "srcset": "",
-            "alt": "Start of the school year at Rosehill College"
-          }
-        },
-        {
-          "href": "/school-app-upgrade-in-progress.html",
-          "title": "Our school app is upgrading",
-          "text": "The Rosehill College app is moving to SchoolBridge — see what's changing and how to get set up.",
-          "image": {
-            "src": "assets/img/School-App-Flyer.avif",
-            "srcset": "/assets/img/School-App-Flyer-rp-500.avif 500w, /assets/img/School-App-Flyer-rp-800.avif 800w, /assets/img/School-App-Flyer-rp-1080.avif 1080w, /assets/img/School-App-Flyer-rp-1600.avif 1600w, /assets/img/School-App-Flyer-rp-2200.avif 2200w, /assets/img/School-App-Flyer.avif 2479w",
-            "alt": "Rosehill College school app flyer",
-            "fit": "contain"
-          }
-        },
-        {
-          "href": "/our-school/our-latest-news.html",
-          "title": "All news and notices",
-          "text": "Browse every announcement, event and highlight from across the college.",
-          "image": {
-            "src": "assets/img/Our-Latest-News---Default_1.avif",
-            "srcset": "/assets/img/Our-Latest-News---Default_1-rp-500.avif 500w, /assets/img/Our-Latest-News---Default_1-rp-800.avif 800w, /assets/img/Our-Latest-News---Default_1-rp-1080.avif 1080w, /assets/img/Our-Latest-News---Default_1-rp-1600.avif 1600w, /assets/img/Our-Latest-News---Default_1.avif 2000w",
-            "alt": "Rosehill College students at a school event"
-          }
-        }
-      ]
+      "auto": true
     },
     {
       "type": "cta",

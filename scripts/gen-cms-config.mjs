@@ -215,7 +215,10 @@ const S = {
   },
   'news-list': {
     label: 'News list', name: 'news-list', widget: 'object',
-    fields: [anchorId(), ...head(), {
+    fields: [anchorId(), ...head(),
+      { label: 'Automatically show the latest news posts', name: 'auto', widget: 'boolean', required: false, default: false,
+        hint: 'When on, this section fills itself from your most recent Our News posts (newest as the featured story) and links straight to them. The featured story and stories set below are then ignored.' },
+      {
       label: 'Featured story', name: 'feature', widget: 'object', required: false, collapsed: true,
       fields: [str('title', 'Title'), txt('text', 'Summary'), str('href', 'Link'), image()],
     }, {
