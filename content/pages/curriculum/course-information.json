@@ -64,9 +64,10 @@
       "lede": "Our senior curriculum is designed to provide Year 12 and Year 13 students with specialised and advanced learning opportunities that prepare them for higher education, vocational training, and successful careers. We offer a broad range of subjects, allowing students to tailor their education to their interests and aspirations.",
       "docs": [
         {
-          "href": "assets/docs/NCEA-Course-Information-2027.pdf",
+          "href": "",
           "label": "Year 12 & 13 NCEA course information 2027",
-          "meta": "PDF"
+          "meta": "PDF",
+          "upload": "/assets/docs/ncea-course-info-2027.pdf"
         }
       ],
       "columns": true
