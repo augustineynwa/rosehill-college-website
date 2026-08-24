@@ -2,20 +2,25 @@
   "title": "Celebrating Our New Zealand Scholarship Recipients",
   "date": "2026-02-17",
   "image": {
-    "src": "assets/img/scholarship-4.jpg"
+    "src": "assets/img/scholarship-4.avif",
+    "srcset": ""
   },
   "gallery": [
     {
-      "src": "assets/img/scholarship-1.jpg"
+      "src": "assets/img/scholarship-1.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/scholarship-2.jpg"
+      "src": "assets/img/scholarship-2.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/scholarship-3.jpg"
+      "src": "assets/img/scholarship-3.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/scholarship-4.jpg"
+      "src": "assets/img/scholarship-4.avif",
+      "srcset": ""
     }
   ],
   "body": "Congratulations to our Rosehill College students on their outstanding success in the **New Zealand Scholarship** examinations.\n\n* **Theana Chen**\n\n   — Outstanding Scholarship in Accounting\n* **Annabelle Foo**\n\n   — Outstanding Scholarship in Accounting\n* **Spencer Ha**\n\n   — Scholarship in Accounting\n* **Bob Luu**\n\n   — Scholarship in Physics\n\nNew Zealand Scholarships recognise the country's highest-achieving secondary school students. Around three percent of candidates receive a Scholarship Award, while Outstanding Scholarships are awarded to only a small number of students who demonstrate exceptional performance.\n\nThese achievements reflect not only academic excellence, but also perseverance, curiosity, and a genuine commitment to learning. We are incredibly proud of Theana, Annabelle, Spencer, and Bob, and congratulate them on this well-deserved recognition.\n\nWe look forward to following their future successes and wish them every best for the journey ahead."
