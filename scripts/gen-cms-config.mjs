@@ -34,6 +34,12 @@ const md = (name, label, hint) => ({
   label, name, widget: 'markdown', required: false,
   hint: hint || 'Formatted text. Existing content is HTML and is preserved as-is.',
 });
+/** document/file picker — uploads to (and picks from) the docs library, not the image one.
+ *  Value is the public path (e.g. /assets/docs/name.pdf); choosing a new file replaces the old. */
+const file = (name, label, extra = {}) => ({
+  label, name, widget: 'file', required: false,
+  media_folder: '/public/assets/docs', public_folder: '/assets/docs', ...extra,
+});
 
 /** image object: {src, alt, srcset?, pos?} — srcset/pos kept hidden so they round-trip */
 const image = (name = 'image', label = 'Image') => ({
@@ -102,6 +108,7 @@ const S = {
       label: 'Cards', name: 'cards', widget: 'list', label_singular: 'Card', collapsed: true,
       summary: '{{fields.title}}',
       fields: [str('title', 'Title'), txt('text', 'Description'), str('href', 'Link'),
+        file('upload', 'Or attach a file (PDF etc.)', { hint: 'Optional. Upload or choose a document and the card opens it instead of the link above.' }),
         str('cta', 'Link text (e.g. View)'), bool('external', 'Links to another website'), image()],
     }],
   },
@@ -178,7 +185,10 @@ const S = {
       bool('columns', 'Show in two columns'), {
         label: 'Documents', name: 'docs', widget: 'list', label_singular: 'Document', collapsed: true,
         summary: '{{fields.label}}',
-        fields: [str('label', 'Title'), str('href', 'File link (e.g. /assets/docs/name.pdf)'), str('meta', 'Meta (e.g. PDF)')],
+        fields: [str('label', 'Title'),
+          file('upload', 'File — upload or choose a document', { hint: 'Upload a new PDF/document, or pick an existing one from the library. Choosing a new file here replaces the old download. This is used unless it is left empty.' }),
+          str('href', 'Or paste a web link instead', { hint: 'Only used when no file is chosen above — e.g. a document hosted on the NZQA or Ministry of Education site. Leave blank if you uploaded a file.' }),
+          str('meta', 'Meta (e.g. PDF)')],
       }],
   },
   embed: {

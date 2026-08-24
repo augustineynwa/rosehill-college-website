@@ -180,8 +180,21 @@ function sectionText(sec) {
 
 let count = 0;
 
+// Document-download and link-card items can attach an uploaded file (CMS `file`
+// widget) instead of typing a link. The widget stores the public path, so an
+// attached file simply becomes the href — while a plain `href` (e.g. an external
+// NZQA/Ministry URL) still works when no file is attached.
+function applyUploads(sections) {
+  for (const sec of sections || []) {
+    for (const item of [...(sec.docs || []), ...(sec.cards || [])]) {
+      if (item && item.upload) item.href = item.upload;
+    }
+  }
+}
+
 // render one page object to disk, and (optionally) add it to search + sitemap
 function emitPage(page, { index = true } = {}) {
+  applyUploads(page.sections);
   renderRichText(page.sections);
   const outPath = join(ROOT, page.path);
   const depth = page.path.split('/').length - 1;

@@ -18,7 +18,7 @@ slug:
   encoding: ascii
   clean_accents: true
   sanitize_replacement: '-'
-site_url: https://rosehillcollege.school.nz
+site_url: https://www.rosehillcollege.school.nz
 logo_url: /assets/img/RHC-Official-Crest.svg
 collections:
   - name: settings
@@ -707,6 +707,13 @@ collections:
                         name: href
                         widget: string
                         required: false
+                      - label: Or attach a file (PDF etc.)
+                        name: upload
+                        widget: file
+                        required: false
+                        media_folder: /public/assets/docs
+                        public_folder: /assets/docs
+                        hint: Optional. Upload or choose a document and the card opens it instead of the link above.
                       - label: Link text (e.g. View)
                         name: cta
                         widget: string
@@ -1182,10 +1189,18 @@ collections:
                         name: label
                         widget: string
                         required: false
-                      - label: File link (e.g. /assets/docs/name.pdf)
+                      - label: File — upload or choose a document
+                        name: upload
+                        widget: file
+                        required: false
+                        media_folder: /public/assets/docs
+                        public_folder: /assets/docs
+                        hint: Upload a new PDF/document, or pick an existing one from the library. Choosing a new file here replaces the old download. This is used unless it is left empty.
+                      - label: Or paste a web link instead
                         name: href
                         widget: string
                         required: false
+                        hint: Only used when no file is chosen above — e.g. a document hosted on the NZQA or Ministry of Education site. Leave blank if you uploaded a file.
                       - label: Meta (e.g. PDF)
                         name: meta
                         widget: string
