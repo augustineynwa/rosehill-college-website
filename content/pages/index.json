@@ -18,7 +18,7 @@
       "type": "home-values",
       "eyebrow": "Ō tātau uara",
       "reo": true,
-      "heading": "Our vision and values",
+      "heading": "Our Vision and Values",
       "lede": "Rosehill College will nurture a culture of excellence through Hihiritanga, Rangatiratanga, Whanaungatanga, and Manaakitanga.",
       "values": [
         {
@@ -126,12 +126,12 @@
       "type": "home-journey",
       "eyebrow": "Te haerenga",
       "reo": true,
-      "heading": "The journey — Year 9 to Year 13",
+      "heading": "The Journey — Year 9 to Year 13",
       "lede": "Five years, one pathway. From your first day to your last, every step at Rosehill College builds towards personal excellence.",
       "steps": [
         {
           "year": "9",
-          "title": "Settle in and belong",
+          "title": "Settle In and Belong",
           "text": "Your Junior Diploma journey begins — our in-house qualification recognising participation, effort and achievement across all aspects of school life — alongside the SMART assessment in literacy and numeracy.",
           "link": {
             "href": "/curriculum/year-9-smart-assessment.html",
@@ -146,7 +146,7 @@
         },
         {
           "year": "10",
-          "title": "Build your foundations",
+          "title": "Build Your Foundations",
           "text": "The Junior Diploma continues, building foundational skills in literacy and numeracy while you explore a wide variety of subjects — and head beyond the classroom on Year 10 camp.",
           "link": {
             "href": "/curriculum/junior-diploma.html",
@@ -160,7 +160,7 @@
         },
         {
           "year": "11",
-          "title": "Step up",
+          "title": "Step Up",
           "text": "The final year of the Junior Diploma — awarded at Achieved, Merit or Excellence — sharpens your goals and readies you for NCEA study in the senior school.",
           "link": {
             "href": "/curriculum/course-information.html",
@@ -189,7 +189,7 @@
         },
         {
           "year": "13",
-          "title": "Lead and launch",
+          "title": "Lead and Launch",
           "text": "NCEA Level 3, head student leadership, and pathways to university, vocational training and careers — you leave ready for the world beyond school.",
           "link": {
             "href": "/our-school/our-student-leaders.html",
@@ -207,7 +207,7 @@
       "type": "home-cocurricular",
       "eyebrow": "I tua atu i te akomanga",
       "reo": true,
-      "heading": "Beyond the classroom",
+      "heading": "Beyond the Classroom",
       "lede": "Sports, arts, culture and clubs — a co-curricular life with national reach.",
       "rows": [
         {
@@ -292,7 +292,7 @@
       "id": "who-we-are",
       "eyebrow": "Ko wai mātau",
       "reo": true,
-      "heading": "Who we are",
+      "heading": "Who We Are",
       "lede": "Fly over our campus and see a term at Rosehill College in motion.",
       "embeds": [
         {
@@ -314,7 +314,7 @@
       "id": "news",
       "eyebrow": "Ngā kōrero hou",
       "reo": true,
-      "heading": "Stories and news",
+      "heading": "Stories and News",
       "lede": "What's happening across our college community.",
       "feature": {
         "href": "/our-school/our-student-leaders.html",
