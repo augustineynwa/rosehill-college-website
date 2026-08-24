@@ -2,39 +2,50 @@
   "title": "Thank You, Tūpiki Trust and Bushbuck",
   "date": "2026-02-26",
   "image": {
-    "src": "assets/img/tt-10.jpg"
+    "src": "assets/img/tt-10.avif",
+    "srcset": ""
   },
   "body": "Rosehill College extends its sincere thanks to **Tūpiki Trust** for its generous grant in support of our **Get Good Gear** campaign.\n\nThis funding, together with the support of **Bushbuck**, has enabled our Year 13 Outdoor Education students to be equipped with quality alpine jackets for their upcoming experiences in **Tongariro National Park**. Having reliable outdoor gear helps ensure students can participate safely and comfortably while creating lasting memories through their learning beyond the classroom.\n\nWe are grateful to Tūpiki Trust and Bushbuck for investing in opportunities that enrich the educational experiences of our students. Your support will have a lasting impact on our Outdoor Education programme and the young people who take part in it.\n\nTo learn more about the work of Tūpiki Trust, please visit **[tupikitrust.org.nz](https://tupikitrust.org.nz/).**",
   "gallery": [
     {
-      "src": "assets/img/tt-1.jpg"
+      "src": "assets/img/tt-1.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/tt-2.jpg"
+      "src": "assets/img/tt-2.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/tt-3.jpg"
+      "src": "assets/img/tt-3.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/tt-4.jpg"
+      "src": "assets/img/tt-4.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/tt-5.jpg"
+      "src": "assets/img/tt-5.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/tt-6.jpg"
+      "src": "assets/img/tt-6.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/tt-7.jpg"
+      "src": "assets/img/tt-7.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/tt-8.jpg"
+      "src": "assets/img/tt-8.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/tt-9.jpg"
+      "src": "assets/img/tt-9.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/tt-10.jpg"
+      "src": "assets/img/tt-10.avif",
+      "srcset": ""
     }
   ]
 }
