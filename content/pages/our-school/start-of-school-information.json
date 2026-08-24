@@ -9,7 +9,7 @@
       "type": "hero",
       "eyebrow": "Ngā mōhiohio matua",
       "reo": true,
-      "heading": "Start of school information",
+      "heading": "Start of School Information",
       "lede": "The essentials for life at Rosehill College — term dates, daily times, uniform, buses, BYOD and where to get help — gathered in one place for students and whānau, all year round."
     },
     {
@@ -51,9 +51,10 @@
         {
           "external": false,
           "title": "Student Handbook",
-          "href": "https://www.rosehillcollege.school.nz/assets/docs/Student-Handbook.pdf",
+          "href": "",
           "cta": "View",
-          "text": "Everything students need to know at Rosehill College."
+          "text": "Everything students need to know at Rosehill College.",
+          "upload": "/assets/docs/2026-student-handbook-6.8.26.pdf"
         }
       ]
     },
