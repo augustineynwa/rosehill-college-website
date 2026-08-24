@@ -9,13 +9,13 @@
       "type": "hero",
       "eyebrow": "Ngā karere",
       "reo": true,
-      "heading": "Our latest news",
+      "heading": "Our Latest News",
       "lede": "Stay up-to-date with the latest news from Rosehill College — important announcements, upcoming events and highlights from school activities."
     },
     {
       "type": "post-list",
       "id": "all-news",
-      "heading": "All news",
+      "heading": "All News",
       "lede": "The latest announcements and highlights from around the school."
     },
     {
