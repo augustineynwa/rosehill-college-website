@@ -2,41 +2,53 @@
   "title": "Volleyball 2026 🏐🔥",
   "date": "2026-03-16",
   "image": {
-    "src": "assets/img/volleyball-7.jpg"
+    "src": "assets/img/volleyball-7.avif",
+    "srcset": "/assets/img/volleyball-7-rp-500.avif 500w, /assets/img/volleyball-7-rp-800.avif 800w, /assets/img/volleyball-7-rp-1080.avif 1080w"
   },
   "gallery": [
     {
-      "src": "assets/img/volleyball-1.jpg"
+      "src": "assets/img/volleyball-1.avif",
+      "srcset": "/assets/img/volleyball-1-rp-500.avif 500w, /assets/img/volleyball-1-rp-800.avif 800w, /assets/img/volleyball-1-rp-1080.avif 1080w"
     },
     {
-      "src": "assets/img/volleyball-2.jpg"
+      "src": "assets/img/volleyball-2.avif",
+      "srcset": "/assets/img/volleyball-2-rp-500.avif 500w, /assets/img/volleyball-2-rp-800.avif 800w, /assets/img/volleyball-2-rp-1080.avif 1080w"
     },
     {
-      "src": "assets/img/volleyball-3.jpg"
+      "src": "assets/img/volleyball-3.avif",
+      "srcset": "/assets/img/volleyball-3-rp-500.avif 500w, /assets/img/volleyball-3-rp-800.avif 800w, /assets/img/volleyball-3-rp-1080.avif 1080w"
     },
     {
-      "src": "assets/img/volleyball-4.jpg"
+      "src": "assets/img/volleyball-4.avif",
+      "srcset": "/assets/img/volleyball-4-rp-500.avif 500w, /assets/img/volleyball-4-rp-800.avif 800w, /assets/img/volleyball-4-rp-1080.avif 1080w"
     },
     {
-      "src": "assets/img/volleyball-5.jpg"
+      "src": "assets/img/volleyball-5.avif",
+      "srcset": "/assets/img/volleyball-5-rp-500.avif 500w, /assets/img/volleyball-5-rp-800.avif 800w, /assets/img/volleyball-5-rp-1080.avif 1080w"
     },
     {
-      "src": "assets/img/volleyball-6.jpg"
+      "src": "assets/img/volleyball-6.avif",
+      "srcset": "/assets/img/volleyball-6-rp-500.avif 500w, /assets/img/volleyball-6-rp-800.avif 800w, /assets/img/volleyball-6-rp-1080.avif 1080w"
     },
     {
-      "src": "assets/img/volleyball-7.jpg"
+      "src": "assets/img/volleyball-7.avif",
+      "srcset": "/assets/img/volleyball-7-rp-500.avif 500w, /assets/img/volleyball-7-rp-800.avif 800w, /assets/img/volleyball-7-rp-1080.avif 1080w"
     },
     {
-      "src": "assets/img/volleyball-8.jpg"
+      "src": "assets/img/volleyball-8.avif",
+      "srcset": "/assets/img/volleyball-8-rp-500.avif 500w, /assets/img/volleyball-8-rp-800.avif 800w, /assets/img/volleyball-8-rp-1080.avif 1080w"
     },
     {
-      "src": "assets/img/volleyball-9.jpg"
+      "src": "assets/img/volleyball-9.avif",
+      "srcset": "/assets/img/volleyball-9-rp-500.avif 500w, /assets/img/volleyball-9-rp-800.avif 800w, /assets/img/volleyball-9-rp-1080.avif 1080w"
     },
     {
-      "src": "assets/img/volleyball-10.jpg"
+      "src": "assets/img/volleyball-10.avif",
+      "srcset": "/assets/img/volleyball-10-rp-500.avif 500w, /assets/img/volleyball-10-rp-800.avif 800w, /assets/img/volleyball-10-rp-1080.avif 1080w"
     },
     {
-      "src": "assets/img/volleyball-11.jpg"
+      "src": "assets/img/volleyball-11.avif",
+      "srcset": "/assets/img/volleyball-11-rp-500.avif 500w, /assets/img/volleyball-11-rp-800.avif 800w, /assets/img/volleyball-11-rp-1080.avif 1080w"
     }
   ]
 }
