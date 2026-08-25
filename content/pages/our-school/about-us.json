@@ -9,7 +9,7 @@
       "type": "hero",
       "eyebrow": "Ko wai mātau",
       "reo": true,
-      "heading": "Our vision and values",
+      "heading": "Our Vision and Values",
       "lede": "Rosehill College, officially opened in 1970, has a proud history of outstanding academic achievement and a record of national success in both sports and the performing arts.",
       "image": {
         "src": "assets/img/RHC-Campus-Aerial-Wide.avif",
@@ -19,7 +19,7 @@
     },
     {
       "type": "prose",
-      "heading": "Mission and vision",
+      "heading": "Mission and Vision",
       "html": "<p>Our Mission Statement is: <strong>\"Together we create an environment for personal excellence.\"</strong></p><p>Our Vision Statement is: <strong>\"Rosehill College will nurture a culture of excellence through <span lang=\"mi\">Hihiritanga</span>, <span lang=\"mi\">Rangatiratanga</span>, <span lang=\"mi\">Whanaungatanga</span>, and <span lang=\"mi\">Manaakitanga</span>.\"</strong></p><ul><li><strong><span lang=\"mi\">Hihiritanga</span>:</strong> Strive — we are resilient and persevere</li><li><strong><span lang=\"mi\">Rangatiratanga</span>:</strong> Reflect — excellence in all that we do</li><li><strong><span lang=\"mi\">Whanaungatanga</span>:</strong> Respect — together we are more</li><li><strong><span lang=\"mi\">Manaakitanga</span>:</strong> Connect — we rise by lifting others</li></ul>",
       "aside": {
         "image": {
@@ -57,28 +57,24 @@
       "flip": true,
       "eyebrow": "Mō mātau",
       "reo": true,
-      "heading": "About us",
+      "heading": "About Us",
       "image": {
         "src": "assets/img/Our-School---About-Us.avif",
         "srcset": "/assets/img/Our-School---About-Us-rp-500.avif 500w, /assets/img/Our-School---About-Us-rp-800.avif 800w, /assets/img/Our-School---About-Us-rp-1080.avif 1080w, /assets/img/Our-School---About-Us-rp-1600.avif 1600w, /assets/img/Our-School---About-Us-rp-2200.avif 2200w, /assets/img/Our-School---About-Us-rp-3000.avif 3000w",
         "alt": "Rosehill College campus and students"
       },
-      "html": "<p>Rosehill College is a co-educational secondary school with a rich history of providing quality education and fostering a supportive learning environment. The College sits within the <span lang=\"mi\">Ngāti Tamaoho</span> rohe. This area extends from north of the Tamaki Isthmus to south of the Waikato River, to the Whangamarino wetlands. It extends from the West Coast to the Hauraki Gulf/Firth of Thames. Its interests are concentrated in the Manukau lowlands, Āwhitu Peninsula, Papakura, Hunua Ranges, Mangatangi, and Whangamarino.</p><p><span lang=\"mi\">Ngāti Tamaoho</span> has a rich cultural heritage, including traditions, stories, and practices passed down through generations. They have a significant connection to their land and natural resources, and like other <span lang=\"mi\">iwi</span>, they play an active role in the social, cultural, and economic life of their communities.</p>"
-    },
-    {
-      "type": "prose",
-      "html": "<p>Rosehill College serves students from Year 9 to Year 13 (ages 13 to 18). The college offers a wide range of academic, sporting, cultural, and co-curricular activities to cater to the diverse interests and needs of its students. Established in 1970, Rosehill College has a rich history of providing quality education and fostering a supportive learning environment. The school emphasises holistic development, aiming to nurture students not only academically but also socially, emotionally, and physically.</p>"
+      "html": "<p>Rosehill College is a co-educational secondary school with a rich history of providing quality education and fostering a supportive learning environment. The College sits within the <span lang=\"mi\">Ngāti Tamaoho</span> rohe. This area extends from north of the Tamaki Isthmus to south of the Waikato River, to the Whangamarino wetlands. It extends from the West Coast to the Hauraki Gulf/Firth of Thames. Its interests are concentrated in the Manukau lowlands, Āwhitu Peninsula, Papakura, Hunua Ranges, Mangatangi, and Whangamarino.</p><p><span lang=\"mi\">Ngāti Tamaoho</span> has a rich cultural heritage, including traditions, stories, and practices passed down through generations. They have a significant connection to their land and natural resources, and like other <span lang=\"mi\">iwi</span>, they play an active role in the social, cultural, and economic life of their communities.</p>\n\n<br>\n\n<p>Rosehill College serves students from Year 9 to Year 13 (ages 13 to 18). The college offers a wide range of academic, sporting, cultural, and co-curricular activities to cater to the diverse interests and needs of its students. Established in 1970, Rosehill College has a rich history of providing quality education and fostering a supportive learning environment. The school emphasises holistic development, aiming to nurture students not only academically but also socially, emotionally, and physically.</p>"
     },
     {
       "type": "cards",
       "eyebrow": "Rapua ētahi atu",
       "reo": true,
-      "heading": "Keep exploring",
+      "heading": "Keep Exploring",
       "cards": [
         {
           "title": "Our Rosehill College Way",
-          "text": "How our four values shape every day at school.",
-          "href": "/curriculum/our-rosehill-college-way.html",
+          "text": "How our four values shape every day at school",
+          "href": "/curriculum/our-rosehill-college-way",
           "image": {
             "src": "assets/img/Curriculum---Our-RHC-Way-Banner_1.avif",
             "srcset": "/assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-500.avif 500w, /assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-800.avif 800w, /assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-1080.avif 1080w, /assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-1600.avif 1600w, /assets/img/Curriculum---Our-RHC-Way-Banner_1-rp-2200.avif 2200w, /assets/img/Curriculum---Our-RHC-Way-Banner_1.avif 2245w",
@@ -86,9 +82,9 @@
           }
         },
         {
-          "title": "Our history",
-          "text": "More than five decades of Rosehill College, from 1970 to today.",
-          "href": "/our-school/our-history.html",
+          "title": "Our History",
+          "text": "More than five decades of Rosehill College, from 1970 to today",
+          "href": "/our-school/our-history",
           "image": {
             "src": "assets/img/Main-Page---Our-History_1.avif",
             "srcset": "/assets/img/Main-Page---Our-History_1-rp-500.avif 500w, /assets/img/Main-Page---Our-History_1-rp-800.avif 800w, /assets/img/Main-Page---Our-History_1-rp-1080.avif 1080w, /assets/img/Main-Page---Our-History_1-rp-1600.avif 1600w, /assets/img/Main-Page---Our-History_1-rp-2200.avif 2200w, /assets/img/Main-Page---Our-History_1-rp-3000.avif 3000w, /assets/img/Main-Page---Our-History_1.avif 3436w",
@@ -97,8 +93,8 @@
         },
         {
           "title": "Life at Rosehill College",
-          "text": "Academic excellence, arts, sport, wellbeing and community.",
-          "href": "/our-school/life-at-rosehill-college.html",
+          "text": "Academic excellence, arts, sport, wellbeing and community",
+          "href": "/our-school/life-at-rosehill-college",
           "image": {
             "src": "assets/img/Landing-Page---Life-at-RHC_1.avif",
             "srcset": "/assets/img/Landing-Page---Life-at-RHC_1-rp-500.avif 500w, /assets/img/Landing-Page---Life-at-RHC_1-rp-800.avif 800w, /assets/img/Landing-Page---Life-at-RHC_1-rp-1080.avif 1080w, /assets/img/Landing-Page---Life-at-RHC_1-rp-1600.avif 1600w, /assets/img/Landing-Page---Life-at-RHC_1-rp-2200.avif 2200w, /assets/img/Landing-Page---Life-at-RHC_1.avif 2237w",
