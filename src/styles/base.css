@@ -116,7 +116,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin-block: var(--sp-6); }
 /* column helpers — text always sits on the grid */
 .col-full { grid-column: 1 / -1; }
 .col-main { grid-column: 1 / span 8; }
-.col-narrow { grid-column: 2 / span 7; }
+.col-narrow { grid-column: 1 / span 7; }
 .col-half { grid-column: span 6; }
 .col-third { grid-column: span 4; }
 .col-quarter { grid-column: span 3; }
