@@ -1,0 +1,30 @@
+{
+  "title": "Making chocolate in food tech 🍫🤤",
+  "date": "2026-08-26",
+  "image": {
+    "src": "assets/img/food-1.jpg"
+  },
+  "gallery": [
+    {
+      "src": "assets/img/food-1.jpg"
+    },
+    {
+      "src": "assets/img/food-2.jpg"
+    },
+    {
+      "src": "assets/img/food-3.jpg"
+    },
+    {
+      "src": "assets/img/food-4.jpg"
+    },
+    {
+      "src": "assets/img/food-5.jpg"
+    },
+    {
+      "src": "assets/img/food-6.jpg"
+    },
+    {
+      "src": "assets/img/food-7.jpg"
+    }
+  ]
+}
