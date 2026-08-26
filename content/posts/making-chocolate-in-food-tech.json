@@ -2,29 +2,37 @@
   "title": "Making chocolate in food tech 🍫🤤",
   "date": "2026-08-26",
   "image": {
-    "src": "assets/img/food-1.jpg"
+    "src": "assets/img/food-1.avif",
+    "srcset": "/assets/img/food-1-rp-500.avif 500w, /assets/img/food-1-rp-800.avif 800w, /assets/img/food-1-rp-1080.avif 1080w, /assets/img/food-1-rp-1600.avif 1600w, /assets/img/food-1-rp-2200.avif 2200w, /assets/img/food-1.avif 2560w"
   },
   "gallery": [
     {
-      "src": "assets/img/food-1.jpg"
+      "src": "assets/img/food-1.avif",
+      "srcset": "/assets/img/food-1-rp-500.avif 500w, /assets/img/food-1-rp-800.avif 800w, /assets/img/food-1-rp-1080.avif 1080w, /assets/img/food-1-rp-1600.avif 1600w, /assets/img/food-1-rp-2200.avif 2200w, /assets/img/food-1.avif 2560w"
     },
     {
-      "src": "assets/img/food-2.jpg"
+      "src": "assets/img/food-2.avif",
+      "srcset": "/assets/img/food-2-rp-500.avif 500w, /assets/img/food-2-rp-800.avif 800w, /assets/img/food-2-rp-1080.avif 1080w, /assets/img/food-2-rp-1600.avif 1600w, /assets/img/food-2-rp-2200.avif 2200w, /assets/img/food-2.avif 2560w"
     },
     {
-      "src": "assets/img/food-3.jpg"
+      "src": "assets/img/food-3.avif",
+      "srcset": "/assets/img/food-3-rp-500.avif 500w, /assets/img/food-3-rp-800.avif 800w, /assets/img/food-3-rp-1080.avif 1080w, /assets/img/food-3-rp-1600.avif 1600w, /assets/img/food-3-rp-2200.avif 2200w, /assets/img/food-3.avif 2410w"
     },
     {
-      "src": "assets/img/food-4.jpg"
+      "src": "assets/img/food-4.avif",
+      "srcset": "/assets/img/food-4-rp-500.avif 500w, /assets/img/food-4-rp-800.avif 800w, /assets/img/food-4-rp-1080.avif 1080w, /assets/img/food-4-rp-1600.avif 1600w, /assets/img/food-4-rp-2200.avif 2200w, /assets/img/food-4.avif 2560w"
     },
     {
-      "src": "assets/img/food-5.jpg"
+      "src": "assets/img/food-5.avif",
+      "srcset": "/assets/img/food-5-rp-500.avif 500w, /assets/img/food-5-rp-800.avif 800w, /assets/img/food-5-rp-1080.avif 1080w, /assets/img/food-5-rp-1600.avif 1600w, /assets/img/food-5-rp-2200.avif 2200w, /assets/img/food-5.avif 2560w"
     },
     {
-      "src": "assets/img/food-6.jpg"
+      "src": "assets/img/food-6.avif",
+      "srcset": "/assets/img/food-6-rp-500.avif 500w, /assets/img/food-6-rp-800.avif 800w, /assets/img/food-6-rp-1080.avif 1080w, /assets/img/food-6-rp-1600.avif 1600w, /assets/img/food-6-rp-2200.avif 2200w, /assets/img/food-6.avif 2560w"
     },
     {
-      "src": "assets/img/food-7.jpg"
+      "src": "assets/img/food-7.avif",
+      "srcset": "/assets/img/food-7-rp-500.avif 500w, /assets/img/food-7-rp-800.avif 800w, /assets/img/food-7-rp-1080.avif 1080w, /assets/img/food-7-rp-1600.avif 1600w, /assets/img/food-7-rp-2200.avif 2200w, /assets/img/food-7.avif 2560w"
     }
   ]
 }
