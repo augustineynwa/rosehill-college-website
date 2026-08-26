@@ -9,12 +9,12 @@
       "type": "hero",
       "eyebrow": "Ngā kaimahi",
       "reo": true,
-      "heading": "Our staff",
+      "heading": "Our Staff",
       "lede": "Our team of educators and support staff is committed to fostering a supportive, inspiring, and high-quality learning environment for students."
     },
     {
       "type": "people",
-      "heading": "Senior leadership team",
+      "heading": "Senior Leadership Team",
       "groups": [
         {
           "people": [
@@ -64,12 +64,12 @@
     },
     {
       "type": "people",
-      "heading": "Our teams",
+      "heading": "Our Teams",
       "lede": "Every house, learning area and support team has a direct email — or phone the school office and ask for the extension listed.",
       "compact": true,
       "groups": [
         {
-          "title": "Head of House",
+          "title": "Kaitiaki/Head of House",
           "people": [
             {
               "name": "Mrs J Thackham and Mrs R Lee-Mataia",
@@ -203,12 +203,12 @@
             },
             {
               "name": "Ms P MacCormick",
-              "role": "Student Support · ext 816",
+              "role": "Counsellor · ext 816",
               "email": "p.maccormick@rosehillcollege.school.nz"
             },
             {
               "name": "Miss P Alontave",
-              "role": "Student Support · ext 890",
+              "role": "Counsellor · ext 890",
               "email": "p.alontave@rosehillcollege.school.nz"
             },
             {
