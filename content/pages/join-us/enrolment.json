@@ -75,7 +75,7 @@
         },
         {
           "title": "CHECK YOUR SCHOOL ZONE",
-          "html": "<p>Students who live within the Rosehill College enrolment zone are entitled to enrol. If you are unsure whether your address is in zone, simply enter it using the link below.</p>\n\n<p><a href=\"https://www.educationcounts.govt.nz/find-school\" rel=\"external\"><strong>Check your school zone</strong></a></p>"
+          "html": "Students who live within the Rosehill College enrolment zone are entitled to enrol. If you are unsure whether your address is in zone, simply enter it using the link below.\n\n<a class=\"btn btn--lg btn--red\" href=\"https://www.educationcounts.govt.nz/find-school\" rel=\"external\">Check your school zone</a>"
         },
         {
           "title": "ENROLMENT FORMS",
