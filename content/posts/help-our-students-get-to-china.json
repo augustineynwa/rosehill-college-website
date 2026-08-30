@@ -1,7 +1,7 @@
 {
   "title": "Help Our Students Get to China!",
   "date": "2026-08-27",
-  "body": "Our Rosehill College students are fundraising for an exciting **learning journey to China in 2027**.\n\nThis trip will give students the chance to experience a new culture, explore new places, and take their learning beyond the classroom. Your support can help make this opportunity possible.\n\nEvery donation, big or small, makes a difference. If you are unable to donate, sharing the fundraiser with your whānau and friends is also a great way to support our students.\n\n<button class=\"btn btn--lg btn--red\"><a href=\"https://givealittle.co.nz/cause/learning-beyond-the-classroom-rosehills-2027-china?fbclid=IwY2xjawUA505wZG9mBWV4dG4DYWVtAjEwAGJyaWQRMGdhRndTbWFZMkM0dzB1UGVzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeqgTzCzvJ3OxRsf_j85oIg3mDa5Smp_ukEHUra3qVtDQt2lagY7Z8dRW2pdU_aem_NUbVmX8i6mjCRugHH6hLbg\">Support our students through Givealittle</a></button>\n\n**Thank you for getting behind our students and supporting their journey!**",
+  "body": "Our Rosehill College students are fundraising for an exciting **learning journey to China in 2027**.\n\nThis trip will give students the chance to experience a new culture, explore new places, and take their learning beyond the classroom. Your support can help make this opportunity possible.\n\nEvery donation, big or small, makes a difference. If you are unable to donate, sharing the fundraiser with your whānau and friends is also a great way to support our students.\n\n<a class=\"btn btn--lg btn--red\" href=\"https://givealittle.co.nz/cause/learning-beyond-the-classroom-rosehills-2027-china?fbclid=IwY2xjawUA505wZG9mBWV4dG4DYWVtAjEwAGJyaWQRMGdhRndTbWFZMkM0dzB1UGVzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeqgTzCzvJ3OxRsf_j85oIg3mDa5Smp_ukEHUra3qVtDQt2lagY7Z8dRW2pdU_aem_NUbVmX8i6mjCRugHH6hLbg\">Support our students through Givealittle</a>\n\n**Thank you for getting behind our students and supporting their journey!**",
   "gallery": [
     {
       "src": "assets/img/chi-1.avif",
@@ -45,7 +45,7 @@
     }
   ],
   "image": {
-    "src": "assets/img/chi-12-1.avif",
+    "src": "assets/img/chi-12-1.png",
     "srcset": ""
   }
 }
