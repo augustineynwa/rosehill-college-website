@@ -4,37 +4,48 @@
   "body": "Our Rosehill College students are fundraising for an exciting **learning journey to China in 2027**.\n\nThis trip will give students the chance to experience a new culture, explore new places, and take their learning beyond the classroom. Your support can help make this opportunity possible.\n\nEvery donation, big or small, makes a difference. If you are unable to donate, sharing the fundraiser with your whānau and friends is also a great way to support our students.\n\n[Support our students through Givealittle](https://givealittle.co.nz/cause/learning-beyond-the-classroom-rosehills-2027-china?fbclid=IwY2xjawUA505wZG9mBWV4dG4DYWVtAjEwAGJyaWQRMGdhRndTbWFZMkM0dzB1UGVzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeqgTzCzvJ3OxRsf_j85oIg3mDa5Smp_ukEHUra3qVtDQt2lagY7Z8dRW2pdU_aem_NUbVmX8i6mjCRugHH6hLbg)\n\n**Thank you for getting behind our students and supporting their journey!**",
   "gallery": [
     {
-      "src": "assets/img/chi-1.jpg"
+      "src": "assets/img/chi-1.avif",
+      "srcset": "/assets/img/chi-1-rp-500.avif 500w, /assets/img/chi-1-rp-800.avif 800w, /assets/img/chi-1-rp-1080.avif 1080w, /assets/img/chi-1-rp-1600.avif 1600w, /assets/img/chi-1.avif 2048w"
     },
     {
-      "src": "assets/img/chi-2.jpg"
+      "src": "assets/img/chi-2.avif",
+      "srcset": "/assets/img/chi-2-rp-500.avif 500w, /assets/img/chi-2-rp-800.avif 800w, /assets/img/chi-2-rp-1080.avif 1080w, /assets/img/chi-2-rp-1600.avif 1600w, /assets/img/chi-2.avif 1638w"
     },
     {
-      "src": "assets/img/chi-3.jpg"
+      "src": "assets/img/chi-3.avif",
+      "srcset": "/assets/img/chi-3-rp-500.avif 500w, /assets/img/chi-3-rp-800.avif 800w, /assets/img/chi-3-rp-1080.avif 1080w, /assets/img/chi-3-rp-1600.avif 1600w, /assets/img/chi-3.avif 1638w"
     },
     {
-      "src": "assets/img/chi-4.jpg"
+      "src": "assets/img/chi-4.avif",
+      "srcset": "/assets/img/chi-4-rp-500.avif 500w, /assets/img/chi-4-rp-800.avif 800w, /assets/img/chi-4-rp-1080.avif 1080w, /assets/img/chi-4-rp-1600.avif 1600w, /assets/img/chi-4.avif 2048w"
     },
     {
-      "src": "assets/img/chi-5.jpg"
+      "src": "assets/img/chi-5.avif",
+      "srcset": "/assets/img/chi-5-rp-500.avif 500w, /assets/img/chi-5-rp-800.avif 800w, /assets/img/chi-5-rp-1080.avif 1080w, /assets/img/chi-5-rp-1600.avif 1600w, /assets/img/chi-5.avif 1638w"
     },
     {
-      "src": "assets/img/chi-6.jpg"
+      "src": "assets/img/chi-6.avif",
+      "srcset": "/assets/img/chi-6-rp-500.avif 500w, /assets/img/chi-6-rp-800.avif 800w, /assets/img/chi-6-rp-1080.avif 1080w, /assets/img/chi-6-rp-1600.avif 1600w, /assets/img/chi-6.avif 2048w"
     },
     {
-      "src": "assets/img/chi-7.jpg"
+      "src": "assets/img/chi-7.avif",
+      "srcset": "/assets/img/chi-7-rp-500.avif 500w, /assets/img/chi-7-rp-800.avif 800w, /assets/img/chi-7-rp-1080.avif 1080w, /assets/img/chi-7-rp-1600.avif 1600w, /assets/img/chi-7.avif 1638w"
     },
     {
-      "src": "assets/img/chi-8.jpg"
+      "src": "assets/img/chi-8.avif",
+      "srcset": "/assets/img/chi-8-rp-500.avif 500w, /assets/img/chi-8-rp-800.avif 800w, /assets/img/chi-8-rp-1080.avif 1080w, /assets/img/chi-8-rp-1600.avif 1600w, /assets/img/chi-8.avif 1639w"
     },
     {
-      "src": "assets/img/chi-9.jpg"
+      "src": "assets/img/chi-9.avif",
+      "srcset": "/assets/img/chi-9-rp-500.avif 500w, /assets/img/chi-9-rp-800.avif 800w, /assets/img/chi-9-rp-1080.avif 1080w, /assets/img/chi-9-rp-1600.avif 1600w, /assets/img/chi-9.avif 1638w"
     },
     {
-      "src": "assets/img/chi-10.jpg"
+      "src": "assets/img/chi-10.avif",
+      "srcset": "/assets/img/chi-10-rp-500.avif 500w, /assets/img/chi-10-rp-800.avif 800w, /assets/img/chi-10-rp-1080.avif 1080w, /assets/img/chi-10-rp-1600.avif 1600w, /assets/img/chi-10.avif 1638w"
     }
   ],
   "image": {
-    "src": "assets/img/chi-12.png"
+    "src": "assets/img/chi-12.avif",
+    "srcset": ""
   }
 }
