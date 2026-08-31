@@ -42,17 +42,20 @@
         {
           "href": "assets/docs/Course-Info-Year-9-2027.pdf",
           "label": "Year 9 courses 2027",
-          "meta": "PDF"
+          "meta": "PDF",
+          "upload": "/assets/docs/course-info-year-9-2027-final.pdf"
         },
         {
           "href": "assets/docs/Course-Info-Year-10-2027.pdf",
           "label": "Year 10 courses 2027",
-          "meta": "PDF"
+          "meta": "PDF",
+          "upload": "/assets/docs/course-info-year-10-2027-final.pdf"
         },
         {
           "href": "assets/docs/Course-Info-Year-11-2027.pdf",
           "label": "Year 11 courses 2027",
-          "meta": "PDF"
+          "meta": "PDF",
+          "upload": "/assets/docs/course-info-year-11-2027-final.pdf"
         }
       ],
       "columns": true
