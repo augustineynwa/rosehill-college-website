@@ -1,0 +1,30 @@
+{
+  "title": "Winter Tournament Week — Football",
+  "date": "2026-08-31",
+  "image": {
+    "src": "assets/img/wfb-2.jpg"
+  },
+  "gallery": [
+    {
+      "src": "assets/img/wfb-1.jpg"
+    },
+    {
+      "src": "assets/img/wfb-2.jpg"
+    },
+    {
+      "src": "assets/img/wfb-3.jpg"
+    },
+    {
+      "src": "assets/img/wfb-4.jpg"
+    },
+    {
+      "src": "assets/img/wfb-5.jpg"
+    },
+    {
+      "src": "assets/img/wfb-6.jpg"
+    },
+    {
+      "src": "assets/img/wfb-7.jpg"
+    }
+  ]
+}
