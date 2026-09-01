@@ -1,0 +1,39 @@
+{
+  "title": "🌼 Daffodil Day 2026 🌼",
+  "date": "2026-09-28",
+  "image": {
+    "src": "assets/img/daffodil-2.jpg"
+  },
+  "gallery": [
+    {
+      "src": "assets/img/daffodil-1.jpg"
+    },
+    {
+      "src": "assets/img/daffodil-2.jpg"
+    },
+    {
+      "src": "assets/img/daffodil-3.jpg"
+    },
+    {
+      "src": "assets/img/daffodil-4.jpg"
+    },
+    {
+      "src": "assets/img/daffodil-5.jpg"
+    },
+    {
+      "src": "assets/img/daffodil-6.jpg"
+    },
+    {
+      "src": "assets/img/daffodil-7.jpg"
+    },
+    {
+      "src": "assets/img/daffodil-8.jpg"
+    },
+    {
+      "src": "assets/img/daffodil-9.jpg"
+    },
+    {
+      "src": "assets/img/daffodil-10.jpg"
+    }
+  ]
+}
