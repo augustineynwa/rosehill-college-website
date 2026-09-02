@@ -152,36 +152,9 @@
       "heading": "Out-of-Zone 2026"
     },
     {
-      "type": "table",
-      "heading": "Out-of-zone Placements for 2027",
-      "lede": "\nThe Rosehill College Board has carefully considered the number of out-of-zone places available for the upcoming school year. The final number of available spaces depends on the number of in-zone enrolments received. The available places are listed below:",
-      "caption": "Out-of-zone placements available for 2027",
-      "columns": [
-        "Year level",
-        "Placements available"
-      ],
-      "rows": [
-        [
-          "Year 9",
-          "20 placements"
-        ],
-        [
-          "Year 10",
-          "10 placements"
-        ],
-        [
-          "Year 11",
-          "10 placements"
-        ],
-        [
-          "Year 12",
-          "10 placements"
-        ],
-        [
-          "Year 13",
-          "10 placements"
-        ]
-      ]
+      "type": "prose",
+      "reo": false,
+      "heading": "Out-of-Zone 2027"
     },
     {
       "type": "list",
@@ -275,7 +248,7 @@
           "label": "Uniform and Stationery"
         }
       ],
-      "html": "Current application status: Closed"
+      "html": "Out-of-zone applications for 2027 are now closed."
     }
   ]
 }
