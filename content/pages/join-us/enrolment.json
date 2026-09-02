@@ -148,14 +148,8 @@
     {
       "type": "prose",
       "reo": false,
-      "html": "**Out-of-Zone 2026**\nCurrent application status: Closed",
-      "heading": "Out-of-zone 2026"
-    },
-    {
-      "type": "prose",
-      "reo": false,
-      "heading": "Out-of-zone 2027",
-      "html": "Out-of-zone applications for 2027 are now closed."
+      "html": "### **Out-of-Zone 2027**\n\nOut-of-zone applications for 2027 are now closed.\n\n### **Ballot Result**\n\nThe out-of-zone ballot is scheduled to take place on **Wednesday 9 September 2026**. Parents and caregivers will be notified of the outcome via email shortly after the ballot has been conducted.\n\nIf your child is offered a place, please confirm your acceptance within **14 days**. Any unaccepted placements will be offered to students on the waiting list in the order their names were drawn.\n\nIf you have not received your ballot result after the draw, please contact us for assistance.\n\nPlease note: additional ballots may only occur if the Board determines that further places become available during the school year.",
+      "heading": "Out-of-zone Application"
     },
     {
       "type": "list",
@@ -194,11 +188,6 @@
           "text": "Ensure the payment references are entered exactly as shown to assist with the identification and processing of your application."
         }
       ]
-    },
-    {
-      "type": "prose",
-      "heading": "Ballot Results",
-      "html": "The out-of-zone ballot is scheduled to take place on **Wednesday 9 September 2026**. Parents and caregivers will be notified of the outcome via email shortly after the ballot has been conducted.\n\nIf your child is offered a place, please confirm your acceptance within **14 days**. Any unaccepted placements will be offered to students on the waiting list in the order their names were drawn.\n\nIf you have not received your ballot result after the draw, please contact us for assistance.\n\nPlease note: additional ballots may only occur if the Board determines that further places become available during the school year."
     },
     {
       "type": "table",
