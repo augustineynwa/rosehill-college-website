@@ -153,22 +153,22 @@
     },
     {
       "type": "list",
-      "heading": "Application fee payment",
+      "heading": "Application Fee Payment",
       "items": [
         {
-          "term": "Administration fee",
+          "term": "Administration Fee",
           "text": "A non-refundable administration fee of $50.00 is payable upon submission of all out-of-zone enrolment applications, regardless of the ballot outcome."
         },
         {
-          "term": "Payment methods",
+          "term": "Payment Methods",
           "text": "EFTPOS (at the school office) or bank transfer."
         },
         {
-          "term": "Account name",
+          "term": "Account Name",
           "text": "Rosehill College Board"
         },
         {
-          "term": "Account number",
+          "term": "Account Number",
           "text": "12-3031-0837472-00"
         },
         {
@@ -184,7 +184,7 @@
           "text": "{First Name}"
         },
         {
-          "term": "Please note",
+          "term": "Please Note",
           "text": "Ensure the payment references are entered exactly as shown to assist with the identification and processing of your application."
         }
       ]
