@@ -1,0 +1,39 @@
+{
+  "title": "Winter Tournament Week — Hockey",
+  "date": "2026-09-02",
+  "image": {
+    "src": "assets/img/wh-1.jpg"
+  },
+  "gallery": [
+    {
+      "src": "assets/img/wh-1.jpg"
+    },
+    {
+      "src": "assets/img/wh-2.jpg"
+    },
+    {
+      "src": "assets/img/wh-3.jpg"
+    },
+    {
+      "src": "assets/img/wh-4.jpg"
+    },
+    {
+      "src": "assets/img/wh-5.jpg"
+    },
+    {
+      "src": "assets/img/wh-6.jpg"
+    },
+    {
+      "src": "assets/img/wh-7.jpg"
+    },
+    {
+      "src": "assets/img/wh-8.jpg"
+    },
+    {
+      "src": "assets/img/wh-9.jpg"
+    },
+    {
+      "src": "assets/img/wh-10.jpg"
+    }
+  ]
+}
