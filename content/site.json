@@ -299,8 +299,8 @@
     "level": "info",
     "message": "All Year 10 students will be rostered home on Friday, 4 September 2026, due to staffing constraints. Students will not have timetabled classes but will have learning activities available through Google Classroom.",
     "link": {
-      "label": "Review Now",
-      "href": "/our-school/school-policies"
+      "label": "",
+      "href": ""
     },
     "expires": "2026-09-04"
   },
