@@ -297,12 +297,12 @@
   "notice": {
     "active": true,
     "level": "info",
-    "message": "Our School Policies are now available for review on the website.",
+    "message": "All Year 10 students will be rostered home on Friday, 4 September 2026, due to staffing constraints. Students will not have timetabled classes but will have learning activities available through Google Classroom.",
     "link": {
       "label": "Review Now",
       "href": "/our-school/school-policies"
     },
-    "expires": "2026-09-01"
+    "expires": "2026-09-04"
   },
   "web3formsKeyGeneral": "3c8b7c5f-23a2-47f4-a37f-df556fd9ea6f",
   "baseUrl": "https://www.rosehillcollege.school.nz",
