@@ -1,0 +1,27 @@
+{
+  "title": "Winter Tournament Week — Netball",
+  "date": "2026-09-01",
+  "image": {
+    "src": "assets/img/wnb-1.jpg"
+  },
+  "gallery": [
+    {
+      "src": "assets/img/wnb-1.jpg"
+    },
+    {
+      "src": "assets/img/wnb-2.jpg"
+    },
+    {
+      "src": "assets/img/wnb-3.jpg"
+    },
+    {
+      "src": "assets/img/wnb-4.jpg"
+    },
+    {
+      "src": "assets/img/wnb-5.jpg"
+    },
+    {
+      "src": "assets/img/wnb-6.jpg"
+    }
+  ]
+}
