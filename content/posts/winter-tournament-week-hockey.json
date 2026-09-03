@@ -2,38 +2,49 @@
   "title": "Winter Tournament Week — Hockey",
   "date": "2026-09-02",
   "image": {
-    "src": "assets/img/wh-1.jpg"
+    "src": "assets/img/wh-1.avif",
+    "srcset": "/assets/img/wh-1-rp-500.avif 500w, /assets/img/wh-1-rp-800.avif 800w, /assets/img/wh-1-rp-1080.avif 1080w, /assets/img/wh-1-rp-1600.avif 1600w"
   },
   "gallery": [
     {
-      "src": "assets/img/wh-1.jpg"
+      "src": "assets/img/wh-1.avif",
+      "srcset": "/assets/img/wh-1-rp-500.avif 500w, /assets/img/wh-1-rp-800.avif 800w, /assets/img/wh-1-rp-1080.avif 1080w, /assets/img/wh-1-rp-1600.avif 1600w"
     },
     {
-      "src": "assets/img/wh-2.jpg"
+      "src": "assets/img/wh-2.avif",
+      "srcset": "/assets/img/wh-2-rp-500.avif 500w, /assets/img/wh-2-rp-800.avif 800w, /assets/img/wh-2-rp-1080.avif 1080w, /assets/img/wh-2-rp-1600.avif 1600w, /assets/img/wh-2-rp-2200.avif 2200w, /assets/img/wh-2.avif 2560w"
     },
     {
-      "src": "assets/img/wh-3.jpg"
+      "src": "assets/img/wh-3.avif",
+      "srcset": "/assets/img/wh-3-rp-500.avif 500w, /assets/img/wh-3-rp-800.avif 800w, /assets/img/wh-3-rp-1080.avif 1080w, /assets/img/wh-3-rp-1600.avif 1600w, /assets/img/wh-3-rp-2200.avif 2200w, /assets/img/wh-3.avif 2560w"
     },
     {
-      "src": "assets/img/wh-4.jpg"
+      "src": "assets/img/wh-4.avif",
+      "srcset": "/assets/img/wh-4-rp-500.avif 500w, /assets/img/wh-4-rp-800.avif 800w, /assets/img/wh-4-rp-1080.avif 1080w, /assets/img/wh-4-rp-1600.avif 1600w, /assets/img/wh-4-rp-2200.avif 2200w, /assets/img/wh-4.avif 2510w"
     },
     {
-      "src": "assets/img/wh-5.jpg"
+      "src": "assets/img/wh-5.avif",
+      "srcset": "/assets/img/wh-5-rp-500.avif 500w, /assets/img/wh-5-rp-800.avif 800w, /assets/img/wh-5-rp-1080.avif 1080w, /assets/img/wh-5-rp-1600.avif 1600w, /assets/img/wh-5.avif 1929w"
     },
     {
-      "src": "assets/img/wh-6.jpg"
+      "src": "assets/img/wh-6.avif",
+      "srcset": "/assets/img/wh-6-rp-500.avif 500w, /assets/img/wh-6-rp-800.avif 800w, /assets/img/wh-6-rp-1080.avif 1080w, /assets/img/wh-6-rp-1600.avif 1600w, /assets/img/wh-6-rp-2200.avif 2200w, /assets/img/wh-6.avif 2560w"
     },
     {
-      "src": "assets/img/wh-7.jpg"
+      "src": "assets/img/wh-7.avif",
+      "srcset": "/assets/img/wh-7-rp-500.avif 500w, /assets/img/wh-7-rp-800.avif 800w, /assets/img/wh-7-rp-1080.avif 1080w, /assets/img/wh-7-rp-1600.avif 1600w, /assets/img/wh-7-rp-2200.avif 2200w, /assets/img/wh-7.avif 2350w"
     },
     {
-      "src": "assets/img/wh-8.jpg"
+      "src": "assets/img/wh-8.avif",
+      "srcset": "/assets/img/wh-8-rp-500.avif 500w, /assets/img/wh-8-rp-800.avif 800w, /assets/img/wh-8-rp-1080.avif 1080w, /assets/img/wh-8-rp-1600.avif 1600w, /assets/img/wh-8-rp-2200.avif 2200w, /assets/img/wh-8.avif 2560w"
     },
     {
-      "src": "assets/img/wh-9.jpg"
+      "src": "assets/img/wh-9.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/wh-10.jpg"
+      "src": "assets/img/wh-10.avif",
+      "srcset": ""
     }
   ]
 }
