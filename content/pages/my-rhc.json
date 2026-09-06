@@ -20,7 +20,7 @@
         {
           "title": "Portal Login",
           "text": "Timetables, attendance and notices.",
-          "href": "https://rosehillcollege.school.kiwi/",
+          "href": "https://tracking.rosehillcollege.school.nz/student",
           "external": true,
           "cta": "Sign in"
         },
@@ -67,7 +67,7 @@
         {
           "title": "Portal Login",
           "text": "Attendance, reports and school notices.",
-          "href": "https://rosehillcollege.school.kiwi/",
+          "href": "https://tracking.rosehillcollege.school.nz/caregiver",
           "external": true,
           "cta": "Sign in"
         },
