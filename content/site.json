@@ -297,12 +297,12 @@
   "notice": {
     "active": true,
     "level": "info",
-    "message": "All Year 10 students will be rostered home on Friday, 4 September 2026, due to staffing constraints. Students will not have timetabled classes but will have learning activities available through Google Classroom.",
+    "message": "The Derived Grade examination timetable is now available.",
     "link": {
-      "label": "",
-      "href": ""
+      "label": "View the timetable",
+      "href": "https://docs.google.com/spreadsheets/d/1tAHX9ZYoj_hpilvTJjm-EIkijKQLhFUY_2Mokb9wHRE/edit?gid=383795417#gid=383795417"
     },
-    "expires": "2026-09-04"
+    "expires": ""
   },
   "web3formsKeyGeneral": "3c8b7c5f-23a2-47f4-a37f-df556fd9ea6f",
   "baseUrl": "https://www.rosehillcollege.school.nz",
