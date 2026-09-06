@@ -3,7 +3,8 @@
   "date": "2026-09-07",
   "image": {
     "src": "assets/img/thumbnail.avif",
-    "srcset": "/assets/img/thumbnail-rp-500.avif 500w, /assets/img/thumbnail-rp-800.avif 800w, /assets/img/thumbnail-rp-1080.avif 1080w, /assets/img/thumbnail.avif 1254w"
+    "srcset": "/assets/img/thumbnail-rp-500.avif 500w, /assets/img/thumbnail-rp-800.avif 800w, /assets/img/thumbnail-rp-1080.avif 1080w, /assets/img/thumbnail.avif 1254w",
+    "fit": "contain"
   },
   "body": "Going to school regularly is important for learning, confidence, social development and wellbeing. If your child is unwell, it can sometimes be difficult to know whether they should attend.\n\nAs a general guide, children with **mild symptoms who are otherwise well, eating and drinking normally, and able to take part in learning** can usually attend school. If your child is too unwell to learn, needs to rest and recover, or has symptoms such as a **fever, vomiting or diarrhoea**, they should stay home.\n\nFor more information, please read the Ministry of Education’s guidance on knowing when a child is well enough to attend school, including common symptoms, when to stay home and when your child can return.\n\n[Read the Ministry of Education guidance](https://www.education.govt.nz/news/how-decide-if-child-well-enough-be-school-or-early-learning)\n\nIf you are concerned about your child’s health, seek medical advice. **Healthline: 0800 611 116 (free, 24/7). In an emergency, call 111.**",
   "excerpt": "A quick guide for parents and caregivers on knowing when your child is well enough to attend school and when it is best to keep them home."

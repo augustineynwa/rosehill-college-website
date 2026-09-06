@@ -4,7 +4,7 @@
     {{#if feature}}
     <article class="news-feature" data-reveal>
       <a href="{{feature.href}}" class="news-feature__link">
-        <figure class="news-feature__media media-frame" data-parallax-img>
+        <figure class="news-feature__media media-frame{{#if feature.image.fit}} media-frame--{{feature.image.fit}}{{/if}}" data-parallax-img{{frameStyle feature.image}}>
           <img src="/{{feature.image.src}}" {{#if feature.image.srcset}}srcset="{{feature.image.srcset}}" sizes="(max-width: 64rem) 100vw, 60vw"{{/if}} alt="{{feature.image.alt}}" loading="lazy" decoding="async">
         </figure>
         <div class="news-feature__body stack">
