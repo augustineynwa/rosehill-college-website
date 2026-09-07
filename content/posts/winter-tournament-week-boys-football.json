@@ -1,0 +1,24 @@
+{
+  "title": "Winter Tournament Week — Boys Football",
+  "date": "2026-09-03",
+  "image": {
+    "src": "assets/img/wbfb-3.jpg"
+  },
+  "gallery": [
+    {
+      "src": "assets/img/wbfb-1.jpg"
+    },
+    {
+      "src": "assets/img/wbfb-2.jpg"
+    },
+    {
+      "src": "assets/img/wbfb-3.jpg"
+    },
+    {
+      "src": "assets/img/wbfb-4.jpg"
+    },
+    {
+      "src": "assets/img/wbfb-5.jpg"
+    }
+  ]
+}
