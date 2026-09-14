@@ -4,6 +4,7 @@
   "date": "2026-09-15",
   "body": "Mark your calendars! **Rosehill College Gala Day is happening on Saturday, 17 October, from 10:00am to 3:00pm.**\n\nCome along for a fun-filled family day with plenty to enjoy, including **food trucks, stalls, entertainment, activities, games, raffles and prizes**.\n\nBring your whānau and friends, enjoy the day with our school community, and support Rosehill College along the way.\n\n📅 **Saturday, 17 October 2026**\n⏰ **10:00am – 3:00pm**\n📍 **Rosehill College**\n\n**Everyone is welcome — we look forward to seeing you there!** 🌹",
   "image": {
-    "src": "assets/img/gala-day-poster.png"
+    "src": "assets/img/gala-day-poster.avif",
+    "srcset": "/assets/img/gala-day-poster-rp-500.avif 500w, /assets/img/gala-day-poster-rp-800.avif 800w, /assets/img/gala-day-poster-rp-1080.avif 1080w, /assets/img/gala-day-poster-rp-1600.avif 1600w, /assets/img/gala-day-poster-rp-2200.avif 2200w, /assets/img/gala-day-poster.avif 2560w"
   }
 }
