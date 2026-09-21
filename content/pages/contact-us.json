@@ -26,7 +26,7 @@
       "reo": true,
       "heading": "Send us a message",
       "lede": "Choose your enquiry type and we'll make sure it reaches the right team.",
-      "aside": "<h3>Prefer email?</h3><p>General enquiries: <a href=\"mailto:inquiries@rosehillcollege.school.nz\">inquiries@rosehillcollege.school.nz</a></p><p>Enrolment: <a href=\"mailto:enrolments@rosehillcollege.school.nz\">enrolments@rosehillcollege.school.nz</a></p><p>International: <a href=\"mailto:internationaldepartment@rosehillcollege.school.nz\">internationaldepartment@rosehillcollege.school.nz</a></p>"
+      "aside": "<h3>Prefer email?</h3>\n\nAttendance: [attendance@rosehillcollege.school.nz](mailto:attendance@rosehillcollege.school.nz)\n\nGeneral Enquiries: [inquiries@rosehillcollege.school.nz](mailto:inquiries@rosehillcollege.school.nz)\n\nEnrolment: [enrolments@rosehillcollege.school.nz](mailto:enrolments@rosehillcollege.school.nz)\n\nInternational Students: [internationaldepartment@rosehillcollege.school.nz](mailto:internationaldepartment@rosehillcollege.school.nz)"
     },
     {
       "type": "accordion",
