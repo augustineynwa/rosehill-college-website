@@ -14,8 +14,14 @@
       "actions": [
         {
           "href": "tel:0800722929",
-          "label": "Report an absence — 0800 722 929",
+          "label": "Report an Absence — 0800 722 929",
           "primary": true
+        },
+        {
+          "primary": true,
+          "external": false,
+          "label": "Email an Absence — attendance@rosehillcollege.school.nz",
+          "href": "mailto:attendance@rosehillcollege.school.nz"
         }
       ]
     },
