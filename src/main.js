@@ -139,10 +139,10 @@ document.querySelectorAll('[data-vacancies]').forEach((mount) => {
         let closes = '';
         if (v.closing_date) {
           const d = new Date(v.closing_date);
-          if (!isNaN(d)) closes = `Closes ${d.toLocaleDateString('en-NZ', { day: 'numeric', month: 'long', year: 'numeric' })}`;
+          if (!isNaN(d)) closes = `Applications close ${d.toLocaleDateString('en-NZ', { day: 'numeric', month: 'long', year: 'numeric' })}`;
         }
         const metaLine = [meta, closes].filter(Boolean).join('&nbsp; · &nbsp;');
-        const desc = v.description ? `<div class="vacancy__body prose">${esc(v.description).replace(/\n/g, '<br>')}</div>` : '';
+        const desc = v.description ? `<details class="vacancy__details"><summary class="vacancy__more">Read full description</summary><div class="vacancy__body prose">${esc(v.description).replace(/\n/g, '<br>')}</div></details>` : '';
         const apply = v.contact_email ? `<p class="vacancy__apply"><a class="btn btn--red btn--sm" href="mailto:${esc(v.contact_email)}">Enquire / apply</a></p>` : '';
         return `<article class="vacancy">`
           + `<h3 class="vacancy__title">${esc(v.title)}</h3>`

@@ -1059,6 +1059,10 @@ a.logo-marquee__item:hover { transform: translateY(-2px); box-shadow: var(--shad
 .vacancy__tagline { margin: 0.7rem 0 0; font-weight: 600; color: var(--fg-soft); }
 .vacancy__body { margin-top: 0.7rem; }
 .vacancy__apply { margin: var(--sp-3) 0 0; }
+.vacancy__details { margin-top: 0.7rem; }
+.vacancy__more { cursor: pointer; font-weight: 600; color: var(--fg-soft); padding-block: 0.2em; }
+.vacancy__more:hover { text-decoration: underline; }
+.vacancy__details[open] .vacancy__more { margin-bottom: 0.4rem; }
 @keyframes vacancy-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
 
 /* news post listing — even preview cards + pagination */
