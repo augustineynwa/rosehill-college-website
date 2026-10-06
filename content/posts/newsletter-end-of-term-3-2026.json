@@ -2,7 +2,8 @@
   "title": "Newsletter — End of Term 3 2026",
   "date": "2026-10-07",
   "image": {
-    "src": "assets/img/our-latest-news-default.png"
+    "src": "assets/img/our-latest-news-default.avif",
+    "srcset": "/assets/img/our-latest-news-default-rp-500.avif 500w, /assets/img/our-latest-news-default-rp-800.avif 800w, /assets/img/our-latest-news-default-rp-1080.avif 1080w, /assets/img/our-latest-news-default-rp-1600.avif 1600w, /assets/img/our-latest-news-default.avif 2000w"
   },
   "linkFile": "/assets/docs/2026-end-of-t3-newsletter.pdf"
 }
