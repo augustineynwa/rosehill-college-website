@@ -85,16 +85,48 @@
       "heading": "Key Dates this Term",
       "items": [
         {
-          "term": "Saturday 8 August",
-          "text": "Open Day"
+          "term": "Wednesday 14 October",
+          "text": "SMART Testing starts (in English/Mathematics classes)"
         },
         {
-          "term": "Monday 10 August",
-          "text": "Patapatai / Parent-Teacher Interviews, 1.30pm – 6pm (early finish 12.50pm)"
+          "term": "Wenesday 21 October",
+          "text": "Rugby Awards (from 6pm in the hall)"
         },
         {
-          "term": "Monday 7 – Friday 18 September",
-          "text": "CAA Exams"
+          "term": "Thursday 29 October",
+          "text": "Senior Sports Award (from 6pm in the hall)"
+        },
+        {
+          "term": "Tuesday 3 November",
+          "text": "Year 13 Funday"
+        },
+        {
+          "term": "Wednesday 4 November",
+          "text": "Year 12 and 13 final day"
+        },
+        {
+          "text": "Year 12 and 13 Prizegiving",
+          "term": "Wednesday 4 November"
+        },
+        {
+          "text": "SMART Testing ends (in English/Mathematics classes)",
+          "term": "Thursday 5 November"
+        },
+        {
+          "term": "Tuesday 10 November - Friday 4 December",
+          "text": "NZQA Exams"
+        },
+        {
+          "text": "Leaver Dinner",
+          "term": "Sunday 6 December"
+        },
+        {
+          "text": "Junior Prizegiving ( last day of class)",
+          "term": "Wednesday 9 December"
+        },
+        {
+          "text": "Year 8 Transition Day",
+          "term": "Thursday 10 December"
         }
       ]
     },
