@@ -14,13 +14,13 @@
     {
       "type": "prose",
       "id": "familiarisation",
-      "heading": "SMART familiarisation site (recommended first step)",
-      "html": "<p>Students are encouraged to explore the SMART platform before completing the assessment.</p><p><a href=\"https://familiarisation.smart.education.govt.nz/pages/fam-nzc\" rel=\"external\"><strong>SMART Familiarisation Site</strong></a></p><p>This site allows students to:</p><ul><li>Try sample questions</li><li>Become familiar with the assessment format</li><li>Build confidence before the actual assessment</li></ul>"
+      "heading": "SMART Familiarisation Site (Recommended First Step)",
+      "html": "Students are encouraged to explore the SMART platform before completing the assessment.\n\n**[SMART Familiarisation Site](https://familiarisation.smart.education.govt.nz/pages/fam-nzc)**\n\nThis site allows students to:\n\n* Try sample questions\n* Become familiar with the assessment format\n* Build confidence before the actual assessment"
     },
     {
       "type": "list",
       "id": "key-details",
-      "heading": "Key details at a glance",
+      "heading": "Key Details at a Glance",
       "items": [
         {
           "term": "Dates",
@@ -28,7 +28,7 @@
         },
         {
           "term": "Where",
-          "text": "Students complete the assessment in the Hall"
+          "text": "Students complete the assessment in a supervised school setting, usually in their class groups."
         },
         {
           "term": "Duration",
@@ -43,34 +43,34 @@
     {
       "type": "prose",
       "id": "what-is-smart",
-      "heading": "What is the SMART assessment?",
-      "html": "<p>The SMART (Student Monitoring, Assessment and Reporting Tool) is a new online assessment. It is being introduced across schools in <span lang=\"mi\">Aotearoa</span> New Zealand from 2026.</p><p>SMART provides clear and consistent information about student progress in:</p><ul><li>Reading</li><li>Writing</li><li>Mathematics</li></ul><p>It replaces the e-asTTle assessment and is aligned with the new curriculum.</p><p>Teachers use SMART results to track student progress and support conversations with students and <span lang=\"mi\">whānau</span>. Parents and caregivers will receive information about their child's progress through our reporting processes.</p>"
+      "heading": "What is the SMART Assessment?",
+      "html": "The SMART (Student Monitoring, Assessment and Reporting Tool) is a new online assessment. It is being introduced across schools in <span lang=\"mi\">Aotearoa</span> New Zealand from 2026.\n\nSMART provides clear and consistent information about student progress in:\n\n* Reading\n* Writing\n* Mathematics\n\nIt replaces the e-asTTle assessment and is aligned with the new curriculum.\n\nTeachers use SMART results to track student progress and support conversations with students and <span lang=\"mi\">whānau</span>. Parents and caregivers will receive information about their child's progress through our reporting processes."
     },
     {
       "type": "prose",
       "id": "purpose",
-      "heading": "Purpose of the assessment",
+      "heading": "Purpose of the Assessment",
       "html": "SMART is a learning check designed to:\n\n* Help teachers understand what students already know\n* Identify next learning steps\n* Provide information to parents and caregivers\n\nThe focus is on progress and improvement over time, rather than a single result."
     },
     {
       "type": "prose",
       "id": "how-it-runs",
-      "heading": "How the assessment runs",
-      "html": "<p>Assessments are completed online — students should bring their own device. Each assessment typically takes 30–45 minutes.</p><p>Questions may include:</p><ul><li>Multiple choice</li><li>Short written responses</li><li>Interactive tasks (for example, drag-and-drop tools)</li></ul><p>Students complete the assessment in the Hall.</p><p>Parents can let <span lang=\"mi\">Kaitiaki</span>/Head of House know if a device needs to be booked. Please do so before the assessment window.</p>"
+      "heading": "How the Assessment Runs",
+      "html": "Assessments are completed online — students should bring their own device. Each assessment typically takes 30–45 minutes.\n\nQuestions may include:\n\n* Multiple choice\n* Short written responses\n* Interactive tasks (for example, drag-and-drop tools)\n\nStudents complete the assessment in a supervised school setting, usually in their class groups.\n\nParents can let <span lang=\"mi\">Kaitiaki</span>/Head of House know if a device needs to be booked. Please do so before the assessment window."
     },
     {
       "type": "cta",
-      "heading": "Further information",
+      "heading": "Further Information",
       "text": "For more information about SMART, please refer to the official guidance from the Ministry of Education. If you have any questions, please contact the college.",
       "actions": [
         {
           "href": "https://familiarisation.smart.education.govt.nz/pages/fam-nzc",
-          "label": "SMART familiarisation site",
+          "label": "SMART Familiarisation Site",
           "primary": true
         },
         {
           "href": "/contact-us.html",
-          "label": "Contact the college"
+          "label": "Contact the College"
         }
       ]
     }
