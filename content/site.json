@@ -295,14 +295,14 @@
   },
   "web3formsKeyEnrolment": "65f53f37-fd76-496a-b76a-b1610f9b2cce",
   "notice": {
-    "active": false,
+    "active": true,
     "level": "important",
-    "message": "",
+    "message": "Gala Day is this Saturday, 10.00am–3.00pm! Join us for a fun-filled family day. Parking is available along Chichester Drive. We look forward to seeing you there! 🌹",
     "link": {
       "label": "",
-      "href": ""
+      "href": "/our-school/news/rosehill-college-gala-day"
     },
-    "expires": ""
+    "expires": "2026-10-17"
   },
   "web3formsKeyGeneral": "3c8b7c5f-23a2-47f4-a37f-df556fd9ea6f",
   "baseUrl": "https://www.rosehillcollege.school.nz",
