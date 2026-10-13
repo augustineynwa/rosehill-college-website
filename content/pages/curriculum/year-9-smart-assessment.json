@@ -2,14 +2,14 @@
   "layout": "page",
   "path": "curriculum/year-9-smart-assessment.html",
   "slug": "year-9-smart-assessment",
-  "title": "Year 9 SMART Assessment",
-  "metaDescription": "Year 9 SMART assessment at Rosehill College — what the assessment involves, why it matters for your child, and how students can prepare for it.",
+  "title": "Year 9 and 10 SMART Assessment",
+  "metaDescription": "Year 9 and 10 SMART assessment at Rosehill College — what the assessment involves, why it matters for your child, and how students can prepare for it.",
   "sections": [
     {
       "type": "hero",
-      "eyebrow": "Year 9",
-      "heading": "Year 9 SMART assessment",
-      "lede": "The SMART (Student Monitoring, Assessment and Reporting Tool) is the new online assessment being introduced across schools in Aotearoa New Zealand from 2026, replacing e-asTTle. The first round ran 4–15 May; the next round takes place in Term 4."
+      "eyebrow": "Year 9 and 10",
+      "heading": "Year 9 and 10 SMART Assessment",
+      "lede": "The SMART (Student Monitoring, Assessment and Reporting Tool) is the new online assessment being introduced across schools in Aotearoa New Zealand from 2026, replacing e-asTTle. The first round ran from 4–15 May, and the second round will take place from 14 October to 5 November 2026."
     },
     {
       "type": "prose",
@@ -24,7 +24,7 @@
       "items": [
         {
           "term": "Dates",
-          "text": "The first round ran Monday 4 – Friday 15 May. The next round takes place in Term 4 (dates to be confirmed)."
+          "text": "The first round ran from Monday 4 to Friday 15 May. The second round will take place from 14 October to 5 November 2026."
         },
         {
           "term": "Where",
@@ -50,7 +50,7 @@
       "type": "prose",
       "id": "purpose",
       "heading": "Purpose of the assessment",
-      "html": "<p>SMART is a learning check designed to:</p><ul><li>Help teachers understand what students already know</li><li>Identify next learning steps</li><li>Provide information to parents and caregivers</li></ul><p>The focus is on progress and improvement over time, rather than a single result. Further testing is occurring in Term 4.</p>"
+      "html": "SMART is a learning check designed to:\n\n* Help teachers understand what students already know\n* Identify next learning steps\n* Provide information to parents and caregivers\n\nThe focus is on progress and improvement over time, rather than a single result."
     },
     {
       "type": "prose",
