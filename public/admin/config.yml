@@ -177,6 +177,10 @@ collections:
                 name: schoolApp
                 widget: string
                 required: false
+              - label: Report absences link
+                name: absencePortal
+                widget: string
+                required: false
               - label: Adult education
                 name: adultEducation
                 widget: string
