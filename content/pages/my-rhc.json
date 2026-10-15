@@ -107,17 +107,6 @@
       ]
     },
     {
-      "type": "prose",
-      "id": "interviews",
-      "eyebrow": "Patapatai",
-      "reo": true,
-      "heading": "School interview booking",
-      "html": "<p>Parents can book interview slots online — the link takes you directly to the booking page.</p><ul><li>Parents can choose to meet all or selected subject teachers.</li><li>Each meeting lasts 5 minutes — please allow a 5-minute gap between bookings.</li><li>You will need your child's subjects and teachers' names to complete the booking.</li></ul><p>For assistance, contact the school on <a href=\"tel:+6492950661\">(09) 295 0661</a> or <a href=\"mailto:inquiries@rosehillcollege.school.nz\">email us</a>.</p>",
-      "aside": {
-        "html": "<a class=\"btn btn--red\" href=\"https://www.schoolinterviews.co.nz/code/5wwde\" rel=\"external\">Book an interview</a><p class=\"caption\">Booking opens on schoolinterviews.co.nz</p>"
-      }
-    },
-    {
       "type": "cards",
       "id": "staff",
       "heading": "Staff",
