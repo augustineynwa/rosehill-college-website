@@ -388,7 +388,7 @@ const settings = {
       },
       {
         label: 'External links', name: 'external', widget: 'object', collapsed: true,
-        fields: [str('myRhc', 'My RHC'), str('schoolApp', 'School app'), str('adultEducation', 'Adult education'),
+        fields: [str('myRhc', 'My RHC'), str('schoolApp', 'School app'), str('absencePortal', 'Report absences link'), str('adultEducation', 'Adult education'),
           str('facebook', 'Facebook'), str('instagram', 'Instagram')],
       },
       {
