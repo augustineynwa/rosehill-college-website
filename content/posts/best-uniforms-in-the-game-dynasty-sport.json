@@ -4,23 +4,29 @@
   "excerpt": "Represent Rosehill College with pride in our sports uniforms by Dynasty Sport.",
   "date": "2026-10-14",
   "image": {
-    "src": "assets/img/uniform-5.jpg"
+    "src": "assets/img/uniform-5.avif",
+    "srcset": "/assets/img/uniform-5-rp-500.avif 500w, /assets/img/uniform-5-rp-800.avif 800w, /assets/img/uniform-5-rp-1080.avif 1080w, /assets/img/uniform-5-rp-1600.avif 1600w, /assets/img/uniform-5-rp-2200.avif 2200w, /assets/img/uniform-5.avif 2560w"
   },
   "gallery": [
     {
-      "src": "assets/img/uniform-1.jpg"
+      "src": "assets/img/uniform-1.avif",
+      "srcset": "/assets/img/uniform-1-rp-500.avif 500w, /assets/img/uniform-1-rp-800.avif 800w, /assets/img/uniform-1-rp-1080.avif 1080w, /assets/img/uniform-1-rp-1600.avif 1600w, /assets/img/uniform-1-rp-2200.avif 2200w, /assets/img/uniform-1.avif 2472w"
     },
     {
-      "src": "assets/img/uniform-2.jpg"
+      "src": "assets/img/uniform-2.avif",
+      "srcset": "/assets/img/uniform-2-rp-500.avif 500w, /assets/img/uniform-2-rp-800.avif 800w, /assets/img/uniform-2-rp-1080.avif 1080w, /assets/img/uniform-2-rp-1600.avif 1600w, /assets/img/uniform-2-rp-2200.avif 2200w, /assets/img/uniform-2.avif 2560w"
     },
     {
-      "src": "assets/img/uniform-3.jpg"
+      "src": "assets/img/uniform-3.avif",
+      "srcset": "/assets/img/uniform-3-rp-500.avif 500w, /assets/img/uniform-3-rp-800.avif 800w, /assets/img/uniform-3-rp-1080.avif 1080w, /assets/img/uniform-3-rp-1600.avif 1600w, /assets/img/uniform-3-rp-2200.avif 2200w, /assets/img/uniform-3.avif 2560w"
     },
     {
-      "src": "assets/img/uniform-4.jpg"
+      "src": "assets/img/uniform-4.avif",
+      "srcset": "/assets/img/uniform-4-rp-500.avif 500w, /assets/img/uniform-4-rp-800.avif 800w, /assets/img/uniform-4-rp-1080.avif 1080w, /assets/img/uniform-4-rp-1600.avif 1600w, /assets/img/uniform-4-rp-2200.avif 2200w, /assets/img/uniform-4.avif 2560w"
     },
     {
-      "src": "assets/img/uniform-5.jpg"
+      "src": "assets/img/uniform-5.avif",
+      "srcset": "/assets/img/uniform-5-rp-500.avif 500w, /assets/img/uniform-5-rp-800.avif 800w, /assets/img/uniform-5-rp-1080.avif 1080w, /assets/img/uniform-5-rp-1600.avif 1600w, /assets/img/uniform-5-rp-2200.avif 2200w, /assets/img/uniform-5.avif 2560w"
     }
   ]
 }
