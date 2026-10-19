@@ -2,40 +2,51 @@
   "title": "Gala Day Highlights",
   "date": "2026-10-19",
   "image": {
-    "src": "assets/img/gala-3.jpg"
+    "src": "assets/img/gala-3.avif",
+    "srcset": "/assets/img/gala-3-rp-500.avif 500w, /assets/img/gala-3-rp-800.avif 800w, /assets/img/gala-3-rp-1080.avif 1080w, /assets/img/gala-3-rp-1600.avif 1600w, /assets/img/gala-3-rp-2200.avif 2200w, /assets/img/gala-3.avif 2560w"
   },
   "excerpt": "Looking back at the fun, energy and school spirit from Gala Day at Rosehill College!",
   "body": "From the activities to the laughter and the great school spirit, it was a day full of fun, connection and memorable moments.\n\nTake a look through the photos and relive some of the highlights. Thank you to everyone who helped make Gala Day a great day for our school community!",
   "gallery": [
     {
-      "src": "assets/img/gala-1.jpg"
+      "src": "assets/img/gala-1.avif",
+      "srcset": "/assets/img/gala-1-rp-500.avif 500w, /assets/img/gala-1-rp-800.avif 800w, /assets/img/gala-1-rp-1080.avif 1080w, /assets/img/gala-1-rp-1600.avif 1600w, /assets/img/gala-1-rp-2200.avif 2200w, /assets/img/gala-1.avif 2560w"
     },
     {
-      "src": "assets/img/gala-2.jpg"
+      "src": "assets/img/gala-2.avif",
+      "srcset": "/assets/img/gala-2-rp-500.avif 500w, /assets/img/gala-2-rp-800.avif 800w, /assets/img/gala-2-rp-1080.avif 1080w, /assets/img/gala-2-rp-1600.avif 1600w, /assets/img/gala-2-rp-2200.avif 2200w, /assets/img/gala-2.avif 2560w"
     },
     {
-      "src": "assets/img/gala-3.jpg"
+      "src": "assets/img/gala-3.avif",
+      "srcset": "/assets/img/gala-3-rp-500.avif 500w, /assets/img/gala-3-rp-800.avif 800w, /assets/img/gala-3-rp-1080.avif 1080w, /assets/img/gala-3-rp-1600.avif 1600w, /assets/img/gala-3-rp-2200.avif 2200w, /assets/img/gala-3.avif 2560w"
     },
     {
-      "src": "assets/img/gala-4.jpg"
+      "src": "assets/img/gala-4.avif",
+      "srcset": "/assets/img/gala-4-rp-500.avif 500w, /assets/img/gala-4-rp-800.avif 800w, /assets/img/gala-4-rp-1080.avif 1080w, /assets/img/gala-4-rp-1600.avif 1600w, /assets/img/gala-4-rp-2200.avif 2200w, /assets/img/gala-4.avif 2560w"
     },
     {
-      "src": "assets/img/gala-5.jpg"
+      "src": "assets/img/gala-5.avif",
+      "srcset": "/assets/img/gala-5-rp-500.avif 500w, /assets/img/gala-5-rp-800.avif 800w, /assets/img/gala-5-rp-1080.avif 1080w, /assets/img/gala-5-rp-1600.avif 1600w, /assets/img/gala-5-rp-2200.avif 2200w, /assets/img/gala-5.avif 2560w"
     },
     {
-      "src": "assets/img/gala-6.jpg"
+      "src": "assets/img/gala-6.avif",
+      "srcset": "/assets/img/gala-6-rp-500.avif 500w, /assets/img/gala-6-rp-800.avif 800w, /assets/img/gala-6-rp-1080.avif 1080w, /assets/img/gala-6-rp-1600.avif 1600w, /assets/img/gala-6-rp-2200.avif 2200w, /assets/img/gala-6.avif 2560w"
     },
     {
-      "src": "assets/img/gala-7.jpg"
+      "src": "assets/img/gala-7.avif",
+      "srcset": "/assets/img/gala-7-rp-500.avif 500w, /assets/img/gala-7-rp-800.avif 800w, /assets/img/gala-7-rp-1080.avif 1080w, /assets/img/gala-7-rp-1600.avif 1600w, /assets/img/gala-7-rp-2200.avif 2200w, /assets/img/gala-7.avif 2560w"
     },
     {
-      "src": "assets/img/gala-8.jpg"
+      "src": "assets/img/gala-8.avif",
+      "srcset": "/assets/img/gala-8-rp-500.avif 500w, /assets/img/gala-8-rp-800.avif 800w, /assets/img/gala-8-rp-1080.avif 1080w, /assets/img/gala-8-rp-1600.avif 1600w, /assets/img/gala-8-rp-2200.avif 2200w, /assets/img/gala-8.avif 2560w"
     },
     {
-      "src": "assets/img/gala-9.jpg"
+      "src": "assets/img/gala-9.avif",
+      "srcset": "/assets/img/gala-9-rp-500.avif 500w, /assets/img/gala-9-rp-800.avif 800w, /assets/img/gala-9-rp-1080.avif 1080w, /assets/img/gala-9-rp-1600.avif 1600w, /assets/img/gala-9-rp-2200.avif 2200w, /assets/img/gala-9.avif 2560w"
     },
     {
-      "src": "assets/img/gala-10.jpg"
+      "src": "assets/img/gala-10.avif",
+      "srcset": "/assets/img/gala-10-rp-500.avif 500w, /assets/img/gala-10-rp-800.avif 800w, /assets/img/gala-10-rp-1080.avif 1080w, /assets/img/gala-10-rp-1600.avif 1600w, /assets/img/gala-10-rp-2200.avif 2200w, /assets/img/gala-10.avif 2560w"
     }
   ]
 }
