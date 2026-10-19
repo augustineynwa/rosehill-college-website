@@ -1,0 +1,41 @@
+{
+  "title": "Gala Day Highlights",
+  "date": "2026-10-19",
+  "image": {
+    "src": "assets/img/gala-3.jpg"
+  },
+  "excerpt": "Looking back at the fun, energy and school spirit from Gala Day at Rosehill College!",
+  "body": "From the activities to the laughter and the great school spirit, it was a day full of fun, connection and memorable moments.\n\nTake a look through the photos and relive some of the highlights. Thank you to everyone who helped make Gala Day a great day for our school community!",
+  "gallery": [
+    {
+      "src": "assets/img/gala-1.jpg"
+    },
+    {
+      "src": "assets/img/gala-2.jpg"
+    },
+    {
+      "src": "assets/img/gala-3.jpg"
+    },
+    {
+      "src": "assets/img/gala-4.jpg"
+    },
+    {
+      "src": "assets/img/gala-5.jpg"
+    },
+    {
+      "src": "assets/img/gala-6.jpg"
+    },
+    {
+      "src": "assets/img/gala-7.jpg"
+    },
+    {
+      "src": "assets/img/gala-8.jpg"
+    },
+    {
+      "src": "assets/img/gala-9.jpg"
+    },
+    {
+      "src": "assets/img/gala-10.jpg"
+    }
+  ]
+}
