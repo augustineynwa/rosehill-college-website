@@ -98,13 +98,17 @@ const site = JSON.parse(readFileSync(join(CONTENT, 'site.json'), 'utf8'));
  * rich-text field through it makes both authoring styles render correctly.
  */
 marked.setOptions({ mangle: false, headerIds: false });
+// the CMS inserts images as `assets/img/…` (no leading slash). That only works
+// on top-level pages; on /our-school/news/… the browser looks in the wrong
+// folder. Make every relative asset link root-relative.
+const rootAssets = (html) => html.replace(/(src|href)="assets\//g, '$1="/assets/');
 function renderRichText(node) {
   if (Array.isArray(node)) { node.forEach(renderRichText); return; }
   if (!node || typeof node !== 'object') return;
   for (const [key, value] of Object.entries(node)) {
     // `aside` is a string on contact-form but an object elsewhere — only the string form is rich text
     if ((key === 'html' || key === 'aside') && typeof value === 'string') {
-      node[key] = marked.parse(value).trim();
+      node[key] = rootAssets(marked.parse(value).trim());
     } else {
       renderRichText(value);
     }
