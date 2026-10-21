@@ -1,3 +1,19 @@
+{{#if (and split image.src)}}
+{{! news posts: title beside the whole image, never cropped — a portrait poster
+    in the full-width band below would only show its middle strip }}
+<section class="page-hero page-hero--split" {{#if id}}id="{{id}}"{{/if}}>
+  <div class="container page-hero__split">
+    <div class="page-hero__text stack">
+      {{#if eyebrow}}<p class="eyebrow" {{#if reo}}lang="mi"{{/if}}>{{eyebrow}}</p>{{/if}}
+      <h1 class="page-hero__title" data-reveal>{{heading}}</h1>
+      {{#if lede}}<p class="lede page-hero__lede" data-reveal>{{raw lede}}</p>{{/if}}
+    </div>
+    <figure class="page-hero__figure">
+      <img src="/{{image.src}}" {{#if image.srcset}}srcset="{{image.srcset}}" sizes="(min-width: 48rem) 50vw, 100vw"{{/if}} alt="{{image.alt}}" fetchpriority="high">
+    </figure>
+  </div>
+</section>
+{{else}}
 <section class="page-hero {{#if image}}page-hero--media{{/if}}" {{#if id}}id="{{id}}"{{/if}}>
   <div class="container">
     <div class="page-hero__text stack">
@@ -18,3 +34,4 @@
   </div>
   {{/if}}
 </section>
+{{/if}}

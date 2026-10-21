@@ -289,7 +289,10 @@ for (const p of posts) {
 for (const post of posts) {
   if (post._external) continue; // "Read more" goes straight to a file/URL — no page needed
   const sections = [
-    { type: 'hero', eyebrow: nzDate(post.date), heading: post.title, lede: post.excerpt, image: post.image },
+    // no lede: the summary is for the News list, and when left blank it is the
+    // post's own first paragraph, so it would repeat right above the body.
+    // split: the featured image sits beside the title, uncropped.
+    { type: 'hero', eyebrow: nzDate(post.date), heading: post.title, image: post.image, split: true },
   ];
   if (post.body) sections.push({ type: 'prose', html: post.body });
   if (Array.isArray(post.gallery) && post.gallery.length) {
