@@ -476,6 +476,29 @@ a.site-nav__mega-heading--link[aria-current="page"] { color: var(--c-silver); }
   background: linear-gradient(180deg, var(--c-ink-950) 0%, transparent 22%);
 }
 
+/* split hero (news posts): title beside the whole featured image. Posters and
+   portrait photos are common here, so the image keeps its own shape. */
+.page-hero--split { padding-block-end: var(--section-pad); }
+.page-hero__split {
+  display: grid;
+  gap: var(--sp-6) var(--gutter);
+  align-items: center;
+}
+.page-hero--split .page-hero__text { padding-block-end: 0; }
+.page-hero__figure { margin: 0; }
+.page-hero__figure img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: min(75vh, 44rem);
+  border-radius: var(--radius-md);
+}
+@media (min-width: 48rem) {
+  .page-hero__split { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); }
+  .page-hero__figure { justify-self: end; }
+}
+
 /* ---------------------------------------------------------------- media frames */
 .media-frame {
   overflow: clip;
