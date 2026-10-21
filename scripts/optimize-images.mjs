@@ -127,8 +127,26 @@ async function processNode(node) {
         }
       }
     }
-    for (const k of Object.keys(node)) await processNode(node[k]);
+    for (const k of Object.keys(node)) {
+      if (typeof node[k] === 'string' && RICH_KEYS.has(k)) node[k] = await processInline(node[k]);
+      else await processNode(node[k]);
+    }
   }
+}
+
+// images placed inside the text of a post or prose block (markdown ![](…) or
+// <img src="…">) aren't `src` fields, so repoint them here too. Without this the
+// original is removed (it is often also the featured image) and the inline
+// image breaks.
+const RICH_KEYS = new Set(['body', 'html']);
+const INLINE_IMG = /\/?assets\/img\/[^\s"')]+\.(?:jpe?g|png|webp|avif)/gi;
+async function processInline(text) {
+  let out = text;
+  for (const m of new Set(text.match(INLINE_IMG) || [])) {
+    const newSrc = await optimise(m);
+    if (newSrc) out = out.split(m).join((m.startsWith('/') ? '/' : '') + newSrc);
+  }
+  return out;
 }
 
 let changed = 0;
