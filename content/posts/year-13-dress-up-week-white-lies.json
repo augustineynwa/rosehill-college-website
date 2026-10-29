@@ -2,38 +2,49 @@
   "title": "Year 13 Dress-Up Week – White Lies",
   "date": "2026-10-29",
   "image": {
-    "src": "assets/img/whitelies-8.jpg"
+    "src": "assets/img/whitelies-8.avif",
+    "srcset": ""
   },
   "gallery": [
     {
-      "src": "assets/img/whitelies-1.jpg"
+      "src": "assets/img/whitelies-1.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/whitelies-2.jpg"
+      "src": "assets/img/whitelies-2.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/whitelies-3.jpg"
+      "src": "assets/img/whitelies-3.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/whitelies-4.jpg"
+      "src": "assets/img/whitelies-4.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/whitelies-5.jpg"
+      "src": "assets/img/whitelies-5.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/whitelies-6.jpg"
+      "src": "assets/img/whitelies-6.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/whitelies-7.jpg"
+      "src": "assets/img/whitelies-7.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/whitelies-8.jpg"
+      "src": "assets/img/whitelies-8.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/whitelies-9.jpg"
+      "src": "assets/img/whitelies-9.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/whitelies-10.jpg"
+      "src": "assets/img/whitelies-10.avif",
+      "srcset": ""
     }
   ],
   "excerpt": "Year 13 is celebrating Dress-Up Week with a different theme each day. Yesterday’s theme was White Lies!",
