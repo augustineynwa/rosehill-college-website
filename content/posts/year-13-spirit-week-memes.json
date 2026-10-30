@@ -2,23 +2,29 @@
   "title": "Year 13 Spirit Week – Memes",
   "date": "2026-10-30",
   "image": {
-    "src": "assets/img/memes-2.jpg"
+    "src": "assets/img/memes-2.avif",
+    "srcset": "/assets/img/memes-2-rp-500.avif 500w, /assets/img/memes-2-rp-800.avif 800w, /assets/img/memes-2-rp-1080.avif 1080w, /assets/img/memes-2-rp-1600.avif 1600w, /assets/img/memes-2-rp-2200.avif 2200w, /assets/img/memes-2.avif 2560w"
   },
   "gallery": [
     {
-      "src": "assets/img/memes-1.jpg"
+      "src": "assets/img/memes-1.avif",
+      "srcset": "/assets/img/memes-1-rp-500.avif 500w, /assets/img/memes-1-rp-800.avif 800w, /assets/img/memes-1-rp-1080.avif 1080w, /assets/img/memes-1-rp-1600.avif 1600w, /assets/img/memes-1-rp-2200.avif 2200w, /assets/img/memes-1.avif 2560w"
     },
     {
-      "src": "assets/img/memes-2.jpg"
+      "src": "assets/img/memes-2.avif",
+      "srcset": "/assets/img/memes-2-rp-500.avif 500w, /assets/img/memes-2-rp-800.avif 800w, /assets/img/memes-2-rp-1080.avif 1080w, /assets/img/memes-2-rp-1600.avif 1600w, /assets/img/memes-2-rp-2200.avif 2200w, /assets/img/memes-2.avif 2560w"
     },
     {
-      "src": "assets/img/memes-3.jpg"
+      "src": "assets/img/memes-3.avif",
+      "srcset": "/assets/img/memes-3-rp-500.avif 500w, /assets/img/memes-3-rp-800.avif 800w, /assets/img/memes-3-rp-1080.avif 1080w, /assets/img/memes-3-rp-1600.avif 1600w, /assets/img/memes-3-rp-2200.avif 2200w, /assets/img/memes-3.avif 2560w"
     },
     {
-      "src": "assets/img/memes-4.jpg"
+      "src": "assets/img/memes-4.avif",
+      "srcset": "/assets/img/memes-4-rp-500.avif 500w, /assets/img/memes-4-rp-800.avif 800w, /assets/img/memes-4-rp-1080.avif 1080w, /assets/img/memes-4-rp-1600.avif 1600w, /assets/img/memes-4-rp-2200.avif 2200w, /assets/img/memes-4.avif 2560w"
     },
     {
-      "src": "assets/img/memes-5.jpg"
+      "src": "assets/img/memes-5.avif",
+      "srcset": "/assets/img/memes-5-rp-500.avif 500w, /assets/img/memes-5-rp-800.avif 800w, /assets/img/memes-5-rp-1080.avif 1080w, /assets/img/memes-5-rp-1600.avif 1600w, /assets/img/memes-5-rp-2200.avif 2200w, /assets/img/memes-5.avif 2560w"
     }
   ]
 }
