@@ -4,47 +4,61 @@
   "excerpt": "Congratulations to our Sports Award winners and everyone who represented Rosehill College this season. We celebrate their achievements, dedication and mahi!",
   "body": "Congratulations to every student who laced up and represented Rosehill College this sports season, and to every parent and whānau member who was there supporting them along the way. Your commitment, encouragement and school spirit have made this season a memorable one.\n\nA special congratulations to our award recipients:\n\n* **Top Sportsperson of the Year:** Jayda Scanlan\n* **Sportsman of the Year:** Henry Mayall\n* **Sportswoman of the Year:** Petrina Williams-Lieaana\n* **Team of the Year:** Hockey 1st XI\n* **Dynasty Leadership Cup:** Emma Thompson\n* **Pride In The Hoops – Counties Manukau Rugby Football Union Cup:** Lexi Johnson\n\nWe also recognised **Shane Baker** with the Service Award for his seven years of coaching boys’ rugby at Rosehill College. Thank you, Shane, for your dedication and contribution to our students and school sports community.\n\nIf you see these champions around the school, please give them a congratulations and acknowledge their mahi this season.\n\nKa mau te wehi, Rosehill! 💚",
   "image": {
-    "src": "assets/img/sportsa-1.jpg"
+    "src": "assets/img/sportsa-1.avif",
+    "srcset": "/assets/img/sportsa-1-rp-500.avif 500w, /assets/img/sportsa-1-rp-800.avif 800w, /assets/img/sportsa-1-rp-1080.avif 1080w, /assets/img/sportsa-1-rp-1600.avif 1600w, /assets/img/sportsa-1-rp-2200.avif 2200w, /assets/img/sportsa-1.avif 2560w"
   },
   "gallery": [
     {
-      "src": "assets/img/sportsa-1.jpg"
+      "src": "assets/img/sportsa-1.avif",
+      "srcset": "/assets/img/sportsa-1-rp-500.avif 500w, /assets/img/sportsa-1-rp-800.avif 800w, /assets/img/sportsa-1-rp-1080.avif 1080w, /assets/img/sportsa-1-rp-1600.avif 1600w, /assets/img/sportsa-1-rp-2200.avif 2200w, /assets/img/sportsa-1.avif 2560w"
     },
     {
-      "src": "assets/img/sportsa-2.jpg"
+      "src": "assets/img/sportsa-2.avif",
+      "srcset": "/assets/img/sportsa-2-rp-500.avif 500w, /assets/img/sportsa-2-rp-800.avif 800w, /assets/img/sportsa-2-rp-1080.avif 1080w, /assets/img/sportsa-2-rp-1600.avif 1600w, /assets/img/sportsa-2-rp-2200.avif 2200w, /assets/img/sportsa-2.avif 2560w"
     },
     {
-      "src": "assets/img/sportsa-3.jpg"
+      "src": "assets/img/sportsa-3.avif",
+      "srcset": "/assets/img/sportsa-3-rp-500.avif 500w, /assets/img/sportsa-3-rp-800.avif 800w, /assets/img/sportsa-3-rp-1080.avif 1080w, /assets/img/sportsa-3-rp-1600.avif 1600w, /assets/img/sportsa-3-rp-2200.avif 2200w, /assets/img/sportsa-3.avif 2560w"
     },
     {
-      "src": "assets/img/sportsa-4.jpg"
+      "src": "assets/img/sportsa-4.avif",
+      "srcset": "/assets/img/sportsa-4-rp-500.avif 500w, /assets/img/sportsa-4-rp-800.avif 800w, /assets/img/sportsa-4-rp-1080.avif 1080w, /assets/img/sportsa-4-rp-1600.avif 1600w, /assets/img/sportsa-4-rp-2200.avif 2200w, /assets/img/sportsa-4.avif 2560w"
     },
     {
-      "src": "assets/img/sportsa-5.jpg"
+      "src": "assets/img/sportsa-5.avif",
+      "srcset": "/assets/img/sportsa-5-rp-500.avif 500w, /assets/img/sportsa-5-rp-800.avif 800w, /assets/img/sportsa-5-rp-1080.avif 1080w, /assets/img/sportsa-5-rp-1600.avif 1600w, /assets/img/sportsa-5-rp-2200.avif 2200w, /assets/img/sportsa-5.avif 2560w"
     },
     {
-      "src": "assets/img/sportsa-6.jpg"
+      "src": "assets/img/sportsa-6.avif",
+      "srcset": "/assets/img/sportsa-6-rp-500.avif 500w, /assets/img/sportsa-6-rp-800.avif 800w, /assets/img/sportsa-6-rp-1080.avif 1080w, /assets/img/sportsa-6-rp-1600.avif 1600w, /assets/img/sportsa-6-rp-2200.avif 2200w, /assets/img/sportsa-6.avif 2560w"
     },
     {
-      "src": "assets/img/sportsa-7.jpg"
+      "src": "assets/img/sportsa-7.avif",
+      "srcset": "/assets/img/sportsa-7-rp-500.avif 500w, /assets/img/sportsa-7-rp-800.avif 800w, /assets/img/sportsa-7-rp-1080.avif 1080w, /assets/img/sportsa-7-rp-1600.avif 1600w, /assets/img/sportsa-7-rp-2200.avif 2200w, /assets/img/sportsa-7.avif 2560w"
     },
     {
-      "src": "assets/img/sportsa-8.jpg"
+      "src": "assets/img/sportsa-8.avif",
+      "srcset": "/assets/img/sportsa-8-rp-500.avif 500w, /assets/img/sportsa-8-rp-800.avif 800w, /assets/img/sportsa-8-rp-1080.avif 1080w, /assets/img/sportsa-8-rp-1600.avif 1600w, /assets/img/sportsa-8-rp-2200.avif 2200w, /assets/img/sportsa-8.avif 2560w"
     },
     {
-      "src": "assets/img/sportsa-9.jpg"
+      "src": "assets/img/sportsa-9.avif",
+      "srcset": "/assets/img/sportsa-9-rp-500.avif 500w, /assets/img/sportsa-9-rp-800.avif 800w, /assets/img/sportsa-9-rp-1080.avif 1080w, /assets/img/sportsa-9-rp-1600.avif 1600w, /assets/img/sportsa-9-rp-2200.avif 2200w, /assets/img/sportsa-9.avif 2560w"
     },
     {
-      "src": "assets/img/sportsa-10.jpg"
+      "src": "assets/img/sportsa-10.avif",
+      "srcset": "/assets/img/sportsa-10-rp-500.avif 500w, /assets/img/sportsa-10-rp-800.avif 800w, /assets/img/sportsa-10-rp-1080.avif 1080w, /assets/img/sportsa-10-rp-1600.avif 1600w, /assets/img/sportsa-10-rp-2200.avif 2200w, /assets/img/sportsa-10.avif 2560w"
     },
     {
-      "src": "assets/img/sportsa-11.jpg"
+      "src": "assets/img/sportsa-11.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/sportsa-12.jpg"
+      "src": "assets/img/sportsa-12.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/img_9956.jpeg"
+      "src": "assets/img/img_9956.avif",
+      "srcset": "/assets/img/img_9956-rp-500.avif 500w, /assets/img/img_9956-rp-800.avif 800w, /assets/img/img_9956-rp-1080.avif 1080w, /assets/img/img_9956-rp-1600.avif 1600w, /assets/img/img_9956.avif 1601w"
     }
   ]
 }
