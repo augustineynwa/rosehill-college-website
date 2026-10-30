@@ -1,0 +1,24 @@
+{
+  "title": "Year 13 Spirit Week – Memes",
+  "date": "2026-10-30",
+  "image": {
+    "src": "assets/img/memes-2.jpg"
+  },
+  "gallery": [
+    {
+      "src": "assets/img/memes-1.jpg"
+    },
+    {
+      "src": "assets/img/memes-2.jpg"
+    },
+    {
+      "src": "assets/img/memes-3.jpg"
+    },
+    {
+      "src": "assets/img/memes-4.jpg"
+    },
+    {
+      "src": "assets/img/memes-5.jpg"
+    }
+  ]
+}
