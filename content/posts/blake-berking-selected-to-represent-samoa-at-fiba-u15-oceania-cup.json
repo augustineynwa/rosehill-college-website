@@ -5,16 +5,20 @@
   "body": "A big congratulations to Rosehill College student Blake, who has been selected to represent Samoa at the FIBA U15 Oceania Cup!\n\nStanding at 6ft 9, Blake is passionate about basketball, and this is an exciting opportunity to develop his skills and gain valuable international experience.\n\nBlake has had a fantastic first year at Rosehill College, recently receiving two Principal’s Awards. We are proud of his achievements and the young man he is becoming.\n\nThese photos capture Blake in action at HoopNation last weekend, doing what he loves!\n\nCongratulations, Blake! We look forward to following your journey as you represent Samoa on the international stage. 👏",
   "gallery": [
     {
-      "src": "assets/img/blake-1.jpg"
+      "src": "assets/img/blake-1.avif",
+      "srcset": "/assets/img/blake-1-rp-500.avif 500w, /assets/img/blake-1-rp-800.avif 800w, /assets/img/blake-1-rp-1080.avif 1080w, /assets/img/blake-1-rp-1600.avif 1600w, /assets/img/blake-1.avif 1639w"
     },
     {
-      "src": "assets/img/blake-2.jpg"
+      "src": "assets/img/blake-2.avif",
+      "srcset": "/assets/img/blake-2-rp-500.avif 500w, /assets/img/blake-2-rp-800.avif 800w, /assets/img/blake-2-rp-1080.avif 1080w, /assets/img/blake-2.avif 1206w"
     },
     {
-      "src": "assets/img/blake-3.jpg"
+      "src": "assets/img/blake-3.avif",
+      "srcset": "/assets/img/blake-3-rp-500.avif 500w, /assets/img/blake-3-rp-800.avif 800w, /assets/img/blake-3-rp-1080.avif 1080w, /assets/img/blake-3.avif 1206w"
     }
   ],
   "image": {
-    "src": "assets/img/blake-1.jpg"
+    "src": "assets/img/blake-1.avif",
+    "srcset": "/assets/img/blake-1-rp-500.avif 500w, /assets/img/blake-1-rp-800.avif 800w, /assets/img/blake-1-rp-1080.avif 1080w, /assets/img/blake-1-rp-1600.avif 1600w, /assets/img/blake-1.avif 1639w"
   }
 }
