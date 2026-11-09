@@ -5,7 +5,7 @@ than this one was changed, nothing was committed, nothing was pushed._
 
 The website currently depends on one person's personal accounts in three
 separate places. This plan moves all three to school-owned control without
-breaking Mrs Chau's ability to publish for more than a short, scheduled window.
+breaking Loong's ability to publish for more than a short, scheduled window.
 
 ## 1. Three ownership problems, not one
 
@@ -23,7 +23,8 @@ them as one move is how this goes wrong.
 - `augustineynwa` belongs to no GitHub organisation. A school org does not exist
   yet and has to be created.
 - Repo collaborators: `augustineynwa` (admin), `mchau-rhc`, `jherst1963`
-  (neither admin). Mrs Chau is the main editor, 33 CMS commits.
+  (neither admin). Loong (`mchau-rhc`) is the main editor, 33 CMS commits. He
+  signs his email M C Loong and uses he/him.
 - The school estate is Microsoft-centric: on-premises Active Directory
   (`internal.rosehill-college.co.nz`, two domain controllers), Windows servers,
   IIS, school mail on `rosehillcollege.school.nz`. This plan assumes Microsoft
@@ -233,7 +234,7 @@ Worker.
 
 Do steps 2 through 10 in **one sitting, outside school hours**.
 
-1. Tell Mrs Chau and Mr Herst not to publish during the agreed window.
+1. Tell Loong and `jherst1963` not to publish during the agreed window.
 2. Check the Actions tab and wait for any in-flight `Auto-optimise uploaded
    images` run to finish. That workflow pushes to `main`, and a transfer
    mid-run loses the push.
@@ -253,7 +254,7 @@ Do steps 2 through 10 in **one sitting, outside school hours**.
    `www.rosehillcollege.school.nz` onto the new Pages project. This is the only
    moment the public site is at risk. Keep it brief.
 9. Transfer the OAuth app to the org, or recreate it per section 4.
-10. Have Mrs Chau sign in at `/admin` and publish one trivial edit. That single
+10. Have Loong sign in at `/admin` and publish one trivial edit. That single
     test exercises the whole chain: OAuth app, Worker, GitHub write access,
     Actions bot, Pages build.
 11. **Only now** enable org-level 2FA enforcement, after confirming both editors
@@ -280,22 +281,22 @@ old repository path. GitHub's post-transfer redirect usually carries the API cal
 through, but do not rely on it. Treat that whole span as CMS-closed and finish it
 in one session.
 
-## 7. Staff impact: what Mrs Chau actually sees
+## 7. Staff impact: what Loong actually sees
 
-| Moment | What she sees |
+| Moment | What he sees |
 | --- | --- |
 | Before Phase 2 step 3 | Normal. |
-| Between steps 3 and 4 | `/admin` loads and she signs in, but every save fails on permissions. She has no way to distinguish this from the site being broken. This is why step 4 is immediate, not next morning. |
+| Between steps 3 and 4 | `/admin` loads and he signs in, but every save fails on permissions. He has no way to distinguish this from the site being broken. This is why step 4 is immediate, not next morning. |
 | Between step 3 and Phase 3 step 7 | The deployed CMS config still names the old repository. Saves may pass through the redirect or may fail. Do not leave this open. |
-| If the OAuth app is recreated | Her browser token is invalid. She is returned to the login screen, and sign-in fails until the Worker holds the matching client ID and secret. Warn her in advance that she will click "Login with GitHub" and re-authorise once. |
+| If the OAuth app is recreated | His browser token is invalid. He is returned to the login screen, and sign-in fails until the Worker holds the matching client ID and secret. Warn him in advance that he will click "Login with GitHub" and re-authorise once. |
 | At step 8 | Short public outage risk on the website. Not a CMS issue. |
-| At step 11 | If she has not enabled 2FA, enforcement removes her from the org and publishing stops **silently**. Confirm her 2FA before enabling. |
+| At step 11 | If he has not enabled 2FA, enforcement removes him from the org and publishing stops **silently**. Confirm his 2FA before enabling. |
 
 **Keeping the window short:** Phase 0 and Phase 1 are invisible to staff and can
-be done days ahead at leisure. Only Phase 2 steps 2 to 10 touch her. With the
+be done days ahead at leisure. Only Phase 2 steps 2 to 10 touch him. With the
 destination already built, that is realistically one to two hours. Book it
-outside school hours, tell her beforehand, and use the step 10 test publish as
-the all-clear message back to her.
+outside school hours, tell him beforehand, and use the step 10 test publish as
+the all-clear message back to him.
 
 ## 8. Rollback for each irreversible step
 
@@ -337,16 +338,19 @@ the all-clear message back to her.
 7. Canonical host: apex or `www.`? `content/site.json:309` says `www.`, while the
    committed `public/robots.txt:4` and `public/sitemap.xml` still say apex. One
    is stale. Worth settling during this work.
-8. Do `mchau-rhc` and `jherst1963` have 2FA enabled on GitHub today? Needed
+8. Do `mchau-rhc` (Loong) and `jherst1963` have 2FA enabled on GitHub today?
+   Needed
    before Phase 2 step 11.
 9. Is the repository meant to stay public? Public keeps GitHub Free sufficient
    and keeps Actions minutes free.
 10. Full school name or an abbreviation for the org slug? It lands in
     `scripts/gen-cms-config.mjs:413` and in the staff-facing docs.
 11. Separate but related: who owns the Web3Forms account behind the four keys at
-    `content/site.json:283`, `:297`, `:308`, `:328`, and the FlipHTML5
-    subscription behind the prospectus viewer? Same personal-dependency question,
-    out of scope here.
+    `content/site.json:283`, `:297`, `:308`, `:328`? Same personal-dependency
+    question, out of scope here. The FlipHTML5 subscription is the same shape of
+    problem and is now live: it auto-renewed on 29 October 2026 and a partial
+    refund is on the table. It carries two embeds, not one, and the yearbooks
+    exist nowhere else. See the note at the end of this file.
 
 ## 10. What this plan supersedes in the existing docs
 
@@ -379,3 +383,41 @@ this migration adds anything.
 **Recommendation after the migration:** fold `DEPLOY.md`, `GOLIVE.md` and
 `CMS-TRIAL.md` into one current "how this is built and deployed" document, and
 keep `HANDOFF.md` as the machine-setup note it is.
+
+## 11. Note: the FlipHTML5 subscription, as of 2026-11-09
+
+Not part of the governance migration, recorded here because it is the same
+single-supplier dependency and a decision is pending.
+
+The site has **two** FlipHTML5 embeds, both loading the third-party iframe
+directly with no click-to-load facade:
+
+- `content/pages/join-us/prospectus.json:18` — one book,
+  `online.fliphtml5.com/snsln/Prospectus-2026/`
+- `content/pages/our-school/yearbook.json:23` — a **bookcase**,
+  `fliphtml5.com/bookcase/sexgj/`, holding multiple yearbooks
+
+**The exposure:** no yearbook PDF exists anywhere in this repository. The
+bookcase is the only copy the website points at. The prospectus is safer, its
+source PDF is committed at `public/assets/docs/Rosehill-College-Prospectus-2026.pdf`
+(5.4 MB), currently unreferenced because the embed replaced the direct link.
+
+**Before any downgrade or cancellation:** export every book out of FlipHTML5,
+the full yearbook back-catalogue included. A free tier can impose book and page
+limits, and the bookcase view is itself a paid feature, so a downgrade risks
+losing more than it adds ads to.
+
+**On the ads:** both embeds load automatically, so free-tier ads would render on
+the prospectus page, which links straight to "Enrol now", and on the yearbook
+page that students and families use. Ad content would not be under the school's
+control.
+
+**Replacement shape, if wanted:** the repository already has a `docs` section
+type and `templates/partials/doc-list.hbs` for linking PDFs, which needs no
+third-party service and no new dependency. A self-hosted flipbook library would
+cut against this site's performance posture. Note that committing large yearbook
+PDFs would worsen the repository weight problem, so consider hosting them in
+Cloudflare R2 rather than in git.
+
+`HANDOFF.md:92-93` records this as parked and mentions a one-off tool Loong
+has built. Worth asking him what it does before building anything.
