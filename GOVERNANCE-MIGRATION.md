@@ -421,3 +421,30 @@ Cloudflare R2 rather than in git.
 
 `HANDOFF.md:92-93` records this as parked and mentions a one-off tool Loong
 has built. Worth asking him what it does before building anything.
+
+**Update, 2026-11-09, after checking with Loong.** He holds copies of every
+yearbook, so the data-loss risk is closed, with the caveat that the copies live
+on his own computer. That is the same single-person dependency this document
+exists to remove, so a school-owned copy is needed either way.
+
+His one-off tool is a CSS shelf display linking cover images to PDFs. The site
+already does this: `templates/partials/section-cards.hbs` renders an optional
+cover image, a title and an `href` per card, fed by the existing AVIF pipeline.
+A `cards` section covers the yearbook shelf with no new code, no third-party CSS
+and no licence question about the vendor's code, which is now behind a
+subscription at pdf-flip.com.
+
+Loong's one reservation is PDF load time, and he is right that a shelf cannot
+speed up a large download. Three things help, none needing a subscription:
+
+- A cover-image shelf downloads a PDF only when a visitor clicks one year. The
+  current embed loads a whole reader for everyone who opens the page, so the
+  shelf is faster in the common case, not slower.
+- The PDFs have never been compressed or linearised. There is no PDF tooling in
+  this repository at all, only `sharp` for images. Linearising ("fast web view")
+  lets a browser render page one while the rest downloads, and Cloudflare serves
+  the range requests that needs. The library needs it: the July/August newsletter
+  alone is 14.8 MB.
+- `public/_headers:22-23` caches `/assets/docs/*` for `max-age=3600`, one hour.
+  For yearbooks and prospectuses that never change after publication, that is far
+  too short and costs a full re-download on every repeat visit.
