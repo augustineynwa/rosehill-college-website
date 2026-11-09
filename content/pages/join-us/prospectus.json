@@ -12,12 +12,16 @@
       "lede": "Our prospectus provides an in-depth look at what makes our school a unique and vibrant learning community. Inside, you will find information about our academic programmes, co-curricular activities, school culture, and facilities. Discover how we support our students' growth and prepare them for future success."
     },
     {
-      "type": "embed",
+      "type": "docs",
       "heading": "Read the 2026 prospectus",
-      "flip": true,
-      "src": "https://online.fliphtml5.com/snsln/Prospectus-2026/",
-      "iframeTitle": "Rosehill College 2026 prospectus",
-      "allow": "fullscreen"
+      "lede": "Open the prospectus in your browser, or download it to read offline.",
+      "docs": [
+        {
+          "href": "assets/docs/Rosehill-College-Prospectus-2026.pdf",
+          "label": "Rosehill College Prospectus 2026",
+          "meta": "PDF, 5.4 MB"
+        }
+      ]
     },
     {
       "type": "cta",
