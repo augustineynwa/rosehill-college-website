@@ -17,6 +17,19 @@
       "html": "<p>In our continued effort to reduce environmental impact and embrace the digital world, the Rosehill College Yearbook is available exclusively online. This ensures easy access to the year's special moments — whether you are at home, at school, or on the go.</p>"
     },
     {
+      "type": "docs",
+      "id": "yearbook-2026",
+      "heading": "Yearbook 2026",
+      "lede": "This year’s yearbook, free to read online. It opens in your browser, and the first pages appear while the rest downloads.",
+      "docs": [
+        {
+          "href": "assets/docs/Rosehill-College-Yearbook-2026.pdf",
+          "label": "Rosehill College Yearbook 2026",
+          "meta": "PDF, 56 pages, 14.5 MB"
+        }
+      ]
+    },
+    {
       "type": "embed",
       "heading": "Browse our yearbooks",
       "tall": true,
