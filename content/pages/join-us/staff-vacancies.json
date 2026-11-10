@@ -23,10 +23,10 @@
       "html": "The terms and conditions, including base salary, for teaching positions are set by the Secondary Teachers’ Collective Agreement. The base salary for trained and registered teachers ranges from $62,862 to $105,686, depending on the applicant’s qualifications and experience. An individual’s actual base salary will be established through a salary assessment once a position is confirmed.\n\nA Rosehill College Application Form must accompany your CV and cover letter:\n\n* [Application Form — Teachers](https://drive.google.com/file/d/1miND8DSPlA6e7gO_ERSzjtMx1Dqex9xi/view)\n* [Application Form — Relief Teachers](https://drive.google.com/file/d/1NVlwVmamPH2Oz3gNWFHPTuK_JfZ_cqSw/view)\n* [Application Form — Support Staff](https://drive.google.com/file/d/1Wi2jvSdskRLpeZpBWdD8TYesLclYjwD9/view)"
     },
     {
-      "type": "vacancies",
-      "id": "vacancies",
+      "type": "prose",
+      "reo": false,
       "heading": "Current Vacancies",
-      "lede": "Our current openings are listed below. This list updates automatically as roles are added or filled."
+      "html": "### Teacher of Physical Education and Health · Fixed Term · Start Date: 28/01/2027\n\nWe seek a dynamic, passionate and enthusiastic teacher of Physical Education and Health to join our Physical Education faculty.\n\nApplicants should have a current New Zealand teacher registration and a working knowledge of the New Zealand curriculum. The successful candidate will have: \n\n* a genuine passion for teaching and a clear understanding of NCEA experience in differentiated teaching at the junior and senior levels\n* ability to be a team player who will work collaboratively to raise student achievement\n* knowledge of the principles of Te Tiriti o Waitangi and ensure te reo me ōna Tikanga are upheld\n* relational practices to tautoko positive relationships within our kura\n\nA commitment to mana ōrite mō te mātauranga māori, and cultural responsiveness is also essential.\n\n*Applicants must have permanent working rights in New Zealand.*"
     },
     {
       "type": "cta",
