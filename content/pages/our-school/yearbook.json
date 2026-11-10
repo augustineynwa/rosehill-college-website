@@ -8,7 +8,7 @@
     {
       "type": "hero",
       "eyebrow": "Celebrating our year",
-      "heading": "Rosehill College yearbook",
+      "heading": "Rosehill College Yearbook",
       "lede": "We are excited to offer a fully digital Yearbook experience, allowing you to relive all the memories and highlights of the year online, anytime, and anywhere!"
     },
     {
@@ -30,23 +30,10 @@
       ]
     },
     {
-      "type": "embed",
-      "heading": "Browse our yearbooks",
-      "tall": true,
-      "src": "https://fliphtml5.com/bookcase/sexgj/",
-      "iframeTitle": "Rosehill College digital yearbook bookcase"
-    },
-    {
       "type": "cta",
-      "heading": "Yearbook 2025",
-      "text": "The printed version of the Rosehill College Yearbook 2025 is now available for a limited time. To place your order, please complete the online form using the link below. Once your payment has been received, your order will be processed and your printed Yearbook will be ready for collection from the Student Office. Be sure to get your copy before orders close — this is a great way to keep the memories of 2025 at Rosehill College!",
-      "actions": [
-        {
-          "href": "https://forms.gle/PqqpGRGVYHtszzRY7",
-          "label": "Order your copy now",
-          "primary": true
-        }
-      ]
+      "heading": "Yearbook Orders – Previous Years",
+      "text": "If you would like to order a Yearbook from a previous year, please check with the Student Office for availability and ordering information.",
+      "actions": []
     }
   ]
 }
