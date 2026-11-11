@@ -30,6 +30,24 @@
       ]
     },
     {
+      "type": "docs",
+      "id": "earlier-yearbooks",
+      "heading": "Earlier yearbooks",
+      "lede": "Previous years, also free to read online.",
+      "docs": [
+        {
+          "href": "assets/docs/Rosehill-College-Yearbook-2025.pdf",
+          "label": "Rosehill College Yearbook 2025",
+          "meta": "PDF, 54 pages, 13.9 MB"
+        },
+        {
+          "href": "assets/docs/Rosehill-College-Yearbook-2024.pdf",
+          "label": "Rosehill College Yearbook 2024",
+          "meta": "PDF, 49 pages, 13.3 MB"
+        }
+      ]
+    },
+    {
       "type": "cta",
       "heading": "Yearbook Orders",
       "text": "Order your printed copy of the Rosehill College Yearbook 2026. Complete the online order form and payment by Friday, 4 December 2026.",
