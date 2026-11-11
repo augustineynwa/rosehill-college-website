@@ -35,7 +35,7 @@
       "text": "Order your printed copy of the Rosehill College Yearbook 2026. Complete the online order form and payment by Friday, 4 December 2026.",
       "actions": [
         {
-          "primary": false,
+          "primary": true,
           "external": false,
           "href": "https://forms.gle/gyzRJxrG7EncMTG96",
           "label": "Order 2026 Yearbook"
