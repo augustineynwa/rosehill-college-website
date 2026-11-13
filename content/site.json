@@ -297,13 +297,13 @@
   "web3formsKeyEnrolment": "65f53f37-fd76-496a-b76a-b1610f9b2cce",
   "notice": {
     "active": true,
-    "level": "important",
-    "message": "Gala Day is this Saturday, 10:00am–3:00pm! Join us for a fun-filled family day. Parking is available along Chichester Drive. We look forward to seeing you there! 🌹",
+    "level": "info",
+    "message": "Come along to our China Trip Fundraising Sausage Sizzle at Bunnings Takanini tomorrow, Saturday 14 November, from 9:00am to 4:00pm. Grab a sausage, show your support and help our students get one step closer to their 2027 China Study Trip!",
     "link": {
       "label": "",
       "href": "/our-school/news/rosehill-college-gala-day"
     },
-    "expires": "2026-10-17"
+    "expires": "2026-11-14"
   },
   "web3formsKeyGeneral": "3c8b7c5f-23a2-47f4-a37f-df556fd9ea6f",
   "baseUrl": "https://www.rosehillcollege.school.nz",
