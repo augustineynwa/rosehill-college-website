@@ -146,7 +146,8 @@
       "docs": [
         {
           "upload": "/assets/docs/proposed-minor-amendment-rosehill-college.pdf",
-          "label": "Minor Amendment — Rosehill College Enrolment Scheme"
+          "label": "Minor Amendment — Rosehill College Enrolment Scheme",
+          "meta": "PDF"
         }
       ],
       "lede": "",
