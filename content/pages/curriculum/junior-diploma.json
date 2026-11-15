@@ -19,18 +19,18 @@
     },
     {
       "type": "media-text",
-      "heading": "An in-house qualification with clear goals",
+      "heading": "An In-house Qualification with Clear Goals",
       "image": {
         "src": "assets/img/Junior-Diploma-1.avif",
         "srcset": "",
         "alt": "Rosehill College junior students at work in class"
       },
-      "html": "<p>The Junior Diploma serves as an in-house qualification that fills the gap left by the removal of NCEA Level 1, giving students clear goals to strive for in their early high school years. It is designed to encourage students to embrace our school values, build foundational skills in literacy and numeracy, and prepare for the challenges of senior secondary education.</p><p>Through the Junior Diploma, students experience a structured framework that rewards their participation, effort, and achievement across all aspects of school life, laying the groundwork for future success.</p>"
+      "html": "The Junior Diploma serves as an in-house qualification that fills the gap left by the removal of NCEA Level 1, giving students clear goals to strive for in their early high school years. It is designed to encourage students to embrace our school values, build foundational skills in literacy and numeracy, and prepare for the challenges of senior secondary education.\n\nThrough the Junior Diploma, students experience a structured framework that rewards their participation, effort, and achievement across all aspects of school life, laying the groundwork for future success."
     },
     {
       "type": "prose",
-      "heading": "Structure and criteria",
-      "html": "<p>The Junior Diploma recognises students' achievements across four key areas based on Rosehill College's values:</p><ul><li><strong><span lang=\"mi\">Whanaungatanga</span> (Together we are more)</strong> – Encourages school participation through house activities, events, and challenges. Higher engagement leads to higher diploma levels.</li><li><strong><span lang=\"mi\">Manaakitanga</span> (We rise by lifting others)</strong> – Promotes respect and cultural involvement. Students participate in <span lang=\"mi\">haka</span> practice, Manaakitia Mai discussions, and school/community groups.</li><li><strong><span lang=\"mi\">Hihiritanga</span> (We are resilient and persevere)</strong> – Focuses on attendance, goal-setting, and academic skills. Students complete our Career Central programme, improve literacy and numeracy, and demonstrate perseverance.</li><li><strong><span lang=\"mi\">Rangatiratanga</span> (Excellence in all that we do)</strong> – Recognises academic success. Students accumulate academic points from assessments, with higher diploma levels requiring more points and stronger performance.</li></ul>"
+      "heading": "Structure and Criteria",
+      "html": "The Junior Diploma recognises students' achievements across four key areas based on Rosehill College's values:\n\n* <span lang=\"mi\">**Whanaungatanga**</span> **(Together we are more)** – Encourages school participation through house activities, events, and challenges. Higher engagement leads to higher diploma levels.\n* <span lang=\"mi\">**Manaakitanga**</span> **(We rise by lifting others)** – Promotes respect and cultural involvement. Students participate in <span lang=\"mi\">haka</span> practice, Manaakitia Mai discussions, and school/community groups.\n* <span lang=\"mi\">**Hihiritanga**</span> **(We are resilient and persevere)** – Focuses on attendance, goal-setting, and academic skills. Students complete our Career Central programme, improve literacy and numeracy, and demonstrate perseverance.\n* <span lang=\"mi\">**Rangatiratanga**</span> **(Excellence in all that we do)** – Recognises academic success. Students accumulate academic points from assessments, with higher diploma levels requiring more points and stronger performance."
     },
     {
       "type": "list",
@@ -52,7 +52,7 @@
     },
     {
       "type": "docs",
-      "heading": "Yearly breakdown",
+      "heading": "Yearly Breakdown — 2026",
       "lede": "Each year level has specific expectations within these categories, ensuring students develop skills progressively. The Junior Diploma is a progressive programme across Year 9, Year 10, and Year 11, with each year building on the previous one. While the core values and categories remain consistent, the specific expectations grow as students mature. Below is an overview of what the Junior Diploma entails at each year level.",
       "docs": [
         {
@@ -71,6 +71,29 @@
           "meta": "PDF"
         }
       ]
+    },
+    {
+      "type": "docs",
+      "columns": false,
+      "heading": "Junior Diploma 2027",
+      "docs": [
+        {
+          "upload": "/assets/docs/diploma-year-9-2027.pdf",
+          "meta": "PDF",
+          "label": "Year 9 Junior Diploma 2027"
+        },
+        {
+          "upload": "/assets/docs/diploma-year-10-2027.pdf",
+          "meta": "PDF",
+          "label": "Year 10 Junior Diploma 2027"
+        },
+        {
+          "upload": "/assets/docs/diploma-year-11-2027.pdf",
+          "meta": "PDF",
+          "label": "Year 11 Junior Diploma 2027"
+        }
+      ],
+      "lede": "The Junior Diploma criteria have been updated for 2027! The programme continues across Year 9, Year 10 and Year 11, with expectations designed to support students as they develop and progress through each year level.\n\nTake a look at the updated criteria below to see what is expected at each year level and what students need to work towards to achieve their Junior Diploma."
     },
     {
       "type": "prose",
