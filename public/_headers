@@ -19,10 +19,14 @@
   Cache-Control: public, max-age=31536000, immutable
 /assets/video/*
   Cache-Control: public, max-age=604800
-# Documents are NOT fingerprinted, and some are replaced in place under the same
-# filename (canteen menu, handbooks), so they cannot be immutable. A day of
-# freshness plus a week of background revalidation stops yearbooks and the
-# prospectus re-downloading on every repeat visit, without stranding a replaced
-# file behind a long max-age.
+# Documents are NOT fingerprinted: staff replace a PDF in place under the same
+# filename, so a browser must never reuse one without checking first. Any
+# max-age here strands the old copy for that long, which is exactly what happened
+# with an earlier max-age=86400 setting.
+#
+# `no-cache` does not mean "do not store". The browser keeps the file and
+# revalidates it against its ETag, so an unchanged PDF costs one conditional
+# request answered 304 with no body, and a replaced PDF is picked up straight
+# away. The yearbooks still avoid re-downloading 14MB on a repeat visit.
 /assets/docs/*
-  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+  Cache-Control: public, no-cache
