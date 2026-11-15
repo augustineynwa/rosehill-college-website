@@ -24,9 +24,15 @@
 # max-age here strands the old copy for that long, which is exactly what happened
 # with an earlier max-age=86400 setting.
 #
-# `no-cache` does not mean "do not store". The browser keeps the file and
-# revalidates it against its ETag, so an unchanged PDF costs one conditional
-# request answered 304 with no body, and a replaced PDF is picked up straight
-# away. The yearbooks still avoid re-downloading 14MB on a repeat visit.
+# `max-age=0, must-revalidate` means the browser keeps the file but checks before
+# reusing it, so an unchanged PDF costs one conditional request answered 304 with
+# no body, and a replaced PDF is picked up straight away. The yearbooks still
+# avoid re-downloading 14MB on a repeat visit.
+#
+# It is spelled this way rather than the equivalent `no-cache` because the zone's
+# Browser Cache TTL setting rewrites any header that carries no explicit max-age:
+# `no-cache` reached browsers as `max-age=14400`, four hours, and the
+# revalidation never happened. Headers that state a max-age pass through intact.
+# Verify with:  curl -sSI https://www.rosehillcollege.school.nz/assets/docs/<a>.pdf
 /assets/docs/*
-  Cache-Control: public, no-cache
+  Cache-Control: public, max-age=0, must-revalidate
