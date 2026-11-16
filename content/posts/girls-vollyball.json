@@ -1,0 +1,54 @@
+{
+  "title": "Girls Vollyball",
+  "date": "2026-11-13",
+  "image": {
+    "src": "assets/img/girls-volleyball-1.jpg"
+  },
+  "gallery": [
+    {
+      "src": "assets/img/girls-volleyball-1.jpg"
+    },
+    {
+      "src": "assets/img/girls-volleyball-2.jpg"
+    },
+    {
+      "src": "assets/img/girls-volleyball-3.jpg"
+    },
+    {
+      "src": "assets/img/girls-volleyball-4.jpg"
+    },
+    {
+      "src": "assets/img/girls-volleyball-5.jpg"
+    },
+    {
+      "src": "assets/img/girls-volleyball-6.jpg"
+    },
+    {
+      "src": "assets/img/girls-volleyball-7.jpg"
+    },
+    {
+      "src": "assets/img/girls-volleyball-8.jpg"
+    },
+    {
+      "src": "assets/img/girls-volleyball-9.jpg"
+    },
+    {
+      "src": "assets/img/girls-volleyball-10.jpg"
+    },
+    {
+      "src": "assets/img/girls-volleyball-11.jpg"
+    },
+    {
+      "src": "assets/img/girls-volleyball-12.jpg"
+    },
+    {
+      "src": "assets/img/girls-volleyball-13.jpg"
+    },
+    {
+      "src": "assets/img/girls-volleyball-14.jpg"
+    },
+    {
+      "src": "assets/img/girls-volleyball-15.jpg"
+    }
+  ]
+}
