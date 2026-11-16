@@ -697,7 +697,7 @@ collections:
                     widget: list
                     label_singular: Card
                     collapsed: true
-                    summary: '{{fields.title}}'
+                    summary: '{{fields.title}}  →  {{fields.upload}}{{fields.href}}'
                     fields:
                       - label: Title
                         name: title
@@ -1187,7 +1187,7 @@ collections:
                     widget: list
                     label_singular: Document
                     collapsed: true
-                    summary: '{{fields.label}}'
+                    summary: '{{fields.label}}  →  {{fields.upload}}{{fields.href}}'
                     fields:
                       - label: Title
                         name: label
@@ -1199,7 +1199,7 @@ collections:
                         required: false
                         media_folder: /public/assets/docs
                         public_folder: /assets/docs
-                        hint: Upload a new PDF/document, or pick an existing one from the library. Choosing a new file here replaces the old download. This is used unless it is left empty.
+                        hint: Upload a new PDF/document, or pick an existing one from the library. To publish a newer version, change the file on THIS entry rather than adding another one below, or the old document stays on the page above the new one. This is used unless it is left empty.
                       - label: Or paste a web link instead
                         name: href
                         widget: string
