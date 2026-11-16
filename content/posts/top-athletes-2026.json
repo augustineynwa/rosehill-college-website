@@ -2,17 +2,21 @@
   "title": "Top Athletes 2026",
   "date": "2026-11-10",
   "image": {
-    "src": "assets/img/top-athelete-1.jpg"
+    "src": "assets/img/top-athelete-1.avif",
+    "srcset": ""
   },
   "gallery": [
     {
-      "src": "assets/img/top-athelete-1.jpg"
+      "src": "assets/img/top-athelete-1.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/top-athelete-2.jpg"
+      "src": "assets/img/top-athelete-2.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/top-athelete-3.jpg"
+      "src": "assets/img/top-athelete-3.avif",
+      "srcset": ""
     }
   ]
 }
