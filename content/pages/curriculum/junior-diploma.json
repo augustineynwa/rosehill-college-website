@@ -54,7 +54,23 @@
       "type": "docs",
       "heading": "Yearly Breakdown — 2026",
       "lede": "Each year level has specific expectations within these categories, ensuring students develop skills progressively. The Junior Diploma is a progressive programme across Year 9, Year 10, and Year 11, with each year building on the previous one. While the core values and categories remain consistent, the specific expectations grow as students mature. Below is an overview of what the Junior Diploma entails at each year level.",
-      "docs": []
+      "docs": [
+        {
+          "label": "Year 9 Junior Diploma 2026",
+          "href": "assets/docs/Diploma-Year-9-2026.pdf",
+          "meta": "PDF"
+        },
+        {
+          "label": "Year 10 Junior Diploma 2026",
+          "href": "assets/docs/Diploma-Year-10-2026.pdf",
+          "meta": "PDF"
+        },
+        {
+          "label": "Year 11 Junior Diploma 2026",
+          "href": "assets/docs/Diploma-Year-11-2026.pdf",
+          "meta": "PDF"
+        }
+      ]
     },
     {
       "type": "docs",
@@ -75,21 +91,6 @@
           "upload": "/assets/docs/diploma-year-11-2027.pdf",
           "meta": "PDF",
           "label": "Year 11 Junior Diploma 2027"
-        },
-        {
-          "label": "Year 9 Junior Diploma 2026",
-          "href": "assets/docs/Diploma-Year-9-2026.pdf",
-          "meta": "PDF"
-        },
-        {
-          "label": "Year 10 Junior Diploma 2026",
-          "href": "assets/docs/Diploma-Year-10-2026.pdf",
-          "meta": "PDF"
-        },
-        {
-          "label": "Year 11 Junior Diploma 2026",
-          "href": "assets/docs/Diploma-Year-11-2026.pdf",
-          "meta": "PDF"
         }
       ],
       "lede": "The Junior Diploma criteria have been updated for 2027! The programme continues across Year 9, Year 10 and Year 11, with expectations designed to support students as they develop and progress through each year level.\n\nTake a look at the updated criteria below to see what is expected at each year level and what students need to work towards to achieve their Junior Diploma."
