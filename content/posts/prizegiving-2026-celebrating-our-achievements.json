@@ -2,56 +2,73 @@
   "title": "Prizegiving 2026 – Celebrating Our Achievements",
   "date": "2026-11-10",
   "image": {
-    "src": "assets/img/prizegiving-1.jpg"
+    "src": "assets/img/prizegiving-1.avif",
+    "srcset": ""
   },
   "gallery": [
     {
-      "src": "assets/img/prizegiving-1.jpg"
+      "src": "assets/img/prizegiving-1.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/prizegiving-2.jpg"
+      "src": "assets/img/prizegiving-2.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/prizegiving-3.jpg"
+      "src": "assets/img/prizegiving-3.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/prizegiving-4.jpg"
+      "src": "assets/img/prizegiving-4.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/prizegiving-5.jpg"
+      "src": "assets/img/prizegiving-5.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/prizegiving-6.jpg"
+      "src": "assets/img/prizegiving-6.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/prizegiving-7.jpg"
+      "src": "assets/img/prizegiving-7.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/prizegiving-8.jpg"
+      "src": "assets/img/prizegiving-8.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/prizegiving-9.jpg"
+      "src": "assets/img/prizegiving-9.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/prizegiving-10.jpg"
+      "src": "assets/img/prizegiving-10.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/prizegiving-11.jpg"
+      "src": "assets/img/prizegiving-11.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/prizegiving-12.jpg"
+      "src": "assets/img/prizegiving-12.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/prizegiving-13.jpg"
+      "src": "assets/img/prizegiving-13.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/prizegiving-14.jpg"
+      "src": "assets/img/prizegiving-14.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/prizegiving-15.jpg"
+      "src": "assets/img/prizegiving-15.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/prizegiving-16.jpg"
+      "src": "assets/img/prizegiving-16.avif",
+      "srcset": ""
     }
   ],
   "excerpt": "Celebrating the achievements, hard work and dedication of our students at Rosehill College Prizegiving 2026.",
