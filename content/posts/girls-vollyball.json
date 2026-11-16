@@ -2,53 +2,69 @@
   "title": "Girls Vollyball",
   "date": "2026-11-13",
   "image": {
-    "src": "assets/img/girls-volleyball-1.jpg"
+    "src": "assets/img/girls-volleyball-1.avif",
+    "srcset": ""
   },
   "gallery": [
     {
-      "src": "assets/img/girls-volleyball-1.jpg"
+      "src": "assets/img/girls-volleyball-1.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/girls-volleyball-2.jpg"
+      "src": "assets/img/girls-volleyball-2.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/girls-volleyball-3.jpg"
+      "src": "assets/img/girls-volleyball-3.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/girls-volleyball-4.jpg"
+      "src": "assets/img/girls-volleyball-4.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/girls-volleyball-5.jpg"
+      "src": "assets/img/girls-volleyball-5.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/girls-volleyball-6.jpg"
+      "src": "assets/img/girls-volleyball-6.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/girls-volleyball-7.jpg"
+      "src": "assets/img/girls-volleyball-7.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/girls-volleyball-8.jpg"
+      "src": "assets/img/girls-volleyball-8.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/girls-volleyball-9.jpg"
+      "src": "assets/img/girls-volleyball-9.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/girls-volleyball-10.jpg"
+      "src": "assets/img/girls-volleyball-10.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/girls-volleyball-11.jpg"
+      "src": "assets/img/girls-volleyball-11.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/girls-volleyball-12.jpg"
+      "src": "assets/img/girls-volleyball-12.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/girls-volleyball-13.jpg"
+      "src": "assets/img/girls-volleyball-13.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/girls-volleyball-14.jpg"
+      "src": "assets/img/girls-volleyball-14.avif",
+      "srcset": ""
     },
     {
-      "src": "assets/img/girls-volleyball-15.jpg"
+      "src": "assets/img/girls-volleyball-15.avif",
+      "srcset": ""
     }
   ]
 }
