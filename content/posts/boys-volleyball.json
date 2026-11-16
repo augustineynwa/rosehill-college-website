@@ -1,0 +1,45 @@
+{
+  "title": "Boys Volleyball",
+  "date": "2026-11-11",
+  "image": {
+    "src": "assets/img/boys-volleyball-2.jpg"
+  },
+  "gallery": [
+    {
+      "src": "assets/img/boys-volleyball-1.jpg"
+    },
+    {
+      "src": "assets/img/boys-volleyball-2.jpg"
+    },
+    {
+      "src": "assets/img/boys-volleyball-3.jpg"
+    },
+    {
+      "src": "assets/img/boys-volleyball-4.jpg"
+    },
+    {
+      "src": "assets/img/boys-volleyball-5.jpg"
+    },
+    {
+      "src": "assets/img/boys-volleyball-6.jpg"
+    },
+    {
+      "src": "assets/img/boys-volleyball-12.jpg"
+    },
+    {
+      "src": "assets/img/boys-volleyball-7.jpg"
+    },
+    {
+      "src": "assets/img/boys-volleyball-8.jpg"
+    },
+    {
+      "src": "assets/img/boys-volleyball-9.jpg"
+    },
+    {
+      "src": "assets/img/boys-volleyball-10.jpg"
+    },
+    {
+      "src": "assets/img/boys-volleyball-11.jpg"
+    }
+  ]
+}
