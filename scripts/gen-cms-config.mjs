@@ -106,7 +106,8 @@ const S = {
     label: 'Link cards', name: 'cards', widget: 'object',
     fields: [anchorId(), ...head(), {
       label: 'Cards', name: 'cards', widget: 'list', label_singular: 'Card', collapsed: true,
-      summary: '{{fields.title}}',
+      // destination shown for the same reason as the Documents list below
+      summary: '{{fields.title}}  →  {{fields.upload}}{{fields.href}}',
       fields: [str('title', 'Title'), txt('text', 'Description'), str('href', 'Link'),
         file('upload', 'Or attach a file (PDF etc.)', { hint: 'Optional. Upload or choose a document and the card opens it instead of the link above.' }),
         str('cta', 'Link text (e.g. View)'), bool('external', 'Links to another website'), image()],
@@ -184,9 +185,13 @@ const S = {
     fields: [anchorId(), str('heading', 'Heading'), txt('lede', 'Intro paragraph'),
       bool('columns', 'Show in two columns'), {
         label: 'Documents', name: 'docs', widget: 'list', label_singular: 'Document', collapsed: true,
-        summary: '{{fields.label}}',
+        // the file is in the summary on purpose: collapsed entries showed the title
+        // alone, so a stale document was invisible and a replacement got added as a
+        // new row beside the old one instead of replacing it. Only one of
+        // upload/href is ever set, so concatenating them prints whichever applies.
+        summary: '{{fields.label}}  →  {{fields.upload}}{{fields.href}}',
         fields: [str('label', 'Title'),
-          file('upload', 'File — upload or choose a document', { hint: 'Upload a new PDF/document, or pick an existing one from the library. Choosing a new file here replaces the old download. This is used unless it is left empty.' }),
+          file('upload', 'File — upload or choose a document', { hint: 'Upload a new PDF/document, or pick an existing one from the library. To publish a newer version, change the file on THIS entry rather than adding another one below, or the old document stays on the page above the new one. This is used unless it is left empty.' }),
           str('href', 'Or paste a web link instead', { hint: 'Only used when no file is chosen above — e.g. a document hosted on the NZQA or Ministry of Education site. Leave blank if you uploaded a file.' }),
           str('meta', 'Meta (e.g. PDF)')],
       }],
