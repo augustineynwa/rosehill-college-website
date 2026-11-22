@@ -208,12 +208,21 @@ collections:
                 name: href
                 widget: string
                 required: false
-              - label: Dropdown items
+              - label: mega
+                name: mega
+                widget: hidden
+                required: false
+              - label: cols
+                name: cols
+                widget: hidden
+                required: false
+              - label: Dropdown items (simple menus)
                 name: children
                 widget: list
                 required: false
                 collapsed: true
-                summary: '{{fields.label}}'
+                label_singular: Link
+                summary: '{{fields.label}}  →  {{fields.href}}'
                 fields:
                   - label: Label
                     name: label
@@ -228,6 +237,108 @@ collections:
                     widget: boolean
                     required: false
                     default: false
+              - label: Dropdown columns (big menus)
+                name: groups
+                widget: list
+                required: false
+                collapsed: true
+                label_singular: Column
+                summary: '{{fields.heading}}'
+                fields:
+                  - label: Column heading
+                    name: heading
+                    widget: string
+                    required: false
+                  - label: Link for the heading itself (optional)
+                    name: href
+                    widget: string
+                    required: false
+                  - label: Links in this column
+                    name: children
+                    widget: list
+                    required: false
+                    collapsed: true
+                    label_singular: Link
+                    summary: '{{fields.label}}  →  {{fields.href}}'
+                    fields:
+                      - label: Label
+                        name: label
+                        widget: string
+                        required: false
+                      - label: Link
+                        name: href
+                        widget: string
+                        required: false
+                      - label: Badge (e.g. NEW)
+                        name: badge
+                        widget: string
+                        required: false
+                      - label: Links to another website
+                        name: external
+                        widget: boolean
+                        required: false
+                        default: false
+                  - label: Sub-headed groups
+                    name: subgroups
+                    widget: list
+                    required: false
+                    collapsed: true
+                    label_singular: Sub-group
+                    summary: '{{fields.subheading}}'
+                    fields:
+                      - label: Sub-heading
+                        name: subheading
+                        widget: string
+                        required: false
+                      - label: Links
+                        name: items
+                        widget: list
+                        required: false
+                        collapsed: true
+                        label_singular: Link
+                        summary: '{{fields.label}}  →  {{fields.href}}'
+                        fields:
+                          - label: Label
+                            name: label
+                            widget: string
+                            required: false
+                          - label: Link
+                            name: href
+                            widget: string
+                            required: false
+                          - label: Badge (e.g. NEW)
+                            name: badge
+                            widget: string
+                            required: false
+                          - label: Links to another website
+                            name: external
+                            widget: boolean
+                            required: false
+                            default: false
+              - label: Promo cards at the foot of the menu
+                name: cards
+                widget: list
+                required: false
+                collapsed: true
+                label_singular: Card
+                summary: '{{fields.label}}  →  {{fields.href}}'
+                fields:
+                  - label: Label
+                    name: label
+                    widget: string
+                    required: false
+                  - label: Sub-text
+                    name: sub
+                    widget: string
+                    required: false
+                  - label: Link
+                    name: href
+                    widget: string
+                    required: false
+                  - label: Icon name
+                    name: icon
+                    widget: string
+                    required: false
           - label: Footer quick links
             name: footerLinks
             widget: list
