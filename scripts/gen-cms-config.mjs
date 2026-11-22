@@ -41,6 +41,24 @@ const file = (name, label, extra = {}) => ({
   media_folder: '/public/assets/docs', public_folder: '/assets/docs', ...extra,
 });
 
+/** Dropdown of the documents already in public/assets/docs.
+ *  The file picker cannot browse them: Decap has one media library and it points at
+ *  the images folder, so a document field's picker shows images. Without this the
+ *  only way to attach a document was to upload another copy, which is why the docs
+ *  folder accumulated duplicates of the same file.
+ *  Options are generated at build time, so a brand new upload joins the list on the
+ *  next build, a minute or two after it is published. */
+const docChoices = () => readdirSync(join(ROOT, 'public', 'assets', 'docs'))
+  .filter((f) => !f.startsWith('.'))
+  .sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()))
+  .map((f) => ({ label: f, value: `/assets/docs/${f}` }));
+
+const existingDoc = () => ({
+  label: 'Choose a document already on the site', name: 'existing', widget: 'select',
+  required: false, options: docChoices(),
+  hint: 'Reuse a document already uploaded. Prefer this over uploading another copy of the same file. If an upload is also set on this entry, the upload wins.',
+});
+
 /** image object: {src, alt, srcset?, pos?} — srcset/pos kept hidden so they round-trip */
 const image = (name = 'image', label = 'Image') => ({
   label, name, widget: 'object', required: false, collapsed: true,
@@ -107,9 +125,10 @@ const S = {
     fields: [anchorId(), ...head(), {
       label: 'Cards', name: 'cards', widget: 'list', label_singular: 'Card', collapsed: true,
       // destination shown for the same reason as the Documents list below
-      summary: '{{fields.title}}  →  {{fields.upload}}{{fields.href}}',
+      summary: '{{fields.title}}  →  {{fields.upload}}{{fields.existing}}{{fields.href}}',
       fields: [str('title', 'Title'), txt('text', 'Description'), str('href', 'Link'),
-        file('upload', 'Or attach a file (PDF etc.)', { hint: 'Optional. Upload or choose a document and the card opens it instead of the link above.' }),
+        existingDoc(),
+        file('upload', 'Or attach a new file (PDF etc.)', { hint: 'Optional. Upload a document not already on the site; the card then opens it instead of the link above. An upload takes precedence over the dropdown.' }),
         str('cta', 'Link text (e.g. View)'), bool('external', 'Links to another website'), image()],
     }],
   },
@@ -189,9 +208,9 @@ const S = {
         // alone, so a stale document was invisible and a replacement got added as a
         // new row beside the old one instead of replacing it. Only one of
         // upload/href is ever set, so concatenating them prints whichever applies.
-        summary: '{{fields.label}}  →  {{fields.upload}}{{fields.href}}',
-        fields: [str('label', 'Title'),
-          file('upload', 'File — upload or choose a document', { hint: 'Upload a new PDF/document, or pick an existing one from the library. To publish a newer version, change the file on THIS entry rather than adding another one below, or the old document stays on the page above the new one. This is used unless it is left empty.' }),
+        summary: '{{fields.label}}  →  {{fields.upload}}{{fields.existing}}{{fields.href}}',
+        fields: [str('label', 'Title'), existingDoc(),
+          file('upload', 'Or upload a new document', { hint: 'Only for a document not already on the site. To publish a newer version, change the file on THIS entry rather than adding another one below, or the old document stays on the page above the new one. An upload takes precedence over the dropdown above.' }),
           str('href', 'Or paste a web link instead', { hint: 'Only used when no file is chosen above — e.g. a document hosted on the NZQA or Ministry of Education site. Leave blank if you uploaded a file.' }),
           str('meta', 'Meta (e.g. PDF)')],
       }],
