@@ -398,9 +398,41 @@ const settings = {
       },
       {
         label: 'Main navigation', name: 'nav', widget: 'list', collapsed: true, label_singular: 'Menu item', summary: '{{fields.label}}',
-        fields: [str('label', 'Label'), str('href', 'Link (leave blank if it has a dropdown)'), {
-          label: 'Dropdown items', name: 'children', widget: 'list', required: false, collapsed: true, summary: '{{fields.label}}',
+        // Every top-level menu is a mega menu: its links live under column headings
+        // in `groups`, sometimes nested again in `subgroups`, with promo `cards` at
+        // the foot. None of that was modelled here, so all 31 links inside the big
+        // dropdowns were invisible in the editor and a request to rename one had
+        // nowhere to go. Shapes below mirror content/site.json exactly, and what the
+        // header partial renders (badge, external) is editable at both link levels.
+        fields: [str('label', 'Label'), str('href', 'Link (leave blank if it has a dropdown)'),
+          // layout flags for the big dropdowns — hidden so they survive a save
+          hidden('mega'), hidden('cols'), {
+          label: 'Dropdown items (simple menus)', name: 'children', widget: 'list', required: false, collapsed: true,
+          label_singular: 'Link', summary: '{{fields.label}}  \u2192  {{fields.href}}',
           fields: [str('label', 'Label'), str('href', 'Link'), bool('external', 'Links to another website')],
+        }, {
+          label: 'Dropdown columns (big menus)', name: 'groups', widget: 'list', required: false, collapsed: true,
+          label_singular: 'Column', summary: '{{fields.heading}}',
+          fields: [str('heading', 'Column heading'),
+            str('href', 'Link for the heading itself (optional)'), {
+              label: 'Links in this column', name: 'children', widget: 'list', required: false, collapsed: true,
+              label_singular: 'Link', summary: '{{fields.label}}  \u2192  {{fields.href}}',
+              fields: [str('label', 'Label'), str('href', 'Link'), str('badge', 'Badge (e.g. NEW)'),
+                bool('external', 'Links to another website')],
+            }, {
+              label: 'Sub-headed groups', name: 'subgroups', widget: 'list', required: false, collapsed: true,
+              label_singular: 'Sub-group', summary: '{{fields.subheading}}',
+              fields: [str('subheading', 'Sub-heading'), {
+                label: 'Links', name: 'items', widget: 'list', required: false, collapsed: true,
+                label_singular: 'Link', summary: '{{fields.label}}  \u2192  {{fields.href}}',
+                fields: [str('label', 'Label'), str('href', 'Link'), str('badge', 'Badge (e.g. NEW)'),
+                  bool('external', 'Links to another website')],
+              }],
+            }],
+        }, {
+          label: 'Promo cards at the foot of the menu', name: 'cards', widget: 'list', required: false, collapsed: true,
+          label_singular: 'Card', summary: '{{fields.label}}  \u2192  {{fields.href}}',
+          fields: [str('label', 'Label'), str('sub', 'Sub-text'), str('href', 'Link'), str('icon', 'Icon name')],
         }],
       },
       {
