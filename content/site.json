@@ -266,6 +266,11 @@
           ]
         }
       ]
+    },
+    {
+      "label": "Waharau",
+      "href": "https://waharau.co.nz/",
+      "external": true
     }
   ],
   "copyright": "© 2026 Rosehill College",
