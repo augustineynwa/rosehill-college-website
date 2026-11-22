@@ -808,7 +808,7 @@ collections:
                     widget: list
                     label_singular: Card
                     collapsed: true
-                    summary: '{{fields.title}}  →  {{fields.upload}}{{fields.href}}'
+                    summary: '{{fields.title}}  →  {{fields.upload}}{{fields.existing}}{{fields.href}}'
                     fields:
                       - label: Title
                         name: title
@@ -822,13 +822,129 @@ collections:
                         name: href
                         widget: string
                         required: false
-                      - label: Or attach a file (PDF etc.)
+                      - label: Choose a document already on the site
+                        name: existing
+                        widget: select
+                        required: false
+                        options:
+                          - label: 2026-end-of-t3-newsletter.pdf
+                            value: /assets/docs/2026-end-of-t3-newsletter.pdf
+                          - label: 2026-end-of-term-1-newsletter.pdf
+                            value: /assets/docs/2026-end-of-term-1-newsletter.pdf
+                          - label: 2026-student-handbook-6.8.26.pdf
+                            value: /assets/docs/2026-student-handbook-6.8.26.pdf
+                          - label: Allergens-List.pdf
+                            value: /assets/docs/Allergens-List.pdf
+                          - label: Alt-Ed-Info-Guide.pdf
+                            value: /assets/docs/Alt-Ed-Info-Guide.pdf
+                          - label: Attendance-Management-Plan.pdf
+                            value: /assets/docs/Attendance-Management-Plan.pdf
+                          - label: Canteen-Menu.pdf
+                            value: /assets/docs/Canteen-Menu.pdf
+                          - label: Course-Info-Year-10-2026.pdf
+                            value: /assets/docs/Course-Info-Year-10-2026.pdf
+                          - label: course-info-year-10-2027-final.pdf
+                            value: /assets/docs/course-info-year-10-2027-final.pdf
+                          - label: Course-Info-Year-10-2027.pdf
+                            value: /assets/docs/Course-Info-Year-10-2027.pdf
+                          - label: Course-Info-Year-11-2026.pdf
+                            value: /assets/docs/Course-Info-Year-11-2026.pdf
+                          - label: course-info-year-11-2027-final.pdf
+                            value: /assets/docs/course-info-year-11-2027-final.pdf
+                          - label: Course-Info-Year-11-2027.pdf
+                            value: /assets/docs/Course-Info-Year-11-2027.pdf
+                          - label: Course-Info-Year-9-2026.pdf
+                            value: /assets/docs/Course-Info-Year-9-2026.pdf
+                          - label: course-info-year-9-2027-final.pdf
+                            value: /assets/docs/course-info-year-9-2027-final.pdf
+                          - label: Course-Info-Year-9-2027.pdf
+                            value: /assets/docs/Course-Info-Year-9-2027.pdf
+                          - label: Diploma-Year-10-2026.pdf
+                            value: /assets/docs/Diploma-Year-10-2026.pdf
+                          - label: diploma-year-10-2027.pdf
+                            value: /assets/docs/diploma-year-10-2027.pdf
+                          - label: Diploma-Year-11-2026.pdf
+                            value: /assets/docs/Diploma-Year-11-2026.pdf
+                          - label: diploma-year-11-2027.pdf
+                            value: /assets/docs/diploma-year-11-2027.pdf
+                          - label: Diploma-Year-9-2026.pdf
+                            value: /assets/docs/Diploma-Year-9-2026.pdf
+                          - label: diploma-year-9-2027.pdf
+                            value: /assets/docs/diploma-year-9-2027.pdf
+                          - label: end-of-term-2-newsletter-2026.pdf
+                            value: /assets/docs/end-of-term-2-newsletter-2026.pdf
+                          - label: ncea-course-info-2027.pdf
+                            value: /assets/docs/ncea-course-info-2027.pdf
+                          - label: NCEA-Course-Information-2026.pdf
+                            value: /assets/docs/NCEA-Course-Information-2026.pdf
+                          - label: NCEA-Course-Information-2027.pdf
+                            value: /assets/docs/NCEA-Course-Information-2027.pdf
+                          - label: nz-police-vet-request-consent-form-2026_RosehillCollege.pdf
+                            value: /assets/docs/nz-police-vet-request-consent-form-2026_RosehillCollege.pdf
+                          - label: One-Term---International-Student-Fees-2026.pdf
+                            value: /assets/docs/One-Term---International-Student-Fees-2026.pdf
+                          - label: Privacy-Statement-Regarding-Student-Vaccinations.pdf
+                            value: /assets/docs/Privacy-Statement-Regarding-Student-Vaccinations.pdf
+                          - label: proposed-minor-amendment-rosehill-college.pdf
+                            value: /assets/docs/proposed-minor-amendment-rosehill-college.pdf
+                          - label: RH_Application-to-be-a-Homestay-forms__2026.pdf
+                            value: /assets/docs/RH_Application-to-be-a-Homestay-forms__2026.pdf
+                          - label: RH_Guidelines-for-hosting-an-international-student-homestays_2026.pdf
+                            value: /assets/docs/RH_Guidelines-for-hosting-an-international-student-homestays_2026.pdf
+                          - label: RH_homestay-Carer-Agreement-2026.pdf
+                            value: /assets/docs/RH_homestay-Carer-Agreement-2026.pdf
+                          - label: RH_Homestay-Information-for-Caregivers_2026.pdf
+                            value: /assets/docs/RH_Homestay-Information-for-Caregivers_2026.pdf
+                          - label: RH_Student-Handbook-Homestay_2026.pdf
+                            value: /assets/docs/RH_Student-Handbook-Homestay_2026.pdf
+                          - label: Rosehill-College_Homestay-Welcome-Letter_2026.pdf
+                            value: /assets/docs/Rosehill-College_Homestay-Welcome-Letter_2026.pdf
+                          - label: Rosehill-College-Annual-Plan-2025.pdf
+                            value: /assets/docs/Rosehill-College-Annual-Plan-2025.pdf
+                          - label: Rosehill-College-International-Fees-2027.pdf
+                            value: /assets/docs/Rosehill-College-International-Fees-2027.pdf
+                          - label: Rosehill-College-Prospectus-2026.pdf
+                            value: /assets/docs/Rosehill-College-Prospectus-2026.pdf
+                          - label: Rosehill-College-Site-Map.pdf
+                            value: /assets/docs/Rosehill-College-Site-Map.pdf
+                          - label: Rosehill-College-Strategic-Plan.pdf
+                            value: /assets/docs/Rosehill-College-Strategic-Plan.pdf
+                          - label: Rosehill-College-Yearbook-2024.pdf
+                            value: /assets/docs/Rosehill-College-Yearbook-2024.pdf
+                          - label: Rosehill-College-Yearbook-2025.pdf
+                            value: /assets/docs/Rosehill-College-Yearbook-2025.pdf
+                          - label: Rosehill-College-Yearbook-2026.pdf
+                            value: /assets/docs/Rosehill-College-Yearbook-2026.pdf
+                          - label: school-newsletter-julyaugust-edition-2026.pdf
+                            value: /assets/docs/school-newsletter-julyaugust-edition-2026.pdf
+                          - label: Standard---International-Student-Fees-2026.pdf
+                            value: /assets/docs/Standard---International-Student-Fees-2026.pdf
+                          - label: Start-of-Year-Letter-to-Parents-2026.pdf
+                            value: /assets/docs/Start-of-Year-Letter-to-Parents-2026.pdf
+                          - label: student-council-school-newsletter.pdf
+                            value: /assets/docs/student-council-school-newsletter.pdf
+                          - label: Student-Handbook.pdf
+                            value: /assets/docs/Student-Handbook.pdf
+                          - label: welcome-back-term-1-2026.pdf
+                            value: /assets/docs/welcome-back-term-1-2026.pdf
+                          - label: Year-10-Stationery-List.pdf
+                            value: /assets/docs/Year-10-Stationery-List.pdf
+                          - label: Year-11-Stationery-List.pdf
+                            value: /assets/docs/Year-11-Stationery-List.pdf
+                          - label: Year-12-Stationery-List.pdf
+                            value: /assets/docs/Year-12-Stationery-List.pdf
+                          - label: Year-13-Stationery-List.pdf
+                            value: /assets/docs/Year-13-Stationery-List.pdf
+                          - label: Year-9-Stationery-List.pdf
+                            value: /assets/docs/Year-9-Stationery-List.pdf
+                        hint: Reuse a document already uploaded. Prefer this over uploading another copy of the same file. If an upload is also set on this entry, the upload wins.
+                      - label: Or attach a new file (PDF etc.)
                         name: upload
                         widget: file
                         required: false
                         media_folder: /public/assets/docs
                         public_folder: /assets/docs
-                        hint: Optional. Upload or choose a document and the card opens it instead of the link above.
+                        hint: Optional. Upload a document not already on the site; the card then opens it instead of the link above. An upload takes precedence over the dropdown.
                       - label: Link text (e.g. View)
                         name: cta
                         widget: string
@@ -1298,19 +1414,135 @@ collections:
                     widget: list
                     label_singular: Document
                     collapsed: true
-                    summary: '{{fields.label}}  →  {{fields.upload}}{{fields.href}}'
+                    summary: '{{fields.label}}  →  {{fields.upload}}{{fields.existing}}{{fields.href}}'
                     fields:
                       - label: Title
                         name: label
                         widget: string
                         required: false
-                      - label: File — upload or choose a document
+                      - label: Choose a document already on the site
+                        name: existing
+                        widget: select
+                        required: false
+                        options:
+                          - label: 2026-end-of-t3-newsletter.pdf
+                            value: /assets/docs/2026-end-of-t3-newsletter.pdf
+                          - label: 2026-end-of-term-1-newsletter.pdf
+                            value: /assets/docs/2026-end-of-term-1-newsletter.pdf
+                          - label: 2026-student-handbook-6.8.26.pdf
+                            value: /assets/docs/2026-student-handbook-6.8.26.pdf
+                          - label: Allergens-List.pdf
+                            value: /assets/docs/Allergens-List.pdf
+                          - label: Alt-Ed-Info-Guide.pdf
+                            value: /assets/docs/Alt-Ed-Info-Guide.pdf
+                          - label: Attendance-Management-Plan.pdf
+                            value: /assets/docs/Attendance-Management-Plan.pdf
+                          - label: Canteen-Menu.pdf
+                            value: /assets/docs/Canteen-Menu.pdf
+                          - label: Course-Info-Year-10-2026.pdf
+                            value: /assets/docs/Course-Info-Year-10-2026.pdf
+                          - label: course-info-year-10-2027-final.pdf
+                            value: /assets/docs/course-info-year-10-2027-final.pdf
+                          - label: Course-Info-Year-10-2027.pdf
+                            value: /assets/docs/Course-Info-Year-10-2027.pdf
+                          - label: Course-Info-Year-11-2026.pdf
+                            value: /assets/docs/Course-Info-Year-11-2026.pdf
+                          - label: course-info-year-11-2027-final.pdf
+                            value: /assets/docs/course-info-year-11-2027-final.pdf
+                          - label: Course-Info-Year-11-2027.pdf
+                            value: /assets/docs/Course-Info-Year-11-2027.pdf
+                          - label: Course-Info-Year-9-2026.pdf
+                            value: /assets/docs/Course-Info-Year-9-2026.pdf
+                          - label: course-info-year-9-2027-final.pdf
+                            value: /assets/docs/course-info-year-9-2027-final.pdf
+                          - label: Course-Info-Year-9-2027.pdf
+                            value: /assets/docs/Course-Info-Year-9-2027.pdf
+                          - label: Diploma-Year-10-2026.pdf
+                            value: /assets/docs/Diploma-Year-10-2026.pdf
+                          - label: diploma-year-10-2027.pdf
+                            value: /assets/docs/diploma-year-10-2027.pdf
+                          - label: Diploma-Year-11-2026.pdf
+                            value: /assets/docs/Diploma-Year-11-2026.pdf
+                          - label: diploma-year-11-2027.pdf
+                            value: /assets/docs/diploma-year-11-2027.pdf
+                          - label: Diploma-Year-9-2026.pdf
+                            value: /assets/docs/Diploma-Year-9-2026.pdf
+                          - label: diploma-year-9-2027.pdf
+                            value: /assets/docs/diploma-year-9-2027.pdf
+                          - label: end-of-term-2-newsletter-2026.pdf
+                            value: /assets/docs/end-of-term-2-newsletter-2026.pdf
+                          - label: ncea-course-info-2027.pdf
+                            value: /assets/docs/ncea-course-info-2027.pdf
+                          - label: NCEA-Course-Information-2026.pdf
+                            value: /assets/docs/NCEA-Course-Information-2026.pdf
+                          - label: NCEA-Course-Information-2027.pdf
+                            value: /assets/docs/NCEA-Course-Information-2027.pdf
+                          - label: nz-police-vet-request-consent-form-2026_RosehillCollege.pdf
+                            value: /assets/docs/nz-police-vet-request-consent-form-2026_RosehillCollege.pdf
+                          - label: One-Term---International-Student-Fees-2026.pdf
+                            value: /assets/docs/One-Term---International-Student-Fees-2026.pdf
+                          - label: Privacy-Statement-Regarding-Student-Vaccinations.pdf
+                            value: /assets/docs/Privacy-Statement-Regarding-Student-Vaccinations.pdf
+                          - label: proposed-minor-amendment-rosehill-college.pdf
+                            value: /assets/docs/proposed-minor-amendment-rosehill-college.pdf
+                          - label: RH_Application-to-be-a-Homestay-forms__2026.pdf
+                            value: /assets/docs/RH_Application-to-be-a-Homestay-forms__2026.pdf
+                          - label: RH_Guidelines-for-hosting-an-international-student-homestays_2026.pdf
+                            value: /assets/docs/RH_Guidelines-for-hosting-an-international-student-homestays_2026.pdf
+                          - label: RH_homestay-Carer-Agreement-2026.pdf
+                            value: /assets/docs/RH_homestay-Carer-Agreement-2026.pdf
+                          - label: RH_Homestay-Information-for-Caregivers_2026.pdf
+                            value: /assets/docs/RH_Homestay-Information-for-Caregivers_2026.pdf
+                          - label: RH_Student-Handbook-Homestay_2026.pdf
+                            value: /assets/docs/RH_Student-Handbook-Homestay_2026.pdf
+                          - label: Rosehill-College_Homestay-Welcome-Letter_2026.pdf
+                            value: /assets/docs/Rosehill-College_Homestay-Welcome-Letter_2026.pdf
+                          - label: Rosehill-College-Annual-Plan-2025.pdf
+                            value: /assets/docs/Rosehill-College-Annual-Plan-2025.pdf
+                          - label: Rosehill-College-International-Fees-2027.pdf
+                            value: /assets/docs/Rosehill-College-International-Fees-2027.pdf
+                          - label: Rosehill-College-Prospectus-2026.pdf
+                            value: /assets/docs/Rosehill-College-Prospectus-2026.pdf
+                          - label: Rosehill-College-Site-Map.pdf
+                            value: /assets/docs/Rosehill-College-Site-Map.pdf
+                          - label: Rosehill-College-Strategic-Plan.pdf
+                            value: /assets/docs/Rosehill-College-Strategic-Plan.pdf
+                          - label: Rosehill-College-Yearbook-2024.pdf
+                            value: /assets/docs/Rosehill-College-Yearbook-2024.pdf
+                          - label: Rosehill-College-Yearbook-2025.pdf
+                            value: /assets/docs/Rosehill-College-Yearbook-2025.pdf
+                          - label: Rosehill-College-Yearbook-2026.pdf
+                            value: /assets/docs/Rosehill-College-Yearbook-2026.pdf
+                          - label: school-newsletter-julyaugust-edition-2026.pdf
+                            value: /assets/docs/school-newsletter-julyaugust-edition-2026.pdf
+                          - label: Standard---International-Student-Fees-2026.pdf
+                            value: /assets/docs/Standard---International-Student-Fees-2026.pdf
+                          - label: Start-of-Year-Letter-to-Parents-2026.pdf
+                            value: /assets/docs/Start-of-Year-Letter-to-Parents-2026.pdf
+                          - label: student-council-school-newsletter.pdf
+                            value: /assets/docs/student-council-school-newsletter.pdf
+                          - label: Student-Handbook.pdf
+                            value: /assets/docs/Student-Handbook.pdf
+                          - label: welcome-back-term-1-2026.pdf
+                            value: /assets/docs/welcome-back-term-1-2026.pdf
+                          - label: Year-10-Stationery-List.pdf
+                            value: /assets/docs/Year-10-Stationery-List.pdf
+                          - label: Year-11-Stationery-List.pdf
+                            value: /assets/docs/Year-11-Stationery-List.pdf
+                          - label: Year-12-Stationery-List.pdf
+                            value: /assets/docs/Year-12-Stationery-List.pdf
+                          - label: Year-13-Stationery-List.pdf
+                            value: /assets/docs/Year-13-Stationery-List.pdf
+                          - label: Year-9-Stationery-List.pdf
+                            value: /assets/docs/Year-9-Stationery-List.pdf
+                        hint: Reuse a document already uploaded. Prefer this over uploading another copy of the same file. If an upload is also set on this entry, the upload wins.
+                      - label: Or upload a new document
                         name: upload
                         widget: file
                         required: false
                         media_folder: /public/assets/docs
                         public_folder: /assets/docs
-                        hint: Upload a new PDF/document, or pick an existing one from the library. To publish a newer version, change the file on THIS entry rather than adding another one below, or the old document stays on the page above the new one. This is used unless it is left empty.
+                        hint: Only for a document not already on the site. To publish a newer version, change the file on THIS entry rather than adding another one below, or the old document stays on the page above the new one. An upload takes precedence over the dropdown above.
                       - label: Or paste a web link instead
                         name: href
                         widget: string

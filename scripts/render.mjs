@@ -184,14 +184,27 @@ function sectionText(sec) {
 
 let count = 0;
 
-// Document-download and link-card items can attach an uploaded file (CMS `file`
-// widget) instead of typing a link. The widget stores the public path, so an
-// attached file simply becomes the href — while a plain `href` (e.g. an external
-// NZQA/Ministry URL) still works when no file is attached.
+// Document-download and link-card items can point somewhere in three ways, in
+// descending precedence:
+//   upload   — a file attached through the CMS file widget
+//   existing — a document already in public/assets/docs, picked from a dropdown
+//   href     — a typed link: an external site, an internal page, or a document path
+// Each stores a public path or URL, so whichever applies simply becomes the href.
+// `existing` exists because Decap's file picker cannot browse the docs folder, so
+// without it the only way to attach a document was to upload a second copy.
+// Setting more than one is legal but ambiguous, so say so in the build log rather
+// than let the quiet winner surprise whoever set the other field.
 function applyUploads(sections) {
   for (const sec of sections || []) {
     for (const item of [...(sec.docs || []), ...(sec.cards || [])]) {
-      if (item && item.upload) item.href = item.upload;
+      if (!item) continue;
+      const set = ['upload', 'existing', 'href'].filter((k) => item[k]);
+      if (set.length > 1) {
+        const name = item.label || item.title || '(untitled)';
+        console.warn(`  ! "${name}" sets ${set.join(' and ')} — using ${set[0]} (${item[set[0]]})`);
+      }
+      if (item.upload) item.href = item.upload;
+      else if (item.existing) item.href = item.existing;
     }
   }
 }
