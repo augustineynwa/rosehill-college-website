@@ -68,7 +68,7 @@
             {{/each}}
           </ul>
           {{else}}
-          <a href="/{{href}}" class="site-nav__link" {{#if (eq href @root.path)}}aria-current="page"{{/if}}>{{label}}</a>
+          <a href="{{#unless external}}/{{/unless}}{{href}}" class="site-nav__link" {{#if external}}rel="external"{{/if}} {{#if (eq href @root.path)}}aria-current="page"{{/if}}>{{label}}</a>
           {{/if}}
         </li>
         {{/each}}
@@ -159,7 +159,7 @@
         </ul>
       </details>
       {{else}}
-      <a href="/{{href}}" class="mobile-menu__top-link">{{label}}</a>
+      <a href="{{#unless external}}/{{/unless}}{{href}}" class="mobile-menu__top-link" {{#if external}}rel="external"{{/if}}>{{label}}</a>
       {{/if}}
       {{/each}}
       <a href="/contact-us.html" class="mobile-menu__top-link">Contact Us</a>
