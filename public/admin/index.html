@@ -9,7 +9,21 @@
 </head>
 <body>
   <!-- Decap CMS: content editor for staff. Reads/writes content/**.json -->
-  <script src="https://unpkg.com/decap-cms@^3.3.3/dist/decap-cms.js"></script>
+  <!-- Pinned deliberately. `@^3.3.3` resolved to whatever the newest 3.x happened to
+       be, so the editor staff use could change under them with no change here and no
+       testing. When this was pinned it was already serving 3.18.0, fifteen minor
+       versions ahead of the number written in the URL.
+
+       The integrity hash is the SHA-384 of that exact build, so a different payload
+       from the CDN fails closed instead of running.
+
+       To upgrade: change the version, recompute the hash with
+         curl -sL <url> | openssl dgst -sha384 -binary | openssl base64 -A
+       and load /admin locally (npx decap-server, plus a static server over public/)
+       to confirm the editor still boots before shipping. -->
+  <script src="https://unpkg.com/decap-cms@3.18.0/dist/decap-cms.js"
+          integrity="sha384-Vu0vdYOBhK+2KywHCtNZ9sCqpzkwx358AT6pCSg8om/clLoDzpWYF41jrtEk/WMM"
+          crossorigin="anonymous"></script>
   <script>
     // Friendlier labels than the defaults for a school audience
     window.CMS_MANUAL_INIT = false;
