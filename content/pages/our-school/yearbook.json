@@ -23,9 +23,10 @@
       "lede": "This year’s yearbook, free to read online or download a copy to keep. Order your hard copy from the Student Office or purchase online.",
       "docs": [
         {
-          "href": "assets/docs/Rosehill-College-Yearbook-2026.pdf",
+          "href": "",
           "label": "Rosehill College Yearbook 2026",
-          "meta": "PDF, 56 pages, 14.5 MB"
+          "meta": "PDF, 56 pages, 24.5 MB",
+          "upload": "/assets/docs/rhc-yearbook-2026.pdf"
         }
       ]
     },
